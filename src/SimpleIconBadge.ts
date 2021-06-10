@@ -2,6 +2,20 @@ import { BadgeStyle } from "./BadgeStyle.js";
 import { LifecycleCallbacks } from "./LifecycleCallbacks.js";
 import { SimpleIcons, icons } from './simple-icons.g.js'
 
+function isLight(r: number, g: number, b: number): boolean {
+    [r, g, b] = [r, g, b].map(c => {
+        c = c / 255.0;
+        if (c <= 0.03928) {
+            return c / 12.92;
+        }
+        return Math.pow((c + 0.055) / 1.055, 2.4);
+    });
+    return (0.2126 * r + 0.7152 * g + 0.0722 * b) > Math.sqrt(1.05 * 0.05) - 0.05;
+}
+
+/**
+ * Visualize a simple icon.
+ */
 export class SimpleIconBadge extends HTMLElement implements LifecycleCallbacks {
     private readonly img: HTMLImageElement;
 
@@ -18,38 +32,26 @@ export class SimpleIconBadge extends HTMLElement implements LifecycleCallbacks {
         this.setSrc();
     }
 
+    /**
+     * Set the Shield.io source.
+     */
     private setSrc(): void {
         if (this.logo) {
             const srcPath: string[] = [];
             const icon = icons[this.logo];
             srcPath.push(
-                "label=" + encodeURIComponent(icon.title),
+                "label=",
+                "message=" + encodeURIComponent(icon.title),
                 "logo=" + encodeURIComponent(this.logo)
             );
-            let logoAndLabelColor: "FFFFFF" | "000000" = "FFFFFF";
-            {
-                const iconColor = [
-                    parseInt(icon.hex.substr(0, 2), 16),
-                    parseInt(icon.hex.substr(2, 2), 16),
-                    parseInt(icon.hex.substr(4, 2), 16)
-                ].map(c => {
-                    c = c / 255.0;
-                    if (c <= 0.03928) {
-                        return c / 12.92;
-                    } else {
-                        return Math.pow((c + 0.055) / 1.055, 2.4);
-                    }
-                });
-                const L = 0.2126 * iconColor[0] + 0.7152 * iconColor[1] + 0.0722 * iconColor[2];
-                if (L > Math.sqrt(1.05 * 0.05) - 0.05) {
-                    logoAndLabelColor = "000000";
-                }
-            }
             if (this.badgeStyle !== BadgeStyle.Social) {
                 srcPath.push(
                     "color=" + encodeURIComponent(icon.hex),
-                    "logoColor=" + logoAndLabelColor,
-                    "labelColor="  + logoAndLabelColor
+                    "logoColor=" + (isLight(
+                        parseInt(icon.hex.substr(0, 2), 16),
+                        parseInt(icon.hex.substr(2, 2), 16),
+                        parseInt(icon.hex.substr(4, 2), 16)
+                    ) ? "000000" : "FFFFFF")
                 );
             }
             if (this.badgeStyle) {
@@ -71,7 +73,7 @@ export class SimpleIconBadge extends HTMLElement implements LifecycleCallbacks {
     /**
      * Gets the observable attributes common to all Shield IO badges.
      */
-    public static get baseObservedAttributes(): string[] {
+    public static get observedAttributes(): string[] {
         return ["logo", "badgestyle"];
     }
 
