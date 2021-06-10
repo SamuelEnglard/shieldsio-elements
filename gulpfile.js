@@ -36,11 +36,11 @@ gulp.task("generate", async function () {
     const varCodeWriter = new CodeBlockWriter();
     varCodeWriter.block(() => {
         for (const icon of iconsData.icons) {
-            const memberName = (icon.slug || icon.title).replace(/[\s_-](\w)/g, /** @param p1 {String} */function (match, p1) {
+            const memberName = (icon.slug || icon.title).replace(/[\s_\-\.](\w)/g, /** @param p1 {String} */function (match, p1) {
                 return p1.toUpperCase();
             }).replace(/\W/g, "_").replace(/^\w/g, /** @param match {String} */function (match) {
                 return match.toUpperCase();
-            }).replace(/^[^a-zA-Z]/g, "_$&");
+            }).replace(/^[^a-zA-Z_]/g, "_$&");
             const memberValue = (icon.slug || icon.title).replace(/\s/g, "-");
             enumMembers.push({
                 name: memberName,
@@ -114,7 +114,12 @@ gulp.task("generate", async function () {
             }
         ],
         declarationKind: VariableDeclarationKind.Const,
-        isExported: true
+        isExported: true,
+        docs: [
+            {
+                description: "Information about the simple icons."
+            }
+        ]
     })
     await generatedProject.save();
 });
