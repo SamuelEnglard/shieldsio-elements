@@ -18,7 +18,7 @@ specifiers:
   terser: 5.7.0
   ts-morph: 11.0.0
   typedoc: 0.20.36
-  typescript: 4.3.2
+  typescript: 4.2.4
 
 devDependencies:
   '@types/simple-icons': 5.0.0
@@ -30,15 +30,15 @@ devDependencies:
   gulp-sourcemaps: 3.0.0
   gulp-terser: 2.0.1
   gulp-typedoc: 3.0.1_typedoc@0.20.36
-  gulp-typescript: 6.0.0-alpha.1_typescript@4.3.2
+  gulp-typescript: 6.0.0-alpha.1_typescript@4.2.4
   jsdom: 16.6.0
   merge2: 1.4.1
   rimraf: 3.0.2
   simple-icons: 5.1.0
   terser: 5.7.0
   ts-morph: 11.0.0
-  typedoc: 0.20.36_typescript@4.3.2
-  typescript: 4.3.2
+  typedoc: 0.20.36_typescript@4.2.4
+  typescript: 4.2.4
 
 packages:
 
@@ -1275,10 +1275,10 @@ packages:
       fancy-log: 1.3.3
       plugin-error: 1.0.1
       semver: 7.3.5
-      typedoc: 0.20.36_typescript@4.3.2
+      typedoc: 0.20.36_typescript@4.2.4
     dev: true
 
-  /gulp-typescript/6.0.0-alpha.1_typescript@4.3.2:
+  /gulp-typescript/6.0.0-alpha.1_typescript@4.2.4:
     resolution: {integrity: sha512-KoT0TTfjfT7w3JItHkgFH1T/zK4oXWC+a8xxKfniRfVcA0Fa1bKrIhztYelYmb+95RB80OLMBreknYkdwzdi2Q==}
     engines: {node: '>= 8'}
     peerDependencies:
@@ -1288,7 +1288,7 @@ packages:
       plugin-error: 1.0.1
       source-map: 0.7.3
       through2: 3.0.2
-      typescript: 4.3.2
+      typescript: 4.2.4
       vinyl: 2.2.1
       vinyl-fs: 3.0.3
     dev: true
@@ -2926,7 +2926,7 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
-  /typedoc/0.20.36_typescript@4.3.2:
+  /typedoc/0.20.36_typescript@4.2.4:
     resolution: {integrity: sha512-qFU+DWMV/hifQ9ZAlTjdFO9wbUIHuUBpNXzv68ZyURAP9pInjZiO4+jCPeAzHVcaBCHER9WL/+YzzTt6ZlN/Nw==}
     engines: {node: '>= 10.8.0'}
     hasBin: true
@@ -2944,11 +2944,11 @@ packages:
       shelljs: 0.8.4
       shiki: 0.9.3
       typedoc-default-themes: 0.12.10
-      typescript: 4.3.2
+      typescript: 4.2.4
     dev: true
 
-  /typescript/4.3.2:
-    resolution: {integrity: sha512-zZ4hShnmnoVnAHpVHWpTcxdv7dWP60S2FsydQLV8V5PbS3FifjWFFRiHSWpDJahly88PRyV5teTSLoq4eG7mKw==}
+  /typescript/4.2.4:
+    resolution: {integrity: sha512-V+evlYHZnQkaz8TRBuxTA92yZBPotr5H+WhQ7bD3hZUndx5tGOa1fuCgeSjxAzM1RiN5IzvadIXTVefuuwZCRg==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
