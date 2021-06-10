@@ -135,7 +135,6 @@ gulp.task("docs", function () {
 });
 
 gulp.task("ts-build", function () {
-    pj.version
     const tsProject = ts.createProject("tsconfig.json");
     const result = tsProject.src().
         pipe(sourcemaps.init()).
