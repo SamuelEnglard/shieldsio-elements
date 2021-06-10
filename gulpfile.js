@@ -9,6 +9,11 @@ import typedoc from 'gulp-typedoc'
 import fsa from 'fs/promises'
 import rewriteImports from 'gulp-rewrite-imports'
 import path from 'path'
+import * as TsMorph from 'ts-morph'
+const MorphProject = TsMorph.Project;
+const StructureKind = TsMorph.StructureKind;
+const CodeBlockWriter = TsMorph.CodeBlockWriter;
+const VariableDeclarationKind = TsMorph.VariableDeclarationKind;
 
 /** @type {{version:string}} */
 const pj = await fsa.readFile("package.json").then(jsonString => JSON.parse(jsonString));
@@ -19,6 +24,100 @@ for (const srcFile of await fsa.readdir("src/")) {
     const name = path.basename(srcFile, ".ts");
     importMappings["./" + name + ".js"] = unpkgRoot + name + ".min.js";
 }
+
+gulp.task("generate", async function () {
+    /** @type {{icons:{slug?:string,title:string,source:string,hex:string}[]}} */
+    const iconsData = await fsa.readFile("node_modules/simple-icons/_data/simple-icons.json").then(jsonString => JSON.parse(jsonString));
+    const generatedProject = new MorphProject();
+    const simpleIconsFile = generatedProject.createSourceFile("src/simple-icons.g.ts", null, {
+        overwrite: true
+    });
+    const enumMembers = [];
+    const varCodeWriter = new CodeBlockWriter();
+    varCodeWriter.block(() => {
+        for (const icon of iconsData.icons) {
+            const memberName = (icon.slug || icon.title).replace(/[\s_-](\w)/g, /** @param p1 {String} */function (match, p1) {
+                return p1.toUpperCase();
+            }).replace(/\W/g, "_").replace(/^\w/g, /** @param match {String} */function (match) {
+                return match.toUpperCase();
+            }).replace(/^[^a-zA-Z]/g, "_$&");
+            const memberValue = (icon.slug || icon.title).replace(/\s/g, "-");
+            enumMembers.push({
+                name: memberName,
+                value: memberValue,
+                docs: [
+                    {
+                        description: icon.title,
+                        tags: [
+                            {
+                                tagName: "see",
+                                text: icon.source
+                            }
+                        ]
+                    }
+                ]
+            });
+            varCodeWriter.write("[SimpleIcons.").write(memberName).write("]:").block(() => {
+                varCodeWriter.write("hex:").quote(icon.hex).write(",").
+                write("title:").quote(icon.title).write(",").
+                write("source:").quote(icon.source).write(",");
+                if (icon.slug) {
+                    varCodeWriter.write("slug:").quote(icon.slug);
+                }
+            }).write(",");
+        }
+    });
+    const simpleIconsEnum = simpleIconsFile.addEnum({
+        name: "SimpleIcons",
+        isExported: true,
+        kind: StructureKind.Enum,
+        docs: [
+            {
+                description: "Simple Icon Names"
+            }
+        ],
+        members: enumMembers
+    });
+    const iconsInterface = simpleIconsFile.addInterface({
+        name: "SimpleIcon",
+        isExported: true,
+        properties: [
+            {
+                name: "title",
+                isReadonly: true,
+                type: "string"
+            },
+            {
+                name: "source",
+                isReadonly: true,
+                type: "string"
+            },
+            {
+                name: "slug",
+                isReadonly: true,
+                type: "string",
+                hasQuestionToken: true
+            },
+            {
+                name: "hex",
+                isReadonly: true,
+                type: "string"
+            }
+        ]
+    });
+    simpleIconsFile.addVariableStatement({
+        declarations: [
+            {
+                initializer: varCodeWriter.toString(),
+                name: "icons",
+                type: "{[k: string]:" + iconsInterface.getName() + "}"
+            }
+        ],
+        declarationKind: VariableDeclarationKind.Const,
+        isExported: true
+    })
+    await generatedProject.save();
+});
 
 gulp.task("docs", function () {
     return gulp.src("src/index.ts").pipe(typedoc({
