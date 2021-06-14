@@ -1,6 +1,6 @@
 import { BadgeStyle } from "./BadgeStyle.js";
 import { LifecycleCallbacks } from "./LifecycleCallbacks.js";
-import { SimpleIcons, icons } from './simple-icons.g.js'
+import { SimpleIcons, icons, SimpleIcon } from './simple-icons.g.js'
 
 function isLight(r: number, g: number, b: number): boolean {
     [r, g, b] = [r, g, b].map(c => {
@@ -36,9 +36,9 @@ export class SimpleIconBadge extends HTMLElement implements LifecycleCallbacks {
      * Set the Shield.io source.
      */
     private setSrc(): void {
-        if (this.logo) {
+        let icon: SimpleIcon | null = null;
+        if (this.logo && (icon = icons[this.logo])) {
             const srcPath: string[] = [];
-            const icon = icons[this.logo];
             srcPath.push(
                 "label=",
                 "message=" + encodeURIComponent(icon.title),
