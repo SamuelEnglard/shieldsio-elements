@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/github/license/samuelenglard/shieldsio-elements)
 ![Type Definitions](https://img.shields.io/npm/types/shieldsio-elements)
 
-Custom HTML Elements and helpers for Shields.io
+Custom HTML Elements and helpers for [Shields.io](https://shields.io/) Badges.
 
 ## `shieldio-badge-dynamic` element
 
