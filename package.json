@@ -5,7 +5,7 @@
         "url": "https://shmuelie.englard.net"
     },
     "bugs": {
-        "url": "https://github.com/SamuelEnglard/shieldsio-elements/issues"
+        "url": "https://github.com/shmuelie/shieldsio-elements/issues"
     },
     "description": "Custom HTML Elements and helpers for Shields.io",
     "devDependencies": {
@@ -29,14 +29,14 @@
 		"@types/simple-icons": "5.0.0",
         "http-server": "0.12.3"
     },
-    "homepage": "https://samuelenglard.github.io/shieldsio-elements/",
+    "homepage": "https://shmuelie.github.io/shieldsio-elements/",
     "license": "MIT",
     "main": "./dist/index.min.js",
     "name": "shieldsio-elements",
     "private": false,
     "repository": {
         "type": "git",
-        "url": "https://github.com/SamuelEnglard/shieldsio-elements.git"
+        "url": "https://github.com/shmuelie/shieldsio-elements.git"
     },
     "scripts": {
         "build": "gulp build",
