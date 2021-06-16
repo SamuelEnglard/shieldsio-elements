@@ -85,7 +85,7 @@ export abstract class ShieldIOBadge extends HTMLElement implements LifecycleCall
     }
 
     /**
-     * Gets the left-hand-side text if overwriten; otherwise null.
+     * Gets the left-hand-side text if overwritten; otherwise null.
      */
      public get label() : string | null {
         return this.getAttribute("label");
