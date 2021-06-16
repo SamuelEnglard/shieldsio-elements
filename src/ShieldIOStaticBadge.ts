@@ -3,6 +3,12 @@ import { ShieldIOBadge } from './ShieldIOBadge.js'
 /**
  * Shield IO Static Badge
  *
+ * @example
+ *
+ * ```html
+ * <shieldio-badge label="Label" message="message" color="green"></shieldio-badge>
+ * ```
+ *
  * @see {@link https://shields.io/}
  */
  export class ShieldIOStaticBadge extends ShieldIOBadge {

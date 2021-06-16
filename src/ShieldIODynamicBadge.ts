@@ -12,6 +12,12 @@ export enum DynamicDataType {
 /**
  * Shield IO Dynamic Badge
  *
+ * @example
+ *
+ * ```html
+ * <shieldio-badge-dynamic datatype="xml" dataurl="https://raw.githubusercontent.com/PH16-Productions/tv.ph16.paperplugin/main/pom.xml" label="Java Version" dataquery="//*[local-name() = 'java.version']"></shieldio-badge-dynamic>
+ * ```
+ *
  * @see {@link https://shields.io/}
  */
 export class ShieldIODynamicBadge extends ShieldIOBadge {

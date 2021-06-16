@@ -15,6 +15,12 @@ function isLight(r: number, g: number, b: number): boolean {
 
 /**
  * Visualize a simple icon.
+ *
+ * @example
+ *
+ * ```html
+ * <simpleicon-badge logo="GitHub"></simpleicon-badge>
+ * ```
  */
 export class SimpleIconBadge extends HTMLElement implements LifecycleCallbacks {
     private readonly img: HTMLImageElement;
