@@ -1,7 +1,7 @@
 import gulp from 'gulp'
 import merge from 'merge2'
 import rename from 'gulp-rename'
-import rimraf from 'rimraf'
+import { rimraf } from 'rimraf'
 import sourcemaps from 'gulp-sourcemaps'
 import terser from 'gulp-terser'
 import ts from 'gulp-typescript'
@@ -164,7 +164,7 @@ gulp.task("minify", function () {
 });
 
 gulp.task("clean", async function () {
-    rimraf("dist/*.*", function ()  {});
+    return rimraf("dist/*.*", { glob: true});
 });
 
 gulp.task("build", gulp.series(["clean", "ts-build", "minify"]));

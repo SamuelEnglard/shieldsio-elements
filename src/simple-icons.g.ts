@@ -1,43 +1,98 @@
 /** Simple Icon Names */
 export enum SimpleIcons {
     /**
+     * .ENV
+     * @see https://github.com/motdotla/dotenv/blob/40e75440337d1de2345dc8326d6108331f583fd8/dotenv.svg
+     */
+    ENV = ".ENV",
+    /**
      * .NET
-     * @see https://github.com/dotnet/brand/
+     * @see https://github.com/dotnet/brand/blob/defe0408e765b48223a434a0d9a94213edc062f8/logo/dotnet-logo.svg
      */
     NET = ".NET",
     /**
+     * /e/
+     * @see https://doc.e.foundation
+     */
+    _e_ = "/e/",
+    /**
+     * 1.1.1.1
+     * @see https://one.one.one.one
+     */
+    _1111 = "1.1.1.1",
+    /**
      * 1001Tracklists
-     * @see https://www.1001tracklists.com/
+     * @see https://www.1001tracklists.com
      */
     _1001Tracklists = "1001Tracklists",
     /**
+     * 1Panel
+     * @see https://1panel.cn
+     */
+    _1Panel = "1Panel",
+    /**
      * 1Password
-     * @see https://1password.com/press/
+     * @see https://1password.com/press
      */
     _1Password = "1Password",
     /**
+     * 2FAS
+     * @see https://2fas.com/press-kit
+     */
+    _2FAS = "2FAS",
+    /**
+     * 2K
+     * @see https://support.2k.com/hc/en-us/articles/203972113-Digital-Copies-of-2K-Manuals
+     */
+    _2K = "2K",
+    /**
+     * 365 Data Science
+     * @see https://365datascience.com
+     */
+    _365DataScience = "365-Data-Science",
+    /**
      * 3M
-     * @see https://www.3m.com/
+     * @see https://www.3m.com
      */
     _3M = "3M",
     /**
      * 42
-     * @see https://www.42.fr/
+     * @see https://www.42network.org
      */
     _42 = "42",
     /**
+     * 4chan
+     * @see https://www.4chan.org
+     */
+    _4chan = "4chan",
+    /**
      * 4D
-     * @see https://www.4d.com/
+     * @see https://www.4d.com
      */
     _4D = "4D",
     /**
      * 500px
-     * @see https://about.500px.com/press
+     * @see https://500px.com
      */
     _500px = "500px",
     /**
+     * 7Zip
+     * @see https://commons.wikimedia.org/wiki/File:7ziplogo.svg
+     */
+    _7Zip = "7Zip",
+    /**
+     * 99designs
+     * @see https://99designs.com/branding
+     */
+    _99designs = "99designs",
+    /**
+     * 9GAG
+     * @see https://commons.wikimedia.org/wiki/File:9gag_logo.svg
+     */
+    _9GAG = "9GAG",
+    /**
      * A-Frame
-     * @see https://aframe.io/docs/
+     * @see https://aframe.io/docs
      */
     AFrame = "A-Frame",
     /**
@@ -46,15 +101,15 @@ export enum SimpleIcons {
      */
     ABBRobotStudio = "ABB-RobotStudio",
     /**
+     * Abbott
+     * @see https://commons.wikimedia.org/wiki/File:Logo_Abbott_Laboratories.svg
+     */
+    Abbott = "Abbott",
+    /**
      * Abbvie
-     * @see https://www.abbvie.com/
+     * @see https://www.abbvie.com
      */
     Abbvie = "Abbvie",
-    /**
-     * Ableton Live
-     * @see https://www.ableton.com/en/legal/branding-trademark-guidelines/
-     */
-    AbletonLive = "Ableton-Live",
     /**
      * About.me
      * @see https://about.me/assets
@@ -62,152 +117,197 @@ export enum SimpleIcons {
     AboutMe = "About.me",
     /**
      * Abstract
-     * @see https://www.abstract.com/about/
+     * @see https://www.abstract.com/about
      */
     Abstract = "Abstract",
     /**
+     * abuse.ch
+     * @see https://abuse.ch
+     */
+    AbuseCh = "abuse.ch",
+    /**
      * Academia
-     * @see https://www.academia.edu/
+     * @see https://www.academia.edu
      */
     Academia = "Academia",
     /**
      * Accenture
-     * @see https://www.accenture.com/
+     * @see https://www.accenture.com
      */
     Accenture = "Accenture",
     /**
-     * Acclaim
-     * @see https://www.youracclaim.com/
-     */
-    Acclaim = "Acclaim",
-    /**
      * Accusoft
-     * @see https://company-39138.frontify.com/d/7EKFm12NQSa8/accusoft-corporation-style-guide#/style-guide/logo
+     * @see https://www.accusoft.com
      */
     Accusoft = "Accusoft",
     /**
      * Acer
-     * @see https://www.acer.com/ac/en/GB/content/home
+     * @see https://www.acer.com
      */
     Acer = "Acer",
     /**
      * ACM
-     * @see http://identitystandards.acm.org/
+     * @see https://identitystandards.acm.org
      */
     ACM = "ACM",
     /**
      * ActiGraph
-     * @see http://www.actigraphcorp.com/
+     * @see https://www.actigraphcorp.com
      */
     ActiGraph = "ActiGraph",
     /**
      * Activision
-     * @see https://www.activision.com/
+     * @see https://www.activision.com
      */
     Activision = "Activision",
     /**
+     * ActivityPub
+     * @see https://activitypub.rocks
+     */
+    ActivityPub = "ActivityPub",
+    /**
+     * Actix
+     * @see https://github.com/actix/actix-website/issues/18#issuecomment-393581556
+     */
+    Actix = "Actix",
+    /**
+     * Acura
+     * @see https://www.acura.com
+     */
+    Acura = "Acura",
+    /**
      * Adafruit
-     * @see https://www.adafruit.com/
+     * @see https://www.adafruit.com
      */
     Adafruit = "Adafruit",
     /**
      * AdBlock
-     * @see https://getadblock.com/
+     * @see https://getadblock.com
      */
     AdBlock = "AdBlock",
     /**
      * Adblock Plus
-     * @see https://adblockplus.org/
+     * @see https://adblockplus.org
      */
     AdblockPlus = "Adblock-Plus",
-    /**
-     * AddThis
-     * @see http://www.addthis.com/
-     */
-    AddThis = "AddThis",
     /**
      * AdGuard
      * @see https://adguard.com/en/media-materials.html
      */
     AdGuard = "AdGuard",
     /**
+     * Adidas
+     * @see https://www.adidas.com
+     */
+    Adidas = "Adidas",
+    /**
+     * Adminer
+     * @see https://www.adminer.org
+     */
+    Adminer = "Adminer",
+    /**
      * Adobe
-     * @see https://www.adobe.com/
+     * @see https://www.adobe.com
      */
     Adobe = "Adobe",
     /**
      * Adobe Acrobat Reader
-     * @see https://acrobat.adobe.com/
+     * @see https://acrobat.adobe.com
      */
     AdobeAcrobatReader = "Adobe-Acrobat-Reader",
     /**
      * Adobe After Effects
-     * @see https://www.adobe.com/products/aftereffects.html
+     * @see https://www.adobe.com/creativecloud.html
      */
     AdobeAfterEffects = "Adobe-After-Effects",
     /**
      * Adobe Audition
-     * @see https://www.adobe.com/creativecloud/video.html
+     * @see https://www.adobe.com/creativecloud.html
      */
     AdobeAudition = "Adobe-Audition",
     /**
      * Adobe Creative Cloud
-     * @see https://www.adobe.com/creativecloud/plans.html
+     * @see https://www.adobe.com/creativecloud.html
      */
     AdobeCreativeCloud = "Adobe-Creative-Cloud",
     /**
      * Adobe Dreamweaver
-     * @see https://www.adobe.com/products/dreamweaver.html
+     * @see https://www.adobe.com/products/catalog.html
      */
     AdobeDreamweaver = "Adobe-Dreamweaver",
     /**
      * Adobe Fonts
-     * @see https://www.adobe.com/creativecloud/services.html
+     * @see https://www.adobe.com/creativecloud.html
      */
     AdobeFonts = "Adobe-Fonts",
     /**
      * Adobe Illustrator
-     * @see https://www.adobe.com/products/illustrator.html
+     * @see https://www.adobe.com/creativecloud.html
      */
     AdobeIllustrator = "Adobe-Illustrator",
     /**
      * Adobe InDesign
-     * @see https://www.adobe.com/products/indesign.html
+     * @see https://www.adobe.com/creativecloud.html
      */
     AdobeInDesign = "Adobe-InDesign",
     /**
      * Adobe Lightroom
-     * @see https://www.adobe.com/products/photoshop-lightroom.html
+     * @see https://www.adobe.com/creativecloud.html
      */
     AdobeLightroom = "Adobe-Lightroom",
     /**
      * Adobe Lightroom Classic
-     * @see https://www.adobe.com/products/photoshop-lightroom-classic.html
+     * @see https://www.adobe.com/creativecloud.html
      */
     AdobeLightroomClassic = "Adobe-Lightroom-Classic",
     /**
      * Adobe Photoshop
-     * @see https://www.adobe.com/products/photoshop.html
+     * @see https://www.adobe.com/creativecloud.html
      */
     AdobePhotoshop = "Adobe-Photoshop",
     /**
      * Adobe Premiere Pro
-     * @see https://www.adobe.com/ie/products/premiere.html
+     * @see https://www.adobe.com/creativecloud.html
      */
     AdobePremierePro = "Adobe-Premiere-Pro",
     /**
      * Adobe XD
-     * @see https://www.adobe.com/products/xd.html
+     * @see https://helpx.adobe.com/support/xd.html
      */
     AdobeXD = "Adobe-XD",
     /**
      * AdonisJS
-     * @see https://adonisjs.com/
+     * @see https://adonisjs.com
      */
     AdonisJS = "AdonisJS",
     /**
+     * ADP
+     * @see https://www.adp.com
+     */
+    ADP = "ADP",
+    /**
+     * Adroll
+     * @see https://www.adroll.com
+     */
+    Adroll = "Adroll",
+    /**
+     * Advent Of Code
+     * @see https://adventofcode.com
+     */
+    AdventOfCode = "Advent-Of-Code",
+    /**
+     * Adyen
+     * @see https://www.adyen.com/press-and-media/presskit
+     */
+    Adyen = "Adyen",
+    /**
+     * Aegis Authenticator
+     * @see https://getaegis.app/aegis.svg
+     */
+    AegisAuthenticator = "Aegis-Authenticator",
+    /**
      * Aer Lingus
-     * @see https://www.aerlingus.com/
+     * @see https://www.aerlingus.com
      */
     AerLingus = "Aer-Lingus",
     /**
@@ -217,39 +317,64 @@ export enum SimpleIcons {
     Aeroflot = "Aeroflot",
     /**
      * Aeroméxico
-     * @see https://www.aeromexico.com/
+     * @see https://www.aeromexico.com
      */
     Aerom_xico = "Aeroméxico",
     /**
      * Aerospike
-     * @see http://pages.aerospike.com/rs/aerospike/images/Acid_Whitepaper.pdf
+     * @see https://pages.aerospike.com/rs/aerospike/images/Acid_Whitepaper.pdf
      */
     Aerospike = "Aerospike",
     /**
+     * AEW
+     * @see https://commons.wikimedia.org/wiki/File:AEW_Logo_(simplified).svg
+     */
+    AEW = "AEW",
+    /**
+     * AFFiNE
+     * @see https://affine.pro
+     */
+    AFFiNE = "AFFiNE",
+    /**
      * Affinity
-     * @see https://affinity.serif.com/
+     * @see https://affinity.serif.com
      */
     Affinity = "Affinity",
     /**
      * Affinity Designer
-     * @see https://affinity.serif.com/en-gb/designer/
+     * @see https://affinity.serif.com/designer
      */
     AffinityDesigner = "Affinity-Designer",
     /**
      * Affinity Photo
-     * @see https://affinity.serif.com/en-gb/photo/
+     * @see https://affinity.serif.com/photo
      */
     AffinityPhoto = "Affinity-Photo",
     /**
      * Affinity Publisher
-     * @see https://affinity.serif.com/en-gb/publisher/
+     * @see https://affinity.serif.com/publisher
      */
     AffinityPublisher = "Affinity-Publisher",
+    /**
+     * Afterpay
+     * @see https://www.afterpay.com/en-AU/business/resources/marketing/logos
+     */
+    Afterpay = "Afterpay",
+    /**
+     * Agora
+     * @see https://github.com/AgoraIO/Docs-Source/blob/849872dd0496bada0a2dceecb3f79663e3b2d323/assets/images/others/agora-logo.svg
+     */
+    Agora = "Agora",
     /**
      * AI Dungeon
      * @see https://commons.wikimedia.org/wiki/File:AI_Dungeon_Logo.png
      */
     AIDungeon = "AI-Dungeon",
+    /**
+     * AIB
+     * @see https://aib.ie
+     */
+    AIB = "AIB",
     /**
      * AIOHTTP
      * @see https://github.com/aio-libs/aiohttp/blob/fb5fe72b1bca3b899af579d376f5fe45745410e4/docs/aiohttp-plain.svg
@@ -262,19 +387,29 @@ export enum SimpleIcons {
     Aiqfome = "Aiqfome",
     /**
      * Air Canada
-     * @see https://www.aircanada.com/
+     * @see https://www.aircanada.com
      */
     AirCanada = "Air-Canada",
     /**
      * Air China
-     * @see http://www.airchina.com.cn/en/investor_relations/
+     * @see https://www.airchina.com.cn/en/investor_relations
      */
     AirChina = "Air-China",
     /**
      * Air France
-     * @see https://www.airfrance.fr/
+     * @see https://www.airfrance.fr
      */
     AirFrance = "Air-France",
+    /**
+     * Air India
+     * @see https://www.airindia.com
+     */
+    AirIndia = "Air-India",
+    /**
+     * Air Transat
+     * @see https://www.airtransat.com
+     */
+    AirTransat = "Air-Transat",
     /**
      * AirAsia
      * @see https://www.airasia.com/shop
@@ -286,18 +421,28 @@ export enum SimpleIcons {
      */
     Airbnb = "Airbnb",
     /**
+     * Airbrake
+     * @see https://github.com/airbrake/slate/blob/c116f2968bcf4dfda126511de0a2d0f0dc8b6a8e/source/images/logo.svg
+     */
+    Airbrake = "Airbrake",
+    /**
      * Airbus
-     * @see https://brand.airbus.com/brand-elements/logo.html
+     * @see https://brand.airbus.com/en/asset-library/airbus-logo
      */
     Airbus = "Airbus",
     /**
+     * Airbyte
+     * @see https://airbyte.com
+     */
+    Airbyte = "Airbyte",
+    /**
      * Aircall
-     * @see https://aircall.io/
+     * @see https://aircall.io
      */
     Aircall = "Aircall",
     /**
      * AirPlay Audio
-     * @see https://developer.apple.com/design/human-interface-guidelines/airplay/overview/icons/
+     * @see https://developer.apple.com/design/human-interface-guidelines/airplay/overview/icons
      */
     AirPlayAudio = "AirPlay-Audio",
     /**
@@ -311,20 +456,85 @@ export enum SimpleIcons {
      */
     Airtable = "Airtable",
     /**
+     * Airtel
+     * @see https://www.airtel.in/logo-tune
+     */
+    Airtel = "Airtel",
+    /**
+     * Ajv
+     * @see https://github.com/ajv-validator/ajv/blob/95b15b683dfb60f63c5129b0426629b968d53af8/docs/.vuepress/public/img/ajv.svg
+     */
+    Ajv = "Ajv",
+    /**
+     * Akamai
+     * @see https://www.akamai.com
+     */
+    Akamai = "Akamai",
+    /**
+     * Akaunting
+     * @see https://akaunting.com/logo
+     */
+    Akaunting = "Akaunting",
+    /**
+     * Akiflow
+     * @see https://www.akiflow.com
+     */
+    Akiflow = "Akiflow",
+    /**
      * Alacritty
      * @see https://github.com/alacritty/alacritty/blob/6d8db6b9dfadd6164c4be7a053f25db8ef6b7998/extra/logo/alacritty-simple.svg
      */
     Alacritty = "Alacritty",
     /**
+     * Alamy
+     * @see https://www.alamy.com
+     */
+    Alamy = "Alamy",
+    /**
+     * Albert Heijn
+     * @see https://www.ah.nl
+     */
+    AlbertHeijn = "Albert-Heijn",
+    /**
+     * Alby
+     * @see https://github.com/getAlby/media/blob/c24fee4a3f76d6cd000343a972f10590d3913b25/Alby-logo-icons/Alby-logo-head/alby.svg
+     */
+    Alby = "Alby",
+    /**
+     * Alchemy
+     * @see https://www.alchemy.com
+     */
+    Alchemy = "Alchemy",
+    /**
+     * Aldi Nord
+     * @see https://commons.wikimedia.org/wiki/File:Aldi_Nord_201x_logo.svg
+     */
+    AldiNord = "Aldi-Nord",
+    /**
+     * Aldi Süd
+     * @see https://www.aldi-sued.de
+     */
+    AldiS_d = "Aldi-Süd",
+    /**
      * Alfa Romeo
-     * @see http://www.fcaci.com/x/Alfa
+     * @see https://www.fcaci.com/x/Alfa
      */
     AlfaRomeo = "Alfa-Romeo",
     /**
+     * Alfred
+     * @see https://www.alfredapp.com
+     */
+    Alfred = "Alfred",
+    /**
      * Algolia
-     * @see https://www.algolia.com/press/?section=brand-guidelines
+     * @see https://algolia.frontify.com/d/1AZwVNcFZiu7/style-guide
      */
     Algolia = "Algolia",
+    /**
+     * Algorand
+     * @see https://www.algorand.com/about/media-kit
+     */
+    Algorand = "Algorand",
     /**
      * Alibaba Cloud
      * @see https://www.alibabagroup.com/en/ir/reports
@@ -336,53 +546,78 @@ export enum SimpleIcons {
      */
     AlibabaCom = "Alibaba.com",
     /**
+     * Alienware
+     * @see https://www.dell.com/en-us/gaming/alienware
+     */
+    Alienware = "Alienware",
+    /**
      * AliExpress
      * @see https://www.alibabagroup.com/en/ir/reports
      */
     AliExpress = "AliExpress",
     /**
      * Alipay
-     * @see https://gw.alipayobjects.com/os/rmsportal/trUJZfSrlnRCcFgfZGjD.ai
+     * @see https://global.alipay.com/docs/ac/website_hk/design
      */
     Alipay = "Alipay",
     /**
-     * Alitalia
-     * @see https://www.alitalia.com/it_it/fly-alitalia/in-flight/ulisse-magazine.html
+     * Allegro
+     * @see https://allegro.pl
      */
-    Alitalia = "Alitalia",
+    Allegro = "Allegro",
     /**
      * AlliedModders
-     * @see https://forums.alliedmods.net/
+     * @see https://forums.alliedmods.net
      */
     AlliedModders = "AlliedModders",
     /**
      * AlloCiné
-     * @see http://www.allocine.fr/
+     * @see https://www.allocine.fr
      */
     AlloCin_ = "AlloCiné",
     /**
      * AllTrails
-     * @see https://www.alltrails.com/
+     * @see https://www.alltrails.com/press?section=press-page-kit
      */
     AllTrails = "AllTrails",
     /**
+     * AlmaLinux
+     * @see https://almalinux.org
+     */
+    AlmaLinux = "AlmaLinux",
+    /**
      * Alpine Linux
-     * @see https://alpinelinux.org/
+     * @see https://alpinelinux.org
      */
     AlpineLinux = "Alpine-Linux",
     /**
      * Alpine.js
-     * @see https://github.com/simple-icons/simple-icons/issues/5583#issuecomment-832770167
+     * @see https://alpinejs.dev
      */
     AlpineJs = "Alpine.js",
     /**
+     * Alteryx
+     * @see https://www.alteryx.com
+     */
+    Alteryx = "Alteryx",
+    /**
      * Altium Designer
-     * @see https://www.altium.com/altium-designer/
+     * @see https://www.altium.com/altium-designer
      */
     AltiumDesigner = "Altium-Designer",
     /**
+     * Alwaysdata
+     * @see https://www.alwaysdata.com
+     */
+    Alwaysdata = "Alwaysdata",
+    /**
+     * ALX
+     * @see https://www.alxafrica.com
+     */
+    ALX = "ALX",
+    /**
      * Amazon
-     * @see https://worldvectorlogo.com/logo/amazon-icon
+     * @see https://www.amazon.com
      */
     Amazon = "Amazon",
     /**
@@ -391,28 +626,83 @@ export enum SimpleIcons {
      */
     AmazonAlexa = "Amazon-Alexa",
     /**
-     * Amazon AWS
-     * @see https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg
+     * Amazon API Gateway
+     * @see https://aws.amazon.com/architecture/icons
      */
-    AmazonAWS = "Amazon-AWS",
+    AmazonAPIGateway = "Amazon-API-Gateway",
+    /**
+     * Amazon CloudWatch
+     * @see https://aws.amazon.com/architecture/icons
+     */
+    AmazonCloudWatch = "Amazon-CloudWatch",
+    /**
+     * Amazon Cognito
+     * @see https://aws.amazon.com/architecture/icons
+     */
+    AmazonCognito = "Amazon-Cognito",
+    /**
+     * Amazon DocumentDB
+     * @see https://aws.amazon.com/architecture/icons
+     */
+    AmazonDocumentDB = "Amazon-DocumentDB",
     /**
      * Amazon DynamoDB
-     * @see https://aws.amazon.com/architecture/icons/
+     * @see https://aws.amazon.com/architecture/icons
      */
     AmazonDynamoDB = "Amazon-DynamoDB",
+    /**
+     * Amazon EC2
+     * @see https://aws.amazon.com/architecture/icons
+     */
+    AmazonEC2 = "Amazon-EC2",
+    /**
+     * Amazon ECS
+     * @see https://aws.amazon.com/architecture/icons
+     */
+    AmazonECS = "Amazon-ECS",
+    /**
+     * Amazon EKS
+     * @see https://aws.amazon.com/architecture/icons
+     */
+    AmazonEKS = "Amazon-EKS",
+    /**
+     * Amazon ElastiCache
+     * @see https://aws.amazon.com/architecture/icons
+     */
+    AmazonElastiCache = "Amazon-ElastiCache",
     /**
      * Amazon Fire TV
      * @see https://www.amazon.com/gp/help/customer/display.html?nodeId=201348270
      */
     AmazonFireTV = "Amazon-Fire-TV",
     /**
+     * Amazon Games
+     * @see https://www.amazongames.com
+     */
+    AmazonGames = "Amazon-Games",
+    /**
+     * Amazon Identity Access Management
+     * @see https://aws.amazon.com/architecture/icons
+     */
+    Amazoniam = "amazoniam",
+    /**
      * Amazon Lumberyard
-     * @see https://aws.amazon.com/lumberyard/support
+     * @see https://aws.amazon.com/architecture/icons
      */
     AmazonLumberyard = "Amazon-Lumberyard",
     /**
+     * Amazon Luna
+     * @see https://luna.amazon.com
+     */
+    AmazonLuna = "Amazon-Luna",
+    /**
+     * Amazon Music
+     * @see https://music.amazon.com
+     */
+    AmazonMusic = "Amazon-Music",
+    /**
      * Amazon Pay
-     * @see https://pay.amazon.com/
+     * @see https://pay.amazon.com
      */
     AmazonPay = "Amazon-Pay",
     /**
@@ -421,28 +711,68 @@ export enum SimpleIcons {
      */
     AmazonPrime = "Amazon-Prime",
     /**
-     * Amazon S3
+     * Amazon RDS
+     * @see https://aws.amazon.com/architecture/icons
+     */
+    AmazonRDS = "Amazon-RDS",
+    /**
+     * Amazon Redshift
+     * @see https://aws.amazon.com/architecture/icons
+     */
+    AmazonRedshift = "Amazon-Redshift",
+    /**
+     * Amazon Route 53
      * @see https://aws.amazon.com/architecture/icons/
+     */
+    AmazonRoute53 = "Amazon-Route-53",
+    /**
+     * Amazon S3
+     * @see https://aws.amazon.com/architecture/icons
      */
     AmazonS3 = "Amazon-S3",
     /**
+     * Amazon Simple Email Service
+     * @see https://aws.amazon.com/architecture/icons
+     */
+    AmazonSimpleEmailService = "Amazon-Simple-Email-Service",
+    /**
+     * Amazon SQS
+     * @see https://aws.amazon.com/architecture/icons
+     */
+    AmazonSQS = "Amazon-SQS",
+    /**
+     * Amazon Web Services
+     * @see https://commons.wikimedia.org/wiki/File:Amazon_Web_Services_Logo.svg
+     */
+    AmazonWebServices = "Amazon-Web-Services",
+    /**
      * AMD
-     * @see https://www.amd.com/
+     * @see https://www.amd.com
      */
     AMD = "AMD",
     /**
+     * Ameba
+     * @see https://ameblo.jp
+     */
+    Ameba = "Ameba",
+    /**
      * American Airlines
-     * @see https://en.wikipedia.org/wiki/File:American_Airlines_logo_2013.svg
+     * @see https://news.aa.com
      */
     AmericanAirlines = "American-Airlines",
     /**
      * American Express
-     * @see https://commons.wikimedia.org/wiki/File:American_Express_logo.svg
+     * @see https://commons.wikimedia.org/wiki/File:American_Express_logo_(2018).svg
      */
     AmericanExpress = "American-Express",
     /**
+     * AMG
+     * @see https://www.mercedes-amg.com
+     */
+    AMG = "AMG",
+    /**
      * AMP
-     * @see https://amp.dev/
+     * @see https://amp.dev
      */
     AMP = "AMP",
     /**
@@ -452,7 +782,7 @@ export enum SimpleIcons {
     Amul = "Amul",
     /**
      * ANA
-     * @see https://www.ana.co.jp/en/eur/the-ana-experience/brand/
+     * @see https://www.ana.co.jp/en/eur/the-ana-experience/brand
      */
     ANA = "ANA",
     /**
@@ -462,64 +792,64 @@ export enum SimpleIcons {
     Anaconda = "Anaconda",
     /**
      * Analogue
-     * @see https://www.analogue.co/
+     * @see https://www.analogue.co
      */
     Analogue = "Analogue",
     /**
-     * Anchor
-     * @see https://anchor.fm/
-     */
-    Anchor = "Anchor",
-    /**
      * Andela
-     * @see https://andela.com/press/
+     * @see https://andela.com
      */
     Andela = "Andela",
     /**
      * Android
-     * @see https://thepartnermarketinghub.withgoogle.com/brands/android/visual-identity/visual-identity/logo-lock-ups/
+     * @see https://partnermarketinghub.withgoogle.com/brands/android/visual-identity/visual-identity/logo-lock-ups
      */
     Android = "Android",
     /**
      * Android Auto
-     * @see https://thepartnermarketinghub.withgoogle.com/brands/android-auto/
+     * @see https://thepartnermarketinghub.withgoogle.com/brands/android-auto
      */
     AndroidAuto = "Android-Auto",
     /**
      * Android Studio
-     * @see https://developer.android.com/studio/
+     * @see https://developer.android.com/studio
      */
     AndroidStudio = "Android-Studio",
     /**
-     * AngelList
-     * @see https://angel.co/logo
-     */
-    AngelList = "AngelList",
-    /**
      * Angular
-     * @see https://angular.io/assets/images/logos/angular/angular_solidBlack.svg
+     * @see https://angular.dev/press-kit
      */
     Angular = "Angular",
     /**
-     * Angular Universal
-     * @see https://angular.io/presskit
-     */
-    AngularUniversal = "Angular-Universal",
-    /**
-     * AngularJS
-     * @see https://angularjs.org/
-     */
-    AngularJS = "AngularJS",
-    /**
      * AniList
-     * @see https://anilist.co/img/icons/icon.svg
+     * @see https://anilist.co
      */
     AniList = "AniList",
+    /**
+     * Animal Planet
+     * @see https://www.animalplanet.com
+     */
+    AnimalPlanet = "Animal-Planet",
+    /**
+     * AnkerMake
+     * @see https://www.ankermake.com
+     */
+    AnkerMake = "AnkerMake",
+    /**
+     * Anki
+     * @see https://commons.wikimedia.org/wiki/File:Anki-icon.svg
+     */
+    Anki = "Anki",
     /**
      * Ansible
      * @see https://www.ansible.com/logos
      */
     Ansible = "Ansible",
+    /**
+     * Answer
+     * @see https://answer.dev
+     */
+    Answer = "Answer",
     /**
      * Ansys
      * @see https://www.ansys.com/about-ansys/brand
@@ -527,102 +857,147 @@ export enum SimpleIcons {
     Ansys = "Ansys",
     /**
      * Ant Design
-     * @see https://ant.design/components/icon/
+     * @see https://ant.design
      */
     AntDesign = "Ant-Design",
     /**
+     * Anta
+     * @see https://www.anta.com
+     */
+    Anta = "Anta",
+    /**
      * Antena 3
-     * @see https://www.antena3.com/
+     * @see https://www.antena3.com
      */
     Antena3 = "Antena-3",
     /**
+     * Anthropic
+     * @see https://www.anthropic.com
+     */
+    Anthropic = "Anthropic",
+    /**
+     * Anycubic
+     * @see https://store.anycubic.com/pages/firmware-software
+     */
+    Anycubic = "Anycubic",
+    /**
      * AnyDesk
-     * @see https://anydesk.com/
+     * @see https://anydesk.com
      */
     AnyDesk = "AnyDesk",
     /**
+     * Anytype
+     * @see https://github.com/anyproto/anytype-ts/blob/544498296ceb4b6ed2970414de493f7f72bd0fcf/src/img/logo/symbol.svg
+     */
+    Anytype = "Anytype",
+    /**
      * AOL
-     * @see https://www.aol.com/
+     * @see https://www.aol.com
      */
     AOL = "AOL",
     /**
      * Apache
-     * @see https://www.apache.org/foundation/press/kit/
+     * @see https://www.apache.org/foundation/press/kit
      */
     Apache = "Apache",
     /**
      * Apache Airflow
-     * @see https://apache.org/logos/
+     * @see https://apache.org/logos
      */
     ApacheAirflow = "Apache-Airflow",
     /**
      * Apache Ant
-     * @see https://apache.org/logos/
+     * @see https://apache.org/logos
      */
     ApacheAnt = "Apache-Ant",
     /**
      * Apache Cassandra
-     * @see https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
+     * @see https://www.apache.org/logos
      */
     ApacheCassandra = "Apache-Cassandra",
     /**
      * Apache CloudStack
-     * @see http://cloudstack.apache.org/trademark-guidelines.html
+     * @see https://apache.org/logos
      */
     ApacheCloudStack = "Apache-CloudStack",
     /**
      * Apache Cordova
-     * @see https://cordova.apache.org/artwork/
+     * @see https://cordova.apache.org/artwork
      */
     ApacheCordova = "Apache-Cordova",
     /**
+     * Apache CouchDB
+     * @see https://apache.org/logos
+     */
+    ApacheCouchDB = "Apache-CouchDB",
+    /**
      * Apache Druid
-     * @see https://apache.org/logos/
+     * @see https://apache.org/logos
      */
     ApacheDruid = "Apache-Druid",
     /**
      * Apache ECharts
-     * @see https://apache.org/logos/
+     * @see https://apache.org/logos
      */
     ApacheECharts = "Apache-ECharts",
     /**
      * Apache Flink
-     * @see https://apache.org/logos/
+     * @see https://apache.org/logos
      */
     ApacheFlink = "Apache-Flink",
     /**
+     * Apache FreeMarker
+     * @see https://www.apache.org/logos
+     */
+    ApacheFreeMarker = "Apache-FreeMarker",
+    /**
      * Apache Groovy
-     * @see https://groovy-lang.org/
+     * @see https://apache.org/logos
      */
     ApacheGroovy = "Apache-Groovy",
     /**
+     * Apache Guacamole
+     * @see https://apache.org/logos
+     */
+    ApacheGuacamole = "Apache-Guacamole",
+    /**
+     * Apache Hadoop
+     * @see https://apache.org/logos
+     */
+    ApacheHadoop = "Apache-Hadoop",
+    /**
+     * Apache HBase
+     * @see https://apache.org/logos
+     */
+    ApacheHBase = "Apache-HBase",
+    /**
      * Apache Hive
-     * @see https://apache.org/logos/
+     * @see https://apache.org/logos
      */
     ApacheHive = "Apache-Hive",
     /**
      * Apache JMeter
-     * @see https://apache.org/logos/
+     * @see https://apache.org/logos
      */
     ApacheJMeter = "Apache-JMeter",
     /**
      * Apache Kafka
-     * @see https://apache.org/logos/
+     * @see https://apache.org/logos
      */
     ApacheKafka = "Apache-Kafka",
     /**
      * Apache Kylin
-     * @see https://apache.org/logos/
+     * @see https://apache.org/logos
      */
     ApacheKylin = "Apache-Kylin",
     /**
      * Apache Maven
-     * @see https://apache.org/logos/
+     * @see https://apache.org/logos
      */
     ApacheMaven = "Apache-Maven",
     /**
      * Apache NetBeans IDE
-     * @see https://apache.org/logos/
+     * @see https://apache.org/logos
      */
     ApacheNetBeansIDE = "Apache-NetBeans-IDE",
     /**
@@ -631,28 +1006,43 @@ export enum SimpleIcons {
      */
     ApacheOpenOffice = "Apache-OpenOffice",
     /**
+     * Apache Parquet
+     * @see https://apache.org/logos
+     */
+    ApacheParquet = "Apache-Parquet",
+    /**
      * Apache Pulsar
-     * @see https://apache.org/logos/
+     * @see https://apache.org/logos
      */
     ApachePulsar = "Apache-Pulsar",
     /**
      * Apache RocketMQ
-     * @see https://apache.org/logos/
+     * @see https://apache.org/logos
      */
     ApacheRocketMQ = "Apache-RocketMQ",
     /**
      * Apache Solr
-     * @see https://apache.org/logos/
+     * @see https://apache.org/logos
      */
     ApacheSolr = "Apache-Solr",
     /**
      * Apache Spark
-     * @see https://apache.org/logos/
+     * @see https://apache.org/logos
      */
     ApacheSpark = "Apache-Spark",
     /**
+     * Apache Storm
+     * @see https://apache.org/logos
+     */
+    ApacheStorm = "Apache-Storm",
+    /**
+     * Apache Superset
+     * @see https://apache.org/logos
+     */
+    ApacheSuperset = "Apache-Superset",
+    /**
      * Apache Tomcat
-     * @see https://apache.org/logos/
+     * @see https://apache.org/logos
      */
     ApacheTomcat = "Apache-Tomcat",
     /**
@@ -661,8 +1051,18 @@ export enum SimpleIcons {
      */
     Aparat = "Aparat",
     /**
+     * Apifox
+     * @see https://apifox.com
+     */
+    Apifox = "Apifox",
+    /**
+     * APM Terminals
+     * @see https://www.apmterminals.com
+     */
+    APMTerminals = "APM-Terminals",
+    /**
      * Apollo GraphQL
-     * @see https://github.com/apollographql/space-kit/blob/9a42083746a49c9a734563f427c13233e42adcc9/logos/mark.svg
+     * @see https://www.apollographql.com
      */
     ApolloGraphQL = "Apollo-GraphQL",
     /**
@@ -672,9 +1072,19 @@ export enum SimpleIcons {
     Apostrophe = "Apostrophe",
     /**
      * App Store
-     * @see https://developer.apple.com/app-store/
+     * @see https://developer.apple.com/app-store
      */
     AppStore = "App-Store",
+    /**
+     * Appian
+     * @see https://appian.com
+     */
+    Appian = "Appian",
+    /**
+     * Appium
+     * @see https://github.com/openjs-foundation/artwork/blob/270575392800eb17a02612203f6f0d5868c634a7/projects/appium/appium-icon-mono.svg
+     */
+    Appium = "Appium",
     /**
      * Apple
      * @see https://www.apple.com
@@ -682,7 +1092,7 @@ export enum SimpleIcons {
     Apple = "Apple",
     /**
      * Apple Arcade
-     * @see https://www.apple.com/apple-arcade/
+     * @see https://www.apple.com/apple-arcade
      */
     AppleArcade = "Apple-Arcade",
     /**
@@ -691,8 +1101,13 @@ export enum SimpleIcons {
      */
     AppleMusic = "Apple-Music",
     /**
+     * Apple News
+     * @see https://www.apple.com/apple-news
+     */
+    AppleNews = "Apple-News",
+    /**
      * Apple Pay
-     * @see https://developer.apple.com/apple-pay/marketing/
+     * @see https://developer.apple.com/apple-pay/marketing
      */
     ApplePay = "Apple-Pay",
     /**
@@ -702,32 +1117,57 @@ export enum SimpleIcons {
     ApplePodcasts = "Apple-Podcasts",
     /**
      * Apple TV
-     * @see https://commons.wikimedia.org/wiki/File:AppleTV.svg
+     * @see https://en.wikipedia.org/wiki/File:Apple_TV_(logo).svg
      */
     AppleTV = "Apple-TV",
     /**
      * AppSignal
-     * @see https://appsignal.com/
+     * @see https://appsignal.com
      */
     AppSignal = "AppSignal",
     /**
+     * Appsmith
+     * @see https://www.appsmith.com
+     */
+    Appsmith = "Appsmith",
+    /**
      * AppVeyor
-     * @see https://commons.wikimedia.org/wiki/File:Appveyor_logo.svg
+     * @see https://www.appveyor.com
      */
     AppVeyor = "AppVeyor",
     /**
+     * Appwrite
+     * @see https://appwrite.io/assets
+     */
+    Appwrite = "Appwrite",
+    /**
+     * Aqua
+     * @see https://www.aquasec.com/brand
+     */
+    Aqua = "Aqua",
+    /**
      * ARAL
-     * @see https://upload.wikimedia.org/wikipedia/commons/6/60/Aral_Logo.svg
+     * @see https://commons.wikimedia.org/wiki/File:Aral_Logo.svg
      */
     ARAL = "ARAL",
     /**
      * ArangoDB
-     * @see https://www.arangodb.com
+     * @see https://www.arangodb.com/resources/logos
      */
     ArangoDB = "ArangoDB",
     /**
+     * Arc
+     * @see https://arc.net
+     */
+    Arc = "Arc",
+    /**
+     * ArcGIS
+     * @see https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview
+     */
+    ArcGIS = "ArcGIS",
+    /**
      * Arch Linux
-     * @see https://www.archlinux.org/art/
+     * @see https://www.archlinux.org/art
      */
     ArchLinux = "Arch-Linux",
     /**
@@ -737,29 +1177,64 @@ export enum SimpleIcons {
     Archicad = "Archicad",
     /**
      * Archive of Our Own
-     * @see https://archiveofourown.org/
+     * @see https://archiveofourown.org
      */
     ArchiveOfOurOwn = "Archive-of-Our-Own",
     /**
      * Ardour
-     * @see https://github.com/Ardour/ardour/tree/master/tools/misc_resources/
+     * @see https://github.com/Ardour/ardour/blob/c5a0c0f6e0fc1ed0b94f94af38d5b55d49882add/tools/misc_resources/ardour_bw.svg
      */
     Ardour = "Ardour",
     /**
      * Arduino
-     * @see https://cdn.arduino.cc/projecthub/img/Arduino-logo.svg
+     * @see https://www.arduino.cc
      */
     Arduino = "Arduino",
     /**
+     * Argo
+     * @see https://github.com/cncf/artwork/blob/c2e619cdf85e8bac090ceca7c0834c5cfedf9426/projects/argo/icon/black/argo-icon-black.svg
+     */
+    Argo = "Argo",
+    /**
+     * Argos
+     * @see https://www.argos.co.uk
+     */
+    Argos = "Argos",
+    /**
+     * Ariakit
+     * @see https://github.com/ariakit/ariakit/blob/a739913ab1c3919c4353f0e0e3573ec6eda99549/logo/icon.svg
+     */
+    Ariakit = "Ariakit",
+    /**
      * ARK Ecosystem
-     * @see https://ark.io/press-kit
+     * @see https://ark.io
      */
     ARKEcosystem = "ARK-Ecosystem",
     /**
      * Arlo
-     * @see https://www.arlo.com/
+     * @see https://www.arlo.com
      */
     Arlo = "Arlo",
+    /**
+     * Arm
+     * @see https://www.arm.com
+     */
+    Arm = "Arm",
+    /**
+     * Arm Keil
+     * @see https://www.keil.arm.com
+     */
+    ArmKeil = "Arm-Keil",
+    /**
+     * Ars Technica
+     * @see https://arstechnica.com
+     */
+    ArsTechnica = "Ars-Technica",
+    /**
+     * Artifact Hub
+     * @see https://github.com/artifacthub/hub/blob/b7df64e044687e5788d6e7e809539679eb9fe45a/web/public/static/media/logo/artifacthub-brand-white.svg
+     */
+    ArtifactHub = "Artifact-Hub",
     /**
      * Artix Linux
      * @see https://gitea.artixlinux.org/artix/artwork/src/commit/256432e3d06b3e9024bfd6912768e80281ea3746/icons/logo-gray.svg
@@ -772,12 +1247,17 @@ export enum SimpleIcons {
     ArtStation = "ArtStation",
     /**
      * arXiv
-     * @see https://static.arxiv.org/static/base/0.15.2/images/arxiv-logo-web.svg
+     * @see https://arxiv.org
      */
     ArXiv = "arXiv",
     /**
+     * Asahi Linux
+     * @see https://github.com/AsahiLinux/artwork/blob/292637c9658c1491ddc1128fb6134aec01d904dd/logos/svg/AsahiLinux_logomark_mono.svg
+     */
+    AsahiLinux = "Asahi-Linux",
+    /**
      * Asana
-     * @see https://asana.com/styles
+     * @see https://asana.com/brand
      */
     Asana = "Asana",
     /**
@@ -787,32 +1267,57 @@ export enum SimpleIcons {
     Asciidoctor = "Asciidoctor",
     /**
      * asciinema
-     * @see https://github.com/asciinema/asciinema-logo
+     * @see https://github.com/asciinema/asciinema-logo/blob/1c743621830c0d8c92fd0076b4f15f75b4cf79f4/logo-red.svg
      */
     Asciinema = "asciinema",
     /**
+     * ASDA
+     * @see https://www.asda.com
+     */
+    ASDA = "ASDA",
+    /**
      * Aseprite
-     * @see https://www.aseprite.org/
+     * @see https://www.aseprite.org
      */
     Aseprite = "Aseprite",
     /**
-     * Ask Ubuntu
-     * @see https://askubuntu.com/
-     */
-    AskUbuntu = "Ask-Ubuntu",
-    /**
      * ASKfm
-     * @see https://ask.fm/
+     * @see https://ask.fm
      */
     ASKfm = "ASKfm",
     /**
      * AssemblyScript
-     * @see https://www.assemblyscript.org/
+     * @see https://www.assemblyscript.org
      */
     AssemblyScript = "AssemblyScript",
     /**
+     * Asterisk
+     * @see https://commons.wikimedia.org/wiki/File:Asterisk_logo.svg
+     */
+    Asterisk = "Asterisk",
+    /**
+     * Aston Martin
+     * @see https://www.astonmartin.com
+     */
+    AstonMartin = "Aston-Martin",
+    /**
+     * Astra
+     * @see https://wpastra.com/brand-assets
+     */
+    Astra = "Astra",
+    /**
+     * Astral
+     * @see https://brandpad.io/astral
+     */
+    Astral = "Astral",
+    /**
+     * Astro
+     * @see https://astro.build/press
+     */
+    Astro = "Astro",
+    /**
      * ASUS
-     * @see https://www.asus.com/
+     * @see https://www.asus.com
      */
     ASUS = "ASUS",
     /**
@@ -822,19 +1327,19 @@ export enum SimpleIcons {
     AT_T = "AT&T",
     /**
      * Atari
-     * @see https://atarivcs.com/
+     * @see https://atarivcs.com
      */
     Atari = "Atari",
     /**
      * Atlassian
-     * @see https://www.atlassian.com/company/news/press-kit
+     * @see https://atlassian.design/resources/logo-library
      */
     Atlassian = "Atlassian",
     /**
-     * Atom
-     * @see https://commons.wikimedia.org/wiki/File:Atom_editor_logo.svg
+     * Auchan
+     * @see https://www.auchan.fr
      */
-    Atom = "Atom",
+    Auchan = "Auchan",
     /**
      * Audacity
      * @see https://github.com/audacity/audacity/blob/c818449c69193f5311b430fbf600d8d6cbe49047/images/audacity.svg
@@ -852,9 +1357,14 @@ export enum SimpleIcons {
     Audible = "Audible",
     /**
      * Audio-Technica
-     * @see https://wikipedia.org/wiki/File:Audio-technica.svg
+     * @see https://commons.wikimedia.org/wiki/File:Audio-technica.svg
      */
     AudioTechnica = "Audio-Technica",
+    /**
+     * Audiobookshelf
+     * @see https://github.com/advplyr/audiobookshelf/blob/0d9d2fa4be9b642f0948e52ddff71ff370fd524d/images/banner.svg
+     */
+    Audiobookshelf = "Audiobookshelf",
     /**
      * Audioboom
      * @see https://audioboom.com/about/brand-guidelines
@@ -862,82 +1372,157 @@ export enum SimpleIcons {
     Audioboom = "Audioboom",
     /**
      * Audiomack
-     * @see https://styleguide.audiomack.com/
+     * @see https://styleguide.audiomack.com
      */
     Audiomack = "Audiomack",
     /**
      * Aurelia
-     * @see https://aurelia.io/
+     * @see https://aurelia.io
      */
     Aurelia = "Aurelia",
     /**
      * Auth0
-     * @see https://styleguide.auth0.com
+     * @see https://auth0.com
      */
     Auth0 = "Auth0",
     /**
+     * Authelia
+     * @see https://github.com/authelia/authelia/blob/8316cd4eb7a6f0778c8f480c61ad76a88416fc3a/docs/static/images/branding/logo.svg
+     */
+    Authelia = "Authelia",
+    /**
+     * Authentik
+     * @see https://github.com/goauthentik/authentik/blob/2c64f72ebc57dad9789c1fb799dd7cd39003d043/web/icons/icon.svg
+     */
+    Authentik = "Authentik",
+    /**
      * Authy
-     * @see https://authy.com/
+     * @see https://authy.com
      */
     Authy = "Authy",
     /**
+     * AutoCAD
+     * @see https://www.autodesk.com/blogs/autocad
+     */
+    AutoCAD = "AutoCAD",
+    /**
+     * AutoCannon
+     * @see https://github.com/mcollina/autocannon/blob/feeec71a7483153bd382de1c7ce5dfc31fa3c16f/autocannon-logo-icon-1000px.png
+     */
+    AutoCannon = "AutoCannon",
+    /**
      * Autodesk
-     * @see https://www.autodesk.com
+     * @see https://brand.autodesk.com/brand-system/logo
      */
     Autodesk = "Autodesk",
     /**
+     * Autodesk Maya
+     * @see https://area.autodesk.com/learn/courses/maya-intro
+     */
+    AutodeskMaya = "Autodesk-Maya",
+    /**
+     * Autodesk Revit
+     * @see https://www.autodesk.com/products/revit
+     */
+    AutodeskRevit = "Autodesk-Revit",
+    /**
      * AutoHotkey
-     * @see https://www.autohotkey.com/
+     * @see https://www.autohotkey.com
      */
     AutoHotkey = "AutoHotkey",
     /**
+     * AutoIt
+     * @see https://www.autoitscript.com
+     */
+    AutoIt = "AutoIt",
+    /**
      * Automattic
-     * @see https://automattic.com/press/brand-materials/
+     * @see https://automattic.com/press/brand-materials
      */
     Automattic = "Automattic",
     /**
+     * Autoprefixer
+     * @see https://github.com/postcss/autoprefixer/blob/1341747bc8142a147342f55eea5ed4286a3ca318/logo.svg
+     */
+    Autoprefixer = "Autoprefixer",
+    /**
+     * AutoZone
+     * @see https://www.autozone.com
+     */
+    AutoZone = "AutoZone",
+    /**
+     * avajs
+     * @see https://github.com/avajs/ava/blob/6f8e30c94626238a5b26deadac319089fa43d333/media/logo.svg
+     */
+    Avajs = "avajs",
+    /**
+     * Avast
+     * @see https://press.avast.com/media-materials#logos-and-brand-guidelines
+     */
+    Avast = "Avast",
+    /**
+     * avianca
+     * @see https://www.avianca.com
+     */
+    Avianca = "avianca",
+    /**
+     * Avira
+     * @see https://www.avira.com/en/media-library
+     */
+    Avira = "Avira",
+    /**
      * Awesome Lists
-     * @see https://github.com/sindresorhus/awesome/tree/master/media
+     * @see https://github.com/sindresorhus/awesome/tree/52b6dbacde01c2595f2133a5378cb8d2f89906fa/media/logo.svg
      */
     AwesomeLists = "Awesome-Lists",
     /**
      * awesomeWM
-     * @see https://awesomewm.org/
+     * @see https://awesomewm.org
      */
     AwesomeWM = "awesomeWM",
     /**
      * AWS Amplify
-     * @see https://docs.amplify.aws/
+     * @see https://aws.amazon.com/architecture/icons
      */
     AWSAmplify = "AWS-Amplify",
     /**
-     * Azure Artifacts
-     * @see https://azure.microsoft.com/en-us/services/devops/artifacts/
+     * AWS Elastic Load Balancing
+     * @see https://aws.amazon.com/architecture/icons
      */
-    AzureArtifacts = "Azure-Artifacts",
+    AWSElasticLoadBalancing = "AWS-Elastic-Load-Balancing",
     /**
-     * Azure Data Explorer
-     * @see https://azure.microsoft.com/en-us/pricing/details/data-explorer/
+     * AWS Fargate
+     * @see https://aws.amazon.com/architecture/icons
      */
-    AzureDataExplorer = "Azure-Data-Explorer",
+    AWSFargate = "AWS-Fargate",
     /**
-     * Azure DevOps
-     * @see http://azure.com/devops
+     * AWS Lambda
+     * @see https://aws.amazon.com/architecture/icons
      */
-    AzureDevOps = "Azure-DevOps",
+    AWSLambda = "AWS-Lambda",
     /**
-     * Azure Functions
-     * @see https://azure.microsoft.com/en-us/services/functions
+     * AWS Organizations
+     * @see https://aws.amazon.com/architecture/icons
      */
-    AzureFunctions = "Azure-Functions",
+    AWSOrganizations = "AWS-Organizations",
     /**
-     * Azure Pipelines
-     * @see https://github.com/vscode-icons/vscode-icons/blob/dc7872262c9b059c574bd16fc4cfedbb6bdf156e/icons/file_type_azurepipelines.svg
+     * AWS Secrets Manager
+     * @see https://aws.amazon.com/architecture/icons
      */
-    AzurePipelines = "Azure-Pipelines",
+    AWSSecretsManager = "AWS-Secrets-Manager",
+    /**
+     * Awwwards
+     * @see https://www.awwwards.com
+     */
+    Awwwards = "Awwwards",
+    /**
+     * Axios
+     * @see https://github.com/axios/axios-docs/blob/ba35d67160f94419c1b0292831cd1a4b378adb42/assets/logo.svg
+     */
+    Axios = "Axios",
     /**
      * B&R Automation
-     * @see https://www.br-automation.com/
+     * @see https://www.br-automation.com
      */
     B_RAutomation = "B&R-Automation",
     /**
@@ -946,13 +1531,38 @@ export enum SimpleIcons {
      */
     Babel = "Babel",
     /**
-     * Badgr
-     * @see https://info.badgr.com/
+     * Babelio
+     * @see https://www.babelio.com
      */
-    Badgr = "Badgr",
+    Babelio = "Babelio",
+    /**
+     * Babylon.js
+     * @see https://github.com/BabylonJS/Brand-Toolkit/blob/8583d4d9bf252a233fa480fa02ac6f367d5207a1/babylon_logo/monochrome/babylon_logo_monochrome_dark.svg
+     */
+    BabylonJs = "Babylon.js",
+    /**
+     * Backblaze
+     * @see https://www.backblaze.com/company/news.html
+     */
+    Backblaze = "Backblaze",
+    /**
+     * Backbone.js
+     * @see https://commons.wikimedia.org/wiki/File:Backbone.js_logo.svg
+     */
+    BackboneJs = "Backbone.js",
+    /**
+     * Backendless
+     * @see https://backendless.com
+     */
+    Backendless = "Backendless",
+    /**
+     * Backstage
+     * @see https://github.com/backstage/backstage/blob/862f2517188849dd7467d059edeb8692e6933c35/microsite/static/logo_assets/svg/Icon_Teal.svg
+     */
+    Backstage = "Backstage",
     /**
      * Badoo
-     * @see https://badoo.com/team/press/
+     * @see https://badoo.com
      */
     Badoo = "Badoo",
     /**
@@ -961,10 +1571,20 @@ export enum SimpleIcons {
      */
     Baidu = "Baidu",
     /**
+     * Bakaláři
+     * @see https://konference.bakalari.cz
+     */
+    Bakal__i = "Bakaláři",
+    /**
      * Bamboo
      * @see https://www.atlassian.design/guidelines/marketing/resources/logo-files
      */
     Bamboo = "Bamboo",
+    /**
+     * Bambu Lab
+     * @see https://bambulab.com
+     */
+    BambuLab = "Bambu-Lab",
     /**
      * Bandcamp
      * @see https://bandcamp.com/buttons
@@ -972,77 +1592,97 @@ export enum SimpleIcons {
     Bandcamp = "Bandcamp",
     /**
      * BandLab
-     * @see https://blog.bandlab.com/press/
+     * @see https://www.bandlab.com
      */
     BandLab = "BandLab",
     /**
      * Bandsintown
-     * @see https://corp.bandsintown.com/media-library
+     * @see https://www.company.bandsintown.com/brand-assets
      */
     Bandsintown = "Bandsintown",
     /**
      * Bank of America
-     * @see https://www.bankofamerica.com/
+     * @see https://www.bankofamerica.com
      */
     BankOfAmerica = "Bank-of-America",
     /**
      * Barclays
-     * @see https://home.barclays/
+     * @see https://home.barclays
      */
     Barclays = "Barclays",
     /**
      * Baremetrics
-     * @see https://baremetrics.com/
+     * @see https://baremetrics.com
      */
     Baremetrics = "Baremetrics",
+    /**
+     * Barmenia
+     * @see https://barmenia.de
+     */
+    Barmenia = "Barmenia",
     /**
      * Basecamp
      * @see https://basecamp.com/about/press
      */
     Basecamp = "Basecamp",
     /**
+     * Basic Attention Token
+     * @see https://brave.com/media-assets
+     */
+    BasicAttentionToken = "Basic-Attention-Token",
+    /**
+     * Bastyon
+     * @see https://github.com/pocketnetteam/pocketnet.gui/blob/978201dca0d63bc87c4c66513a67f085f2f51d83/img/logo.svg
+     */
+    Bastyon = "Bastyon",
+    /**
+     * bat
+     * @see https://github.com/sharkdp/bat/blob/018a4826211b8b486883b720a5daa65eca2d4604/doc/logo-header.svg
+     */
+    Bat = "bat",
+    /**
      * Bata
-     * @see https://www.bata.com/
+     * @see https://www.bata.com
      */
     Bata = "Bata",
     /**
-     * Bath ASU
-     * @see https://bathasu.com/press/
-     */
-    BathASU = "Bath-ASU",
-    /**
      * Battle.net
-     * @see https://www.blizzard.com/en-gb/
+     * @see https://battle.net
      */
     BattleNet = "Battle.net",
     /**
-     * BBC
-     * @see https://commons.wikimedia.org/wiki/File:BBC.svg
+     * Bazel
+     * @see https://bazel.build
      */
-    BBC = "BBC",
-    /**
-     * BBC iPlayer
-     * @see https://www.bbc.co.uk/iplayer
-     */
-    BBCIPlayer = "BBC-iPlayer",
+    Bazel = "Bazel",
     /**
      * Beatport
-     * @see https://support.beatport.com/hc/en-us/articles/200353255-Beatport-Logos-and-Images
+     * @see https://www.beatport.com
      */
     Beatport = "Beatport",
     /**
      * Beats
-     * @see https://www.elastic.co/brand
+     * @see https://www.elastic.co/beats
      */
     Beats = "Beats",
     /**
      * Beats by Dre
-     * @see https://www.beatsbydre.com/
+     * @see https://www.beatsbydre.com
      */
     BeatsByDre = "Beats-by-Dre",
     /**
+     * BeatStars
+     * @see https://beatstars.world/brand-guidelines
+     */
+    BeatStars = "BeatStars",
+    /**
+     * Beekeeper Studio
+     * @see https://www.beekeeperstudio.io/press
+     */
+    BeekeeperStudio = "Beekeeper-Studio",
+    /**
      * Behance
-     * @see https://www.behance.net/dev/api/brand
+     * @see https://www.behance.net
      */
     Behance = "Behance",
     /**
@@ -1051,15 +1691,50 @@ export enum SimpleIcons {
      */
     BeijingSubway = "Beijing-Subway",
     /**
+     * BEM
+     * @see https://en.bem.info
+     */
+    BEM = "BEM",
+    /**
      * Bentley
      * @see https://en.wikipedia.org/wiki/File:Bentley_logo_2.svg
      */
     Bentley = "Bentley",
     /**
+     * Bento
+     * @see https://bento.me
+     */
+    Bento = "Bento",
+    /**
+     * BentoBox
+     * @see https://www.getbento.com
+     */
+    BentoBox = "BentoBox",
+    /**
+     * BentoML
+     * @see https://github.com/bentoml/BentoML/blob/2169ebe9bc74e3d89ceba5dda8f8e1b85f08efa5/docs/source/_static/img/logo-light.svg
+     */
+    BentoML = "BentoML",
+    /**
+     * BeReal
+     * @see https://bereal.com
+     */
+    BeReal = "BeReal",
+    /**
      * Betfair
-     * @see https://partnerships.betfair.com/
+     * @see https://www.betfair.com
      */
     Betfair = "Betfair",
+    /**
+     * Better Stack
+     * @see https://betterstack.com
+     */
+    BetterStack = "Better-Stack",
+    /**
+     * Bevy
+     * @see https://github.com/bevyengine/bevy/blob/371c90f6faecf318ff66e3c6efa6f9f48781f63f/assets/branding/bevy_bird_simpleicons.svg
+     */
+    Bevy = "Bevy",
     /**
      * Big Cartel
      * @see https://www.bigcartel.com
@@ -1067,19 +1742,54 @@ export enum SimpleIcons {
     BigCartel = "Big-Cartel",
     /**
      * bigbasket
-     * @see https://www.bigbasket.com/
+     * @see https://www.bigbasket.com
      */
     Bigbasket = "bigbasket",
     /**
+     * BigBlueButton
+     * @see https://github.com/bigbluebutton/bbb-app-rooms/blob/0fcf9636a3ba683296326f46354265917c4f0ea4/app/assets/images/icon.svg
+     */
+    BigBlueButton = "BigBlueButton",
+    /**
      * BigCommerce
-     * @see https://www.bigcommerce.co.uk/press/media-kit/
+     * @see https://www.bigcommerce.co.uk/press
      */
     BigCommerce = "BigCommerce",
     /**
      * Bilibili
-     * @see https://www.bilibili.com/
+     * @see https://www.bilibili.com
      */
     Bilibili = "Bilibili",
+    /**
+     * Billboard
+     * @see https://www.billboard.com
+     */
+    Billboard = "Billboard",
+    /**
+     * BIM
+     * @see https://commons.wikimedia.org/wiki/File:Bim_(company)_logo.svg
+     */
+    BIM = "BIM",
+    /**
+     * Binance
+     * @see https://binance.com
+     */
+    Binance = "Binance",
+    /**
+     * Bio Link
+     * @see https://bio.link
+     */
+    BioLink = "Bio-Link",
+    /**
+     * Biome
+     * @see https://github.com/biomejs/resources/blob/551f36498dfe34b24bc7755fcdd0fa501b757cf4/svg/icon-light-mono.svg
+     */
+    Biome = "Biome",
+    /**
+     * BisectHosting
+     * @see https://www.bisecthosting.com
+     */
+    BisectHosting = "BisectHosting",
     /**
      * Bit
      * @see https://bit.dev
@@ -1087,27 +1797,32 @@ export enum SimpleIcons {
     Bit = "Bit",
     /**
      * Bitbucket
-     * @see https://www.atlassian.com/company/news/press-kit
+     * @see https://atlassian.design/resources/logo-library
      */
     Bitbucket = "Bitbucket",
     /**
      * Bitcoin
-     * @see https://bitcoin.org/en
+     * @see https://bitcoin.org
      */
     Bitcoin = "Bitcoin",
     /**
      * Bitcoin Cash
-     * @see https://www.bitcoincash.org/graphics/
+     * @see https://www.bitcoincash.org/graphics
      */
     BitcoinCash = "Bitcoin-Cash",
     /**
      * Bitcoin SV
-     * @see https://bitcoinsv.com/
+     * @see https://bitcoinsv.com
      */
     BitcoinSV = "Bitcoin-SV",
     /**
+     * BitComet
+     * @see https://en.wikipedia.org/wiki/File:BitComet_logo.svg
+     */
+    BitComet = "BitComet",
+    /**
      * Bitdefender
-     * @see https://www.bitdefender.com/funzone/logos.html
+     * @see https://brand.bitdefender.com
      */
     Bitdefender = "Bitdefender",
     /**
@@ -1121,38 +1836,53 @@ export enum SimpleIcons {
      */
     Bitrise = "Bitrise",
     /**
+     * BitTorrent
+     * @see https://www.bittorrent.com/products
+     */
+    BitTorrent = "BitTorrent",
+    /**
      * Bitwarden
      * @see https://github.com/bitwarden/brand/blob/6182cd64321d810c6f6255db08c2a17804d2b724/icons/icon.svg
      */
     Bitwarden = "Bitwarden",
     /**
      * Bitwig
-     * @see https://www.bitwig.com/
+     * @see https://www.bitwig.com
      */
     Bitwig = "Bitwig",
     /**
      * Blackberry
-     * @see https://www.blackberry.com/
+     * @see https://www.blackberry.com
      */
     Blackberry = "Blackberry",
     /**
+     * Blackmagic Design
+     * @see https://www.blackmagicdesign.com
+     */
+    BlackmagicDesign = "Blackmagic-Design",
+    /**
      * Blazemeter
-     * @see https://www.blazemeter.com/
+     * @see https://www.blazemeter.com
      */
     Blazemeter = "Blazemeter",
     /**
      * Blazor
-     * @see https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor
+     * @see https://commons.wikimedia.org/wiki/File:Blazor.png
      */
     Blazor = "Blazor",
     /**
      * Blender
-     * @see https://www.blender.org/about/logo/
+     * @see https://www.blender.org/about/logo
      */
     Blender = "Blender",
     /**
+     * Blockbench
+     * @see https://www.blockbench.net/wiki/blockbench/logos
+     */
+    Blockbench = "Blockbench",
+    /**
      * Blockchain.com
-     * @see https://www.blockchain.com/
+     * @see https://www.blockchain.com/en/press
      */
     BlockchainCom = "Blockchain.com",
     /**
@@ -1167,64 +1897,134 @@ export enum SimpleIcons {
     Bloglovin = "Bloglovin",
     /**
      * Blueprint
-     * @see https://blueprintjs.com
+     * @see https://blueprintjs.com/docs
      */
     Blueprint = "Blueprint",
     /**
+     * Bluesky
+     * @see https://github.com/FortAwesome/Font-Awesome/issues/19810#issuecomment-1854999604
+     */
+    Bluesky = "Bluesky",
+    /**
+     * Bluesound
+     * @see https://www.bluesound.com/products/node-x
+     */
+    Bluesound = "Bluesound",
+    /**
      * Bluetooth
-     * @see https://www.bluetooth.com/develop-with-bluetooth/marketing-branding/
+     * @see https://www.bluetooth.com/develop-with-bluetooth/marketing-branding
      */
     Bluetooth = "Bluetooth",
     /**
      * BMC Software
-     * @see https://www.bmc.com/
+     * @see https://www.bmc.com
      */
     BMCSoftware = "BMC-Software",
     /**
      * BMW
-     * @see https://www.bmw.de/
+     * @see https://www.bmw.de
      */
     BMW = "BMW",
+    /**
+     * BNB Chain
+     * @see https://www.bnbchain.org
+     */
+    BNBChain = "BNB-Chain",
+    /**
+     * BoardGameGeek
+     * @see https://boardgamegeek.com
+     */
+    BoardGameGeek = "BoardGameGeek",
+    /**
+     * boAt
+     * @see https://www.boat-lifestyle.com
+     */
+    BoAt = "boAt",
+    /**
+     * Boehringer Ingelheim
+     * @see https://www.boehringer-ingelheim.com
+     */
+    BoehringerIngelheim = "Boehringer-Ingelheim",
     /**
      * Boeing
      * @see https://commons.wikimedia.org/wiki/File:Boeing_full_logo.svg
      */
     Boeing = "Boeing",
     /**
+     * Bombardier
+     * @see https://bombardier.com
+     */
+    Bombardier = "Bombardier",
+    /**
+     * Bookalope
+     * @see https://bookalope.net
+     */
+    Bookalope = "Bookalope",
+    /**
      * BookBub
-     * @see https://insights.bookbub.com/bookbub-follow-bookmark-buttons-for-authors-websites/
+     * @see https://insights.bookbub.com/bookbub-follow-bookmark-buttons-for-authors-websites
      */
     BookBub = "BookBub",
     /**
      * Bookmeter
-     * @see https://bookmeter.com/
+     * @see https://bookmeter.com
      */
     Bookmeter = "Bookmeter",
     /**
+     * BookMyShow
+     * @see https://in.bookmyshow.com
+     */
+    BookMyShow = "BookMyShow",
+    /**
      * BookStack
-     * @see https://www.bookstackapp.com/
+     * @see https://www.bookstackapp.com
      */
     BookStack = "BookStack",
     /**
      * Boost
-     * @see https://www.boostmobile.com/
+     * @see https://www.boostmobile.com
      */
     Boost = "Boost",
     /**
+     * Boosty
+     * @see https://boosty.to/app/brand
+     */
+    Boosty = "Boosty",
+    /**
+     * Boots
+     * @see https://www.boots-uk.com
+     */
+    Boots = "Boots",
+    /**
      * Bootstrap
-     * @see http://getbootstrap.com/about
+     * @see https://getbootstrap.com/docs/5.3/about/brand
      */
     Bootstrap = "Bootstrap",
     /**
+     * BorgBackup
+     * @see https://www.borgbackup.org
+     */
+    BorgBackup = "BorgBackup",
+    /**
      * Bosch
-     * @see https://www.bosch.de/
+     * @see https://www.bosch.de
      */
     Bosch = "Bosch",
     /**
      * Bose
-     * @see https://developer.bose.com/sites/default/files/Bose%20AR%20Design%20Guidelines%20v1.0.pdf
+     * @see https://www.bose.com
      */
     Bose = "Bose",
+    /**
+     * Botble CMS
+     * @see https://botble.com
+     */
+    BotbleCMS = "Botble-CMS",
+    /**
+     * boulanger
+     * @see https://www.boulanger.com
+     */
+    Boulanger = "boulanger",
     /**
      * Bower
      * @see https://bower.io/docs/about/#brand
@@ -1236,13 +2036,23 @@ export enum SimpleIcons {
      */
     Box = "Box",
     /**
+     * Boxy SVG
+     * @see https://boxy-svg.com/ideas/7/app-icon-redesign#comment-1953
+     */
+    BoxySVG = "Boxy-SVG",
+    /**
+     * Braintree
+     * @see https://www.braintreepayments.com/press
+     */
+    Braintree = "Braintree",
+    /**
      * Brandfolder
      * @see https://brandfolder.com/brandfolder
      */
     Brandfolder = "Brandfolder",
     /**
      * Brave
-     * @see https://brave.com/brave-branding-assets/
+     * @see https://brave.com/brave-branding-assets
      */
     Brave = "Brave",
     /**
@@ -1251,18 +2061,53 @@ export enum SimpleIcons {
      */
     Breaker = "Breaker",
     /**
+     * Brenntag
+     * @see https://www.brenntag.com
+     */
+    Brenntag = "Brenntag",
+    /**
+     * Brevo
+     * @see https://www.brevo.com
+     */
+    Brevo = "Brevo",
+    /**
+     * Brex
+     * @see https://www.brex.com/journal/press
+     */
+    Brex = "Brex",
+    /**
+     * Bricks
+     * @see https://bricksbuilder.io
+     */
+    Bricks = "Bricks",
+    /**
      * British Airways
-     * @see https://www.britishairways.com/travel/home/public/en_ie/
+     * @see https://www.britishairways.com
      */
     BritishAirways = "British-Airways",
     /**
      * Broadcom
-     * @see https://en.wikipedia.org/wiki/Broadcom_Inc
+     * @see https://www.broadcom.com/support
      */
     Broadcom = "Broadcom",
     /**
+     * Bruno
+     * @see https://www.usebruno.com
+     */
+    Bruno = "Bruno",
+    /**
+     * BSD
+     * @see https://freebsdfoundation.org/about-us/about-the-foundation/project
+     */
+    BSD = "BSD",
+    /**
+     * bspwm
+     * @see https://github.com/baskerville/bspwm/blob/8fc2269fe0f29a785885bcd9122812eae7226d7b/artworks/bspwm_logo.svg
+     */
+    Bspwm = "bspwm",
+    /**
      * BT
-     * @see https://www.bt.com/
+     * @see https://www.bt.com
      */
     BT = "BT",
     /**
@@ -1271,80 +2116,160 @@ export enum SimpleIcons {
      */
     Buddy = "Buddy",
     /**
+     * Budibase
+     * @see https://github.com/Budibase/budibase/blob/6137ffd9a278ecb3e4dbb42af804c9652741699e/packages/builder/assets/bb-emblem.svg
+     */
+    Budibase = "Budibase",
+    /**
      * Buefy
      * @see https://github.com/buefy/buefy/blob/a9a724efca0b531e6a64ab734889b00bf4507a9d/static/img/icons/safari-pinned-tab.svg
      */
     Buefy = "Buefy",
     /**
      * Buffer
-     * @see https://buffer.com/press
+     * @see https://buffer.com
      */
     Buffer = "Buffer",
     /**
      * Bugatti
-     * @see https://www.bugatti.com/
+     * @see https://newsroom.bugatti.com
      */
     Bugatti = "Bugatti",
     /**
      * Bugcrowd
-     * @see https://www.bugcrowd.com/about/press-kit/
+     * @see https://www.bugcrowd.com/about/press-kit
      */
     Bugcrowd = "Bugcrowd",
     /**
      * Bugsnag
-     * @see https://www.bugsnag.com/newsroom
+     * @see https://www.bugsnag.com
      */
     Bugsnag = "Bugsnag",
+    /**
+     * Buhl
+     * @see https://buhl.de
+     */
+    Buhl = "Buhl",
     /**
      * Buildkite
      * @see https://buildkite.com/brand-assets
      */
     Buildkite = "Buildkite",
     /**
+     * Bukalapak
+     * @see https://www.bukalapak.com
+     */
+    Bukalapak = "Bukalapak",
+    /**
      * Bulma
-     * @see https://github.com/jgthms/bulma/
+     * @see https://bulma.io/brand
      */
     Bulma = "Bulma",
     /**
+     * Bun
+     * @see https://bun.sh/press-kit
+     */
+    Bun = "Bun",
+    /**
+     * Bungie
+     * @see https://www.bungie.net/7/en/Destiny
+     */
+    Bungie = "Bungie",
+    /**
      * bunq
-     * @see https://www.bunq.com/press/
+     * @see https://press.bunq.com/media_kits
      */
     Bunq = "bunq",
+    /**
+     * Burger King
+     * @see https://www.bk.com
+     */
+    BurgerKing = "Burger-King",
+    /**
+     * Burp Suite
+     * @see https://portswigger.net
+     */
+    BurpSuite = "Burp-Suite",
+    /**
+     * Burton
+     * @see https://brand.burton.com/logo
+     */
+    Burton = "Burton",
     /**
      * Buy Me A Coffee
      * @see https://www.buymeacoffee.com/brand
      */
     BuyMeACoffee = "Buy-Me-A-Coffee",
     /**
+     * BuySellAds
+     * @see https://docs.buysellads.com
+     */
+    BuySellAds = "BuySellAds",
+    /**
      * BuzzFeed
      * @see https://www.buzzfeed.com/press/assets
      */
     BuzzFeed = "BuzzFeed",
     /**
-     * byte
-     * @see https://byte.co/byte
+     * BVG
+     * @see https://www.bvg.de
      */
-    Byte = "byte",
+    BVG = "BVG",
+    /**
+     * Byju's
+     * @see https://byjus.com/byjus-the-learning-app
+     */
+    Byju_s = "Byju's",
+    /**
+     * ByteDance
+     * @see https://www.bytedance.com
+     */
+    ByteDance = "ByteDance",
     /**
      * C
      * @see https://commons.wikimedia.org/wiki/File:The_C_Programming_Language_logo.svg
      */
     C = "C",
     /**
-     * C Sharp
-     * @see https://upload.wikimedia.org/wikipedia/commons/0/0d/C_Sharp_wordmark.svg
-     */
-    CSharp = "C-Sharp",
-    /**
      * C++
-     * @see https://github.com/isocpp/logos
+     * @see https://github.com/isocpp/logos/tree/64ef037049f87ac74875dbe72695e59118b52186
      */
     C__ = "C++",
+    /**
+     * C++ Builder
+     * @see https://www.embarcadero.com/news/logo
+     */
+    C__Builder = "C++-Builder",
     /**
      * Cachet
      * @see https://cachethq.io/press
      */
     Cachet = "Cachet",
+    /**
+     * Caddy
+     * @see https://caddyserver.com
+     */
+    Caddy = "Caddy",
+    /**
+     * Cadillac
+     * @see https://www.cadillac.com
+     */
+    Cadillac = "Cadillac",
+    /**
+     * CafePress
+     * @see https://en.wikipedia.org/wiki/CafePress#/media/File:CafePress_logo.svg
+     */
+    CafePress = "CafePress",
+    /**
+     * Caffeine
+     * @see https://www.caffeine.tv
+     */
+    Caffeine = "Caffeine",
+    /**
+     * Cairo Graphics
+     * @see https://github.com/freedesktop/cairo/blob/44f808fce9f437e14f2b0ef4e1583def8ab578ae/doc/tutorial/slides/cairo-title.svg
+     */
+    CairoGraphics = "Cairo-Graphics",
     /**
      * Cairo Metro
      * @see https://en.wikipedia.org/wiki/File:Cairo_metro_logo2012.svg
@@ -1356,20 +2281,45 @@ export enum SimpleIcons {
      */
     CakePHP = "CakePHP",
     /**
+     * Cal.com
+     * @see https://design.cal.com/assets/logos
+     */
+    CalCom = "Cal.com",
+    /**
+     * Calendly
+     * @see https://calendly.com/newsroom
+     */
+    Calendly = "Calendly",
+    /**
+     * Calibre-Web
+     * @see https://github.com/janeczku/calibre-web/blob/ab11919c0bff5ddea1eed2bfd80fd7ea26f05710/cps/static/icon.svg
+     */
+    CalibreWeb = "Calibre-Web",
+    /**
      * Campaign Monitor
      * @see https://www.campaignmonitor.com/company/brand/
      */
     CampaignMonitor = "Campaign-Monitor",
     /**
+     * Camunda
+     * @see https://camunda.com/brand
+     */
+    Camunda = "Camunda",
+    /**
      * Canonical
-     * @see https://design.ubuntu.com/downloads/
+     * @see https://design.ubuntu.com/resources
      */
     Canonical = "Canonical",
     /**
      * Canva
-     * @see https://www.canva.com/
+     * @see https://www.canva.com
      */
     Canva = "Canva",
+    /**
+     * Canvas
+     * @see https://www.instructure.com/about/brand-guide/media-resources
+     */
+    Canvas = "Canvas",
     /**
      * Capacitor
      * @see https://github.com/ionic-team/ionicons-site/blob/b0c97018d737b763301154231b34e1b882c0c84d/docs/ionicons/svg/logo-capacitor.svg
@@ -1377,9 +2327,29 @@ export enum SimpleIcons {
     Capacitor = "Capacitor",
     /**
      * Car Throttle
-     * @see https://www.carthrottle.com/
+     * @see https://www.carthrottle.com
      */
     CarThrottle = "Car-Throttle",
+    /**
+     * Cardano
+     * @see https://cardano.org/brand-assets/
+     */
+    Cardano = "Cardano",
+    /**
+     * Carlsberg Group
+     * @see https://www.carlsberggroup.com/who-we-are/about-the-carlsberg-group/design-guide
+     */
+    CarlsbergGroup = "Carlsberg-Group",
+    /**
+     * Carrd
+     * @see https://carrd.co/docs/general/brand-assets
+     */
+    Carrd = "Carrd",
+    /**
+     * Carrefour
+     * @see https://upload.wikimedia.org/wikipedia/commons/5/5b/Carrefour_logo.svg
+     */
+    Carrefour = "Carrefour",
     /**
      * Carto
      * @see https://carto.com/brand/
@@ -1397,12 +2367,12 @@ export enum SimpleIcons {
     Castbox = "Castbox",
     /**
      * Castorama
-     * @see https://www.castorama.fr/
+     * @see https://www.castorama.fr
      */
     Castorama = "Castorama",
     /**
      * Castro
-     * @see http://supertop.co/castro/press/
+     * @see https://supertop.co/castro/press/
      */
     Castro = "Castro",
     /**
@@ -1411,10 +2381,20 @@ export enum SimpleIcons {
      */
     Caterpillar = "Caterpillar",
     /**
+     * CBC
+     * @see https://www.cbc.ca
+     */
+    CBC = "CBC",
+    /**
      * CBS
-     * @see https://www.cbs.com/
+     * @see https://www.cbs.com
      */
     CBS = "CBS",
+    /**
+     * CCleaner
+     * @see https://www.ccleaner.com
+     */
+    CCleaner = "CCleaner",
     /**
      * CD Projekt
      * @see https://www.cdprojekt.com/en/media/logotypes/
@@ -1425,6 +2405,11 @@ export enum SimpleIcons {
      * @see https://github.com/celery/celery/blob/4d77ddddb10797011dc10dd2e4e1e7a7467b8431/docs/images/favicon.ico
      */
     Celery = "Celery",
+    /**
+     * Celestron
+     * @see https://www.celestron.com
+     */
+    Celestron = "Celestron",
     /**
      * CentOS
      * @see https://wiki.centos.org/ArtWork/Brand/Logo
@@ -1446,6 +2431,11 @@ export enum SimpleIcons {
      */
     Chai = "Chai",
     /**
+     * Chainguard
+     * @see https://www.chainguard.dev
+     */
+    Chainguard = "Chainguard",
+    /**
      * Chainlink
      * @see https://chain.link/brand-assets
      */
@@ -1456,8 +2446,18 @@ export enum SimpleIcons {
      */
     ChakraUI = "Chakra-UI",
     /**
+     * Channel 4
+     * @see https://mediaassets.channel4.com/guidelines/guide/34286b7b-ea25-404d-a43b-e912fc85b0e0/page/8a2dd59a-51df-4f47-aa37-c235a761455e
+     */
+    Channel4 = "Channel-4",
+    /**
+     * Charles
+     * @see https://www.charlesproxy.com
+     */
+    Charles = "Charles",
+    /**
      * Chart.js
-     * @see https://www.chartjs.org/
+     * @see https://www.chartjs.org
      */
     ChartJs = "Chart.js",
     /**
@@ -1472,9 +2472,14 @@ export enum SimpleIcons {
     Chase = "Chase",
     /**
      * ChatBot
-     * @see https://chatbot.design/
+     * @see https://chatbot.design
      */
     ChatBot = "ChatBot",
+    /**
+     * Chatwoot
+     * @see https://www.chatwoot.com
+     */
+    Chatwoot = "Chatwoot",
     /**
      * CheckiO
      * @see https://py.checkio.org/blog/
@@ -1486,15 +2491,45 @@ export enum SimpleIcons {
      */
     Checkmarx = "Checkmarx",
     /**
+     * Checkmk
+     * @see https://checkmk.com
+     */
+    Checkmk = "Checkmk",
+    /**
+     * Chedraui
+     * @see https://www.chedraui.com.mx
+     */
+    Chedraui = "Chedraui",
+    /**
+     * Cheerio
+     * @see https://github.com/cheeriojs/cheerio/blob/60b538772c34f2dd93e9c62e410b2751d0a69ff3/website/static/img/orange-c.svg
+     */
+    Cheerio = "Cheerio",
+    /**
      * Chef
-     * @see https://www.chef.io/
+     * @see https://www.chef.io
      */
     Chef = "Chef",
+    /**
+     * Chemex
+     * @see https://vtlogo.com/chemex-coffeemaker-vector-logo-svg/
+     */
+    Chemex = "Chemex",
+    /**
+     * Chess.com
+     * @see https://www.chess.com/article/view/chess-com-brand-resources
+     */
+    ChessCom = "Chess.com",
     /**
      * Chevrolet
      * @see https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/shopping-tools/download-catalog/02-pdf/2019-chevrolet-corvette-catalog.pdf
      */
     Chevrolet = "Chevrolet",
+    /**
+     * Chia Network
+     * @see https://www.chia.net/branding/
+     */
+    ChiaNetwork = "Chia-Network",
     /**
      * China Eastern Airlines
      * @see https://uk.ceair.com/newCMS/uk/en/content/en_Footer/Support/201904/t20190404_5763.html
@@ -1511,15 +2546,35 @@ export enum SimpleIcons {
      */
     Chocolatey = "Chocolatey",
     /**
+     * Chromatic
+     * @see https://www.chromatic.com
+     */
+    Chromatic = "Chromatic",
+    /**
+     * Chrome Web Store
+     * @see https://chromewebstore.google.com
+     */
+    ChromeWebStore = "Chrome-Web-Store",
+    /**
+     * Chromecast
+     * @see https://www.google.com/intl/en_us/chromecast/built-in/
+     */
+    Chromecast = "Chromecast",
+    /**
      * Chrysler
      * @see https://www.stellantis.com/en/brands/chrysler
      */
     Chrysler = "Chrysler",
     /**
      * Chupa Chups
-     * @see https://www.chupachups.co.uk/
+     * @see https://www.chupachups.co.uk
      */
     ChupaChups = "Chupa-Chups",
+    /**
+     * Cilium
+     * @see https://github.com/cilium/cilium/blob/774a91f0e7497d9c9085234005ec81f1065c3783/Documentation/images/logo-solo.svg
+     */
+    Cilium = "Cilium",
     /**
      * Cinema 4D
      * @see https://www.maxon.net/en/about-maxon/branding
@@ -1527,7 +2582,7 @@ export enum SimpleIcons {
     Cinema4D = "Cinema-4D",
     /**
      * Circle
-     * @see https://www.circle.com/
+     * @see https://www.circle.com
      */
     Circle = "Circle",
     /**
@@ -1536,23 +2591,28 @@ export enum SimpleIcons {
      */
     CircleCI = "CircleCI",
     /**
+     * CircuitVerse
+     * @see https://circuitverse.org
+     */
+    CircuitVerse = "CircuitVerse",
+    /**
      * Cirrus CI
      * @see https://cirrus-ci.org
      */
     CirrusCI = "Cirrus-CI",
     /**
      * Cisco
-     * @see https://www.cisco.com/
+     * @see https://www.cisco.com
      */
     Cisco = "Cisco",
     /**
      * Citrix
-     * @see https://brand.citrix.com/
+     * @see https://brand.citrix.com
      */
     Citrix = "Citrix",
     /**
      * Citroën
-     * @see https://citroen.pcaci.co.uk/logo.php
+     * @see https://www.stellantis.com/en/brands/citroen
      */
     Citro_n = "Citroën",
     /**
@@ -1561,15 +2621,45 @@ export enum SimpleIcons {
      */
     CiviCRM = "CiviCRM",
     /**
+     * Civo
+     * @see https://www.civo.com/brand-assets
+     */
+    Civo = "Civo",
+    /**
      * CKEditor 4
      * @see https://github.com/ckeditor/ckeditor4/blob/7d8305ce4d12683853a563b9d6ea54e0d4686a2f/samples/img/logo.svg
      */
     CKEditor4 = "CKEditor-4",
     /**
+     * Clarifai
+     * @see https://www.clarifai.com
+     */
+    Clarifai = "Clarifai",
+    /**
      * Claris
-     * @see https://www.claris.com/
+     * @see https://www.claris.com
      */
     Claris = "Claris",
+    /**
+     * Clarivate
+     * @see https://clarivate.com
+     */
+    Clarivate = "Clarivate",
+    /**
+     * Clerk
+     * @see https://clerk.com
+     */
+    Clerk = "Clerk",
+    /**
+     * Clever Cloud
+     * @see https://www.clever-cloud.com
+     */
+    CleverCloud = "Clever-Cloud",
+    /**
+     * ClickHouse
+     * @see https://github.com/ClickHouse/ClickHouse/blob/12bd453a43819176d25ecf247033f6cb1af54beb/website/images/logo-clickhouse.svg
+     */
+    ClickHouse = "ClickHouse",
     /**
      * ClickUp
      * @see https://clickup.com/brand
@@ -1597,22 +2687,27 @@ export enum SimpleIcons {
     Clojure = "Clojure",
     /**
      * Cloud 66
-     * @see https://www.cloud66.com/
+     * @see https://www.cloud66.com
      */
     Cloud66 = "Cloud-66",
     /**
+     * Cloud Foundry
+     * @see https://www.cloudfoundry.org
+     */
+    CloudFoundry = "Cloud-Foundry",
+    /**
      * CloudBees
-     * @see https://www.cloudbees.com/
+     * @see https://www.cloudbees.com
      */
     CloudBees = "CloudBees",
     /**
      * CloudCannon
-     * @see https://cloudcannon.com/
+     * @see https://cloudcannon.com
      */
     CloudCannon = "CloudCannon",
     /**
      * Cloudera
-     * @see https://www.cloudera.com/
+     * @see https://www.cloudera.com
      */
     Cloudera = "Cloudera",
     /**
@@ -1621,8 +2716,28 @@ export enum SimpleIcons {
      */
     Cloudflare = "Cloudflare",
     /**
+     * Cloudflare Pages
+     * @see https://pages.cloudflare.com
+     */
+    CloudflarePages = "Cloudflare-Pages",
+    /**
+     * Cloudflare Workers
+     * @see https://www.cloudflare.com/developer-platform/products/
+     */
+    CloudflareWorkers = "Cloudflare-Workers",
+    /**
+     * Cloudinary
+     * @see https://cloudinary.com
+     */
+    Cloudinary = "Cloudinary",
+    /**
+     * Cloudron
+     * @see https://www.cloudron.io/brand-assets.html
+     */
+    Cloudron = "Cloudron",
+    /**
      * Cloudsmith
-     * @see https://cloudsmith.io/branding/
+     * @see https://cloudsmith.com/company/brand/
      */
     Cloudsmith = "Cloudsmith",
     /**
@@ -1631,13 +2746,18 @@ export enum SimpleIcons {
      */
     Cloudways = "Cloudways",
     /**
+     * Clubforce
+     * @see https://clubforce.com/media-centre
+     */
+    Clubforce = "Clubforce",
+    /**
      * Clubhouse
-     * @see https://brand.clubhouse.io/
+     * @see https://www.clubhouse.com/press
      */
     Clubhouse = "Clubhouse",
     /**
      * Clyp
-     * @see https://clyp.it/
+     * @see https://clyp.it
      */
     Clyp = "Clyp",
     /**
@@ -1646,23 +2766,43 @@ export enum SimpleIcons {
      */
     CMake = "CMake",
     /**
+     * CNCF
+     * @see https://github.com/cncf/artwork/blob/d2ed716cc0769e6c65d2e58f9a503fca02b60a56/examples/other.md#cncf-logos
+     */
+    CNCF = "CNCF",
+    /**
+     * CNET
+     * @see https://www.cnet.com
+     */
+    CNET = "CNET",
+    /**
      * CNN
-     * @see https://edition.cnn.com/
+     * @see https://edition.cnn.com
      */
     CNN = "CNN",
     /**
      * Co-op
-     * @see http://www.co-operative.coop/corporate/press/logos/
+     * @see https://www.co-operative.coop/media/assets
      */
     CoOp = "Co-op",
     /**
+     * Coca Cola
+     * @see https://upload.wikimedia.org/wikipedia/commons/c/ce/Coca-Cola_logo.svg
+     */
+    CocaCola = "Coca-Cola",
+    /**
+     * Cockpit
+     * @see https://github.com/cockpit-project/cockpit-project.github.io/blob/b851b3477d90017961ac9b252401c9a6cb6239f1/images/site/cockpit-logo.svg
+     */
+    Cockpit = "Cockpit",
+    /**
      * Cockroach Labs
-     * @see https://www.cockroachlabs.com/
+     * @see https://www.cockroachlabs.com
      */
     CockroachLabs = "Cockroach-Labs",
     /**
      * CocoaPods
-     * @see https://github.com/CocoaPods/shared_resources
+     * @see https://github.com/CocoaPods/shared_resources/tree/3125baf19976bd240c86459645f45b68d2facd10
      */
     CocoaPods = "CocoaPods",
     /**
@@ -1672,7 +2812,7 @@ export enum SimpleIcons {
     Cocos = "Cocos",
     /**
      * Coda
-     * @see https://coda.io/
+     * @see https://coda.io
      */
     Coda = "Coda",
     /**
@@ -1686,13 +2826,18 @@ export enum SimpleIcons {
      */
     CodeClimate = "Code-Climate",
     /**
+     * Code::Blocks
+     * @see https://wiki.codeblocks.org/index.php/Main_Page
+     */
+    Code__Blocks = "Code::Blocks",
+    /**
      * Codeberg
      * @see https://codeberg.org
      */
     Codeberg = "Codeberg",
     /**
      * Codecademy
-     * @see https://www.codecademy.com/
+     * @see https://www.codecademy.com
      */
     Codecademy = "Codecademy",
     /**
@@ -1702,34 +2847,49 @@ export enum SimpleIcons {
     CodeceptJS = "CodeceptJS",
     /**
      * CodeChef
-     * @see https://www.codechef.com/
+     * @see https://www.codechef.com
      */
     CodeChef = "CodeChef",
     /**
      * Codecov
-     * @see https://codecov.io/
+     * @see https://codecov.io
      */
     Codecov = "Codecov",
     /**
      * CodeFactor
-     * @see https://www.codefactor.io/
+     * @see https://www.codefactor.io
      */
     CodeFactor = "CodeFactor",
     /**
      * Codeforces
-     * @see http://codeforces.com/
+     * @see https://codeforces.com
      */
     Codeforces = "Codeforces",
+    /**
+     * Codefresh
+     * @see https://codefresh.io
+     */
+    Codefresh = "Codefresh",
     /**
      * CodeIgniter
      * @see https://www.codeigniter.com/help/legal
      */
     CodeIgniter = "CodeIgniter",
     /**
+     * Codeium
+     * @see https://github.com/Exafunction/codeium.vim/blob/e03c410a7673dbbe7f64afbc9a08f423363ded81/codeium-simple-logo.svg
+     */
+    Codeium = "Codeium",
+    /**
      * Codemagic
-     * @see https://codemagic.io/
+     * @see https://codemagic.io
      */
     Codemagic = "Codemagic",
+    /**
+     * Codementor
+     * @see https://www.codementor.io
+     */
+    Codementor = "Codementor",
     /**
      * CodeMirror
      * @see https://github.com/codemirror/CodeMirror/blob/6e7aa65a8bfb64837ae9d082b674b2f5ee056d2c/doc/logo.svg
@@ -1737,7 +2897,7 @@ export enum SimpleIcons {
     CodeMirror = "CodeMirror",
     /**
      * CodeNewbie
-     * @see https://community.codenewbie.org/
+     * @see https://community.codenewbie.org
      */
     CodeNewbie = "CodeNewbie",
     /**
@@ -1747,9 +2907,14 @@ export enum SimpleIcons {
     CodePen = "CodePen",
     /**
      * CodeProject
-     * @see https://www.codeproject.com/
+     * @see https://www.codeproject.com
      */
     CodeProject = "CodeProject",
+    /**
+     * Coder
+     * @see https://github.com/coder/presskit/blob/f9dccc00b062cf130ba237bfcefd1fcda4d253c8/logos/coder_logo_transparent_black.svg
+     */
+    Coder = "Coder",
     /**
      * CodersRank
      * @see https://codersrank.io
@@ -1757,22 +2922,32 @@ export enum SimpleIcons {
     CodersRank = "CodersRank",
     /**
      * Coderwall
-     * @see https://github.com/twolfson/coderwall-svg
+     * @see https://github.com/twolfson/coderwall-svg/tree/e87fb90eab5e401210a174f9418b5af0a246758e
      */
     Coderwall = "Coderwall",
     /**
      * CodeSandbox
-     * @see https://codesandbox.io
+     * @see https://codesandbox.io/CodeSandbox-Press-Kit.zip
      */
     CodeSandbox = "CodeSandbox",
     /**
      * Codeship
-     * @see https://app.codeship.com/
+     * @see https://app.codeship.com
      */
     Codeship = "Codeship",
     /**
+     * CodeSignal
+     * @see https://codesignal.com
+     */
+    CodeSignal = "CodeSignal",
+    /**
+     * CodeStream
+     * @see https://www.codestream.com
+     */
+    CodeStream = "CodeStream",
+    /**
      * Codewars
-     * @see https://github.com/codewars/branding
+     * @see https://github.com/codewars/branding/tree/1ff0d44db52ac4a5e3a1c43277dc35f228eb6983
      */
     Codewars = "Codewars",
     /**
@@ -1792,42 +2967,97 @@ export enum SimpleIcons {
     Codio = "Codio",
     /**
      * CoffeeScript
-     * @see https://coffeescript.org/
+     * @see https://coffeescript.org
      */
     CoffeeScript = "CoffeeScript",
     /**
+     * Coggle
+     * @see https://coggle.it/press
+     */
+    Coggle = "Coggle",
+    /**
      * Cognizant
-     * @see https://www.cognizant.com/
+     * @see https://www.cognizant.com
      */
     Cognizant = "Cognizant",
+    /**
+     * Coil
+     * @see https://coil.com/press/brand-guidelines
+     */
+    Coil = "Coil",
     /**
      * Coinbase
      * @see https://www.coinbase.com/press
      */
     Coinbase = "Coinbase",
     /**
+     * CoinMarketCap
+     * @see https://www.coinmarketcap.com
+     */
+    CoinMarketCap = "CoinMarketCap",
+    /**
+     * ComicFury
+     * @see https://comicfury.com/images/gator-icon-black.png
+     */
+    ComicFury = "ComicFury",
+    /**
+     * comma
+     * @see https://comma.ai
+     */
+    Comma = "comma",
+    /**
      * Commerzbank
      * @see https://commons.wikimedia.org/wiki/Category:Commerzbank_logos
      */
     Commerzbank = "Commerzbank",
+    /**
+     * commitlint
+     * @see https://github.com/conventional-changelog/commitlint/blob/0b177635472214faac5a5800ced970bf4d2e6012/docs/assets/icon.svg
+     */
+    Commitlint = "commitlint",
+    /**
+     * Commodore
+     * @see https://commodore.inc
+     */
+    Commodore = "Commodore",
     /**
      * Common Workflow Language
      * @see https://github.com/common-workflow-language/logo/blob/54b1624bc88df6730fa7b6c928a05fc9c939e47e/CWL-Logo-nofonts.svg
      */
     CommonWorkflowLanguage = "Common-Workflow-Language",
     /**
+     * Compiler Explorer
+     * @see https://github.com/compiler-explorer/infra/blob/8d362efe7ddc24e6a625f7db671d0a6e7600e3c9/logo/icon/CompilerExplorer%20Logo%20Icon%20SVG.svg
+     */
+    CompilerExplorer = "Compiler-Explorer",
+    /**
      * Composer
-     * @see https://getcomposer.org/
+     * @see https://getcomposer.org
      */
     Composer = "Composer",
     /**
+     * CompTIA
+     * @see https://www.comptia.org
+     */
+    CompTIA = "CompTIA",
+    /**
+     * Comsol
+     * @see https://cdn.comsol.com/company/comsol-brand-guide-November2019.pdf
+     */
+    Comsol = "Comsol",
+    /**
+     * Conan
+     * @see https://conan.io
+     */
+    Conan = "Conan",
+    /**
      * Concourse
-     * @see https://concourse-ci.org/
+     * @see https://concourse-ci.org
      */
     Concourse = "Concourse",
     /**
      * Conda-Forge
-     * @see https://github.com/conda-forge/conda-forge.github.io/
+     * @see https://github.com/conda-forge/conda-forge.github.io/blob/34adb68298ca266af13c3d615f7af8b6c232f6fb/img/anvil.svg
      */
     CondaForge = "Conda-Forge",
     /**
@@ -1842,7 +3072,7 @@ export enum SimpleIcons {
     Confluence = "Confluence",
     /**
      * Construct 3
-     * @see https://www.construct.net/
+     * @see https://www.construct.net
      */
     Construct3 = "Construct-3",
     /**
@@ -1856,13 +3086,38 @@ export enum SimpleIcons {
      */
     ContactlessPayment = "Contactless-Payment",
     /**
+     * containerd
+     * @see https://cncf-branding.netlify.app/projects/containerd/
+     */
+    Containerd = "containerd",
+    /**
+     * Contao
+     * @see https://contao.org
+     */
+    Contao = "Contao",
+    /**
      * Contentful
      * @see https://press.contentful.com/media_kits
      */
     Contentful = "Contentful",
     /**
+     * Contentstack
+     * @see https://www.contentstack.com
+     */
+    Contentstack = "Contentstack",
+    /**
+     * Contributor Covenant
+     * @see https://www.contributor-covenant.org
+     */
+    ContributorCovenant = "Contributor-Covenant",
+    /**
+     * Conventional Commits
+     * @see https://www.conventionalcommits.org
+     */
+    ConventionalCommits = "Conventional-Commits",
+    /**
      * Convertio
-     * @see https://convertio.co/
+     * @see https://convertio.co
      */
     Convertio = "Convertio",
     /**
@@ -1871,8 +3126,33 @@ export enum SimpleIcons {
      */
     Cookiecutter = "Cookiecutter",
     /**
+     * Cooler Master
+     * @see https://www.coolermaster.com/branding
+     */
+    CoolerMaster = "Cooler-Master",
+    /**
+     * Copa Airlines
+     * @see https://www.copaair.com
+     */
+    CopaAirlines = "Copa-Airlines",
+    /**
+     * Coppel
+     * @see https://www.coppel.com
+     */
+    Coppel = "Coppel",
+    /**
+     * Cora
+     * @see https://www.cora.fr
+     */
+    Cora = "Cora",
+    /**
+     * CorelDRAW
+     * @see https://www.coreldraw.com/en/learn/webinars/ebook-embroidery
+     */
+    CorelDRAW = "CorelDRAW",
+    /**
      * Corona Engine
-     * @see https://coronalabs.com/
+     * @see https://coronalabs.com
      */
     CoronaEngine = "Corona-Engine",
     /**
@@ -1887,12 +3167,12 @@ export enum SimpleIcons {
     Corsair = "Corsair",
     /**
      * Couchbase
-     * @see https://www.couchbase.com/
+     * @see https://www.couchbase.com
      */
     Couchbase = "Couchbase",
     /**
      * Counter-Strike
-     * @see https://en.wikipedia.org/wiki/File:CS-GO_Logo.svg
+     * @see https://www.counter-strike.net
      */
     CounterStrike = "Counter-Strike",
     /**
@@ -1907,7 +3187,7 @@ export enum SimpleIcons {
     Coursera = "Coursera",
     /**
      * Coveralls
-     * @see https://coveralls.io/
+     * @see https://coveralls.io
      */
     Coveralls = "Coveralls",
     /**
@@ -1921,15 +3201,60 @@ export enum SimpleIcons {
      */
     CraftCMS = "Craft-CMS",
     /**
+     * Craftsman
+     * @see https://www.craftsman.com
+     */
+    Craftsman = "Craftsman",
+    /**
+     * CrateDB
+     * @see https://github.com/crate/crate-docs-theme/blob/cbd734b3617489ca937f35e30f37f3f6c1870e1f/src/crate/theme/rtd/crate/static/images/crate-logo.svg
+     */
+    CrateDB = "CrateDB",
+    /**
+     * Crayon
+     * @see https://www.crayon.com
+     */
+    Crayon = "Crayon",
+    /**
+     * Creality
+     * @see https://www.creality.com
+     */
+    Creality = "Creality",
+    /**
+     * Create React App
+     * @see https://github.com/facebook/create-react-app/blob/9d0369b1fe3260e620b08effcf85f1edefc5d1ea/docusaurus/website/static/img/logo.svg
+     */
+    CreateReactApp = "Create-React-App",
+    /**
      * Creative Commons
-     * @see https://creativecommons.org/
+     * @see https://creativecommons.org
      */
     CreativeCommons = "Creative-Commons",
     /**
+     * Creative Technology
+     * @see https://creative.com
+     */
+    CreativeTechnology = "Creative-Technology",
+    /**
+     * Credly
+     * @see https://cdn.credly.com/assets/structure/logo-78b59f8114817c758ca965ed8f1a58a76a39b6fd70d031f771a9bbc581fcde65.svg
+     */
+    Credly = "Credly",
+    /**
      * Crehana
-     * @see https://www.crehana.com/
+     * @see https://www.crehana.com
      */
     Crehana = "Crehana",
+    /**
+     * Crew United
+     * @see https://www.crew-united.com
+     */
+    CrewUnited = "Crew-United",
+    /**
+     * Critical Role
+     * @see https://critrole.com
+     */
+    CriticalRole = "Critical-Role",
     /**
      * Crowdin
      * @see https://support.crowdin.com/using-logo/
@@ -1956,25 +3281,50 @@ export enum SimpleIcons {
      */
     CRYENGINE = "CRYENGINE",
     /**
+     * CryptPad
+     * @see https://cryptpad.org
+     */
+    CryptPad = "CryptPad",
+    /**
      * Crystal
      * @see https://crystal-lang.org/media/
      */
     Crystal = "Crystal",
     /**
+     * CSS Design Awards
+     * @see https://www.cssdesignawards.com
+     */
+    CSSDesignAwards = "CSS-Design-Awards",
+    /**
+     * CSS Modules
+     * @see https://github.com/css-modules/logos/blob/32e4717062e4328ed861fa92d5d9cfd47859362f/css-modules-logo.svg
+     */
+    CSSModules = "CSS-Modules",
+    /**
      * CSS Wizardry
-     * @see http://csswizardry.com
+     * @see https://csswizardry.com
      */
     CSSWizardry = "CSS-Wizardry",
     /**
      * CSS3
-     * @see http://www.w3.org/html/logo/
+     * @see https://www.w3.org/html/logo/
      */
     CSS3 = "CSS3",
+    /**
+     * CTS
+     * @see https://commons.wikimedia.org/wiki/File:Logo_Compagnie_des_transports_strasbourgeois.svg
+     */
+    CTS = "CTS",
     /**
      * Cucumber
      * @see https://cucumber.io
      */
     Cucumber = "Cucumber",
+    /**
+     * Cultura
+     * @see https://www.cultura.com
+     */
+    Cultura = "Cultura",
     /**
      * curl
      * @see https://curl.haxx.se/logo/
@@ -1982,32 +3332,57 @@ export enum SimpleIcons {
     Curl = "curl",
     /**
      * CurseForge
-     * @see https://www.curseforge.com/
+     * @see https://www.curseforge.com
      */
     CurseForge = "CurseForge",
     /**
+     * Custom Ink
+     * @see https://www.customink.com
+     */
+    CustomInk = "Custom-Ink",
+    /**
+     * CyberDefenders
+     * @see https://cyberdefenders.org
+     */
+    CyberDefenders = "CyberDefenders",
+    /**
      * Cycling '74
-     * @see https://cycling74.com/
+     * @see https://cycling74.com
      */
     Cycling__74 = "Cycling-'74",
     /**
      * Cypress
-     * @see https://cypress.io
+     * @see https://www.cypress.io/press-kit
      */
     Cypress = "Cypress",
     /**
+     * Cytoscape.js
+     * @see https://github.com/cytoscape/cytoscape.js/blob/97c27700feefe2f7b79fca248763049e9a0b38c6/documentation/img/cytoscape-logo.svg
+     */
+    CytoscapeJs = "Cytoscape.js",
+    /**
+     * D
+     * @see https://github.com/dlang/dlang.org/blob/6d0e2e5f6a8249031cfd010e389b99ff014cd320/images/dlogo.svg
+     */
+    D = "D",
+    /**
+     * D-EDGE
+     * @see https://github.com/d-edge/JoinUs/blob/4d8b5cf7145db26649fe9f1587194e44dbbe3565/d-edge.svg
+     */
+    DEDGE = "D-EDGE",
+    /**
      * D-Wave Systems
-     * @see https://www.dwavesys.com/
+     * @see https://www.dwavesys.com
      */
     DWaveSystems = "D-Wave-Systems",
     /**
      * D3.js
-     * @see https://github.com/d3/d3-logo
+     * @see https://github.com/d3/d3-logo/tree/6d9c471aa852033501d00ca63fe73d9f8be82d1d
      */
     D3Js = "D3.js",
     /**
      * Dacia
-     * @see https://www.dacia.ro/
+     * @see https://commons.wikimedia.org/wiki/File:Dacia-Logo-2021.svg
      */
     Dacia = "Dacia",
     /**
@@ -2016,15 +3391,25 @@ export enum SimpleIcons {
      */
     DAF = "DAF",
     /**
+     * daily.dev
+     * @see https://brand.daily.dev/d/4gCtbahXkzKk/guidelines
+     */
+    DailyDev = "daily.dev",
+    /**
      * Dailymotion
-     * @see https://about.dailymotion.com/en/press/
+     * @see https://careers.dailymotion.com
      */
     Dailymotion = "Dailymotion",
     /**
-     * Daimler
-     * @see https://designnavigator.daimler.com/Daimler_Corporate_Logotype_Black_DTP
+     * DaisyUI
+     * @see https://raw.githubusercontent.com/saadeghi/files/main/daisyui/logo-4.svg
      */
-    Daimler = "Daimler",
+    DaisyUI = "DaisyUI",
+    /**
+     * Dapr
+     * @see https://raw.githubusercontent.com/dapr/dapr/18575823c74318c811d6cd6f57ffac76d5debe93/img/dapr_logo.svg
+     */
+    Dapr = "Dapr",
     /**
      * Dark Reader
      * @see https://github.com/simple-icons/simple-icons/pull/3348#issuecomment-667090608
@@ -2032,12 +3417,17 @@ export enum SimpleIcons {
     DarkReader = "Dark-Reader",
     /**
      * Dart
-     * @see https://github.com/dart-lang/site-shared/tree/master/src/_assets/image/dart/logo
+     * @see https://github.com/dart-lang/site-shared/tree/18458ff440afd3d06f04e5cb871c4c5eda29c9d5/src/_assets/image/dart/logo
      */
     Dart = "Dart",
     /**
+     * Darty
+     * @see https://www.darty.com
+     */
+    Darty = "Darty",
+    /**
      * Das Erste
-     * @see https://en.wikipedia.org/wiki/Das_Erste
+     * @see https://commons.wikimedia.org/wiki/File:Das_Erste_2014.svg
      */
     DasErste = "Das-Erste",
     /**
@@ -2051,23 +3441,28 @@ export enum SimpleIcons {
      */
     Dashlane = "Dashlane",
     /**
+     * Dask
+     * @see https://github.com/dask/dask/blob/67e648922512615f94f8a90726423e721d0e3eb2/docs/source/images/dask_icon_black.svg
+     */
+    Dask = "Dask",
+    /**
      * Dassault Systèmes
-     * @see https://www.3ds.com/
+     * @see https://www.3ds.com
      */
     DassaultSyst_mes = "Dassault-Systèmes",
     /**
-     * Data Version Control
-     * @see https://static.iterative.ai/logo/dvc.svg
+     * data.ai
+     * @see https://www.data.ai/en/about/press/
      */
-    DataVersionControl = "Data-Version-Control",
+    DataAi = "data.ai",
     /**
      * Databricks
-     * @see https://www.databricks.com/
+     * @see https://www.databricks.com
      */
     Databricks = "Databricks",
     /**
      * DataCamp
-     * @see https://www.datacamp.com/
+     * @see https://www.datacamp.com
      */
     DataCamp = "DataCamp",
     /**
@@ -2076,10 +3471,30 @@ export enum SimpleIcons {
      */
     Datadog = "Datadog",
     /**
+     * DataGrip
+     * @see https://www.jetbrains.com/company/brand/logos/
+     */
+    DataGrip = "DataGrip",
+    /**
+     * Dataiku
+     * @see https://www.dataiku.com/company/media-kit/
+     */
+    Dataiku = "Dataiku",
+    /**
      * DataStax
-     * @see https://www.datastax.com/brand-resources
+     * @see https://docs.datastax.com/en/astra/astra-db-vector
      */
     DataStax = "DataStax",
+    /**
+     * date-fns
+     * @see https://date-fns.org
+     */
+    DateFns = "date-fns",
+    /**
+     * DATEV
+     * @see https://commons.wikimedia.org/wiki/File:Datev.svg
+     */
+    DATEV = "DATEV",
     /**
      * DatoCMS
      * @see https://www.datocms.com/company/brand-assets
@@ -2091,23 +3506,43 @@ export enum SimpleIcons {
      */
     Datto = "Datto",
     /**
+     * DaVinci Resolve
+     * @see https://www.blackmagicdesign.com/media/images/davinci-resolve-logo-square
+     */
+    DaVinciResolve = "DaVinci-Resolve",
+    /**
+     * Dazhong Dianping
+     * @see https://www.meituan.com/media
+     */
+    DazhongDianping = "Dazhong-Dianping",
+    /**
      * DAZN
      * @see https://media.dazn.com/en/assets/
      */
     DAZN = "DAZN",
     /**
+     * DBeaver
+     * @see https://dbeaver.com
+     */
+    DBeaver = "DBeaver",
+    /**
      * dblp
-     * @see https://dblp.org/
+     * @see https://dblp.org
      */
     Dblp = "dblp",
     /**
+     * dbt
+     * @see https://github.com/fishtown-analytics/dbt-styleguide/blob/a2895e005457eda531880dfde62f31959d42f18b/_includes/icons/logo.svg
+     */
+    Dbt = "dbt",
+    /**
      * DC Entertainment
-     * @see https://www.readdc.com/
+     * @see https://www.readdc.com
      */
     DCEntertainment = "DC-Entertainment",
     /**
      * De'Longhi
-     * @see https://www.delonghi.com/
+     * @see https://www.delonghi.com
      */
     De_Longhi = "De'Longhi",
     /**
@@ -2116,33 +3551,53 @@ export enum SimpleIcons {
      */
     Debian = "Debian",
     /**
+     * Decap CMS
+     * @see https://github.com/decaporg/decap-cms/blob/ba158f4a56d6d79869811971bc1bb0ef15197d30/website/static/img/decap-logo.svg
+     */
+    DecapCMS = "Decap-CMS",
+    /**
+     * Decentraland
+     * @see https://github.com/decentraland/catalyst/issues/1726#issuecomment-2078585173
+     */
+    Decentraland = "Decentraland",
+    /**
+     * DeepCool
+     * @see https://www.deepcool.com
+     */
+    DeepCool = "DeepCool",
+    /**
+     * Deepgram
+     * @see https://deepgram.com/company/newsroom
+     */
+    Deepgram = "Deepgram",
+    /**
      * deepin
      * @see https://commons.wikimedia.org/wiki/File:Deepin_logo.svg
      */
     Deepin = "deepin",
     /**
+     * DeepL
+     * @see https://www.deepl.com/press.html
+     */
+    DeepL = "DeepL",
+    /**
      * Deepnote
-     * @see https://deepnote.com/
+     * @see https://deepnote.com
      */
     Deepnote = "Deepnote",
     /**
-     * Deezer
-     * @see https://deezerbrand.com/
-     */
-    Deezer = "Deezer",
-    /**
      * del.icio.us
-     * @see http://del.icio.us/
+     * @see https://del.icio.us
      */
     Delicious = "delicious",
     /**
      * Deliveroo
-     * @see https://deliveroo.com/
+     * @see https://deliveroo.com
      */
     Deliveroo = "Deliveroo",
     /**
      * Dell
-     * @see https://www.dell.com/
+     * @see https://www.dell.com
      */
     Dell = "Dell",
     /**
@@ -2156,43 +3611,63 @@ export enum SimpleIcons {
      */
     Delta = "Delta",
     /**
+     * Deluge
+     * @see https://github.com/deluge-torrent/deluge/blob/0b5f45b486e8e974ba8a0b1d6e8edcd124fca62a/deluge/ui/data/pixmaps/deluge.svg
+     */
+    Deluge = "Deluge",
+    /**
      * Deno
-     * @see https://github.com/denoland/deno_website2/blob/892750b99cc260f8b1b2a4bcea59eab9101dd67c/public/logo.svg
+     * @see https://github.com/denoland/dotland/blob/f1ba74327b401b47de678f30d768ff9bf54494b6/public/logo.svg
      */
     Deno = "Deno",
     /**
+     * Denon
+     * @see https://www.denon.com
+     */
+    Denon = "Denon",
+    /**
      * Dependabot
-     * @see https://dependabot.com/
+     * @see https://dependabot.com
      */
     Dependabot = "Dependabot",
     /**
+     * Depositphotos
+     * @see https://blog.depositphotos.com
+     */
+    Depositphotos = "Depositphotos",
+    /**
      * Der Spiegel
-     * @see https://www.spiegel.de/
+     * @see https://www.spiegel.de
      */
     DerSpiegel = "Der-Spiegel",
     /**
-     * Designer News
-     * @see https://www.designernews.co
-     */
-    DesignerNews = "Designer-News",
-    /**
      * Deutsche Bahn
-     * @see https://www.bahn.de/
+     * @see https://www.bahn.de
      */
     DeutscheBahn = "Deutsche-Bahn",
     /**
      * Deutsche Bank
-     * @see https://www.db.com/
+     * @see https://www.db.com
      */
     DeutscheBank = "Deutsche-Bank",
     /**
+     * Deutsche Post
+     * @see https://www.deutschepost.de
+     */
+    DeutschePost = "Deutsche-Post",
+    /**
      * dev.to
-     * @see https://dev.to/
+     * @see https://dev.to
      */
     DevTo = "dev.to",
     /**
+     * DevExpress
+     * @see https://www.devexpress.com/aboutus/
+     */
+    DevExpress = "DevExpress",
+    /**
      * DeviantArt
-     * @see http://help.deviantart.com/21
+     * @see https://help.deviantart.com/21
      */
     DeviantArt = "DeviantArt",
     /**
@@ -2207,7 +3682,7 @@ export enum SimpleIcons {
     DevRant = "devRant",
     /**
      * Dgraph
-     * @see https://dgraph.io/
+     * @see https://dgraph.io
      */
     Dgraph = "Dgraph",
     /**
@@ -2222,7 +3697,7 @@ export enum SimpleIcons {
     DiagramsNet = "diagrams.net",
     /**
      * Dialogflow
-     * @see https://dialogflow.cloud.google.com/
+     * @see https://dialogflow.cloud.google.com
      */
     Dialogflow = "Dialogflow",
     /**
@@ -2231,13 +3706,18 @@ export enum SimpleIcons {
      */
     Diaspora = "Diaspora",
     /**
+     * Dictionary.com
+     * @see https://www.dictionary.com
+     */
+    DictionaryCom = "Dictionary.com",
+    /**
      * Digg
-     * @see https://digg.com/
+     * @see https://digg.com
      */
     Digg = "Digg",
     /**
      * Digi-Key Electronics
-     * @see https://www.digikey.com/
+     * @see https://www.digikey.com
      */
     DigiKeyElectronics = "Digi-Key-Electronics",
     /**
@@ -2246,13 +3726,18 @@ export enum SimpleIcons {
      */
     DigitalOcean = "DigitalOcean",
     /**
+     * Diners Club
+     * @see https://www.dinersclub.com/about-us/press
+     */
+    DinersClub = "Diners-Club",
+    /**
      * Dior
-     * @see https://www.dior.com/
+     * @see https://www.dior.com
      */
     Dior = "Dior",
     /**
      * Directus
-     * @see https://directus.io/
+     * @see https://directus.io
      */
     Directus = "Directus",
     /**
@@ -2262,12 +3747,12 @@ export enum SimpleIcons {
     Discogs = "Discogs",
     /**
      * Discord
-     * @see https://discord.com/brand-new/branding
+     * @see https://discord.com/branding
      */
     Discord = "Discord",
     /**
      * Discourse
-     * @see https://www.discourse.org/
+     * @see https://www.discourse.org
      */
     Discourse = "Discourse",
     /**
@@ -2282,37 +3767,77 @@ export enum SimpleIcons {
     Disqus = "Disqus",
     /**
      * Disroot
-     * @see https://git.fosscommunity.in/disroot/assests/blob/master/d.svg
+     * @see https://disroot.org/en
      */
     Disroot = "Disroot",
+    /**
+     * Distrokid
+     * @see https://distrokid.com/logo
+     */
+    Distrokid = "Distrokid",
     /**
      * Django
      * @see https://www.djangoproject.com/community/logos/
      */
     Django = "Django",
     /**
+     * DJI
+     * @see https://www.dji.com
+     */
+    DJI = "DJI",
+    /**
+     * Dlib
+     * @see https://github.com/davisking/dlib/blob/8a2c7442074339ac9ffceff6ef5a49e0114222b9/docs/docs/dlib-logo-and-icons.svg
+     */
+    Dlib = "Dlib",
+    /**
      * DLNA
-     * @see https://upload.wikimedia.org/wikipedia/de/e/eb/Digital_Living_Network_Alliance_logo.svg
+     * @see https://commons.wikimedia.org/wiki/File:DLNA_logo.svg
      */
     DLNA = "DLNA",
+    /**
+     * dm
+     * @see https://www.dm.de
+     */
+    Dm = "dm",
     /**
      * Docker
      * @see https://www.docker.com/company/newsroom/media-resources
      */
     Docker = "Docker",
     /**
-     * DocuSign
-     * @see https://github.com/simple-icons/simple-icons/issues/1098
+     * Docs.rs
+     * @see https://docs.rs
      */
-    DocuSign = "DocuSign",
+    DocsRs = "Docs.rs",
+    /**
+     * Docsify
+     * @see https://github.com/docsifyjs/docsify/blob/d01841fd9d829adeeae6cde1d5818ce8798c7e58/docs/_media/icon.svg
+     */
+    Docsify = "Docsify",
+    /**
+     * Doctrine
+     * @see https://www.doctrine-project.org
+     */
+    Doctrine = "Doctrine",
+    /**
+     * Docusaurus
+     * @see https://github.com/facebook/docusaurus/blob/67c40069d1062b5aae530b696e6f66bf9618a696/website/static/img/docusaurus.svg
+     */
+    Docusaurus = "Docusaurus",
     /**
      * Dogecoin
      * @see https://cryptologos.cc/dogecoin
      */
     Dogecoin = "Dogecoin",
     /**
+     * DOI
+     * @see https://www.doi.org/images/logos/header_logo_cropped.svg
+     */
+    DOI = "DOI",
+    /**
      * Dolby
-     * @see https://www.dolby.com/us/en/about/brand-identity.html
+     * @see https://www.dolby.com
      */
     Dolby = "Dolby",
     /**
@@ -2321,23 +3846,68 @@ export enum SimpleIcons {
      */
     DoorDash = "DoorDash",
     /**
+     * Dota 2
+     * @see https://commons.wikimedia.org/wiki/File:Dota_logo.svg
+     */
+    Dota2 = "Dota-2",
+    /**
      * Douban
-     * @see https://zh.wikipedia.org/wiki/Douban
+     * @see https://www.douban.com/about
      */
     Douban = "Douban",
+    /**
+     * Douban Read
+     * @see https://read.douban.com
+     */
+    DoubanRead = "Douban-Read",
+    /**
+     * Dovecot
+     * @see https://commons.wikimedia.org/wiki/File:Dovecot_logo.svg
+     */
+    Dovecot = "Dovecot",
+    /**
+     * Dovetail
+     * @see https://dovetail.com/help/press-kit
+     */
+    Dovetail = "Dovetail",
+    /**
+     * Doxygen
+     * @see https://github.com/doxygen/doxygen/blob/2e73e6a53abe00a57b7eb0ea5ed6474baf4ebab7/templates/html/doxygen.svg
+     */
+    Doxygen = "Doxygen",
+    /**
+     * DPD
+     * @see https://www.dpd.com
+     */
+    DPD = "DPD",
+    /**
+     * Dragonframe
+     * @see https://dragonframe.com
+     */
+    Dragonframe = "Dragonframe",
     /**
      * Draugiem.lv
      * @see https://www.frype.com/applications/dev/docs/logos/
      */
     DraugiemLv = "Draugiem.lv",
     /**
+     * Dreamstime
+     * @see https://www.dreamstime.com
+     */
+    Dreamstime = "Dreamstime",
+    /**
      * Dribbble
      * @see https://dribbble.com/branding
      */
     Dribbble = "Dribbble",
     /**
+     * Drizzle
+     * @see https://orm.drizzle.team
+     */
+    Drizzle = "Drizzle",
+    /**
      * Drone
-     * @see https://github.com/drone/brand
+     * @see https://github.com/drone/brand/tree/f3ba7a1ad3c35abfe9571ea9c3ea93dff9912955
      */
     Drone = "Drone",
     /**
@@ -2361,40 +3931,80 @@ export enum SimpleIcons {
      */
     DSAutomobiles = "DS-Automobiles",
     /**
+     * DTS
+     * @see https://xperi.com/brands/dts/
+     */
+    DTS = "DTS",
+    /**
      * DTube
      * @see https://about.d.tube/mediakit.html
      */
     DTube = "DTube",
     /**
+     * Ducati
+     * @see https://brandlogos.net/ducati-logo-vector-svg-92931.html
+     */
+    Ducati = "Ducati",
+    /**
+     * DuckDB
+     * @see https://duckdb.org
+     */
+    DuckDB = "DuckDB",
+    /**
      * DuckDuckGo
-     * @see https://duckduckgo.com/
+     * @see https://duckduckgo.com
      */
     DuckDuckGo = "DuckDuckGo",
     /**
+     * Dungeons & Dragons
+     * @see https://dnd.wizards.com/articles/features/basicrules
+     */
+    Dungeons__Dragons = "Dungeons-&-Dragons",
+    /**
      * Dunked
-     * @see https://dunked.com/
+     * @see https://dunked.com
      */
     Dunked = "Dunked",
     /**
+     * Dunzo
+     * @see https://www.dunzo.com
+     */
+    Dunzo = "Dunzo",
+    /**
      * Duolingo
-     * @see https://www.duolingo.com/
+     * @see https://design.duolingo.com
      */
     Duolingo = "Duolingo",
+    /**
+     * Duplicati
+     * @see https://duplicati.com
+     */
+    Duplicati = "Duplicati",
+    /**
+     * DVC
+     * @see https://iterative.ai/brand/
+     */
+    DVC = "DVC",
     /**
      * dwm
      * @see https://dwm.suckless.org
      */
     Dwm = "dwm",
     /**
-     * Dynamics 365
-     * @see http://thepartnerchannel.com/wp-content/uploads/Dynamics365_styleguide_092816.pdf
-     */
-    Dynamics365 = "Dynamics-365",
-    /**
      * Dynatrace
      * @see https://www.dynatrace.com/company/press-kit/
      */
     Dynatrace = "Dynatrace",
+    /**
+     * E.Leclerc
+     * @see https://www.e.leclerc/assets/images/sue-logo.svg
+     */
+    ELeclerc = "E.Leclerc",
+    /**
+     * E3
+     * @see https://commons.wikimedia.org/wiki/File:E3_Logo.svg
+     */
+    E3 = "E3",
     /**
      * EA
      * @see https://www.ea.com
@@ -2402,9 +4012,14 @@ export enum SimpleIcons {
     EA = "EA",
     /**
      * Eagle
-     * @see https://en.eagle.cool/
+     * @see https://en.eagle.cool
      */
     Eagle = "Eagle",
+    /**
+     * EasyEDA
+     * @see https://easyeda.com
+     */
+    EasyEDA = "EasyEDA",
     /**
      * easyJet
      * @see https://www.easyjet.com
@@ -2415,6 +4030,16 @@ export enum SimpleIcons {
      * @see https://go.developer.ebay.com/logos
      */
     EBay = "eBay",
+    /**
+     * EBOX
+     * @see https://www.ebox.ca
+     */
+    EBOX = "EBOX",
+    /**
+     * Eclipse Adoptium
+     * @see https://www.eclipse.org/org/artwork/
+     */
+    EclipseAdoptium = "Eclipse-Adoptium",
     /**
      * Eclipse Che
      * @see https://www.eclipse.org/che/
@@ -2441,18 +4066,38 @@ export enum SimpleIcons {
      */
     EclipseVertX = "Eclipse-Vert.x",
     /**
+     * Ecovacs
+     * @see https://www.ecovacs.com
+     */
+    Ecovacs = "Ecovacs",
+    /**
+     * EDEKA
+     * @see https://www.edeka.de
+     */
+    EDEKA = "EDEKA",
+    /**
+     * Edge Impulse
+     * @see https://edgeimpulse.com/branding
+     */
+    EdgeImpulse = "Edge-Impulse",
+    /**
      * EditorConfig
      * @see https://editorconfig.org
      */
     EditorConfig = "EditorConfig",
     /**
+     * Educative
+     * @see https://www.educative.io
+     */
+    Educative = "Educative",
+    /**
      * edX
-     * @see https://www.edx.org/
+     * @see https://www.edx.org
      */
     EdX = "edX",
     /**
      * egghead
-     * @see https://egghead.io/
+     * @see https://egghead.io
      */
     Egghead = "egghead",
     /**
@@ -2461,10 +4106,20 @@ export enum SimpleIcons {
      */
     Egnyte = "Egnyte",
     /**
+     * Eight
+     * @see https://8card.net/en
+     */
+    Eight = "Eight",
+    /**
      * Eight Sleep
      * @see https://www.eightsleep.com/press/
      */
     EightSleep = "Eight-Sleep",
+    /**
+     * EJS
+     * @see https://github.com/mde/ejs-site/blob/dd845093a46b373df42108b888a0ad80085a5c94/ejs.svg
+     */
+    EJS = "EJS",
     /**
      * El Jueves
      * @see https://www.eljueves.es
@@ -2491,13 +4146,33 @@ export enum SimpleIcons {
      */
     Elasticsearch = "Elasticsearch",
     /**
+     * Elavon
+     * @see https://www.elavon.com
+     */
+    Elavon = "Elavon",
+    /**
      * Electron
-     * @see https://www.electronjs.org/
+     * @see https://www.electronjs.org
      */
     Electron = "Electron",
     /**
+     * Electron Fiddle
+     * @see https://github.com/electron/fiddle/blob/19360ade76354240630e5660469b082128e1e57e/assets/icons/fiddle.svg
+     */
+    ElectronFiddle = "Electron-Fiddle",
+    /**
+     * electron-builder
+     * @see https://www.electron.build
+     */
+    ElectronBuilder = "electron-builder",
+    /**
+     * Elegoo
+     * @see https://www.elegoo.com/pages/download
+     */
+    Elegoo = "Elegoo",
+    /**
      * Element
-     * @see https://element.io/
+     * @see https://element.io
      */
     Element = "Element",
     /**
@@ -2506,13 +4181,23 @@ export enum SimpleIcons {
      */
     Elementary = "elementary",
     /**
+     * Elementor
+     * @see https://elementor.com/logos/
+     */
+    Elementor = "Elementor",
+    /**
      * Eleventy
-     * @see https://www.11ty.io
+     * @see https://www.11ty.dev
      */
     Eleventy = "Eleventy",
     /**
+     * Elgato
+     * @see https://www.elgato.com/en/media-room
+     */
+    Elgato = "Elgato",
+    /**
      * Elixir
-     * @see https://github.com/elixir-lang/elixir-lang.github.com/tree/master/images/logo
+     * @see https://github.com/elixir-lang/elixir-lang.github.com/tree/031746384ee23b9be19298c92a9699c56cc05845/images/logo
      */
     Elixir = "Elixir",
     /**
@@ -2536,13 +4221,18 @@ export enum SimpleIcons {
      */
     Embarcadero = "Embarcadero",
     /**
+     * Embark
+     * @see https://www.embark-studios.com/press
+     */
+    Embark = "Embark",
+    /**
      * Ember.js
      * @see https://emberjs.com/logos/
      */
     EmberJs = "Ember.js",
     /**
      * Emby
-     * @see https://emby.media/
+     * @see https://emby.media
      */
     Emby = "Emby",
     /**
@@ -2557,19 +4247,39 @@ export enum SimpleIcons {
     Emlakjet = "Emlakjet",
     /**
      * Empire Kred
-     * @see http://www.empire.kred
+     * @see https://www.empire.kred
      */
     EmpireKred = "Empire-Kred",
+    /**
+     * EndeavourOS
+     * @see https://github.com/endeavouros-team/endeavouros-theming/blob/135f642c980ed8d8fc212783eb478f96226f6c72/endeavouros-logo-text.svg
+     */
+    EndeavourOS = "EndeavourOS",
+    /**
+     * Engadget
+     * @see https://www.engadget.com
+     */
+    Engadget = "Engadget",
     /**
      * Enpass
      * @see https://www.enpass.io/press/
      */
     Enpass = "Enpass",
     /**
+     * EnterpriseDB
+     * @see https://www.enterprisedb.com
+     */
+    EnterpriseDB = "EnterpriseDB",
+    /**
      * Envato
-     * @see https://envato.com/
+     * @see https://envato.com
      */
     Envato = "Envato",
+    /**
+     * Envoy Proxy
+     * @see https://d33wubrfki0l68.cloudfront.net/6f16455dae972425b77c7e31642269b375ec250e/3bd11/img/envoy-logo.svg
+     */
+    EnvoyProxy = "Envoy-Proxy",
     /**
      * EPEL
      * @see https://fedoraproject.org/wiki/EPEL
@@ -2586,25 +4296,55 @@ export enum SimpleIcons {
      */
     Epson = "Epson",
     /**
+     * Equinix Metal
+     * @see https://metal.equinix.com
+     */
+    EquinixMetal = "Equinix-Metal",
+    /**
+     * Eraser
+     * @see https://www.eraser.io
+     */
+    Eraser = "Eraser",
+    /**
+     * Ericsson
+     * @see https://www.ericsson.com/en/newsroom/media-kits/logo
+     */
+    Ericsson = "Ericsson",
+    /**
      * Erlang
      * @see https://github.com/erlang/erlide_eclipse/blob/99d1d61fde8e32ef1630ca0e1b05a6822b3d6489/meta/media/erlang-logo.svg
      */
     Erlang = "Erlang",
     /**
+     * ERPNext
+     * @see https://github.com/frappe/erpnext/blob/924911e74317f95a59f29e9410d4f141020a0411/erpnext/public/images/erpnext-logo.svg
+     */
+    ERPNext = "ERPNext",
+    /**
+     * esbuild
+     * @see https://github.com/evanw/esbuild/blob/ac542f913908d7326b65eb2e01f0559ed135a40e/images/logo.svg
+     */
+    Esbuild = "esbuild",
+    /**
      * ESEA
-     * @see https://play.esea.net/
+     * @see https://play.esea.net
      */
     ESEA = "ESEA",
     /**
      * ESLGaming
-     * @see https://brand.eslgaming.com/
+     * @see https://brand.eslgaming.com
      */
     ESLGaming = "ESLGaming",
     /**
      * ESLint
-     * @see https://eslint.org/
+     * @see https://eslint.org
      */
     ESLint = "ESLint",
+    /**
+     * Esoteric Software
+     * @see https://esotericsoftware.com/forum/d/25405-sheildsio-branding
+     */
+    EsotericSoftware = "Esoteric-Software",
     /**
      * ESPHome
      * @see https://esphome.io
@@ -2612,14 +4352,29 @@ export enum SimpleIcons {
     ESPHome = "ESPHome",
     /**
      * Espressif
-     * @see https://www.espressif.com/
+     * @see https://www.espressif.com
      */
     Espressif = "Espressif",
+    /**
+     * ESRI
+     * @see https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview
+     */
+    ESRI = "ESRI",
+    /**
+     * etcd
+     * @see https://cncf-branding.netlify.app/projects/etcd/
+     */
+    Etcd = "etcd",
     /**
      * Ethereum
      * @see https://ethereum.org/en/assets/
      */
     Ethereum = "Ethereum",
+    /**
+     * Ethers
+     * @see https://docs.ethers.org/v6
+     */
+    Ethers = "Ethers",
     /**
      * Ethiopian Airlines
      * @see https://corporate.ethiopianairlines.com/media/Ethiopian-Factsheet
@@ -2637,7 +4392,7 @@ export enum SimpleIcons {
     Etsy = "Etsy",
     /**
      * Event Store
-     * @see https://github.com/eventstore/brand
+     * @see https://github.com/EventStore/Brand/tree/319d6f8dadc2881062917ea5a6dafa675775ea85
      */
     EventStore = "Event-Store",
     /**
@@ -2651,10 +4406,30 @@ export enum SimpleIcons {
      */
     Evernote = "Evernote",
     /**
+     * Excalidraw
+     * @see https://excalidraw.com
+     */
+    Excalidraw = "Excalidraw",
+    /**
      * Exercism
      * @see https://github.com/exercism/website-icons/blob/2ad12baa465acfaa74efc5da27a6a12f8b05e3d0/exercism/logo-icon.svg
      */
     Exercism = "Exercism",
+    /**
+     * Exordo
+     * @see https://www.exordo.com
+     */
+    Exordo = "Exordo",
+    /**
+     * Exoscale
+     * @see https://www.exoscale.com/press/
+     */
+    Exoscale = "Exoscale",
+    /**
+     * Expedia
+     * @see https://brandfolder.com/portals/brand-expedia
+     */
+    Expedia = "Expedia",
     /**
      * Expensify
      * @see https://use.expensify.com/press-kit
@@ -2662,12 +4437,12 @@ export enum SimpleIcons {
     Expensify = "Expensify",
     /**
      * Experts Exchange
-     * @see https://www.experts-exchange.com/
+     * @see https://www.experts-exchange.com
      */
     ExpertsExchange = "Experts-Exchange",
     /**
      * Expo
-     * @see http://expo.io/brand/
+     * @see https://expo.io/brand/
      */
     Expo = "Expo",
     /**
@@ -2676,13 +4451,18 @@ export enum SimpleIcons {
      */
     Express = "Express",
     /**
+     * ExpressVPN
+     * @see https://www.expressvpn.com/press
+     */
+    ExpressVPN = "ExpressVPN",
+    /**
      * EyeEm
-     * @see https://www.eyeem.com/
+     * @see https://www.eyeem.com
      */
     EyeEm = "EyeEm",
     /**
      * F-Droid
-     * @see https://f-droid.org/
+     * @see https://f-droid.org
      */
     FDroid = "F-Droid",
     /**
@@ -2691,8 +4471,23 @@ export enum SimpleIcons {
      */
     FSecure = "F-Secure",
     /**
+     * F#
+     * @see https://foundation.fsharp.org/logo
+     */
+    Fsharp = "fsharp",
+    /**
+     * F1
+     * @see https://www.formula1.com
+     */
+    F1 = "F1",
+    /**
+     * F5
+     * @see https://www.f5.com/company/news/press-kit
+     */
+    F5 = "F5",
+    /**
      * Facebook
-     * @see https://en.facebookbrand.com/
+     * @see https://about.meta.com/brand/resources/facebook/logo
      */
     Facebook = "Facebook",
     /**
@@ -2702,7 +4497,7 @@ export enum SimpleIcons {
     FacebookGaming = "Facebook-Gaming",
     /**
      * Facebook Live
-     * @see https://en.facebookbrand.com/
+     * @see https://en.facebookbrand.com
      */
     FacebookLive = "Facebook-Live",
     /**
@@ -2712,12 +4507,22 @@ export enum SimpleIcons {
     FACEIT = "FACEIT",
     /**
      * Facepunch
-     * @see https://facepunch.com/img/brand/default-light.svg
+     * @see https://sbox.facepunch.com/news
      */
     Facepunch = "Facepunch",
     /**
+     * Fairphone
+     * @see https://www.fairphone.com
+     */
+    Fairphone = "Fairphone",
+    /**
+     * Falco
+     * @see https://falco.org/community/falco-brand
+     */
+    Falco = "Falco",
+    /**
      * Falcon
-     * @see https://falconframework.org/
+     * @see https://falconframework.org
      */
     Falcon = "Falcon",
     /**
@@ -2732,17 +4537,37 @@ export enum SimpleIcons {
     Fandango = "Fandango",
     /**
      * Fandom
-     * @see https://fandomdesignsystem.com/identity/assets
+     * @see https://fandomdesignsystem.com
      */
     Fandom = "Fandom",
     /**
+     * Fanfou
+     * @see https://fanfou.com
+     */
+    Fanfou = "Fanfou",
+    /**
+     * Fantom
+     * @see https://fantom.foundation
+     */
+    Fantom = "Fantom",
+    /**
+     * Farcaster
+     * @see https://www.farcaster.xyz
+     */
+    Farcaster = "Farcaster",
+    /**
+     * FareHarbor
+     * @see https://help.fareharbor.com/about/logo
+     */
+    FareHarbor = "FareHarbor",
+    /**
      * FARFETCH
-     * @see https://www.farfetch.com/
+     * @see https://www.farfetch.com
      */
     FARFETCH = "FARFETCH",
     /**
      * FastAPI
-     * @see https://github.com/tiangolo/fastapi/blob/6205935323ded4767438ee81623892621b353415/docs/en/docs/img/icon-white.svg
+     * @see https://github.com/tiangolo/fastapi/blob/ffb4f77a11f83132b521ba0aac6c95792c19e797/docs/en/docs/img/icon-white.svg
      */
     FastAPI = "FastAPI",
     /**
@@ -2766,48 +4591,63 @@ export enum SimpleIcons {
      */
     Fathom = "Fathom",
     /**
+     * Fauna
+     * @see https://fauna.com
+     */
+    Fauna = "Fauna",
+    /**
      * Favro
      * @see https://favro.com/login
      */
     Favro = "Favro",
     /**
      * FeatHub
-     * @see http://feathub.com/
+     * @see https://feathub.com
      */
     FeatHub = "FeatHub",
     /**
      * FedEx
-     * @see https://newsroom.fedex.com/
+     * @see https://newsroom.fedex.com
      */
     FedEx = "FedEx",
     /**
      * Fedora
-     * @see https://fedoraproject.org/wiki/Logo/UsageGuidelines
+     * @see https://docs.fedoraproject.org/en-US/project/brand/
      */
     Fedora = "Fedora",
     /**
      * Feedly
-     * @see https://blog.feedly.com/
+     * @see https://blog.feedly.com
      */
     Feedly = "Feedly",
     /**
      * Ferrari
-     * @see https://www.ferrari.com/
+     * @see https://www.ferrari.com
      */
     Ferrari = "Ferrari",
     /**
      * Ferrari N.V.
-     * @see https://corporate.ferrari.com/
+     * @see https://corporate.ferrari.com
      */
     Ferrarinv = "ferrarinv",
+    /**
+     * FerretDB
+     * @see https://github.com/FerretDB/FerretDB/blob/1176606075dfe52225ce0cd1bbd0cd06128f8599/website/static/img/logo.svg
+     */
+    FerretDB = "FerretDB",
     /**
      * FFmpeg
      * @see https://commons.wikimedia.org/wiki/File:FFmpeg_Logo_new.svg
      */
     FFmpeg = "FFmpeg",
     /**
+     * Fi
+     * @see https://fi.money
+     */
+    Fi = "Fi",
+    /**
      * Fiat
-     * @see http://www.fcaci.com/x/FIATv15
+     * @see https://www.fcaci.com/x/FIATv15
      */
     Fiat = "Fiat",
     /**
@@ -2821,8 +4661,13 @@ export enum SimpleIcons {
      */
     FIFA = "FIFA",
     /**
+     * Fig
+     * @see https://fig.io/icons/fig.svg
+     */
+    Fig = "Fig",
+    /**
      * Figma
-     * @see https://brand.figma.com/icon.html
+     * @see https://www.figma.com/using-the-figma-brand/
      */
     Figma = "Figma",
     /**
@@ -2832,12 +4677,17 @@ export enum SimpleIcons {
     Figshare = "figshare",
     /**
      * Fila
-     * @see https://en.wikipedia.org/wiki/Fila_(company)
+     * @see https://www.fila.com
      */
     Fila = "Fila",
     /**
+     * File.io
+     * @see https://www.file.io
+     */
+    FileIo = "File.io",
+    /**
      * Files
-     * @see https://files.google.com/
+     * @see https://files.google.com
      */
     Files = "Files",
     /**
@@ -2846,15 +4696,30 @@ export enum SimpleIcons {
      */
     FileZilla = "FileZilla",
     /**
+     * Fineco
+     * @see https://finecobank.com
+     */
+    Fineco = "Fineco",
+    /**
      * Fing
-     * @see https://www.fing.com/
+     * @see https://www.fing.com
      */
     Fing = "Fing",
     /**
      * Firebase
-     * @see https://firebase.google.com/brand-guidelines/
+     * @see https://firebase.google.com/brand-guidelines
      */
     Firebase = "Firebase",
+    /**
+     * Firefish
+     * @see https://joinfirefish.org/about/#brand
+     */
+    Firefish = "Firefish",
+    /**
+     * Firefly III
+     * @see https://docs.firefly-iii.org/firefly-iii/more-information/logo
+     */
+    FireflyIII = "Firefly-III",
     /**
      * Firefox
      * @see https://mozilla.design/firefox/logos-usage/
@@ -2866,45 +4731,80 @@ export enum SimpleIcons {
      */
     FirefoxBrowser = "Firefox-Browser",
     /**
+     * Fireship
+     * @see https://github.com/fireship-io/fireship.io/blob/987da97305a5968b99347aa748f928a4667336f8/hugo/layouts/partials/svg/logo.svg
+     */
+    Fireship = "Fireship",
+    /**
+     * Firewalla
+     * @see https://github.com/firewalla/firewalla/blob/97f7463fe07b85b979a8f0738fdf14c1af0249a8/extension/diag/static/firewalla.svg
+     */
+    Firewalla = "Firewalla",
+    /**
      * FIRST
      * @see https://www.firstinspires.org/brand
      */
     FIRST = "FIRST",
     /**
+     * fish shell
+     * @see https://github.com/fish-shell/fish-site/blob/1364b2e794c9aba7492c8962bae0f7fbe4886317/artwork/ascii%20fish.eps
+     */
+    FishShell = "fish-shell",
+    /**
      * Fitbit
-     * @see http://www.fitbit.com/uk/home
+     * @see https://www.fitbit.com/uk/home
      */
     Fitbit = "Fitbit",
     /**
-     * FITE
-     * @see https://www.fite.tv/
+     * FiveM
+     * @see https://fivem.net
      */
-    FITE = "FITE",
+    FiveM = "FiveM",
     /**
      * Fiverr
      * @see https://www.fiverr.com/press-kit
      */
     Fiverr = "Fiverr",
     /**
+     * Fizz
+     * @see https://fizz.ca
+     */
+    Fizz = "Fizz",
+    /**
+     * Flashforge
+     * @see https://www.flashforge.com
+     */
+    Flashforge = "Flashforge",
+    /**
      * Flask
      * @see https://github.com/pallets/flask/blob/e6e75e55470a0682ee8370e6d68062e515a248b9/artwork/logo-full.svg
      */
     Flask = "Flask",
     /**
+     * Flat
+     * @see https://github.com/netless-io/flat/blob/525b2247f36e96ae2f9e6a39b4fe0967152305f2/desktop/renderer-app/src/assets/image/logo.svg
+     */
+    Flat = "Flat",
+    /**
      * Flathub
-     * @see https://flathub.org/
+     * @see https://flathub.org
      */
     Flathub = "Flathub",
     /**
-     * Flattr
-     * @see https://flattr.com/
+     * Flatpak
+     * @see https://flatpak.org/press
      */
-    Flattr = "Flattr",
+    Flatpak = "Flatpak",
     /**
      * Flickr
-     * @see https://www.flickr.com/
+     * @see https://www.flickr.com
      */
     Flickr = "Flickr",
+    /**
+     * Flightaware
+     * @see https://flightaware.com/about/logo
+     */
+    Flightaware = "Flightaware",
     /**
      * Flipboard
      * @see https://about.flipboard.com/brand-guidelines
@@ -2912,29 +4812,54 @@ export enum SimpleIcons {
     Flipboard = "Flipboard",
     /**
      * Flipkart
-     * @see https://www.flipkart.com/
+     * @see https://www.flipkart.com
      */
     Flipkart = "Flipkart",
     /**
      * Floatplane
-     * @see https://www.floatplane.com/
+     * @see https://www.floatplane.com
      */
     Floatplane = "Floatplane",
     /**
      * Flood
-     * @see https://flood.io/
+     * @see https://flood.io
      */
     Flood = "Flood",
+    /**
+     * Fluent Bit
+     * @see https://github.com/fluent/fluent-bit/blob/cdb35721d06242d66a729656282831ccd1589ca2/snap/fluent-bit.svg
+     */
+    FluentBit = "Fluent-Bit",
     /**
      * Fluentd
      * @see https://docs.fluentd.org/quickstart/logo
      */
     Fluentd = "Fluentd",
     /**
+     * Fluke
+     * @see https://www.fluke.com
+     */
+    Fluke = "Fluke",
+    /**
      * Flutter
      * @see https://flutter.dev/brand
      */
     Flutter = "Flutter",
+    /**
+     * Flux
+     * @see https://github.com/cncf/artwork/blob/c2e619cdf85e8bac090ceca7c0834c5cfedf9426/projects/flux/icon/black/flux-icon-black.svg
+     */
+    Flux = "Flux",
+    /**
+     * Fluxus
+     * @see https://github.com/YieldingFluxus/fluxuswebsite/blob/651d798b8753786dcc51644c3b048a4f399db166/public/icon-svg.svg
+     */
+    Fluxus = "Fluxus",
+    /**
+     * Flyway
+     * @see https://github.com/flyway/flywaydb.org/blob/8a7923cb9ead016442d4c5caf2e8ba5a9bfad5cf/assets/logo/flyway-logo.png
+     */
+    Flyway = "Flyway",
     /**
      * FMOD
      * @see https://www.fmod.com/attribution
@@ -2942,7 +4867,7 @@ export enum SimpleIcons {
     FMOD = "FMOD",
     /**
      * Fnac
-     * @see http://www.fnac.com/
+     * @see https://www.fnac.com
      */
     Fnac = "Fnac",
     /**
@@ -2951,15 +4876,30 @@ export enum SimpleIcons {
      */
     Folium = "Folium",
     /**
+     * Fonoma
+     * @see https://en.fonoma.com
+     */
+    Fonoma = "Fonoma",
+    /**
      * Font Awesome
-     * @see https://fontawesome.com/icons/font-awesome
+     * @see https://fontawesome.com
      */
     FontAwesome = "Font-Awesome",
     /**
      * FontBase
-     * @see https://fontba.se/
+     * @see https://fontba.se
      */
     FontBase = "FontBase",
+    /**
+     * FontForge
+     * @see https://fontforge.org
+     */
+    FontForge = "FontForge",
+    /**
+     * foobar2000
+     * @see https://hydrogenaud.io/index.php?topic=55604.0
+     */
+    Foobar2000 = "foobar2000",
     /**
      * foodpanda
      * @see https://www.foodpanda.com
@@ -2971,10 +4911,20 @@ export enum SimpleIcons {
      */
     Ford = "Ford",
     /**
-     * Forestry
-     * @see https://forestry.io/
+     * Forgejo
+     * @see https://codeberg.org/forgejo/meta/raw/branch/readme/branding/logo/forgejo-monochrome.svg
      */
-    Forestry = "Forestry",
+    Forgejo = "Forgejo",
+    /**
+     * Formik
+     * @see https://formik.org
+     */
+    Formik = "Formik",
+    /**
+     * Formspree
+     * @see https://formspree.io
+     */
+    Formspree = "Formspree",
     /**
      * Formstack
      * @see https://www.formstack.com/brand/guidelines
@@ -2982,7 +4932,7 @@ export enum SimpleIcons {
     Formstack = "Formstack",
     /**
      * Fortinet
-     * @see http://www.fortinet.com/
+     * @see https://www.fortinet.com
      */
     Fortinet = "Fortinet",
     /**
@@ -2997,17 +4947,32 @@ export enum SimpleIcons {
     Fossa = "Fossa",
     /**
      * Fossil SCM
-     * @see https://fossil-scm.org/
+     * @see https://fossil-scm.org
      */
     FossilSCM = "Fossil-SCM",
     /**
+     * Foundry Virtual Tabletop
+     * @see https://github.com/simple-icons/simple-icons/issues/5828#issuecomment-1977557112
+     */
+    FoundryVirtualTabletop = "Foundry-Virtual-Tabletop",
+    /**
      * Foursquare
-     * @see https://foursquare.com/about/logos
+     * @see https://foursquare.com/brand/
      */
     Foursquare = "Foursquare",
     /**
+     * Foursquare City Guide
+     * @see https://foursquare.com/about/logos
+     */
+    FoursquareCityGuide = "Foursquare-City-Guide",
+    /**
+     * FOX
+     * @see https://www.fox.com
+     */
+    FOX = "FOX",
+    /**
      * Foxtel
-     * @see https://www.foxtel.com.au/
+     * @see https://www.foxtel.com.au
      */
     Foxtel = "Foxtel",
     /**
@@ -3021,8 +4986,28 @@ export enum SimpleIcons {
      */
     Framer = "Framer",
     /**
+     * Framework
+     * @see https://frame.work
+     */
+    Framework = "Framework",
+    /**
+     * Framework7
+     * @see https://github.com/framework7io/framework7-website/blob/2a1e32290c795c2070ffc7019ba7276614e00de0/public/i/logo.svg
+     */
+    Framework7 = "Framework7",
+    /**
+     * Franprix
+     * @see https://www.franprix.fr
+     */
+    Franprix = "Franprix",
+    /**
+     * Frappe
+     * @see https://github.com/frappe/frappe/blob/1331fa6f721122805d15894fa3bd9eb90dccdca2/frappe/public/images/frappe-framework-logo.svg
+     */
+    Frappe = "Frappe",
+    /**
      * Fraunhofer-Gesellschaft
-     * @see https://www.fraunhofer.de/
+     * @see https://www.fraunhofer.de
      */
     FraunhoferGesellschaft = "Fraunhofer-Gesellschaft",
     /**
@@ -3031,8 +5016,13 @@ export enum SimpleIcons {
      */
     FreeBSD = "FreeBSD",
     /**
+     * FreeCAD
+     * @see https://www.freecad.org
+     */
+    FreeCAD = "FreeCAD",
+    /**
      * freeCodeCamp
-     * @see https://design-style-guide.freecodecamp.org/
+     * @see https://design-style-guide.freecodecamp.org
      */
     FreeCodeCamp = "freeCodeCamp",
     /**
@@ -3042,17 +5032,52 @@ export enum SimpleIcons {
     FreedesktopOrg = "freedesktop.org",
     /**
      * Freelancer
-     * @see https://www.freelancer.com/
+     * @see https://www.freelancer.com
      */
     Freelancer = "Freelancer",
+    /**
+     * freelancermap
+     * @see https://freelancermap.de
+     */
+    Freelancermap = "freelancermap",
     /**
      * FreeNAS
      * @see https://github.com/freenas/webui/blob/fd668f4c5920fe864fd98fa98e20fd333336c609/src/assets/images/logo.svg
      */
     FreeNAS = "FreeNAS",
     /**
+     * Freepik
+     * @see https://commons.wikimedia.org/wiki/File:Freepik.svg
+     */
+    Freepik = "Freepik",
+    /**
+     * Frontend Mentor
+     * @see https://www.frontendmentor.io
+     */
+    FrontendMentor = "Frontend-Mentor",
+    /**
+     * Frontify
+     * @see https://brand.frontify.com/d/7WQZazaZFkMz/brand-guidelines-1#/visual/logo
+     */
+    Frontify = "Frontify",
+    /**
+     * Fubo
+     * @see https://www.fubo.tv
+     */
+    Fubo = "Fubo",
+    /**
+     * Fueler
+     * @see https://fueler.io
+     */
+    Fueler = "Fueler",
+    /**
+     * Fuga Cloud
+     * @see https://fuga.cloud
+     */
+    FugaCloud = "Fuga-Cloud",
+    /**
      * Fujifilm
-     * @see https://upload.wikimedia.org/wikipedia/commons/a/a1/Fujifilm_logo.svg
+     * @see https://www.fujifilm.com
      */
     Fujifilm = "Fujifilm",
     /**
@@ -3061,8 +5086,13 @@ export enum SimpleIcons {
      */
     Fujitsu = "Fujitsu",
     /**
+     * Funimation
+     * @see https://www.funimation.com
+     */
+    Funimation = "Funimation",
+    /**
      * Fur Affinity
-     * @see https://www.furaffinity.net/
+     * @see https://www.furaffinity.net
      */
     FurAffinity = "Fur-Affinity",
     /**
@@ -3071,20 +5101,65 @@ export enum SimpleIcons {
      */
     FurryNetwork = "Furry-Network",
     /**
+     * FusionAuth
+     * @see https://fusionauth.io/brand-logo-guidelines
+     */
+    FusionAuth = "FusionAuth",
+    /**
      * FutureLearn
-     * @see https://www.futurelearn.com/
+     * @see https://www.futurelearn.com
      */
     FutureLearn = "FutureLearn",
+    /**
+     * G2
+     * @see https://www.g2.com
+     */
+    G2 = "G2",
     /**
      * G2A
      * @see https://www.g2a.co/documents/
      */
     G2A = "G2A",
     /**
+     * G2G
+     * @see https://hydron.holdings/media/media_kit
+     */
+    G2G = "G2G",
+    /**
+     * Galaxus
+     * @see https://www.galaxus.de
+     */
+    Galaxus = "Galaxus",
+    /**
+     * Game & Watch
+     * @see https://upload.wikimedia.org/wikipedia/commons/4/41/Game_and_watch_logo.svg
+     */
+    Game__Watch = "Game-&-Watch",
+    /**
+     * Game Developer
+     * @see https://www.gamedeveloper.com
+     */
+    GameDeveloper = "Game-Developer",
+    /**
      * Game Jolt
      * @see https://gamejolt.com/about
      */
     GameJolt = "Game-Jolt",
+    /**
+     * GameBanana
+     * @see https://gamebanana.com/tools/3474
+     */
+    GameBanana = "GameBanana",
+    /**
+     * Gameloft
+     * @see https://www.gameloft.com
+     */
+    Gameloft = "Gameloft",
+    /**
+     * Gamemaker
+     * @see https://gamemaker.io/en/legal/brand
+     */
+    Gamemaker = "Gamemaker",
     /**
      * Garmin
      * @see https://creative.garmin.com/styleguide/logo/
@@ -3092,7 +5167,7 @@ export enum SimpleIcons {
     Garmin = "Garmin",
     /**
      * Gatling
-     * @see https://gatling.io/
+     * @see https://gatling.io
      */
     Gatling = "Gatling",
     /**
@@ -3101,8 +5176,23 @@ export enum SimpleIcons {
      */
     Gatsby = "Gatsby",
     /**
+     * Gcore
+     * @see https://gcore.com
+     */
+    Gcore = "Gcore",
+    /**
+     * GDAL
+     * @see https://www.osgeo.org/projects/gdal/
+     */
+    GDAL = "GDAL",
+    /**
+     * Géant
+     * @see https://www.geantcasino.fr
+     */
+    G_ant = "Géant",
+    /**
      * GeeksforGeeks
-     * @see https://www.geeksforgeeks.org/
+     * @see https://www.geeksforgeeks.org
      */
     GeeksforGeeks = "GeeksforGeeks",
     /**
@@ -3131,10 +5221,25 @@ export enum SimpleIcons {
      */
     Geocaching = "Geocaching",
     /**
+     * Geode
+     * @see https://github.com/geode-sdk/website/blob/a6a6aa7eaad8ce699d0e050b2b0c1c0119f3624a/media/geode_logos.zip
+     */
+    Geode = "Geode",
+    /**
+     * GeoPandas
+     * @see https://geopandas.org
+     */
+    GeoPandas = "GeoPandas",
+    /**
      * Gerrit
      * @see https://gerrit-review.googlesource.com/c/75842/
      */
     Gerrit = "Gerrit",
+    /**
+     * GetX
+     * @see https://github.com/simple-icons/simple-icons/issues/5940#issuecomment-1821561714
+     */
+    GetX = "GetX",
     /**
      * Ghost
      * @see https://github.com/TryGhost/Admin/blob/e3e1fa3353767c3729b1658ad42cc35f883470c5/public/assets/icons/icon.svg
@@ -3142,7 +5247,7 @@ export enum SimpleIcons {
     Ghost = "Ghost",
     /**
      * Ghostery
-     * @see https://www.ghostery.com/
+     * @see https://www.ghostery.com
      */
     Ghostery = "Ghostery",
     /**
@@ -3151,13 +5256,18 @@ export enum SimpleIcons {
      */
     GIMP = "GIMP",
     /**
+     * Gin
+     * @see https://github.com/gin-gonic/logo/blob/eecb3150aa7ce5a77b97fd834276b2b6958eaa9d/wb.svg
+     */
+    Gin = "Gin",
+    /**
      * GIPHY
      * @see https://support.giphy.com/hc/en-us/articles/360022283772-GIPHY-Brand-Guidelines
      */
     GIPHY = "GIPHY",
     /**
      * Git
-     * @see http://git-scm.com/downloads/logos
+     * @see https://git-scm.com/downloads/logos
      */
     Git = "Git",
     /**
@@ -3166,15 +5276,25 @@ export enum SimpleIcons {
      */
     GitExtensions = "Git-Extensions",
     /**
+     * Git for Windows
+     * @see https://github.com/git-for-windows/git-for-windows.github.io/blob/db9a134ed0fd484568124c1f79cb011eddb9a21d/img/gwindows_logo.svg
+     */
+    GitForWindows = "Git-for-Windows",
+    /**
      * Git LFS
-     * @see https://git-lfs.github.com/
+     * @see https://git-lfs.github.com
      */
     GitLFS = "Git-LFS",
     /**
      * GitBook
-     * @see https://github.com/GitbookIO/styleguide/blob/c958388dab901defa3e22978ca01272295627e05/icons/Logo.svg
+     * @see https://www.gitbook.com
      */
     GitBook = "GitBook",
+    /**
+     * Gitconnected
+     * @see https://gitconnected.com/richard-hendricks-demo/resume
+     */
+    Gitconnected = "Gitconnected",
     /**
      * Gitea
      * @see https://github.com/go-gitea/gitea/blob/e0c753e770a64cda5e3900aa1da3d7e1f3263c9a/assets/logo.svg
@@ -3196,13 +5316,28 @@ export enum SimpleIcons {
      */
     GitHubActions = "GitHub-Actions",
     /**
+     * GitHub Copilot
+     * @see https://primer.style/foundations/icons/copilot-24
+     */
+    GitHubCopilot = "GitHub-Copilot",
+    /**
+     * GitHub Pages
+     * @see https://pages.github.com
+     */
+    GitHubPages = "GitHub-Pages",
+    /**
      * GitHub Sponsors
      * @see https://github.com/sponsors
      */
     GitHubSponsors = "GitHub-Sponsors",
     /**
+     * gitignore.io
+     * @see https://docs.gitignore.io/design/logo
+     */
+    GitignoreIo = "gitignore.io",
+    /**
      * GitKraken
-     * @see https://www.gitkraken.com/
+     * @see https://www.gitkraken.com
      */
     GitKraken = "GitKraken",
     /**
@@ -3212,24 +5347,39 @@ export enum SimpleIcons {
     GitLab = "GitLab",
     /**
      * Gitpod
-     * @see https://www.gitpod.io/
+     * @see https://www.gitpod.io
      */
     Gitpod = "Gitpod",
     /**
      * Gitter
-     * @see https://gitter.im/
+     * @see https://gitter.im
      */
     Gitter = "Gitter",
     /**
      * Glassdoor
-     * @see https://www.glassdoor.com/about-us/press/media-assets/
+     * @see https://www.glassdoor.com/about/newsroom
      */
     Glassdoor = "Glassdoor",
+    /**
+     * Glide
+     * @see https://brand.glide.page/dl/brand-assets
+     */
+    Glide = "Glide",
     /**
      * Glitch
      * @see https://glitch.com/about/press/
      */
     Glitch = "Glitch",
+    /**
+     * Globus
+     * @see https://www.globus.de
+     */
+    Globus = "Globus",
+    /**
+     * Glovo
+     * @see https://about.glovoapp.com/press
+     */
+    Glovo = "Glovo",
     /**
      * Gmail
      * @see https://fonts.gstatic.com/s/i/productlogos/gmail_2020q4/v8/192px.svg
@@ -3241,13 +5391,18 @@ export enum SimpleIcons {
      */
     GNOME = "GNOME",
     /**
+     * GNOME Terminal
+     * @see https://gitlab.gnome.org/GNOME/gnome-terminal/-/blob/9c32e039bfb7902c136dc7aed3308e027325776c/data/icons/hicolor_apps_scalable_org.gnome.Terminal.svg
+     */
+    GNOMETerminal = "GNOME-Terminal",
+    /**
      * GNU
      * @see https://gnu.org
      */
     GNU = "GNU",
     /**
      * GNU Bash
-     * @see https://github.com/odb/official-bash-logo
+     * @see https://github.com/odb/official-bash-logo/tree/61eff022f2dad3c7468f5deb4f06652d15f2c143
      */
     GNUBash = "GNU-Bash",
     /**
@@ -3276,6 +5431,11 @@ export enum SimpleIcons {
      */
     Go = "Go",
     /**
+     * GoCD
+     * @see https://www.gocd.org
+     */
+    GoCD = "GoCD",
+    /**
      * GoDaddy
      * @see https://godaddy.design/the-go/
      */
@@ -3287,7 +5447,7 @@ export enum SimpleIcons {
     GodotEngine = "Godot-Engine",
     /**
      * GoFundMe
-     * @see https://www.gofundme.com/
+     * @see https://www.gofundme.com
      */
     GoFundMe = "GoFundMe",
     /**
@@ -3296,10 +5456,25 @@ export enum SimpleIcons {
      */
     GOGCom = "GOG.com",
     /**
+     * Gojek
+     * @see https://gojek.com
+     */
+    Gojek = "Gojek",
+    /**
+     * GoLand
+     * @see https://www.jetbrains.com/company/brand/#logos-and-icons-jetbrains-logos
+     */
+    GoLand = "GoLand",
+    /**
      * GoldenLine
-     * @see http://www.goldenline.pl
+     * @see https://www.goldenline.pl
      */
     GoldenLine = "GoldenLine",
+    /**
+     * Goldman Sachs
+     * @see https://design.gs.com/brand/goldman-sachs-logo
+     */
+    GoldmanSachs = "Goldman-Sachs",
     /**
      * Goodreads
      * @see https://www.goodreads.com/about/press
@@ -3307,9 +5482,14 @@ export enum SimpleIcons {
     Goodreads = "Goodreads",
     /**
      * Google
-     * @see https://partnermarketinghub.withgoogle.com/
+     * @see https://partnermarketinghub.withgoogle.com
      */
     Google = "Google",
+    /**
+     * Google AdMob
+     * @see https://commons.wikimedia.org/wiki/File:Google_AdMob_logo.svg
+     */
+    GoogleAdMob = "Google-AdMob",
     /**
      * Google Ads
      * @see https://ads.google.com/home/
@@ -3326,55 +5506,120 @@ export enum SimpleIcons {
      */
     GoogleAnalytics = "Google-Analytics",
     /**
+     * Google Apps Script
+     * @see https://github.com/simple-icons/simple-icons/issues/3556#issuecomment-800482267
+     */
+    GoogleAppsScript = "Google-Apps-Script",
+    /**
      * Google Assistant
-     * @see https://assistant.google.com/
+     * @see https://assistant.google.com
      */
     GoogleAssistant = "Google-Assistant",
+    /**
+     * Google Authenticator
+     * @see https://commons.wikimedia.org/wiki/File:Google_Authenticator_(April_2023).svg
+     */
+    GoogleAuthenticator = "Google-Authenticator",
+    /**
+     * Google BigQuery
+     * @see https://cloud.google.com/icons
+     */
+    GoogleBigQuery = "Google-BigQuery",
+    /**
+     * Google Bigtable
+     * @see https://cloud.google.com/icons
+     */
+    GoogleBigtable = "Google-Bigtable",
     /**
      * Google Calendar
      * @see https://fonts.gstatic.com/s/i/productlogos/calendar_2020q4/v8/192px.svg
      */
     GoogleCalendar = "Google-Calendar",
     /**
+     * Google Campaign Manager 360
+     * @see https://developers.google.com/doubleclick-advertisers
+     */
+    GoogleCampaignManager360 = "Google-Campaign-Manager-360",
+    /**
      * Google Cardboard
      * @see https://arvr.google.com/cardboard/images/header/vr-home.svg
      */
     GoogleCardboard = "Google-Cardboard",
     /**
-     * Google Cast
-     * @see https://www.google.com/intl/en_us/chromecast/built-in/
-     */
-    GoogleCast = "Google-Cast",
-    /**
      * Google Chat
-     * @see https://chat.google.com/
+     * @see https://support.google.com/chat/answer/9455386
      */
     GoogleChat = "Google-Chat",
     /**
      * Google Chrome
-     * @see https://www.google.com/chrome/
+     * @see https://www.google.com/chrome
      */
     GoogleChrome = "Google-Chrome",
     /**
+     * Google Chronicle
+     * @see https://chronicle.security
+     */
+    GoogleChronicle = "Google-Chronicle",
+    /**
      * Google Classroom
-     * @see https://classroom.google.com/
+     * @see https://classroom.google.com
      */
     GoogleClassroom = "Google-Classroom",
     /**
      * Google Cloud
-     * @see https://cloud.google.com/
+     * @see https://cloud.google.com
      */
     GoogleCloud = "Google-Cloud",
+    /**
+     * Google Cloud Composer
+     * @see https://cloud.google.com/icons
+     */
+    GoogleCloudComposer = "Google-Cloud-Composer",
+    /**
+     * Google Cloud Spanner
+     * @see https://cloud.google.com/icons
+     */
+    GoogleCloudSpanner = "Google-Cloud-Spanner",
+    /**
+     * Google Cloud Storage
+     * @see https://cloud.google.com/icons
+     */
+    GoogleCloudStorage = "Google-Cloud-Storage",
     /**
      * Google Colab
      * @see https://colab.research.google.com
      */
     GoogleColab = "Google-Colab",
     /**
-     * Google Domains
-     * @see https://domains.google/
+     * Google Container Optimized OS
+     * @see https://cloud.google.com/icons
      */
-    GoogleDomains = "Google-Domains",
+    GoogleContainerOptimizedOS = "Google-Container-Optimized-OS",
+    /**
+     * Google Data Studio
+     * @see https://cloud.google.com/icons
+     */
+    GoogleDataStudio = "Google-Data-Studio",
+    /**
+     * Google Dataflow
+     * @see https://cloud.google.com/icons
+     */
+    GoogleDataflow = "Google-Dataflow",
+    /**
+     * Google Dataproc
+     * @see https://cloud.google.com/icons
+     */
+    GoogleDataproc = "Google-Dataproc",
+    /**
+     * Google Display & Video 360
+     * @see https://marketingplatform.google.com/about
+     */
+    GoogleDisplay__Video360 = "Google-Display-&-Video-360",
+    /**
+     * Google Docs
+     * @see https://www.google.com/docs/about
+     */
+    GoogleDocs = "Google-Docs",
     /**
      * Google Drive
      * @see https://developers.google.com/drive/web/branding
@@ -3386,28 +5631,43 @@ export enum SimpleIcons {
      */
     GoogleEarth = "Google-Earth",
     /**
+     * Google Earth Engine
+     * @see https://github.com/simple-icons/simple-icons/issues/8912#issuecomment-1638850020
+     */
+    GoogleEarthEngine = "Google-Earth-Engine",
+    /**
      * Google Fit
      * @see https://partnermarketinghub.withgoogle.com/brands/google-fit/
      */
     GoogleFit = "Google-Fit",
     /**
      * Google Fonts
-     * @see https://fonts.google.com/
+     * @see https://fonts.google.com
      */
     GoogleFonts = "Google-Fonts",
     /**
-     * Google Hangouts
-     * @see https://upload.wikimedia.org/wikipedia/commons/e/ee/Hangouts_icon.svg
+     * Google Forms
+     * @see https://about.google/products/#all-products
      */
-    GoogleHangouts = "Google-Hangouts",
+    GoogleForms = "Google-Forms",
+    /**
+     * Google Gemini
+     * @see https://gemini.google.com
+     */
+    GoogleGemini = "Google-Gemini",
+    /**
+     * Google Home
+     * @see https://home.google.com/welcome/
+     */
+    GoogleHome = "Google-Home",
     /**
      * Google Keep
-     * @see https://play.google.com/store/apps/details?id=com.google.android.keep
+     * @see https://about.google/brand-resource-center/logos-list/
      */
     GoogleKeep = "Google-Keep",
     /**
      * Google Lens
-     * @see https://lens.google.com/
+     * @see https://lens.google.com
      */
     GoogleLens = "Google-Lens",
     /**
@@ -3416,20 +5676,20 @@ export enum SimpleIcons {
      */
     GoogleMaps = "Google-Maps",
     /**
+     * Google Marketing Platform
+     * @see https://about.google/brand-resource-center/logos-list/
+     */
+    GoogleMarketingPlatform = "Google-Marketing-Platform",
+    /**
      * Google Meet
-     * @see https://meet.google.com/
+     * @see https://about.google/brand-resource-center/logos-list/
      */
     GoogleMeet = "Google-Meet",
     /**
      * Google Messages
-     * @see https://messages.google.com/
+     * @see https://messages.google.com
      */
     GoogleMessages = "Google-Messages",
-    /**
-     * Google My Business
-     * @see https://business.google.com/
-     */
-    GoogleMyBusiness = "Google-My-Business",
     /**
      * Google Nearby
      * @see https://developers.google.com/nearby/developer-guidelines
@@ -3440,11 +5700,6 @@ export enum SimpleIcons {
      * @see https://partnermarketinghub.withgoogle.com/brands/google-news/
      */
     GoogleNews = "Google-News",
-    /**
-     * Google Optimize
-     * @see https://marketingplatform.google.com/about/optimize/
-     */
-    GoogleOptimize = "Google-Optimize",
     /**
      * Google Pay
      * @see https://pay.google.com/intl/en_us/about/
@@ -3461,10 +5716,10 @@ export enum SimpleIcons {
      */
     GooglePlay = "Google-Play",
     /**
-     * Google Podcasts
-     * @see https://developers.google.com/search/docs/data-types/podcast
+     * Google Pub/Sub
+     * @see https://cloud.google.com/icons
      */
-    GooglePodcasts = "Google-Podcasts",
+    GooglePub_Sub = "Google-Pub/Sub",
     /**
      * Google Scholar
      * @see https://commons.wikimedia.org/wiki/File:Google_Scholar_logo.svg
@@ -3477,9 +5732,14 @@ export enum SimpleIcons {
     GoogleSearchConsole = "Google-Search-Console",
     /**
      * Google Sheets
-     * @see http://sheets.google.com/
+     * @see https://sheets.google.com
      */
     GoogleSheets = "Google-Sheets",
+    /**
+     * Google Slides
+     * @see https://slides.google.com
+     */
+    GoogleSlides = "Google-Slides",
     /**
      * Google Street View
      * @see https://developers.google.com/streetview/ready/branding
@@ -3491,23 +5751,38 @@ export enum SimpleIcons {
      */
     GoogleTagManager = "Google-Tag-Manager",
     /**
+     * Google Tasks
+     * @see https://assistant.google.com/tasks
+     */
+    GoogleTasks = "Google-Tasks",
+    /**
      * Google Translate
      * @see https://commons.wikimedia.org/wiki/File:Google_Translate_logo.svg
      */
     GoogleTranslate = "Google-Translate",
     /**
      * GoToMeeting
-     * @see https://www.gotomeeting.com/
+     * @see https://www.gotomeeting.com
      */
     GoToMeeting = "GoToMeeting",
+    /**
+     * Grab
+     * @see https://en.wikipedia.org/wiki/File:Grab_(application)_logo.svg
+     */
+    Grab = "Grab",
     /**
      * Gradle
      * @see https://gradle.com/brand
      */
     Gradle = "Gradle",
     /**
+     * Gradle Play Publisher
+     * @see https://github.com/Triple-T/gradle-play-publisher/blob/df4eadf1ca6b5bad50e21be0b21816722ed50342/assets/logo.svg
+     */
+    GradlePlayPublisher = "Gradle-Play-Publisher",
+    /**
      * Grafana
-     * @see https://grafana.com/
+     * @see https://grafana.com
      */
     Grafana = "Grafana",
     /**
@@ -3516,13 +5791,28 @@ export enum SimpleIcons {
      */
     Grammarly = "Grammarly",
     /**
+     * Grand Frais
+     * @see https://www.grandfrais.com
+     */
+    GrandFrais = "Grand-Frais",
+    /**
+     * GrapheneOS
+     * @see https://github.com/GrapheneOS/branding-extra/blob/5cc2e4b781345b89457d8ef814bd1aae56af289f/simple.svg
+     */
+    GrapheneOS = "GrapheneOS",
+    /**
+     * Graphite
+     * @see https://graphite.dev
+     */
+    Graphite = "Graphite",
+    /**
      * GraphQL
-     * @see https://github.com/graphql/artwork/blob/ac6ee2ac1cf31ba1be1b8fbc40910f0c70c98a1e/GraphQL/icon/GraphQL-mark-black.svg
+     * @see https://graphql.org/brand
      */
     GraphQL = "GraphQL",
     /**
      * Grav
-     * @see http://getgrav.org/media
+     * @see https://getgrav.org/media
      */
     Grav = "Grav",
     /**
@@ -3536,8 +5826,23 @@ export enum SimpleIcons {
      */
     Graylog = "Graylog",
     /**
+     * Greasy Fork
+     * @see https://github.com/JasonBarnabe/greasyfork/blob/bfeb5f405e03fb32ebc86df7e11c83ca1cb79ddb/misc/logos/logo512.xcf
+     */
+    GreasyFork = "Greasy-Fork",
+    /**
+     * Great Learning
+     * @see https://www.mygreatlearning.com
+     */
+    GreatLearning = "Great-Learning",
+    /**
+     * Greenhouse
+     * @see https://brand.greenhouse.io/brand-portal/p/6
+     */
+    Greenhouse = "Greenhouse",
+    /**
      * GreenSock
-     * @see https://greensock.com/
+     * @see https://greensock.com
      */
     GreenSock = "GreenSock",
     /**
@@ -3551,13 +5856,18 @@ export enum SimpleIcons {
      */
     Gridsome = "Gridsome",
     /**
+     * GroupMe
+     * @see https://groupme.com
+     */
+    GroupMe = "GroupMe",
+    /**
      * Groupon
      * @see https://about.groupon.com/press/
      */
     Groupon = "Groupon",
     /**
      * Grubhub
-     * @see https://www.grubhub.com/
+     * @see https://www.grubhub.com
      */
     Grubhub = "Grubhub",
     /**
@@ -3566,10 +5876,35 @@ export enum SimpleIcons {
      */
     Grunt = "Grunt",
     /**
+     * GSK
+     * @see https://www.gskbrandhub.com
+     */
+    GSK = "GSK",
+    /**
+     * GSMArena.com
+     * @see https://www.gsmarena.com
+     */
+    GSMArenaCom = "GSMArena.com",
+    /**
+     * GStreamer
+     * @see https://gstreamer.freedesktop.org/artwork
+     */
+    GStreamer = "GStreamer",
+    /**
+     * GTK
+     * @see https://commons.wikimedia.org/wiki/File:GTK_logo.svg
+     */
+    GTK = "GTK",
+    /**
      * Guangzhou Metro
      * @see https://commons.wikimedia.org/wiki/File:Guangzhou_Metro_logo.svg
      */
     GuangzhouMetro = "Guangzhou-Metro",
+    /**
+     * Guilded
+     * @see https://www.guilded.gg/brand
+     */
+    Guilded = "Guilded",
     /**
      * gulp
      * @see https://github.com/gulpjs/artwork/blob/4e14158817ac88e9a5c02b3b307e6f630fe222fb/gulp-white-text.svg
@@ -3577,7 +5912,7 @@ export enum SimpleIcons {
     Gulp = "gulp",
     /**
      * Gumroad
-     * @see https://gumroad.com/press
+     * @see https://gumroad.com
      */
     Gumroad = "Gumroad",
     /**
@@ -3586,13 +5921,38 @@ export enum SimpleIcons {
      */
     Gumtree = "Gumtree",
     /**
+     * Gunicorn
+     * @see https://github.com/benoitc/gunicorn/blob/ff58e0c6da83d5520916bc4cc109a529258d76e1/docs/logo/gunicorn.svg
+     */
+    Gunicorn = "Gunicorn",
+    /**
+     * Gurobi
+     * @see https://cdn.gurobi.com/wp-content/uploads/2021/02/Gurobi-Optimization_Corporate-Brochure.pdf
+     */
+    Gurobi = "Gurobi",
+    /**
+     * Gusto
+     * @see https://gusto.com
+     */
+    Gusto = "Gusto",
+    /**
      * Gutenberg
-     * @see https://github.com/WordPress/gutenberg/blob/master/docs/final-g-wapuu-black.svg
+     * @see https://github.com/WordPress/gutenberg/blob/7829913ae117dfb561d14c600eea7b281afd6556/docs/final-g-wapuu-black.svg
      */
     Gutenberg = "Gutenberg",
     /**
+     * H&M
+     * @see https://www2.hm.com/en_gb/index.html
+     */
+    H_M = "H&M",
+    /**
+     * H3
+     * @see https://github.com/uber/h3/blob/71e09dc002b211887c6db525609a449058233a71/website/static/images/h3Logo-color.svg
+     */
+    H3 = "H3",
+    /**
      * Habr
-     * @see https://kiosk.habr.com/
+     * @see https://kiosk.habr.com
      */
     Habr = "Habr",
     /**
@@ -3602,14 +5962,19 @@ export enum SimpleIcons {
     HackClub = "Hack-Club",
     /**
      * Hack The Box
-     * @see https://www.hackthebox.eu/docs/Hack_The_Box_Brand_Assets_Guide.pdf
+     * @see https://www.hackthebox.com/contact-us
      */
     HackTheBox = "Hack-The-Box",
     /**
      * Hackaday
-     * @see https://hackaday.com/
+     * @see https://hackaday.com
      */
     Hackaday = "Hackaday",
+    /**
+     * Hacker Noon
+     * @see https://sponsor.hackernoon.com/#brandasauthor
+     */
+    HackerNoon = "Hacker-Noon",
     /**
      * HackerEarth
      * @see https://www.hackerearth.com/logo/
@@ -3631,13 +5996,23 @@ export enum SimpleIcons {
      */
     Hackster = "Hackster",
     /**
+     * HAL
+     * @see https://www.ccsd.cnrs.fr/en/brand-guidelines
+     */
+    HAL = "HAL",
+    /**
+     * Handlebars.js
+     * @see https://github.com/handlebars-lang/docs/blob/13a2e2d9e31ebff4295924ea366abf3062e47ede/src/.vuepress/public/icons/handlebarsjs-icon.svg
+     */
+    HandlebarsJs = "Handlebars.js",
+    /**
      * Handshake
-     * @see https://joinhandshake.com/career-centers/marketing-toolkit/
+     * @see https://joinhandshake.com/career-centers/marketing-toolkit
      */
     Handshake = "Handshake",
     /**
      * Handshake
-     * @see https://handshake.org/
+     * @see https://handshake.org
      */
     HandshakeProtocol = "handshake_protocol",
     /**
@@ -3647,9 +6022,19 @@ export enum SimpleIcons {
     HappyCow = "HappyCow",
     /**
      * Harbor
-     * @see https://branding.cncf.io/projects/harbor/
+     * @see https://github.com/cncf/artwork/blob/ff2b2b5216e22f001ddd444ca580c484dd10302e/projects/harbor/icon/black/harbor-icon-black.svg
      */
     Harbor = "Harbor",
+    /**
+     * HarmonyOS
+     * @see https://www.harmonyos.com
+     */
+    HarmonyOS = "HarmonyOS",
+    /**
+     * HashiCorp
+     * @see https://www.hashicorp.com
+     */
+    HashiCorp = "HashiCorp",
     /**
      * Hashnode
      * @see https://hashnode.com/media
@@ -3662,17 +6047,17 @@ export enum SimpleIcons {
     Haskell = "Haskell",
     /**
      * Hasura
-     * @see https://github.com/hasura/graphql-engine/blob/5850423aa60594c06320c3ef600117c31963e910/assets/brand/hasura_icon_blue.svg
+     * @see https://github.com/hasura/graphql-engine/blob/5e2f5d470cdc2a7e59db7a3d5e94475a00bb2ac6/docs/static/img/logo.svg
      */
     Hasura = "Hasura",
     /**
      * Hatena Bookmark
-     * @see http://hatenacorp.jp/press/resource
+     * @see https://hatenacorp.jp/press/resource
      */
     HatenaBookmark = "Hatena-Bookmark",
     /**
      * haveibeenpwned
-     * @see https://haveibeenpwned.com/
+     * @see https://haveibeenpwned.com
      */
     Haveibeenpwned = "haveibeenpwned",
     /**
@@ -3682,7 +6067,7 @@ export enum SimpleIcons {
     Haxe = "Haxe",
     /**
      * HBO
-     * @see https://www.hbo.com/
+     * @see https://www.hbo.com
      */
     HBO = "HBO",
     /**
@@ -3691,18 +6076,53 @@ export enum SimpleIcons {
      */
     HCL = "HCL",
     /**
+     * HDFC Bank
+     * @see https://www.hdfcsales.com
+     */
+    HDFCBank = "HDFC-Bank",
+    /**
+     * Headless UI
+     * @see https://headlessui.dev
+     */
+    HeadlessUI = "Headless-UI",
+    /**
+     * Headphone Zone
+     * @see https://www.headphonezone.in
+     */
+    HeadphoneZone = "Headphone-Zone",
+    /**
      * Headspace
      * @see https://www.headspace.com/press-and-media
      */
     Headspace = "Headspace",
     /**
+     * Hearth
+     * @see https://www.gethearth.com
+     */
+    Hearth = "Hearth",
+    /**
+     * hearthis.at
+     * @see https://hearthis.at
+     */
+    HearthisAt = "hearthis.at",
+    /**
+     * Hedera
+     * @see https://hederabrandcentral.frontify.com/d/Tmocz52AXpLj/brand-assets#/brand-assets/brand-identity/our-hbar-logomark
+     */
+    Hedera = "Hedera",
+    /**
+     * Helium
+     * @see https://www.helium.com
+     */
+    Helium = "Helium",
+    /**
      * HelloFresh
-     * @see https://www.hellofresh.com/landing/student
+     * @see https://www.hellofreshgroup.com/en/newsroom/press-material/brand
      */
     HelloFresh = "HelloFresh",
     /**
      * Helly Hansen
-     * @see https://www.hellyhansen.com/
+     * @see https://www.hellyhansen.com
      */
     HellyHansen = "Helly-Hansen",
     /**
@@ -3711,10 +6131,20 @@ export enum SimpleIcons {
      */
     Helm = "Helm",
     /**
+     * Help Scout
+     * @see https://www.helpscout.com
+     */
+    HelpScout = "Help-Scout",
+    /**
      * HelpDesk
-     * @see https://helpdesk.design/
+     * @see https://helpdesk.design
      */
     HelpDesk = "HelpDesk",
+    /**
+     * Hepsiemlak
+     * @see https://www.hepsiemlak.com
+     */
+    Hepsiemlak = "Hepsiemlak",
     /**
      * HERE
      * @see https://www.here.com/company/media-assets
@@ -3722,29 +6152,54 @@ export enum SimpleIcons {
     HERE = "HERE",
     /**
      * Heroku
-     * @see https://brand.heroku.com/
+     * @see https://devcenter.heroku.com/articles/heroku-brand-guidelines#logos
      */
     Heroku = "Heroku",
     /**
+     * Hetzner
+     * @see https://www.hetzner.com
+     */
+    Hetzner = "Hetzner",
+    /**
+     * Hevy
+     * @see https://www.hevyapp.com
+     */
+    Hevy = "Hevy",
+    /**
+     * Hexlet
+     * @see https://hexlet.io
+     */
+    Hexlet = "Hexlet",
+    /**
      * Hexo
-     * @see https://hexo.io/
+     * @see https://hexo.io
      */
     Hexo = "Hexo",
     /**
      * HEY
-     * @see https://hey.com/
+     * @see https://hey.com
      */
     HEY = "HEY",
     /**
+     * Hi Bob
+     * @see https://www.hibob.com
+     */
+    HiBob = "Hi-Bob",
+    /**
      * Hibernate
-     * @see https://hibernate.org/
+     * @see https://hibernate.org
      */
     Hibernate = "Hibernate",
     /**
      * Hilton
-     * @see https://newsroom.hilton.com/hhr/page/logos
+     * @see https://www.hilton.com
      */
     Hilton = "Hilton",
+    /**
+     * Hilton Hotels & Resorts
+     * @see https://www.hilton.com/en/brands/hilton-hotels
+     */
+    HiltonHotels__Resorts = "Hilton-Hotels-&-Resorts",
     /**
      * Hitachi
      * @see https://commons.wikimedia.org/wiki/File:Hitachi_inspire_the_next-Logo.svg
@@ -3752,27 +6207,37 @@ export enum SimpleIcons {
     Hitachi = "Hitachi",
     /**
      * Hive
-     * @see https://www.hivehome.com/
+     * @see https://www.hivehome.com
      */
     Hive = "Hive",
     /**
      * Hive
-     * @see https://hive.io/brand/
+     * @see https://hive.io/brand
      */
     HiveBlockchain = "hive_blockchain",
     /**
+     * HiveMQ
+     * @see https://www.hivemq.com
+     */
+    HiveMQ = "HiveMQ",
+    /**
+     * Homarr
+     * @see https://github.com/ajnart/homarr/blob/2bf423132d9077d371d254e577fc57037a31ac4b/public/imgs/favicon/favicon.svg
+     */
+    Homarr = "Homarr",
+    /**
      * Home Assistant
-     * @see https://github.com/home-assistant/assets/blob/1e19f0dca208f0876b274c68345fcf989de7377a/logo/logo-small.png
+     * @see https://github.com/home-assistant/assets/blob/0f69676da79c3881e7dfca6d6c0a5739f88273d8/logo/home-assistant-logo.zip
      */
     HomeAssistant = "Home-Assistant",
     /**
      * Home Assistant Community Store
-     * @see https://hacs.xyz/
+     * @see https://hacs.xyz
      */
     HomeAssistantCommunityStore = "Home-Assistant-Community-Store",
     /**
      * HomeAdvisor
-     * @see https://www.homeadvisor.com/
+     * @see https://www.homeadvisor.com
      */
     HomeAdvisor = "HomeAdvisor",
     /**
@@ -3786,35 +6251,65 @@ export enum SimpleIcons {
      */
     Homebridge = "Homebridge",
     /**
+     * Homepage
+     * @see https://github.com/gethomepage/homepage/blob/e56dccc7f17144a53b97a315c2e4f622fa07e58d/public/safari-pinned-tab.svg
+     */
+    Homepage = "Homepage",
+    /**
      * homify
      * @see https://www.homify.com
      */
     Homify = "homify",
     /**
      * Honda
-     * @see https://www.honda.ie/
+     * @see https://www.honda.ie
      */
     Honda = "Honda",
     /**
+     * Honey
+     * @see https://www.joinhoney.com
+     */
+    Honey = "Honey",
+    /**
+     * Hono
+     * @see https://github.com/honojs/hono/blob/76dbc74407329c46870af6aa4fab0c04036d8ae2/docs/images/hono-logo.svg
+     */
+    Hono = "Hono",
+    /**
+     * Honor
+     * @see https://www.hihonor.com
+     */
+    Honor = "Honor",
+    /**
      * Hootsuite
-     * @see https://hootsuite.widencollective.com/portals/bafpk5oo/MediaKitAssets/c/b9e3a7bb-aca7-48d7-90ed-cff5898aafd0
+     * @see https://hootsuite.widencollective.com/portals/bafpk5oo/bafpk5oo/MediaKitAssets/c/b9e3a7bb-aca7-48d7-90ed-cff5898aafd0
      */
     Hootsuite = "Hootsuite",
     /**
      * Hoppscotch
-     * @see https://github.com/hoppscotch/hoppscotch/blob/77862cdf9bd902a4ea64bd8b2301ed2206820649/static/images/ufo_logo.svg
+     * @see https://hoppscotch.com
      */
     Hoppscotch = "Hoppscotch",
     /**
+     * Hostinger
+     * @see https://www.hostinger.com/newsroom
+     */
+    Hostinger = "Hostinger",
+    /**
      * Hotels.com
-     * @see https://en.wikipedia.org/wiki/File:Hotels.com_logo.svg
+     * @see https://www.hotels.com
      */
     HotelsCom = "Hotels.com",
     /**
      * Hotjar
-     * @see https://www.hotjar.com/
+     * @see https://www.hotjar.com
      */
     Hotjar = "Hotjar",
+    /**
+     * Hotwire
+     * @see https://hotwired.dev
+     */
+    Hotwire = "Hotwire",
     /**
      * Houdini
      * @see https://www.sidefx.com/products/houdini/
@@ -3827,19 +6322,39 @@ export enum SimpleIcons {
     Houzz = "Houzz",
     /**
      * HP
-     * @see https://brandcentral.ext.hp.com/login
+     * @see https://brandcentral.hp.com/us/en/elements/hp-logo.html
      */
     HP = "HP",
     /**
+     * HSBC
+     * @see https://www.hsbc.com
+     */
+    HSBC = "HSBC",
+    /**
      * HTML Academy
-     * @see https://htmlacademy.ru/
+     * @see https://htmlacademy.ru
      */
     HTMLAcademy = "HTML-Academy",
     /**
      * HTML5
-     * @see http://www.w3.org/html/logo/
+     * @see https://www.w3.org/html/logo/
      */
     HTML5 = "HTML5",
+    /**
+     * htmx
+     * @see https://github.com/bigskysoftware/htmx/blob/f690d928342b6334fa539cfbd4be515748d2ba0f/www/static/img/htmx_logo.2.png
+     */
+    Htmx = "htmx",
+    /**
+     * htop
+     * @see https://github.com/htop-dev/htop/blob/03d5e4746f53bd07daf68638d714a7fec336297b/htop.svg
+     */
+    Htop = "htop",
+    /**
+     * HTTPie
+     * @see https://github.com/httpie/httpie/blob/d262181bede5241a6b692c3245a77e2eb02bc262/docs/httpie-logo.svg
+     */
+    HTTPie = "HTTPie",
     /**
      * Huawei
      * @see https://e.huawei.com/ph/material/partner/0a72728b864949c48b22106454352483
@@ -3851,15 +6366,15 @@ export enum SimpleIcons {
      */
     HubSpot = "HubSpot",
     /**
+     * Hugging Face
+     * @see https://huggingface.co/brand
+     */
+    HuggingFace = "Hugging-Face",
+    /**
      * Hugo
-     * @see https://gohugo.io/
+     * @see https://gohugo.io
      */
     Hugo = "Hugo",
-    /**
-     * Hulu
-     * @see https://thisis.hulu.com/
-     */
-    Hulu = "Hulu",
     /**
      * Humble Bundle
      * @see https://support.humblebundle.com/hc/en-us/articles/202742060-Bundle-Logos
@@ -3867,42 +6382,52 @@ export enum SimpleIcons {
     HumbleBundle = "Humble-Bundle",
     /**
      * Hungry Jack's
-     * @see https://www.hungryjacks.com.au/
+     * @see https://www.hungryjacks.com.au
      */
     HungryJack_s = "Hungry-Jack's",
     /**
-     * Hurriyetemlak
-     * @see https://ilan.hurriyetemlak.com/emlak-ilani-yayinlama-kurallari
-     */
-    Hurriyetemlak = "Hurriyetemlak",
-    /**
      * Husqvarna
-     * @see https://www.husqvarna.com/uk/catalogues/
+     * @see https://www.husqvarna.com
      */
     Husqvarna = "Husqvarna",
     /**
      * Hyper
-     * @see https://hyper.is/
+     * @see https://hyper.is
      */
     Hyper = "Hyper",
     /**
-     * Hyperledger
-     * @see https://www.hyperledger.org/
+     * Hyperskill
+     * @see https://hyperskill.org
      */
-    Hyperledger = "Hyperledger",
+    Hyperskill = "Hyperskill",
     /**
      * Hypothesis
      * @see https://web.hypothes.is/brand/
      */
     Hypothesis = "Hypothesis",
     /**
+     * Hyprland
+     * @see https://hyprland.org
+     */
+    Hyprland = "Hyprland",
+    /**
      * Hyundai
-     * @see https://en.wikipedia.org/wiki/File:Hyundai_Motor_Company_logo.svg
+     * @see https://www.hyundai.com
      */
     Hyundai = "Hyundai",
     /**
+     * i18next
+     * @see https://github.com/i18next/i18next-gitbook/blob/32efcfd9c59ae55cc63a60e633dbc1651c7950ad/assets/img/logo.svg
+     */
+    I18next = "i18next",
+    /**
+     * i3
+     * @see https://github.com/i3/i3/blob/d6e2a38b5cdf200c0fb82fc4cf7fff7dbcdeb605/logo.svg
+     */
+    I3 = "i3",
+    /**
      * Iata
-     * @see https://upload.wikimedia.org/wikipedia/commons/f/f7/IATAlogo.svg
+     * @see https://commons.wikimedia.org/wiki/File:IATAlogo.svg
      */
     Iata = "Iata",
     /**
@@ -3911,15 +6436,25 @@ export enum SimpleIcons {
      */
     IBeacon = "iBeacon",
     /**
-     * IBM
-     * @see https://www.ibm.com/design/language/ibm-logos/8-bar/
+     * Iberia
+     * @see https://iberia.com
      */
-    IBM = "IBM",
+    Iberia = "Iberia",
     /**
-     * IBM Watson
-     * @see https://www.ibm.com/brand/systems/watson/brand/
+     * Iced
+     * @see https://iced.rs
      */
-    IBMWatson = "IBM-Watson",
+    Iced = "Iced",
+    /**
+     * Iceland
+     * @see https://www.iceland.co.uk
+     */
+    Iceland = "Iceland",
+    /**
+     * ICICI Bank
+     * @see https://www.icicibank.com/ms/aboutus/annual-reports/2022-23/icici/assets/images/home-page/logo.svg
+     */
+    ICICIBank = "ICICI-Bank",
     /**
      * Icinga
      * @see https://github.com/Icinga/icingaweb2/blob/293021b2000e9d459387153ca5690f97e0184aaa/public/img/icinga-logo-compact.svg
@@ -3932,7 +6467,7 @@ export enum SimpleIcons {
     ICloud = "iCloud",
     /**
      * IcoMoon
-     * @see https://icomoon.io/
+     * @see https://icomoon.io
      */
     IcoMoon = "IcoMoon",
     /**
@@ -3947,14 +6482,19 @@ export enum SimpleIcons {
     Iconfinder = "Iconfinder",
     /**
      * Iconify
-     * @see https://iconify.design/
+     * @see https://iconify.design
      */
     Iconify = "Iconify",
     /**
      * IconJar
-     * @see https://geticonjar.com/
+     * @see https://geticonjar.com
      */
     IconJar = "IconJar",
+    /**
+     * Icons8
+     * @see https://icons8.com
+     */
+    Icons8 = "Icons8",
     /**
      * ICQ
      * @see https://commons.wikimedia.org/wiki/File:ICQNewlogo.svg
@@ -3967,12 +6507,12 @@ export enum SimpleIcons {
     IEEE = "IEEE",
     /**
      * iFixit
-     * @see https://www.ifixit.com/
+     * @see https://www.ifixit.com
      */
     IFixit = "iFixit",
     /**
      * iFood
-     * @see https://ifood.com.br/
+     * @see https://ifood.com.br
      */
     IFood = "iFood",
     /**
@@ -3981,15 +6521,35 @@ export enum SimpleIcons {
      */
     IFTTT = "IFTTT",
     /**
+     * IGDB
+     * @see https://commons.wikimedia.org/wiki/File:IGDB_logo.svg
+     */
+    IGDB = "IGDB",
+    /**
+     * IGN
+     * @see https://www.ign.com
+     */
+    IGN = "IGN",
+    /**
      * iHeartRadio
      * @see https://brand.iheart.com/logo
      */
     IHeartRadio = "iHeartRadio",
     /**
      * IKEA
-     * @see https://www.ikea.com/
+     * @see https://www.ikea.com
      */
     IKEA = "IKEA",
+    /**
+     * Île-de-France Mobilités
+     * @see https://www.iledefrance-mobilites.fr
+     */
+    _leDeFranceMobilit_s = "Île-de-France-Mobilités",
+    /**
+     * Image.sc
+     * @see https://forum.image.sc
+     */
+    ImageSc = "Image.sc",
     /**
      * ImageJ
      * @see https://github.com/imagej/imagej/blob/0667395bcac20e5d7a371ac9f468522c74367d59/logo/inkscape_image_logo_src.svg
@@ -4001,6 +6561,11 @@ export enum SimpleIcons {
      */
     IMDb = "IMDb",
     /**
+     * iMessage
+     * @see https://commons.wikimedia.org/wiki/File:IMessage_logo.svg
+     */
+    IMessage = "iMessage",
+    /**
      * Imgur
      * @see https://imgurinc.com/press
      */
@@ -4011,28 +6576,68 @@ export enum SimpleIcons {
      */
     Immer = "Immer",
     /**
+     * Immich
+     * @see https://github.com/immich-app/immich/blob/25c9b779e4d19bc34551f8b137266a459e0d70e1/design/immich-logo.svg
+     */
+    Immich = "Immich",
+    /**
      * Imou
      * @see https://www.imoulife.com/support/download/userManual
      */
     Imou = "Imou",
+    /**
+     * ImprovMX
+     * @see https://improvmx.com
+     */
+    ImprovMX = "ImprovMX",
     /**
      * Indeed
      * @see https://indeed.design/resources
      */
     Indeed = "Indeed",
     /**
-     * Infiniti
-     * @see https://www.infinitiusa.com
+     * Indian Super League
+     * @see https://indiansuperleague.com
      */
-    Infiniti = "Infiniti",
+    IndianSuperLeague = "Indian-Super-League",
+    /**
+     * Indie Hackers
+     * @see https://www.indiehackers.com
+     */
+    IndieHackers = "Indie-Hackers",
+    /**
+     * IndiGo
+     * @see https://www.goindigo.in
+     */
+    IndiGo = "IndiGo",
+    /**
+     * Inertia
+     * @see https://inertiajs.com
+     */
+    Inertia = "Inertia",
+    /**
+     * INFINITI
+     * @see https://www.infiniti.com
+     */
+    INFINITI = "INFINITI",
     /**
      * InfluxDB
      * @see https://influxdata.github.io/branding/logo/downloads/
      */
     InfluxDB = "InfluxDB",
     /**
+     * Infomaniak
+     * @see https://www.infomaniak.com/en/about/press
+     */
+    Infomaniak = "Infomaniak",
+    /**
+     * InfoQ
+     * @see https://www.infoq.com
+     */
+    InfoQ = "InfoQ",
+    /**
      * Informatica
-     * @see https://www.informatica.com/
+     * @see https://www.informatica.com
      */
     Informatica = "Informatica",
     /**
@@ -4041,20 +6646,45 @@ export enum SimpleIcons {
      */
     Infosys = "Infosys",
     /**
+     * Infracost
+     * @see https://www.infracost.io/img/logo.svg
+     */
+    Infracost = "Infracost",
+    /**
      * Ingress
-     * @see https://ingress.com/assets/fonts/ingress_icons.woff
+     * @see https://ingress.com
      */
     Ingress = "Ingress",
+    /**
+     * Inkdrop
+     * @see https://site-cdn.inkdrop.app/site/icons/inkdrop-icon.svg
+     */
+    Inkdrop = "Inkdrop",
     /**
      * Inkscape
      * @see https://inkscape.org/gallery/=inkscape-branding/inkscape-brand-assets/
      */
     Inkscape = "Inkscape",
     /**
+     * Inoreader
+     * @see https://www.inoreader.com/brand-portal
+     */
+    Inoreader = "Inoreader",
+    /**
      * Insomnia
-     * @see https://insomnia.rest/
+     * @see https://insomnia.rest
      */
     Insomnia = "Insomnia",
+    /**
+     * INSPIRE
+     * @see https://inspirehep.net
+     */
+    INSPIRE = "INSPIRE",
+    /**
+     * Insta360
+     * @see https://www.insta360.com/press/logo
+     */
+    Insta360 = "Insta360",
     /**
      * Instacart
      * @see https://www.instacart.com/press
@@ -4062,24 +6692,29 @@ export enum SimpleIcons {
     Instacart = "Instacart",
     /**
      * Instagram
-     * @see https://en.facebookbrand.com/instagram/
+     * @see https://about.meta.com/brand/resources/instagram
      */
     Instagram = "Instagram",
     /**
      * Instapaper
-     * @see https://www.instapaper.com/
+     * @see https://www.instapaper.com
      */
     Instapaper = "Instapaper",
+    /**
+     * Instatus
+     * @see https://www.instatus.com
+     */
+    Instatus = "Instatus",
     /**
      * Instructables
      * @see https://www.instructables.com/community/Official-Instructables-Logos-1/
      */
     Instructables = "Instructables",
     /**
-     * Integromat
-     * @see https://www.integromat.com
+     * Instructure
+     * @see https://www.instructure.com/about/brand-guide/download-logos
      */
-    Integromat = "Integromat",
+    Instructure = "Instructure",
     /**
      * Intel
      * @see https://www.intel.com/content/www/us/en/newsroom/resources/press-kits-intel-overview.html
@@ -4091,28 +6726,53 @@ export enum SimpleIcons {
      */
     IntelliJIDEA = "IntelliJ-IDEA",
     /**
+     * Interaction Design Foundation
+     * @see https://www.interaction-design.org
+     */
+    InteractionDesignFoundation = "Interaction-Design-Foundation",
+    /**
+     * InteractJS
+     * @see https://github.com/taye/interact.js/blob/603c34d4b34dece8a260381e2e5991b810d6d739/img/ijs-icon.svg
+     */
+    InteractJS = "InteractJS",
+    /**
+     * Interbase
+     * @see https://www.embarcadero.com/news/logo
+     */
+    Interbase = "Interbase",
+    /**
      * Intercom
      * @see https://www.intercom.com/press
      */
     Intercom = "Intercom",
     /**
+     * Intermarche
+     * @see https://www.intermarche.com
+     */
+    Intermarche = "Intermarche",
+    /**
      * Internet Archive
-     * @see https://archive.org/
+     * @see https://archive.org
      */
     InternetArchive = "Internet-Archive",
     /**
-     * Internet Explorer
-     * @see https://compass-ssl.microsoft.com/assets/c8/67/c867db4c-f328-45b8-817c-33834c70aae6.svg?n=IE.svg
+     * Internet Computer
+     * @see https://dfinity.frontify.com/d/pD7yZhsmpqos/internet-computer#/internet-computer/logo
      */
-    InternetExplorer = "Internet-Explorer",
+    InternetComputer = "Internet-Computer",
     /**
      * Intigriti
-     * @see https://www.intigriti.com/
+     * @see https://www.intigriti.com
      */
     Intigriti = "Intigriti",
     /**
+     * Intuit
+     * @see https://www.intuit.com
+     */
+    Intuit = "Intuit",
+    /**
      * InVision
-     * @see https://www.invisionapp.com/news
+     * @see https://www.invisionapp.com/resources/brand
      */
     InVision = "InVision",
     /**
@@ -4131,6 +6791,11 @@ export enum SimpleIcons {
      */
     Ionic = "Ionic",
     /**
+     * Ionos
+     * @see https://www.ionos.de
+     */
+    Ionos = "Ionos",
+    /**
      * iOS
      * @see https://en.wikipedia.org/wiki/IOS
      */
@@ -4142,27 +6807,57 @@ export enum SimpleIcons {
     IOTA = "IOTA",
     /**
      * IPFS
-     * @see https://github.com/ipfs/logo
+     * @see https://github.com/ipfs-inactive/logo/tree/73169b495332415b174ac2f37ec27c4b2ee8da83
      */
     IPFS = "IPFS",
+    /**
+     * IRIS
+     * @see https://www.iris.co.uk
+     */
+    IRIS = "IRIS",
+    /**
+     * iRobot
+     * @see https://www.irobot.com
+     */
+    IRobot = "iRobot",
+    /**
+     * ISC2
+     * @see https://www.isc2.org
+     */
+    ISC2 = "ISC2",
     /**
      * Issuu
      * @see https://issuu.com/press
      */
     Issuu = "Issuu",
     /**
+     * Istio
+     * @see https://github.com/istio/istio/blob/5a047251817eb2523af297607b7614120812e47a/logo/istio-bluelogo-whitebackground-unframed.svg
+     */
+    Istio = "Istio",
+    /**
      * Itch.io
      * @see https://itch.io/press-kit
      */
     ItchIo = "Itch.io",
     /**
+     * iTerm2
+     * @see https://github.com/gnachman/iTerm2/blob/6a857f3f5872eb1465ddc0dd83412015991e79ae/images/AppIcon/iTermIcon.sketch
+     */
+    ITerm2 = "iTerm2",
+    /**
      * iTunes
-     * @see https://upload.wikimedia.org/wikipedia/commons/d/df/ITunes_logo.svg
+     * @see https://commons.wikimedia.org/wiki/File:ITunes_logo.svg
      */
     ITunes = "iTunes",
     /**
+     * ITVx
+     * @see https://www.itvmedia.co.uk
+     */
+    ITVx = "ITVx",
+    /**
      * IVECO
-     * @see https://www.iveco.com/germany/Pages/Home-page.aspx
+     * @see https://www.iveco.com/global/welcome
      */
     IVECO = "IVECO",
     /**
@@ -4170,6 +6865,11 @@ export enum SimpleIcons {
      * @see https://commons.wikimedia.org/wiki/File:Jabber-bulb.svg
      */
     Jabber = "Jabber",
+    /**
+     * Jaeger
+     * @see https://github.com/cncf/artwork/blob/e7e09686c20db6ddac06e482cf3338b0c8b2e22d/projects/jaeger/icon/black/jaeger-icon-black.svg
+     */
+    Jaeger = "Jaeger",
     /**
      * Jaguar
      * @see https://media.jaguar.com/en/press-kit
@@ -4182,12 +6882,12 @@ export enum SimpleIcons {
     Jamboard = "Jamboard",
     /**
      * Jameson
-     * @see https://www.jamesonwhiskey.com/
+     * @see https://www.jamesonwhiskey.com
      */
     Jameson = "Jameson",
     /**
      * Jamstack
-     * @see https://github.com/jamstack/jamstack.org/tree/main/src/site/img/logo
+     * @see https://github.com/jamstack/jamstack.org/blob/a7de230798f98bdde78f0a0eeb5ebfc488c563aa/src/site/img/logo/svg/Jamstack_Icon_Original.svg
      */
     Jamstack = "Jamstack",
     /**
@@ -4196,18 +6896,13 @@ export enum SimpleIcons {
      */
     Jasmine = "Jasmine",
     /**
-     * Java
-     * @see https://www.oracle.com/legal/logos.html
-     */
-    Java = "Java",
-    /**
      * JavaScript
-     * @see https://github.com/voodootikigod/logo.js
+     * @see https://github.com/voodootikigod/logo.js/blob/1544bdeed6d618a6cfe4f0650d04ab8d9cfa76d9/js.svg
      */
     JavaScript = "JavaScript",
     /**
      * JBL
-     * @see https://www.jbl.com/
+     * @see https://www.jbl.com
      */
     JBL = "JBL",
     /**
@@ -4217,7 +6912,7 @@ export enum SimpleIcons {
     JCB = "JCB",
     /**
      * Jeep
-     * @see http://www.fcaci.com/x/JEEPv15
+     * @see https://commons.wikimedia.org/wiki/File:Jeep_logo.svg
      */
     Jeep = "Jeep",
     /**
@@ -4236,13 +6931,8 @@ export enum SimpleIcons {
      */
     Jenkins = "Jenkins",
     /**
-     * Jenkins X
-     * @see https://github.com/cdfoundation/artwork
-     */
-    JenkinsX = "Jenkins-X",
-    /**
      * Jest
-     * @see https://jestjs.io/
+     * @see https://jestjs.io
      */
     Jest = "Jest",
     /**
@@ -4251,20 +6941,35 @@ export enum SimpleIcons {
      */
     JET = "JET",
     /**
+     * JetBlue
+     * @see https://www.jetblue.com
+     */
+    JetBlue = "JetBlue",
+    /**
      * JetBrains
      * @see https://www.jetbrains.com/company/brand/logos/
      */
     JetBrains = "JetBrains",
     /**
+     * Jetpack Compose
+     * @see https://developer.android.com/jetpack/compose/
+     */
+    JetpackCompose = "Jetpack-Compose",
+    /**
      * JFrog
-     * @see https://jfrog.com/brand-guidelines/
+     * @see https://jfrog.com/brand-guidelines
      */
     JFrog = "JFrog",
     /**
-     * JFrog Bintray
-     * @see https://bintray.com/
+     * JFrog Pipelines
+     * @see https://jfrog.com/pipelines/
      */
-    JFrogBintray = "JFrog-Bintray",
+    JFrogPipelines = "JFrog-Pipelines",
+    /**
+     * JHipster
+     * @see https://github.com/jhipster/jhipster-artwork/blob/1085d85ab6d819b9ef7f6cc710ec8a4977b95e90/logos/JHipster%20bowtie.svg
+     */
+    JHipster = "JHipster",
     /**
      * Jinja
      * @see https://github.com/pallets/jinja/blob/1c240154865a7b6034033027e3c2ca8a2fa53fc2/artwork/jinjalogo.svg
@@ -4281,6 +6986,11 @@ export enum SimpleIcons {
      */
     JiraSoftware = "Jira-Software",
     /**
+     * JitPack
+     * @see https://docs.jitpack.io
+     */
+    JitPack = "JitPack",
+    /**
      * Jitsi
      * @see https://github.com/jitsi/jitsi-meet/blob/f8a41aea9c32796646c0fea11064775a4e5c3523/images/watermark.svg
      */
@@ -4296,6 +7006,26 @@ export enum SimpleIcons {
      */
     Joomla = "Joomla",
     /**
+     * Joplin
+     * @see https://github.com/laurent22/joplin/blob/45e35576bd8b1bb0ffe958309cc1ab3736cc266b/Assets/JoplinLetter.svg
+     */
+    Joplin = "Joplin",
+    /**
+     * Jordan
+     * @see https://www.nike.com/jordan
+     */
+    Jordan = "Jordan",
+    /**
+     * JOUAV
+     * @see https://www.jouav.com
+     */
+    JOUAV = "JOUAV",
+    /**
+     * Jovian
+     * @see https://jovian.com
+     */
+    Jovian = "Jovian",
+    /**
      * JPEG
      * @see https://jpeg.org/contact.html
      */
@@ -4307,7 +7037,7 @@ export enum SimpleIcons {
     JQuery = "jQuery",
     /**
      * JR Group
-     * @see https://www.jrhokkaido.co.jp/
+     * @see https://www.jrhokkaido.co.jp
      */
     JRGroup = "JR-Group",
     /**
@@ -4317,7 +7047,7 @@ export enum SimpleIcons {
     JsDelivr = "jsDelivr",
     /**
      * JSFiddle
-     * @see https://jsfiddle.net/
+     * @see https://jsfiddle.net
      */
     JSFiddle = "JSFiddle",
     /**
@@ -4327,14 +7057,34 @@ export enum SimpleIcons {
     JSON = "JSON",
     /**
      * JSON Web Tokens
-     * @see https://jwt.io/
+     * @see https://jwt.io
      */
     JSONWebTokens = "JSON-Web-Tokens",
     /**
+     * JSR
+     * @see https://github.com/jsr-io/jsr/blob/98c4448c64b1dddd1fc7cc54af961284f4262e82/frontend/static/logo.svg
+     */
+    JSR = "JSR",
+    /**
      * JSS
-     * @see https://cssinjs.org/
+     * @see https://cssinjs.org
      */
     JSS = "JSS",
+    /**
+     * JUCE
+     * @see https://juce.com
+     */
+    JUCE = "JUCE",
+    /**
+     * Juejin
+     * @see https://juejin.cn
+     */
+    Juejin = "Juejin",
+    /**
+     * JUKE
+     * @see https://juke.nl
+     */
+    JUKE = "JUKE",
     /**
      * Julia
      * @see https://github.com/JuliaLang/julia-logo-graphics/blob/b5551ca7946b4a25746c045c15fbb8806610f8d0/images/julia-dots.svg
@@ -4347,7 +7097,7 @@ export enum SimpleIcons {
     JuniperNetworks = "Juniper-Networks",
     /**
      * JUnit5
-     * @see https://raw.githubusercontent.com/junit-team/junit5/86465f4f491219ad0c0cf9c64eddca7b0edeb86f/assets/img/junit5-logo.svg
+     * @see https://github.com/junit-team/junit5/blob/86465f4f491219ad0c0cf9c64eddca7b0edeb86f/assets/img/junit5-logo.svg
      */
     JUnit5 = "JUnit5",
     /**
@@ -4366,10 +7116,25 @@ export enum SimpleIcons {
      */
     JustGiving = "JustGiving",
     /**
+     * K3s
+     * @see https://k3s.io
+     */
+    K3s = "K3s",
+    /**
+     * k6
+     * @see https://commons.wikimedia.org/wiki/File:K6-logo.svg
+     */
+    K6 = "k6",
+    /**
      * Kaggle
-     * @see https://www.kaggle.com
+     * @see https://www.kaggle.com/brand-guidelines
      */
     Kaggle = "Kaggle",
+    /**
+     * Kagi
+     * @see https://kagi.com
+     */
+    Kagi = "Kagi",
     /**
      * Kahoot!
      * @see https://kahoot.com/library/kahoot-logo/
@@ -4396,6 +7161,16 @@ export enum SimpleIcons {
      */
     KaliLinux = "Kali-Linux",
     /**
+     * Kamailio
+     * @see https://www.kamailio.org/pub/kamailio-logos/current
+     */
+    Kamailio = "Kamailio",
+    /**
+     * Kaniko
+     * @see https://github.com/GoogleContainerTools/kaniko/blob/cf5ca26aa4e2f7bf0de56efdf3b4e86b0ff74ed0/logo/Kaniko-Logo-Monochrome.svg
+     */
+    Kaniko = "Kaniko",
+    /**
      * Karlsruher Verkehrsverbund
      * @see https://commons.wikimedia.org/wiki/File:KVV_2010.svg
      */
@@ -4407,7 +7182,7 @@ export enum SimpleIcons {
     KasaSmart = "Kasa-Smart",
     /**
      * KashFlow
-     * @see https://www.kashflow.com/
+     * @see https://www.kashflow.com
      */
     KashFlow = "KashFlow",
     /**
@@ -4426,18 +7201,38 @@ export enum SimpleIcons {
      */
     Katana = "Katana",
     /**
+     * Kaufland
+     * @see https://www.kaufland.com
+     */
+    Kaufland = "Kaufland",
+    /**
      * KDE
      * @see https://kde.org/stuff/clipart/
      */
     KDE = "KDE",
     /**
      * Kdenlive
-     * @see https://kdenlive.org/en/logo/
+     * @see https://kdenlive.org/en/trademark-logo/
      */
     Kdenlive = "Kdenlive",
     /**
+     * Kedro
+     * @see https://github.com/kedro-org/kedro-brand-identity/blob/7f7b380cb1a2951c06ca292f0d2b442db895f804/icon/black/kedro-icon-svgo-black.svg
+     */
+    Kedro = "Kedro",
+    /**
+     * Keenetic
+     * @see https://keenetic.com
+     */
+    Keenetic = "Keenetic",
+    /**
+     * Keep a Changelog
+     * @see https://keepachangelog.com
+     */
+    KeepAChangelog = "Keep-a-Changelog",
+    /**
      * KeePassXC
-     * @see https://github.com/keepassxreboot/keepassxc/
+     * @see https://github.com/keepassxreboot/keepassxc/tree/3fdafc6d25e85050976e0cc645db579086db3f45
      */
     KeePassXC = "KeePassXC",
     /**
@@ -4447,7 +7242,7 @@ export enum SimpleIcons {
     Kentico = "Kentico",
     /**
      * Keras
-     * @see https://keras.io/
+     * @see https://keras.io
      */
     Keras = "Keras",
     /**
@@ -4460,6 +7255,21 @@ export enum SimpleIcons {
      * @see https://www.keycdn.com/logos
      */
     KeyCDN = "KeyCDN",
+    /**
+     * Keycloak
+     * @see https://github.com/keycloak/keycloak-misc/blob/dee033f2d6d6b5c3a6ce8eb84e285f7e5626dbf6/logo/icon-black.svg
+     */
+    Keycloak = "Keycloak",
+    /**
+     * Keystone
+     * @see https://keystonejs.com
+     */
+    Keystone = "Keystone",
+    /**
+     * KFC
+     * @see https://global.kfc.com/asset-library/
+     */
+    KFC = "KFC",
     /**
      * Khan Academy
      * @see https://khanacademy.zendesk.com/hc/en-us/articles/202483630-Press-room
@@ -4481,6 +7291,16 @@ export enum SimpleIcons {
      */
     Kibana = "Kibana",
     /**
+     * KiCad
+     * @see https://www.kicad.org/about/kicad/
+     */
+    KiCad = "KiCad",
+    /**
+     * Kick
+     * @see https://kick.com
+     */
+    Kick = "Kick",
+    /**
      * Kickstarter
      * @see https://www.kickstarter.com/help/brand_assets
      */
@@ -4491,18 +7311,38 @@ export enum SimpleIcons {
      */
     Kik = "Kik",
     /**
+     * Kingston Technology
+     * @see https://www.kingston.com
+     */
+    KingstonTechnology = "Kingston-Technology",
+    /**
+     * Kinopoisk
+     * @see https://www.kinopoisk.ru/special/branding
+     */
+    Kinopoisk = "Kinopoisk",
+    /**
+     * Kinsta
+     * @see https://kinsta.com/press
+     */
+    Kinsta = "Kinsta",
+    /**
      * Kirby
      * @see https://getkirby.com/press
      */
     Kirby = "Kirby",
     /**
+     * Kit
+     * @see https://kit.co
+     */
+    Kit = "Kit",
+    /**
      * Kitsu
-     * @see https://kitsu.io/
+     * @see https://kitsu.io
      */
     Kitsu = "Kitsu",
     /**
      * Klarna
-     * @see https://klarna.design/
+     * @see https://klarna.design
      */
     Klarna = "Klarna",
     /**
@@ -4516,8 +7356,28 @@ export enum SimpleIcons {
      */
     Klook = "Klook",
     /**
+     * Knative
+     * @see https://github.com/knative/community/blob/fb49068c9b7619685248247d29e48eb3d96f3ac2/icons/logo.svg
+     */
+    Knative = "Knative",
+    /**
+     * Knex.js
+     * @see https://github.com/knex/documentation/blob/a9c4ce47dbc6001bb1c6aa0649bb668edc78fea7/src/public/knex-logo.png
+     */
+    KnexJs = "Knex.js",
+    /**
+     * KNIME
+     * @see https://www.knime.com
+     */
+    KNIME = "KNIME",
+    /**
+     * Knip
+     * @see https://knip.dev
+     */
+    Knip = "Knip",
+    /**
      * KnowledgeBase
-     * @see https://www.knowledgebase.ai/design
+     * @see https://www.knowledgebase.com/design
      */
     KnowledgeBase = "KnowledgeBase",
     /**
@@ -4531,35 +7391,70 @@ export enum SimpleIcons {
      */
     KoFi = "Ko-fi",
     /**
+     * Koa
+     * @see https://koajs.com
+     */
+    Koa = "Koa",
+    /**
+     * Koc
+     * @see https://www.koc.com.tr/en
+     */
+    Koc = "Koc",
+    /**
+     * Kodak
+     * @see https://www.kodak.com
+     */
+    Kodak = "Kodak",
+    /**
      * Kodi
-     * @see https://kodi.tv/
+     * @see https://kodi.tv
      */
     Kodi = "Kodi",
     /**
-     * Koding
-     * @see https://koding.com/About
+     * Koenigsegg
+     * @see https://www.koenigsegg.com
      */
-    Koding = "Koding",
+    Koenigsegg = "Koenigsegg",
     /**
      * Kofax
-     * @see https://www.kofax.com/
+     * @see https://www.kofax.com
      */
     Kofax = "Kofax",
     /**
      * Komoot
-     * @see http://newsroom.komoot.com/media_kits/219423/
+     * @see https://newsroom.komoot.com/media_kits/219423/
      */
     Komoot = "Komoot",
     /**
+     * Konami
+     * @see https://commons.wikimedia.org/wiki/File:Konami_4th_logo_2.svg
+     */
+    Konami = "Konami",
+    /**
+     * Kong
+     * @see https://konghq.com/brand-assets/
+     */
+    Kong = "Kong",
+    /**
      * Kongregate
-     * @see https://www.kongregate.com/pages/logos-and-branding
+     * @see https://www.kongregate.com
      */
     Kongregate = "Kongregate",
     /**
+     * Konva
+     * @see https://github.com/konvajs/konvajs.github.io/blob/2cfe67461dfe32076ba56c88a75fe8e99d068130/icon.png
+     */
+    Konva = "Konva",
+    /**
      * Kotlin
-     * @see https://resources.jetbrains.com/storage/products/kotlin/docs/kotlin_logos.zip
+     * @see https://www.jetbrains.com/company/brand/logos/
      */
     Kotlin = "Kotlin",
+    /**
+     * Koyeb
+     * @see https://www.koyeb.com
+     */
+    Koyeb = "Koyeb",
     /**
      * Krita
      * @see https://krita.org/en/about/press/
@@ -4571,8 +7466,18 @@ export enum SimpleIcons {
      */
     KTM = "KTM",
     /**
+     * Ktor
+     * @see https://www.jetbrains.com/company/brand/#logos-and-icons-product-icons
+     */
+    Ktor = "Ktor",
+    /**
+     * Kuaishou
+     * @see https://www.kuaishou.com/official/material-lib
+     */
+    Kuaishou = "Kuaishou",
+    /**
      * Kubernetes
-     * @see https://github.com/kubernetes/kubernetes/tree/master/logo
+     * @see https://github.com/kubernetes/kubernetes/tree/cac53883f4714452f3084a22e4be20d042a9df33/logo
      */
     Kubernetes = "Kubernetes",
     /**
@@ -4581,23 +7486,53 @@ export enum SimpleIcons {
      */
     Kubuntu = "Kubuntu",
     /**
+     * KuCoin
+     * @see https://www.kucoin.com/news/en-kucoin-media-kit
+     */
+    KuCoin = "KuCoin",
+    /**
+     * Kuma
+     * @see https://cncf-branding.netlify.app/projects/kuma/
+     */
+    Kuma = "Kuma",
+    /**
+     * Kununu
+     * @see https://www.kununu.com
+     */
+    Kununu = "Kununu",
+    /**
+     * Kuula
+     * @see https://kuula.co
+     */
+    Kuula = "Kuula",
+    /**
+     * KX
+     * @see https://kx.com/news-room
+     */
+    KX = "KX",
+    /**
      * Kyocera
-     * @see https://uk.kyocera.com/
+     * @see https://uk.kyocera.com
      */
     Kyocera = "Kyocera",
+    /**
+     * L'Équipe
+     * @see https://commons.wikimedia.org/wiki/File:L_Equipe_Logo.svg
+     */
+    L__quipe = "L'Équipe",
     /**
      * LabVIEW
      * @see https://forums.ni.com/t5/NI-Partner-Network/New-Partner-Co-Marketing-Style-Guide/ba-p/3786987
      */
     LabVIEW = "LabVIEW",
     /**
-     * Lada
-     * @see https://www.lada.ru/priora/sedan/accessories.html
+     * LADA
+     * @see https://www.lada.ru
      */
-    Lada = "Lada",
+    LADA = "LADA",
     /**
      * Lamborghini
-     * @see https://en.wikipedia.org/wiki/File:Lamborghini_Logo.svg
+     * @see https://www.lamborghini.com
      */
     Lamborghini = "Lamborghini",
     /**
@@ -4606,13 +7541,23 @@ export enum SimpleIcons {
      */
     LandRover = "Land-Rover",
     /**
+     * LangChain
+     * @see https://www.langchain.com
+     */
+    LangChain = "LangChain",
+    /**
+     * Lapce
+     * @see https://github.com/lapce/lapce/blob/95c4cf2d87083e348c0b621d0be0ea17f79ed703/extra/images/logo.svg
+     */
+    Lapce = "Lapce",
+    /**
      * Laragon
-     * @see https://laragon.org/
+     * @see https://laragon.org
      */
     Laragon = "Laragon",
     /**
      * Laravel
-     * @see https://github.com/laravel/art
+     * @see https://github.com/laravel/art/tree/5a8325b064634b900f25dbb6f1cafd888b2d2211
      */
     Laravel = "Laravel",
     /**
@@ -4622,7 +7567,7 @@ export enum SimpleIcons {
     LaravelHorizon = "Laravel-Horizon",
     /**
      * Laravel Nova
-     * @see https://nova.laravel.com/
+     * @see https://nova.laravel.com
      */
     LaravelNova = "Laravel-Nova",
     /**
@@ -4637,7 +7582,7 @@ export enum SimpleIcons {
     LastPass = "LastPass",
     /**
      * LaTeX
-     * @see https://github.com/latex3/branding
+     * @see https://github.com/latex3/branding/tree/9def6b5f6075567d62b67424e11dbe6d4d5245b4
      */
     LaTeX = "LaTeX",
     /**
@@ -4646,15 +7591,35 @@ export enum SimpleIcons {
      */
     Launchpad = "Launchpad",
     /**
+     * Lazarus
+     * @see https://sourceforge.net/projects/lazarus/
+     */
+    Lazarus = "Lazarus",
+    /**
+     * LazyVim
+     * @see https://github.com/LazyVim/lazyvim.github.io/blob/db7f1bd035de3f41a75a29f65f36819f6ac152af/static/img/icon.svg
+     */
+    LazyVim = "LazyVim",
+    /**
      * LBRY
      * @see https://lbry.com/press-kit
      */
     LBRY = "LBRY",
     /**
+     * Leader Price
+     * @see https://www.leaderprice.fr
+     */
+    LeaderPrice = "Leader-Price",
+    /**
      * Leaflet
      * @see https://github.com/Leaflet/Leaflet/blob/d843c3b88486713827d7e860b58bdba75bfbd5a2/src/images/logo.svg
      */
     Leaflet = "Leaflet",
+    /**
+     * League of Legends
+     * @see https://www.leagueoflegends.com
+     */
+    LeagueOfLegends = "League-of-Legends",
     /**
      * Leanpub
      * @see https://leanpub.com/press
@@ -4666,35 +7631,90 @@ export enum SimpleIcons {
      */
     LeetCode = "LeetCode",
     /**
+     * Legacy Games
+     * @see https://legacygames.com
+     */
+    LegacyGames = "Legacy-Games",
+    /**
+     * Leica
+     * @see https://leica-camera.com
+     */
+    Leica = "Leica",
+    /**
+     * Lemmy
+     * @see https://join-lemmy.org
+     */
+    Lemmy = "Lemmy",
+    /**
+     * Lemon Squeezy
+     * @see https://www.lemonsqueezy.com
+     */
+    LemonSqueezy = "Lemon-Squeezy",
+    /**
      * Lenovo
      * @see https://news.lenovo.com/press-kits/
      */
     Lenovo = "Lenovo",
+    /**
+     * Lens
+     * @see https://github.com/lensapp/lens/blob/3cc12d9599b655a366e7a34c356d2a84654b2466/docs/img/lens-logo-icon.svg
+     */
+    Lens = "Lens",
+    /**
+     * Leptos
+     * @see https://github.com/leptos-rs/leptos/blob/6fac92cb6298f1bfa72464de47e33e47b5e5857d/logos/Simple_Icon.svg
+     */
+    Leptos = "Leptos",
+    /**
+     * Lerna
+     * @see https://github.com/lerna/logo/blob/fb18db535d71aacc6ffb0f6b75a0c3bd9e353543/lerna.svg
+     */
+    Lerna = "Lerna",
+    /**
+     * Leroy Merlin
+     * @see https://www.leroymerlin.fr
+     */
+    LeroyMerlin = "Leroy-Merlin",
+    /**
+     * Les libraires
+     * @see https://www.leslibraires.ca
+     */
+    LesLibraires = "Les-libraires",
     /**
      * Less
      * @see https://github.com/less/logo/blob/c9c10c328cfc00071e92443934b35e389310abf8/less_logo.ai
      */
     Less = "Less",
     /**
-     * Let’s Encrypt
+     * Let's Encrypt
      * @see https://letsencrypt.org/trademarks/
      */
-    Let_sEncrypt = "Let’s-Encrypt",
+    Let_sEncrypt = "Let's-Encrypt",
     /**
      * Letterboxd
-     * @see https://letterboxd.com/about/logos/
+     * @see https://letterboxd.com/about/brand/
      */
     Letterboxd = "Letterboxd",
     /**
+     * levels.fyi
+     * @see https://www.levels.fyi/press/
+     */
+    LevelsFyi = "levels.fyi",
+    /**
      * LG
-     * @see https://en.wikipedia.org/wiki/LG_Corporation
+     * @see https://www.lg.com/global/our-brand/brand-expression/elements/logo/index.jsp
      */
     LG = "LG",
     /**
-     * LGTM
-     * @see https://lgtm.com/
+     * Li-Ning
+     * @see https://www.lining.com
      */
-    LGTM = "LGTM",
+    LiNing = "Li-Ning",
+    /**
+     * Libera.Chat
+     * @see https://libera.chat
+     */
+    LiberaChat = "Libera.Chat",
     /**
      * Liberapay
      * @see https://en.liberapay.com/about/logos
@@ -4716,6 +7736,41 @@ export enum SimpleIcons {
      */
     LibreOffice = "LibreOffice",
     /**
+     * LibreOffice Base
+     * @see https://github.com/LibreOffice/help/blob/e3b1cce7dde7e964c7670dd24a167e750654685a/source/media/navigation/libo-base.svg
+     */
+    LibreOfficeBase = "LibreOffice-Base",
+    /**
+     * LibreOffice Calc
+     * @see https://github.com/LibreOffice/help/blob/02faeab6e7b014ca97a8c452e829af4522dadfc8/source/media/navigation/libo-calc.svg
+     */
+    LibreOfficeCalc = "LibreOffice-Calc",
+    /**
+     * LibreOffice Draw
+     * @see https://github.com/LibreOffice/help/blob/02faeab6e7b014ca97a8c452e829af4522dadfc8/source/media/navigation/libo-draw.svg
+     */
+    LibreOfficeDraw = "LibreOffice-Draw",
+    /**
+     * LibreOffice Impress
+     * @see https://github.com/LibreOffice/help/blob/02faeab6e7b014ca97a8c452e829af4522dadfc8/source/media/navigation/libo-impress.svg
+     */
+    LibreOfficeImpress = "LibreOffice-Impress",
+    /**
+     * LibreOffice Math
+     * @see https://github.com/LibreOffice/help/blob/02faeab6e7b014ca97a8c452e829af4522dadfc8/source/media/navigation/libo-math.svg
+     */
+    LibreOfficeMath = "LibreOffice-Math",
+    /**
+     * LibreOffice Writer
+     * @see https://github.com/LibreOffice/help/blob/02faeab6e7b014ca97a8c452e829af4522dadfc8/source/media/navigation/libo-writer.svg
+     */
+    LibreOfficeWriter = "LibreOffice-Writer",
+    /**
+     * LibreWolf
+     * @see https://librewolf.net
+     */
+    LibreWolf = "LibreWolf",
+    /**
      * libuv
      * @see https://github.com/libuv/libuv/blob/e4087dedf837f415056a45a838f639a3d9dc3ced/img/logos.svg
      */
@@ -4726,40 +7781,80 @@ export enum SimpleIcons {
      */
     Lichess = "Lichess",
     /**
+     * Lidl
+     * @see https://www.lidl.de
+     */
+    Lidl = "Lidl",
+    /**
      * LIFX
      * @see https://www.lifx.com/pages/press-enquiries
      */
     LIFX = "LIFX",
+    /**
+     * LightBurn
+     * @see https://lightburnsoftware.com
+     */
+    LightBurn = "LightBurn",
     /**
      * Lighthouse
      * @see https://github.com/GoogleChrome/lighthouse/blob/80d2e6c1948f232ec4f1bdeabc8bc632fc5d0bfd/assets/lh_favicon.svg
      */
     Lighthouse = "Lighthouse",
     /**
+     * Lightning
+     * @see https://github.com/Lightning-AI/lightning/blob/a584196abf820179adb0758ef67ddae91c44e7bc/docs/source/_static/images/icon.svg
+     */
+    Lightning = "Lightning",
+    /**
+     * LimeSurvey
+     * @see https://www.limesurvey.org
+     */
+    LimeSurvey = "LimeSurvey",
+    /**
      * LINE
-     * @see http://line.me/en/logo
+     * @see https://line.me/en/logo
      */
     LINE = "LINE",
     /**
      * LineageOS
-     * @see https://www.lineageos.org/
+     * @see https://www.lineageos.org
      */
     LineageOS = "LineageOS",
+    /**
+     * Linear
+     * @see https://linear.app
+     */
+    Linear = "Linear",
     /**
      * LinkedIn
      * @see https://brand.linkedin.com
      */
     LinkedIn = "LinkedIn",
     /**
+     * Linkerd
+     * @see https://cncf-branding.netlify.app/projects/linkerd/
+     */
+    Linkerd = "Linkerd",
+    /**
+     * Linkfire
+     * @see https://www.linkfire.com
+     */
+    Linkfire = "Linkfire",
+    /**
+     * Linksys
+     * @see https://www.linksys.com
+     */
+    Linksys = "Linksys",
+    /**
      * Linktree
-     * @see https://linktr.ee/
+     * @see https://linktr.ee
      */
     Linktree = "Linktree",
     /**
-     * Linode
-     * @see https://www.linode.com/company/press/
+     * LintCode
+     * @see https://www.lintcode.com
      */
-    Linode = "Linode",
+    LintCode = "LintCode",
     /**
      * Linux
      * @see https://www.linuxfoundation.org/the-linux-mark/
@@ -4772,7 +7867,7 @@ export enum SimpleIcons {
     LinuxContainers = "Linux-Containers",
     /**
      * Linux Foundation
-     * @see https://www.linuxfoundation.org/en/about/brand/
+     * @see https://www.linuxfoundation.org/brand-guidelines
      */
     LinuxFoundation = "Linux-Foundation",
     /**
@@ -4781,10 +7876,30 @@ export enum SimpleIcons {
      */
     LinuxMint = "Linux-Mint",
     /**
+     * Linux Professional Institute
+     * @see https://lpi.org/logos
+     */
+    LinuxProfessionalInstitute = "Linux-Professional-Institute",
+    /**
+     * LinuxServer
+     * @see https://github.com/linuxserver/docker-documentation/blob/be0a78849bc87dec372721ffd6f267527d07815d/docs/assets/icon.svg
+     */
+    LinuxServer = "LinuxServer",
+    /**
      * Lion Air
      * @see https://lionairthai.com/en/
      */
     LionAir = "Lion-Air",
+    /**
+     * Liquibase
+     * @see https://www.liquibase.com/brand
+     */
+    Liquibase = "Liquibase",
+    /**
+     * listmonk
+     * @see https://listmonk.app
+     */
+    Listmonk = "listmonk",
     /**
      * Lit
      * @see https://github.com/lit/lit.dev/blob/5e59bdb00b7a261d6fdcd6a4ae529e17f6146ed3/packages/lit-dev-content/site/images/flame-favicon.svg
@@ -4796,15 +7911,25 @@ export enum SimpleIcons {
      */
     Litecoin = "Litecoin",
     /**
+     * LITIENGINE
+     * @see https://litiengine.com
+     */
+    LITIENGINE = "LITIENGINE",
+    /**
      * LiveChat
-     * @see https://livechat.design/
+     * @see https://livechat.design
      */
     LiveChat = "LiveChat",
     /**
      * LiveJournal
-     * @see http://www.livejournal.com
+     * @see https://www.livejournal.com
      */
     LiveJournal = "LiveJournal",
+    /**
+     * Livewire
+     * @see https://laravel-livewire.com
+     */
+    Livewire = "Livewire",
     /**
      * LLVM
      * @see https://llvm.org/Logo.html
@@ -4816,15 +7941,35 @@ export enum SimpleIcons {
      */
     LMMS = "LMMS",
     /**
+     * Local
+     * @see https://localwp.com
+     */
+    Local = "Local",
+    /**
+     * Lodash
+     * @see https://github.com/lodash/lodash.com/blob/c8d41c62b446f08905fd94802db4da8da05d3e92/assets/img/lodash.svg
+     */
+    Lodash = "Lodash",
+    /**
      * Logitech
      * @see https://www.logitech.com/en-us/pr/library
      */
     Logitech = "Logitech",
     /**
+     * Logitech G
+     * @see https://www.logitechg.com
+     */
+    LogitechG = "Logitech-G",
+    /**
      * LogMeIn
      * @see https://www.logmein.com/legal/trademark
      */
     LogMeIn = "LogMeIn",
+    /**
+     * Logseq
+     * @see https://github.com/logseq/logseq/blob/c4d15ec8487c9fb6b6f41780fc1abddab89491e4/resources/icon.png
+     */
+    Logseq = "Logseq",
     /**
      * Logstash
      * @see https://www.elastic.co/brand
@@ -4832,7 +7977,7 @@ export enum SimpleIcons {
     Logstash = "Logstash",
     /**
      * Looker
-     * @see https://looker.com/
+     * @see https://looker.com
      */
     Looker = "Looker",
     /**
@@ -4842,9 +7987,19 @@ export enum SimpleIcons {
     Loom = "Loom",
     /**
      * Loop
-     * @see https://loop.frontiersin.org/
+     * @see https://loop.frontiersin.org
      */
     Loop = "Loop",
+    /**
+     * LoopBack
+     * @see https://loopback.io/resources
+     */
+    LoopBack = "LoopBack",
+    /**
+     * Loot Crate
+     * @see https://lootcrate.com
+     */
+    LootCrate = "Loot-Crate",
     /**
      * Lospec
      * @see https://lospec.com/brand
@@ -4856,25 +8011,55 @@ export enum SimpleIcons {
      */
     LOTPolishAirlines = "LOT-Polish-Airlines",
     /**
+     * LTspice
+     * @see https://www.analog.com/media/en/news-marketing-collateral/solutions-bulletins-brochures/ltspice-keyboard-shortcuts.pdf
+     */
+    LTspice = "LTspice",
+    /**
      * Lua
      * @see https://www.lua.org/images/
      */
     Lua = "Lua",
     /**
      * Lubuntu
-     * @see https://lubuntu.net/
+     * @see https://lubuntu.net
      */
     Lubuntu = "Lubuntu",
     /**
+     * Lucia
+     * @see https://v2.lucia-auth.com
+     */
+    Lucia = "Lucia",
+    /**
+     * Lucid
+     * @see https://lucid.co/brand
+     */
+    Lucid = "Lucid",
+    /**
+     * Ludwig
+     * @see https://github.com/ludwig-ai/ludwig-docs/blob/8d8abb2117a93af2622a6545943c773b27153e1b/docs/images/ludwig_icon.svg
+     */
+    Ludwig = "Ludwig",
+    /**
      * Lufthansa
-     * @see https://www.lufthansa.com/
+     * @see https://www.lufthansa.com
      */
     Lufthansa = "Lufthansa",
     /**
      * Lumen
-     * @see https://lumen.laravel.com/
+     * @see https://lumen.laravel.com
      */
     Lumen = "Lumen",
+    /**
+     * Lunacy
+     * @see https://icons8.com/lunacy
+     */
+    Lunacy = "Lunacy",
+    /**
+     * Lutris
+     * @see https://github.com/lutris/lutris/blob/f62feaef063868cb39afddefbb9ba7a5928bd978/share/icons/hicolor/scalable/apps/lutris.svg
+     */
+    Lutris = "Lutris",
     /**
      * Lydia
      * @see https://lydia-app.com/en/info/press.html
@@ -4896,20 +8081,45 @@ export enum SimpleIcons {
      */
     MacOS = "macOS",
     /**
-     * Macy’s
+     * MacPaw
+     * @see https://macpaw.com
+     */
+    MacPaw = "MacPaw",
+    /**
+     * Macy's
      * @see https://www.macysinc.com/news-media/media-assets
      */
-    Macy_s = "Macy’s",
+    Macy_s = "Macy's",
+    /**
+     * Magasins U
+     * @see https://www.magasins-u.com
+     */
+    MagasinsU = "Magasins-U",
     /**
      * Magento
-     * @see http://magento.com
+     * @see https://magento.com
      */
     Magento = "Magento",
     /**
+     * Magic
+     * @see https://magic.link/brand-assets
+     */
+    Magic = "Magic",
+    /**
      * Magisk
-     * @see https://github.com/topjohnwu/Magisk/blob/master/app/src/main/res/drawable/ic_magisk.xml
+     * @see https://github.com/topjohnwu/Magisk/blob/23ad611566b557f26d268920692b25aa89fc0070/app/src/main/res/drawable/ic_magisk.xml
      */
     Magisk = "Magisk",
+    /**
+     * Mahindra
+     * @see https://www.mahindra.com
+     */
+    Mahindra = "Mahindra",
+    /**
+     * mail.com
+     * @see https://www.mail.com
+     */
+    MailCom = "mail.com",
     /**
      * Mail.Ru
      * @see https://my.mail.ru
@@ -4917,22 +8127,62 @@ export enum SimpleIcons {
     MailRu = "Mail.Ru",
     /**
      * MailChimp
-     * @see http://mailchimp.com/about/brand-assets
+     * @see https://mailchimp.com/about/brand-assets
      */
     MailChimp = "MailChimp",
+    /**
+     * Mailgun
+     * @see https://mailgun.com
+     */
+    Mailgun = "Mailgun",
+    /**
+     * Mailtrap
+     * @see https://mailtrap.io
+     */
+    Mailtrap = "Mailtrap",
+    /**
+     * MainWP
+     * @see https://mainwp.com
+     */
+    MainWP = "MainWP",
     /**
      * Major League Hacking
      * @see https://mlh.io/brand-guidelines
      */
     MajorLeagueHacking = "Major-League-Hacking",
     /**
+     * Make
+     * @see https://www.make.com/en/press
+     */
+    Make = "Make",
+    /**
      * MakerBot
-     * @see http://www.makerbot.com/makerbot-press-assets
+     * @see https://www.makerbot.com/makerbot-press-assets
      */
     MakerBot = "MakerBot",
     /**
+     * Malt
+     * @see https://newsroom.malt.com/media-kit-uk
+     */
+    Malt = "Malt",
+    /**
+     * Malwarebytes
+     * @see https://www.malwarebytes.com
+     */
+    Malwarebytes = "Malwarebytes",
+    /**
+     * Mamba UI
+     * @see https://github.com/Microwawe/mamba-ui/blob/b4ca2eba570c451886e5822d7ba12a8d78015bba/src/assets/svg/logo.svg
+     */
+    MambaUI = "Mamba-UI",
+    /**
+     * MAMP
+     * @see https://www.mamp.info/en/mamp/mac/
+     */
+    MAMP = "MAMP",
+    /**
      * MAN
-     * @see https://www.corporate.man.eu/
+     * @see https://www.corporate.man.eu
      */
     MAN = "MAN",
     /**
@@ -4942,14 +8192,24 @@ export enum SimpleIcons {
     ManageIQ = "ManageIQ",
     /**
      * Manjaro
-     * @see https://manjaro.org/
+     * @see https://manjaro.org
      */
     Manjaro = "Manjaro",
+    /**
+     * Mantine
+     * @see https://github.com/mantinedev/mantine/blob/f2da0287bfcda19dcf7866f4d03a05d1ee7b49f7/docs/src/images/logo.svg
+     */
+    Mantine = "Mantine",
     /**
      * Mapbox
      * @see https://www.mapbox.com/about/press/brand-guidelines
      */
     Mapbox = "Mapbox",
+    /**
+     * MapLibre
+     * @see https://github.com/maplibre/maplibre-gl-js-docs/blob/e916a4cdd671890126f88b26b2b16c04220dc4b0/docs/pages/assets/favicon/maplibregl-favicon.svg
+     */
+    MapLibre = "MapLibre",
     /**
      * MariaDB
      * @see https://mariadb.com/about-us/logos/
@@ -4957,24 +8217,34 @@ export enum SimpleIcons {
     MariaDB = "MariaDB",
     /**
      * MariaDB Foundation
-     * @see https://mariadb.org/
+     * @see https://mariadb.org
      */
     MariaDBFoundation = "MariaDB-Foundation",
     /**
      * Markdown
-     * @see https://github.com/dcurtis/markdown-mark
+     * @see https://github.com/dcurtis/markdown-mark/tree/360a3657fef7f6ad0b303296a95ad52985caa0d3
      */
     Markdown = "Markdown",
     /**
      * Marketo
-     * @see https://www.marketo.com/
+     * @see https://www.marketo.com
      */
     Marketo = "Marketo",
     /**
+     * Marko
+     * @see https://github.com/marko-js/website/blob/c03b8229e8fe8e01fde6c0772bc1cb0ceae9be05/src/logos/marko.svg
+     */
+    Marko = "Marko",
+    /**
      * Marriott
-     * @see https://marriott-hotels.marriott.com/
+     * @see https://marriott-hotels.marriott.com
      */
     Marriott = "Marriott",
+    /**
+     * MarvelApp
+     * @see https://marvelapp.com
+     */
+    MarvelApp = "MarvelApp",
     /**
      * Maserati
      * @see https://www.stellantis.com/en/brands/maserati
@@ -4992,7 +8262,7 @@ export enum SimpleIcons {
     Mastercomfig = "mastercomfig",
     /**
      * Mastodon
-     * @see https://joinmastodon.org/
+     * @see https://github.com/mastodon/mastodon/blob/7ccf7a73f1c47a8c03712c39f7c591e837cf6d08/app/javascript/images/logo-symbol-icon.svg
      */
     Mastodon = "Mastodon",
     /**
@@ -5006,10 +8276,15 @@ export enum SimpleIcons {
      */
     MaterialDesignIcons = "Material-Design-Icons",
     /**
-     * Material-UI
-     * @see https://material-ui.com/
+     * Material for MkDocs
+     * @see https://github.com/squidfunk/mkdocs-material/blob/9ff75d11838cc01615697884c0eb9eb55f4652ad/src/templates/.icons/logo-monochrome.svg
      */
-    MaterialUI = "Material-UI",
+    MaterialForMkDocs = "Material-for-MkDocs",
+    /**
+     * Matillion
+     * @see https://www.matillion.com
+     */
+    Matillion = "Matillion",
     /**
      * Matomo
      * @see https://matomo.org/media/
@@ -5021,18 +8296,28 @@ export enum SimpleIcons {
      */
     Matrix = "Matrix",
     /**
+     * Matter.js
+     * @see https://brm.io/matter-js
+     */
+    MatterJs = "Matter.js",
+    /**
      * Mattermost
      * @see https://www.mattermost.org/brand-guidelines/
      */
     Mattermost = "Mattermost",
     /**
      * Matternet
-     * @see http://mttr.net
+     * @see https://mttr.net
      */
     Matternet = "Matternet",
     /**
+     * Mautic
+     * @see https://www.mautic.org/about/logos-and-graphics
+     */
+    Mautic = "Mautic",
+    /**
      * Max
-     * @see https://cycling74.com/
+     * @see https://cycling74.com
      */
     Max = "Max",
     /**
@@ -5062,34 +8347,54 @@ export enum SimpleIcons {
     McDonald_s = "McDonald's",
     /**
      * McLaren
-     * @see https://cars.mclaren.com/
+     * @see https://cars.mclaren.com
      */
     McLaren = "McLaren",
     /**
+     * mdBook
+     * @see https://github.com/rust-lang/mdBook/blob/cdfa5ad9909e2cba8390688f3f0686fb70cb4bef/src/theme/favicon.svg
+     */
+    MdBook = "mdBook",
+    /**
      * MDN Web Docs
-     * @see https://developer.mozilla.org/
+     * @see https://github.com/mdn/yari/blob/77e6cda02f7013219e9da27a00b9424085e60fdb/client/src/assets/mdn-logo.svg
      */
     MDNWebDocs = "MDN-Web-Docs",
+    /**
+     * MDX
+     * @see https://github.com/mdx-js/mdx/blob/b8a76c95deb14f7297bafdac1aa3eddd2b0fbb8f/docs/_static/icon.svg
+     */
+    MDX = "MDX",
     /**
      * MediaFire
      * @see https://www.mediafire.com/developers/brand_assets/mediafire_brand_assets/
      */
     MediaFire = "MediaFire",
     /**
+     * MediaMarkt
+     * @see https://www.mediamarkt.de
+     */
+    MediaMarkt = "MediaMarkt",
+    /**
      * MediaTek
      * @see https://corp.mediatek.com/news-events/press-library
      */
     MediaTek = "MediaTek",
     /**
-     * MediaTemple
-     * @see https://mediatemple.net/
+     * MediBang Paint
+     * @see https://medibangpaint.com
      */
-    MediaTemple = "MediaTemple",
+    MediBangPaint = "MediBang-Paint",
     /**
      * Medium
      * @see https://medium.design/logos-and-brand-guidelines-f1a01a733592
      */
     Medium = "Medium",
+    /**
+     * Medusa
+     * @see https://github.com/medusajs/medusa/blob/5b91a3503af41b94697a5c27c35268c29e9bd135/www/docs/static/img/logo.svg
+     */
+    Medusa = "Medusa",
     /**
      * Meetup
      * @see https://www.meetup.com/media/
@@ -5101,38 +8406,88 @@ export enum SimpleIcons {
      */
     MEGA = "MEGA",
     /**
+     * Meilisearch
+     * @see https://www.meilisearch.com
+     */
+    Meilisearch = "Meilisearch",
+    /**
+     * Meituan
+     * @see https://www.meituan.com/media
+     */
+    Meituan = "Meituan",
+    /**
+     * Meizu
+     * @see https://commons.wikimedia.org/wiki/File:Meizu.svg
+     */
+    Meizu = "Meizu",
+    /**
      * Mendeley
-     * @see https://www.mendeley.com/
+     * @see https://www.mendeley.com
      */
     Mendeley = "Mendeley",
     /**
+     * MentorCruise
+     * @see https://mentorcruise.com
+     */
+    MentorCruise = "MentorCruise",
+    /**
+     * Mercado Pago
+     * @see https://www.mercadopago.com
+     */
+    MercadoPago = "Mercado-Pago",
+    /**
      * Mercedes
-     * @see https://www.mercedes-benz.com/
+     * @see https://www.mercedes-benz.com
      */
     Mercedes = "Mercedes",
+    /**
+     * Merck
+     * @see https://www.merck.com
+     */
+    Merck = "Merck",
     /**
      * Mercurial
      * @see https://www.mercurial-scm.org/hg-logo/
      */
     Mercurial = "Mercurial",
     /**
+     * Mermaid
+     * @see https://github.com/mermaid-js/mermaid/blob/f5bd1e08098fa688ef889e73c8b06696e75e62d8/docs/public/mermaid-logo.svg
+     */
+    Mermaid = "Mermaid",
+    /**
      * Messenger
      * @see https://en.facebookbrand.com/facebookapp/assets/messenger/
      */
     Messenger = "Messenger",
     /**
+     * Meta
+     * @see https://www.meta.com
+     */
+    Meta = "Meta",
+    /**
      * Metabase
-     * @see https://www.metabase.com/
+     * @see https://www.metabase.com
      */
     Metabase = "Metabase",
     /**
+     * Metacritic
+     * @see https://www.metacritic.com
+     */
+    Metacritic = "Metacritic",
+    /**
      * MetaFilter
-     * @see https://www.metafilter.com/apple-touch-icon.png
+     * @see https://www.metafilter.com
      */
     MetaFilter = "MetaFilter",
     /**
+     * Metasploit
+     * @see https://github.com/rapid7/metasploit-framework/blob/f8bd7dfd834354c9a2e2c03e1d9f5d53f8881954/docs/assets/images/favicon.png
+     */
+    Metasploit = "Metasploit",
+    /**
      * Meteor
-     * @see http://logo.meteorapp.com/
+     * @see https://logo.meteorapp.com
      */
     Meteor = "Meteor",
     /**
@@ -5152,7 +8507,7 @@ export enum SimpleIcons {
     MetroDeMadrid = "Metro-de-Madrid",
     /**
      * Métro de Paris
-     * @see https://www.ratp.fr/
+     * @see https://www.ratp.fr
      */
     M_troDeParis = "Métro-de-Paris",
     /**
@@ -5161,18 +8516,28 @@ export enum SimpleIcons {
      */
     MeWe = "MeWe",
     /**
+     * MG
+     * @see https://www.mg.co.uk/themes/custom/mg/assets/images/svg/mg-logo-desktop.svg
+     */
+    MG = "MG",
+    /**
+     * Micro Editor
+     * @see https://github.com/zyedidia/micro/blob/48645907ec55798b75723019dad75dba51bd97d7/assets/micro-logo-mark.svg
+     */
+    MicroEditor = "Micro-Editor",
+    /**
      * micro:bit
-     * @see https://microbit.org/
+     * @see https://microbit.org
      */
     Micro_bit = "micro:bit",
     /**
      * Micro.blog
-     * @see https://help.micro.blog/
+     * @see https://help.micro.blog
      */
     MicroBlog = "Micro.blog",
     /**
      * Microgenetics
-     * @see http://microgenetics.co.uk/
+     * @see https://microgenetics.co.uk
      */
     Microgenetics = "Microgenetics",
     /**
@@ -5181,95 +8546,10 @@ export enum SimpleIcons {
      */
     MicroPython = "MicroPython",
     /**
-     * Microsoft
-     * @see https://developer.microsoft.com
+     * Microstation
+     * @see https://www.bentley.com/software/microstation
      */
-    Microsoft = "Microsoft",
-    /**
-     * Microsoft Academic
-     * @see https://academic.microsoft.com/
-     */
-    MicrosoftAcademic = "Microsoft-Academic",
-    /**
-     * Microsoft Access
-     * @see https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products
-     */
-    MicrosoftAccess = "Microsoft-Access",
-    /**
-     * Microsoft Azure
-     * @see https://github.com/microsoft/vscode-azureresourcegroups/blob/0a06362e82170fd7f8dc2496286825b1a69cc42b/resources/azure.svg
-     */
-    MicrosoftAzure = "Microsoft-Azure",
-    /**
-     * Microsoft Bing
-     * @see https://www.bing.com/covid/
-     */
-    MicrosoftBing = "Microsoft-Bing",
-    /**
-     * Microsoft Edge
-     * @see https://support.microsoft.com/en-us/help/17171/microsoft-edge-get-to-know
-     */
-    MicrosoftEdge = "Microsoft-Edge",
-    /**
-     * Microsoft Excel
-     * @see https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products
-     */
-    MicrosoftExcel = "Microsoft-Excel",
-    /**
-     * Microsoft Exchange
-     * @see https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products
-     */
-    MicrosoftExchange = "Microsoft-Exchange",
-    /**
-     * Microsoft Office
-     * @see https://developer.microsoft.com/en-us/microsoft-365
-     */
-    MicrosoftOffice = "Microsoft-Office",
-    /**
-     * Microsoft OneDrive
-     * @see https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products
-     */
-    MicrosoftOneDrive = "Microsoft-OneDrive",
-    /**
-     * Microsoft OneNote
-     * @see https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products
-     */
-    MicrosoftOneNote = "Microsoft-OneNote",
-    /**
-     * Microsoft Outlook
-     * @see https://developer.microsoft.com/en-us/outlook/docs
-     */
-    MicrosoftOutlook = "Microsoft-Outlook",
-    /**
-     * Microsoft PowerPoint
-     * @see https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products
-     */
-    MicrosoftPowerPoint = "Microsoft-PowerPoint",
-    /**
-     * Microsoft SharePoint
-     * @see https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products
-     */
-    MicrosoftSharePoint = "Microsoft-SharePoint",
-    /**
-     * Microsoft SQL Server
-     * @see https://de.wikipedia.org/wiki/Datei:Microsoft_SQL_Server_Logo.svg
-     */
-    MicrosoftSQLServer = "Microsoft-SQL-Server",
-    /**
-     * Microsoft Teams
-     * @see https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products
-     */
-    MicrosoftTeams = "Microsoft-Teams",
-    /**
-     * Microsoft Visio
-     * @see https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products
-     */
-    MicrosoftVisio = "Microsoft-Visio",
-    /**
-     * Microsoft Word
-     * @see https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products
-     */
-    MicrosoftWord = "Microsoft-Word",
+    Microstation = "Microstation",
     /**
      * MicroStrategy
      * @see https://www.microstrategy.com/en/company/press-kit
@@ -5281,18 +8561,33 @@ export enum SimpleIcons {
      */
     MIDI = "MIDI",
     /**
+     * Migadu
+     * @see https://migadu.com
+     */
+    Migadu = "Migadu",
+    /**
+     * Mikrotik
+     * @see https://mikrotik.com/aboutus
+     */
+    Mikrotik = "Mikrotik",
+    /**
+     * Milanote
+     * @see https://milanote.com
+     */
+    Milanote = "Milanote",
+    /**
+     * Milvus
+     * @see https://github.com/milvus-io/artwork/blob/e30bffa2b0632b0d4cefcdd4e1a2c09fee5b0d28/icon/black/milvus-icon-black.svg
+     */
+    Milvus = "Milvus",
+    /**
      * Minds
      * @see https://www.minds.com/branding
      */
     Minds = "Minds",
     /**
-     * Minecraft
-     * @see https://education.minecraft.net/press/
-     */
-    Minecraft = "Minecraft",
-    /**
      * Minetest
-     * @see https://www.minetest.net/
+     * @see https://www.minetest.net
      */
     Minetest = "Minetest",
     /**
@@ -5301,18 +8596,38 @@ export enum SimpleIcons {
      */
     Mini = "Mini",
     /**
+     * MinIO
+     * @see https://min.io
+     */
+    MinIO = "MinIO",
+    /**
+     * Mintlify
+     * @see https://mintlify.com
+     */
+    Mintlify = "Mintlify",
+    /**
      * Minutemailer
      * @see https://minutemailer.com
      */
     Minutemailer = "Minutemailer",
     /**
+     * Miraheze
+     * @see https://miraheze.org
+     */
+    Miraheze = "Miraheze",
+    /**
      * Miro
-     * @see https://miro.com/
+     * @see https://miro.com
      */
     Miro = "Miro",
     /**
+     * Misskey
+     * @see https://misskey-hub.net/appendix/assets.html
+     */
+    Misskey = "Misskey",
+    /**
      * Mitsubishi
-     * @see https://www.mitsubishi.com/
+     * @see https://www.mitsubishi.com
      */
     Mitsubishi = "Mitsubishi",
     /**
@@ -5326,6 +8641,21 @@ export enum SimpleIcons {
      */
     Mixcloud = "Mixcloud",
     /**
+     * Mixpanel
+     * @see https://mixpanel.com
+     */
+    Mixpanel = "Mixpanel",
+    /**
+     * MLB
+     * @see https://www.mlb.com
+     */
+    MLB = "MLB",
+    /**
+     * MLflow
+     * @see https://github.com/mlflow/mlflow/blob/855881f93703b15ffe643003fb4d7c84f0ec2502/assets/icon.svg
+     */
+    MLflow = "MLflow",
+    /**
      * MobX
      * @see https://github.com/mobxjs/mobx/blob/248e25e37af31c2e71ff452bc662a85816fa40d8/docs/assets/mobservable.svg
      */
@@ -5337,22 +8667,37 @@ export enum SimpleIcons {
     MobXStateTree = "MobX-State-Tree",
     /**
      * Mocha
-     * @see https://mochajs.org/
+     * @see https://mochajs.org
      */
     Mocha = "Mocha",
     /**
+     * Mock Service Worker
+     * @see https://github.com/mswjs/msw/blob/9c53bd23040307d41b5b0b7cec1bf3a05950dbc8/media/msw-logo-black.svg
+     */
+    MockServiceWorker = "Mock-Service-Worker",
+    /**
+     * Modal
+     * @see https://modal.com
+     */
+    Modal = "Modal",
+    /**
+     * Modin
+     * @see https://modin.org
+     */
+    Modin = "Modin",
+    /**
+     * Modrinth
+     * @see https://github.com/modrinth/art/blob/d5ab4f965b0b4cea7201967483885ecd8d04a562/Branding/Favicon/favicon.svg
+     */
+    Modrinth = "Modrinth",
+    /**
      * MODX
-     * @see https://docs.modx.com/
+     * @see https://docs.modx.com
      */
     MODX = "MODX",
     /**
-     * Mojang Studios
-     * @see https://www.minecraft.net
-     */
-    MojangStudios = "Mojang-Studios",
-    /**
      * Moleculer
-     * @see https://moleculer.services/
+     * @see https://moleculer.services
      */
     Moleculer = "Moleculer",
     /**
@@ -5362,19 +8707,54 @@ export enum SimpleIcons {
     Momenteo = "Momenteo",
     /**
      * Monero
-     * @see https://www.getmonero.org/press-kit/
+     * @see https://www.getmonero.org/press-kit
      */
     Monero = "Monero",
+    /**
+     * MoneyGram
+     * @see https://moneygram.com
+     */
+    MoneyGram = "MoneyGram",
     /**
      * MongoDB
      * @see https://www.mongodb.com/pressroom
      */
     MongoDB = "MongoDB",
     /**
+     * Mongoose
+     * @see https://github.com/Automattic/mongoose/blob/7971a4dbd55888f0b005e65b06024109af8352f7/docs/images/mongoose.svg
+     */
+    Mongoose = "Mongoose",
+    /**
+     * Mongoose
+     * @see https://mongoose.ws
+     */
+    Mongoosedotws = "mongoosedotws",
+    /**
+     * Monica
+     * @see https://github.com/monicahq/monica/blob/d7886cc6fd11388a95b7504e1a5363ecc7ad9a59/public/img/monica.svg
+     */
+    Monica = "Monica",
+    /**
      * monkey tie
      * @see https://www.monkey-tie.com
      */
     MonkeyTie = "monkey-tie",
+    /**
+     * Monkeytype
+     * @see https://github.com/monkeytypegame/monkeytype/blob/20a08d27ead851bbfd5ac557b4ea444ea8bddd79/frontend/static/html/top.html
+     */
+    Monkeytype = "Monkeytype",
+    /**
+     * MonoGame
+     * @see https://www.monogame.net
+     */
+    MonoGame = "MonoGame",
+    /**
+     * Monoprix
+     * @see https://www.monoprix.fr
+     */
+    Monoprix = "Monoprix",
     /**
      * Monster
      * @see https://www.monster.com/press/
@@ -5391,13 +8771,38 @@ export enum SimpleIcons {
      */
     Moo = "Moo",
     /**
+     * Moodle
+     * @see https://moodle.com/trademarks
+     */
+    Moodle = "Moodle",
+    /**
+     * Moonrepo
+     * @see https://moonrepo.dev
+     */
+    Moonrepo = "Moonrepo",
+    /**
+     * Moq
+     * @see https://github.com/devlooped/moq/blob/1f31df466bf5513b32ef0a0338e242bc51180c7f/assets/img/moq-icon.png
+     */
+    Moq = "Moq",
+    /**
+     * Moqups
+     * @see https://app.moqups.com
+     */
+    Moqups = "Moqups",
+    /**
+     * Morrisons
+     * @see https://groceries.morrisons.com
+     */
+    Morrisons = "Morrisons",
+    /**
      * Moscow Metro
-     * @see https://mosmetro.ru/
+     * @see https://mosmetro.ru
      */
     MoscowMetro = "Moscow-Metro",
     /**
      * Motorola
-     * @see https://motorola-global-portal-de.custhelp.com/
+     * @see https://motorola-global-portal-de.custhelp.com
      */
     Motorola = "Motorola",
     /**
@@ -5406,8 +8811,28 @@ export enum SimpleIcons {
      */
     Mozilla = "Mozilla",
     /**
+     * mpv
+     * @see https://github.com/mpv-player/mpv/blob/da400ed3a9b54408d1b5112855a7281380a1ef52/etc/mpv.svg
+     */
+    Mpv = "mpv",
+    /**
+     * MQTT
+     * @see https://mqtt.org
+     */
+    MQTT = "MQTT",
+    /**
+     * MSI
+     * @see https://www.msi.com/page/brochure
+     */
+    MSI = "MSI",
+    /**
+     * MSI Business
+     * @see https://www.msi.com/Business-Productivity
+     */
+    MSIBusiness = "MSI-Business",
+    /**
      * MTA
-     * @see https://mta.info/
+     * @see https://mta.info
      */
     MTA = "MTA",
     /**
@@ -5416,10 +8841,45 @@ export enum SimpleIcons {
      */
     MTR = "MTR",
     /**
+     * MUBI
+     * @see https://mubi.com
+     */
+    MUBI = "MUBI",
+    /**
+     * MUI
+     * @see https://github.com/mui-org/material-ui/blob/353cecb5391571163eb6bd8cbf36d2dd299aaf56/docs/src/icons/SvgMuiLogo.tsx
+     */
+    MUI = "MUI",
+    /**
+     * Mulesoft
+     * @see https://www.mulesoft.com/brand
+     */
+    Mulesoft = "Mulesoft",
+    /**
+     * Müller
+     * @see https://www.mueller.de
+     */
+    M_ller = "Müller",
+    /**
+     * Multisim
+     * @see https://www.multisim.com
+     */
+    Multisim = "Multisim",
+    /**
      * Mumble
      * @see https://github.com/mumble-voip/mumble/blob/d40a19eb88cda61084da245a1b6cb8f32ef1b6e4/icons/mumble_small.svg
      */
     Mumble = "Mumble",
+    /**
+     * MUO
+     * @see https://www.makeuseof.com
+     */
+    MUO = "MUO",
+    /**
+     * Mural
+     * @see https://www.mural.co/brand-assets
+     */
+    Mural = "Mural",
     /**
      * MuseScore
      * @see https://musescore.org/en/about/logos-and-graphics
@@ -5441,13 +8901,18 @@ export enum SimpleIcons {
      */
     MyAnimeList = "MyAnimeList",
     /**
+     * MyGet
+     * @see https://docs.myget.org
+     */
+    MyGet = "MyGet",
+    /**
      * MYOB
      * @see https://myob-identikit.frontify.com/d/JK2D4WFOdAwV/for-developers
      */
     MYOB = "MYOB",
     /**
      * Myspace
-     * @see https://myspace.com/
+     * @see https://myspace.com
      */
     Myspace = "Myspace",
     /**
@@ -5457,19 +8922,39 @@ export enum SimpleIcons {
     MySQL = "MySQL",
     /**
      * N26
-     * @see https://n26.com/
+     * @see https://n26.com
      */
     N26 = "N26",
     /**
+     * n8n
+     * @see https://n8n.io/press
+     */
+    N8n = "n8n",
+    /**
      * Namebase
-     * @see https://www.namebase.io/
+     * @see https://www.namebase.io
      */
     Namebase = "Namebase",
     /**
      * Namecheap
-     * @see https://www.namecheap.com/
+     * @see https://www.namecheap.com
      */
     Namecheap = "Namecheap",
+    /**
+     * NameMC
+     * @see https://namemc.com
+     */
+    NameMC = "NameMC",
+    /**
+     * NameSilo
+     * @see https://www.namesilo.com/support/v2
+     */
+    NameSilo = "NameSilo",
+    /**
+     * Namu Wiki
+     * @see https://namu.wiki/w/%ED%8C%8C%EC%9D%BC:%EB%82%98%EB%AC%B4%EC%9C%84%ED%82%A4%20%EC%95%84%EC%9D%B4%EC%BD%98.svg
+     */
+    NamuWiki = "Namu-Wiki",
     /**
      * Nano
      * @see https://nano.org/resources
@@ -5482,22 +8967,32 @@ export enum SimpleIcons {
     NASA = "NASA",
     /**
      * National Grid
-     * @see https://www.nationalgrid.com/
+     * @see https://www.nationalgrid.com
      */
     NationalGrid = "National-Grid",
     /**
+     * National Rail
+     * @see https://www.nationalrailguidelines.co.uk
+     */
+    NationalRail = "National-Rail",
+    /**
      * NativeScript
-     * @see https://docs.nativescript.org/
+     * @see https://docs.nativescript.org
      */
     NativeScript = "NativeScript",
     /**
+     * NATS.io
+     * @see https://github.com/cncf/artwork/blob/88bc5e7a0cc7f3770ba6edddc92e1ab8a6006171/projects/nats/icon/black/nats-icon-black.svg
+     */
+    NATSIo = "NATS.io",
+    /**
      * Naver
-     * @see https://www.navercorp.com/investment/annualReport
+     * @see https://developers.naver.com/docs/login/bi/bi.md
      */
     Naver = "Naver",
     /**
      * NBA
-     * @see https://nba.com/
+     * @see https://nba.com
      */
     NBA = "NBA",
     /**
@@ -5506,10 +9001,20 @@ export enum SimpleIcons {
      */
     NBB = "NBB",
     /**
+     * NBC
+     * @see https://www.nbcnews.com
+     */
+    NBC = "NBC",
+    /**
      * NDR
-     * @see https://www.ndr.de/
+     * @see https://www.ndr.de
      */
     NDR = "NDR",
+    /**
+     * NEAR
+     * @see https://near.org/brand
+     */
+    NEAR = "NEAR",
     /**
      * NEC
      * @see https://commons.wikimedia.org/wiki/File:NEC_logo.svg
@@ -5517,34 +9022,84 @@ export enum SimpleIcons {
     NEC = "NEC",
     /**
      * Neo4j
-     * @see https://neo4j.com/style-guide/
+     * @see https://neo4j.com/brand/#logo
      */
     Neo4j = "Neo4j",
     /**
      * Neovim
-     * @see https://neovim.io/
+     * @see https://neovim.io
      */
     Neovim = "Neovim",
     /**
+     * Neptune
+     * @see https://neptune.ai
+     */
+    Neptune = "Neptune",
+    /**
      * NestJS
-     * @see https://nestjs.com/
+     * @see https://nestjs.com
      */
     NestJS = "NestJS",
     /**
      * NetApp
-     * @see http://www.netapp.com/
+     * @see https://www.netapp.com
      */
     NetApp = "NetApp",
+    /**
+     * NetBSD
+     * @see https://www.netbsd.org
+     */
+    NetBSD = "NetBSD",
+    /**
+     * netcup
+     * @see https://www.netcup.de/static/assets/images/favicons/favicon.svg
+     */
+    Netcup = "netcup",
+    /**
+     * Netdata
+     * @see https://www.netdata.cloud
+     */
+    Netdata = "Netdata",
+    /**
+     * NetEase Cloud Music
+     * @see https://y.music.163.com/m
+     */
+    NetEaseCloudMusic = "NetEase-Cloud-Music",
     /**
      * Netflix
      * @see https://brand.netflix.com/en/assets/brand-symbol
      */
     Netflix = "Netflix",
     /**
+     * NETGEAR
+     * @see https://www.powershift.netgear.de/images/powershift/collateral/logos-visio-icons/brandguideline_partner_2018.pdf
+     */
+    NETGEAR = "NETGEAR",
+    /**
      * Netlify
      * @see https://www.netlify.com/press/
      */
     Netlify = "Netlify",
+    /**
+     * Nette
+     * @see https://nette.org/en/logo
+     */
+    Nette = "Nette",
+    /**
+     * Netto
+     * @see https://www.netto-online.de/INTERSHOP/static/WFS/Plus-NettoDE-Site/-/-/de_DE/css/images/netto-logo.svg
+     */
+    Netto = "Netto",
+    /**
+     * Neutralinojs
+     * @see https://github.com/neutralinojs/design-guide/blob/52a7232598ff22cddd810a3079e09a2cc2892609/logo/neutralinojs_logo_vector.svg
+     */
+    Neutralinojs = "Neutralinojs",
+    /**
+     * New Balance
+     * @see https://www.newbalance.com
+     */
+    NewBalance = "New-Balance",
     /**
      * New Japan Pro-Wrestling
      * @see https://en.wikipedia.org/wiki/File:NJPW_World_Logo.svg
@@ -5557,24 +9112,54 @@ export enum SimpleIcons {
     NewRelic = "New-Relic",
     /**
      * New York Times
-     * @see https://www.nytimes.com/
+     * @see https://www.nytimes.com
      */
     NewYorkTimes = "New-York-Times",
     /**
+     * Newegg
+     * @see https://www.newegg.com
+     */
+    Newegg = "Newegg",
+    /**
      * Next.js
-     * @see https://nextjs.org/
+     * @see https://vercel.com/design/brands#next-js
      */
     NextJs = "Next.js",
+    /**
+     * NextBillion.ai
+     * @see https://nextbillion.ai
+     */
+    NextBillionAi = "NextBillion.ai",
     /**
      * Nextcloud
      * @see https://nextcloud.com/press/
      */
     Nextcloud = "Nextcloud",
     /**
+     * NextDNS
+     * @see https://github.com/simple-icons/simple-icons/pull/9150#issuecomment-1856317201
+     */
+    NextDNS = "NextDNS",
+    /**
      * Nextdoor
      * @see https://about.nextdoor.com/us-media/
      */
     Nextdoor = "Nextdoor",
+    /**
+     * Nextra
+     * @see https://nextra.site
+     */
+    Nextra = "Nextra",
+    /**
+     * NextUI
+     * @see https://nextui.org/figma
+     */
+    NextUI = "NextUI",
+    /**
+     * Nexus Mods
+     * @see https://wiki.nexusmods.com/skins/Metrolook/images/nexuslogo.svg
+     */
+    NexusMods = "Nexus-Mods",
     /**
      * NFC
      * @see https://nfc-forum.org/our-work/nfc-branding/n-mark/guidelines-and-brand-assets/
@@ -5586,15 +9171,45 @@ export enum SimpleIcons {
      */
     NGINX = "NGINX",
     /**
+     * Nginx Proxy Manager
+     * @see https://github.com/NginxProxyManager/nginx-proxy-manager/blob/2a06384a4aa597777931d38cef49cf89540392e6/docs/.vuepress/public/logo.svg
+     */
+    NginxProxyManager = "Nginx-Proxy-Manager",
+    /**
      * ngrok
-     * @see https://ngrok.com/
+     * @see https://ngrok.com
      */
     Ngrok = "ngrok",
     /**
+     * NgRx
+     * @see https://ngrx.io
+     */
+    NgRx = "NgRx",
+    /**
+     * NHL
+     * @see https://www.nhl.com
+     */
+    NHL = "NHL",
+    /**
+     * NiceHash
+     * @see https://www.nicehash.com/nicehash-media
+     */
+    NiceHash = "NiceHash",
+    /**
      * niconico
-     * @see https://www.nicovideo.jp/
+     * @see https://www.nicovideo.jp
      */
     Niconico = "niconico",
+    /**
+     * Nike
+     * @see https://www.nike.com
+     */
+    Nike = "Nike",
+    /**
+     * Nikon
+     * @see https://www.nikon.com
+     */
+    Nikon = "Nikon",
     /**
      * Nim
      * @see https://nim-lang.org
@@ -5602,12 +9217,12 @@ export enum SimpleIcons {
     Nim = "Nim",
     /**
      * Nintendo
-     * @see https://en.wikipedia.org/wiki/Nintendo#/media/File:Nintendo.svg
+     * @see https://www.nintendo.com
      */
     Nintendo = "Nintendo",
     /**
      * Nintendo 3DS
-     * @see https://www.nintendo.de/
+     * @see https://www.nintendo.de
      */
     Nintendo3DS = "Nintendo-3DS",
     /**
@@ -5616,23 +9231,18 @@ export enum SimpleIcons {
      */
     NintendoGameCube = "Nintendo-GameCube",
     /**
-     * Nintendo Network
-     * @see https://id.nintendo.net/login
-     */
-    NintendoNetwork = "Nintendo-Network",
-    /**
      * Nintendo Switch
      * @see https://www.nintendo.com/switch/
      */
     NintendoSwitch = "Nintendo-Switch",
     /**
      * Nissan
-     * @see https://www.nissan.ie/
+     * @see https://www.nissan.ie
      */
     Nissan = "Nissan",
     /**
      * NixOS
-     * @see https://github.com/NixOS/nixos-homepage/tree/master/logo
+     * @see https://github.com/NixOS/nixos-homepage/tree/58cfdb770aba28b73446a1b3ee65a5cec4f0d44f/logo
      */
     NixOS = "NixOS",
     /**
@@ -5642,19 +9252,49 @@ export enum SimpleIcons {
     NodeRED = "Node-RED",
     /**
      * Node.js
-     * @see https://nodejs.org/en/about/resources/
+     * @see https://nodejs.org/en/about/branding
      */
     NodeJs = "Node.js",
     /**
      * Nodemon
-     * @see https://nodemon.io/
+     * @see https://nodemon.io
      */
     Nodemon = "Nodemon",
     /**
      * Nokia
-     * @see https://www.nokia.com/
+     * @see https://www.nokia.com
      */
     Nokia = "Nokia",
+    /**
+     * Nomad
+     * @see https://www.hashicorp.com/brand
+     */
+    Nomad = "Nomad",
+    /**
+     * Norco
+     * @see https://www.norco.com
+     */
+    Norco = "Norco",
+    /**
+     * Nordic Semiconductor
+     * @see https://www.nordicsemi.com
+     */
+    NordicSemiconductor = "Nordic-Semiconductor",
+    /**
+     * NordVPN
+     * @see https://nordvpn.com/press-area/
+     */
+    NordVPN = "NordVPN",
+    /**
+     * Normalize.css
+     * @see https://github.com/necolas/normalize.css/blob/3a60304f90870c6087d226f53e02a7523c907a35/logo.svg
+     */
+    NormalizeCss = "Normalize.css",
+    /**
+     * Norton
+     * @see https://us.norton.com
+     */
+    Norton = "Norton",
     /**
      * Norwegian
      * @see https://www.norwegian.com/ie/travel-info/on-board/in-flight-entertainment/magazine/
@@ -5667,29 +9307,49 @@ export enum SimpleIcons {
     Notepad__ = "Notepad++",
     /**
      * Notion
-     * @see https://www.notion.so/
+     * @see https://www.notion.so
      */
     Notion = "Notion",
     /**
      * Notist
-     * @see https://noti.st/
+     * @see https://noti.st
      */
     Notist = "Notist",
     /**
      * Noun Project
-     * @see https://www.lingoapp.com/6/s/oJkq3W/?v=3
+     * @see https://thenounproject.com
      */
     NounProject = "Noun-Project",
     /**
+     * Novu
+     * @see https://handbook.novu.co/logos-assets
+     */
+    Novu = "Novu",
+    /**
+     * NOW
+     * @see https://www.nowtv.com
+     */
+    NOW = "NOW",
+    /**
      * npm
-     * @see https://www.npmjs.com/
+     * @see https://www.npmjs.com
      */
     Npm = "npm",
     /**
      * Nrwl
-     * @see https://nrwl.io/assets/nrwl-logo-white.svg
+     * @see https://nrwl.io
      */
     Nrwl = "Nrwl",
+    /**
+     * NSIS
+     * @see https://github.com/idleberg/nsis-logo/blob/885ba2fd08a6ff450c6f7cbd675563b5df728d38/src/Logo/below%2024x24/mono-flat.svg
+     */
+    NSIS = "NSIS",
+    /**
+     * ntfy
+     * @see https://ntfy.sh
+     */
+    Ntfy = "ntfy",
     /**
      * Nubank
      * @see https://nubank.com.br/en/press/
@@ -5697,7 +9357,7 @@ export enum SimpleIcons {
     Nubank = "Nubank",
     /**
      * Nucleo
-     * @see https://nucleoapp.com/
+     * @see https://nucleoapp.com
      */
     Nucleo = "Nucleo",
     /**
@@ -5721,45 +9381,100 @@ export enum SimpleIcons {
      */
     NumPy = "NumPy",
     /**
+     * Nunjucks
+     * @see https://github.com/mozilla/nunjucks/blob/fd500902d7c88672470c87170796de52fc0f791a/docs/img/favicon.png
+     */
+    Nunjucks = "Nunjucks",
+    /**
+     * Nushell
+     * @see https://github.com/nushell/nushell/blob/3016d7a64ccb2c2eac9f735f6144fc896ea724a5/assets/icons/nushell-original.png
+     */
+    Nushell = "Nushell",
+    /**
      * Nutanix
      * @see https://www.nutanix.com/content/dam/nutanix/en/cmn/documents/nutanix-brandbook.pdf
      */
     Nutanix = "Nutanix",
     /**
      * Nuxt.js
-     * @see https://nuxtjs.org/design
+     * @see https://nuxt.com/design-kit
      */
     NuxtJs = "Nuxt.js",
     /**
      * NVIDIA
-     * @see https://www.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/images/NVIDIA-Logo.svg
+     * @see https://www.nvidia.com/en-us
      */
     NVIDIA = "NVIDIA",
     /**
+     * nvm
+     * @see https://github.com/nvm-sh/logos/blob/bf1f9618e83e5098024b18c73ada1b0f542db5f8/nvm-logo-black.svg
+     */
+    Nvm = "nvm",
+    /**
      * Nx
-     * @see https://nx.dev/
+     * @see https://nx.dev
      */
     Nx = "Nx",
     /**
+     * NXP
+     * @see https://www.nxp.com/company/about-nxp/newsroom:NEWSROOM
+     */
+    NXP = "NXP",
+    /**
+     * NZXT
+     * @see https://nzxt.com
+     */
+    NZXT = "NZXT",
+    /**
+     * O'Reilly
+     * @see https://www.oreilly.com/about/logos/
+     */
+    O_Reilly = "O'Reilly",
+    /**
      * OBS Studio
-     * @see https://upload.wikimedia.org/wikipedia/commons/7/78/OBS.svg
+     * @see https://commons.wikimedia.org/wiki/File:OBS.svg
      */
     OBSStudio = "OBS-Studio",
     /**
      * Observable
-     * @see https://observablehq.com/
+     * @see https://observablehq.com
      */
     Observable = "Observable",
     /**
+     * Obsidian
+     * @see https://obsidian.md
+     */
+    Obsidian = "Obsidian",
+    /**
      * OCaml
-     * @see http://ocaml.org/img/OCaml_Sticker.svg
+     * @see https://ocaml.org/logo
      */
     OCaml = "OCaml",
+    /**
+     * oclif
+     * @see https://github.com/oclif/oclif.github.io/blob/2356a96dbaf0d3791ec2ddce3b08ccd78408e0a0/website/static/img/oclif.svg
+     */
+    Oclif = "oclif",
+    /**
+     * Octane Render
+     * @see https://render.otoy.com/forum/viewtopic.php?f=9&t=359
+     */
+    OctaneRender = "Octane-Render",
     /**
      * Octave
      * @see https://www.gnu.org/software/octave/
      */
     Octave = "Octave",
+    /**
+     * October CMS
+     * @see https://octobercms.com
+     */
+    OctoberCMS = "October-CMS",
+    /**
+     * OctoPrint
+     * @see https://github.com/OctoPrint/OctoPrint/blob/53b9b6185781c07e8c4744a6e28462e96448f249/src/octoprint/static/img/mask.svg
+     */
+    OctoPrint = "OctoPrint",
     /**
      * Octopus Deploy
      * @see https://octopus.com/company/brand
@@ -5776,10 +9491,20 @@ export enum SimpleIcons {
      */
     Odnoklassniki = "Odnoklassniki",
     /**
+     * Odoo
+     * @see https://www.odoo.com/page/brand-assets
+     */
+    Odoo = "Odoo",
+    /**
      * Odysee
      * @see https://odysee.com/@OdyseeHelp:b/odyseepresskit:b
      */
     Odysee = "Odysee",
+    /**
+     * Oh Dear
+     * @see https://ohdear.app/logos
+     */
+    OhDear = "Oh-Dear",
     /**
      * okcupid
      * @see https://okcupid.com/press
@@ -5801,13 +9526,18 @@ export enum SimpleIcons {
      */
     OnlyFans = "OnlyFans",
     /**
+     * ONLYOFFICE
+     * @see https://www.onlyoffice.com/en/press-downloads.aspx
+     */
+    ONLYOFFICE = "ONLYOFFICE",
+    /**
      * ONNX
      * @see https://github.com/onnx/onnx.github.io/blob/382e7036b616ce1555499ac41730245a2478513c/images/ONNX-ICON.svg
      */
     ONNX = "ONNX",
     /**
      * OnStar
-     * @see https://www.onstar.com/
+     * @see https://www.onstar.com
      */
     OnStar = "OnStar",
     /**
@@ -5822,12 +9552,12 @@ export enum SimpleIcons {
     OpenAccess = "Open-Access",
     /**
      * Open Badges
-     * @see https://backpack.openbadges.org/
+     * @see https://backpack.openbadges.org
      */
     OpenBadges = "Open-Badges",
     /**
      * Open Bug Bounty
-     * @see https://www.openbugbounty.org/
+     * @see https://www.openbugbounty.org
      */
     OpenBugBounty = "Open-Bug-Bounty",
     /**
@@ -5837,9 +9567,14 @@ export enum SimpleIcons {
     OpenCollective = "Open-Collective",
     /**
      * Open Containers Initiative
-     * @see https://github.com/opencontainers/artwork/tree/master/oci/icon
+     * @see https://github.com/opencontainers/artwork/blob/d8ccfe94471a0236b1d4a3f0f90862c4fe5486ce/oci/icon/black/oci-icon-black.svg
      */
     OpenContainersInitiative = "Open-Containers-Initiative",
+    /**
+     * Open Source Hardware
+     * @see https://www.oshwa.org/open-source-hardware-logo
+     */
+    OpenSourceHardware = "Open-Source-Hardware",
     /**
      * Open Source Initiative
      * @see https://opensource.org/logo-usage-guidelines
@@ -5847,12 +9582,12 @@ export enum SimpleIcons {
     OpenSourceInitiative = "Open-Source-Initiative",
     /**
      * OpenAI
-     * @see https://openai.com/
+     * @see https://openai.com
      */
     OpenAI = "OpenAI",
     /**
      * OpenAI Gym
-     * @see https://gym.openai.com/
+     * @see https://gym.openai.com
      */
     OpenAIGym = "OpenAI-Gym",
     /**
@@ -5872,7 +9607,7 @@ export enum SimpleIcons {
     OpenCV = "OpenCV",
     /**
      * OpenFaaS
-     * @see https://docs.openfaas.com/
+     * @see https://docs.openfaas.com
      */
     OpenFaaS = "OpenFaaS",
     /**
@@ -5881,23 +9616,68 @@ export enum SimpleIcons {
      */
     OpenGL = "OpenGL",
     /**
+     * openHAB
+     * @see https://www.openhab.org/artwork.html
+     */
+    OpenHAB = "openHAB",
+    /**
      * OpenID
      * @see https://openid.net/add-openid/logos/
      */
     OpenID = "OpenID",
+    /**
+     * OpenJDK
+     * @see https://hg.openjdk.java.net/duke/duke/file/ca00f100dafc/vector/Agent.svg#l1
+     */
+    OpenJDK = "OpenJDK",
+    /**
+     * OpenJS Foundation
+     * @see https://github.com/openjs-foundation/artwork/blob/270575392800eb17a02612203f6f0d5868c634a7/openjs_foundation/openjs_foundation-icon-black.svg
+     */
+    OpenJSFoundation = "OpenJS-Foundation",
     /**
      * Openlayers
      * @see https://github.com/openlayers/openlayers.github.io/blob/5b93e18b8d302eb49a812fb96abb529895ceb7a2/assets/logo.svg
      */
     Openlayers = "Openlayers",
     /**
+     * openmediavault
+     * @see https://github.com/openmediavault/openmediavault/blob/12f8ef70f19f967733b744d6fb6156a4181f1ddc/deb/openmediavault/workbench/src/favicon.svg
+     */
+    Openmediavault = "openmediavault",
+    /**
+     * OpenMined
+     * @see https://www.openmined.org
+     */
+    OpenMined = "OpenMined",
+    /**
      * OpenNebula
      * @see https://opennebula.io/docs/
      */
     OpenNebula = "OpenNebula",
     /**
+     * OpenProject
+     * @see https://www.openproject.org/press/
+     */
+    OpenProject = "OpenProject",
+    /**
+     * OpenSCAD
+     * @see https://commons.wikimedia.org/wiki/File:Openscad.svg
+     */
+    OpenSCAD = "OpenSCAD",
+    /**
+     * OpenSea
+     * @see https://docs.opensea.io
+     */
+    OpenSea = "OpenSea",
+    /**
+     * OpenSearch
+     * @see https://opensearch.org/trademark-brand-policy.html
+     */
+    OpenSearch = "OpenSearch",
+    /**
      * OpenSSL
-     * @see https://www.openssl.org/
+     * @see https://www.openssl.org
      */
     OpenSSL = "OpenSSL",
     /**
@@ -5916,8 +9696,28 @@ export enum SimpleIcons {
      */
     OpenSUSE = "openSUSE",
     /**
+     * OpenTelemetry
+     * @see https://cncf-branding.netlify.app/projects/opentelemetry/
+     */
+    OpenTelemetry = "OpenTelemetry",
+    /**
+     * OpenText
+     * @see https://www.opentext.com
+     */
+    OpenText = "OpenText",
+    /**
+     * OpenTofu
+     * @see https://github.com/opentofu/brand-artifacts/blob/0d4d0d6050ca0ff06471400bc3249a64c145f659/symbol-only/transparent/SVG/on-light-mono.svg
+     */
+    OpenTofu = "OpenTofu",
+    /**
+     * Openverse
+     * @see https://github.com/WordPress/openverse/blob/5db2545d6b73ec4aa5e908822683ee9d18af301d/brand/icon.svg
+     */
+    Openverse = "Openverse",
+    /**
      * OpenVPN
-     * @see https://openvpn.net/wp-content/themes/openvpn/assets/images/logo.svg
+     * @see https://openvpn.net
      */
     OpenVPN = "OpenVPN",
     /**
@@ -5926,15 +9726,35 @@ export enum SimpleIcons {
      */
     OpenWrt = "OpenWrt",
     /**
+     * OpenZeppelin
+     * @see https://openzeppelin.com
+     */
+    OpenZeppelin = "OpenZeppelin",
+    /**
+     * OpenZFS
+     * @see https://commons.wikimedia.org/wiki/File:OpenZFS_logo.svg
+     */
+    OpenZFS = "OpenZFS",
+    /**
      * Opera
      * @see https://brand.opera.com/1472-2/opera-logos/
      */
     Opera = "Opera",
     /**
+     * Opera GX
+     * @see https://brand.opera.com/1472-2/opera-logos/
+     */
+    OperaGX = "Opera-GX",
+    /**
      * OPNSense
      * @see https://opnsense.org/about/legal-notices/
      */
     OPNSense = "OPNSense",
+    /**
+     * OPPO
+     * @see https://www.figma.com/community/file/832815970641696814/OPPO-Media-Kit
+     */
+    OPPO = "OPPO",
     /**
      * Opsgenie
      * @see https://www.atlassian.com/company/news/press-kit
@@ -5942,14 +9762,24 @@ export enum SimpleIcons {
     Opsgenie = "Opsgenie",
     /**
      * OpsLevel
-     * @see https://www.opslevel.com/
+     * @see https://www.opslevel.com
      */
     OpsLevel = "OpsLevel",
+    /**
+     * Optimism
+     * @see https://github.com/ethereum-optimism/brand-kit/blob/71ea3bb1ea24e87968804b388e99bed0b52e2a4b/assets/svg/Profile-Logo.svg
+     */
+    Optimism = "Optimism",
     /**
      * Oracle
      * @see https://www.oracle.com/opn/index.html
      */
     Oracle = "Oracle",
+    /**
+     * Orange
+     * @see https://brand.orange.com
+     */
+    Orange = "Orange",
     /**
      * ORCID
      * @see https://orcid.figshare.com/articles/figure/ORCID_iD_icon_graphics/5008697
@@ -5961,6 +9791,11 @@ export enum SimpleIcons {
      */
     Org = "Org",
     /**
+     * Organic Maps
+     * @see https://organicmaps.app
+     */
+    OrganicMaps = "Organic-Maps",
+    /**
      * Origin
      * @see https://www.origin.com/gbr/en-us/store
      */
@@ -5971,20 +9806,35 @@ export enum SimpleIcons {
      */
     Osano = "Osano",
     /**
+     * OSF
+     * @see https://github.com/CenterForOpenScience/osf.io/blob/de170682924278eba1db9d6e1c50166bf43700e0/website/static/img/circle_logo.png
+     */
+    OSF = "OSF",
+    /**
+     * OSGeo
+     * @see https://www.osgeo.org
+     */
+    OSGeo = "OSGeo",
+    /**
      * Oshkosh
      * @see https://oshkoshdefense.com/media/photos/
      */
     Oshkosh = "Oshkosh",
     /**
      * OSMC
-     * @see https://github.com/osmc/osmc/tree/master/assets
+     * @see https://github.com/osmc/website/tree/e7d0d8002660c979ae5119e28d1c69c893ac9f76/content/themes/osmc/assets/img/logo
      */
     OSMC = "OSMC",
     /**
      * osu!
-     * @see https://osu.ppy.sh/wiki/vi/Brand_identity_guidelines
+     * @see https://osu.ppy.sh/wiki/Brand_identity_guidelines
      */
     Osu_ = "osu!",
+    /**
+     * Otto
+     * @see https://www.ottogroup.com/en/presse/material.php
+     */
+    Otto = "Otto",
     /**
      * Overcast
      * @see https://overcast.fm
@@ -6006,13 +9856,23 @@ export enum SimpleIcons {
      */
     OWASP = "OWASP",
     /**
+     * OWASP Dependency-Check
+     * @see https://github.com/jeremylong/DependencyCheck/blob/8ee82149179c6faeca78727e57039e987c387e26/src/site/resources/images/logo.svg
+     */
+    Dependencycheck = "dependencycheck",
+    /**
+     * ownCloud
+     * @see https://owncloud.com
+     */
+    OwnCloud = "ownCloud",
+    /**
      * Oxygen
-     * @see https://oxygenbuilder.com/
+     * @see https://oxygenbuilder.com
      */
     Oxygen = "Oxygen",
     /**
      * OYO
-     * @see https://www.oyorooms.com/
+     * @see https://www.oyorooms.com
      */
     OYO = "OYO",
     /**
@@ -6022,12 +9882,32 @@ export enum SimpleIcons {
     P5Js = "p5.js",
     /**
      * Packagist
-     * @see https://github.com/composer/packagist/issues/1147
+     * @see https://github.com/composer/packagist/issues/1147#issuecomment-747951608
      */
     Packagist = "Packagist",
     /**
+     * Packer
+     * @see https://www.hashicorp.com/brand
+     */
+    Packer = "Packer",
+    /**
+     * Packt
+     * @see https://www.packtpub.com
+     */
+    Packt = "Packt",
+    /**
+     * Paddle
+     * @see https://www.paddle.com
+     */
+    Paddle = "Paddle",
+    /**
+     * PaddlePaddle
+     * @see https://www.paddlepaddle.org.cn/en
+     */
+    PaddlePaddle = "PaddlePaddle",
+    /**
      * Paddy Power
-     * @see https://www.paddypower.com/
+     * @see https://www.paddypower.com
      */
     PaddyPower = "Paddy-Power",
     /**
@@ -6047,19 +9927,29 @@ export enum SimpleIcons {
     PageSpeedInsights = "PageSpeed-Insights",
     /**
      * PagSeguro
-     * @see https://pagseguro.uol.com.br/
+     * @see https://pagseguro.uol.com.br
      */
     PagSeguro = "PagSeguro",
     /**
      * Palantir
-     * @see https://github.com/palantir/conjure/blob/master/docs/media/palantir-logo.svg
+     * @see https://github.com/palantir/conjure/blob/1b0d450dc52c4822b4c9d1da8c61ad7f78855fe5/docs/media/palantir-logo.svg
      */
     Palantir = "Palantir",
+    /**
+     * Palo Alto Networks
+     * @see https://www.paloaltonetworks.com
+     */
+    PaloAltoNetworks = "Palo-Alto-Networks",
     /**
      * Palo Alto Software
      * @see https://www.paloalto.com
      */
     PaloAltoSoftware = "Palo-Alto-Software",
+    /**
+     * Panasonic
+     * @see https://www.panasonic.com
+     */
+    Panasonic = "Panasonic",
     /**
      * pandas
      * @see https://pandas.pydata.org/about/citing.html
@@ -6067,7 +9957,7 @@ export enum SimpleIcons {
     Pandas = "pandas",
     /**
      * Pandora
-     * @see https://www.pandoraforbrands.com/
+     * @see https://www.pandoraforbrands.com
      */
     Pandora = "Pandora",
     /**
@@ -6076,10 +9966,35 @@ export enum SimpleIcons {
      */
     Pantheon = "Pantheon",
     /**
+     * Paperless-ngx
+     * @see https://github.com/paperless-ngx/paperless-ngx/blob/e16645b146da24f07004eb772a455450354a37a7/resources/logo/web/svg/square.svg
+     */
+    PaperlessNgx = "Paperless-ngx",
+    /**
+     * Papers With Code
+     * @see https://paperswithcode.com
+     */
+    PapersWithCode = "Papers-With-Code",
+    /**
+     * Paperspace
+     * @see https://docs.paperspace.com/img/ps-logo-light.svg
+     */
+    Paperspace = "Paperspace",
+    /**
+     * Paramount+
+     * @see https://www.paramount.com/brand/paramount-plus
+     */
+    Paramount_ = "Paramount+",
+    /**
      * Parity Substrate
-     * @see http://substrate.dev/
+     * @see https://substrate.dev
      */
     ParitySubstrate = "Parity-Substrate",
+    /**
+     * Parrot Security
+     * @see https://gitlab.com/parrotsec/project/documentation/-/blob/d1d426b9cb3ea0efd16a2b34056c1ebb21bb9af9/static/img/parrot-logo.svg
+     */
+    ParrotSecurity = "Parrot-Security",
     /**
      * Parse.ly
      * @see https://www.parse.ly/press-kit
@@ -6087,32 +10002,47 @@ export enum SimpleIcons {
     ParseLy = "Parse.ly",
     /**
      * Passport
-     * @see http://www.passportjs.org/
+     * @see https://www.passportjs.org
      */
     Passport = "Passport",
     /**
      * Pastebin
-     * @see https://pastebin.com/
+     * @see https://pastebin.com
      */
     Pastebin = "Pastebin",
     /**
      * Patreon
-     * @see https://www.patreon.com/brand/downloads
+     * @see https://www.patreon.com/brand
      */
     Patreon = "Patreon",
     /**
+     * Paychex
+     * @see https://www.paychex.com
+     */
+    Paychex = "Paychex",
+    /**
+     * Payhip
+     * @see https://payhip.com
+     */
+    Payhip = "Payhip",
+    /**
+     * Payload CMS
+     * @see https://payloadcms.com
+     */
+    PayloadCMS = "Payload-CMS",
+    /**
      * Payoneer
-     * @see https://www.payoneer.com/
+     * @see https://www.payoneer.com
      */
     Payoneer = "Payoneer",
     /**
      * PayPal
-     * @see https://www.paypal.com/
+     * @see https://www.paypal.com
      */
     PayPal = "PayPal",
     /**
      * Paytm
-     * @see https://paytm.com/
+     * @see https://paytm.com
      */
     Paytm = "Paytm",
     /**
@@ -6121,8 +10051,33 @@ export enum SimpleIcons {
      */
     PCGamingWiki = "PCGamingWiki",
     /**
+     * PDM
+     * @see https://github.com/pdm-project/pdm/blob/68abaae63e8d8fc8eb0c101285fd7dcb5cd9798a/docs/docs/assets/logo.svg
+     */
+    PDM = "PDM",
+    /**
+     * PDQ
+     * @see https://pdq.com
+     */
+    PDQ = "PDQ",
+    /**
+     * Peak Design
+     * @see https://www.peakdesign.com
+     */
+    PeakDesign = "Peak-Design",
+    /**
+     * Pearson
+     * @see https://www.pearson.com
+     */
+    Pearson = "Pearson",
+    /**
+     * Peerlist
+     * @see https://peerlist.io
+     */
+    Peerlist = "Peerlist",
+    /**
      * PeerTube
-     * @see https://joinpeertube.org/
+     * @see https://joinpeertube.org
      */
     PeerTube = "PeerTube",
     /**
@@ -6141,10 +10096,20 @@ export enum SimpleIcons {
      */
     Peloton = "Peloton",
     /**
-     * Pepsi
-     * @see http://gillettepepsicola.com/promotions-media/media-kit/
+     * Penny
+     * @see https://www.penny.de
      */
-    Pepsi = "Pepsi",
+    Penny = "Penny",
+    /**
+     * Penpot
+     * @see https://penpot.app
+     */
+    Penpot = "Penpot",
+    /**
+     * Percy
+     * @see https://percy.io
+     */
+    Percy = "Percy",
     /**
      * Perforce
      * @see https://www.perforce.com
@@ -6156,18 +10121,38 @@ export enum SimpleIcons {
      */
     Perl = "Perl",
     /**
+     * Perplexity
+     * @see https://www.perplexity.ai
+     */
+    Perplexity = "Perplexity",
+    /**
+     * Persistent
+     * @see https://www.persistent.com/company-overview/branding-guidelines/#nav-persistent-logo
+     */
+    Persistent = "Persistent",
+    /**
+     * Personio
+     * @see https://www.personio.com
+     */
+    Personio = "Personio",
+    /**
+     * Pets at Home
+     * @see https://petsathome.com
+     */
+    PetsAtHome = "Pets-at-Home",
+    /**
      * Peugeot
-     * @see https://www.peugeot.co.uk/
+     * @see https://www.peugeot.co.uk
      */
     Peugeot = "Peugeot",
     /**
      * Pexels
-     * @see https://www.pexels.com/
+     * @see https://www.pexels.com
      */
     Pexels = "Pexels",
     /**
      * pfSense
-     * @see https://www.pfsense.org/
+     * @see https://www.pfsense.org
      */
     PfSense = "pfSense",
     /**
@@ -6181,20 +10166,35 @@ export enum SimpleIcons {
      */
     PhilipsHue = "Philips-Hue",
     /**
+     * Phoenix Framework
+     * @see https://github.com/phoenixframework/phoenix/blob/e9f1975d5aa15bee22bab6a4acae8f543886b17a/installer/templates/phx_assets/logo.svg
+     */
+    PhoenixFramework = "Phoenix-Framework",
+    /**
      * PhonePe
      * @see https://www.phonepe.com/press/
      */
     PhonePe = "PhonePe",
     /**
+     * Phosphor Icons
+     * @see https://phosphoricons.com
+     */
+    PhosphorIcons = "Phosphor-Icons",
+    /**
      * Photobucket
-     * @see https://photobucket.com/
+     * @see https://photobucket.com
      */
     Photobucket = "Photobucket",
     /**
      * Photocrowd
-     * @see https://www.photocrowd.com/
+     * @see https://www.photocrowd.com
      */
     Photocrowd = "Photocrowd",
+    /**
+     * Photon
+     * @see https://www.photonengine.com
+     */
+    Photon = "Photon",
     /**
      * Photopea
      * @see https://github.com/photopea/photopea/blob/d5c532e8ad8ece246e2ea8646aac7df768407c64/logo.svg
@@ -6202,19 +10202,44 @@ export enum SimpleIcons {
     Photopea = "Photopea",
     /**
      * PHP
-     * @see http://php.net/download-logos.php
+     * @see https://php.net/download-logos.php
      */
     PHP = "PHP",
+    /**
+     * phpMyAdmin
+     * @see https://github.com/phpmyadmin/data/blob/b7d3bdb9bb973beff4726541b87d3a4c8a950b4b/brand/phpMyAdmin-Logo-Symbol.svg
+     */
+    PhpMyAdmin = "phpMyAdmin",
     /**
      * PhpStorm
      * @see https://www.jetbrains.com/company/brand/logos/
      */
     PhpStorm = "PhpStorm",
     /**
+     * Pi Network
+     * @see https://blockexplorer.minepi.com
+     */
+    PiNetwork = "Pi-Network",
+    /**
      * Pi-hole
      * @see https://docs.pi-hole.net
      */
     PiHole = "Pi-hole",
+    /**
+     * Piaggio Group
+     * @see https://www.piaggiogroup.com
+     */
+    PiaggioGroup = "Piaggio-Group",
+    /**
+     * Piapro
+     * @see https://magicalmirai.com
+     */
+    Piapro = "Piapro",
+    /**
+     * Picard Surgelés
+     * @see https://www.picard.fr
+     */
+    PicardSurgel_s = "Picard-Surgelés",
     /**
      * Picarto.TV
      * @see https://picarto.tv/site/press
@@ -6231,6 +10256,16 @@ export enum SimpleIcons {
      */
     PicPay = "PicPay",
     /**
+     * Picrew
+     * @see https://picrew.me
+     */
+    Picrew = "Picrew",
+    /**
+     * Picxy
+     * @see https://www.picxy.com
+     */
+    Picxy = "Picxy",
+    /**
      * Pimcore
      * @see https://pimcore.com/en/media-kit
      */
@@ -6241,10 +10276,20 @@ export enum SimpleIcons {
      */
     Pinboard = "Pinboard",
     /**
+     * Pine Script
+     * @see https://github.com/tradingview/documentation-guidelines/blob/0d7a2d014818ebdd03540c5fd7b97fe493cd056c/images/pine/PineScript_logo.svg
+     */
+    PineScript = "Pine-Script",
+    /**
      * Pingdom
      * @see https://www.pingdom.com/resources/brand-assets/
      */
     Pingdom = "Pingdom",
+    /**
+     * pino
+     * @see https://github.com/pinojs/pino/blob/bb31ed77568959670cce62ca2847234b3f2cb87f/pino-tree.png
+     */
+    Pino = "pino",
     /**
      * Pinterest
      * @see https://business.pinterest.com/en/brand-guidelines
@@ -6252,9 +10297,19 @@ export enum SimpleIcons {
     Pinterest = "Pinterest",
     /**
      * Pioneer DJ
-     * @see https://www.pioneerdj.com/
+     * @see https://www.pioneerdj.com
      */
     PioneerDJ = "Pioneer-DJ",
+    /**
+     * Piped
+     * @see https://github.com/TeamPiped/Piped/blob/71a3742f18893b87cad15e832855bd2bd7c2b557/public/img/icons/logo.svg
+     */
+    Piped = "Piped",
+    /**
+     * pipx
+     * @see https://github.com/pypa/pipx/blob/fc9c95349cfcec1d886c26b70329257de53e10cb/logo.svg
+     */
+    Pipx = "pipx",
     /**
      * Pivotal Tracker
      * @see https://www.pivotaltracker.com/branding-guidelines
@@ -6266,43 +10321,78 @@ export enum SimpleIcons {
      */
     Piwigo = "Piwigo",
     /**
+     * Pix
+     * @see https://www.bcb.gov.br/estabilidadefinanceira/pix
+     */
+    Pix = "Pix",
+    /**
      * Pixabay
      * @see https://pixabay.com/service/about/
      */
     Pixabay = "Pixabay",
+    /**
+     * Pixelfed
+     * @see https://pixelfed.org
+     */
+    Pixelfed = "Pixelfed",
     /**
      * pixiv
      * @see https://policies.pixiv.net/en.html#brand
      */
     Pixiv = "pixiv",
     /**
-     * PJSIP
-     * @see https://www.pjsip.org/
+     * Pixlr
+     * @see https://pixlr.com
      */
-    PJSIP = "PJSIP",
+    Pixlr = "Pixlr",
+    /**
+     * pkgsrc
+     * @see https://pkgsrc.org
+     */
+    Pkgsrc = "pkgsrc",
     /**
      * Planet
      * @see https://www.planet.com/explorer/
      */
     Planet = "Planet",
     /**
+     * PlanetScale
+     * @see https://planetscale.com
+     */
+    PlanetScale = "PlanetScale",
+    /**
      * PlanGrid
-     * @see https://app.plangrid.com/
+     * @see https://app.plangrid.com
      */
     PlanGrid = "PlanGrid",
+    /**
+     * Platform.sh
+     * @see https://platform.sh/logos/
+     */
+    PlatformSh = "Platform.sh",
+    /**
+     * PlatformIO
+     * @see https://piolabs.com
+     */
+    PlatformIO = "PlatformIO",
     /**
      * Platzi
      * @see https://github.com/PlatziDev/oss/blob/932bd83d43e061e1c38fbc116db31aa6d0145be6/static/logo.svg
      */
     Platzi = "Platzi",
     /**
+     * Plausible Analytics
+     * @see https://github.com/plausible/docs/blob/be5c935484e075f1e0caf3c9b3351ddd62348139/static/img/logo.svg
+     */
+    PlausibleAnalytics = "Plausible-Analytics",
+    /**
      * PlayCanvas
-     * @see https://playcanvas.com/
+     * @see https://playcanvas.com
      */
     PlayCanvas = "PlayCanvas",
     /**
      * Player FM
-     * @see https://player.fm/
+     * @see https://player.fm
      */
     PlayerFM = "Player-FM",
     /**
@@ -6336,13 +10426,18 @@ export enum SimpleIcons {
      */
     PlayStation5 = "PlayStation-5",
     /**
+     * PlayStation Portable
+     * @see https://commons.wikimedia.org/wiki/File:PSP_Logo.svg
+     */
+    PlayStationPortable = "PlayStation-Portable",
+    /**
      * PlayStation Vita
      * @see https://commons.wikimedia.org/wiki/File:PlayStation_Vita_logo.svg
      */
     PlayStationVita = "PlayStation-Vita",
     /**
      * Pleroma
-     * @see https://pleroma.social/
+     * @see https://pleroma.social
      */
     Pleroma = "Pleroma",
     /**
@@ -6352,14 +10447,19 @@ export enum SimpleIcons {
     Plesk = "Plesk",
     /**
      * Plex
-     * @see https://brand.plex.tv/
+     * @see https://brand.plex.tv
      */
     Plex = "Plex",
     /**
      * Plotly
-     * @see https://plotly.com/
+     * @see https://plotly.com
      */
     Plotly = "Plotly",
+    /**
+     * Plume
+     * @see https://www.plume.com
+     */
+    Plume = "Plume",
     /**
      * Pluralsight
      * @see https://www.pluralsight.com/newsroom/brand-assets
@@ -6377,7 +10477,7 @@ export enum SimpleIcons {
     PlusCodes = "Plus-Codes",
     /**
      * PM2
-     * @see https://pm2.keymetrics.io/
+     * @see https://pm2.keymetrics.io
      */
     PM2 = "PM2",
     /**
@@ -6396,15 +10496,35 @@ export enum SimpleIcons {
      */
     PocketCasts = "Pocket-Casts",
     /**
+     * PocketBase
+     * @see https://github.com/pocketbase/pocketbase/blob/4b64e0910b7dc527ff3de8cdacec074e40449e2e/ui/dist/images/logo.svg
+     */
+    PocketBase = "PocketBase",
+    /**
      * Podcast Addict
      * @see https://podcastaddict.com
      */
     PodcastAddict = "Podcast-Addict",
     /**
+     * Podcast Index
+     * @see https://podcastindex.org
+     */
+    PodcastIndex = "Podcast-Index",
+    /**
      * Podman
-     * @see https://podman.io/
+     * @see https://podman.io
      */
     Podman = "Podman",
+    /**
+     * Poe
+     * @see https://poe.com
+     */
+    Poe = "Poe",
+    /**
+     * Poetry
+     * @see https://python-poetry.org
+     */
+    Poetry = "Poetry",
     /**
      * Pointy
      * @see https://www.pointy.com/ie/vend
@@ -6416,28 +10536,78 @@ export enum SimpleIcons {
      */
     Pok_mon = "Pokémon",
     /**
+     * Polars
+     * @see https://pola.rs
+     */
+    Polars = "Polars",
+    /**
+     * Polestar
+     * @see https://commons.wikimedia.org/wiki/File:Polestar_logo_2020.svg
+     */
+    Polestar = "Polestar",
+    /**
+     * Polkadot
+     * @see https://polkadot.network/brand-assets/
+     */
+    Polkadot = "Polkadot",
+    /**
      * Poly
-     * @see https://www.poly.com/
+     * @see https://www.poly.com
      */
     Poly = "Poly",
+    /**
+     * Polygon
+     * @see https://www.polygon.technology
+     */
+    Polygon = "Polygon",
     /**
      * Polymer Project
      * @see https://github.com/Polymer/polymer-project.org/blob/3d3e967446858b49a7796676714865ac9b2a5275/app/images/logos/p-logo.svg
      */
     PolymerProject = "Polymer-Project",
     /**
+     * Polywork
+     * @see https://www.polywork.com
+     */
+    Polywork = "Polywork",
+    /**
+     * Pond5
+     * @see https://pond5.com
+     */
+    Pond5 = "Pond5",
+    /**
      * Pop!_OS
-     * @see https://pop.system76.com/
+     * @see https://github.com/system76/brand/blob/7a31740b54f929b62a165baa61dfb0b5164261e8/Pop_OS%20branding/Pop_icon.svg
      */
     Pop_OS = "Pop!_OS",
     /**
+     * Porkbun
+     * @see https://porkbun.design
+     */
+    Porkbun = "Porkbun",
+    /**
      * Porsche
-     * @see https://www.porsche.com/
+     * @see https://www.porsche.com
      */
     Porsche = "Porsche",
     /**
+     * Portainer
+     * @see https://www.portainer.io
+     */
+    Portainer = "Portainer",
+    /**
+     * PortSwigger
+     * @see https://portswigger.net
+     */
+    PortSwigger = "PortSwigger",
+    /**
+     * Posit
+     * @see https://docs.posit.co
+     */
+    Posit = "Posit",
+    /**
      * PostCSS
-     * @see https://postcss.org/
+     * @see https://postcss.org
      */
     PostCSS = "PostCSS",
     /**
@@ -6445,6 +10615,11 @@ export enum SimpleIcons {
      * @see https://wiki.postgresql.org/wiki/Logo
      */
     PostgreSQL = "PostgreSQL",
+    /**
+     * PostHog
+     * @see https://posthog.com/handbook/company/brand-assets
+     */
+    PostHog = "PostHog",
     /**
      * Postman
      * @see https://www.getpostman.com/resources/media-assets/
@@ -6456,20 +10631,10 @@ export enum SimpleIcons {
      */
     Postmates = "Postmates",
     /**
-     * Power BI
-     * @see https://powerbi.microsoft.com/en-us/
-     */
-    PowerBI = "Power-BI",
-    /**
      * POWERS
-     * @see https://www.powerswhiskey.com/
+     * @see https://www.powerswhiskey.com
      */
     POWERS = "POWERS",
-    /**
-     * PowerShell
-     * @see https://github.com/PowerShell/PowerShell
-     */
-    PowerShell = "PowerShell",
     /**
      * pr.co
      * @see https://news.pr.co/media_kits
@@ -6481,10 +10646,25 @@ export enum SimpleIcons {
      */
     PreCommit = "pre-commit",
     /**
+     * Preact
+     * @see https://preactjs.com
+     */
+    Preact = "Preact",
+    /**
+     * Prefect
+     * @see https://www.prefect.io
+     */
+    Prefect = "Prefect",
+    /**
      * Premier League
      * @see https://www.premierleague.com
      */
     PremierLeague = "Premier-League",
+    /**
+     * PrepBytes
+     * @see https://www.prepbytes.com
+     */
+    PrepBytes = "PrepBytes",
     /**
      * PrestaShop
      * @see https://www.prestashop.com/en/media-kit
@@ -6501,6 +10681,16 @@ export enum SimpleIcons {
      */
     Prettier = "Prettier",
     /**
+     * Pretzel
+     * @see https://www.pretzel.rocks
+     */
+    Pretzel = "Pretzel",
+    /**
+     * Prevention
+     * @see https://prevention.com
+     */
+    Prevention = "Prevention",
+    /**
      * Prezi
      * @see https://prezi.com/press/kit/
      */
@@ -6516,18 +10706,38 @@ export enum SimpleIcons {
      */
     PrimeVideo = "Prime-Video",
     /**
+     * PrimeNG
+     * @see https://www.primefaces.org/press-kit
+     */
+    PrimeNG = "PrimeNG",
+    /**
+     * PrimeReact
+     * @see https://www.primefaces.org/press-kit
+     */
+    PrimeReact = "PrimeReact",
+    /**
+     * Printables
+     * @see https://printables.com
+     */
+    Printables = "Printables",
+    /**
      * Prisma
-     * @see https://github.com/prisma/presskit
+     * @see https://github.com/prisma/presskit/tree/4bcb64181f266723439d955d60afa1c55fefa715
      */
     Prisma = "Prisma",
     /**
      * Prismic
-     * @see https://prismic.io/
+     * @see https://prismic.io
      */
     Prismic = "Prismic",
     /**
+     * Private Division
+     * @see https://account.privatedivision.com
+     */
+    PrivateDivision = "Private-Division",
+    /**
      * Private Internet Access
-     * @see https://www.privateinternetaccess.com/pages/press
+     * @see https://www.privateinternetaccess.com
      */
     PrivateInternetAccess = "Private-Internet-Access",
     /**
@@ -6542,12 +10752,12 @@ export enum SimpleIcons {
     Probot = "Probot",
     /**
      * Processing Foundation
-     * @see https://processingfoundation.org/
+     * @see https://processingfoundation.org
      */
     ProcessingFoundation = "Processing-Foundation",
     /**
      * ProcessWire
-     * @see https://processwire.com/
+     * @see https://processwire.com
      */
     ProcessWire = "ProcessWire",
     /**
@@ -6562,19 +10772,29 @@ export enum SimpleIcons {
     Progate = "Progate",
     /**
      * Progress
-     * @see https://www.progress.com/
+     * @see https://www.progress.com
      */
     Progress = "Progress",
     /**
      * Prometheus
-     * @see https://prometheus.io/
+     * @see https://prometheus.io
      */
     Prometheus = "Prometheus",
     /**
+     * Pronouns.page
+     * @see https://pronouns.page/design
+     */
+    PronounsPage = "Pronouns.page",
+    /**
      * ProSieben
-     * @see https://www.prosieben.de/
+     * @see https://www.prosieben.de
      */
     ProSieben = "ProSieben",
+    /**
+     * Proteus
+     * @see https://www.labcenter.com
+     */
+    Proteus = "Proteus",
     /**
      * Proto.io
      * @see https://proto.io/en/presskit
@@ -6586,25 +10806,55 @@ export enum SimpleIcons {
      */
     ProtocolsIo = "protocols.io",
     /**
+     * Proton
+     * @see https://proton.me/media/kit
+     */
+    Proton = "Proton",
+    /**
+     * Proton Calendar
+     * @see https://proton.me/media/kit
+     */
+    ProtonCalendar = "Proton-Calendar",
+    /**
+     * Proton Drive
+     * @see https://proton.me/media/kit
+     */
+    ProtonDrive = "Proton-Drive",
+    /**
+     * Proton Mail
+     * @see https://proton.me/media/kit
+     */
+    ProtonMail = "Proton-Mail",
+    /**
+     * Proton VPN
+     * @see https://proton.me/media/kit
+     */
+    ProtonVPN = "Proton-VPN",
+    /**
      * ProtonDB
-     * @see https://www.protondb.com/
+     * @see https://www.protondb.com
      */
     ProtonDB = "ProtonDB",
     /**
-     * ProtonMail
-     * @see https://protonmail.com/media-kit
+     * Protractor
+     * @see https://github.com/angular/protractor/blob/4bc80d1a459542d883ea9200e4e1f48d265d0fda/logo.svg
      */
-    ProtonMail = "ProtonMail",
-    /**
-     * ProtonVPN
-     * @see https://protonvpn.com/press
-     */
-    ProtonVPN = "ProtonVPN",
+    Protractor = "Protractor",
     /**
      * Proxmox
      * @see https://www.proxmox.com/en/news/media-kit
      */
     Proxmox = "Proxmox",
+    /**
+     * Pterodactyl
+     * @see https://github.com/pterodactyl/panel/blob/eaf46429f2a001469fb5f18f7891ce8e5be7f049/public/favicons/favicon-96x96.png
+     */
+    Pterodactyl = "Pterodactyl",
+    /**
+     * PUBG
+     * @see https://www.pubgmobile.com/en/event/brandassets/
+     */
+    PUBG = "PUBG",
     /**
      * Publons
      * @see https://publons.com/about/the-publons-logo
@@ -6612,7 +10862,7 @@ export enum SimpleIcons {
     Publons = "Publons",
     /**
      * PubMed
-     * @see https://pubmed.ncbi.nlm.nih.gov/
+     * @see https://pubmed.ncbi.nlm.nih.gov
      */
     PubMed = "PubMed",
     /**
@@ -6621,18 +10871,28 @@ export enum SimpleIcons {
      */
     Pug = "Pug",
     /**
+     * Pulumi
+     * @see https://www.pulumi.com
+     */
+    Pulumi = "Pulumi",
+    /**
+     * Puma
+     * @see https://us.puma.com
+     */
+    Puma = "Puma",
+    /**
      * Puppet
      * @see https://puppet.com/company/press-room/
      */
     Puppet = "Puppet",
     /**
      * Puppeteer
-     * @see https://pptr.dev/
+     * @see https://pptr.dev
      */
     Puppeteer = "Puppeteer",
     /**
      * PureScript
-     * @see https://github.com/purescript/logo
+     * @see https://github.com/purescript/logo/tree/1e7a57affdaeaf88ff594c08bd2b5a78fe2ed13c
      */
     PureScript = "PureScript",
     /**
@@ -6646,55 +10906,105 @@ export enum SimpleIcons {
      */
     Purism = "Purism",
     /**
+     * Pushbullet
+     * @see https://www.pushbullet.com/press
+     */
+    Pushbullet = "Pushbullet",
+    /**
      * Pusher
-     * @see https://pusher.com/
+     * @see https://pusher.com
      */
     Pusher = "Pusher",
+    /**
+     * PWA
+     * @see https://github.com/webmaxru/progressive-web-apps-logo/blob/77744cd5c0a4d484bb3d082c6ac458c44202da03/pwalogo-white.svg
+     */
+    PWA = "PWA",
     /**
      * PyCharm
      * @see https://www.jetbrains.com/company/brand/logos/
      */
     PyCharm = "PyCharm",
     /**
+     * PyCQA
+     * @see https://github.com/PyCQA/meta/blob/ac828d8d7eb55501addefb0ceb6496ab15e85ca5/logo/pycqa1-02.svg
+     */
+    PyCQA = "PyCQA",
+    /**
+     * Pydantic
+     * @see https://github.com/pydantic/pydantic/blob/94c748001a32992a587694b999fb1f3d2f1fc1fe/docs/logo-white.svg
+     */
+    Pydantic = "Pydantic",
+    /**
+     * PyG
+     * @see https://github.com/pyg-team/pyg_sphinx_theme/blob/4f696513b4b4adf2ba3874574a10a8e8718672fe/pyg_sphinx_theme/static/img/pyg_logo.svg
+     */
+    PyG = "PyG",
+    /**
      * PyPI
-     * @see https://pypi.org/
+     * @see https://pypi.org
      */
     PyPI = "PyPI",
     /**
      * PyPy
-     * @see https://www.pypy.org/images/pypy-logo.svg
+     * @see https://www.pypy.org
      */
     PyPy = "PyPy",
+    /**
+     * PyScaffold
+     * @see https://github.com/pyscaffold/pyscaffold/blob/3f72bf7894fc73b34af06a90bb5d43aae410ce5d/docs/gfx/logo.svg
+     */
+    PyScaffold = "PyScaffold",
+    /**
+     * PySyft
+     * @see https://github.com/OpenMined/openmined-website/blob/db5c223657c8c49ab1ee8db2841fe802f73af31c/src/containers/app/components/repo-icon/assets/syft.svg
+     */
+    PySyft = "PySyft",
+    /**
+     * Pytest
+     * @see https://github.com/pytest-dev/design/blob/081f06cd2d6cd742e68f593560a2e8c1802feb7c/pytest_logo/pytest_logo.svg
+     */
+    Pytest = "Pytest",
     /**
      * Python
      * @see https://www.python.org/community/logos/
      */
     Python = "Python",
     /**
+     * PythonAnywhere
+     * @see https://www.pythonanywhere.com
+     */
+    PythonAnywhere = "PythonAnywhere",
+    /**
      * PyTorch
      * @see https://github.com/pytorch/pytorch.github.io/blob/8f083bd12192ca12d5e1c1f3d236f4831d823d8f/assets/images/logo.svg
      */
     PyTorch = "PyTorch",
     /**
-     * PyTorch Lightning
-     * @see https://github.com/PyTorchLightning/pytorch-lightning/blob/a584196abf820179adb0758ef67ddae91c44e7bc/docs/source/_static/images/icon.svg
-     */
-    PyTorchLightning = "PyTorch-Lightning",
-    /**
      * PyUp
-     * @see https://pyup.io/
+     * @see https://pyup.io
      */
     PyUp = "PyUp",
     /**
      * Qantas
-     * @see https://freight.qantas.com/
+     * @see https://www.qantas.com
      */
     Qantas = "Qantas",
     /**
+     * Qase
+     * @see https://qase.io
+     */
+    Qase = "Qase",
+    /**
      * Qatar Airways
-     * @see https://www.qatarairways.com/en/press-kit.html
+     * @see https://www.qatarairways.com/press-releases/en-WW/media_kits
      */
     QatarAirways = "Qatar-Airways",
+    /**
+     * qbittorrent
+     * @see https://github.com/qbittorrent/qBittorrent/blob/73028f9930d9ab9d89edb60ed4aedb66d75669d9/src/icons/qbittorrent-tray-light.svg
+     */
+    Qbittorrent = "qbittorrent",
     /**
      * QEMU
      * @see https://wiki.qemu.org/Logo
@@ -6722,12 +11032,27 @@ export enum SimpleIcons {
     Qiskit = "Qiskit",
     /**
      * QIWI
-     * @see https://qiwi.com/
+     * @see https://qiwi.com
      */
     QIWI = "QIWI",
     /**
+     * Qlik
+     * @see https://www.qlik.com
+     */
+    Qlik = "Qlik",
+    /**
+     * QMK
+     * @see https://github.com/qmk/qmk.fm/blob/d6f7b646aa03f2941bb3977ba13a07ca351f20ae/assets/images/badge-dark.svg
+     */
+    QMK = "QMK",
+    /**
+     * QNAP
+     * @see https://marketing.qnap.com/resource/qnap-logo-k100
+     */
+    QNAP = "QNAP",
+    /**
      * Qt
-     * @see https://qt-brandbook.webflow.io/design
+     * @see https://www.qt.io
      */
     Qt = "Qt",
     /**
@@ -6737,27 +11062,37 @@ export enum SimpleIcons {
     Qualcomm = "Qualcomm",
     /**
      * Qualtrics
-     * @see https://www.qualtrics.com/brand-book/
+     * @see https://www.qualtrics.com/brand-book
      */
     Qualtrics = "Qualtrics",
     /**
+     * Qualys
+     * @see https://www.qualys.com
+     */
+    Qualys = "Qualys",
+    /**
      * Quantcast
-     * @see https://www.quantcast.com/
+     * @see https://www.quantcast.com
      */
     Quantcast = "Quantcast",
     /**
      * QuantConnect
-     * @see https://www.quantconnect.com/docs/home/home
+     * @see https://www.quantconnect.com
      */
     QuantConnect = "QuantConnect",
     /**
      * Quarkus
-     * @see https://design.jboss.org/quarkus/
+     * @see https://design.jboss.org/quarkus
      */
     Quarkus = "Quarkus",
     /**
+     * Quarto
+     * @see https://github.com/quarto-dev/quarto-web/blob/fd2a993e3274b3433a0088d5daf85080bdf68d71/quarto-icon.svg
+     */
+    Quarto = "Quarto",
+    /**
      * Quasar
-     * @see https://github.com/quasarframework/quasar-art/blob/cbbbb4b0b7ec7181dfc2d1b29a1ce025e71575bc/src/quasar-logo.svg
+     * @see https://github.com/quasarframework/quasar-art/blob/6300e95687a923cd027dc4b8c356dd4e0cea618f/Brand/Logo/RGB/Icon/Monochrome/Cold%20Black/QUASAR_icon_mono_cold_black_RGB.svg
      */
     Quasar = "Quasar",
     /**
@@ -6767,37 +11102,62 @@ export enum SimpleIcons {
     QubesOS = "Qubes-OS",
     /**
      * Quest
-     * @see https://brand.quest.com/
+     * @see https://brand.quest.com/quest/questlogos
      */
     Quest = "Quest",
     /**
      * QuickBooks
-     * @see https://designsystem.quickbooks.com/visual-assets/logos/
+     * @see https://design.intuit.com/quickbooks/brand
      */
     QuickBooks = "QuickBooks",
+    /**
+     * QuickLook
+     * @see https://github.com/QL-Win/QuickLook/blob/f726841d99bbceafd5399e5777b4dba302bf1e51/QuickLook/Resources/app.svg
+     */
+    QuickLook = "QuickLook",
     /**
      * QuickTime
      * @see https://support.apple.com/quicktime
      */
     QuickTime = "QuickTime",
     /**
+     * quicktype
+     * @see https://github.com/glideapps/quicktype-xcode/blob/2f9a8d2ef2466358341142c3881d54e065b30a8c/media/logo.svg
+     */
+    Quicktype = "quicktype",
+    /**
      * Quip
-     * @see https://quip.com/
+     * @see https://quip.com
      */
     Quip = "Quip",
+    /**
+     * Quizlet
+     * @see https://quizlet.com
+     */
+    Quizlet = "Quizlet",
     /**
      * Quora
      * @see https://www.quora.com
      */
     Quora = "Quora",
     /**
+     * Qwant
+     * @see https://about.qwant.com
+     */
+    Qwant = "Qwant",
+    /**
+     * Qwik
+     * @see https://github.com/BuilderIO/qwik/blob/c88e53d49dc65020899d770338f4e51f3134611e/packages/docs/public/logos/qwik-logo.svg
+     */
+    Qwik = "Qwik",
+    /**
      * Qwiklabs
-     * @see https://www.qwiklabs.com
+     * @see https://www.cloudskillsboost.google
      */
     Qwiklabs = "Qwiklabs",
     /**
      * Qzone
-     * @see https://qzone.qq.com/
+     * @see https://qzone.qq.com
      */
     Qzone = "Qzone",
     /**
@@ -6807,29 +11167,49 @@ export enum SimpleIcons {
     R = "R",
     /**
      * R3
-     * @see https://www.r3.com/
+     * @see https://www.r3.com
      */
     R3 = "R3",
     /**
      * RabbitMQ
-     * @see https://www.rabbitmq.com/
+     * @see https://www.rabbitmq.com
      */
     RabbitMQ = "RabbitMQ",
     /**
      * Racket
-     * @see https://racket-lang.org/
+     * @see https://racket-lang.org
      */
     Racket = "Racket",
     /**
+     * RAD Studio
+     * @see https://www.embarcadero.com/news/logo
+     */
+    RADStudio = "RAD-Studio",
+    /**
      * Radar
-     * @see https://radar.io/
+     * @see https://radar.io
      */
     Radar = "Radar",
+    /**
+     * radarr
+     * @see https://github.com/Radarr/Radarr/blob/5f624a147bb62d37b731d9a0ae02bfd338793962/Logo/Radarr.svg
+     */
+    Radarr = "radarr",
     /**
      * RadioPublic
      * @see https://help.radiopublic.com/hc/en-us/articles/360002546754-RadioPublic-logos
      */
     RadioPublic = "RadioPublic",
+    /**
+     * Radix UI
+     * @see https://www.radix-ui.com
+     */
+    RadixUI = "Radix-UI",
+    /**
+     * Railway
+     * @see https://railway.app
+     */
+    Railway = "Railway",
     /**
      * Rainmeter
      * @see https://github.com/rainmeter/rainmeter-www/blob/867fd905fda8d1b1083730adcb7f49f1775cb5b0/source/img/logo_blue.ai
@@ -6837,12 +11217,12 @@ export enum SimpleIcons {
     Rainmeter = "Rainmeter",
     /**
      * Rakuten
-     * @see https://global.rakuten.com/corp/assets/img/site-icons/rakuten-black.svg
+     * @see https://global.rakuten.com/corp/news/media
      */
     Rakuten = "Rakuten",
     /**
      * Ram
-     * @see http://www.fcaci.com/x/RAMv15
+     * @see https://www.fcaci.com/x/RAMv15
      */
     Ram = "Ram",
     /**
@@ -6851,33 +11231,103 @@ export enum SimpleIcons {
      */
     Rancher = "Rancher",
     /**
+     * Rapid
+     * @see https://rapidapi.com
+     */
+    Rapid = "Rapid",
+    /**
+     * Rarible
+     * @see https://rarible.com
+     */
+    Rarible = "Rarible",
+    /**
+     * Rasa
+     * @see https://rasa.com
+     */
+    Rasa = "Rasa",
+    /**
      * Raspberry Pi
      * @see https://www.raspberrypi.org/trademark-rules
      */
     RaspberryPi = "Raspberry-Pi",
     /**
+     * Ravelry
+     * @see https://www.ravelry.com/help/logos
+     */
+    Ravelry = "Ravelry",
+    /**
+     * Ray
+     * @see https://github.com/ray-project/ray/blob/6522935291caa120e83697c6c9b3a450617c9283/dashboard/client/src/logo.svg
+     */
+    Ray = "Ray",
+    /**
+     * Raycast
+     * @see https://www.raycast.com/press
+     */
+    Raycast = "Raycast",
+    /**
+     * Raylib
+     * @see https://github.com/raysan5/raylib/blob/e7a486fa81adac1833253c849ca73c5b3f7ef361/logo/raylib_512x512.png
+     */
+    Raylib = "Raylib",
+    /**
      * Razer
-     * @see https://press.razer.com/
+     * @see https://press.razer.com
      */
     Razer = "Razer",
+    /**
+     * Razorpay
+     * @see https://razorpay.com/newsroom/brand-assets/
+     */
+    Razorpay = "Razorpay",
+    /**
+     * Rclone
+     * @see https://github.com/rclone/rclone/blob/8f1c309c8149a734ccc3a0d2ce185b936dbe783a/graphics/logo/svg/logo_symbol_color.svg
+     */
+    Rclone = "Rclone",
     /**
      * React
      * @see https://github.com/facebook/create-react-app/blob/282c03f9525fdf8061ffa1ec50dce89296d916bd/test/fixtures/relative-paths/src/logo.svg
      */
     React = "React",
     /**
+     * React Bootstrap
+     * @see https://github.com/react-bootstrap/react-bootstrap/blob/be23c304fa40ddb209919b0faac1e5dd8cef53ad/www/static/img/logo.svg
+     */
+    ReactBootstrap = "React-Bootstrap",
+    /**
+     * React Hook Form
+     * @see https://github.com/react-hook-form/documentation/blob/d049ffe923336ce7a5bf58990c54c07f39ab2429/src/images/Logo.svg
+     */
+    ReactHookForm = "React-Hook-Form",
+    /**
+     * React Query
+     * @see https://github.com/tannerlinsley/react-query/blob/9b5d18cd47a4c1454d6c8dd0f38280641c1dd5dd/docs/src/images/emblem-light.svg
+     */
+    ReactQuery = "React-Query",
+    /**
      * React Router
      * @see https://github.com/ReactTraining/react-router/blob/c94bcd8cef0c811f80b02777ec26fee3618f8e86/website/static/safari-pinned-tab.svg
      */
     ReactRouter = "React-Router",
     /**
+     * React Table
+     * @see https://github.com/tannerlinsley/react-table/blob/8c77b4ad97353a0b1f0746be5b919868862a9dcc/docs/src/images/emblem-light.svg
+     */
+    ReactTable = "React-Table",
+    /**
+     * Reactive Resume
+     * @see https://github.com/AmruthPillai/Reactive-Resume/blob/0f765af4687acd05d63cccf3676583735c86a8c2/apps/artboard/public/icon/dark.svg
+     */
+    ReactiveResume = "Reactive-Resume",
+    /**
      * ReactiveX
-     * @see https://github.com/ReactiveX/rxjs/blob/master/resources/CI-CD/logo/svg/RxJs_Logo_Black.svg
+     * @see https://github.com/ReactiveX/rxjs/blob/ee6ababb9fa75f068ac2122e956ff4e449604c59/resources/CI-CD/logo/svg/RxJs_Logo_Black.svg
      */
     ReactiveX = "ReactiveX",
     /**
      * ReactOS
-     * @see https://github.com/reactos/press-media
+     * @see https://github.com/reactos/press-media/tree/48089e09e0c7e828f1eb81e5ea0d8da85ec41dc3
      */
     ReactOS = "ReactOS",
     /**
@@ -6886,13 +11336,23 @@ export enum SimpleIcons {
      */
     ReadTheDocs = "Read-the-Docs",
     /**
+     * Read.cv
+     * @see https://read.cv/support/faq
+     */
+    ReadCv = "Read.cv",
+    /**
+     * ReadMe
+     * @see https://readme.com
+     */
+    ReadMe = "ReadMe",
+    /**
      * Realm
-     * @see https://realm.io/
+     * @see https://realm.io
      */
     Realm = "Realm",
     /**
      * Reason
-     * @see https://reasonml.github.io/img/reason.svg
+     * @see https://github.com/reasonml/reasonml.github.io/blob/18dc62ad841f0def6551a65e41083c9d5784da93/website/static/img/reason.svg
      */
     Reason = "Reason",
     /**
@@ -6901,18 +11361,38 @@ export enum SimpleIcons {
      */
     ReasonStudios = "Reason-Studios",
     /**
+     * Recoil
+     * @see https://recoiljs.org
+     */
+    Recoil = "Recoil",
+    /**
+     * Red
+     * @see https://www.red-lang.org
+     */
+    Red = "Red",
+    /**
+     * Red Bull
+     * @see https://www.redbull.com
+     */
+    RedBull = "Red-Bull",
+    /**
      * Red Hat
      * @see https://www.redhat.com/en/about/brand/new-brand/details
      */
     RedHat = "Red-Hat",
     /**
      * Red Hat Open Shift
-     * @see https://www.openshift.com/
+     * @see https://www.openshift.com
      */
     RedHatOpenShift = "Red-Hat-Open-Shift",
     /**
+     * Redash
+     * @see https://github.com/getredash/website/blob/c454b523fdaa60218845313904c5498cda7e7b7a/static/assets/images/elements/redash-logo.svg
+     */
+    Redash = "Redash",
+    /**
      * Redbubble
-     * @see https://www.redbubble.com/explore/client/4196122a442ab3f429ec802f71717465.svg
+     * @see https://www.redbubble.com
      */
     Redbubble = "Redbubble",
     /**
@@ -6922,12 +11402,27 @@ export enum SimpleIcons {
     Reddit = "Reddit",
     /**
      * Redis
-     * @see https://www.redislabs.com/brand-guidelines/
+     * @see https://redis.io/brand-guidelines
      */
     Redis = "Redis",
     /**
+     * Redmine
+     * @see https://www.redmine.org/projects/redmine/wiki/logo
+     */
+    Redmine = "Redmine",
+    /**
+     * Redox
+     * @see https://github.com/redox-os/assets/blob/4935a777cd7aa44323d3c263b1e0bb4ae864a027/logos/redox/vectorized_logo.svg
+     */
+    Redox = "Redox",
+    /**
+     * Redsys
+     * @see https://redsys.es
+     */
+    Redsys = "Redsys",
+    /**
      * Redux
-     * @see https://github.com/reactjs/redux/tree/master/logo
+     * @see https://github.com/reduxjs/redux/blob/abb5f892f7e46849e5ca9bc13e75cfbc944a71b6/logo/logo.svg
      */
     Redux = "Redux",
     /**
@@ -6941,10 +11436,45 @@ export enum SimpleIcons {
      */
     RedwoodJS = "RedwoodJS",
     /**
+     * Reebok
+     * @see https://www.reebok.com/us
+     */
+    Reebok = "Reebok",
+    /**
+     * Refine
+     * @see https://s.refine.dev/refine-brand-assets
+     */
+    Refine = "Refine",
+    /**
+     * Relay
+     * @see https://relay.dev
+     */
+    Relay = "Relay",
+    /**
      * Reliance Industries Limited
-     * @see https://www.ril.com/getattachment/7c210e67-5b0e-4965-b1a2-2ee83e19cee9/Morgan-Stanley-Eighteenth-Annual-India-Summit,-31.aspx
+     * @see https://www.ril.com/news-media/resource-center/media-kit/reliance-industries-limited
      */
     RelianceIndustriesLimited = "Reliance-Industries-Limited",
+    /**
+     * remark
+     * @see https://github.com/remarkjs/remark/blob/26dc58a675ac7267c105f0fdb76a82db77f8402a/logo.svg
+     */
+    Remark = "remark",
+    /**
+     * Remedy Entertainment
+     * @see https://www.remedygames.com
+     */
+    RemedyEntertainment = "Remedy-Entertainment",
+    /**
+     * Remix
+     * @see https://drive.google.com/drive/u/0/folders/1pbHnJqg8Y1ATs0Oi8gARH7wccJGv4I2c
+     */
+    Remix = "Remix",
+    /**
+     * remove.bg
+     * @see https://www.remove.bg
+     */
+    RemoveBg = "remove.bg",
     /**
      * Ren'Py
      * @see https://renpy.org
@@ -6956,10 +11486,15 @@ export enum SimpleIcons {
      */
     Renault = "Renault",
     /**
-     * RenovateBot
+     * Render
+     * @see https://render.com
+     */
+    Render = "Render",
+    /**
+     * Renovate
      * @see https://avatars1.githubusercontent.com/u/38656520
      */
-    RenovateBot = "RenovateBot",
+    Renovate = "Renovate",
     /**
      * Renren
      * @see https://seeklogo.com/vector-logo/184137/renren-inc
@@ -6967,19 +11502,49 @@ export enum SimpleIcons {
     Renren = "Renren",
     /**
      * Replit
-     * @see https://repl.it/
+     * @see https://repl.it
      */
     Replit = "Replit",
     /**
+     * Republic of Gamers
+     * @see https://rog.asus.com
+     */
+    RepublicOfGamers = "Republic-of-Gamers",
+    /**
+     * ReScript
+     * @see https://rescript-lang.org/brand
+     */
+    ReScript = "ReScript",
+    /**
+     * RescueTime
+     * @see https://www.rescuetime.com/press
+     */
+    RescueTime = "RescueTime",
+    /**
      * ResearchGate
-     * @see https://c5.rgstatic.net/m/428059296771819/images/favicon/favicon.svg
+     * @see https://www.researchgate.net
      */
     ResearchGate = "ResearchGate",
     /**
+     * Resend
+     * @see https://resend.com/brand
+     */
+    Resend = "Resend",
+    /**
+     * ReSharper
+     * @see https://www.jetbrains.com/company/brand/logos/
+     */
+    ReSharper = "ReSharper",
+    /**
      * Resurrection Remix OS
-     * @see https://github.com/ResurrectionRemix
+     * @see https://avatars.githubusercontent.com/u/4931972
      */
     ResurrectionRemixOS = "Resurrection-Remix-OS",
+    /**
+     * Retool
+     * @see https://retool.com
+     */
+    Retool = "Retool",
     /**
      * RetroArch
      * @see https://github.com/libretro/RetroArch/blob/b01aabf7d1f025999ad0f7812e6e6816d011e631/media/retroarch.svg
@@ -6991,8 +11556,13 @@ export enum SimpleIcons {
      */
     RetroPie = "RetroPie",
     /**
+     * ReVanced
+     * @see https://revanced.app
+     */
+    ReVanced = "ReVanced",
+    /**
      * reveal.js
-     * @see https://revealjs.com/
+     * @see https://revealjs.com
      */
     RevealJs = "reveal.js",
     /**
@@ -7001,23 +11571,28 @@ export enum SimpleIcons {
      */
     ReverbNation = "ReverbNation",
     /**
+     * Revolt.chat
+     * @see https://app.revolt.chat/assets/badges/revolt_r.svg
+     */
+    RevoltChat = "Revolt.chat",
+    /**
      * Revolut
-     * @see https://www.revolut.com/
+     * @see https://developer.revolut.com/docs/resources/marketing-assets-guidelines/marketing-guidelines
      */
     Revolut = "Revolut",
     /**
      * Revue
-     * @see https://www.getrevue.co/
+     * @see https://www.getrevue.co
      */
     Revue = "Revue",
     /**
      * REWE
-     * @see https://www.rewe.de/
+     * @see https://www.rewe.de
      */
     REWE = "REWE",
     /**
      * Rezgo
-     * @see https://www.rezgo.com/
+     * @see https://www.rezgo.com
      */
     Rezgo = "Rezgo",
     /**
@@ -7026,10 +11601,25 @@ export enum SimpleIcons {
      */
     Rhinoceros = "Rhinoceros",
     /**
+     * Rich
+     * @see https://github.com/Textualize/rich/blob/fd981823644ccf50d685ac9c0cfe8e1e56c9dd35/imgs/logo.svg
+     */
+    Rich = "Rich",
+    /**
      * Rider
      * @see https://www.jetbrains.com/company/brand/logos/
      */
     Rider = "Rider",
+    /**
+     * Rimac Automobili
+     * @see https://www.rimac-automobili.com/media/
+     */
+    RimacAutomobili = "Rimac-Automobili",
+    /**
+     * Rime
+     * @see https://github.com/rime/home/blob/65738f446c7e6c56a560fdaa0c0f02937b8e51d0/blog/source/images/logo.svg
+     */
+    Rime = "Rime",
     /**
      * Ring
      * @see https://store.ring.com/press
@@ -7046,45 +11636,115 @@ export enum SimpleIcons {
      */
     Ripple = "Ripple",
     /**
+     * RISC-V
+     * @see https://riscv.org/risc-v-logo/
+     */
+    RISCV = "RISC-V",
+    /**
      * Riseup
      * @see https://riseup.net/en/about-us/images
      */
     Riseup = "Riseup",
+    /**
+     * Ritz Carlton
+     * @see https://www.ritzcarlton.com/en/about-the-ritz-carlton
+     */
+    RitzCarlton = "Ritz-Carlton",
+    /**
+     * Rive
+     * @see https://rive.app
+     */
+    Rive = "Rive",
+    /**
+     * roadmap.sh
+     * @see https://roadmap.sh
+     */
+    RoadmapSh = "roadmap.sh",
     /**
      * Roam Research
      * @see https://roamresearch.com/#/app/help/page/Vu1MmjinS
      */
     RoamResearch = "Roam-Research",
     /**
+     * Robinhood
+     * @see https://robinhood.com
+     */
+    Robinhood = "Robinhood",
+    /**
      * Roblox
-     * @see https://corp.roblox.com/press-kit/
+     * @see https://www.roblox.com
      */
     Roblox = "Roblox",
     /**
+     * Roblox Studio
+     * @see https://create.roblox.com
+     */
+    RobloxStudio = "Roblox-Studio",
+    /**
      * Robot Framework
-     * @see https://github.com/robotframework/visual-identity
+     * @see https://github.com/robotframework/visual-identity/blob/fadf8cda9f79ea31987a214f0047cca9626327b7/logo/robot-framework.svg
      */
     RobotFramework = "Robot-Framework",
+    /**
+     * Rocket
+     * @see https://rocket.rs
+     */
+    Rocket = "Rocket",
     /**
      * Rocket.Chat
      * @see https://rocket.chat/press
      */
     RocketChat = "Rocket.Chat",
     /**
+     * RocksDB
+     * @see https://github.com/facebook/rocksdb/blob/9ed96703d11a1cf4af0e1c1db0e4a6057a8e5d42/docs/static/logo.svg
+     */
+    RocksDB = "RocksDB",
+    /**
+     * Rockstar Games
+     * @see https://www.rockstargames.com
+     */
+    RockstarGames = "Rockstar-Games",
+    /**
+     * Rockwell Automation
+     * @see https://www.rockwellautomation.com/en-ie/company/news.html
+     */
+    RockwellAutomation = "Rockwell-Automation",
+    /**
+     * Rocky Linux
+     * @see https://github.com/rocky-linux/branding/blob/94e97dd30b87d909cc4f6a6838a2926f77f9ac47/logo/src/icon-black.svg
+     */
+    RockyLinux = "Rocky-Linux",
+    /**
      * Roku
-     * @see https://www.roku.com/
+     * @see https://www.roku.com
      */
     Roku = "Roku",
     /**
+     * Roll20
+     * @see https://roll20.net
+     */
+    Roll20 = "Roll20",
+    /**
      * Rolls-Royce
-     * @see https://www.rolls-roycemotorcars.com/
+     * @see https://www.rolls-roycemotorcars.com
      */
     RollsRoyce = "Rolls-Royce",
     /**
      * rollup.js
-     * @see https://rollupjs.org/
+     * @see https://rollupjs.org
      */
     RollupJs = "rollup.js",
+    /**
+     * Roon
+     * @see https://help.roonlabs.com/portal/en/home
+     */
+    Roon = "Roon",
+    /**
+     * Root Me
+     * @see https://www.root-me.org
+     */
+    RootMe = "Root-Me",
     /**
      * Roots
      * @see https://roots.io/about/brand/
@@ -7106,25 +11766,40 @@ export enum SimpleIcons {
      */
     ROS = "ROS",
     /**
+     * Rossmann
+     * @see https://www.rossmann.de
+     */
+    Rossmann = "Rossmann",
+    /**
+     * Rotary International
+     * @see https://www.rotary.org/en
+     */
+    RotaryInternational = "Rotary-International",
+    /**
      * Rotten Tomatoes
      * @see https://commons.wikimedia.org/wiki/File:Rottentomatoesalternativelogo.svg
      */
     RottenTomatoes = "Rotten-Tomatoes",
     /**
      * Roundcube
-     * @see https://roundcube.net/
+     * @see https://roundcube.net
      */
     Roundcube = "Roundcube",
+    /**
+     * RSocket
+     * @see https://rsocket.io/img/r-socket-pink.svg
+     */
+    RSocket = "RSocket",
     /**
      * RSS
      * @see https://en.wikipedia.org/wiki/Feed_icon
      */
     RSS = "RSS",
     /**
-     * RStudio
-     * @see https://www.rstudio.com/about/logos/
+     * RStudio IDE
+     * @see https://www.rstudio.com/about/logos
      */
-    RStudio = "RStudio",
+    RStudioIDE = "RStudio-IDE",
     /**
      * RTÉ
      * @see https://www.rte.ie/archives/
@@ -7132,14 +11807,24 @@ export enum SimpleIcons {
     RT_ = "RTÉ",
     /**
      * RTL
-     * @see https://commons.wikimedia.org/wiki/File:RTL_Cornerlogo.svg
+     * @see https://www.rtl.de
      */
     RTL = "RTL",
     /**
      * RTLZWEI
-     * @see https://www.rtl2.de/
+     * @see https://www.rtl2.de
      */
     RTLZWEI = "RTLZWEI",
+    /**
+     * RTM
+     * @see https://www.rtm.fr
+     */
+    RTM = "RTM",
+    /**
+     * RuboCop
+     * @see https://github.com/rubocop-semver/rubocop-ruby2_0/blob/5302f93058f7b739a73a7a6c11c566a2b196b96e/docs/images/logo/rubocop-light.svg
+     */
+    RuboCop = "RuboCop",
     /**
      * Ruby
      * @see https://www.ruby-lang.org/en/about/logo/
@@ -7147,14 +11832,44 @@ export enum SimpleIcons {
     Ruby = "Ruby",
     /**
      * Ruby on Rails
-     * @see http://rubyonrails.org/
+     * @see https://github.com/simple-icons/simple-icons/issues/9619#issuecomment-1735150580
      */
     RubyOnRails = "Ruby-on-Rails",
+    /**
+     * Ruby Sinatra
+     * @see https://github.com/sinatra/resources/tree/64c22f9b4bf2e52b5c0c875ba16671f295689efb/logo
+     */
+    RubySinatra = "Ruby-Sinatra",
     /**
      * RubyGems
      * @see https://rubygems.org/pages/about
      */
     RubyGems = "RubyGems",
+    /**
+     * RubyMine
+     * @see https://www.jetbrains.com/company/brand/logos
+     */
+    RubyMine = "RubyMine",
+    /**
+     * Ruff
+     * @see https://astral.sh/ruff
+     */
+    Ruff = "Ruff",
+    /**
+     * Rumahweb
+     * @see https://www.rumahweb.com
+     */
+    Rumahweb = "Rumahweb",
+    /**
+     * Rumble
+     * @see https://rumble.com
+     */
+    Rumble = "Rumble",
+    /**
+     * Rundeck
+     * @see https://github.com/rundeck/docs/blob/a1c98b682eb6e82b60de0daa876133f390630821/docs/.vuepress/public/images/rundeck-logo.svg
+     */
+    Rundeck = "Rundeck",
     /**
      * Runkeeper
      * @see https://runkeeper.com/cms/press-kit
@@ -7166,10 +11881,20 @@ export enum SimpleIcons {
      */
     RunKit = "RunKit",
     /**
+     * Runrun.it
+     * @see https://runrun.it/en-US/project-management-logos-icons
+     */
+    RunrunIt = "Runrun.it",
+    /**
      * Rust
-     * @see https://www.rust-lang.org/
+     * @see https://www.rust-lang.org
      */
     Rust = "Rust",
+    /**
+     * RustDesk
+     * @see https://github.com/rustdesk/rustdesk/blob/80857c22c9ee1578b4329aec3250c3e6f285a7d2/res/logo.svg
+     */
+    RustDesk = "RustDesk",
     /**
      * RxDB
      * @see https://github.com/pubkey/rxdb/blob/0c554dbcf7a4e6c48cd581ec1e3b130a4b5ab7d6/docs/files/logo/logo.svg
@@ -7181,33 +11906,68 @@ export enum SimpleIcons {
      */
     Ryanair = "Ryanair",
     /**
+     * Rye
+     * @see https://github.com/mitsuhiko/rye/blob/8b76d2a1a9d44c97ccbbcedceb72bc7437142caf/docs/static/favicon.svg
+     */
+    Rye = "Rye",
+    /**
      * S7 Airlines
-     * @see https://www.s7.ru/
+     * @see https://www.s7.ru/en/info/s7-airlines/brand/
      */
     S7Airlines = "S7-Airlines",
     /**
+     * Sabanci
+     * @see https://www.sabanci.com/en
+     */
+    Sabanci = "Sabanci",
+    /**
      * Safari
-     * @see https://images.techhive.com/images/article/2014/11/safari-favorites-100530680-large.jpg
+     * @see https://apps.apple.com/us/app/safari/id1146562112
      */
     Safari = "Safari",
+    /**
+     * Sage
+     * @see https://www.sage.com
+     */
+    Sage = "Sage",
     /**
      * Sahibinden
      * @see https://www.sahibinden.com/favicon.ico
      */
     Sahibinden = "Sahibinden",
     /**
+     * Sailfish OS
+     * @see https://sailfishos.org
+     */
+    SailfishOS = "Sailfish-OS",
+    /**
+     * Sails.js
+     * @see https://sailsjs.com/logos
+     */
+    SailsJs = "Sails.js",
+    /**
      * Salesforce
-     * @see https://www.salesforce.com/styleguide/elements/logos
+     * @see https://brand.salesforce.com/content/logo-guidelines
      */
     Salesforce = "Salesforce",
     /**
-     * SaltStack
-     * @see https://www.saltstack.com/resources/brand/
+     * Salla
+     * @see https://brand.salla.com
      */
-    SaltStack = "SaltStack",
+    Salla = "Salla",
+    /**
+     * Salt Project
+     * @see https://saltproject.io
+     */
+    SaltProject = "Salt-Project",
+    /**
+     * Sam's Club
+     * @see https://www.samsclub.com
+     */
+    Sam_sClub = "Sam's-Club",
     /**
      * Samsung
-     * @see https://www.samsung.com/us
+     * @see https://www.samsung.com/us/about-us/brand-identity/logo/
      */
     Samsung = "Samsung",
     /**
@@ -7217,22 +11977,42 @@ export enum SimpleIcons {
     SamsungPay = "Samsung-Pay",
     /**
      * San Francisco Municipal Railway
-     * @see http://www.actransit.org/wp-content/uploads/HSP_CC-sched.pdf
+     * @see https://www.actransit.org/wp-content/uploads/HSP_CC-sched.pdf
      */
     SanFranciscoMunicipalRailway = "San-Francisco-Municipal-Railway",
     /**
+     * SanDisk
+     * @see https://kb.sandisk.com
+     */
+    SanDisk = "SanDisk",
+    /**
+     * Sanic
+     * @see https://github.com/sanic-org/sanic-assets/blob/79af646b7948fdfdc3b2f98d8aeedf58eba34b5b/svg/sanic-framework-logo-mono-black.svg
+     */
+    Sanic = "Sanic",
+    /**
+     * Sanity
+     * @see https://github.com/sanity-io/logos/blob/6934d28ae0b5f63b0386810997b8be61ec7009b5/src/sanityMonogram.tsx
+     */
+    Sanity = "Sanity",
+    /**
      * São Paulo Metro
-     * @see https://upload.wikimedia.org/wikipedia/commons/d/da/Sao_Paulo_Metro_Logo.svg
+     * @see https://commons.wikimedia.org/wiki/File:Sao_Paulo_Metro_Logo.svg
      */
     S_oPauloMetro = "São-Paulo-Metro",
     /**
      * SAP
-     * @see https://www.sap.com/
+     * @see https://www.sap.com
      */
     SAP = "SAP",
     /**
+     * Sartorius
+     * @see https://www.sartorius.com
+     */
+    Sartorius = "Sartorius",
+    /**
      * Sass
-     * @see http://sass-lang.com/styleguide/brand
+     * @see https://sass-lang.com/styleguide/brand
      */
     Sass = "Sass",
     /**
@@ -7241,30 +12021,55 @@ export enum SimpleIcons {
      */
     Sat1 = "sat1",
     /**
+     * Satellite
+     * @see https://www.satellite.me
+     */
+    Satellite = "Satellite",
+    /**
+     * Saturn
+     * @see https://www.saturn.de
+     */
+    Saturn = "Saturn",
+    /**
      * Sauce Labs
-     * @see https://saucelabs.com/
+     * @see https://saucelabs.com
      */
     SauceLabs = "Sauce-Labs",
     /**
+     * Saudia
+     * @see https://www.saudiatechnic.com/media-center/press-kit
+     */
+    Saudia = "Saudia",
+    /**
      * Scala
-     * @see https://www.scala-lang.org/
+     * @see https://www.scala-lang.org
      */
     Scala = "Scala",
     /**
      * Scaleway
-     * @see https://www.scaleway.com
+     * @see https://www.scaleway.com/en/design-resources/
      */
     Scaleway = "Scaleway",
     /**
      * Scania
-     * @see https://www.scania.com/
+     * @see https://digitaldesign.scania.com/resources/brand/logotype
      */
     Scania = "Scania",
+    /**
+     * Schneider Electric
+     * @see https://www.se.com/us/en/assets/739/media/202250/SE_logo-LIO-white_header.svg
+     */
+    SchneiderElectric = "Schneider-Electric",
     /**
      * scikit-learn
      * @see https://github.com/scikit-learn/scikit-learn/blob/c5ef2e985c13119001aa697e446ebb3dbcb326e5/doc/logos/scikit-learn-logo.svg
      */
     ScikitLearn = "scikit-learn",
+    /**
+     * Scilab
+     * @see https://gitlab.com/scilab/scilab/-/blob/599df2b32347029f4806a7c5fa2fe9d5f1293f0d/scilab/modules/gui/images/icons/scilabicon.svg
+     */
+    Scilab = "Scilab",
     /**
      * SciPy
      * @see https://github.com/scikit-image/skimage-branding/blob/eafb65cbc3a700e3d9c8ba2ba15788fcc8703984/logo/scipy.svg
@@ -7272,9 +12077,24 @@ export enum SimpleIcons {
     SciPy = "SciPy",
     /**
      * Scopus
-     * @see https://www.scopus.com/
+     * @see https://www.scopus.com
      */
     Scopus = "Scopus",
+    /**
+     * SCP Foundation
+     * @see https://scp-wiki.wikidot.com
+     */
+    SCPFoundation = "SCP-Foundation",
+    /**
+     * Scrapbox
+     * @see https://scrapbox.io/nota-press
+     */
+    Scrapbox = "Scrapbox",
+    /**
+     * Scrapy
+     * @see https://github.com/scrapy/scrapy.org/blob/d8e296f68c30664ffee3d142dd5d4c288d1e77c6/_brand/Scrapy%20Logo.eps
+     */
+    Scrapy = "Scrapy",
     /**
      * Scratch
      * @see https://github.com/LLK/scratch-link/blob/027e3754ba6db976495e905023d5ac5e730dccfc/Assets/Windows/SVG/Windows%20Tray%20400x400.svg
@@ -7282,22 +12102,22 @@ export enum SimpleIcons {
     Scratch = "Scratch",
     /**
      * Screencastify
-     * @see https://www.screencastify.com/
+     * @see https://www.screencastify.com
      */
     Screencastify = "Screencastify",
     /**
      * Scribd
-     * @see https://www.scribd.com
+     * @see https://brand.scribd.com/d/oFZcsq7FVpSh/about-scribd#/media-press-kit/downloads
      */
     Scribd = "Scribd",
     /**
      * Scrimba
-     * @see https://scrimba.com/
+     * @see https://scrimba.com
      */
     Scrimba = "Scrimba",
     /**
      * ScrollReveal
-     * @see https://scrollrevealjs.org/
+     * @see https://scrollrevealjs.org
      */
     ScrollReveal = "ScrollReveal",
     /**
@@ -7311,15 +12131,35 @@ export enum SimpleIcons {
      */
     ScrutinizerCI = "Scrutinizer-CI",
     /**
+     * ScyllaDB
+     * @see https://www.scylladb.com/media-kit
+     */
+    ScyllaDB = "ScyllaDB",
+    /**
      * Seagate
      * @see https://branding.seagate.com/productpage/3fc51aba-c35a-4eff-a833-a258b0440bd2
      */
     Seagate = "Seagate",
     /**
+     * SearXNG
+     * @see https://docs.searxng.org
+     */
+    SearXNG = "SearXNG",
+    /**
      * SEAT
-     * @see https://www.seat.es/
+     * @see https://www.seat.es
      */
     SEAT = "SEAT",
+    /**
+     * SeatGeek
+     * @see https://seatgeek.com/press
+     */
+    SeatGeek = "SeatGeek",
+    /**
+     * SecurityScorecard
+     * @see https://securityscorecard.com
+     */
+    SecurityScorecard = "SecurityScorecard",
     /**
      * Sefaria
      * @see https://github.com/Sefaria/Sefaria-Project/blob/c141b2b3491660ed563df9f4b1a2e4c071e88688/static/img/logo/samekh.svg
@@ -7327,7 +12167,7 @@ export enum SimpleIcons {
     Sefaria = "Sefaria",
     /**
      * Sega
-     * @see https://en.wikipedia.org/wiki/Sega#/media/File:Sega_logo.svg
+     * @see https://commons.wikimedia.org/wiki/File:SEGA_logo.svg
      */
     Sega = "Sega",
     /**
@@ -7340,6 +12180,16 @@ export enum SimpleIcons {
      * @see https://sellfy.com/about/
      */
     Sellfy = "Sellfy",
+    /**
+     * Semantic Scholar
+     * @see https://www.semanticscholar.org/about
+     */
+    SemanticScholar = "Semantic-Scholar",
+    /**
+     * Semantic UI
+     * @see https://semantic-ui.com
+     */
+    SemanticUI = "Semantic-UI",
     /**
      * Semantic UI React
      * @see https://react.semantic-ui.com
@@ -7357,9 +12207,14 @@ export enum SimpleIcons {
     SemanticRelease = "semantic-release",
     /**
      * Semaphore CI
-     * @see https://semaphoreci.com/
+     * @see https://semaphoreci.com
      */
     SemaphoreCI = "Semaphore-CI",
+    /**
+     * Semrush
+     * @see https://www.semrush.com
+     */
+    Semrush = "Semrush",
     /**
      * SemVer
      * @see https://github.com/semver/semver.org/blob/b6983849e38911195a24357809187c2f50af0d40/assets/500x500(light).jpg
@@ -7367,7 +12222,7 @@ export enum SimpleIcons {
     SemVer = "SemVer",
     /**
      * Sencha
-     * @see http://design.sencha.com/
+     * @see https://design.sencha.com
      */
     Sencha = "Sencha",
     /**
@@ -7377,7 +12232,7 @@ export enum SimpleIcons {
     Sennheiser = "Sennheiser",
     /**
      * Sensu
-     * @see https://github.com/sensu/sensu-go/blob/master/dashboard/src/assets/logo/graphic/green.svg
+     * @see https://github.com/sensu/web/blob/c823738c11e576d6b2e5d4ca2d216dbd472c0b11/src/assets/logo/graphic/green.svg
      */
     Sensu = "Sensu",
     /**
@@ -7391,25 +12246,60 @@ export enum SimpleIcons {
      */
     SEPA = "SEPA",
     /**
+     * Sequelize
+     * @see https://github.com/sequelize/website/blob/e6a482fa58a839b15ace80e3c8901ed2887be45e/static/img/logo-simple.svg
+     */
+    Sequelize = "Sequelize",
+    /**
      * Server Fault
-     * @see http://stackoverflow.com/company/logos
+     * @see https://stackoverflow.com/company/logos
      */
     ServerFault = "Server-Fault",
     /**
      * Serverless
-     * @see https://serverless.com/
+     * @see https://serverless.com
      */
     Serverless = "Serverless",
+    /**
+     * Session
+     * @see https://getsession.org
+     */
+    Session = "Session",
+    /**
+     * Sessionize
+     * @see https://sessionize.com/brand
+     */
+    Sessionize = "Sessionize",
+    /**
+     * Setapp
+     * @see https://setapp.com
+     */
+    Setapp = "Setapp",
     /**
      * SFML
      * @see https://www.sfml-dev.org/download/goodies/
      */
     SFML = "SFML",
     /**
+     * shadcn/ui
+     * @see https://ui.shadcn.com
+     */
+    Shadcn_ui = "shadcn/ui",
+    /**
+     * Shadow
+     * @see https://shadow.tech
+     */
+    Shadow = "Shadow",
+    /**
      * Shanghai Metro
      * @see https://en.wikipedia.org/wiki/File:Shanghai_Metro_Full_Logo.svg
      */
     ShanghaiMetro = "Shanghai-Metro",
+    /**
+     * ShareX
+     * @see https://getsharex.com/brand-assets
+     */
+    ShareX = "ShareX",
     /**
      * sharp
      * @see https://github.com/lovell/sharp/blob/315f519e1dd9adca0678e94a5ed0492cb5e0aae4/docs/image/sharp-logo-mono.svg
@@ -7417,7 +12307,7 @@ export enum SimpleIcons {
     Sharp = "sharp",
     /**
      * Shazam
-     * @see https://brandfolder.com/shazam
+     * @see https://www.shazam.com
      */
     Shazam = "Shazam",
     /**
@@ -7427,7 +12317,7 @@ export enum SimpleIcons {
     Shell = "Shell",
     /**
      * Shelly
-     * @see https://shelly.cloud/
+     * @see https://shelly.cloud
      */
     Shelly = "Shelly",
     /**
@@ -7446,8 +12336,13 @@ export enum SimpleIcons {
      */
     Shikimori = "Shikimori",
     /**
+     * Shopee
+     * @see https://shopee.com
+     */
+    Shopee = "Shopee",
+    /**
      * Shopify
-     * @see https://press.shopify.com/brand
+     * @see https://www.shopify.com/brand-assets
      */
     Shopify = "Shopify",
     /**
@@ -7456,13 +12351,13 @@ export enum SimpleIcons {
      */
     Shopware = "Shopware",
     /**
-     * Shotcut
-     * @see https://shotcut.com/media/
+     * Shortcut
+     * @see https://www.shortcut.com/branding
      */
-    Shotcut = "Shotcut",
+    Shortcut = "Shortcut",
     /**
      * Showpad
-     * @see https://www.showpad.com/
+     * @see https://www.showpad.com
      */
     Showpad = "Showpad",
     /**
@@ -7471,20 +12366,45 @@ export enum SimpleIcons {
      */
     Showtime = "Showtime",
     /**
+     * Showwcase
+     * @see https://www.showwcase.com
+     */
+    Showwcase = "Showwcase",
+    /**
      * Shutterstock
      * @see https://www.shutterstock.com/press/media
      */
     Shutterstock = "Shutterstock",
     /**
+     * Sidekiq
+     * @see https://sidekiq.org/about.html
+     */
+    Sidekiq = "Sidekiq",
+    /**
+     * SideQuest
+     * @see https://sidequestvr.com/branding
+     */
+    SideQuest = "SideQuest",
+    /**
      * Siemens
-     * @see https://siemens.com/
+     * @see https://siemens.com
      */
     Siemens = "Siemens",
     /**
+     * SiFive
+     * @see https://www.sifive.com
+     */
+    SiFive = "SiFive",
+    /**
      * Signal
-     * @see https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms
+     * @see https://github.com/signalapp/Signal-Desktop/blob/9db8765b6cf270195e45a7f251374d4e53d54c95/images/signal-logo.svg
      */
     Signal = "Signal",
+    /**
+     * Similarweb
+     * @see https://www.similarweb.com
+     */
+    Similarweb = "Similarweb",
     /**
      * Simkl
      * @see https://simkl.com
@@ -7492,32 +12412,62 @@ export enum SimpleIcons {
     Simkl = "Simkl",
     /**
      * Simple Analytics
-     * @see https://simpleanalytics.com/
+     * @see https://simpleanalytics.com
      */
     SimpleAnalytics = "Simple-Analytics",
     /**
      * Simple Icons
-     * @see https://simpleicons.org/
+     * @see https://simpleicons.org
      */
     SimpleIcons = "Simple-Icons",
+    /**
+     * SimpleLogin
+     * @see https://simplelogin.io/press
+     */
+    SimpleLogin = "SimpleLogin",
+    /**
+     * Simplenote
+     * @see https://en.wikipedia.org/wiki/File:Simplenote_logo.svg
+     */
+    Simplenote = "Simplenote",
     /**
      * Sina Weibo
      * @see https://en.wikipedia.org/wiki/Sina_Weibo
      */
     SinaWeibo = "Sina-Weibo",
     /**
+     * Singapore Airlines
+     * @see https://www.singaporeair.com
+     */
+    SingaporeAirlines = "Singapore-Airlines",
+    /**
      * SingleStore
      * @see https://www.singlestore.com/brand/
      */
     SingleStore = "SingleStore",
     /**
+     * Sitecore
+     * @see https://www.sitecore.com
+     */
+    Sitecore = "Sitecore",
+    /**
      * SitePoint
-     * @see http://www.sitepoint.com
+     * @see https://www.sitepoint.com
      */
     SitePoint = "SitePoint",
     /**
+     * SiYuan
+     * @see https://b3log.org/brand-marking.html
+     */
+    SiYuan = "SiYuan",
+    /**
+     * Skaffold
+     * @see https://github.com/GoogleContainerTools/skaffold/blob/9376dc047aded2adb188f599267fbb829a327dfd/logo/skaffold.eps
+     */
+    Skaffold = "Skaffold",
+    /**
      * Sketch
-     * @see https://www.sketch.com/press/
+     * @see https://www.sketch.com/about-us/#press
      */
     Sketch = "Sketch",
     /**
@@ -7527,7 +12477,7 @@ export enum SimpleIcons {
     Sketchfab = "Sketchfab",
     /**
      * SketchUp
-     * @see https://www.sketchup.com/themes/sketchup_www_terra/images/SketchUp-Horizontal-RGB.svg
+     * @see https://www.sketchup.com
      */
     SketchUp = "SketchUp",
     /**
@@ -7537,29 +12487,24 @@ export enum SimpleIcons {
     Skillshare = "Skillshare",
     /**
      * ŠKODA
-     * @see https://en.wikipedia.org/wiki/File:Skoda_Auto_logo_(2011).svg
+     * @see https://www.skoda-connect.com
      */
     _KODA = "ŠKODA",
     /**
      * Sky
-     * @see https://www.skysports.com/
+     * @see https://www.skysports.com
      */
     Sky = "Sky",
     /**
-     * Skyliner
-     * @see https://www.skyliner.io/help
+     * Skypack
+     * @see https://skypack.dev
      */
-    Skyliner = "Skyliner",
+    Skypack = "Skypack",
     /**
-     * Skype
-     * @see http://blogs.skype.com/?attachment_id=56273
+     * Skyrock
+     * @see https://www.svgrepo.com/svg/54507/skyrock-logo
      */
-    Skype = "Skype",
-    /**
-     * Skype for Business
-     * @see https://en.wikipedia.org/wiki/Skype_for_Business_Server
-     */
-    SkypeForBusiness = "Skype-for-Business",
+    Skyrock = "Skyrock",
     /**
      * Slack
      * @see https://slack.com/brand-guidelines
@@ -7577,7 +12522,7 @@ export enum SimpleIcons {
     Slashdot = "Slashdot",
     /**
      * SlickPic
-     * @see https://www.slickpic.com/
+     * @see https://www.slickpic.com
      */
     SlickPic = "SlickPic",
     /**
@@ -7591,8 +12536,13 @@ export enum SimpleIcons {
      */
     SlideShare = "SlideShare",
     /**
+     * Slint
+     * @see https://github.com/slint-ui/slint/blob/10ae5cd60ab3fcd01ef89a300c97e2e0952bc750/logo/slint-logo-full-dark.png
+     */
+    Slint = "Slint",
+    /**
      * smart
-     * @see https://www.smart.com/gb/en/models/eq-fortwo-coupe
+     * @see https://global.smart.com
      */
     Smart = "smart",
     /**
@@ -7607,7 +12557,7 @@ export enum SimpleIcons {
     SmashGg = "smash.gg",
     /**
      * Smashing Magazine
-     * @see https://www.smashingmagazine.com/
+     * @see https://www.smashingmagazine.com
      */
     SmashingMagazine = "Smashing-Magazine",
     /**
@@ -7617,7 +12567,7 @@ export enum SimpleIcons {
     SMRT = "SMRT",
     /**
      * SmugMug
-     * @see https://help.smugmug.com/using-smugmug's-logo-HJulJePkEBf
+     * @see https://www.smugmughelp.com/articles/409-smugmug-s-logo-and-usage
      */
     SmugMug = "SmugMug",
     /**
@@ -7627,22 +12577,42 @@ export enum SimpleIcons {
     Snapchat = "Snapchat",
     /**
      * Snapcraft
-     * @see https://github.com/snapcore/snap-store-badges
+     * @see https://github.com/snapcore/snap-store-badges/tree/eda2cb0495ef7f4d479e231079967c9d27f2bc70
      */
     Snapcraft = "Snapcraft",
     /**
+     * SNCF
+     * @see https://www.sncf.com
+     */
+    SNCF = "SNCF",
+    /**
+     * Snort
+     * @see https://snort.org
+     */
+    Snort = "Snort",
+    /**
      * Snowflake
-     * @see https://www.snowflake.com/about/press-and-news/
+     * @see https://www.snowflake.com/brand-guidelines/
      */
     Snowflake = "Snowflake",
+    /**
+     * Snowpack
+     * @see https://www.snowpack.dev
+     */
+    Snowpack = "Snowpack",
     /**
      * Snyk
      * @see https://snyk.io/press-kit
      */
     Snyk = "Snyk",
     /**
+     * Social Blade
+     * @see https://socialblade.com/info/media
+     */
+    SocialBlade = "Social-Blade",
+    /**
      * Society6
-     * @see https://blog.society6.com/app/themes/society6/dist/images/mark.svg
+     * @see https://society6.com
      */
     Society6 = "Society6",
     /**
@@ -7651,25 +12621,45 @@ export enum SimpleIcons {
      */
     SocketIo = "Socket.io",
     /**
+     * Softpedia
+     * @see https://commons.wikimedia.org/wiki/File:Softpedia_logo.svg
+     */
+    Softpedia = "Softpedia",
+    /**
      * Sogou
-     * @see https://www.sogou.com/
+     * @see https://www.sogou.com
      */
     Sogou = "Sogou",
     /**
+     * Solana
+     * @see https://solana.com/branding
+     */
+    Solana = "Solana",
+    /**
+     * Solid
+     * @see https://www.solidjs.com/media
+     */
+    Solid = "Solid",
+    /**
      * Solidity
-     * @see https://docs.soliditylang.org/en/v0.7.4/brand-guide.html
+     * @see https://docs.soliditylang.org/en/v0.8.6/brand-guide.html
      */
     Solidity = "Solidity",
     /**
-     * SoloLearn
-     * @see https://www.sololearn.com/
+     * Sololearn
+     * @see https://www.sololearn.com
      */
-    SoloLearn = "SoloLearn",
+    Sololearn = "Sololearn",
     /**
      * Solus
      * @see https://getsol.us/branding/
      */
     Solus = "Solus",
+    /**
+     * Sonar
+     * @see https://www.sonarsource.com
+     */
+    Sonar = "Sonar",
     /**
      * SonarCloud
      * @see https://sonarcloud.io/about
@@ -7677,7 +12667,7 @@ export enum SimpleIcons {
     SonarCloud = "SonarCloud",
     /**
      * SonarLint
-     * @see https://www.sonarsource.com
+     * @see https://www.sonarlint.org/logos/
      */
     SonarLint = "SonarLint",
     /**
@@ -7686,13 +12676,18 @@ export enum SimpleIcons {
      */
     SonarQube = "SonarQube",
     /**
-     * SonarSource
-     * @see https://www.sonarsource.com/
+     * sonarr
+     * @see https://github.com/Sonarr/Sonarr/blob/913b845faadc3c9fc005abfba815426743d01bdf/Logo/Sonarr.svg
      */
-    SonarSource = "SonarSource",
+    Sonarr = "sonarr",
+    /**
+     * Sonatype
+     * @see https://www.sonatype.com/company/press-kit
+     */
+    Sonatype = "Sonatype",
     /**
      * Songkick
-     * @see http://blog.songkick.com/media-assets
+     * @see https://www.songkick.com/style-guide/design
      */
     Songkick = "Songkick",
     /**
@@ -7711,8 +12706,23 @@ export enum SimpleIcons {
      */
     Sonos = "Sonos",
     /**
+     * Sony
+     * @see https://www.sony.com
+     */
+    Sony = "Sony",
+    /**
+     * Soriana
+     * @see https://www.soriana.com
+     */
+    Soriana = "Soriana",
+    /**
+     * Soundcharts
+     * @see https://soundcharts.com/img/soundcharts-logo.svg
+     */
+    Soundcharts = "Soundcharts",
+    /**
      * SoundCloud
-     * @see https://soundcloud.com/press
+     * @see https://press.soundcloud.com
      */
     SoundCloud = "SoundCloud",
     /**
@@ -7722,37 +12732,52 @@ export enum SimpleIcons {
     SourceEngine = "Source-Engine",
     /**
      * SourceForge
-     * @see https://sourceforge.net/
+     * @see https://sourceforge.net
      */
     SourceForge = "SourceForge",
     /**
-     * Sourcegraph
-     * @see https://sourcegraph.com/.assets/img
+     * SourceHut
+     * @see https://sourcehut.org/logo/
      */
-    Sourcegraph = "Sourcegraph",
+    SourceHut = "SourceHut",
+    /**
+     * Sourcetree
+     * @see https://atlassian.design/resources/logo-library
+     */
+    Sourcetree = "Sourcetree",
     /**
      * Southwest Airlines
-     * @see https://www.southwest.com/
+     * @see https://www.southwest.com
      */
     SouthwestAirlines = "Southwest-Airlines",
     /**
      * Spacemacs
-     * @see http://spacemacs.org/
+     * @see https://spacemacs.org
      */
     Spacemacs = "Spacemacs",
     /**
+     * Spaceship
+     * @see https://www.spaceship.com
+     */
+    Spaceship = "Spaceship",
+    /**
      * SpaceX
-     * @see https://www.spacex.com/
+     * @see https://www.spacex.com
      */
     SpaceX = "SpaceX",
     /**
+     * spaCy
+     * @see https://github.com/explosion/spaCy/blob/c17980e535a8009b14ee4d1f818db207d9c07e55/website/src/images/logo.svg
+     */
+    SpaCy = "spaCy",
+    /**
      * Spark AR
-     * @see https://sparkar.facebook.com/
+     * @see https://sparkar.facebook.com
      */
     SparkAR = "Spark-AR",
     /**
      * Sparkasse
-     * @see https://www.sparkasse.de/
+     * @see https://www.sparkasse.de
      */
     Sparkasse = "Sparkasse",
     /**
@@ -7762,7 +12787,7 @@ export enum SimpleIcons {
     SparkFun = "SparkFun",
     /**
      * SparkPost
-     * @see https://www.sparkpost.com/
+     * @see https://www.sparkpost.com/press-kit/
      */
     SparkPost = "SparkPost",
     /**
@@ -7772,7 +12797,7 @@ export enum SimpleIcons {
     SPDX = "SPDX",
     /**
      * Speaker Deck
-     * @see https://speakerdeck.com/
+     * @see https://speakerdeck.com
      */
     SpeakerDeck = "Speaker-Deck",
     /**
@@ -7782,12 +12807,37 @@ export enum SimpleIcons {
     Spectrum = "Spectrum",
     /**
      * Speedtest
-     * @see https://www.speedtest.net/
+     * @see https://www.speedtest.net
      */
     Speedtest = "Speedtest",
     /**
+     * SpeedyPage
+     * @see https://speedypage.com
+     */
+    SpeedyPage = "SpeedyPage",
+    /**
+     * Sphere Online Judge
+     * @see https://www.spoj.com
+     */
+    Spoj = "spoj",
+    /**
+     * Sphinx
+     * @see https://github.com/sphinx-doc/sphinx/blob/ed84d63e6f2c4fd43b97fc43ee8be4156a13af9e/doc/_static/favicon.svg
+     */
+    Sphinx = "Sphinx",
+    /**
+     * SpigotMC
+     * @see https://www.spigotmc.org
+     */
+    SpigotMC = "SpigotMC",
+    /**
+     * Spine
+     * @see https://esotericsoftware.com/branding
+     */
+    Spine = "Spine",
+    /**
      * Spinnaker
-     * @see https://github.com/spinnaker/spinnaker.github.io/tree/master/assets/images
+     * @see https://github.com/spinnaker/spinnaker.github.io/tree/0cdd37af7541293a810494a1bb4d7df9ef553d60/assets/images
      */
     Spinnaker = "Spinnaker",
     /**
@@ -7797,22 +12847,32 @@ export enum SimpleIcons {
     Spinrilla = "Spinrilla",
     /**
      * Splunk
-     * @see https://www.splunk.com/
+     * @see https://www.splunk.com
      */
     Splunk = "Splunk",
     /**
+     * Spond
+     * @see https://spond.com
+     */
+    Spond = "Spond",
+    /**
      * Spotify
-     * @see https://developer.spotify.com/design
+     * @see https://developer.spotify.com/documentation/general/design-and-branding/#using-our-logo
      */
     Spotify = "Spotify",
     /**
      * Spotlight
-     * @see https://www.spotlight.com/
+     * @see https://www.spotlight.com
      */
     Spotlight = "Spotlight",
     /**
+     * Spreadshirt
+     * @see https://www.spreadshirt.ie
+     */
+    Spreadshirt = "Spreadshirt",
+    /**
      * Spreaker
-     * @see http://www.spreaker.com/press
+     * @see https://www.spreaker.com
      */
     Spreaker = "Spreaker",
     /**
@@ -7821,15 +12881,30 @@ export enum SimpleIcons {
      */
     Spring = "Spring",
     /**
+     * Spring
+     * @see https://www.spri.ng
+     */
+    SpringCreators = "spring_creators",
+    /**
      * Spring Boot
      * @see https://spring.io/projects
      */
     SpringBoot = "Spring-Boot",
     /**
+     * Spring Security
+     * @see https://spring.io/projects
+     */
+    SpringSecurity = "Spring-Security",
+    /**
      * Spyder IDE
-     * @see https://www.spyder-ide.org/
+     * @see https://www.spyder-ide.org
      */
     SpyderIDE = "Spyder-IDE",
+    /**
+     * SQLAlchemy
+     * @see https://commons.wikimedia.org/wiki/File:SQLAlchemy.svg
+     */
+    SQLAlchemy = "SQLAlchemy",
     /**
      * SQLite
      * @see https://github.com/sqlite/sqlite/blob/43e862723ec680542ca6f608f9963c0993dd7324/art/sqlite370.eps
@@ -7837,27 +12912,37 @@ export enum SimpleIcons {
     SQLite = "SQLite",
     /**
      * Square
-     * @see https://squareup.com/
+     * @see https://squareup.com
      */
     Square = "Square",
     /**
      * Square Enix
-     * @see https://www.square-enix.com/
+     * @see https://www.square-enix.com
      */
     SquareEnix = "Square-Enix",
     /**
      * Squarespace
-     * @see http://squarespace.com/brand-guidelines
+     * @see https://www.squarespace.com/logo-guidelines
      */
     Squarespace = "Squarespace",
+    /**
+     * SRG SSR
+     * @see https://www.srgssr.ch/en/news-media/downloads/logos
+     */
+    SRGSSR = "SRG-SSR",
     /**
      * SSRN
      * @see https://www.ssrn.com
      */
     SSRN = "SSRN",
     /**
+     * SST
+     * @see https://sst.dev
+     */
+    SST = "SST",
+    /**
      * Stack Exchange
-     * @see http://stackoverflow.com/company/logos
+     * @see https://stackoverflow.com/company/logos
      */
     StackExchange = "Stack-Exchange",
     /**
@@ -7870,6 +12955,21 @@ export enum SimpleIcons {
      * @see https://www.stackbit.com/branding-guidelines/
      */
     Stackbit = "Stackbit",
+    /**
+     * StackBlitz
+     * @see https://stackblitz.com
+     */
+    StackBlitz = "StackBlitz",
+    /**
+     * StackEdit
+     * @see https://github.com/benweet/stackedit/blob/46383b5b6a54b65b8720d786ed0a0518b9ad652d/src/assets/iconStackedit.svg
+     */
+    StackEdit = "StackEdit",
+    /**
+     * StackHawk
+     * @see https://www.stackhawk.com/press/
+     */
+    StackHawk = "StackHawk",
     /**
      * StackPath
      * @see https://www.stackpath.com/company/logo-and-branding/
@@ -7891,10 +12991,35 @@ export enum SimpleIcons {
      */
     Staffbase = "Staffbase",
     /**
+     * Stagetimer
+     * @see https://stagetimer.io
+     */
+    Stagetimer = "Stagetimer",
+    /**
+     * Standard Resume
+     * @see https://standardresume.co/press
+     */
+    StandardResume = "Standard-Resume",
+    /**
+     * StandardJS
+     * @see https://github.com/standard/standard/blob/6516bf87f127b7968c34cac0100d48d6c455a891/sticker.svg
+     */
+    StandardJS = "StandardJS",
+    /**
      * Star Trek
-     * @see https://intl.startrek.com/
+     * @see https://intl.startrek.com
      */
     StarTrek = "Star-Trek",
+    /**
+     * Starbucks
+     * @see https://starbucks.com
+     */
+    Starbucks = "Starbucks",
+    /**
+     * Stardock
+     * @see https://www.stardock.com/press/stardock%20branding/
+     */
+    Stardock = "Stardock",
     /**
      * Starling Bank
      * @see https://www.starlingbank.com/media/
@@ -7902,12 +13027,12 @@ export enum SimpleIcons {
     StarlingBank = "Starling-Bank",
     /**
      * Starship
-     * @see https://starship.rs/
+     * @see https://starship.rs
      */
     Starship = "Starship",
     /**
      * STARZ
-     * @see https://www.starz.com/StaticContent/Prod/guides/starzlibrary/
+     * @see https://www.starz.com/takethelead
      */
     STARZ = "STARZ",
     /**
@@ -7916,30 +13041,45 @@ export enum SimpleIcons {
      */
     Statamic = "Statamic",
     /**
+     * Statista
+     * @see https://www.statista.com
+     */
+    Statista = "Statista",
+    /**
      * Statuspage
      * @see https://www.atlassian.com/company/news/press-kit
      */
     Statuspage = "Statuspage",
     /**
      * Statuspal
-     * @see https://statuspal.io/
+     * @see https://statuspal.io
      */
     Statuspal = "Statuspal",
     /**
      * Steam
-     * @see https://partner.steamgames.com/public/marketing/Steam_Guidelines_02102016.pdf
+     * @see https://partner.steamgames.com/doc/marketing/branding
      */
     Steam = "Steam",
     /**
+     * Steam Deck
+     * @see https://partner.steamgames.com/doc/marketing/branding
+     */
+    SteamDeck = "Steam-Deck",
+    /**
      * SteamDB
-     * @see https://steamdb.info/
+     * @see https://steamdb.info
      */
     SteamDB = "SteamDB",
     /**
      * Steamworks
-     * @see https://partner.steamgames.com/
+     * @see https://partner.steamgames.com
      */
     Steamworks = "Steamworks",
+    /**
+     * Steelseries
+     * @see https://techblog.steelseries.com/ux-guide/index.html
+     */
+    Steelseries = "Steelseries",
     /**
      * Steem
      * @see https://steem.com/brand/
@@ -7947,39 +13087,54 @@ export enum SimpleIcons {
     Steem = "Steem",
     /**
      * Steemit
-     * @see https://steemit.com/
+     * @see https://steemit.com
      */
     Steemit = "Steemit",
     /**
      * Steinberg
-     * @see https://www.steinberg.net/en/company/press.html
+     * @see https://new.steinberg.net/press/
      */
     Steinberg = "Steinberg",
     /**
      * Stellar
-     * @see https://www.stellar.org/blog/announcing-the-new-stellar-logo
+     * @see https://www.stellar.org/press
      */
     Stellar = "Stellar",
     /**
+     * Stencil
+     * @see https://ionic.io/ionicons
+     */
+    Stencil = "Stencil",
+    /**
      * Stencyl
-     * @see http://www.stencyl.com/about/press/
+     * @see https://www.stencyl.com/about/press/
      */
     Stencyl = "Stencyl",
     /**
      * Stimulus
-     * @see https://stimulus.hotwire.dev/
+     * @see https://stimulus.hotwire.dev
      */
     Stimulus = "Stimulus",
     /**
      * Stitcher
-     * @see https://partners.stitcher.com/
+     * @see https://partners.stitcher.com
      */
     Stitcher = "Stitcher",
     /**
      * STMicroelectronics
-     * @see https://www.st.com/
+     * @see https://www.st.com
      */
     STMicroelectronics = "STMicroelectronics",
+    /**
+     * StockX
+     * @see https://stockx.com/about/brand-assets
+     */
+    StockX = "StockX",
+    /**
+     * StopStalk
+     * @see https://github.com/stopstalk/media-resources/blob/265b728c26ba597b957e72134a3b49a10dc0c91d/stopstalk-small-black.svg
+     */
+    StopStalk = "StopStalk",
     /**
      * Storyblok
      * @see https://www.storyblok.com/press
@@ -7987,12 +13142,12 @@ export enum SimpleIcons {
     Storyblok = "Storyblok",
     /**
      * Storybook
-     * @see https://github.com/storybookjs/brand
+     * @see https://github.com/storybookjs/brand/tree/6f4d67f65f8275c53c310a73a8da6c6e96c8488c
      */
     Storybook = "Storybook",
     /**
      * Strapi
-     * @see https://strapi.io/newsroom
+     * @see https://handbook.strapi.io/strapi-brand-book-2022/strapi-logo
      */
     Strapi = "Strapi",
     /**
@@ -8001,10 +13156,20 @@ export enum SimpleIcons {
      */
     Strava = "Strava",
     /**
+     * Streamlabs
+     * @see https://streamlabs.com/about
+     */
+    Streamlabs = "Streamlabs",
+    /**
      * Streamlit
      * @see https://www.streamlit.io/brand
      */
     Streamlit = "Streamlit",
+    /**
+     * StreamRunners
+     * @see https://streamrunners.fr
+     */
+    StreamRunners = "StreamRunners",
     /**
      * Stripe
      * @see https://stripe.com/about/resources
@@ -8016,13 +13181,28 @@ export enum SimpleIcons {
      */
     StrongSwan = "strongSwan",
     /**
+     * Stryker
+     * @see https://stryker-mutator.io
+     */
+    Stryker = "Stryker",
+    /**
      * StubHub
-     * @see http://www.stubhub.com
+     * @see https://www.stubhub.com
      */
     StubHub = "StubHub",
     /**
+     * Studio 3T
+     * @see https://studio3t.com
+     */
+    Studio3T = "Studio-3T",
+    /**
+     * Studyverse
+     * @see https://studyverse.live
+     */
+    Studyverse = "Studyverse",
+    /**
      * styled-components
-     * @see https://www.styled-components.com/
+     * @see https://www.styled-components.com
      */
     StyledComponents = "styled-components",
     /**
@@ -8032,12 +13212,12 @@ export enum SimpleIcons {
     Stylelint = "stylelint",
     /**
      * StyleShare
-     * @see https://www.stylesha.re/
+     * @see https://www.stylesha.re
      */
     StyleShare = "StyleShare",
     /**
      * Stylus
-     * @see http://stylus-lang.com/img/stylus-logo.svg
+     * @see https://github.com/stylus/stylus-lang.com/blob/c833bf697e39e1174c7c6e679e0e5a23d0baeb90/img/stylus-logo.svg
      */
     Stylus = "Stylus",
     /**
@@ -8047,17 +13227,22 @@ export enum SimpleIcons {
     Subaru = "Subaru",
     /**
      * Sublime Text
-     * @see https://www.sublimetext.com/images/logo.svg
+     * @see https://www.sublimetext.com
      */
     SublimeText = "Sublime-Text",
     /**
      * Substack
-     * @see https://on.substack.com/
+     * @see https://on.substack.com
      */
     Substack = "Substack",
     /**
+     * Subtitle Edit
+     * @see https://github.com/SubtitleEdit/subtitleedit/issues/61#issuecomment-1442100888
+     */
+    SubtitleEdit = "Subtitle-Edit",
+    /**
      * Subversion
-     * @see http://subversion.apache.org/logo
+     * @see https://subversion.apache.org/logo
      */
     Subversion = "Subversion",
     /**
@@ -8071,8 +13256,18 @@ export enum SimpleIcons {
      */
     SumoLogic = "Sumo-Logic",
     /**
+     * Suno
+     * @see https://suno.com
+     */
+    Suno = "Suno",
+    /**
+     * Sunrise
+     * @see https://www.sunrise.ch
+     */
+    Sunrise = "Sunrise",
+    /**
      * Supabase
-     * @see https://github.com/supabase/supabase/blob/2a983c3290148d17cfce9e34c0a39102b22fdf78/web/static/img/showcase-logo/supabase-logo.svg
+     * @see https://github.com/supabase/supabase/blob/4031a7549f5d46da7bc79c01d56be4177dc7c114/packages/common/assets/images/supabase-logo-wordmark--light.svg
      */
     Supabase = "Supabase",
     /**
@@ -8081,18 +13276,33 @@ export enum SimpleIcons {
      */
     SuperUser = "Super-User",
     /**
+     * Supercrease
+     * @see https://supercrease.com/wp-content/themes/super-crease/assets/svgs/super-crease.svg
+     */
+    Supercrease = "Supercrease",
+    /**
+     * Supermicro
+     * @see https://www.supermicro.com/manuals/supermicro_logo_guidelines.pdf
+     */
+    Supermicro = "Supermicro",
+    /**
+     * SurrealDB
+     * @see https://surrealdb.com/media
+     */
+    SurrealDB = "SurrealDB",
+    /**
      * SurveyMonkey
      * @see https://www.surveymonkey.com/mp/brandassets/
      */
     SurveyMonkey = "SurveyMonkey",
     /**
      * SUSE
-     * @see https://brand.suse.com/
+     * @see https://brand.suse.com
      */
     SUSE = "SUSE",
     /**
      * Suzuki
-     * @see https://www.suzuki.ie/
+     * @see https://www.suzuki.ie
      */
     Suzuki = "Suzuki",
     /**
@@ -8106,13 +13316,18 @@ export enum SimpleIcons {
      */
     SVG = "SVG",
     /**
+     * SVG.js
+     * @see https://github.com/svgdotjs/svg.logo/blob/0de9ff2cca6c058968f838baaaf507e475ee4583/logo.svg
+     */
+    SVGJs = "SVG.js",
+    /**
      * SVGO
      * @see https://github.com/svg/svgo/blob/93a5db197ca32990131bf41becf2e002bb0841bf/logo/isotype.svg
      */
     SVGO = "SVGO",
     /**
      * Swagger
-     * @see https://swagger.io/swagger/media/assets/images/swagger_logo.svg
+     * @see https://swagger.io
      */
     Swagger = "Swagger",
     /**
@@ -8121,25 +13336,40 @@ export enum SimpleIcons {
      */
     Swarm = "Swarm",
     /**
+     * SWC
+     * @see https://github.com/swc-project/logo/blob/f26cac1b4a490e3bdf128d3b084bb57f4fab1aac/svg/swc_black.svg
+     */
+    SWC = "SWC",
+    /**
      * Swift
-     * @see https://developer.apple.com/develop/
+     * @see https://developer.apple.com/swift/resources/
      */
     Swift = "Swift",
     /**
      * Swiggy
-     * @see https://www.swiggy.com/
+     * @see https://www.swiggy.com
      */
     Swiggy = "Swiggy",
     /**
      * Swiper
-     * @see https://swiperjs.com/
+     * @see https://swiperjs.com
      */
     Swiper = "Swiper",
+    /**
+     * SWR
+     * @see https://swr.vercel.app
+     */
+    SWR = "SWR",
     /**
      * Symantec
      * @see https://commons.wikimedia.org/wiki/File:Symantec_logo10.svg
      */
     Symantec = "Symantec",
+    /**
+     * Symbolab
+     * @see https://www.symbolab.com
+     */
+    Symbolab = "Symbolab",
     /**
      * Symfony
      * @see https://symfony.com/logo
@@ -8147,7 +13377,7 @@ export enum SimpleIcons {
     Symfony = "Symfony",
     /**
      * Symphony
-     * @see https://symphony.com/
+     * @see https://symphony.com
      */
     Symphony = "Symphony",
     /**
@@ -8156,40 +13386,105 @@ export enum SimpleIcons {
      */
     SymPy = "SymPy",
     /**
+     * Syncthing
+     * @see https://github.com/syncthing/syncthing/blob/bdfd0f0548d2f6fc4b5500690dbd383baa3b0561/assets/logo-only.svg
+     */
+    Syncthing = "Syncthing",
+    /**
      * Synology
      * @see https://www.synology.com/en-global/company/branding
      */
     Synology = "Synology",
     /**
+     * System76
+     * @see https://github.com/system76/brand/blob/7a31740b54f929b62a165baa61dfb0b5164261e8/System76%20branding/system76-logo_secondary.svg
+     */
+    System76 = "System76",
+    /**
      * T-Mobile
-     * @see https://www.t-mobile.com/
+     * @see https://tmap.t-mobile.com/portals/pro74u7a/EXTBrandPortal
      */
     TMobile = "T-Mobile",
     /**
+     * Tabelog
+     * @see https://tabelog.com
+     */
+    Tabelog = "Tabelog",
+    /**
      * Tableau
-     * @see https://www.tableau.com/about/media-download-center
+     * @see https://www.tableau.com/about/media-kit/brand-assets
      */
     Tableau = "Tableau",
+    /**
+     * TableCheck
+     * @see https://www.tablecheck.com/join
+     */
+    TableCheck = "TableCheck",
+    /**
+     * Taco Bell
+     * @see https://www.tacobell.com
+     */
+    TacoBell = "Taco-Bell",
     /**
      * tado°
      * @see https://www.tado.com/gb-en/press-assets
      */
     Tado_ = "tado°",
     /**
+     * Taichi Graphics
+     * @see https://taichi.graphics
+     */
+    TaichiGraphics = "Taichi-Graphics",
+    /**
+     * Taichi Lang
+     * @see https://docs.taichi-lang.org/blog
+     */
+    TaichiLang = "Taichi-Lang",
+    /**
      * Tails
      * @see https://tails.boum.org/contribute/how/promote/material/logo/
      */
     Tails = "Tails",
     /**
+     * Tailscale
+     * @see https://tailscale.com/press
+     */
+    Tailscale = "Tailscale",
+    /**
      * Tailwind CSS
-     * @see https://tailwindcss.com/
+     * @see https://tailwindcss.com/brand
      */
     TailwindCSS = "Tailwind-CSS",
     /**
+     * Taipy
+     * @see https://taipy.io
+     */
+    Taipy = "Taipy",
+    /**
+     * Take-Two Interactive Software
+     * @see https://www.take2games.com/ir
+     */
+    TakeTwoInteractiveSoftware = "Take-Two-Interactive-Software",
+    /**
      * Talend
-     * @see https://www.talend.com/
+     * @see https://www.talend.com/blog
      */
     Talend = "Talend",
+    /**
+     * Talenthouse
+     * @see https://www.talenthouse.com
+     */
+    Talenthouse = "Talenthouse",
+    /**
+     * Talos
+     * @see https://github.com/siderolabs/talos/blob/e3fda049fee62f3c5cef4ae08eaf848826a6dbed/website/assets/icons/logo.svg
+     */
+    Talos = "Talos",
+    /**
+     * Tamiya
+     * @see https://commons.wikimedia.org/wiki/File:TAMIYA_Logo.svg
+     */
+    Tamiya = "Tamiya",
     /**
      * Tampermonkey
      * @see https://commons.wikimedia.org/wiki/File:Tampermonkey_logo.svg
@@ -8206,40 +13501,75 @@ export enum SimpleIcons {
      */
     Tapas = "Tapas",
     /**
+     * Target
+     * @see https://www.target.com
+     */
+    Target = "Target",
+    /**
+     * Task
+     * @see https://github.com/go-task/task/blob/84ad0056e49e2206bf5903863cdf972a7305072c/docs/static/img/logo_mono.svg
+     */
+    Task = "Task",
+    /**
      * Tasmota
-     * @see https://tasmota.github.io/docs/
+     * @see https://github.com/tasmota/docs/blob/f9ad71612681d85f3b21406c7defa86b3eaa6bb9/docs/images/symbol.svg
      */
     Tasmota = "Tasmota",
     /**
      * Tata
-     * @see https://www.tata.com/
+     * @see https://www.tatasteel.com/media/media-kit/logos-usage-guidelines
      */
     Tata = "Tata",
     /**
+     * Tata Consultancy Services
+     * @see https://www.tcs.com
+     */
+    Tcs = "tcs",
+    /**
+     * Tauri
+     * @see https://github.com/tauri-apps/tauri-docs/blob/b1cdfa9d7c6d0b17dae60a90266ddced40a7b384/static/img/tauri.svg
+     */
+    Tauri = "Tauri",
+    /**
      * TaxBuzz
-     * @see https://www.taxbuzz.com/
+     * @see https://www.taxbuzz.com
      */
     TaxBuzz = "TaxBuzz",
     /**
+     * Teal
+     * @see https://www.tealhq.com
+     */
+    Teal = "Teal",
+    /**
      * TeamCity
-     * @see https://www.jetbrains.com/company/brand/logos/
+     * @see https://www.jetbrains.com/company/brand/logos
      */
     TeamCity = "TeamCity",
     /**
      * TeamSpeak
-     * @see https://www.teamspeak.com/en/more/media-pack/
+     * @see https://teamspeak.com
      */
     TeamSpeak = "TeamSpeak",
     /**
      * TeamViewer
-     * @see https://www.teamviewer.com/resources/images/logos/teamviewer-logo-big.svg
+     * @see https://www.teamviewer.com/en-us
      */
     TeamViewer = "TeamViewer",
+    /**
+     * TechCrunch
+     * @see https://commons.wikimedia.org/wiki/File:TechCrunch_logo.svg
+     */
+    TechCrunch = "TechCrunch",
     /**
      * TED
      * @see https://www.ted.com/participate/organize-a-local-tedx-event/tedx-organizer-guide/branding-promotions/logo-and-design/your-tedx-logo
      */
     TED = "TED",
+    /**
+     * TeePublic
+     * @see https://teepublic.design/brand-kit
+     */
+    TeePublic = "TeePublic",
     /**
      * Teespring
      * @see https://teespring.com
@@ -8251,83 +13581,143 @@ export enum SimpleIcons {
      */
     Tekton = "Tekton",
     /**
-     * TELE5
-     * @see https://www.tele5.de
+     * TELE 5
+     * @see https://commons.wikimedia.org/wiki/File:Tele_5_Logo_2021.svg
      */
-    TELE5 = "TELE5",
+    TELE5 = "TELE-5",
+    /**
+     * Télé-Québec
+     * @see https://www.telequebec.tv/societe/logo-et-normes-techniques
+     */
+    T_l_Qu_bec = "Télé-Québec",
     /**
      * Telegram
-     * @see https://telegram.org
+     * @see https://telegram.org/tour/screenshots
      */
     Telegram = "Telegram",
     /**
      * Telegraph
-     * @see https://telegra.ph/
+     * @see https://telegra.ph
      */
     Telegraph = "Telegraph",
     /**
+     * Temporal
+     * @see https://github.com/temporalio/temporaldotio/blob/b6b5f3ed1fda818d5d6c07e27ec15d51a61f2267/public/images/icons/temporal-no-text.svg
+     */
+    Temporal = "Temporal",
+    /**
      * Tencent QQ
-     * @see https://en.wikipedia.org/wiki/File:Tencent_QQ.svg#/media/File:Tencent_QQ.svg
+     * @see https://en.wikipedia.org/wiki/File:Tencent_QQ.svg
      */
     TencentQQ = "Tencent-QQ",
     /**
      * TensorFlow
-     * @see https://www.tensorflow.org/extras/tensorflow_brand_guidelines.pdf
+     * @see https://www.tensorflow.org
      */
     TensorFlow = "TensorFlow",
     /**
      * Teradata
-     * @see https://github.com/Teradata/teradata.github.io/
+     * @see https://github.com/Teradata/teradata.github.io/blob/0fb3886aaeefea7bea4951c300f49ac8f9c2476f/src/assets/icons/teradata-icon.svg
      */
     Teradata = "Teradata",
     /**
      * teratail
-     * @see https://teratail.com/
+     * @see https://teratail.com
      */
     Teratail = "teratail",
+    /**
+     * Termius
+     * @see https://termius.com/brand-resources
+     */
+    Termius = "Termius",
     /**
      * Terraform
      * @see https://www.hashicorp.com/brand
      */
     Terraform = "Terraform",
     /**
+     * Tesco
+     * @see https://www.tesco.com
+     */
+    Tesco = "Tesco",
+    /**
      * Tesla
-     * @see http://www.teslamotors.com/en_GB/about
+     * @see https://www.tesla.com/tesla-gallery
      */
     Tesla = "Tesla",
     /**
+     * TestCafe
+     * @see https://github.com/DevExpress/testcafe/blob/dd174b6682b5f2675ac90e305d3d893c36a1d814/media/logos/svg/TestCafe-logo-600.svg
+     */
+    TestCafe = "TestCafe",
+    /**
      * Testin
-     * @see https://www.testin.cn/
+     * @see https://www.testin.cn
      */
     Testin = "Testin",
     /**
      * Testing Library
-     * @see https://testing-library.com/
+     * @see https://testing-library.com
      */
     TestingLibrary = "Testing-Library",
     /**
+     * TestRail
+     * @see https://www.testrail.com
+     */
+    TestRail = "TestRail",
+    /**
+     * Tether
+     * @see https://tether.to/branding/
+     */
+    Tether = "Tether",
+    /**
      * Textpattern
-     * @see https://textpattern.com/
+     * @see https://textpattern.com
      */
     Textpattern = "Textpattern",
+    /**
+     * TGA
+     * @see https://thegameawards.com/about
+     */
+    TGA = "TGA",
+    /**
+     * Thangs
+     * @see https://thangs.com
+     */
+    Thangs = "Thangs",
+    /**
+     * The Algorithms
+     * @see https://github.com/TheAlgorithms/website/blob/f4e439578c88fed3b21c70898605238602975d2d/public/logo_t.svg
+     */
+    TheAlgorithms = "The-Algorithms",
+    /**
+     * The Boring Company
+     * @see https://commons.wikimedia.org/wiki/File:The_Boring_Company_Logo.svg
+     */
+    TheBoringCompany = "The-Boring-Company",
     /**
      * The Conversation
      * @see https://theconversation.com/republishing-guidelines
      */
     TheConversation = "The-Conversation",
     /**
+     * THE FINALS
+     * @see https://www.embark-studios.com/press
+     */
+    THEFINALS = "THE-FINALS",
+    /**
      * The Irish Times
-     * @see https://www.irishtimes.com/
+     * @see https://www.irishtimes.com
      */
     TheIrishTimes = "The-Irish-Times",
     /**
      * The Mighty
-     * @see https://themighty.com/
+     * @see https://themighty.com
      */
     TheMighty = "The-Mighty",
     /**
      * The Models Resource
-     * @see https://www.models-resource.com/
+     * @see https://www.models-resource.com
      */
     TheModelsResource = "The-Models-Resource",
     /**
@@ -8336,18 +13726,28 @@ export enum SimpleIcons {
      */
     TheMovieDatabase = "The-Movie-Database",
     /**
+     * The North Face
+     * @see https://www.thenorthface.com
+     */
+    TheNorthFace = "The-North-Face",
+    /**
+     * The Odin Project
+     * @see https://www.theodinproject.com
+     */
+    TheOdinProject = "The-Odin-Project",
+    /**
      * The Register
-     * @see https://www.theregister.co.uk/
+     * @see https://www.theregister.co.uk
      */
     TheRegister = "The-Register",
     /**
      * The Sounds Resource
-     * @see https://www.sounds-resource.com/
+     * @see https://www.sounds-resource.com
      */
     TheSoundsResource = "The-Sounds-Resource",
     /**
      * The Spriters Resource
-     * @see https://www.spriters-resource.com/
+     * @see https://www.spriters-resource.com
      */
     TheSpritersResource = "The-Spriters-Resource",
     /**
@@ -8357,7 +13757,7 @@ export enum SimpleIcons {
     TheWashingtonPost = "The-Washington-Post",
     /**
      * Thingiverse
-     * @see https://www.thingiverse.com/
+     * @see https://www.thingiverse.com
      */
     Thingiverse = "Thingiverse",
     /**
@@ -8365,6 +13765,21 @@ export enum SimpleIcons {
      * @see https://www.lenovo.com/us/en/thinkpad
      */
     ThinkPad = "ThinkPad",
+    /**
+     * thirdweb
+     * @see https://thirdweb.com
+     */
+    Thirdweb = "thirdweb",
+    /**
+     * Threadless
+     * @see https://www.threadless.com/about-us
+     */
+    Threadless = "Threadless",
+    /**
+     * Threads
+     * @see https://about.meta.com/brand/resources/instagram/threads
+     */
+    Threads = "Threads",
     /**
      * Three.js
      * @see https://github.com/mrdoob/three.js/blob/a567b810cfcb7f6a03e4faea99f03c53081da477/files/icon.svg
@@ -8382,12 +13797,22 @@ export enum SimpleIcons {
     Thumbtack = "Thumbtack",
     /**
      * Thunderbird
-     * @see https://demo.identihub.co/thunderbird
+     * @see https://design.thunderbird.net/resources/logo
      */
     Thunderbird = "Thunderbird",
     /**
+     * Thunderstore
+     * @see https://github.com/thunderstore-io/brand-guidelines/blob/7b5d4b62ca192a61b8ce5842cd8f5ad1f24ffcfd/assets/logo/thunderstore-logomark-black.svg
+     */
+    Thunderstore = "Thunderstore",
+    /**
+     * Thurgauer Kantonalbank
+     * @see https://www.tkb.ch
+     */
+    ThurgauerKantonalbank = "Thurgauer-Kantonalbank",
+    /**
      * Thymeleaf
-     * @see https://github.com/thymeleaf/thymeleaf-dist/tree/master/src/artwork/thymeleaf%202016
+     * @see https://github.com/thymeleaf/thymeleaf-org/blob/0427d4d4c6f08d3a1fbed3bc90ceeebcf094b532/artwork/thymeleaf%202016/thymeleaf.svg
      */
     Thymeleaf = "Thymeleaf",
     /**
@@ -8396,15 +13821,30 @@ export enum SimpleIcons {
      */
     Ticketmaster = "Ticketmaster",
     /**
+     * TickTick
+     * @see https://ticktick.com
+     */
+    TickTick = "TickTick",
+    /**
      * Tidal
-     * @see https://tidal.com
+     * @see https://tidal.com/press
      */
     Tidal = "Tidal",
     /**
+     * TiddlyWiki
+     * @see https://tiddlywiki.com
+     */
+    TiddlyWiki = "TiddlyWiki",
+    /**
      * Tide
-     * @see https://www.tide.co/newsroom/
+     * @see https://www.tide.co/newsroom
      */
     Tide = "Tide",
+    /**
+     * Tidyverse
+     * @see https://github.com/rstudio/hex-stickers/blob/69528093ef59f541e5a4798dbcb00e60267e8870/SVG/tidyverse.svg
+     */
+    Tidyverse = "Tidyverse",
     /**
      * TietoEVRY
      * @see https://www.tietoevry.com/en/about-us/our-company/
@@ -8416,53 +13856,113 @@ export enum SimpleIcons {
      */
     TikTok = "TikTok",
     /**
+     * Tilda Publishing
+     * @see https://tilda.cc/mediakit
+     */
+    TildaPublishing = "Tilda-Publishing",
+    /**
      * Tile
-     * @see https://www.thetileapp.com/
+     * @see https://www.thetileapp.com
      */
     Tile = "Tile",
     /**
      * Timescale
-     * @see https://www.timescale.com/
+     * @see https://www.timescale.com
      */
     Timescale = "Timescale",
     /**
+     * Tina
+     * @see https://github.com/tinacms/tinacms/blob/965edfb7d2a318ab6b86a4772e4daebf53f34f2e/examples/tina-self-hosted-demo/public/tina.svg
+     */
+    Tina = "Tina",
+    /**
      * Tinder
-     * @see http://www.gotinder.com/press
+     * @see https://www.gotinder.com/press
      */
     Tinder = "Tinder",
     /**
+     * Tindie
+     * @see https://www.tindie.com/tindieu
+     */
+    Tindie = "Tindie",
+    /**
+     * Tinkercad
+     * @see https://www.tinkercad.com
+     */
+    Tinkercad = "Tinkercad",
+    /**
+     * tinygrad
+     * @see https://github.com/tinygrad/tinygrad/blob/1025dfb94def0bf3afe7c9ef6af9581727263ab4/docs/logo_tiny_light.svg
+     */
+    Tinygrad = "tinygrad",
+    /**
      * TinyLetter
-     * @see https://tinyletter.com/site/press
+     * @see https://tinyletter.com/site/press/
      */
     TinyLetter = "TinyLetter",
     /**
+     * Tistory
+     * @see https://tistory.com
+     */
+    Tistory = "Tistory",
+    /**
+     * tldraw
+     * @see https://tldraw.dev
+     */
+    Tldraw = "tldraw",
+    /**
      * tmux
-     * @see https://github.com/tmux/tmux/tree/f04cc3997629823f0e304d4e4184e2ec93c703f0/logo
+     * @see https://github.com/tmux/tmux/blob/e26356607e38cbb4676a7c91815ae2d5734443c3/logo/tmux-logo-1-color.svg
      */
     Tmux = "tmux",
     /**
      * Todoist
-     * @see https://doist.com/press/
+     * @see https://doist.com/press
      */
     Todoist = "Todoist",
     /**
      * Toggl
-     * @see https://toggl.com/media-toolkit
+     * @see https://toggl.com/track/media-toolkit
      */
     Toggl = "Toggl",
     /**
+     * Toggl Track
+     * @see https://toggl.com/track/media-toolkit
+     */
+    TogglTrack = "Toggl-Track",
+    /**
      * Tokyo Metro
-     * @see https://en.wikipedia.org/wiki/File:TokyoMetro.svg
+     * @see https://commons.wikimedia.org/wiki/File:Tokyo_Metro_combined_logo.svg
      */
     TokyoMetro = "Tokyo-Metro",
     /**
+     * Toll
+     * @see https://www.tollgroup.com
+     */
+    Toll = "Toll",
+    /**
+     * TOML
+     * @see https://github.com/toml-lang/toml/blob/625f62b55c5acdfb9924c78e1d0bf4cf0be23d91/logos/toml.svg
+     */
+    TOML = "TOML",
+    /**
      * Tomorrowland
-     * @see https://global.tomorrowland.com/
+     * @see https://global.tomorrowland.com
      */
     Tomorrowland = "Tomorrowland",
     /**
+     * TON
+     * @see https://ton.org/en/brand-assets
+     */
+    TON = "TON",
+    /**
+     * Top.gg
+     * @see https://top.gg
+     */
+    TopGg = "Top.gg",
+    /**
      * Topcoder
-     * @see http://topcoder.com/
+     * @see https://www.topcoder.com/thrive/articles/How%20to%20use%20the%20Topcoder%20GUI%20KIT
      */
     Topcoder = "Topcoder",
     /**
@@ -8472,12 +13972,12 @@ export enum SimpleIcons {
     Toptal = "Toptal",
     /**
      * Tor Browser
-     * @see https://styleguide.torproject.org/brand-assets/
+     * @see https://styleguide.torproject.org/brand-assets
      */
     TorBrowser = "Tor-Browser",
     /**
      * Tor Project
-     * @see https://styleguide.torproject.org/brand-assets/
+     * @see https://styleguide.torproject.org/brand-assets
      */
     TorProject = "Tor-Project",
     /**
@@ -8486,13 +13986,28 @@ export enum SimpleIcons {
      */
     Toshiba = "Toshiba",
     /**
+     * TOTVS
+     * @see https://marca.totvs.com/downloads
+     */
+    TOTVS = "TOTVS",
+    /**
+     * TourBox
+     * @see https://www.tourboxtech.com
+     */
+    TourBox = "TourBox",
+    /**
+     * Tower
+     * @see https://www.git-tower.com/company/press
+     */
+    Tower = "Tower",
+    /**
      * Toyota
      * @see https://www.toyota.com/brandguidelines/logo/
      */
     Toyota = "Toyota",
     /**
      * TP-Link
-     * @see https://www.tp-link.com/
+     * @see https://www.tp-link.com
      */
     TPLink = "TP-Link",
     /**
@@ -8501,28 +14016,58 @@ export enum SimpleIcons {
      */
     Tqdm = "tqdm",
     /**
+     * Traccar
+     * @see https://www.traccar.org
+     */
+    Traccar = "Traccar",
+    /**
+     * TradingView
+     * @see https://www.tradingview.com/media-kit
+     */
+    TradingView = "TradingView",
+    /**
+     * Traefik Mesh
+     * @see https://github.com/traefik/mesh/blob/ef03c40b78c08931d47fdad0be10d1986f4e21bc/docs/content/assets/img/traefik-mesh-logo.svg
+     */
+    TraefikMesh = "Traefik-Mesh",
+    /**
+     * Traefik Proxy
+     * @see https://traefik.io/traefik
+     */
+    TraefikProxy = "Traefik-Proxy",
+    /**
+     * Trailforks
+     * @see https://www.trailforks.com/about/graphics
+     */
+    Trailforks = "Trailforks",
+    /**
      * TrainerRoad
-     * @see https://www.trainerroad.com/
+     * @see https://www.trainerroad.com/press
      */
     TrainerRoad = "TrainerRoad",
     /**
      * Trakt
-     * @see https://trakt.tv
+     * @see https://trakt.tv/branding
      */
     Trakt = "Trakt",
     /**
-     * TransferWise
-     * @see https://brand.transferwise.com/logo
+     * Transifex
+     * @see https://app.transifex.com/contact/
      */
-    TransferWise = "TransferWise",
+    Transifex = "Transifex",
+    /**
+     * Transmission
+     * @see https://github.com/transmission/transmission/blob/7c9e04d035f3f75a8124e83d612701824487eb4e/gtk/icons/hicolor_apps_symbolic_transmission-symbolic.svg
+     */
+    Transmission = "Transmission",
     /**
      * Transport for Ireland
-     * @see https://www.transportforireland.ie/
+     * @see https://www.transportforireland.ie
      */
     TransportForIreland = "Transport-for-Ireland",
     /**
      * Transport for London
-     * @see https://tfl.gov.uk/
+     * @see https://tfl.gov.uk
      */
     TransportForLondon = "Transport-for-London",
     /**
@@ -8532,7 +14077,7 @@ export enum SimpleIcons {
     TravisCI = "Travis-CI",
     /**
      * Treehouse
-     * @see https://teamtreehouse.com/about
+     * @see https://teamtreehouse.com
      */
     Treehouse = "Treehouse",
     /**
@@ -8542,19 +14087,34 @@ export enum SimpleIcons {
     Trello = "Trello",
     /**
      * Trend Micro
-     * @see https://www.trendmicro.com/
+     * @see https://www.trendmicro.com
      */
     TrendMicro = "Trend-Micro",
     /**
      * Treyarch
-     * @see https://upload.wikimedia.org/wikipedia/en/7/7a/Treyarch_logo.svg
+     * @see https://en.wikipedia.org/wiki/File:Treyarch_logo.svg
      */
     Treyarch = "Treyarch",
     /**
+     * Tricentis
+     * @see https://www.tricentis.com
+     */
+    Tricentis = "Tricentis",
+    /**
+     * Trilium
+     * @see https://github.com/zadam/trilium/blob/05d2f4fe96f49c5bc7f3a02a9e47fc352ce5971d/images/icon.svg
+     */
+    Trilium = "Trilium",
+    /**
      * Triller
-     * @see https://triller.co/static/media/illustrations/logo-full-white.svg
+     * @see https://triller.co
      */
     Triller = "Triller",
+    /**
+     * TrillerTV
+     * @see https://fite.tv
+     */
+    TrillerTV = "TrillerTV",
     /**
      * Trino
      * @see https://github.com/trinodb/docs.trino.io/blob/653a46f6bdc64b5f67302dc9ab8a0c432ca25e70/352/_static/trino.svg
@@ -8562,7 +14122,7 @@ export enum SimpleIcons {
     Trino = "Trino",
     /**
      * Trip.com
-     * @see https://careers.trip.com/
+     * @see https://careers.trip.com
      */
     TripCom = "Trip.com",
     /**
@@ -8571,20 +14131,40 @@ export enum SimpleIcons {
      */
     Tripadvisor = "Tripadvisor",
     /**
+     * trivago
+     * @see https://company.trivago.com/press-media
+     */
+    Trivago = "trivago",
+    /**
+     * Trivy
+     * @see https://www.aquasec.com/brand
+     */
+    Trivy = "Trivy",
+    /**
      * Trove
-     * @see https://trove.nla.gov.au/
+     * @see https://trove.nla.gov.au/about/who-we-are/our-logo
      */
     Trove = "Trove",
     /**
+     * tRPC
+     * @see https://github.com/trpc/trpc/blob/e0df4a2d5b498dd953a65901e04915c6e3f7ecc5/www/static/img/logo-no-text.svg
+     */
+    TRPC = "tRPC",
+    /**
      * TrueNAS
-     * @see https://www.truenas.com/
+     * @see https://www.truenas.com
      */
     TrueNAS = "TrueNAS",
     /**
-     * Trulia
-     * @see http://www.trulia.com
+     * TrueUp
+     * @see https://www.trueup.io
      */
-    Trulia = "Trulia",
+    TrueUp = "TrueUp",
+    /**
+     * trulia
+     * @see https://www.trulia.com/newsroom/media/brand-logos
+     */
+    Trulia = "trulia",
     /**
      * Trusted Shops
      * @see https://brand.trustedshops.com/d/dorIFVeUmcN9/corporate-design
@@ -8597,22 +14177,27 @@ export enum SimpleIcons {
     Trustpilot = "Trustpilot",
     /**
      * Try It Online
-     * @see https://tio.run/
+     * @see https://tio.run
      */
     TryItOnline = "Try-It-Online",
     /**
      * TryHackMe
-     * @see https://tryhackme.com/about
+     * @see https://tryhackme.com
      */
     TryHackMe = "TryHackMe",
     /**
      * ts-node
-     * @see https://typestrong.org/ts-node/
+     * @see https://typestrong.org/ts-node
      */
     TsNode = "ts-node",
     /**
+     * Tubi
+     * @see https://gdpr.tubi.tv
+     */
+    Tubi = "Tubi",
+    /**
      * TUI
-     * @see https://www.tuiholidays.ie/
+     * @see https://www.design.tui/brand/logos
      */
     TUI = "TUI",
     /**
@@ -8626,15 +14211,30 @@ export enum SimpleIcons {
      */
     TuneIn = "TuneIn",
     /**
+     * Turbo
+     * @see https://turbo.hotwired.dev
+     */
+    Turbo = "Turbo",
+    /**
+     * Turborepo
+     * @see https://github.com/vercel/turborepo/blob/7312e316629a2138f895a90c9704045891be817b/docs/public/logo-light.svg
+     */
+    Turborepo = "Turborepo",
+    /**
      * TurboSquid
-     * @see https://www.brand.turbosquid.com/
+     * @see https://www.brand.turbosquid.com/turbosquidicons
      */
     TurboSquid = "TurboSquid",
     /**
      * Turkish Airlines
-     * @see https://www.turkishairlines.com/tr-int/basin-odasi/logo-arsivi/index.html
+     * @see https://www.turkishairlines.com/en-int/press-room/logo-archive/index.html
      */
     TurkishAirlines = "Turkish-Airlines",
+    /**
+     * Turso
+     * @see https://turso.tech
+     */
+    Turso = "Turso",
     /**
      * Tutanota
      * @see https://github.com/tutao/tutanota/blob/8ff5f0e7d78834ac8fcb0f2357c394b757ea4793/resources/images/logo-solo-red.svg
@@ -8642,52 +14242,77 @@ export enum SimpleIcons {
     Tutanota = "Tutanota",
     /**
      * TV Time
-     * @see https://www.tvtime.com/
+     * @see https://www.tvtime.com
      */
     TVTime = "TV-Time",
+    /**
+     * TV4 Play
+     * @see https://tv4play.se
+     */
+    TV4Play = "TV4-Play",
     /**
      * Twilio
      * @see https://www.twilio.com/company/brand
      */
     Twilio = "Twilio",
     /**
+     * Twinkly
+     * @see https://help.twinkly.com/en/help/quick-guides
+     */
+    Twinkly = "Twinkly",
+    /**
+     * Twinmotion
+     * @see https://www.twinmotion.com
+     */
+    Twinmotion = "Twinmotion",
+    /**
      * Twitch
      * @see https://brand.twitch.tv
      */
     Twitch = "Twitch",
     /**
-     * Twitter
-     * @see https://brand.twitter.com
+     * Typeform
+     * @see https://www.typeform.com
      */
-    Twitter = "Twitter",
+    Typeform = "Typeform",
     /**
-     * Twoo
-     * @see http://www.twoo.com/about/press
+     * TypeORM
+     * @see https://github.com/typeorm/typeorm/blob/e7649d2746f907ff36b1efb600402dedd5f5a499/resources/logo_big.png
      */
-    Twoo = "Twoo",
+    TypeORM = "TypeORM",
+    /**
+     * Typer
+     * @see https://typer.tiangolo.com
+     */
+    Typer = "Typer",
     /**
      * TypeScript
-     * @see https://www.staging-typescript.org/branding
+     * @see https://www.typescriptlang.org/branding
      */
     TypeScript = "TypeScript",
     /**
      * TYPO3
-     * @see https://typo3.com/fileadmin/assets/typo3logos/typo3_bullet_01.svg
+     * @see https://styleguide.typo3.com/styleguide/logo
      */
     TYPO3 = "TYPO3",
     /**
+     * Typst
+     * @see https://typst.app
+     */
+    Typst = "Typst",
+    /**
      * Uber
-     * @see https://www.uber.com/media/
+     * @see https://assets.uber.com/d/k4nuxdZ8MC7E/logos/collection/151
      */
     Uber = "Uber",
     /**
      * Uber Eats
-     * @see https://www.ubereats.com
+     * @see https://assets.uber.com/d/k4nuxdZ8MC7E/logos/collection/150
      */
     UberEats = "Uber-Eats",
     /**
      * Ubiquiti
-     * @see https://www.ui.com/marketing/#logos
+     * @see https://www.ui.com
      */
     Ubiquiti = "Ubiquiti",
     /**
@@ -8697,14 +14322,19 @@ export enum SimpleIcons {
     Ubisoft = "Ubisoft",
     /**
      * uBlock Origin
-     * @see https://github.com/gorhill/uBlock/blob/master/src/img/ublock.svg
+     * @see https://github.com/gorhill/uBlock/blob/59aa235952a9289cfe72e4fb9f8a7d8f4c80be9a/src/img/ublock.svg
      */
     UBlockOrigin = "uBlock-Origin",
     /**
      * Ubuntu
-     * @see https://design.ubuntu.com/brand/ubuntu-logo/
+     * @see https://design.ubuntu.com/resources
      */
     Ubuntu = "Ubuntu",
+    /**
+     * Ubuntu MATE
+     * @see https://ubuntu-mate.org
+     */
+    UbuntuMATE = "Ubuntu-MATE",
     /**
      * Udacity
      * @see https://www.udacity.com
@@ -8712,7 +14342,7 @@ export enum SimpleIcons {
     Udacity = "Udacity",
     /**
      * Udemy
-     * @see https://about.udemy.com/newbrand/
+     * @see https://www.udemy.com/ourbrand/
      */
     Udemy = "Udemy",
     /**
@@ -8726,48 +14356,108 @@ export enum SimpleIcons {
      */
     UIkit = "UIkit",
     /**
+     * UiPath
+     * @see https://www.uipath.com/newsroom
+     */
+    UiPath = "UiPath",
+    /**
      * Ulule
      * @see https://ulule.frontify.com/d/EX3dK8qsXgqh/branding-guidelines
      */
     Ulule = "Ulule",
     /**
+     * Umami
+     * @see https://github.com/umami-software/umami/blob/3572df0a09503f357a06fe7f816295ba2c878325/assets/logo.svg
+     */
+    Umami = "Umami",
+    /**
      * Umbraco
-     * @see https://umbraco.com/
+     * @see https://umbraco.com
      */
     Umbraco = "Umbraco",
     /**
+     * UML
+     * @see https://www.uml.org
+     */
+    UML = "UML",
+    /**
      * Unacademy
-     * @see https://unacademy.com/
+     * @see https://unacademy.com
      */
     Unacademy = "Unacademy",
     /**
+     * Under Armour
+     * @see https://www.underarmour.com/en-us
+     */
+    UnderArmour = "Under-Armour",
+    /**
+     * Underscore.js
+     * @see https://github.com/jashkenas/underscore/blob/f098f61ff84931dea69c276b3674a62b6ae4def7/docs/images/underscore.png
+     */
+    UnderscoreJs = "Underscore.js",
+    /**
      * Undertale
-     * @see https://undertale.com/
+     * @see https://undertale.com
      */
     Undertale = "Undertale",
     /**
      * Unicode
-     * @see https://en.wikipedia.org/wiki/Unicode
+     * @see https://commons.wikimedia.org/wiki/File:New_Unicode_logo.svg
      */
     Unicode = "Unicode",
     /**
      * Unilever
-     * @see https://www.unilever.co.uk/about/who-we-are/our-logo/
+     * @see https://www.unilever.com/our-company/the-logo
      */
     Unilever = "Unilever",
     /**
+     * Uniqlo
+     * @see https://www.uniqlo.com
+     */
+    Uniqlo = "Uniqlo",
+    /**
+     * Uniqlo
+     * @see https://www.uniqlo.com
+     */
+    UniqloJa = "uniqlo_ja",
+    /**
      * United Airlines
-     * @see https://en.wikipedia.org/wiki/File:United_Airlines_Logo.svg
+     * @see https://www.united.com
      */
     UnitedAirlines = "United-Airlines",
     /**
+     * United Nations
+     * @see https://www.un.org/en
+     */
+    UnitedNations = "United-Nations",
+    /**
      * Unity
-     * @see https://unity.com/
+     * @see https://brand.unity.com
      */
     Unity = "Unity",
     /**
+     * UnJS
+     * @see https://unjs.io
+     */
+    UnJS = "UnJS",
+    /**
+     * Unlicense
+     * @see https://commons.wikimedia.org/wiki/File:PD-icon.svg
+     */
+    Unlicense = "Unlicense",
+    /**
+     * UnoCSS
+     * @see https://github.com/unocss/unocss/blob/fc2ed5bb6019b45565ff5293d4b650522f1b79b4/playground/public/icon.svg
+     */
+    UnoCSS = "UnoCSS",
+    /**
+     * unpkg
+     * @see https://github.com/mjackson/unpkg/blob/af8c8db00fdacd77961ab2a8c3edb45a27d3a6a3/public/favicon.ico
+     */
+    Unpkg = "unpkg",
+    /**
      * Unraid
-     * @see https://unraid.net/
+     * @see https://unraid.net
      */
     Unraid = "Unraid",
     /**
@@ -8777,17 +14467,12 @@ export enum SimpleIcons {
     UnrealEngine = "Unreal-Engine",
     /**
      * Unsplash
-     * @see https://unsplash.com/
+     * @see https://unsplash.com
      */
     Unsplash = "Unsplash",
     /**
-     * Untangle
-     * @see https://www.untangle.com/company-overview/
-     */
-    Untangle = "Untangle",
-    /**
      * Untappd
-     * @see https://untappd.com/
+     * @see https://untappd.com
      */
     Untappd = "Untappd",
     /**
@@ -8796,20 +14481,40 @@ export enum SimpleIcons {
      */
     UpCloud = "UpCloud",
     /**
+     * Uphold
+     * @see https://uphold.com/en-us/brand-assets
+     */
+    Uphold = "Uphold",
+    /**
      * UpLabs
-     * @see https://www.uplabs.com/
+     * @see https://www.uplabs.com
      */
     UpLabs = "UpLabs",
     /**
-     * Uploaded
-     * @see https://www.uploaded.net
+     * Upptime
+     * @see https://upptime.js.org
      */
-    Uploaded = "Uploaded",
+    Upptime = "Upptime",
     /**
      * UPS
-     * @see https://www.ups.com/
+     * @see https://www.ups.com
      */
     UPS = "UPS",
+    /**
+     * Upstash
+     * @see https://upstash.com
+     */
+    Upstash = "Upstash",
+    /**
+     * Uptime Kuma
+     * @see https://uptime.kuma.pet
+     */
+    UptimeKuma = "Uptime-Kuma",
+    /**
+     * Uptobox
+     * @see https://uptobox.fr
+     */
+    Uptobox = "Uptobox",
     /**
      * Upwork
      * @see https://www.upwork.com/press/
@@ -8817,14 +14522,24 @@ export enum SimpleIcons {
     Upwork = "Upwork",
     /**
      * USPS
-     * @see https://www.usps.com/
+     * @see https://www.usps.com
      */
     USPS = "USPS",
     /**
+     * uTorrent
+     * @see https://www.utorrent.com
+     */
+    UTorrent = "uTorrent",
+    /**
      * V
-     * @see https://github.com/vlang/v-logo
+     * @see https://github.com/vlang/v-logo/blob/eec050c901ed3afefce8cbe56092d55ed6770706/dist/v-logo.svg
      */
     V = "V",
+    /**
+     * V2EX
+     * @see https://www.v2ex.com
+     */
+    V2EX = "V2EX",
     /**
      * V8
      * @see https://v8.dev/logo
@@ -8841,13 +14556,23 @@ export enum SimpleIcons {
      */
     Vagrant = "Vagrant",
     /**
+     * Vala
+     * @see https://commons.wikimedia.org/wiki/File:Vala_Logo.svg
+     */
+    Vala = "Vala",
+    /**
+     * Valorant
+     * @see https://commons.wikimedia.org/wiki/File:Valorant_logo_-_black_color_version.svg
+     */
+    Valorant = "Valorant",
+    /**
      * Valve
-     * @see https://www.valvesoftware.com/
+     * @see https://www.valvesoftware.com
      */
     Valve = "Valve",
     /**
      * Vapor
-     * @see https://vapor.codes/
+     * @see https://vapor.codes
      */
     Vapor = "Vapor",
     /**
@@ -8855,6 +14580,11 @@ export enum SimpleIcons {
      * @see https://www.hashicorp.com/brand
      */
     Vault = "Vault",
+    /**
+     * Vaultwarden
+     * @see https://github.com/dani-garcia/vaultwarden/blob/44e9e1a58ed37bf4b352bb499fd3e97adcd3b26b/resources/vaultwarden-icon.svg
+     */
+    Vaultwarden = "Vaultwarden",
     /**
      * Vauxhall
      * @see https://www.stellantis.com/en/brands/vauxhall
@@ -8866,8 +14596,13 @@ export enum SimpleIcons {
      */
     VBulletin = "vBulletin",
     /**
+     * Vectary
+     * @see https://www.vectary.com
+     */
+    Vectary = "Vectary",
+    /**
      * Vector Logo Zone
-     * @see https://www.vectorlogo.zone/
+     * @see https://www.vectorlogo.zone
      */
     VectorLogoZone = "Vector-Logo-Zone",
     /**
@@ -8881,23 +14616,43 @@ export enum SimpleIcons {
      */
     Veeam = "Veeam",
     /**
+     * VEED
+     * @see https://www.veed.io
+     */
+    VEED = "VEED",
+    /**
      * Veepee
-     * @see https://www.veepee.fr/
+     * @see https://www.veepee.fr
      */
     Veepee = "Veepee",
     /**
+     * Vega
+     * @see https://github.com/vega/logos/blob/af32bc29f0c09c8de826aaafb037935fb69e960a/assets/VG_Black.svg
+     */
+    Vega = "Vega",
+    /**
+     * VEGAS
+     * @see https://www.vegascreativesoftware.com
+     */
+    VEGAS = "VEGAS",
+    /**
+     * Velog
+     * @see https://github.com/velopert/velog-client/blob/8fbbb371f4b4525b6747e54d0c608900ea8bf03e/src/static/svg/velog-icon.svg
+     */
+    Velog = "Velog",
+    /**
      * Venmo
-     * @see https://venmo.com/about/brand/
+     * @see https://venmo.com/about/brand
      */
     Venmo = "Venmo",
     /**
      * Vercel
-     * @see https://vercel.com/design
+     * @see https://vercel.com/design/brands
      */
     Vercel = "Vercel",
     /**
      * Verdaccio
-     * @see https://verdaccio.org/docs/en/logo
+     * @see https://verdaccio.org/docs/logo
      */
     Verdaccio = "Verdaccio",
     /**
@@ -8911,20 +14666,50 @@ export enum SimpleIcons {
      */
     Verizon = "Verizon",
     /**
+     * Vespa
+     * @see https://www.piaggiogroup.com/en/archive/document/logo-guide
+     */
+    Vespa = "Vespa",
+    /**
+     * VEXXHOST
+     * @see https://vexxhost.com
+     */
+    VEXXHOST = "VEXXHOST",
+    /**
      * vFairs
-     * @see https://www.vfairs.com/
+     * @see https://www.vfairs.com
      */
     VFairs = "vFairs",
     /**
      * Viadeo
-     * @see https://viadeo.journaldunet.com/
+     * @see https://viadeo.journaldunet.com
      */
     Viadeo = "Viadeo",
     /**
+     * Viaplay
+     * @see https://commons.wikimedia.org/wiki/File:Viaplay_Group.svg
+     */
+    Viaplay = "Viaplay",
+    /**
      * Viber
-     * @see https://www.viber.com/brand-center/
+     * @see https://www.viber.com/brand-center
      */
     Viber = "Viber",
+    /**
+     * Viblo
+     * @see https://viblo.asia
+     */
+    Viblo = "Viblo",
+    /**
+     * VictoriaMetrics
+     * @see https://github.com/VictoriaMetrics/VictoriaMetrics/blob/24d61bf19374b42ef9839c13c7d35ce8888170e0/docs/assets/images/vm_logo.svg
+     */
+    VictoriaMetrics = "VictoriaMetrics",
+    /**
+     * Victron Energy
+     * @see https://www.victronenergy.com/information/press
+     */
+    VictronEnergy = "Victron-Energy",
     /**
      * Vim
      * @see https://commons.wikimedia.org/wiki/File:Vimlogo.svg
@@ -8932,7 +14717,7 @@ export enum SimpleIcons {
     Vim = "Vim",
     /**
      * Vimeo
-     * @see https://vimeo.com/about/brand_guidelines
+     * @see https://press.vimeo.com/brand-guidelines
      */
     Vimeo = "Vimeo",
     /**
@@ -8941,13 +14726,28 @@ export enum SimpleIcons {
      */
     VimeoLivestream = "Vimeo-Livestream",
     /**
+     * Virgin
+     * @see https://www.virgin.com/img/virgin-logo-square.svg
+     */
+    Virgin = "Virgin",
+    /**
+     * Virgin Atlantic
+     * @see https://www.virginatlantic.com
+     */
+    VirginAtlantic = "Virgin-Atlantic",
+    /**
+     * Virgin Media
+     * @see https://commons.wikimedia.org/wiki/File:Virgin_Media.svg
+     */
+    VirginMedia = "Virgin-Media",
+    /**
      * VirtualBox
      * @see https://commons.wikimedia.org/wiki/File:Virtualbox_logo.png
      */
     VirtualBox = "VirtualBox",
     /**
      * VirusTotal
-     * @see https://www.virustotal.com/
+     * @see https://www.virustotal.com
      */
     VirusTotal = "VirusTotal",
     /**
@@ -8956,23 +14756,38 @@ export enum SimpleIcons {
      */
     Visa = "Visa",
     /**
-     * Visual Studio
-     * @see https://visualstudio.microsoft.com/
+     * visx
+     * @see https://airbnb.io/visx
      */
-    VisualStudio = "Visual-Studio",
-    /**
-     * Visual Studio Code
-     * @see https://commons.wikimedia.org/wiki/File:Visual_Studio_Code_1.35_icon.svg
-     */
-    VisualStudioCode = "Visual-Studio-Code",
+    Visx = "visx",
     /**
      * Vite
-     * @see https://vitejs.dev/
+     * @see https://vitejs.dev
      */
     Vite = "Vite",
     /**
+     * VitePress
+     * @see https://github.com/vuejs/vitepress/blob/f7aef3ca23dae39e226c85d7bb2579dbf7c758f3/art/vitepress-logo-mini.svg
+     */
+    VitePress = "VitePress",
+    /**
+     * Vitess
+     * @see https://cncf-branding.netlify.app/projects/vitess/
+     */
+    Vitess = "Vitess",
+    /**
+     * Vitest
+     * @see https://vitest.dev
+     */
+    Vitest = "Vitest",
+    /**
+     * Viva Wallet
+     * @see https://www.vivawallet.com/gb_en/press-center-gb
+     */
+    VivaWallet = "Viva-Wallet",
+    /**
      * Vivaldi
-     * @see https://vivaldi.com/press/
+     * @see https://vivaldi.com/press
      */
     Vivaldi = "Vivaldi",
     /**
@@ -8981,28 +14796,48 @@ export enum SimpleIcons {
      */
     Vivino = "Vivino",
     /**
+     * Vivint
+     * @see https://brandfolder.com/portals/vivint
+     */
+    Vivint = "Vivint",
+    /**
+     * vivo
+     * @see https://www.vivo.com
+     */
+    Vivo = "vivo",
+    /**
      * VK
      * @see https://vk.com/brand
      */
     VK = "VK",
     /**
      * VLC media player
-     * @see http://git.videolan.org/?p=vlc.git;a=tree;f=extras/package/macosx/asset_sources
+     * @see https://code.videolan.org/videolan/vlc/-/blob/1ce7f686ee17a028d2d79627ae69f22d905f2e23/extras/package/macosx/asset_sources/vlc_app_icon.svg
      */
     VLCMediaPlayer = "VLC-media-player",
     /**
      * VMware
-     * @see https://myvmware.workspaceair.com/
+     * @see https://myvmware.workspaceair.com
      */
     VMware = "VMware",
     /**
      * Vodafone
-     * @see https://web.vodafone.com.eg/
+     * @see https://web.vodafone.com.eg
      */
     Vodafone = "Vodafone",
     /**
+     * Void Linux
+     * @see https://alpha.de.repo.voidlinux.org/logos/void-dark2.svg
+     */
+    VoidLinux = "Void-Linux",
+    /**
+     * VoIP.ms
+     * @see https://voip.ms
+     */
+    VoIPMs = "VoIP.ms",
+    /**
      * Volkswagen
-     * @see https://www.volkswagen.ie/
+     * @see https://www.vw.com
      */
     Volkswagen = "Volkswagen",
     /**
@@ -9016,6 +14851,16 @@ export enum SimpleIcons {
      */
     Vonage = "Vonage",
     /**
+     * Voron Design
+     * @see https://github.com/VoronDesign/Voron-Extras/blob/d8591f964b408b3da21b6f9b4ab0437e229065de/Images/Logo/SVG/Voron_Design_Hex.svg
+     */
+    VoronDesign = "Voron-Design",
+    /**
+     * Vowpal Wabbit
+     * @see https://github.com/VowpalWabbit/vowpal_wabbit/blob/1da1aa4bb4f2dfb5e1a6083c14b429b30eba372d/logo_assets/vowpal-wabbits-icon.svg
+     */
+    VowpalWabbit = "Vowpal-Wabbit",
+    /**
      * VOX
      * @see https://commons.wikimedia.org/wiki/File:VOX_Logo_2013.svg
      */
@@ -9026,35 +14871,65 @@ export enum SimpleIcons {
      */
     VSCO = "VSCO",
     /**
+     * VSCodium
+     * @see https://github.com/VSCodium/vscodium.github.io/blob/ed028c57f10e6432ec55dfc34d4db1a83fba941d/img/codium_cnl.svg
+     */
+    VSCodium = "VSCodium",
+    /**
+     * VTEX
+     * @see https://vtex.com
+     */
+    VTEX = "VTEX",
+    /**
      * Vue.js
-     * @see https://github.com/vuejs/art
+     * @see https://github.com/vuejs/art/blob/a1c78b74569b70a25300925b4eacfefcc143b8f6/logo.svg
      */
     VueJs = "Vue.js",
     /**
      * Vuetify
-     * @see https://vuetifyjs.com/
+     * @see https://vuetifyjs.com/resources/brand-kit
      */
     Vuetify = "Vuetify",
     /**
      * Vulkan
-     * @see https://www.khronos.org/legal/trademarks/
+     * @see https://www.khronos.org/legal/trademarks
      */
     Vulkan = "Vulkan",
     /**
      * Vultr
-     * @see https://www.vultr.com/company/brand-assets/
+     * @see https://www.vultr.com/company/brand-assets
      */
     Vultr = "Vultr",
     /**
-     * W3C
-     * @see https://www.w3.org/Consortium/Legal/logo-usage-20000308
+     * Vyond
+     * @see https://www.vyond.com
      */
-    W3C = "W3C",
+    Vyond = "Vyond",
+    /**
+     * W3Schools
+     * @see https://profile.w3schools.com
+     */
+    W3Schools = "W3Schools",
+    /**
+     * Wacom
+     * @see https://support.wacom.com/hc/en-us
+     */
+    Wacom = "Wacom",
+    /**
+     * Wagmi
+     * @see https://wagmi.sh
+     */
+    Wagmi = "Wagmi",
     /**
      * Wagtail
      * @see https://github.com/wagtail/wagtail/blob/e3e46e23b780aa2b1b521de081cb81872f77466d/wagtail/admin/static_src/wagtailadmin/images/wagtail-logo.svg
      */
     Wagtail = "Wagtail",
+    /**
+     * Wails
+     * @see https://wails.io
+     */
+    Wails = "Wails",
     /**
      * WakaTime
      * @see https://wakatime.com/legal/logos-and-trademark-usage
@@ -9062,29 +14937,84 @@ export enum SimpleIcons {
     WakaTime = "WakaTime",
     /**
      * WALKMAN
-     * @see https://en.wikipedia.org/wiki/File:Walkman_logo.svg
+     * @see https://commons.wikimedia.org/wiki/File:Walkman_logo_(2000).svg
      */
     WALKMAN = "WALKMAN",
     /**
+     * Wallabag
+     * @see https://github.com/wallabag/logo/blob/f670395da2d85c3bbcb8dcfa8d2a339d8af5abb0/_default/icon/svg/logo-icon-black-no-bg.svg
+     */
+    Wallabag = "Wallabag",
+    /**
+     * WalletConnect
+     * @see https://walletconnect.com/brand
+     */
+    WalletConnect = "WalletConnect",
+    /**
+     * Walmart
+     * @see https://corporate.walmart.com
+     */
+    Walmart = "Walmart",
+    /**
+     * Wantedly
+     * @see https://wantedlyinc.com/ja/brand_assets
+     */
+    Wantedly = "Wantedly",
+    /**
      * Wappalyzer
-     * @see https://www.wappalyzer.com/
+     * @see https://www.wappalyzer.com/logos
      */
     Wappalyzer = "Wappalyzer",
     /**
      * Warner Bros.
-     * @see https://www.warnerbros.com/
+     * @see https://www.warnerbros.com
      */
     Warnerbros = "warnerbros",
+    /**
+     * Warp
+     * @see https://warp.dev
+     */
+    Warp = "Warp",
+    /**
+     * Wasabi
+     * @see https://wasabi.com
+     */
+    Wasabi = "Wasabi",
+    /**
+     * wasmCloud
+     * @see https://github.com/wasmCloud/branding/blob/0827503c63f55471a0c709e97d609f56d716be40/03.Icon/Vector/SVG/Wasmcloud.Icon_Black.svg
+     */
+    WasmCloud = "wasmCloud",
+    /**
+     * Wasmer
+     * @see https://github.com/wasmerio/wasmer.io/blob/0d425f5b4ace56496e75278e304f54492c46adde/public/images/icon.svg
+     */
+    Wasmer = "Wasmer",
+    /**
+     * Watchtower
+     * @see https://containrrr.dev/watchtower
+     */
+    Watchtower = "Watchtower",
     /**
      * Wattpad
      * @see https://company.wattpad.com/brandguideline
      */
     Wattpad = "Wattpad",
     /**
+     * Wayland
+     * @see https://gitlab.freedesktop.org/wayland/weston/-/blob/77ede00a938b8137bd638ce67b6f58cb52b1d1b0/data/wayland.svg
+     */
+    Wayland = "Wayland",
+    /**
      * Waze
-     * @see https://www.waze.com/
+     * @see https://www.waze.com
      */
     Waze = "Waze",
+    /**
+     * WazirX
+     * @see https://wazirx.com
+     */
+    WazirX = "WazirX",
     /**
      * Wear OS
      * @see https://partnermarketinghub.withgoogle.com/#/brands/
@@ -9092,7 +15022,7 @@ export enum SimpleIcons {
     WearOS = "Wear-OS",
     /**
      * Weasyl
-     * @see https://www.weasyl.com/
+     * @see https://www.weasyl.com
      */
     Weasyl = "Weasyl",
     /**
@@ -9102,39 +15032,44 @@ export enum SimpleIcons {
     Web3Js = "Web3.js",
     /**
      * WebAssembly
-     * @see https://webassembly.org/
+     * @see https://webassembly.org
      */
     WebAssembly = "WebAssembly",
     /**
      * WebAuthn
-     * @see https://github.com/webauthn-open-source/webauthn-logos
+     * @see https://github.com/webauthn-open-source/webauthn-logos/blob/b21be672811eb4a5caadaba41044970cae299a55/final-webauthn-logo-logo-black.svg
      */
     WebAuthn = "WebAuthn",
     /**
      * webcomponents.org
-     * @see https://www.webcomponents.org/
+     * @see https://www.webcomponents.org
      */
     WebcomponentsOrg = "webcomponents.org",
     /**
      * WebdriverIO
-     * @see https://webdriver.io/docs/api/
+     * @see https://webdriver.io/docs/api
      */
     WebdriverIO = "WebdriverIO",
     /**
+     * Webex
+     * @see https://github.com/momentum-design/momentum-ui/blob/970c5bec962a3f72e17e0b7ed69f2c38d298c405/icons-rebrand/svg/webex-helix-filled.svg
+     */
+    Webex = "Webex",
+    /**
      * Webflow
-     * @see https://webflow.com/
+     * @see https://brand-at.webflow.io/resources#logos
      */
     Webflow = "Webflow",
     /**
      * WebGL
-     * @see https://www.khronos.org/legal/trademarks/
+     * @see https://www.khronos.org/legal/trademarks
      */
     WebGL = "WebGL",
     /**
-     * webhint
-     * @see https://github.com/webhintio/webhint.io/blob/5c9f10a33a6d68e1f0d2b1eff0829685b9123433/src/webhint-theme/source/images/webhint-logo.svg
+     * WebGPU
+     * @see https://www.w3.org/2023/02/webgpu-logos.html
      */
-    Webhint = "webhint",
+    WebGPU = "WebGPU",
     /**
      * Weblate
      * @see https://github.com/WeblateOrg/graphics/blob/669e4f910abd9ec36fda172d2ea6f2f424a32ace/logo/weblate-black.svg
@@ -9152,59 +15087,99 @@ export enum SimpleIcons {
     WebMoney = "WebMoney",
     /**
      * Webpack
-     * @see https://webpack.js.org/branding/
+     * @see https://webpack.js.org/branding
      */
     Webpack = "Webpack",
     /**
      * WebRTC
-     * @see https://webrtc.org/
+     * @see https://webrtc.org
      */
     WebRTC = "WebRTC",
     /**
      * WebStorm
-     * @see https://www.jetbrains.com/company/brand/logos/
+     * @see https://www.jetbrains.com/company/brand/logos
      */
     WebStorm = "WebStorm",
     /**
      * WEBTOON
-     * @see http://webtoons.com/
+     * @see https://webtoons.com
      */
     WEBTOON = "WEBTOON",
     /**
+     * webtrees
+     * @see https://webtrees.net
+     */
+    Webtrees = "webtrees",
+    /**
      * WeChat
-     * @see https://wechat.design/standard/download/brand
+     * @see https://wechat.design/tool/brand
      */
     WeChat = "WeChat",
     /**
+     * WeGame
+     * @see https://www.wegame.com.cn
+     */
+    WeGame = "WeGame",
+    /**
      * Weights & Biases
-     * @see https://wandb.ai/
+     * @see https://wandb.ai
      */
     Weights__Biases = "Weights-&-Biases",
+    /**
+     * Welcome to the Jungle
+     * @see https://www.welcometothejungle.com
+     */
+    WelcomeToTheJungle = "Welcome-to-the-Jungle",
+    /**
+     * Wellfound
+     * @see https://wellfound.com/logo
+     */
+    Wellfound = "Wellfound",
+    /**
+     * Wells Fargo
+     * @see https://www.wellsfargo.com/about
+     */
+    WellsFargo = "Wells-Fargo",
     /**
      * WEMO
      * @see https://commons.wikimedia.org/wiki/File:WeMoApp.svg
      */
     WEMO = "WEMO",
     /**
+     * Western Digital
+     * @see https://www.westerndigital.com
+     */
+    WesternDigital = "Western-Digital",
+    /**
+     * Western Union
+     * @see https://www.westernunion.com
+     */
+    WesternUnion = "Western-Union",
+    /**
      * WeTransfer
-     * @see https://wetransfer.com/
+     * @see https://wetransfer.com
      */
     WeTransfer = "WeTransfer",
     /**
+     * WezTerm
+     * @see https://github.com/wez/wezterm/blob/fe78b5821fc106c1061f4c1cc454ff01e74bf97d/assets/icon/wezterm-icon.svg
+     */
+    WezTerm = "WezTerm",
+    /**
+     * wgpu
+     * @see https://wgpu.rs
+     */
+    Wgpu = "wgpu",
+    /**
      * WhatsApp
-     * @see https://www.whatsappbrand.com
+     * @see https://about.meta.com/brand/resources/whatsapp/whatsapp-brand
      */
     WhatsApp = "WhatsApp",
     /**
      * When I Work
-     * @see https://wheniwork.com/
+     * @see https://wheniwork.com
      */
     WhenIWork = "When-I-Work",
-    /**
-     * WhiteSource
-     * @see https://www.whitesourcesoftware.com/whitesource-media-kit/
-     */
-    WhiteSource = "WhiteSource",
     /**
      * Wii
      * @see https://commons.wikimedia.org/wiki/File:Wii.svg
@@ -9216,6 +15191,16 @@ export enum SimpleIcons {
      */
     WiiU = "Wii-U",
     /**
+     * wiki.gg
+     * @see https://commons.wiki.gg/wiki/Category:Wiki.gg_logos
+     */
+    WikiGg = "wiki.gg",
+    /**
+     * Wiki.js
+     * @see https://cdn.js.wiki/images/wikijs-butterfly-mono.svg
+     */
+    WikiJs = "Wiki.js",
+    /**
      * Wikidata
      * @see https://commons.wikimedia.org/wiki/File:Wikidata-logo-en.svg
      */
@@ -9225,6 +15210,11 @@ export enum SimpleIcons {
      * @see https://commons.wikimedia.org/wiki/File:Commons-logo.svg
      */
     WikimediaCommons = "Wikimedia-Commons",
+    /**
+     * Wikimedia Foundation
+     * @see https://foundation.wikimedia.org/wiki/File:Wikimedia-logo_black.svg
+     */
+    WikimediaFoundation = "Wikimedia-Foundation",
     /**
      * Wikipedia
      * @see https://commons.wikimedia.org/wiki/File:Wikipedia-logo-v2.svg
@@ -9241,30 +15231,10 @@ export enum SimpleIcons {
      */
     Wikivoyage = "Wikivoyage",
     /**
-     * Windows
-     * @see https://commons.wikimedia.org/wiki/File:Windows_10_Logo.svg
+     * Winamp
+     * @see https://www.winamp.com
      */
-    Windows = "Windows",
-    /**
-     * Windows 95
-     * @see https://en.wikipedia.org/wiki/Windows_95
-     */
-    Windows95 = "Windows-95",
-    /**
-     * Windows Terminal
-     * @see https://github.com/microsoft/terminal/blob/a90289548f8548bf5c370a4b141b4b815c22616b/res/terminal/Terminal_HC.svg
-     */
-    WindowsTerminal = "Windows-Terminal",
-    /**
-     * Windows XP
-     * @see https://commons.wikimedia.org/wiki/File:Windows_logo_-_2002%E2%80%932012_(Multicolored).svg
-     */
-    WindowsXP = "Windows-XP",
-    /**
-     * Winmate
-     * @see https://www.winmate.com/NewsAndEvents/Publications
-     */
-    Winmate = "Winmate",
+    Winamp = "Winamp",
     /**
      * Wipro
      * @see https://www.wipro.com/content/dam/nexus/en/service-lines/applications/latest-thinking/state-of-cybersecurity-report-2019.pdf
@@ -9272,12 +15242,12 @@ export enum SimpleIcons {
     Wipro = "Wipro",
     /**
      * Wire
-     * @see http://brand.wire.com
+     * @see https://brand.wire.com
      */
     Wire = "Wire",
     /**
      * WireGuard
-     * @see https://www.wireguard.com/
+     * @see https://www.wireguard.com
      */
     WireGuard = "WireGuard",
     /**
@@ -9286,8 +15256,13 @@ export enum SimpleIcons {
      */
     Wireshark = "Wireshark",
     /**
+     * Wise
+     * @see https://wise.design/foundations/logo
+     */
+    Wise = "Wise",
+    /**
      * Wish
-     * @see https://wish.com/
+     * @see https://wish.com
      */
     Wish = "Wish",
     /**
@@ -9297,7 +15272,7 @@ export enum SimpleIcons {
     Wistia = "Wistia",
     /**
      * Wix
-     * @see http://www.wix.com/about/design-assets
+     * @see https://www.wix.com/about/design-assets
      */
     Wix = "Wix",
     /**
@@ -9307,27 +15282,37 @@ export enum SimpleIcons {
     WizzAir = "Wizz-Air",
     /**
      * Wolfram
-     * @see http://company.wolfram.com/press-center/wolfram-corporate/
+     * @see https://company.wolfram.com/press-center/wolfram-corporate
      */
     Wolfram = "Wolfram",
     /**
      * Wolfram Language
-     * @see http://company.wolfram.com/press-center/language/
+     * @see https://company.wolfram.com/press-center/language
      */
     WolframLanguage = "Wolfram-Language",
     /**
      * Wolfram Mathematica
-     * @see http://company.wolfram.com/press-center/mathematica/
+     * @see https://company.wolfram.com/press-center/mathematica
      */
     WolframMathematica = "Wolfram-Mathematica",
     /**
+     * Wondershare
+     * @see https://www.wondershare.com/news/media-assets.html
+     */
+    Wondershare = "Wondershare",
+    /**
+     * Wondershare Filmora
+     * @see https://filmora.wondershare.com
+     */
+    WondershareFilmora = "Wondershare-Filmora",
+    /**
      * Woo
-     * @see https://woocommerce.com/style-guide/
+     * @see https://woocommerce.com/style-guide
      */
     Woo = "Woo",
     /**
      * WooCommerce
-     * @see https://woocommerce.com/style-guide/
+     * @see https://woocommerce.com/style-guide
      */
     WooCommerce = "WooCommerce",
     /**
@@ -9337,29 +15322,34 @@ export enum SimpleIcons {
     WordPress = "WordPress",
     /**
      * Workplace
-     * @see https://en.facebookbrand.com/
+     * @see https://about.meta.com/brand/resources/workplace/workplace-brand
      */
     Workplace = "Workplace",
     /**
      * World Health Organization
-     * @see https://www.who.int/
+     * @see https://www.who.int
      */
     WorldHealthOrganization = "World-Health-Organization",
     /**
      * WP Engine
-     * @see https://wpengine.com/brand-assets/
+     * @see https://wpengine.com/brand-assets
      */
     WPEngine = "WP-Engine",
     /**
      * WP Rocket
-     * @see https://wp-rocket.me/
+     * @see https://wp-rocket.me
      */
     WPRocket = "WP-Rocket",
     /**
-     * write.as
+     * WPExplorer
+     * @see https://wpexplorer.com
+     */
+    WPExplorer = "WPExplorer",
+    /**
+     * Write.as
      * @see https://write.as/brand
      */
-    WriteAs = "write.as",
+    WriteAs = "Write.as",
     /**
      * WWE
      * @see https://commons.wikimedia.org/wiki/File:WWE_Network_logo.svg
@@ -9371,40 +15361,45 @@ export enum SimpleIcons {
      */
     Wwise = "Wwise",
     /**
+     * Wykop
+     * @see https://wykop.pl
+     */
+    Wykop = "Wykop",
+    /**
+     * Wyze
+     * @see https://www.wyze.com
+     */
+    Wyze = "Wyze",
+    /**
+     * X
+     * @see https://x.com
+     */
+    X = "X",
+    /**
      * X.Org
-     * @see https://upload.wikimedia.org/wikipedia/commons/9/90/X.Org_Logo.svg
+     * @see https://commons.wikimedia.org/wiki/File:X.Org_Logo.svg
      */
     XOrg = "X.Org",
-    /**
-     * Xamarin
-     * @see https://github.com/dotnet/swag/tree/master/xamarin
-     */
-    Xamarin = "Xamarin",
-    /**
-     * XAML
-     * @see https://github.com/microsoft/microsoft-ui-xaml/issues/1185#issuecomment-529731046
-     */
-    XAML = "XAML",
     /**
      * XAMPP
      * @see https://www.apachefriends.org/en/
      */
     XAMPP = "XAMPP",
     /**
-     * Xbox
-     * @see https://www.xbox.com/en-US/consoles
-     */
-    Xbox = "Xbox",
-    /**
      * Xcode
-     * @see https://developer.apple.com/develop/
+     * @see https://developer.apple.com/develop
      */
     Xcode = "Xcode",
     /**
      * XDA Developers
-     * @see https://www.xda-developers.com/
+     * @see https://www.xda-developers.com
      */
     XDADevelopers = "XDA-Developers",
+    /**
+     * Xendit
+     * @see https://www.xendit.co/en/company/asset-and-branding
+     */
+    Xendit = "Xendit",
     /**
      * Xero
      * @see https://www.xero.com/uk/about/media/downloads
@@ -9416,15 +15411,15 @@ export enum SimpleIcons {
      */
     XFCE = "XFCE",
     /**
+     * Xiaohongshu
+     * @see https://pro.xiaohongshu.com
+     */
+    Xiaohongshu = "Xiaohongshu",
+    /**
      * Xiaomi
      * @see https://www.mi.com/global
      */
     Xiaomi = "Xiaomi",
-    /**
-     * Xilinx
-     * @see https://www.xilinx.com
-     */
-    Xilinx = "Xilinx",
     /**
      * Xing
      * @see https://dev.xing.com/logo_rules
@@ -9432,12 +15427,17 @@ export enum SimpleIcons {
     Xing = "Xing",
     /**
      * XMPP
-     * @see https://github.com/xsf/xmpp.org/tree/00c49187e353c1a156c95562dafaf129e688fbad/content/icons
+     * @see https://github.com/xsf/xmpp.org/blob/82856a2cec0a99b197c6985191635544e6b3ed69/static/images/logos/xmpp-logo.svg
      */
     XMPP = "XMPP",
     /**
+     * XO
+     * @see https://github.com/xojs/xo/tree/f9c7db99255d009b3c81535ced021c3f6ade57b4
+     */
+    XO = "XO",
+    /**
      * XRP
-     * @see https://xrpl.org/
+     * @see https://xrpl.org
      */
     XRP = "XRP",
     /**
@@ -9452,14 +15452,14 @@ export enum SimpleIcons {
     XState = "XState",
     /**
      * Y Combinator
-     * @see https://www.ycombinator.com/press/
+     * @see https://www.ycombinator.com/press
      */
     YCombinator = "Y-Combinator",
     /**
-     * Yahoo!
-     * @see https://yahoo.com/
+     * yabai
+     * @see https://github.com/koekeishiya/yabai/blob/86c759186d7c588dfd8c6a84aac1ebc4730e988e/assets/icon/icon.svg
      */
-    Yahoo_ = "Yahoo!",
+    Yabai = "yabai",
     /**
      * Yale
      * @see https://yalehome.com
@@ -9472,97 +15472,172 @@ export enum SimpleIcons {
     YamahaCorporation = "Yamaha-Corporation",
     /**
      * Yamaha Motor Corporation
-     * @see https://en.wikipedia.org/wiki/Yamaha_Motor_Company
+     * @see https://commons.wikimedia.org/wiki/File:Yamaha_Motor_Logo_(full).svg
      */
     YamahaMotorCorporation = "Yamaha-Motor-Corporation",
     /**
-     * Yammer
-     * @see https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products
+     * YAML
+     * @see https://commons.wikimedia.org/wiki/File:Official_YAML_Logo.svg
      */
-    Yammer = "Yammer",
+    YAML = "YAML",
+    /**
+     * Yandex Cloud
+     * @see https://cloud.yandex.com/en/brandbook
+     */
+    YandexCloud = "Yandex-Cloud",
     /**
      * Yarn
-     * @see https://github.com/yarnpkg/assets
+     * @see https://github.com/yarnpkg/assets/blob/76d30ca2aebed5b73ea8131d972218fb860bd32d/yarn-kitten-circle.svg
      */
     Yarn = "Yarn",
     /**
      * Yelp
-     * @see https://www.yelp.com/styleguide/icons
+     * @see https://www.yelp.com/brand
      */
     Yelp = "Yelp",
     /**
+     * Yeti
+     * @see https://www.yeti.com
+     */
+    Yeti = "Yeti",
+    /**
      * Yoast
-     * @see https://yoast.com/media/logo/
+     * @see https://yoast.com/brand
      */
     Yoast = "Yoast",
     /**
-     * YourTravel.TV
-     * @see https://yourtravel.tv
-     */
-    YourTravelTV = "YourTravel.TV",
-    /**
      * YouTube
-     * @see https://www.youtube.com/yt/about/brand-resources/#logos-icons-colors
+     * @see https://www.youtube.com/howyoutubeworks/resources/brand-resources/#logos-icons-and-colors
      */
     YouTube = "YouTube",
     /**
      * YouTube Gaming
-     * @see https://gaming.youtube.com/
+     * @see https://gaming.youtube.com
      */
     YouTubeGaming = "YouTube-Gaming",
     /**
+     * YouTube Kids
+     * @see https://www.youtube.com/intl/ALL_us/kids
+     */
+    YouTubeKids = "YouTube-Kids",
+    /**
      * YouTube Music
-     * @see https://partnermarketinghub.withgoogle.com/#/brands/
+     * @see https://partnermarketinghub.withgoogle.com/#/brands
      */
     YouTubeMusic = "YouTube-Music",
     /**
+     * YouTube Shorts
+     * @see https://www.youtube.com/shorts
+     */
+    YouTubeShorts = "YouTube-Shorts",
+    /**
      * YouTube Studio
-     * @see https://www.youtube.com/
+     * @see https://www.youtube.com
      */
     YouTubeStudio = "YouTube-Studio",
     /**
      * YouTube TV
-     * @see https://partnermarketinghub.withgoogle.com/#/brands/
+     * @see https://partnermarketinghub.withgoogle.com/#/brands
      */
     YouTubeTV = "YouTube-TV",
     /**
-     * Z-Wave
-     * @see https://www.z-wave.com/
+     * Yr
+     * @see https://www.yr.no
      */
-    ZWave = "Z-Wave",
+    Yr = "Yr",
+    /**
+     * Yubico
+     * @see https://www.yubico.com/wp-content/themes/coronado/img/icon.svg
+     */
+    Yubico = "Yubico",
+    /**
+     * YunoHost
+     * @see https://github.com/YunoHost/doc/blob/0157b052481407b3c06cc2892de225f14c42520b/images/ynh_logo_black.svg
+     */
+    YunoHost = "YunoHost",
+    /**
+     * Żabka
+     * @see https://www.zabka.pl
+     */
+    _abka = "Żabka",
+    /**
+     * Zaim
+     * @see https://zaim.net
+     */
+    Zaim = "Zaim",
     /**
      * Zalando
-     * @see https://www.zalando.co.uk/
+     * @see https://www.zalando.co.uk
      */
     Zalando = "Zalando",
     /**
+     * Zalo
+     * @see https://zalo.me
+     */
+    Zalo = "Zalo",
+    /**
+     * ZAP
+     * @see https://www.zaproxy.org
+     */
+    ZAP = "ZAP",
+    /**
      * Zapier
-     * @see https://zapier.com/about/brand
+     * @see https://www.figma.com/file/NQFxTCE5pGR3dHZt0DkOyy/Zapier-Brand-Guidelines-%5BExternal%5D?type=design&node-id=101-9701&mode=design
      */
     Zapier = "Zapier",
     /**
+     * Zara
+     * @see https://www.zara.com
+     */
+    Zara = "Zara",
+    /**
+     * Zazzle
+     * @see https://www.zazzle.com/logo
+     */
+    Zazzle = "Zazzle",
+    /**
+     * Zcash
+     * @see https://z.cash
+     */
+    Zcash = "Zcash",
+    /**
+     * ZCOOL
+     * @see https://www.zcool.com.cn/appdown
+     */
+    ZCOOL = "ZCOOL",
+    /**
      * ZDF
-     * @see https://www.zdf.de/
+     * @see https://www.zdf.de
      */
     ZDF = "ZDF",
     /**
+     * ZebPay
+     * @see https://www.zebpay.com
+     */
+    ZebPay = "ZebPay",
+    /**
+     * Zebra Technologies
+     * @see https://www.zebra.com
+     */
+    ZebraTechnologies = "Zebra-Technologies",
+    /**
+     * Zed Industries
+     * @see https://github.com/zed-industries/zed/blob/ccc939124fa2f366b3029926447fd0a0c46a85c7/assets/icons/logo_96.svg
+     */
+    ZedIndustries = "Zed-Industries",
+    /**
      * Zelle
-     * @see https://www.zellepay.com/
+     * @see https://www.zellepay.com
      */
     Zelle = "Zelle",
     /**
      * Zend
-     * @see https://www.zend.com/
+     * @see https://www.zend.com
      */
     Zend = "Zend",
     /**
-     * Zend Framework
-     * @see https://framework.zend.com/
-     */
-    ZendFramework = "Zend-Framework",
-    /**
      * Zendesk
-     * @see https://brandland.zendesk.com/
+     * @see https://brandland.zendesk.com
      */
     Zendesk = "Zendesk",
     /**
@@ -9571,43 +15646,83 @@ export enum SimpleIcons {
      */
     Zenn = "Zenn",
     /**
+     * Zenodo
+     * @see https://about.zenodo.org
+     */
+    Zenodo = "Zenodo",
+    /**
+     * Zensar
+     * @see https://www.zensar.com/about/our-story/our-brand/#logo
+     */
+    Zensar = "Zensar",
+    /**
      * Zerodha
      * @see https://zerodha.com
      */
     Zerodha = "Zerodha",
-    /**
-     * ZeroMQ
-     * @see https://github.com/zeromq/zeromq.org/blob/master/static/safari-pinned-tab.svg
-     */
-    ZeroMQ = "ZeroMQ",
     /**
      * Zerply
      * @see https://zerply.com/about/resources
      */
     Zerply = "Zerply",
     /**
+     * Zettlr
+     * @see https://www.zettlr.com
+     */
+    Zettlr = "Zettlr",
+    /**
      * Zhihu
-     * @see https://www.zhihu.com/
+     * @see https://www.zhihu.com
      */
     Zhihu = "Zhihu",
     /**
+     * Zig
+     * @see https://github.com/ziglang/logo/blob/6446ba8e37a0651da720d8869e1ce9264fa0c0b9/zig-mark.svg
+     */
+    Zig = "Zig",
+    /**
      * Zigbee
-     * @see https://zigbeealliance.org/solution/zigbee/
+     * @see https://csa-iot.org/all-solutions/zigbee
      */
     Zigbee = "Zigbee",
     /**
+     * Zigbee2MQTT
+     * @see https://github.com/Koenkk/zigbee2mqtt/blob/434981b567122c745c6a5228cd89b74694b15e4c/images/logo_vector.svg
+     */
+    Zigbee2MQTT = "Zigbee2MQTT",
+    /**
+     * Ziggo
+     * @see https://www.ziggosport.nl
+     */
+    Ziggo = "Ziggo",
+    /**
+     * Zilch
+     * @see https://www.zilch.com
+     */
+    Zilch = "Zilch",
+    /**
      * Zillow
-     * @see https://www.zillow.com/
+     * @see https://www.zillow.com
      */
     Zillow = "Zillow",
     /**
+     * ZincSearch
+     * @see https://github.com/zincsearch/zincsearch-docs/blob/f5b8bec0c05c10968f54aca3eabde9d4d77a1712/docs/images/logo.svg
+     */
+    ZincSearch = "ZincSearch",
+    /**
      * Zingat
-     * @see https://www.zingat.com/kurumsal-logolar
+     * @see https://www.zingat.com
      */
     Zingat = "Zingat",
     /**
+     * Zod
+     * @see https://zod.dev
+     */
+    Zod = "Zod",
+    /**
      * Zoho
-     * @see https://www.zoho.com/branding/
+     * @see https://www.zoho.com/branding
      */
     Zoho = "Zoho",
     /**
@@ -9622,12 +15737,12 @@ export enum SimpleIcons {
     Zomato = "Zomato",
     /**
      * Zoom
-     * @see https://zoom.us/brandguidelines
+     * @see https://brand.zoom.us/media-library.html
      */
     Zoom = "Zoom",
     /**
      * Zorin
-     * @see https://zorinos.com/press/
+     * @see https://zorin.com/press
      */
     Zorin = "Zorin",
     /**
@@ -9636,10 +15751,20 @@ export enum SimpleIcons {
      */
     Zotero = "Zotero",
     /**
+     * Zsh
+     * @see https://github.com/Zsh-art/logo/blob/253927e62bd2a640d29915ad7a794880b787eda8/svg/black_vertical_icon.svg
+     */
+    Zsh = "Zsh",
+    /**
      * Zulip
      * @see https://github.com/zulip/zulip/blob/df9e40491dc77b658d943cff36a816d46e32ce1b/static/images/logo/zulip-org-logo.svg
      */
-    Zulip = "Zulip"
+    Zulip = "Zulip",
+    /**
+     * Zyte
+     * @see https://www.zyte.com
+     */
+    Zyte = "Zyte"
 }
 
 export interface SimpleIcon {
@@ -9651,155 +15776,230 @@ export interface SimpleIcon {
 
 /** Information about the simple icons. */
 export const icons: {[k: string]:SimpleIcon} = {
-        [SimpleIcons.NET]: {
-            hex:"512BD4",title:".NET",source:"https://github.com/dotnet/brand/",
+        [SimpleIcons.ENV]: {
+            hex:"ECD53F",title:".ENV",source:"https://github.com/motdotla/dotenv/blob/40e75440337d1de2345dc8326d6108331f583fd8/dotenv.svg",
+        }
+        ,[SimpleIcons.NET]: {
+            hex:"512BD4",title:".NET",source:"https://github.com/dotnet/brand/blob/defe0408e765b48223a434a0d9a94213edc062f8/logo/dotnet-logo.svg",
+        }
+        ,[SimpleIcons._e_]: {
+            hex:"000000",title:"/e/",source:"https://doc.e.foundation",
+        }
+        ,[SimpleIcons._1111]: {
+            hex:"221E68",title:"1.1.1.1",source:"https://one.one.one.one",
         }
         ,[SimpleIcons._1001Tracklists]: {
-            hex:"40AEF0",title:"1001Tracklists",source:"https://www.1001tracklists.com/",
+            hex:"40AEF0",title:"1001Tracklists",source:"https://www.1001tracklists.com",
+        }
+        ,[SimpleIcons._1Panel]: {
+            hex:"0854C1",title:"1Panel",source:"https://1panel.cn",
         }
         ,[SimpleIcons._1Password]: {
-            hex:"0094F5",title:"1Password",source:"https://1password.com/press/",
+            hex:"3B66BC",title:"1Password",source:"https://1password.com/press",
+        }
+        ,[SimpleIcons._2FAS]: {
+            hex:"EC1C24",title:"2FAS",source:"https://2fas.com/press-kit",
+        }
+        ,[SimpleIcons._2K]: {
+            hex:"DD0700",title:"2K",source:"https://support.2k.com/hc/en-us/articles/203972113-Digital-Copies-of-2K-Manuals",
+        }
+        ,[SimpleIcons._365DataScience]: {
+            hex:"000C1F",title:"365 Data Science",source:"https://365datascience.com",
         }
         ,[SimpleIcons._3M]: {
-            hex:"FF0000",title:"3M",source:"https://www.3m.com/",
+            hex:"FF0000",title:"3M",source:"https://www.3m.com",
         }
         ,[SimpleIcons._42]: {
-            hex:"000000",title:"42",source:"https://www.42.fr/",
+            hex:"000000",title:"42",source:"https://www.42network.org",
+        }
+        ,[SimpleIcons._4chan]: {
+            hex:"006600",title:"4chan",source:"https://www.4chan.org",
         }
         ,[SimpleIcons._4D]: {
-            hex:"004088",title:"4D",source:"https://www.4d.com/",
+            hex:"004088",title:"4D",source:"https://www.4d.com",
         }
         ,[SimpleIcons._500px]: {
-            hex:"0099E5",title:"500px",source:"https://about.500px.com/press",
+            hex:"222222",title:"500px",source:"https://500px.com",
+        }
+        ,[SimpleIcons._7Zip]: {
+            hex:"000000",title:"7Zip",source:"https://commons.wikimedia.org/wiki/File:7ziplogo.svg",
+        }
+        ,[SimpleIcons._99designs]: {
+            hex:"FE5F50",title:"99designs",source:"https://99designs.com/branding",
+        }
+        ,[SimpleIcons._9GAG]: {
+            hex:"000000",title:"9GAG",source:"https://commons.wikimedia.org/wiki/File:9gag_logo.svg",
         }
         ,[SimpleIcons.AFrame]: {
-            hex:"EF2D5E",title:"A-Frame",source:"https://aframe.io/docs/",
+            hex:"EF2D5E",title:"A-Frame",source:"https://aframe.io/docs",
         }
         ,[SimpleIcons.ABBRobotStudio]: {
             hex:"FF9E0F",title:"ABB RobotStudio",source:"https://new.abb.com/products/robotics/en/robotstudio/downloads",
         }
-        ,[SimpleIcons.Abbvie]: {
-            hex:"071D49",title:"Abbvie",source:"https://www.abbvie.com/",
+        ,[SimpleIcons.Abbott]: {
+            hex:"008FC7",title:"Abbott",source:"https://commons.wikimedia.org/wiki/File:Logo_Abbott_Laboratories.svg",
         }
-        ,[SimpleIcons.AbletonLive]: {
-            hex:"000000",title:"Ableton Live",source:"https://www.ableton.com/en/legal/branding-trademark-guidelines/",
+        ,[SimpleIcons.Abbvie]: {
+            hex:"071D49",title:"Abbvie",source:"https://www.abbvie.com",
         }
         ,[SimpleIcons.AboutMe]: {
-            hex:"00A98F",title:"About.me",source:"https://about.me/assets",
+            hex:"333333",title:"About.me",source:"https://about.me/assets",
         }
         ,[SimpleIcons.Abstract]: {
-            hex:"191A1B",title:"Abstract",source:"https://www.abstract.com/about/",
+            hex:"191A1B",title:"Abstract",source:"https://www.abstract.com/about",
+        }
+        ,[SimpleIcons.AbuseCh]: {
+            hex:"00465B",title:"abuse.ch",source:"https://abuse.ch",
         }
         ,[SimpleIcons.Academia]: {
-            hex:"41454A",title:"Academia",source:"https://www.academia.edu/",
+            hex:"41454A",title:"Academia",source:"https://www.academia.edu",
         }
         ,[SimpleIcons.Accenture]: {
-            hex:"A100FF",title:"Accenture",source:"https://www.accenture.com/",
-        }
-        ,[SimpleIcons.Acclaim]: {
-            hex:"26689A",title:"Acclaim",source:"https://www.youracclaim.com/",
+            hex:"A100FF",title:"Accenture",source:"https://www.accenture.com",
         }
         ,[SimpleIcons.Accusoft]: {
-            hex:"A9225C",title:"Accusoft",source:"https://company-39138.frontify.com/d/7EKFm12NQSa8/accusoft-corporation-style-guide#/style-guide/logo",
+            hex:"A9225C",title:"Accusoft",source:"https://www.accusoft.com",
         }
         ,[SimpleIcons.Acer]: {
-            hex:"83B81A",title:"Acer",source:"https://www.acer.com/ac/en/GB/content/home",
+            hex:"83B81A",title:"Acer",source:"https://www.acer.com",
         }
         ,[SimpleIcons.ACM]: {
-            hex:"0085CA",title:"ACM",source:"http://identitystandards.acm.org/",
+            hex:"0085CA",title:"ACM",source:"https://identitystandards.acm.org",
         }
         ,[SimpleIcons.ActiGraph]: {
-            hex:"0B2C4A",title:"ActiGraph",source:"http://www.actigraphcorp.com/",
+            hex:"0B2C4A",title:"ActiGraph",source:"https://www.actigraphcorp.com",
         }
         ,[SimpleIcons.Activision]: {
-            hex:"000000",title:"Activision",source:"https://www.activision.com/",
+            hex:"000000",title:"Activision",source:"https://www.activision.com",
+        }
+        ,[SimpleIcons.ActivityPub]: {
+            hex:"F1007E",title:"ActivityPub",source:"https://activitypub.rocks",
+        }
+        ,[SimpleIcons.Actix]: {
+            hex:"000000",title:"Actix",source:"https://github.com/actix/actix-website/issues/18#issuecomment-393581556",
+        }
+        ,[SimpleIcons.Acura]: {
+            hex:"000000",title:"Acura",source:"https://www.acura.com",
         }
         ,[SimpleIcons.Adafruit]: {
-            hex:"000000",title:"Adafruit",source:"https://www.adafruit.com/",
+            hex:"000000",title:"Adafruit",source:"https://www.adafruit.com",
         }
         ,[SimpleIcons.AdBlock]: {
-            hex:"F40D12",title:"AdBlock",source:"https://getadblock.com/",
+            hex:"F40D12",title:"AdBlock",source:"https://getadblock.com",
         }
         ,[SimpleIcons.AdblockPlus]: {
-            hex:"C70D2C",title:"Adblock Plus",source:"https://adblockplus.org/",
-        }
-        ,[SimpleIcons.AddThis]: {
-            hex:"FF6550",title:"AddThis",source:"http://www.addthis.com/",
+            hex:"C70D2C",title:"Adblock Plus",source:"https://adblockplus.org",
         }
         ,[SimpleIcons.AdGuard]: {
             hex:"68BC71",title:"AdGuard",source:"https://adguard.com/en/media-materials.html",
         }
+        ,[SimpleIcons.Adidas]: {
+            hex:"000000",title:"Adidas",source:"https://www.adidas.com",
+        }
+        ,[SimpleIcons.Adminer]: {
+            hex:"34567C",title:"Adminer",source:"https://www.adminer.org",
+        }
         ,[SimpleIcons.Adobe]: {
-            hex:"FF0000",title:"Adobe",source:"https://www.adobe.com/",
+            hex:"FF0000",title:"Adobe",source:"https://www.adobe.com",
         }
         ,[SimpleIcons.AdobeAcrobatReader]: {
-            hex:"EC1C24",title:"Adobe Acrobat Reader",source:"https://acrobat.adobe.com/",
+            hex:"EC1C24",title:"Adobe Acrobat Reader",source:"https://acrobat.adobe.com",
         }
         ,[SimpleIcons.AdobeAfterEffects]: {
-            hex:"9999FF",title:"Adobe After Effects",source:"https://www.adobe.com/products/aftereffects.html",
+            hex:"9999FF",title:"Adobe After Effects",source:"https://www.adobe.com/creativecloud.html",
         }
         ,[SimpleIcons.AdobeAudition]: {
-            hex:"9999FF",title:"Adobe Audition",source:"https://www.adobe.com/creativecloud/video.html",
+            hex:"9999FF",title:"Adobe Audition",source:"https://www.adobe.com/creativecloud.html",
         }
         ,[SimpleIcons.AdobeCreativeCloud]: {
-            hex:"DA1F26",title:"Adobe Creative Cloud",source:"https://www.adobe.com/creativecloud/plans.html",
+            hex:"DA1F26",title:"Adobe Creative Cloud",source:"https://www.adobe.com/creativecloud.html",
         }
         ,[SimpleIcons.AdobeDreamweaver]: {
-            hex:"FF61F6",title:"Adobe Dreamweaver",source:"https://www.adobe.com/products/dreamweaver.html",
+            hex:"FF61F6",title:"Adobe Dreamweaver",source:"https://www.adobe.com/products/catalog.html",
         }
         ,[SimpleIcons.AdobeFonts]: {
-            hex:"000B1D",title:"Adobe Fonts",source:"https://www.adobe.com/creativecloud/services.html",
+            hex:"000B1D",title:"Adobe Fonts",source:"https://www.adobe.com/creativecloud.html",
         }
         ,[SimpleIcons.AdobeIllustrator]: {
-            hex:"FF9A00",title:"Adobe Illustrator",source:"https://www.adobe.com/products/illustrator.html",
+            hex:"FF9A00",title:"Adobe Illustrator",source:"https://www.adobe.com/creativecloud.html",
         }
         ,[SimpleIcons.AdobeInDesign]: {
-            hex:"FF3366",title:"Adobe InDesign",source:"https://www.adobe.com/products/indesign.html",
+            hex:"FF3366",title:"Adobe InDesign",source:"https://www.adobe.com/creativecloud.html",
         }
         ,[SimpleIcons.AdobeLightroom]: {
-            hex:"31A8FF",title:"Adobe Lightroom",source:"https://www.adobe.com/products/photoshop-lightroom.html",
+            hex:"31A8FF",title:"Adobe Lightroom",source:"https://www.adobe.com/creativecloud.html",
         }
         ,[SimpleIcons.AdobeLightroomClassic]: {
-            hex:"31A8FF",title:"Adobe Lightroom Classic",source:"https://www.adobe.com/products/photoshop-lightroom-classic.html",
+            hex:"31A8FF",title:"Adobe Lightroom Classic",source:"https://www.adobe.com/creativecloud.html",
         }
         ,[SimpleIcons.AdobePhotoshop]: {
-            hex:"31A8FF",title:"Adobe Photoshop",source:"https://www.adobe.com/products/photoshop.html",
+            hex:"31A8FF",title:"Adobe Photoshop",source:"https://www.adobe.com/creativecloud.html",
         }
         ,[SimpleIcons.AdobePremierePro]: {
-            hex:"9999FF",title:"Adobe Premiere Pro",source:"https://www.adobe.com/ie/products/premiere.html",
+            hex:"9999FF",title:"Adobe Premiere Pro",source:"https://www.adobe.com/creativecloud.html",
         }
         ,[SimpleIcons.AdobeXD]: {
-            hex:"FF61F6",title:"Adobe XD",source:"https://www.adobe.com/products/xd.html",
+            hex:"FF61F6",title:"Adobe XD",source:"https://helpx.adobe.com/support/xd.html",
         }
         ,[SimpleIcons.AdonisJS]: {
-            hex:"220052",title:"AdonisJS",source:"https://adonisjs.com/",
+            hex:"5A45FF",title:"AdonisJS",source:"https://adonisjs.com",
+        }
+        ,[SimpleIcons.ADP]: {
+            hex:"D0271D",title:"ADP",source:"https://www.adp.com",
+        }
+        ,[SimpleIcons.Adroll]: {
+            hex:"0DBDFF",title:"Adroll",source:"https://www.adroll.com",
+        }
+        ,[SimpleIcons.AdventOfCode]: {
+            hex:"FFFF66",title:"Advent Of Code",source:"https://adventofcode.com",
+        }
+        ,[SimpleIcons.Adyen]: {
+            hex:"0ABF53",title:"Adyen",source:"https://www.adyen.com/press-and-media/presskit",
+        }
+        ,[SimpleIcons.AegisAuthenticator]: {
+            hex:"005E9D",title:"Aegis Authenticator",source:"https://getaegis.app/aegis.svg",
         }
         ,[SimpleIcons.AerLingus]: {
-            hex:"006272",title:"Aer Lingus",source:"https://www.aerlingus.com/",
+            hex:"006272",title:"Aer Lingus",source:"https://www.aerlingus.com",
         }
         ,[SimpleIcons.Aeroflot]: {
             hex:"02458D",title:"Aeroflot",source:"https://www.aeroflot.ru/ru-en/information/onboard/press",
         }
         ,[SimpleIcons.Aerom_xico]: {
-            hex:"0B2343",title:"Aeroméxico",source:"https://www.aeromexico.com/",
+            hex:"0B2343",title:"Aeroméxico",source:"https://www.aeromexico.com",
         }
         ,[SimpleIcons.Aerospike]: {
-            hex:"C41E25",title:"Aerospike",source:"http://pages.aerospike.com/rs/aerospike/images/Acid_Whitepaper.pdf",
+            hex:"C22127",title:"Aerospike",source:"https://pages.aerospike.com/rs/aerospike/images/Acid_Whitepaper.pdf",
+        }
+        ,[SimpleIcons.AEW]: {
+            hex:"000000",title:"AEW",source:"https://commons.wikimedia.org/wiki/File:AEW_Logo_(simplified).svg",
+        }
+        ,[SimpleIcons.AFFiNE]: {
+            hex:"1E96EB",title:"AFFiNE",source:"https://affine.pro",
         }
         ,[SimpleIcons.Affinity]: {
-            hex:"222324",title:"Affinity",source:"https://affinity.serif.com/",
+            hex:"222324",title:"Affinity",source:"https://affinity.serif.com",
         }
         ,[SimpleIcons.AffinityDesigner]: {
-            hex:"1B72BE",title:"Affinity Designer",source:"https://affinity.serif.com/en-gb/designer/",
+            hex:"134881",title:"Affinity Designer",source:"https://affinity.serif.com/designer",
         }
         ,[SimpleIcons.AffinityPhoto]: {
-            hex:"7E4DD2",title:"Affinity Photo",source:"https://affinity.serif.com/en-gb/photo/",
+            hex:"4E3188",title:"Affinity Photo",source:"https://affinity.serif.com/photo",
         }
         ,[SimpleIcons.AffinityPublisher]: {
-            hex:"C9284D",title:"Affinity Publisher",source:"https://affinity.serif.com/en-gb/publisher/",
+            hex:"891B26",title:"Affinity Publisher",source:"https://affinity.serif.com/publisher",
+        }
+        ,[SimpleIcons.Afterpay]: {
+            hex:"B2FCE4",title:"Afterpay",source:"https://www.afterpay.com/en-AU/business/resources/marketing/logos",
+        }
+        ,[SimpleIcons.Agora]: {
+            hex:"099DFD",title:"Agora",source:"https://github.com/AgoraIO/Docs-Source/blob/849872dd0496bada0a2dceecb3f79663e3b2d323/assets/images/others/agora-logo.svg",
         }
         ,[SimpleIcons.AIDungeon]: {
             hex:"000000",title:"AI Dungeon",source:"https://commons.wikimedia.org/wiki/File:AI_Dungeon_Logo.png",
+        }
+        ,[SimpleIcons.AIB]: {
+            hex:"7F2B7B",title:"AIB",source:"https://aib.ie",
         }
         ,[SimpleIcons.AIOHTTP]: {
             hex:"2C5BB4",title:"AIOHTTP",source:"https://github.com/aio-libs/aiohttp/blob/fb5fe72b1bca3b899af579d376f5fe45745410e4/docs/aiohttp-plain.svg",
@@ -9808,13 +16008,19 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"7A1FA2",title:"Aiqfome",source:"https://aiqfome.com",
         }
         ,[SimpleIcons.AirCanada]: {
-            hex:"F01428",title:"Air Canada",source:"https://www.aircanada.com/",
+            hex:"F01428",title:"Air Canada",source:"https://www.aircanada.com",
         }
         ,[SimpleIcons.AirChina]: {
-            hex:"E30E17",title:"Air China",source:"http://www.airchina.com.cn/en/investor_relations/",
+            hex:"E30E17",title:"Air China",source:"https://www.airchina.com.cn/en/investor_relations",
         }
         ,[SimpleIcons.AirFrance]: {
-            hex:"002157",title:"Air France",source:"https://www.airfrance.fr/",
+            hex:"002157",title:"Air France",source:"https://www.airfrance.fr",
+        }
+        ,[SimpleIcons.AirIndia]: {
+            hex:"DA0E29",title:"Air India",source:"https://www.airindia.com",
+        }
+        ,[SimpleIcons.AirTransat]: {
+            hex:"172B54",title:"Air Transat",source:"https://www.airtransat.com",
         }
         ,[SimpleIcons.AirAsia]: {
             hex:"FF0000",title:"AirAsia",source:"https://www.airasia.com/shop",
@@ -9822,14 +16028,20 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Airbnb]: {
             hex:"FF5A5F",title:"Airbnb",source:"https://www.airbnb.com",
         }
+        ,[SimpleIcons.Airbrake]: {
+            hex:"FFA500",title:"Airbrake",source:"https://github.com/airbrake/slate/blob/c116f2968bcf4dfda126511de0a2d0f0dc8b6a8e/source/images/logo.svg",
+        }
         ,[SimpleIcons.Airbus]: {
-            hex:"00205B",title:"Airbus",source:"https://brand.airbus.com/brand-elements/logo.html",
+            hex:"00205B",title:"Airbus",source:"https://brand.airbus.com/en/asset-library/airbus-logo",
+        }
+        ,[SimpleIcons.Airbyte]: {
+            hex:"615EFF",title:"Airbyte",source:"https://airbyte.com",
         }
         ,[SimpleIcons.Aircall]: {
-            hex:"00B388",title:"Aircall",source:"https://aircall.io/",
+            hex:"00B388",title:"Aircall",source:"https://aircall.io",
         }
         ,[SimpleIcons.AirPlayAudio]: {
-            hex:"000000",title:"AirPlay Audio",source:"https://developer.apple.com/design/human-interface-guidelines/airplay/overview/icons/",
+            hex:"000000",title:"AirPlay Audio",source:"https://developer.apple.com/design/human-interface-guidelines/airplay/overview/icons",
         }
         ,[SimpleIcons.AirPlayVideo]: {
             hex:"000000",title:"AirPlay Video",source:"https://developer.apple.com/design/human-interface-guidelines/airplay/overview/icons/",
@@ -9837,14 +16049,53 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Airtable]: {
             hex:"18BFFF",title:"Airtable",source:"https://airtable.com/press",
         }
+        ,[SimpleIcons.Airtel]: {
+            hex:"E40000",title:"Airtel",source:"https://www.airtel.in/logo-tune",
+        }
+        ,[SimpleIcons.Ajv]: {
+            hex:"23C8D2",title:"Ajv",source:"https://github.com/ajv-validator/ajv/blob/95b15b683dfb60f63c5129b0426629b968d53af8/docs/.vuepress/public/img/ajv.svg",
+        }
+        ,[SimpleIcons.Akamai]: {
+            hex:"0096D6",title:"Akamai",source:"https://www.akamai.com",
+        }
+        ,[SimpleIcons.Akaunting]: {
+            hex:"6DA252",title:"Akaunting",source:"https://akaunting.com/logo",
+        }
+        ,[SimpleIcons.Akiflow]: {
+            hex:"AF38F9",title:"Akiflow",source:"https://www.akiflow.com",
+        }
         ,[SimpleIcons.Alacritty]: {
             hex:"F46D01",title:"Alacritty",source:"https://github.com/alacritty/alacritty/blob/6d8db6b9dfadd6164c4be7a053f25db8ef6b7998/extra/logo/alacritty-simple.svg",
         }
+        ,[SimpleIcons.Alamy]: {
+            hex:"00FF7B",title:"Alamy",source:"https://www.alamy.com",
+        }
+        ,[SimpleIcons.AlbertHeijn]: {
+            hex:"04ACE6",title:"Albert Heijn",source:"https://www.ah.nl",
+        }
+        ,[SimpleIcons.Alby]: {
+            hex:"FFDF6F",title:"Alby",source:"https://github.com/getAlby/media/blob/c24fee4a3f76d6cd000343a972f10590d3913b25/Alby-logo-icons/Alby-logo-head/alby.svg",
+        }
+        ,[SimpleIcons.Alchemy]: {
+            hex:"0C0C0E",title:"Alchemy",source:"https://www.alchemy.com",
+        }
+        ,[SimpleIcons.AldiNord]: {
+            hex:"2490D7",title:"Aldi Nord",source:"https://commons.wikimedia.org/wiki/File:Aldi_Nord_201x_logo.svg",
+        }
+        ,[SimpleIcons.AldiS_d]: {
+            hex:"00005F",title:"Aldi Süd",source:"https://www.aldi-sued.de",
+        }
         ,[SimpleIcons.AlfaRomeo]: {
-            hex:"981E32",title:"Alfa Romeo",source:"http://www.fcaci.com/x/Alfa",
+            hex:"981E32",title:"Alfa Romeo",source:"https://www.fcaci.com/x/Alfa",
+        }
+        ,[SimpleIcons.Alfred]: {
+            hex:"5C1F87",title:"Alfred",source:"https://www.alfredapp.com",
         }
         ,[SimpleIcons.Algolia]: {
-            hex:"5468FF",title:"Algolia",source:"https://www.algolia.com/press/?section=brand-guidelines",
+            hex:"003DFF",title:"Algolia",source:"https://algolia.frontify.com/d/1AZwVNcFZiu7/style-guide",
+        }
+        ,[SimpleIcons.Algorand]: {
+            hex:"000000",title:"Algorand",source:"https://www.algorand.com/about/media-kit",
         }
         ,[SimpleIcons.AlibabaCloud]: {
             hex:"FF6A00",title:"Alibaba Cloud",source:"https://www.alibabagroup.com/en/ir/reports",
@@ -9852,260 +16103,419 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.AlibabaCom]: {
             hex:"FF6A00",title:"Alibaba.com",source:"https://www.alibabagroup.com/en/ir/reports",
         }
+        ,[SimpleIcons.Alienware]: {
+            hex:"541BAE",title:"Alienware",source:"https://www.dell.com/en-us/gaming/alienware",
+        }
         ,[SimpleIcons.AliExpress]: {
             hex:"FF4747",title:"AliExpress",source:"https://www.alibabagroup.com/en/ir/reports",
         }
         ,[SimpleIcons.Alipay]: {
-            hex:"00A1E9",title:"Alipay",source:"https://gw.alipayobjects.com/os/rmsportal/trUJZfSrlnRCcFgfZGjD.ai",
+            hex:"1677FF",title:"Alipay",source:"https://global.alipay.com/docs/ac/website_hk/design",
         }
-        ,[SimpleIcons.Alitalia]: {
-            hex:"006643",title:"Alitalia",source:"https://www.alitalia.com/it_it/fly-alitalia/in-flight/ulisse-magazine.html",
+        ,[SimpleIcons.Allegro]: {
+            hex:"FF5A00",title:"Allegro",source:"https://allegro.pl",
         }
         ,[SimpleIcons.AlliedModders]: {
-            hex:"1578D3",title:"AlliedModders",source:"https://forums.alliedmods.net/",
+            hex:"1578D3",title:"AlliedModders",source:"https://forums.alliedmods.net",
         }
         ,[SimpleIcons.AlloCin_]: {
-            hex:"FECC00",title:"AlloCiné",source:"http://www.allocine.fr/",
+            hex:"FECC00",title:"AlloCiné",source:"https://www.allocine.fr",
         }
         ,[SimpleIcons.AllTrails]: {
-            hex:"428813",title:"AllTrails",source:"https://www.alltrails.com/",
+            hex:"142800",title:"AllTrails",source:"https://www.alltrails.com/press?section=press-page-kit",
+        }
+        ,[SimpleIcons.AlmaLinux]: {
+            hex:"000000",title:"AlmaLinux",source:"https://almalinux.org",
         }
         ,[SimpleIcons.AlpineLinux]: {
-            hex:"0D597F",title:"Alpine Linux",source:"https://alpinelinux.org/",
+            hex:"0D597F",title:"Alpine Linux",source:"https://alpinelinux.org",
         }
         ,[SimpleIcons.AlpineJs]: {
-            hex:"8BC0D0",title:"Alpine.js",source:"https://github.com/simple-icons/simple-icons/issues/5583#issuecomment-832770167",
+            hex:"8BC0D0",title:"Alpine.js",source:"https://alpinejs.dev",
+        }
+        ,[SimpleIcons.Alteryx]: {
+            hex:"0078C0",title:"Alteryx",source:"https://www.alteryx.com",
         }
         ,[SimpleIcons.AltiumDesigner]: {
-            hex:"A5915F",title:"Altium Designer",source:"https://www.altium.com/altium-designer/",
+            hex:"A5915F",title:"Altium Designer",source:"https://www.altium.com/altium-designer",
+        }
+        ,[SimpleIcons.Alwaysdata]: {
+            hex:"E9568E",title:"Alwaysdata",source:"https://www.alwaysdata.com",
+        }
+        ,[SimpleIcons.ALX]: {
+            hex:"002B56",title:"ALX",source:"https://www.alxafrica.com",
         }
         ,[SimpleIcons.Amazon]: {
-            hex:"FF9900",title:"Amazon",source:"https://worldvectorlogo.com/logo/amazon-icon",
+            hex:"FF9900",title:"Amazon",source:"https://www.amazon.com",
         }
         ,[SimpleIcons.AmazonAlexa]: {
             hex:"00CAFF",title:"Amazon Alexa",source:"https://developer.amazon.com/docs/alexa-voice-service/logo-and-brand.html",
         }
-        ,[SimpleIcons.AmazonAWS]: {
-            hex:"232F3E",title:"Amazon AWS",source:"https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
+        ,[SimpleIcons.AmazonAPIGateway]: {
+            hex:"FF4F8B",title:"Amazon API Gateway",source:"https://aws.amazon.com/architecture/icons",
+        }
+        ,[SimpleIcons.AmazonCloudWatch]: {
+            hex:"FF4F8B",title:"Amazon CloudWatch",source:"https://aws.amazon.com/architecture/icons",
+        }
+        ,[SimpleIcons.AmazonCognito]: {
+            hex:"DD344C",title:"Amazon Cognito",source:"https://aws.amazon.com/architecture/icons",
+        }
+        ,[SimpleIcons.AmazonDocumentDB]: {
+            hex:"C925D1",title:"Amazon DocumentDB",source:"https://aws.amazon.com/architecture/icons",
         }
         ,[SimpleIcons.AmazonDynamoDB]: {
-            hex:"4053D6",title:"Amazon DynamoDB",source:"https://aws.amazon.com/architecture/icons/",
+            hex:"4053D6",title:"Amazon DynamoDB",source:"https://aws.amazon.com/architecture/icons",
+        }
+        ,[SimpleIcons.AmazonEC2]: {
+            hex:"FF9900",title:"Amazon EC2",source:"https://aws.amazon.com/architecture/icons",
+        }
+        ,[SimpleIcons.AmazonECS]: {
+            hex:"FF9900",title:"Amazon ECS",source:"https://aws.amazon.com/architecture/icons",
+        }
+        ,[SimpleIcons.AmazonEKS]: {
+            hex:"FF9900",title:"Amazon EKS",source:"https://aws.amazon.com/architecture/icons",
+        }
+        ,[SimpleIcons.AmazonElastiCache]: {
+            hex:"C925D1",title:"Amazon ElastiCache",source:"https://aws.amazon.com/architecture/icons",
         }
         ,[SimpleIcons.AmazonFireTV]: {
             hex:"FC4C02",title:"Amazon Fire TV",source:"https://www.amazon.com/gp/help/customer/display.html?nodeId=201348270",
         }
+        ,[SimpleIcons.AmazonGames]: {
+            hex:"FF9900",title:"Amazon Games",source:"https://www.amazongames.com",
+        }
+        ,[SimpleIcons.Amazoniam]: {
+            hex:"DD344C",title:"Amazon Identity Access Management",source:"https://aws.amazon.com/architecture/icons",slug:"amazoniam"
+        }
         ,[SimpleIcons.AmazonLumberyard]: {
-            hex:"66459B",title:"Amazon Lumberyard",source:"https://aws.amazon.com/lumberyard/support",
+            hex:"66459B",title:"Amazon Lumberyard",source:"https://aws.amazon.com/architecture/icons",
+        }
+        ,[SimpleIcons.AmazonLuna]: {
+            hex:"9146FF",title:"Amazon Luna",source:"https://luna.amazon.com",
+        }
+        ,[SimpleIcons.AmazonMusic]: {
+            hex:"46C3D0",title:"Amazon Music",source:"https://music.amazon.com",
         }
         ,[SimpleIcons.AmazonPay]: {
-            hex:"FF9900",title:"Amazon Pay",source:"https://pay.amazon.com/",
+            hex:"FF9900",title:"Amazon Pay",source:"https://pay.amazon.com",
         }
         ,[SimpleIcons.AmazonPrime]: {
             hex:"00A8E1",title:"Amazon Prime",source:"https://www.amazon.com/b?node=17277626011",
         }
+        ,[SimpleIcons.AmazonRDS]: {
+            hex:"527FFF",title:"Amazon RDS",source:"https://aws.amazon.com/architecture/icons",
+        }
+        ,[SimpleIcons.AmazonRedshift]: {
+            hex:"8C4FFF",title:"Amazon Redshift",source:"https://aws.amazon.com/architecture/icons",
+        }
+        ,[SimpleIcons.AmazonRoute53]: {
+            hex:"8C4FFF",title:"Amazon Route 53",source:"https://aws.amazon.com/architecture/icons/",
+        }
         ,[SimpleIcons.AmazonS3]: {
-            hex:"569A31",title:"Amazon S3",source:"https://aws.amazon.com/architecture/icons/",
+            hex:"569A31",title:"Amazon S3",source:"https://aws.amazon.com/architecture/icons",
+        }
+        ,[SimpleIcons.AmazonSimpleEmailService]: {
+            hex:"DD344C",title:"Amazon Simple Email Service",source:"https://aws.amazon.com/architecture/icons",
+        }
+        ,[SimpleIcons.AmazonSQS]: {
+            hex:"FF4F8B",title:"Amazon SQS",source:"https://aws.amazon.com/architecture/icons",
+        }
+        ,[SimpleIcons.AmazonWebServices]: {
+            hex:"232F3E",title:"Amazon Web Services",source:"https://commons.wikimedia.org/wiki/File:Amazon_Web_Services_Logo.svg",
         }
         ,[SimpleIcons.AMD]: {
-            hex:"ED1C24",title:"AMD",source:"https://www.amd.com/",
+            hex:"ED1C24",title:"AMD",source:"https://www.amd.com",
+        }
+        ,[SimpleIcons.Ameba]: {
+            hex:"2D8C3C",title:"Ameba",source:"https://ameblo.jp",
         }
         ,[SimpleIcons.AmericanAirlines]: {
-            hex:"0078D2",title:"American Airlines",source:"https://en.wikipedia.org/wiki/File:American_Airlines_logo_2013.svg",
+            hex:"0078D2",title:"American Airlines",source:"https://news.aa.com",
         }
         ,[SimpleIcons.AmericanExpress]: {
-            hex:"2E77BC",title:"American Express",source:"https://commons.wikimedia.org/wiki/File:American_Express_logo.svg",
+            hex:"2E77BC",title:"American Express",source:"https://commons.wikimedia.org/wiki/File:American_Express_logo_(2018).svg",
+        }
+        ,[SimpleIcons.AMG]: {
+            hex:"000000",title:"AMG",source:"https://www.mercedes-amg.com",
         }
         ,[SimpleIcons.AMP]: {
-            hex:"005AF0",title:"AMP",source:"https://amp.dev/",
+            hex:"005AF0",title:"AMP",source:"https://amp.dev",
         }
         ,[SimpleIcons.Amul]: {
             hex:"ED1D24",title:"Amul",source:"https://amul.com/classic/products/horeca.php",
         }
         ,[SimpleIcons.ANA]: {
-            hex:"13448F",title:"ANA",source:"https://www.ana.co.jp/en/eur/the-ana-experience/brand/",
+            hex:"13448F",title:"ANA",source:"https://www.ana.co.jp/en/eur/the-ana-experience/brand",
         }
         ,[SimpleIcons.Anaconda]: {
             hex:"44A833",title:"Anaconda",source:"https://www.anaconda.com",
         }
         ,[SimpleIcons.Analogue]: {
-            hex:"1A1A1A",title:"Analogue",source:"https://www.analogue.co/",
-        }
-        ,[SimpleIcons.Anchor]: {
-            hex:"5000B9",title:"Anchor",source:"https://anchor.fm/",
+            hex:"1A1A1A",title:"Analogue",source:"https://www.analogue.co",
         }
         ,[SimpleIcons.Andela]: {
-            hex:"3359DF",title:"Andela",source:"https://andela.com/press/",
+            hex:"173B3F",title:"Andela",source:"https://andela.com",
         }
         ,[SimpleIcons.Android]: {
-            hex:"3DDC84",title:"Android",source:"https://thepartnermarketinghub.withgoogle.com/brands/android/visual-identity/visual-identity/logo-lock-ups/",
+            hex:"34A853",title:"Android",source:"https://partnermarketinghub.withgoogle.com/brands/android/visual-identity/visual-identity/logo-lock-ups",
         }
         ,[SimpleIcons.AndroidAuto]: {
-            hex:"3DDC84",title:"Android Auto",source:"https://thepartnermarketinghub.withgoogle.com/brands/android-auto/",
+            hex:"3DDC84",title:"Android Auto",source:"https://thepartnermarketinghub.withgoogle.com/brands/android-auto",
         }
         ,[SimpleIcons.AndroidStudio]: {
-            hex:"3DDC84",title:"Android Studio",source:"https://developer.android.com/studio/",
-        }
-        ,[SimpleIcons.AngelList]: {
-            hex:"000000",title:"AngelList",source:"https://angel.co/logo",
+            hex:"3DDC84",title:"Android Studio",source:"https://developer.android.com/studio",
         }
         ,[SimpleIcons.Angular]: {
-            hex:"DD0031",title:"Angular",source:"https://angular.io/assets/images/logos/angular/angular_solidBlack.svg",
-        }
-        ,[SimpleIcons.AngularUniversal]: {
-            hex:"00ACC1",title:"Angular Universal",source:"https://angular.io/presskit",
-        }
-        ,[SimpleIcons.AngularJS]: {
-            hex:"E23237",title:"AngularJS",source:"https://angularjs.org/",
+            hex:"0F0F11",title:"Angular",source:"https://angular.dev/press-kit",
         }
         ,[SimpleIcons.AniList]: {
-            hex:"02A9FF",title:"AniList",source:"https://anilist.co/img/icons/icon.svg",
+            hex:"02A9FF",title:"AniList",source:"https://anilist.co",
+        }
+        ,[SimpleIcons.AnimalPlanet]: {
+            hex:"0073FF",title:"Animal Planet",source:"https://www.animalplanet.com",
+        }
+        ,[SimpleIcons.AnkerMake]: {
+            hex:"88F387",title:"AnkerMake",source:"https://www.ankermake.com",
+        }
+        ,[SimpleIcons.Anki]: {
+            hex:"80C2EE",title:"Anki",source:"https://commons.wikimedia.org/wiki/File:Anki-icon.svg",
         }
         ,[SimpleIcons.Ansible]: {
             hex:"EE0000",title:"Ansible",source:"https://www.ansible.com/logos",
+        }
+        ,[SimpleIcons.Answer]: {
+            hex:"0033FF",title:"Answer",source:"https://answer.dev",
         }
         ,[SimpleIcons.Ansys]: {
             hex:"FFB71B",title:"Ansys",source:"https://www.ansys.com/about-ansys/brand",
         }
         ,[SimpleIcons.AntDesign]: {
-            hex:"0170FE",title:"Ant Design",source:"https://ant.design/components/icon/",
+            hex:"0170FE",title:"Ant Design",source:"https://ant.design",
+        }
+        ,[SimpleIcons.Anta]: {
+            hex:"D70010",title:"Anta",source:"https://www.anta.com",
         }
         ,[SimpleIcons.Antena3]: {
-            hex:"FF7328",title:"Antena 3",source:"https://www.antena3.com/",
+            hex:"FF7328",title:"Antena 3",source:"https://www.antena3.com",
+        }
+        ,[SimpleIcons.Anthropic]: {
+            hex:"191919",title:"Anthropic",source:"https://www.anthropic.com",
+        }
+        ,[SimpleIcons.Anycubic]: {
+            hex:"476695",title:"Anycubic",source:"https://store.anycubic.com/pages/firmware-software",
         }
         ,[SimpleIcons.AnyDesk]: {
-            hex:"EF443B",title:"AnyDesk",source:"https://anydesk.com/",
+            hex:"EF443B",title:"AnyDesk",source:"https://anydesk.com",
+        }
+        ,[SimpleIcons.Anytype]: {
+            hex:"FF6A7B",title:"Anytype",source:"https://github.com/anyproto/anytype-ts/blob/544498296ceb4b6ed2970414de493f7f72bd0fcf/src/img/logo/symbol.svg",
         }
         ,[SimpleIcons.AOL]: {
-            hex:"3399FF",title:"AOL",source:"https://www.aol.com/",
+            hex:"3399FF",title:"AOL",source:"https://www.aol.com",
         }
         ,[SimpleIcons.Apache]: {
-            hex:"D22128",title:"Apache",source:"https://www.apache.org/foundation/press/kit/",
+            hex:"D22128",title:"Apache",source:"https://www.apache.org/foundation/press/kit",
         }
         ,[SimpleIcons.ApacheAirflow]: {
-            hex:"017CEE",title:"Apache Airflow",source:"https://apache.org/logos/",
+            hex:"017CEE",title:"Apache Airflow",source:"https://apache.org/logos",
         }
         ,[SimpleIcons.ApacheAnt]: {
-            hex:"A81C7D",title:"Apache Ant",source:"https://apache.org/logos/",
+            hex:"A81C7D",title:"Apache Ant",source:"https://apache.org/logos",
         }
         ,[SimpleIcons.ApacheCassandra]: {
-            hex:"1287B1",title:"Apache Cassandra",source:"https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg",
+            hex:"1287B1",title:"Apache Cassandra",source:"https://www.apache.org/logos",
         }
         ,[SimpleIcons.ApacheCloudStack]: {
-            hex:"2AA5DC",title:"Apache CloudStack",source:"http://cloudstack.apache.org/trademark-guidelines.html",
+            hex:"2AA5DC",title:"Apache CloudStack",source:"https://apache.org/logos",
         }
         ,[SimpleIcons.ApacheCordova]: {
-            hex:"E8E8E8",title:"Apache Cordova",source:"https://cordova.apache.org/artwork/",
+            hex:"E8E8E8",title:"Apache Cordova",source:"https://cordova.apache.org/artwork",
+        }
+        ,[SimpleIcons.ApacheCouchDB]: {
+            hex:"E42528",title:"Apache CouchDB",source:"https://apache.org/logos",
         }
         ,[SimpleIcons.ApacheDruid]: {
-            hex:"29F1FB",title:"Apache Druid",source:"https://apache.org/logos/",
+            hex:"29F1FB",title:"Apache Druid",source:"https://apache.org/logos",
         }
         ,[SimpleIcons.ApacheECharts]: {
-            hex:"AA344D",title:"Apache ECharts",source:"https://apache.org/logos/",
+            hex:"AA344D",title:"Apache ECharts",source:"https://apache.org/logos",
         }
         ,[SimpleIcons.ApacheFlink]: {
-            hex:"E6526F",title:"Apache Flink",source:"https://apache.org/logos/",
+            hex:"E6526F",title:"Apache Flink",source:"https://apache.org/logos",
+        }
+        ,[SimpleIcons.ApacheFreeMarker]: {
+            hex:"326CAC",title:"Apache FreeMarker",source:"https://www.apache.org/logos",
         }
         ,[SimpleIcons.ApacheGroovy]: {
-            hex:"4298B8",title:"Apache Groovy",source:"https://groovy-lang.org/",
+            hex:"4298B8",title:"Apache Groovy",source:"https://apache.org/logos",
+        }
+        ,[SimpleIcons.ApacheGuacamole]: {
+            hex:"578B34",title:"Apache Guacamole",source:"https://apache.org/logos",
+        }
+        ,[SimpleIcons.ApacheHadoop]: {
+            hex:"66CCFF",title:"Apache Hadoop",source:"https://apache.org/logos",
+        }
+        ,[SimpleIcons.ApacheHBase]: {
+            hex:"BE160C",title:"Apache HBase",source:"https://apache.org/logos",
         }
         ,[SimpleIcons.ApacheHive]: {
-            hex:"FDEE21",title:"Apache Hive",source:"https://apache.org/logos/",
+            hex:"FDEE21",title:"Apache Hive",source:"https://apache.org/logos",
         }
         ,[SimpleIcons.ApacheJMeter]: {
-            hex:"D22128",title:"Apache JMeter",source:"https://apache.org/logos/",
+            hex:"D22128",title:"Apache JMeter",source:"https://apache.org/logos",
         }
         ,[SimpleIcons.ApacheKafka]: {
-            hex:"231F20",title:"Apache Kafka",source:"https://apache.org/logos/",
+            hex:"231F20",title:"Apache Kafka",source:"https://apache.org/logos",
         }
         ,[SimpleIcons.ApacheKylin]: {
-            hex:"F09D13",title:"Apache Kylin",source:"https://apache.org/logos/",
+            hex:"F09D13",title:"Apache Kylin",source:"https://apache.org/logos",
         }
         ,[SimpleIcons.ApacheMaven]: {
-            hex:"C71A36",title:"Apache Maven",source:"https://apache.org/logos/",
+            hex:"C71A36",title:"Apache Maven",source:"https://apache.org/logos",
         }
         ,[SimpleIcons.ApacheNetBeansIDE]: {
-            hex:"1B6AC6",title:"Apache NetBeans IDE",source:"https://apache.org/logos/",
+            hex:"1B6AC6",title:"Apache NetBeans IDE",source:"https://apache.org/logos",
         }
         ,[SimpleIcons.ApacheOpenOffice]: {
             hex:"0E85CD",title:"Apache OpenOffice",source:"https://apache.org/logos",
         }
+        ,[SimpleIcons.ApacheParquet]: {
+            hex:"50ABF1",title:"Apache Parquet",source:"https://apache.org/logos",
+        }
         ,[SimpleIcons.ApachePulsar]: {
-            hex:"188FFF",title:"Apache Pulsar",source:"https://apache.org/logos/",
+            hex:"188FFF",title:"Apache Pulsar",source:"https://apache.org/logos",
         }
         ,[SimpleIcons.ApacheRocketMQ]: {
-            hex:"D77310",title:"Apache RocketMQ",source:"https://apache.org/logos/",
+            hex:"D77310",title:"Apache RocketMQ",source:"https://apache.org/logos",
         }
         ,[SimpleIcons.ApacheSolr]: {
-            hex:"D9411E",title:"Apache Solr",source:"https://apache.org/logos/",
+            hex:"D9411E",title:"Apache Solr",source:"https://apache.org/logos",
         }
         ,[SimpleIcons.ApacheSpark]: {
-            hex:"E25A1C",title:"Apache Spark",source:"https://apache.org/logos/",
+            hex:"E25A1C",title:"Apache Spark",source:"https://apache.org/logos",
+        }
+        ,[SimpleIcons.ApacheStorm]: {
+            hex:"225593",title:"Apache Storm",source:"https://apache.org/logos",
+        }
+        ,[SimpleIcons.ApacheSuperset]: {
+            hex:"20A6C9",title:"Apache Superset",source:"https://apache.org/logos",
         }
         ,[SimpleIcons.ApacheTomcat]: {
-            hex:"F8DC75",title:"Apache Tomcat",source:"https://apache.org/logos/",
+            hex:"F8DC75",title:"Apache Tomcat",source:"https://apache.org/logos",
         }
         ,[SimpleIcons.Aparat]: {
             hex:"ED145B",title:"Aparat",source:"https://www.aparat.com/logo",
         }
+        ,[SimpleIcons.Apifox]: {
+            hex:"F44A53",title:"Apifox",source:"https://apifox.com",
+        }
+        ,[SimpleIcons.APMTerminals]: {
+            hex:"FF6441",title:"APM Terminals",source:"https://www.apmterminals.com",
+        }
         ,[SimpleIcons.ApolloGraphQL]: {
-            hex:"311C87",title:"Apollo GraphQL",source:"https://github.com/apollographql/space-kit/blob/9a42083746a49c9a734563f427c13233e42adcc9/logos/mark.svg",
+            hex:"311C87",title:"Apollo GraphQL",source:"https://www.apollographql.com",
         }
         ,[SimpleIcons.Apostrophe]: {
             hex:"6236FF",title:"Apostrophe",source:"https://github.com/apostrophecms/apostrophe/blob/a7fcc6b13831302e27f79a6fcaaf58e3a40517df/logo.svg",
         }
         ,[SimpleIcons.AppStore]: {
-            hex:"0D96F6",title:"App Store",source:"https://developer.apple.com/app-store/",
+            hex:"0D96F6",title:"App Store",source:"https://developer.apple.com/app-store",
+        }
+        ,[SimpleIcons.Appian]: {
+            hex:"2322F0",title:"Appian",source:"https://appian.com",
+        }
+        ,[SimpleIcons.Appium]: {
+            hex:"EE376D",title:"Appium",source:"https://github.com/openjs-foundation/artwork/blob/270575392800eb17a02612203f6f0d5868c634a7/projects/appium/appium-icon-mono.svg",
         }
         ,[SimpleIcons.Apple]: {
             hex:"000000",title:"Apple",source:"https://www.apple.com",
         }
         ,[SimpleIcons.AppleArcade]: {
-            hex:"000000",title:"Apple Arcade",source:"https://www.apple.com/apple-arcade/",
+            hex:"000000",title:"Apple Arcade",source:"https://www.apple.com/apple-arcade",
         }
         ,[SimpleIcons.AppleMusic]: {
             hex:"FA243C",title:"Apple Music",source:"https://www.apple.com/itunes/marketing-on-music/identity-guidelines.html#apple-music-icon",
         }
+        ,[SimpleIcons.AppleNews]: {
+            hex:"FD415E",title:"Apple News",source:"https://www.apple.com/apple-news",
+        }
         ,[SimpleIcons.ApplePay]: {
-            hex:"000000",title:"Apple Pay",source:"https://developer.apple.com/apple-pay/marketing/",
+            hex:"000000",title:"Apple Pay",source:"https://developer.apple.com/apple-pay/marketing",
         }
         ,[SimpleIcons.ApplePodcasts]: {
             hex:"9933CC",title:"Apple Podcasts",source:"https://www.apple.com/itunes/marketing-on-podcasts/identity-guidelines.html#apple-podcasts-icon",
         }
         ,[SimpleIcons.AppleTV]: {
-            hex:"000000",title:"Apple TV",source:"https://commons.wikimedia.org/wiki/File:AppleTV.svg",
+            hex:"000000",title:"Apple TV",source:"https://en.wikipedia.org/wiki/File:Apple_TV_(logo).svg",
         }
         ,[SimpleIcons.AppSignal]: {
-            hex:"21375A",title:"AppSignal",source:"https://appsignal.com/",
+            hex:"21375A",title:"AppSignal",source:"https://appsignal.com",
+        }
+        ,[SimpleIcons.Appsmith]: {
+            hex:"2A2F3D",title:"Appsmith",source:"https://www.appsmith.com",
         }
         ,[SimpleIcons.AppVeyor]: {
-            hex:"00B3E0",title:"AppVeyor",source:"https://commons.wikimedia.org/wiki/File:Appveyor_logo.svg",
+            hex:"00B3E0",title:"AppVeyor",source:"https://www.appveyor.com",
+        }
+        ,[SimpleIcons.Appwrite]: {
+            hex:"FD366E",title:"Appwrite",source:"https://appwrite.io/assets",
+        }
+        ,[SimpleIcons.Aqua]: {
+            hex:"1904DA",title:"Aqua",source:"https://www.aquasec.com/brand",
         }
         ,[SimpleIcons.ARAL]: {
-            hex:"0063CB",title:"ARAL",source:"https://upload.wikimedia.org/wikipedia/commons/6/60/Aral_Logo.svg",
+            hex:"0063CB",title:"ARAL",source:"https://commons.wikimedia.org/wiki/File:Aral_Logo.svg",
         }
         ,[SimpleIcons.ArangoDB]: {
-            hex:"DDE072",title:"ArangoDB",source:"https://www.arangodb.com",
+            hex:"DDE072",title:"ArangoDB",source:"https://www.arangodb.com/resources/logos",
+        }
+        ,[SimpleIcons.Arc]: {
+            hex:"FCBFBD",title:"Arc",source:"https://arc.net",
+        }
+        ,[SimpleIcons.ArcGIS]: {
+            hex:"2C7AC3",title:"ArcGIS",source:"https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview",
         }
         ,[SimpleIcons.ArchLinux]: {
-            hex:"1793D1",title:"Arch Linux",source:"https://www.archlinux.org/art/",
+            hex:"1793D1",title:"Arch Linux",source:"https://www.archlinux.org/art",
         }
         ,[SimpleIcons.Archicad]: {
             hex:"2D50A5",title:"Archicad",source:"https://graphisoft.com/contact-us/press-relations#/documents/archicad-logo-98604",
         }
         ,[SimpleIcons.ArchiveOfOurOwn]: {
-            hex:"990000",title:"Archive of Our Own",source:"https://archiveofourown.org/",
+            hex:"990000",title:"Archive of Our Own",source:"https://archiveofourown.org",
         }
         ,[SimpleIcons.Ardour]: {
-            hex:"C61C3E",title:"Ardour",source:"https://github.com/Ardour/ardour/tree/master/tools/misc_resources/",
+            hex:"C61C3E",title:"Ardour",source:"https://github.com/Ardour/ardour/blob/c5a0c0f6e0fc1ed0b94f94af38d5b55d49882add/tools/misc_resources/ardour_bw.svg",
         }
         ,[SimpleIcons.Arduino]: {
-            hex:"00979D",title:"Arduino",source:"https://cdn.arduino.cc/projecthub/img/Arduino-logo.svg",
+            hex:"00878F",title:"Arduino",source:"https://www.arduino.cc",
+        }
+        ,[SimpleIcons.Argo]: {
+            hex:"EF7B4D",title:"Argo",source:"https://github.com/cncf/artwork/blob/c2e619cdf85e8bac090ceca7c0834c5cfedf9426/projects/argo/icon/black/argo-icon-black.svg",
+        }
+        ,[SimpleIcons.Argos]: {
+            hex:"DA291C",title:"Argos",source:"https://www.argos.co.uk",
+        }
+        ,[SimpleIcons.Ariakit]: {
+            hex:"007ACC",title:"Ariakit",source:"https://github.com/ariakit/ariakit/blob/a739913ab1c3919c4353f0e0e3573ec6eda99549/logo/icon.svg",
         }
         ,[SimpleIcons.ARKEcosystem]: {
-            hex:"C9292C",title:"ARK Ecosystem",source:"https://ark.io/press-kit",
+            hex:"C9292C",title:"ARK Ecosystem",source:"https://ark.io",
         }
         ,[SimpleIcons.Arlo]: {
-            hex:"49B48A",title:"Arlo",source:"https://www.arlo.com/",
+            hex:"49B48A",title:"Arlo",source:"https://www.arlo.com",
+        }
+        ,[SimpleIcons.Arm]: {
+            hex:"0091BD",title:"Arm",source:"https://www.arm.com",
+        }
+        ,[SimpleIcons.ArmKeil]: {
+            hex:"394049",title:"Arm Keil",source:"https://www.keil.arm.com",
+        }
+        ,[SimpleIcons.ArsTechnica]: {
+            hex:"FF4E00",title:"Ars Technica",source:"https://arstechnica.com",
+        }
+        ,[SimpleIcons.ArtifactHub]: {
+            hex:"417598",title:"Artifact Hub",source:"https://github.com/artifacthub/hub/blob/b7df64e044687e5788d6e7e809539679eb9fe45a/web/public/static/media/logo/artifacthub-brand-white.svg",
         }
         ,[SimpleIcons.ArtixLinux]: {
             hex:"10A0CC",title:"Artix Linux",source:"https://gitea.artixlinux.org/artix/artwork/src/commit/256432e3d06b3e9024bfd6912768e80281ea3746/icons/logo-gray.svg",
@@ -10114,43 +16524,61 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"13AFF0",title:"ArtStation",source:"https://www.artstation.com/about/logo",
         }
         ,[SimpleIcons.ArXiv]: {
-            hex:"B31B1B",title:"arXiv",source:"https://static.arxiv.org/static/base/0.15.2/images/arxiv-logo-web.svg",
+            hex:"B31B1B",title:"arXiv",source:"https://arxiv.org",
+        }
+        ,[SimpleIcons.AsahiLinux]: {
+            hex:"A61200",title:"Asahi Linux",source:"https://github.com/AsahiLinux/artwork/blob/292637c9658c1491ddc1128fb6134aec01d904dd/logos/svg/AsahiLinux_logomark_mono.svg",
         }
         ,[SimpleIcons.Asana]: {
-            hex:"273347",title:"Asana",source:"https://asana.com/styles",
+            hex:"F06A6A",title:"Asana",source:"https://asana.com/brand",
         }
         ,[SimpleIcons.Asciidoctor]: {
             hex:"E40046",title:"Asciidoctor",source:"https://github.com/asciidoctor/brand/blob/b9cf5e276616f4770c4f1227e646e7daee0cbf24/logo/logo-fill-bw.svg",
         }
         ,[SimpleIcons.Asciinema]: {
-            hex:"D40000",title:"asciinema",source:"https://github.com/asciinema/asciinema-logo",
+            hex:"D40000",title:"asciinema",source:"https://github.com/asciinema/asciinema-logo/blob/1c743621830c0d8c92fd0076b4f15f75b4cf79f4/logo-red.svg",
+        }
+        ,[SimpleIcons.ASDA]: {
+            hex:"68A51C",title:"ASDA",source:"https://www.asda.com",
         }
         ,[SimpleIcons.Aseprite]: {
-            hex:"7D929E",title:"Aseprite",source:"https://www.aseprite.org/",
-        }
-        ,[SimpleIcons.AskUbuntu]: {
-            hex:"DC461D",title:"Ask Ubuntu",source:"https://askubuntu.com/",
+            hex:"7D929E",title:"Aseprite",source:"https://www.aseprite.org",
         }
         ,[SimpleIcons.ASKfm]: {
-            hex:"DB3552",title:"ASKfm",source:"https://ask.fm/",
+            hex:"DB3552",title:"ASKfm",source:"https://ask.fm",
         }
         ,[SimpleIcons.AssemblyScript]: {
-            hex:"007AAC",title:"AssemblyScript",source:"https://www.assemblyscript.org/",
+            hex:"007AAC",title:"AssemblyScript",source:"https://www.assemblyscript.org",
+        }
+        ,[SimpleIcons.Asterisk]: {
+            hex:"F68F1E",title:"Asterisk",source:"https://commons.wikimedia.org/wiki/File:Asterisk_logo.svg",
+        }
+        ,[SimpleIcons.AstonMartin]: {
+            hex:"00665E",title:"Aston Martin",source:"https://www.astonmartin.com",
+        }
+        ,[SimpleIcons.Astra]: {
+            hex:"5C2EDE",title:"Astra",source:"https://wpastra.com/brand-assets",
+        }
+        ,[SimpleIcons.Astral]: {
+            hex:"261230",title:"Astral",source:"https://brandpad.io/astral",
+        }
+        ,[SimpleIcons.Astro]: {
+            hex:"BC52EE",title:"Astro",source:"https://astro.build/press",
         }
         ,[SimpleIcons.ASUS]: {
-            hex:"000000",title:"ASUS",source:"https://www.asus.com/",
+            hex:"000000",title:"ASUS",source:"https://www.asus.com",
         }
         ,[SimpleIcons.AT_T]: {
             hex:"009FDB",title:"AT&T",source:"https://www.att.com",
         }
         ,[SimpleIcons.Atari]: {
-            hex:"E4202E",title:"Atari",source:"https://atarivcs.com/",
+            hex:"E4202E",title:"Atari",source:"https://atarivcs.com",
         }
         ,[SimpleIcons.Atlassian]: {
-            hex:"0052CC",title:"Atlassian",source:"https://www.atlassian.com/company/news/press-kit",
+            hex:"0052CC",title:"Atlassian",source:"https://atlassian.design/resources/logo-library",
         }
-        ,[SimpleIcons.Atom]: {
-            hex:"66595C",title:"Atom",source:"https://commons.wikimedia.org/wiki/File:Atom_editor_logo.svg",
+        ,[SimpleIcons.Auchan]: {
+            hex:"D6180B",title:"Auchan",source:"https://www.auchan.fr",
         }
         ,[SimpleIcons.Audacity]: {
             hex:"0000CC",title:"Audacity",source:"https://github.com/audacity/audacity/blob/c818449c69193f5311b430fbf600d8d6cbe49047/images/audacity.svg",
@@ -10162,160 +16590,286 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"F8991C",title:"Audible",source:"https://commons.wikimedia.org/wiki/File:Audible_logo.svg",
         }
         ,[SimpleIcons.AudioTechnica]: {
-            hex:"000000",title:"Audio-Technica",source:"https://wikipedia.org/wiki/File:Audio-technica.svg",
+            hex:"000000",title:"Audio-Technica",source:"https://commons.wikimedia.org/wiki/File:Audio-technica.svg",
+        }
+        ,[SimpleIcons.Audiobookshelf]: {
+            hex:"82612C",title:"Audiobookshelf",source:"https://github.com/advplyr/audiobookshelf/blob/0d9d2fa4be9b642f0948e52ddff71ff370fd524d/images/banner.svg",
         }
         ,[SimpleIcons.Audioboom]: {
             hex:"007CE2",title:"Audioboom",source:"https://audioboom.com/about/brand-guidelines",
         }
         ,[SimpleIcons.Audiomack]: {
-            hex:"FFA200",title:"Audiomack",source:"https://styleguide.audiomack.com/",
+            hex:"FFA200",title:"Audiomack",source:"https://styleguide.audiomack.com",
         }
         ,[SimpleIcons.Aurelia]: {
-            hex:"ED2B88",title:"Aurelia",source:"https://aurelia.io/",
+            hex:"ED2B88",title:"Aurelia",source:"https://aurelia.io",
         }
         ,[SimpleIcons.Auth0]: {
-            hex:"EB5424",title:"Auth0",source:"https://styleguide.auth0.com",
+            hex:"EB5424",title:"Auth0",source:"https://auth0.com",
+        }
+        ,[SimpleIcons.Authelia]: {
+            hex:"113155",title:"Authelia",source:"https://github.com/authelia/authelia/blob/8316cd4eb7a6f0778c8f480c61ad76a88416fc3a/docs/static/images/branding/logo.svg",
+        }
+        ,[SimpleIcons.Authentik]: {
+            hex:"FD4B2D",title:"Authentik",source:"https://github.com/goauthentik/authentik/blob/2c64f72ebc57dad9789c1fb799dd7cd39003d043/web/icons/icon.svg",
         }
         ,[SimpleIcons.Authy]: {
-            hex:"EC1C24",title:"Authy",source:"https://authy.com/",
+            hex:"EC1C24",title:"Authy",source:"https://authy.com",
+        }
+        ,[SimpleIcons.AutoCAD]: {
+            hex:"E51050",title:"AutoCAD",source:"https://www.autodesk.com/blogs/autocad",
+        }
+        ,[SimpleIcons.AutoCannon]: {
+            hex:"3BA4B7",title:"AutoCannon",source:"https://github.com/mcollina/autocannon/blob/feeec71a7483153bd382de1c7ce5dfc31fa3c16f/autocannon-logo-icon-1000px.png",
         }
         ,[SimpleIcons.Autodesk]: {
-            hex:"0696D7",title:"Autodesk",source:"https://www.autodesk.com",
+            hex:"000000",title:"Autodesk",source:"https://brand.autodesk.com/brand-system/logo",
+        }
+        ,[SimpleIcons.AutodeskMaya]: {
+            hex:"37A5CC",title:"Autodesk Maya",source:"https://area.autodesk.com/learn/courses/maya-intro",
+        }
+        ,[SimpleIcons.AutodeskRevit]: {
+            hex:"186BFF",title:"Autodesk Revit",source:"https://www.autodesk.com/products/revit",
         }
         ,[SimpleIcons.AutoHotkey]: {
-            hex:"334455",title:"AutoHotkey",source:"https://www.autohotkey.com/",
+            hex:"334455",title:"AutoHotkey",source:"https://www.autohotkey.com",
+        }
+        ,[SimpleIcons.AutoIt]: {
+            hex:"5D83AC",title:"AutoIt",source:"https://www.autoitscript.com",
         }
         ,[SimpleIcons.Automattic]: {
-            hex:"3499CD",title:"Automattic",source:"https://automattic.com/press/brand-materials/",
+            hex:"3499CD",title:"Automattic",source:"https://automattic.com/press/brand-materials",
+        }
+        ,[SimpleIcons.Autoprefixer]: {
+            hex:"DD3735",title:"Autoprefixer",source:"https://github.com/postcss/autoprefixer/blob/1341747bc8142a147342f55eea5ed4286a3ca318/logo.svg",
+        }
+        ,[SimpleIcons.AutoZone]: {
+            hex:"D52B1E",title:"AutoZone",source:"https://www.autozone.com",
+        }
+        ,[SimpleIcons.Avajs]: {
+            hex:"4B4B77",title:"avajs",source:"https://github.com/avajs/ava/blob/6f8e30c94626238a5b26deadac319089fa43d333/media/logo.svg",
+        }
+        ,[SimpleIcons.Avast]: {
+            hex:"FF7800",title:"Avast",source:"https://press.avast.com/media-materials#logos-and-brand-guidelines",
+        }
+        ,[SimpleIcons.Avianca]: {
+            hex:"FF0000",title:"avianca",source:"https://www.avianca.com",
+        }
+        ,[SimpleIcons.Avira]: {
+            hex:"E02027",title:"Avira",source:"https://www.avira.com/en/media-library",
         }
         ,[SimpleIcons.AwesomeLists]: {
-            hex:"FC60A8",title:"Awesome Lists",source:"https://github.com/sindresorhus/awesome/tree/master/media",
+            hex:"FC60A8",title:"Awesome Lists",source:"https://github.com/sindresorhus/awesome/tree/52b6dbacde01c2595f2133a5378cb8d2f89906fa/media/logo.svg",
         }
         ,[SimpleIcons.AwesomeWM]: {
-            hex:"535D6C",title:"awesomeWM",source:"https://awesomewm.org/",
+            hex:"535D6C",title:"awesomeWM",source:"https://awesomewm.org",
         }
         ,[SimpleIcons.AWSAmplify]: {
-            hex:"FF9900",title:"AWS Amplify",source:"https://docs.amplify.aws/",
+            hex:"FF9900",title:"AWS Amplify",source:"https://aws.amazon.com/architecture/icons",
         }
-        ,[SimpleIcons.AzureArtifacts]: {
-            hex:"CB2E6D",title:"Azure Artifacts",source:"https://azure.microsoft.com/en-us/services/devops/artifacts/",
+        ,[SimpleIcons.AWSElasticLoadBalancing]: {
+            hex:"8C4FFF",title:"AWS Elastic Load Balancing",source:"https://aws.amazon.com/architecture/icons",
         }
-        ,[SimpleIcons.AzureDataExplorer]: {
-            hex:"0078D4",title:"Azure Data Explorer",source:"https://azure.microsoft.com/en-us/pricing/details/data-explorer/",
+        ,[SimpleIcons.AWSFargate]: {
+            hex:"FF9900",title:"AWS Fargate",source:"https://aws.amazon.com/architecture/icons",
         }
-        ,[SimpleIcons.AzureDevOps]: {
-            hex:"0078D7",title:"Azure DevOps",source:"http://azure.com/devops",
+        ,[SimpleIcons.AWSLambda]: {
+            hex:"FF9900",title:"AWS Lambda",source:"https://aws.amazon.com/architecture/icons",
         }
-        ,[SimpleIcons.AzureFunctions]: {
-            hex:"0062AD",title:"Azure Functions",source:"https://azure.microsoft.com/en-us/services/functions",
+        ,[SimpleIcons.AWSOrganizations]: {
+            hex:"E7157B",title:"AWS Organizations",source:"https://aws.amazon.com/architecture/icons",
         }
-        ,[SimpleIcons.AzurePipelines]: {
-            hex:"2560E0",title:"Azure Pipelines",source:"https://github.com/vscode-icons/vscode-icons/blob/dc7872262c9b059c574bd16fc4cfedbb6bdf156e/icons/file_type_azurepipelines.svg",
+        ,[SimpleIcons.AWSSecretsManager]: {
+            hex:"DD344C",title:"AWS Secrets Manager",source:"https://aws.amazon.com/architecture/icons",
+        }
+        ,[SimpleIcons.Awwwards]: {
+            hex:"222222",title:"Awwwards",source:"https://www.awwwards.com",
+        }
+        ,[SimpleIcons.Axios]: {
+            hex:"5A29E4",title:"Axios",source:"https://github.com/axios/axios-docs/blob/ba35d67160f94419c1b0292831cd1a4b378adb42/assets/logo.svg",
         }
         ,[SimpleIcons.B_RAutomation]: {
-            hex:"FF8800",title:"B&R Automation",source:"https://www.br-automation.com/",
+            hex:"FF8800",title:"B&R Automation",source:"https://www.br-automation.com",
         }
         ,[SimpleIcons.Babel]: {
             hex:"F9DC3E",title:"Babel",source:"https://github.com/babel/website/blob/93330158b6ecca1ab88d3be8dbf661f5c2da6c76/website/static/img/babel-black.svg",
         }
-        ,[SimpleIcons.Badgr]: {
-            hex:"282C4C",title:"Badgr",source:"https://info.badgr.com/",
+        ,[SimpleIcons.Babelio]: {
+            hex:"FBB91E",title:"Babelio",source:"https://www.babelio.com",
+        }
+        ,[SimpleIcons.BabylonJs]: {
+            hex:"BB464B",title:"Babylon.js",source:"https://github.com/BabylonJS/Brand-Toolkit/blob/8583d4d9bf252a233fa480fa02ac6f367d5207a1/babylon_logo/monochrome/babylon_logo_monochrome_dark.svg",
+        }
+        ,[SimpleIcons.Backblaze]: {
+            hex:"E21E29",title:"Backblaze",source:"https://www.backblaze.com/company/news.html",
+        }
+        ,[SimpleIcons.BackboneJs]: {
+            hex:"0071B5",title:"Backbone.js",source:"https://commons.wikimedia.org/wiki/File:Backbone.js_logo.svg",
+        }
+        ,[SimpleIcons.Backendless]: {
+            hex:"1D77BD",title:"Backendless",source:"https://backendless.com",
+        }
+        ,[SimpleIcons.Backstage]: {
+            hex:"9BF0E1",title:"Backstage",source:"https://github.com/backstage/backstage/blob/862f2517188849dd7467d059edeb8692e6933c35/microsite/static/logo_assets/svg/Icon_Teal.svg",
         }
         ,[SimpleIcons.Badoo]: {
-            hex:"783BF9",title:"Badoo",source:"https://badoo.com/team/press/",
+            hex:"783BF9",title:"Badoo",source:"https://badoo.com",
         }
         ,[SimpleIcons.Baidu]: {
             hex:"2932E1",title:"Baidu",source:"https://www.baidu.com",
         }
+        ,[SimpleIcons.Bakal__i]: {
+            hex:"00A2E2",title:"Bakaláři",source:"https://konference.bakalari.cz",
+        }
         ,[SimpleIcons.Bamboo]: {
             hex:"0052CC",title:"Bamboo",source:"https://www.atlassian.design/guidelines/marketing/resources/logo-files",
+        }
+        ,[SimpleIcons.BambuLab]: {
+            hex:"00AE42",title:"Bambu Lab",source:"https://bambulab.com",
         }
         ,[SimpleIcons.Bandcamp]: {
             hex:"408294",title:"Bandcamp",source:"https://bandcamp.com/buttons",
         }
         ,[SimpleIcons.BandLab]: {
-            hex:"DC3710",title:"BandLab",source:"https://blog.bandlab.com/press/",
+            hex:"F12C18",title:"BandLab",source:"https://www.bandlab.com",
         }
         ,[SimpleIcons.Bandsintown]: {
-            hex:"00CEC8",title:"Bandsintown",source:"https://corp.bandsintown.com/media-library",
+            hex:"00CEC8",title:"Bandsintown",source:"https://www.company.bandsintown.com/brand-assets",
         }
         ,[SimpleIcons.BankOfAmerica]: {
-            hex:"012169",title:"Bank of America",source:"https://www.bankofamerica.com/",
+            hex:"012169",title:"Bank of America",source:"https://www.bankofamerica.com",
         }
         ,[SimpleIcons.Barclays]: {
-            hex:"00AEEF",title:"Barclays",source:"https://home.barclays/",
+            hex:"00AEEF",title:"Barclays",source:"https://home.barclays",
         }
         ,[SimpleIcons.Baremetrics]: {
-            hex:"6078FF",title:"Baremetrics",source:"https://baremetrics.com/",
+            hex:"6078FF",title:"Baremetrics",source:"https://baremetrics.com",
+        }
+        ,[SimpleIcons.Barmenia]: {
+            hex:"009FE3",title:"Barmenia",source:"https://barmenia.de",
         }
         ,[SimpleIcons.Basecamp]: {
             hex:"1D2D35",title:"Basecamp",source:"https://basecamp.com/about/press",
         }
-        ,[SimpleIcons.Bata]: {
-            hex:"DD282E",title:"Bata",source:"https://www.bata.com/",
+        ,[SimpleIcons.BasicAttentionToken]: {
+            hex:"80247B",title:"Basic Attention Token",source:"https://brave.com/media-assets",
         }
-        ,[SimpleIcons.BathASU]: {
-            hex:"00A3E0",title:"Bath ASU",source:"https://bathasu.com/press/",
+        ,[SimpleIcons.Bastyon]: {
+            hex:"00A4FF",title:"Bastyon",source:"https://github.com/pocketnetteam/pocketnet.gui/blob/978201dca0d63bc87c4c66513a67f085f2f51d83/img/logo.svg",
+        }
+        ,[SimpleIcons.Bat]: {
+            hex:"31369E",title:"bat",source:"https://github.com/sharkdp/bat/blob/018a4826211b8b486883b720a5daa65eca2d4604/doc/logo-header.svg",
+        }
+        ,[SimpleIcons.Bata]: {
+            hex:"DD282E",title:"Bata",source:"https://www.bata.com",
         }
         ,[SimpleIcons.BattleNet]: {
-            hex:"00AEFF",title:"Battle.net",source:"https://www.blizzard.com/en-gb/",
+            hex:"4381C3",title:"Battle.net",source:"https://battle.net",
         }
-        ,[SimpleIcons.BBC]: {
-            hex:"000000",title:"BBC",source:"https://commons.wikimedia.org/wiki/File:BBC.svg",
-        }
-        ,[SimpleIcons.BBCIPlayer]: {
-            hex:"F54997",title:"BBC iPlayer",source:"https://www.bbc.co.uk/iplayer",
+        ,[SimpleIcons.Bazel]: {
+            hex:"43A047",title:"Bazel",source:"https://bazel.build",
         }
         ,[SimpleIcons.Beatport]: {
-            hex:"A8E00F",title:"Beatport",source:"https://support.beatport.com/hc/en-us/articles/200353255-Beatport-Logos-and-Images",
+            hex:"01FF95",title:"Beatport",source:"https://www.beatport.com",
         }
         ,[SimpleIcons.Beats]: {
-            hex:"005571",title:"Beats",source:"https://www.elastic.co/brand",
+            hex:"005571",title:"Beats",source:"https://www.elastic.co/beats",
         }
         ,[SimpleIcons.BeatsByDre]: {
-            hex:"E01F3D",title:"Beats by Dre",source:"https://www.beatsbydre.com/",
+            hex:"E01F3D",title:"Beats by Dre",source:"https://www.beatsbydre.com",
+        }
+        ,[SimpleIcons.BeatStars]: {
+            hex:"EB0000",title:"BeatStars",source:"https://beatstars.world/brand-guidelines",
+        }
+        ,[SimpleIcons.BeekeeperStudio]: {
+            hex:"FAD83B",title:"Beekeeper Studio",source:"https://www.beekeeperstudio.io/press",
         }
         ,[SimpleIcons.Behance]: {
-            hex:"1769FF",title:"Behance",source:"https://www.behance.net/dev/api/brand",
+            hex:"1769FF",title:"Behance",source:"https://www.behance.net",
         }
         ,[SimpleIcons.BeijingSubway]: {
             hex:"004A9D",title:"Beijing Subway",source:"https://zh.wikipedia.org/wiki/File:Beijing_Subway_Logo.svg",
         }
+        ,[SimpleIcons.BEM]: {
+            hex:"000000",title:"BEM",source:"https://en.bem.info",
+        }
         ,[SimpleIcons.Bentley]: {
             hex:"333333",title:"Bentley",source:"https://en.wikipedia.org/wiki/File:Bentley_logo_2.svg",
         }
+        ,[SimpleIcons.Bento]: {
+            hex:"768CFF",title:"Bento",source:"https://bento.me",
+        }
+        ,[SimpleIcons.BentoBox]: {
+            hex:"F15541",title:"BentoBox",source:"https://www.getbento.com",
+        }
+        ,[SimpleIcons.BentoML]: {
+            hex:"000000",title:"BentoML",source:"https://github.com/bentoml/BentoML/blob/2169ebe9bc74e3d89ceba5dda8f8e1b85f08efa5/docs/source/_static/img/logo-light.svg",
+        }
+        ,[SimpleIcons.BeReal]: {
+            hex:"000000",title:"BeReal",source:"https://bereal.com",
+        }
         ,[SimpleIcons.Betfair]: {
-            hex:"FFB80B",title:"Betfair",source:"https://partnerships.betfair.com/",
+            hex:"FFB80B",title:"Betfair",source:"https://www.betfair.com",
+        }
+        ,[SimpleIcons.BetterStack]: {
+            hex:"000000",title:"Better Stack",source:"https://betterstack.com",
+        }
+        ,[SimpleIcons.Bevy]: {
+            hex:"232326",title:"Bevy",source:"https://github.com/bevyengine/bevy/blob/371c90f6faecf318ff66e3c6efa6f9f48781f63f/assets/branding/bevy_bird_simpleicons.svg",
         }
         ,[SimpleIcons.BigCartel]: {
             hex:"222222",title:"Big Cartel",source:"https://www.bigcartel.com",
         }
         ,[SimpleIcons.Bigbasket]: {
-            hex:"A5CD39",title:"bigbasket",source:"https://www.bigbasket.com/",
+            hex:"A5CD39",title:"bigbasket",source:"https://www.bigbasket.com",
+        }
+        ,[SimpleIcons.BigBlueButton]: {
+            hex:"283274",title:"BigBlueButton",source:"https://github.com/bigbluebutton/bbb-app-rooms/blob/0fcf9636a3ba683296326f46354265917c4f0ea4/app/assets/images/icon.svg",
         }
         ,[SimpleIcons.BigCommerce]: {
-            hex:"121118",title:"BigCommerce",source:"https://www.bigcommerce.co.uk/press/media-kit/",
+            hex:"121118",title:"BigCommerce",source:"https://www.bigcommerce.co.uk/press",
         }
         ,[SimpleIcons.Bilibili]: {
-            hex:"00A1D6",title:"Bilibili",source:"https://www.bilibili.com/",
+            hex:"00A1D6",title:"Bilibili",source:"https://www.bilibili.com",
+        }
+        ,[SimpleIcons.Billboard]: {
+            hex:"000000",title:"Billboard",source:"https://www.billboard.com",
+        }
+        ,[SimpleIcons.BIM]: {
+            hex:"EB1928",title:"BIM",source:"https://commons.wikimedia.org/wiki/File:Bim_(company)_logo.svg",
+        }
+        ,[SimpleIcons.Binance]: {
+            hex:"F0B90B",title:"Binance",source:"https://binance.com",
+        }
+        ,[SimpleIcons.BioLink]: {
+            hex:"000000",title:"Bio Link",source:"https://bio.link",
+        }
+        ,[SimpleIcons.Biome]: {
+            hex:"60A5FA",title:"Biome",source:"https://github.com/biomejs/resources/blob/551f36498dfe34b24bc7755fcdd0fa501b757cf4/svg/icon-light-mono.svg",
+        }
+        ,[SimpleIcons.BisectHosting]: {
+            hex:"0D1129",title:"BisectHosting",source:"https://www.bisecthosting.com",
         }
         ,[SimpleIcons.Bit]: {
-            hex:"73398D",title:"Bit",source:"https://bit.dev",
+            hex:"592EC1",title:"Bit",source:"https://bit.dev",
         }
         ,[SimpleIcons.Bitbucket]: {
-            hex:"0052CC",title:"Bitbucket",source:"https://www.atlassian.com/company/news/press-kit",
+            hex:"0052CC",title:"Bitbucket",source:"https://atlassian.design/resources/logo-library",
         }
         ,[SimpleIcons.Bitcoin]: {
-            hex:"F7931A",title:"Bitcoin",source:"https://bitcoin.org/en",
+            hex:"F7931A",title:"Bitcoin",source:"https://bitcoin.org",
         }
         ,[SimpleIcons.BitcoinCash]: {
-            hex:"0AC18E",title:"Bitcoin Cash",source:"https://www.bitcoincash.org/graphics/",
+            hex:"0AC18E",title:"Bitcoin Cash",source:"https://www.bitcoincash.org/graphics",
         }
         ,[SimpleIcons.BitcoinSV]: {
-            hex:"EAB300",title:"Bitcoin SV",source:"https://bitcoinsv.com/",
+            hex:"EAB300",title:"Bitcoin SV",source:"https://bitcoinsv.com",
+        }
+        ,[SimpleIcons.BitComet]: {
+            hex:"F49923",title:"BitComet",source:"https://en.wikipedia.org/wiki/File:BitComet_logo.svg",
         }
         ,[SimpleIcons.Bitdefender]: {
-            hex:"ED1C24",title:"Bitdefender",source:"https://www.bitdefender.com/funzone/logos.html",
+            hex:"ED1C24",title:"Bitdefender",source:"https://brand.bitdefender.com",
         }
         ,[SimpleIcons.Bitly]: {
             hex:"EE6123",title:"Bitly",source:"https://bitly.com/pages/press",
@@ -10323,26 +16877,35 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Bitrise]: {
             hex:"683D87",title:"Bitrise",source:"https://www.bitrise.io/presskit",
         }
+        ,[SimpleIcons.BitTorrent]: {
+            hex:"050505",title:"BitTorrent",source:"https://www.bittorrent.com/products",
+        }
         ,[SimpleIcons.Bitwarden]: {
             hex:"175DDC",title:"Bitwarden",source:"https://github.com/bitwarden/brand/blob/6182cd64321d810c6f6255db08c2a17804d2b724/icons/icon.svg",
         }
         ,[SimpleIcons.Bitwig]: {
-            hex:"FF5A00",title:"Bitwig",source:"https://www.bitwig.com/",
+            hex:"FF5A00",title:"Bitwig",source:"https://www.bitwig.com",
         }
         ,[SimpleIcons.Blackberry]: {
-            hex:"000000",title:"Blackberry",source:"https://www.blackberry.com/",
+            hex:"000000",title:"Blackberry",source:"https://www.blackberry.com",
+        }
+        ,[SimpleIcons.BlackmagicDesign]: {
+            hex:"FFA200",title:"Blackmagic Design",source:"https://www.blackmagicdesign.com",
         }
         ,[SimpleIcons.Blazemeter]: {
-            hex:"CA2133",title:"Blazemeter",source:"https://www.blazemeter.com/",
+            hex:"CA2133",title:"Blazemeter",source:"https://www.blazemeter.com",
         }
         ,[SimpleIcons.Blazor]: {
-            hex:"512BD4",title:"Blazor",source:"https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor",
+            hex:"512BD4",title:"Blazor",source:"https://commons.wikimedia.org/wiki/File:Blazor.png",
         }
         ,[SimpleIcons.Blender]: {
-            hex:"F5792A",title:"Blender",source:"https://www.blender.org/about/logo/",
+            hex:"E87D0D",title:"Blender",source:"https://www.blender.org/about/logo",
+        }
+        ,[SimpleIcons.Blockbench]: {
+            hex:"1E93D9",title:"Blockbench",source:"https://www.blockbench.net/wiki/blockbench/logos",
         }
         ,[SimpleIcons.BlockchainCom]: {
-            hex:"121D33",title:"Blockchain.com",source:"https://www.blockchain.com/",
+            hex:"121D33",title:"Blockchain.com",source:"https://www.blockchain.com/en/press",
         }
         ,[SimpleIcons.Blogger]: {
             hex:"FF5722",title:"Blogger",source:"https://www.blogger.com",
@@ -10351,40 +16914,82 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"000000",title:"Bloglovin",source:"https://www.bloglovin.com/widgets",
         }
         ,[SimpleIcons.Blueprint]: {
-            hex:"137CBD",title:"Blueprint",source:"https://blueprintjs.com",
+            hex:"137CBD",title:"Blueprint",source:"https://blueprintjs.com/docs",
+        }
+        ,[SimpleIcons.Bluesky]: {
+            hex:"0285FF",title:"Bluesky",source:"https://github.com/FortAwesome/Font-Awesome/issues/19810#issuecomment-1854999604",
+        }
+        ,[SimpleIcons.Bluesound]: {
+            hex:"0F131E",title:"Bluesound",source:"https://www.bluesound.com/products/node-x",
         }
         ,[SimpleIcons.Bluetooth]: {
-            hex:"0082FC",title:"Bluetooth",source:"https://www.bluetooth.com/develop-with-bluetooth/marketing-branding/",
+            hex:"0082FC",title:"Bluetooth",source:"https://www.bluetooth.com/develop-with-bluetooth/marketing-branding",
         }
         ,[SimpleIcons.BMCSoftware]: {
-            hex:"FE5000",title:"BMC Software",source:"https://www.bmc.com/",
+            hex:"FE5000",title:"BMC Software",source:"https://www.bmc.com",
         }
         ,[SimpleIcons.BMW]: {
-            hex:"0066B1",title:"BMW",source:"https://www.bmw.de/",
+            hex:"0066B1",title:"BMW",source:"https://www.bmw.de",
+        }
+        ,[SimpleIcons.BNBChain]: {
+            hex:"F0B90B",title:"BNB Chain",source:"https://www.bnbchain.org",
+        }
+        ,[SimpleIcons.BoardGameGeek]: {
+            hex:"FF5100",title:"BoardGameGeek",source:"https://boardgamegeek.com",
+        }
+        ,[SimpleIcons.BoAt]: {
+            hex:"E20722",title:"boAt",source:"https://www.boat-lifestyle.com",
+        }
+        ,[SimpleIcons.BoehringerIngelheim]: {
+            hex:"00E47C",title:"Boehringer Ingelheim",source:"https://www.boehringer-ingelheim.com",
         }
         ,[SimpleIcons.Boeing]: {
             hex:"1D439C",title:"Boeing",source:"https://commons.wikimedia.org/wiki/File:Boeing_full_logo.svg",
         }
+        ,[SimpleIcons.Bombardier]: {
+            hex:"020203",title:"Bombardier",source:"https://bombardier.com",
+        }
+        ,[SimpleIcons.Bookalope]: {
+            hex:"DC2829",title:"Bookalope",source:"https://bookalope.net",
+        }
         ,[SimpleIcons.BookBub]: {
-            hex:"F44336",title:"BookBub",source:"https://insights.bookbub.com/bookbub-follow-bookmark-buttons-for-authors-websites/",
+            hex:"F44336",title:"BookBub",source:"https://insights.bookbub.com/bookbub-follow-bookmark-buttons-for-authors-websites",
         }
         ,[SimpleIcons.Bookmeter]: {
-            hex:"64BC4B",title:"Bookmeter",source:"https://bookmeter.com/",
+            hex:"64BC4B",title:"Bookmeter",source:"https://bookmeter.com",
+        }
+        ,[SimpleIcons.BookMyShow]: {
+            hex:"C4242B",title:"BookMyShow",source:"https://in.bookmyshow.com",
         }
         ,[SimpleIcons.BookStack]: {
-            hex:"0288D1",title:"BookStack",source:"https://www.bookstackapp.com/",
+            hex:"0288D1",title:"BookStack",source:"https://www.bookstackapp.com",
         }
         ,[SimpleIcons.Boost]: {
-            hex:"F7901E",title:"Boost",source:"https://www.boostmobile.com/",
+            hex:"F7901E",title:"Boost",source:"https://www.boostmobile.com",
+        }
+        ,[SimpleIcons.Boosty]: {
+            hex:"F15F2C",title:"Boosty",source:"https://boosty.to/app/brand",
+        }
+        ,[SimpleIcons.Boots]: {
+            hex:"05054B",title:"Boots",source:"https://www.boots-uk.com",
         }
         ,[SimpleIcons.Bootstrap]: {
-            hex:"7952B3",title:"Bootstrap",source:"http://getbootstrap.com/about",
+            hex:"7952B3",title:"Bootstrap",source:"https://getbootstrap.com/docs/5.3/about/brand",
+        }
+        ,[SimpleIcons.BorgBackup]: {
+            hex:"00DD00",title:"BorgBackup",source:"https://www.borgbackup.org",
         }
         ,[SimpleIcons.Bosch]: {
-            hex:"EA0016",title:"Bosch",source:"https://www.bosch.de/",
+            hex:"EA0016",title:"Bosch",source:"https://www.bosch.de",
         }
         ,[SimpleIcons.Bose]: {
-            hex:"000000",title:"Bose",source:"https://developer.bose.com/sites/default/files/Bose%20AR%20Design%20Guidelines%20v1.0.pdf",
+            hex:"000000",title:"Bose",source:"https://www.bose.com",
+        }
+        ,[SimpleIcons.BotbleCMS]: {
+            hex:"205081",title:"Botble CMS",source:"https://botble.com",
+        }
+        ,[SimpleIcons.Boulanger]: {
+            hex:"FD5300",title:"boulanger",source:"https://www.boulanger.com",
         }
         ,[SimpleIcons.Bower]: {
             hex:"EF5734",title:"Bower",source:"https://bower.io/docs/about/#brand",
@@ -10392,71 +16997,146 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Box]: {
             hex:"0061D5",title:"Box",source:"https://www.box.com/en-gb/about-us/press",
         }
+        ,[SimpleIcons.BoxySVG]: {
+            hex:"3584E3",title:"Boxy SVG",source:"https://boxy-svg.com/ideas/7/app-icon-redesign#comment-1953",
+        }
+        ,[SimpleIcons.Braintree]: {
+            hex:"000000",title:"Braintree",source:"https://www.braintreepayments.com/press",
+        }
         ,[SimpleIcons.Brandfolder]: {
             hex:"40D1F5",title:"Brandfolder",source:"https://brandfolder.com/brandfolder",
         }
         ,[SimpleIcons.Brave]: {
-            hex:"FB542B",title:"Brave",source:"https://brave.com/brave-branding-assets/",
+            hex:"FB542B",title:"Brave",source:"https://brave.com/brave-branding-assets",
         }
         ,[SimpleIcons.Breaker]: {
             hex:"003DAD",title:"Breaker",source:"https://www.breaker.audio/i/brand",
         }
+        ,[SimpleIcons.Brenntag]: {
+            hex:"1A0033",title:"Brenntag",source:"https://www.brenntag.com",
+        }
+        ,[SimpleIcons.Brevo]: {
+            hex:"0B996E",title:"Brevo",source:"https://www.brevo.com",
+        }
+        ,[SimpleIcons.Brex]: {
+            hex:"212121",title:"Brex",source:"https://www.brex.com/journal/press",
+        }
+        ,[SimpleIcons.Bricks]: {
+            hex:"FFD54D",title:"Bricks",source:"https://bricksbuilder.io",
+        }
         ,[SimpleIcons.BritishAirways]: {
-            hex:"2E5C99",title:"British Airways",source:"https://www.britishairways.com/travel/home/public/en_ie/",
+            hex:"2E5C99",title:"British Airways",source:"https://www.britishairways.com",
         }
         ,[SimpleIcons.Broadcom]: {
-            hex:"CC092F",title:"Broadcom",source:"https://en.wikipedia.org/wiki/Broadcom_Inc",
+            hex:"E31837",title:"Broadcom",source:"https://www.broadcom.com/support",
+        }
+        ,[SimpleIcons.Bruno]: {
+            hex:"F4AA41",title:"Bruno",source:"https://www.usebruno.com",
+        }
+        ,[SimpleIcons.BSD]: {
+            hex:"AB2B28",title:"BSD",source:"https://freebsdfoundation.org/about-us/about-the-foundation/project",
+        }
+        ,[SimpleIcons.Bspwm]: {
+            hex:"2E2E2E",title:"bspwm",source:"https://github.com/baskerville/bspwm/blob/8fc2269fe0f29a785885bcd9122812eae7226d7b/artworks/bspwm_logo.svg",
         }
         ,[SimpleIcons.BT]: {
-            hex:"6400AA",title:"BT",source:"https://www.bt.com/",
+            hex:"6400AA",title:"BT",source:"https://www.bt.com",
         }
         ,[SimpleIcons.Buddy]: {
             hex:"1A86FD",title:"Buddy",source:"https://buddy.works/about",
+        }
+        ,[SimpleIcons.Budibase]: {
+            hex:"000000",title:"Budibase",source:"https://github.com/Budibase/budibase/blob/6137ffd9a278ecb3e4dbb42af804c9652741699e/packages/builder/assets/bb-emblem.svg",
         }
         ,[SimpleIcons.Buefy]: {
             hex:"7957D5",title:"Buefy",source:"https://github.com/buefy/buefy/blob/a9a724efca0b531e6a64ab734889b00bf4507a9d/static/img/icons/safari-pinned-tab.svg",
         }
         ,[SimpleIcons.Buffer]: {
-            hex:"231F20",title:"Buffer",source:"https://buffer.com/press",
+            hex:"231F20",title:"Buffer",source:"https://buffer.com",
         }
         ,[SimpleIcons.Bugatti]: {
-            hex:"BE0030",title:"Bugatti",source:"https://www.bugatti.com/",
+            hex:"000000",title:"Bugatti",source:"https://newsroom.bugatti.com",
         }
         ,[SimpleIcons.Bugcrowd]: {
-            hex:"F26822",title:"Bugcrowd",source:"https://www.bugcrowd.com/about/press-kit/",
+            hex:"F26822",title:"Bugcrowd",source:"https://www.bugcrowd.com/about/press-kit",
         }
         ,[SimpleIcons.Bugsnag]: {
-            hex:"4949E4",title:"Bugsnag",source:"https://www.bugsnag.com/newsroom",
+            hex:"4949E4",title:"Bugsnag",source:"https://www.bugsnag.com",
+        }
+        ,[SimpleIcons.Buhl]: {
+            hex:"023E84",title:"Buhl",source:"https://buhl.de",
         }
         ,[SimpleIcons.Buildkite]: {
             hex:"14CC80",title:"Buildkite",source:"https://buildkite.com/brand-assets",
         }
+        ,[SimpleIcons.Bukalapak]: {
+            hex:"E31E52",title:"Bukalapak",source:"https://www.bukalapak.com",
+        }
         ,[SimpleIcons.Bulma]: {
-            hex:"00D1B2",title:"Bulma",source:"https://github.com/jgthms/bulma/",
+            hex:"00D1B2",title:"Bulma",source:"https://bulma.io/brand",
+        }
+        ,[SimpleIcons.Bun]: {
+            hex:"000000",title:"Bun",source:"https://bun.sh/press-kit",
+        }
+        ,[SimpleIcons.Bungie]: {
+            hex:"0075BB",title:"Bungie",source:"https://www.bungie.net/7/en/Destiny",
         }
         ,[SimpleIcons.Bunq]: {
-            hex:"3394D7",title:"bunq",source:"https://www.bunq.com/press/",
+            hex:"3394D7",title:"bunq",source:"https://press.bunq.com/media_kits",
+        }
+        ,[SimpleIcons.BurgerKing]: {
+            hex:"D62300",title:"Burger King",source:"https://www.bk.com",
+        }
+        ,[SimpleIcons.BurpSuite]: {
+            hex:"FF6633",title:"Burp Suite",source:"https://portswigger.net",
+        }
+        ,[SimpleIcons.Burton]: {
+            hex:"000000",title:"Burton",source:"https://brand.burton.com/logo",
         }
         ,[SimpleIcons.BuyMeACoffee]: {
             hex:"FFDD00",title:"Buy Me A Coffee",source:"https://www.buymeacoffee.com/brand",
         }
+        ,[SimpleIcons.BuySellAds]: {
+            hex:"EB4714",title:"BuySellAds",source:"https://docs.buysellads.com",
+        }
         ,[SimpleIcons.BuzzFeed]: {
             hex:"EE3322",title:"BuzzFeed",source:"https://www.buzzfeed.com/press/assets",
         }
-        ,[SimpleIcons.Byte]: {
-            hex:"551DEF",title:"byte",source:"https://byte.co/byte",
+        ,[SimpleIcons.BVG]: {
+            hex:"F0D722",title:"BVG",source:"https://www.bvg.de",
+        }
+        ,[SimpleIcons.Byju_s]: {
+            hex:"813588",title:"Byju's",source:"https://byjus.com/byjus-the-learning-app",
+        }
+        ,[SimpleIcons.ByteDance]: {
+            hex:"3C8CFF",title:"ByteDance",source:"https://www.bytedance.com",
         }
         ,[SimpleIcons.C]: {
             hex:"A8B9CC",title:"C",source:"https://commons.wikimedia.org/wiki/File:The_C_Programming_Language_logo.svg",
         }
-        ,[SimpleIcons.CSharp]: {
-            hex:"239120",title:"C Sharp",source:"https://upload.wikimedia.org/wikipedia/commons/0/0d/C_Sharp_wordmark.svg",
-        }
         ,[SimpleIcons.C__]: {
-            hex:"00599C",title:"C++",source:"https://github.com/isocpp/logos",
+            hex:"00599C",title:"C++",source:"https://github.com/isocpp/logos/tree/64ef037049f87ac74875dbe72695e59118b52186",
+        }
+        ,[SimpleIcons.C__Builder]: {
+            hex:"E62431",title:"C++ Builder",source:"https://www.embarcadero.com/news/logo",
         }
         ,[SimpleIcons.Cachet]: {
             hex:"7ED321",title:"Cachet",source:"https://cachethq.io/press",
+        }
+        ,[SimpleIcons.Caddy]: {
+            hex:"1F88C0",title:"Caddy",source:"https://caddyserver.com",
+        }
+        ,[SimpleIcons.Cadillac]: {
+            hex:"000000",title:"Cadillac",source:"https://www.cadillac.com",
+        }
+        ,[SimpleIcons.CafePress]: {
+            hex:"58A616",title:"CafePress",source:"https://en.wikipedia.org/wiki/CafePress#/media/File:CafePress_logo.svg",
+        }
+        ,[SimpleIcons.Caffeine]: {
+            hex:"0000FF",title:"Caffeine",source:"https://www.caffeine.tv",
+        }
+        ,[SimpleIcons.CairoGraphics]: {
+            hex:"F39914",title:"Cairo Graphics",source:"https://github.com/freedesktop/cairo/blob/44f808fce9f437e14f2b0ef4e1583def8ab578ae/doc/tutorial/slides/cairo-title.svg",
         }
         ,[SimpleIcons.CairoMetro]: {
             hex:"C10C0C",title:"Cairo Metro",source:"https://en.wikipedia.org/wiki/File:Cairo_metro_logo2012.svg",
@@ -10464,20 +17144,47 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.CakePHP]: {
             hex:"D33C43",title:"CakePHP",source:"https://cakephp.org/logos",
         }
+        ,[SimpleIcons.CalCom]: {
+            hex:"292929",title:"Cal.com",source:"https://design.cal.com/assets/logos",
+        }
+        ,[SimpleIcons.Calendly]: {
+            hex:"006BFF",title:"Calendly",source:"https://calendly.com/newsroom",
+        }
+        ,[SimpleIcons.CalibreWeb]: {
+            hex:"45B29D",title:"Calibre-Web",source:"https://github.com/janeczku/calibre-web/blob/ab11919c0bff5ddea1eed2bfd80fd7ea26f05710/cps/static/icon.svg",
+        }
         ,[SimpleIcons.CampaignMonitor]: {
             hex:"111324",title:"Campaign Monitor",source:"https://www.campaignmonitor.com/company/brand/",
         }
+        ,[SimpleIcons.Camunda]: {
+            hex:"FC5D0D",title:"Camunda",source:"https://camunda.com/brand",
+        }
         ,[SimpleIcons.Canonical]: {
-            hex:"77216F",title:"Canonical",source:"https://design.ubuntu.com/downloads/",
+            hex:"E95420",title:"Canonical",source:"https://design.ubuntu.com/resources",
         }
         ,[SimpleIcons.Canva]: {
-            hex:"00C4CC",title:"Canva",source:"https://www.canva.com/",
+            hex:"00C4CC",title:"Canva",source:"https://www.canva.com",
+        }
+        ,[SimpleIcons.Canvas]: {
+            hex:"E72429",title:"Canvas",source:"https://www.instructure.com/about/brand-guide/media-resources",
         }
         ,[SimpleIcons.Capacitor]: {
             hex:"119EFF",title:"Capacitor",source:"https://github.com/ionic-team/ionicons-site/blob/b0c97018d737b763301154231b34e1b882c0c84d/docs/ionicons/svg/logo-capacitor.svg",
         }
         ,[SimpleIcons.CarThrottle]: {
-            hex:"FF9C42",title:"Car Throttle",source:"https://www.carthrottle.com/",
+            hex:"FF9C42",title:"Car Throttle",source:"https://www.carthrottle.com",
+        }
+        ,[SimpleIcons.Cardano]: {
+            hex:"0133AD",title:"Cardano",source:"https://cardano.org/brand-assets/",
+        }
+        ,[SimpleIcons.CarlsbergGroup]: {
+            hex:"00321E",title:"Carlsberg Group",source:"https://www.carlsberggroup.com/who-we-are/about-the-carlsberg-group/design-guide",
+        }
+        ,[SimpleIcons.Carrd]: {
+            hex:"596CAF",title:"Carrd",source:"https://carrd.co/docs/general/brand-assets",
+        }
+        ,[SimpleIcons.Carrefour]: {
+            hex:"004E9F",title:"Carrefour",source:"https://upload.wikimedia.org/wikipedia/commons/5/5b/Carrefour_logo.svg",
         }
         ,[SimpleIcons.Carto]: {
             hex:"EB1510",title:"Carto",source:"https://carto.com/brand/",
@@ -10489,22 +17196,31 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"F55B23",title:"Castbox",source:"https://castbox.fm/newsroom/",
         }
         ,[SimpleIcons.Castorama]: {
-            hex:"0078D7",title:"Castorama",source:"https://www.castorama.fr/",
+            hex:"0078D7",title:"Castorama",source:"https://www.castorama.fr",
         }
         ,[SimpleIcons.Castro]: {
-            hex:"00B265",title:"Castro",source:"http://supertop.co/castro/press/",
+            hex:"00B265",title:"Castro",source:"https://supertop.co/castro/press/",
         }
         ,[SimpleIcons.Caterpillar]: {
             hex:"FFCD11",title:"Caterpillar",source:"https://commons.wikimedia.org/wiki/File:Caterpillar_logo.svg",
         }
+        ,[SimpleIcons.CBC]: {
+            hex:"E60505",title:"CBC",source:"https://www.cbc.ca",
+        }
         ,[SimpleIcons.CBS]: {
-            hex:"033963",title:"CBS",source:"https://www.cbs.com/",
+            hex:"033963",title:"CBS",source:"https://www.cbs.com",
+        }
+        ,[SimpleIcons.CCleaner]: {
+            hex:"CB2D29",title:"CCleaner",source:"https://www.ccleaner.com",
         }
         ,[SimpleIcons.CDProjekt]: {
             hex:"DC0D15",title:"CD Projekt",source:"https://www.cdprojekt.com/en/media/logotypes/",
         }
         ,[SimpleIcons.Celery]: {
             hex:"37814A",title:"Celery",source:"https://github.com/celery/celery/blob/4d77ddddb10797011dc10dd2e4e1e7a7467b8431/docs/images/favicon.ico",
+        }
+        ,[SimpleIcons.Celestron]: {
+            hex:"F47216",title:"Celestron",source:"https://www.celestron.com",
         }
         ,[SimpleIcons.CentOS]: {
             hex:"262577",title:"CentOS",source:"https://wiki.centos.org/ArtWork/Brand/Logo",
@@ -10518,14 +17234,23 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Chai]: {
             hex:"A30701",title:"Chai",source:"https://github.com/simple-icons/simple-icons/issues/4983#issuecomment-796736373",
         }
+        ,[SimpleIcons.Chainguard]: {
+            hex:"4445E7",title:"Chainguard",source:"https://www.chainguard.dev",
+        }
         ,[SimpleIcons.Chainlink]: {
             hex:"375BD2",title:"Chainlink",source:"https://chain.link/brand-assets",
         }
         ,[SimpleIcons.ChakraUI]: {
             hex:"319795",title:"Chakra UI",source:"https://github.com/chakra-ui/chakra-ui/blob/327e1624d22936abb43068e1f57054e43c9c6819/logo/logomark-colored.svg",
         }
+        ,[SimpleIcons.Channel4]: {
+            hex:"AAFF89",title:"Channel 4",source:"https://mediaassets.channel4.com/guidelines/guide/34286b7b-ea25-404d-a43b-e912fc85b0e0/page/8a2dd59a-51df-4f47-aa37-c235a761455e",
+        }
+        ,[SimpleIcons.Charles]: {
+            hex:"F3F5F5",title:"Charles",source:"https://www.charlesproxy.com",
+        }
         ,[SimpleIcons.ChartJs]: {
-            hex:"FF6384",title:"Chart.js",source:"https://www.chartjs.org/",
+            hex:"FF6384",title:"Chart.js",source:"https://www.chartjs.org",
         }
         ,[SimpleIcons.ChartMogul]: {
             hex:"13324B",title:"ChartMogul",source:"https://chartmogul.com/company/",
@@ -10534,7 +17259,10 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"117ACA",title:"Chase",source:"https://commons.wikimedia.org/wiki/File:Chase_logo_2007.svg",
         }
         ,[SimpleIcons.ChatBot]: {
-            hex:"FFD000",title:"ChatBot",source:"https://chatbot.design/",
+            hex:"0066FF",title:"ChatBot",source:"https://chatbot.design",
+        }
+        ,[SimpleIcons.Chatwoot]: {
+            hex:"1F93FF",title:"Chatwoot",source:"https://www.chatwoot.com",
         }
         ,[SimpleIcons.CheckiO]: {
             hex:"008DB6",title:"CheckiO",source:"https://py.checkio.org/blog/",
@@ -10542,11 +17270,29 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Checkmarx]: {
             hex:"54B848",title:"Checkmarx",source:"https://www.checkmarx.com/resources/datasheets/",
         }
+        ,[SimpleIcons.Checkmk]: {
+            hex:"15D1A0",title:"Checkmk",source:"https://checkmk.com",
+        }
+        ,[SimpleIcons.Chedraui]: {
+            hex:"E0832F",title:"Chedraui",source:"https://www.chedraui.com.mx",
+        }
+        ,[SimpleIcons.Cheerio]: {
+            hex:"E88C1F",title:"Cheerio",source:"https://github.com/cheeriojs/cheerio/blob/60b538772c34f2dd93e9c62e410b2751d0a69ff3/website/static/img/orange-c.svg",
+        }
         ,[SimpleIcons.Chef]: {
-            hex:"F09820",title:"Chef",source:"https://www.chef.io/",
+            hex:"F09820",title:"Chef",source:"https://www.chef.io",
+        }
+        ,[SimpleIcons.Chemex]: {
+            hex:"4D2B1A",title:"Chemex",source:"https://vtlogo.com/chemex-coffeemaker-vector-logo-svg/",
+        }
+        ,[SimpleIcons.ChessCom]: {
+            hex:"81B64C",title:"Chess.com",source:"https://www.chess.com/article/view/chess-com-brand-resources",
         }
         ,[SimpleIcons.Chevrolet]: {
             hex:"CD9834",title:"Chevrolet",source:"https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/shopping-tools/download-catalog/02-pdf/2019-chevrolet-corvette-catalog.pdf",
+        }
+        ,[SimpleIcons.ChiaNetwork]: {
+            hex:"5ECE71",title:"Chia Network",source:"https://www.chia.net/branding/",
         }
         ,[SimpleIcons.ChinaEasternAirlines]: {
             hex:"1A2477",title:"China Eastern Airlines",source:"https://uk.ceair.com/newCMS/uk/en/content/en_Footer/Support/201904/t20190404_5763.html",
@@ -10557,41 +17303,74 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Chocolatey]: {
             hex:"80B5E3",title:"Chocolatey",source:"https://chocolatey.org/media-kit",
         }
+        ,[SimpleIcons.Chromatic]: {
+            hex:"FC521F",title:"Chromatic",source:"https://www.chromatic.com",
+        }
+        ,[SimpleIcons.ChromeWebStore]: {
+            hex:"4285F4",title:"Chrome Web Store",source:"https://chromewebstore.google.com",
+        }
+        ,[SimpleIcons.Chromecast]: {
+            hex:"999999",title:"Chromecast",source:"https://www.google.com/intl/en_us/chromecast/built-in/",
+        }
         ,[SimpleIcons.Chrysler]: {
             hex:"000000",title:"Chrysler",source:"https://www.stellantis.com/en/brands/chrysler",
         }
         ,[SimpleIcons.ChupaChups]: {
-            hex:"CF103E",title:"Chupa Chups",source:"https://www.chupachups.co.uk/",
+            hex:"CF103E",title:"Chupa Chups",source:"https://www.chupachups.co.uk",
+        }
+        ,[SimpleIcons.Cilium]: {
+            hex:"F8C517",title:"Cilium",source:"https://github.com/cilium/cilium/blob/774a91f0e7497d9c9085234005ec81f1065c3783/Documentation/images/logo-solo.svg",
         }
         ,[SimpleIcons.Cinema4D]: {
             hex:"011A6A",title:"Cinema 4D",source:"https://www.maxon.net/en/about-maxon/branding",
         }
         ,[SimpleIcons.Circle]: {
-            hex:"8669AE",title:"Circle",source:"https://www.circle.com/",
+            hex:"8669AE",title:"Circle",source:"https://www.circle.com",
         }
         ,[SimpleIcons.CircleCI]: {
             hex:"343434",title:"CircleCI",source:"https://circleci.com/press",
+        }
+        ,[SimpleIcons.CircuitVerse]: {
+            hex:"42B883",title:"CircuitVerse",source:"https://circuitverse.org",
         }
         ,[SimpleIcons.CirrusCI]: {
             hex:"4051B5",title:"Cirrus CI",source:"https://cirrus-ci.org",
         }
         ,[SimpleIcons.Cisco]: {
-            hex:"1BA0D7",title:"Cisco",source:"https://www.cisco.com/",
+            hex:"1BA0D7",title:"Cisco",source:"https://www.cisco.com",
         }
         ,[SimpleIcons.Citrix]: {
-            hex:"452170",title:"Citrix",source:"https://brand.citrix.com/",
+            hex:"452170",title:"Citrix",source:"https://brand.citrix.com",
         }
         ,[SimpleIcons.Citro_n]: {
-            hex:"6E6E6E",title:"Citroën",source:"https://citroen.pcaci.co.uk/logo.php",
+            hex:"DA291C",title:"Citroën",source:"https://www.stellantis.com/en/brands/citroen",
         }
         ,[SimpleIcons.CiviCRM]: {
             hex:"81C459",title:"CiviCRM",source:"https://civicrm.org/trademark",
         }
+        ,[SimpleIcons.Civo]: {
+            hex:"239DFF",title:"Civo",source:"https://www.civo.com/brand-assets",
+        }
         ,[SimpleIcons.CKEditor4]: {
             hex:"0287D0",title:"CKEditor 4",source:"https://github.com/ckeditor/ckeditor4/blob/7d8305ce4d12683853a563b9d6ea54e0d4686a2f/samples/img/logo.svg",
         }
+        ,[SimpleIcons.Clarifai]: {
+            hex:"1955FF",title:"Clarifai",source:"https://www.clarifai.com",
+        }
         ,[SimpleIcons.Claris]: {
-            hex:"000000",title:"Claris",source:"https://www.claris.com/",
+            hex:"000000",title:"Claris",source:"https://www.claris.com",
+        }
+        ,[SimpleIcons.Clarivate]: {
+            hex:"93FF9E",title:"Clarivate",source:"https://clarivate.com",
+        }
+        ,[SimpleIcons.Clerk]: {
+            hex:"6C47FF",title:"Clerk",source:"https://clerk.com",
+        }
+        ,[SimpleIcons.CleverCloud]: {
+            hex:"171C36",title:"Clever Cloud",source:"https://www.clever-cloud.com",
+        }
+        ,[SimpleIcons.ClickHouse]: {
+            hex:"FFCC01",title:"ClickHouse",source:"https://github.com/ClickHouse/ClickHouse/blob/12bd453a43819176d25ecf247033f6cb1af54beb/website/images/logo-clickhouse.svg",
         }
         ,[SimpleIcons.ClickUp]: {
             hex:"7B68EE",title:"ClickUp",source:"https://clickup.com/brand",
@@ -10609,52 +17388,82 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"5881D8",title:"Clojure",source:"https://commons.wikimedia.org/wiki/File:Clojure_logo.svg",
         }
         ,[SimpleIcons.Cloud66]: {
-            hex:"3C72B9",title:"Cloud 66",source:"https://www.cloud66.com/",
+            hex:"3C72B9",title:"Cloud 66",source:"https://www.cloud66.com",
+        }
+        ,[SimpleIcons.CloudFoundry]: {
+            hex:"0C9ED5",title:"Cloud Foundry",source:"https://www.cloudfoundry.org",
         }
         ,[SimpleIcons.CloudBees]: {
-            hex:"1997B5",title:"CloudBees",source:"https://www.cloudbees.com/",
+            hex:"1997B5",title:"CloudBees",source:"https://www.cloudbees.com",
         }
         ,[SimpleIcons.CloudCannon]: {
-            hex:"407AFC",title:"CloudCannon",source:"https://cloudcannon.com/",
+            hex:"407AFC",title:"CloudCannon",source:"https://cloudcannon.com",
         }
         ,[SimpleIcons.Cloudera]: {
-            hex:"F96702",title:"Cloudera",source:"https://www.cloudera.com/",
+            hex:"F96702",title:"Cloudera",source:"https://www.cloudera.com",
         }
         ,[SimpleIcons.Cloudflare]: {
             hex:"F38020",title:"Cloudflare",source:"https://www.cloudflare.com/logo/",
         }
+        ,[SimpleIcons.CloudflarePages]: {
+            hex:"F38020",title:"Cloudflare Pages",source:"https://pages.cloudflare.com",
+        }
+        ,[SimpleIcons.CloudflareWorkers]: {
+            hex:"F38020",title:"Cloudflare Workers",source:"https://www.cloudflare.com/developer-platform/products/",
+        }
+        ,[SimpleIcons.Cloudinary]: {
+            hex:"3448C5",title:"Cloudinary",source:"https://cloudinary.com",
+        }
+        ,[SimpleIcons.Cloudron]: {
+            hex:"03A9F4",title:"Cloudron",source:"https://www.cloudron.io/brand-assets.html",
+        }
         ,[SimpleIcons.Cloudsmith]: {
-            hex:"187EB6",title:"Cloudsmith",source:"https://cloudsmith.io/branding/",
+            hex:"2A6FE1",title:"Cloudsmith",source:"https://cloudsmith.com/company/brand/",
         }
         ,[SimpleIcons.Cloudways]: {
             hex:"2C39BD",title:"Cloudways",source:"https://www.cloudways.com/en/media-kit.php",
         }
+        ,[SimpleIcons.Clubforce]: {
+            hex:"191176",title:"Clubforce",source:"https://clubforce.com/media-centre",
+        }
         ,[SimpleIcons.Clubhouse]: {
-            hex:"6515DD",title:"Clubhouse",source:"https://brand.clubhouse.io/",
+            hex:"FFE450",title:"Clubhouse",source:"https://www.clubhouse.com/press",
         }
         ,[SimpleIcons.Clyp]: {
-            hex:"3CBDB1",title:"Clyp",source:"https://clyp.it/",
+            hex:"3CBDB1",title:"Clyp",source:"https://clyp.it",
         }
         ,[SimpleIcons.CMake]: {
             hex:"064F8C",title:"CMake",source:"https://www.kitware.com/platforms/",
         }
+        ,[SimpleIcons.CNCF]: {
+            hex:"231F20",title:"CNCF",source:"https://github.com/cncf/artwork/blob/d2ed716cc0769e6c65d2e58f9a503fca02b60a56/examples/other.md#cncf-logos",
+        }
+        ,[SimpleIcons.CNET]: {
+            hex:"E71D1D",title:"CNET",source:"https://www.cnet.com",
+        }
         ,[SimpleIcons.CNN]: {
-            hex:"CC0000",title:"CNN",source:"https://edition.cnn.com/",
+            hex:"CC0000",title:"CNN",source:"https://edition.cnn.com",
         }
         ,[SimpleIcons.CoOp]: {
-            hex:"00B1E7",title:"Co-op",source:"http://www.co-operative.coop/corporate/press/logos/",
+            hex:"00B1E7",title:"Co-op",source:"https://www.co-operative.coop/media/assets",
+        }
+        ,[SimpleIcons.CocaCola]: {
+            hex:"D00013",title:"Coca Cola",source:"https://upload.wikimedia.org/wikipedia/commons/c/ce/Coca-Cola_logo.svg",
+        }
+        ,[SimpleIcons.Cockpit]: {
+            hex:"0066CC",title:"Cockpit",source:"https://github.com/cockpit-project/cockpit-project.github.io/blob/b851b3477d90017961ac9b252401c9a6cb6239f1/images/site/cockpit-logo.svg",
         }
         ,[SimpleIcons.CockroachLabs]: {
-            hex:"6933FF",title:"Cockroach Labs",source:"https://www.cockroachlabs.com/",
+            hex:"6933FF",title:"Cockroach Labs",source:"https://www.cockroachlabs.com",
         }
         ,[SimpleIcons.CocoaPods]: {
-            hex:"EE3322",title:"CocoaPods",source:"https://github.com/CocoaPods/shared_resources",
+            hex:"EE3322",title:"CocoaPods",source:"https://github.com/CocoaPods/shared_resources/tree/3125baf19976bd240c86459645f45b68d2facd10",
         }
         ,[SimpleIcons.Cocos]: {
             hex:"55C2E1",title:"Cocos",source:"https://www.cocos.com/en/",
         }
         ,[SimpleIcons.Coda]: {
-            hex:"F46A54",title:"Coda",source:"https://coda.io/",
+            hex:"F46A54",title:"Coda",source:"https://coda.io",
         }
         ,[SimpleIcons.Codacy]: {
             hex:"222F29",title:"Codacy",source:"https://www.codacy.com/blog/",
@@ -10662,59 +17471,80 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.CodeClimate]: {
             hex:"000000",title:"Code Climate",source:"https://codeclimate.com/github/codeclimate/python-test-reporter/badges/",
         }
+        ,[SimpleIcons.Code__Blocks]: {
+            hex:"41AD48",title:"Code::Blocks",source:"https://wiki.codeblocks.org/index.php/Main_Page",
+        }
         ,[SimpleIcons.Codeberg]: {
             hex:"2185D0",title:"Codeberg",source:"https://codeberg.org",
         }
         ,[SimpleIcons.Codecademy]: {
-            hex:"1F4056",title:"Codecademy",source:"https://www.codecademy.com/",
+            hex:"1F4056",title:"Codecademy",source:"https://www.codecademy.com",
         }
         ,[SimpleIcons.CodeceptJS]: {
             hex:"F6E05E",title:"CodeceptJS",source:"https://github.com/codeceptjs/codeceptjs.github.io/blob/c7917445b9a70a9daacf20986c403c3299f5c960/favicon/safari-pinned-tab.svg",
         }
         ,[SimpleIcons.CodeChef]: {
-            hex:"5B4638",title:"CodeChef",source:"https://www.codechef.com/",
+            hex:"5B4638",title:"CodeChef",source:"https://www.codechef.com",
         }
         ,[SimpleIcons.Codecov]: {
-            hex:"F01F7A",title:"Codecov",source:"https://codecov.io/",
+            hex:"F01F7A",title:"Codecov",source:"https://codecov.io",
         }
         ,[SimpleIcons.CodeFactor]: {
-            hex:"F44A6A",title:"CodeFactor",source:"https://www.codefactor.io/",
+            hex:"F44A6A",title:"CodeFactor",source:"https://www.codefactor.io",
         }
         ,[SimpleIcons.Codeforces]: {
-            hex:"1F8ACB",title:"Codeforces",source:"http://codeforces.com/",
+            hex:"1F8ACB",title:"Codeforces",source:"https://codeforces.com",
+        }
+        ,[SimpleIcons.Codefresh]: {
+            hex:"08B1AB",title:"Codefresh",source:"https://codefresh.io",
         }
         ,[SimpleIcons.CodeIgniter]: {
             hex:"EF4223",title:"CodeIgniter",source:"https://www.codeigniter.com/help/legal",
         }
+        ,[SimpleIcons.Codeium]: {
+            hex:"09B6A2",title:"Codeium",source:"https://github.com/Exafunction/codeium.vim/blob/e03c410a7673dbbe7f64afbc9a08f423363ded81/codeium-simple-logo.svg",
+        }
         ,[SimpleIcons.Codemagic]: {
-            hex:"F45E3F",title:"Codemagic",source:"https://codemagic.io/",
+            hex:"F45E3F",title:"Codemagic",source:"https://codemagic.io",
+        }
+        ,[SimpleIcons.Codementor]: {
+            hex:"003648",title:"Codementor",source:"https://www.codementor.io",
         }
         ,[SimpleIcons.CodeMirror]: {
             hex:"D30707",title:"CodeMirror",source:"https://github.com/codemirror/CodeMirror/blob/6e7aa65a8bfb64837ae9d082b674b2f5ee056d2c/doc/logo.svg",
         }
         ,[SimpleIcons.CodeNewbie]: {
-            hex:"6BD80B",title:"CodeNewbie",source:"https://community.codenewbie.org/",
+            hex:"9013FE",title:"CodeNewbie",source:"https://community.codenewbie.org",
         }
         ,[SimpleIcons.CodePen]: {
             hex:"000000",title:"CodePen",source:"https://blog.codepen.io/documentation/brand-assets/logos/",
         }
         ,[SimpleIcons.CodeProject]: {
-            hex:"FF9900",title:"CodeProject",source:"https://www.codeproject.com/",
+            hex:"FF9900",title:"CodeProject",source:"https://www.codeproject.com",
+        }
+        ,[SimpleIcons.Coder]: {
+            hex:"000000",title:"Coder",source:"https://github.com/coder/presskit/blob/f9dccc00b062cf130ba237bfcefd1fcda4d253c8/logos/coder_logo_transparent_black.svg",
         }
         ,[SimpleIcons.CodersRank]: {
             hex:"67A4AC",title:"CodersRank",source:"https://codersrank.io",
         }
         ,[SimpleIcons.Coderwall]: {
-            hex:"3E8DCC",title:"Coderwall",source:"https://github.com/twolfson/coderwall-svg",
+            hex:"3E8DCC",title:"Coderwall",source:"https://github.com/twolfson/coderwall-svg/tree/e87fb90eab5e401210a174f9418b5af0a246758e",
         }
         ,[SimpleIcons.CodeSandbox]: {
-            hex:"000000",title:"CodeSandbox",source:"https://codesandbox.io",
+            hex:"151515",title:"CodeSandbox",source:"https://codesandbox.io/CodeSandbox-Press-Kit.zip",
         }
         ,[SimpleIcons.Codeship]: {
-            hex:"004466",title:"Codeship",source:"https://app.codeship.com/",
+            hex:"004466",title:"Codeship",source:"https://app.codeship.com",
+        }
+        ,[SimpleIcons.CodeSignal]: {
+            hex:"1062FB",title:"CodeSignal",source:"https://codesignal.com",
+        }
+        ,[SimpleIcons.CodeStream]: {
+            hex:"008C99",title:"CodeStream",source:"https://www.codestream.com",
         }
         ,[SimpleIcons.Codewars]: {
-            hex:"B1361E",title:"Codewars",source:"https://github.com/codewars/branding",
+            hex:"B1361E",title:"Codewars",source:"https://github.com/codewars/branding/tree/1ff0d44db52ac4a5e3a1c43277dc35f228eb6983",
         }
         ,[SimpleIcons.CodingNinjas]: {
             hex:"DD6620",title:"Coding Ninjas",source:"https://www.codingninjas.com/press-release",
@@ -10726,28 +17556,61 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"4574E0",title:"Codio",source:"https://codio.com",
         }
         ,[SimpleIcons.CoffeeScript]: {
-            hex:"2F2625",title:"CoffeeScript",source:"https://coffeescript.org/",
+            hex:"2F2625",title:"CoffeeScript",source:"https://coffeescript.org",
+        }
+        ,[SimpleIcons.Coggle]: {
+            hex:"9ED56B",title:"Coggle",source:"https://coggle.it/press",
         }
         ,[SimpleIcons.Cognizant]: {
-            hex:"1A4CA1",title:"Cognizant",source:"https://www.cognizant.com/",
+            hex:"1A4CA1",title:"Cognizant",source:"https://www.cognizant.com",
+        }
+        ,[SimpleIcons.Coil]: {
+            hex:"000000",title:"Coil",source:"https://coil.com/press/brand-guidelines",
         }
         ,[SimpleIcons.Coinbase]: {
             hex:"0052FF",title:"Coinbase",source:"https://www.coinbase.com/press",
         }
+        ,[SimpleIcons.CoinMarketCap]: {
+            hex:"17181B",title:"CoinMarketCap",source:"https://www.coinmarketcap.com",
+        }
+        ,[SimpleIcons.ComicFury]: {
+            hex:"79BD42",title:"ComicFury",source:"https://comicfury.com/images/gator-icon-black.png",
+        }
+        ,[SimpleIcons.Comma]: {
+            hex:"51FF00",title:"comma",source:"https://comma.ai",
+        }
         ,[SimpleIcons.Commerzbank]: {
             hex:"FFCC33",title:"Commerzbank",source:"https://commons.wikimedia.org/wiki/Category:Commerzbank_logos",
+        }
+        ,[SimpleIcons.Commitlint]: {
+            hex:"000000",title:"commitlint",source:"https://github.com/conventional-changelog/commitlint/blob/0b177635472214faac5a5800ced970bf4d2e6012/docs/assets/icon.svg",
+        }
+        ,[SimpleIcons.Commodore]: {
+            hex:"1E2A4E",title:"Commodore",source:"https://commodore.inc",
         }
         ,[SimpleIcons.CommonWorkflowLanguage]: {
             hex:"B5314C",title:"Common Workflow Language",source:"https://github.com/common-workflow-language/logo/blob/54b1624bc88df6730fa7b6c928a05fc9c939e47e/CWL-Logo-nofonts.svg",
         }
+        ,[SimpleIcons.CompilerExplorer]: {
+            hex:"67C52A",title:"Compiler Explorer",source:"https://github.com/compiler-explorer/infra/blob/8d362efe7ddc24e6a625f7db671d0a6e7600e3c9/logo/icon/CompilerExplorer%20Logo%20Icon%20SVG.svg",
+        }
         ,[SimpleIcons.Composer]: {
-            hex:"885630",title:"Composer",source:"https://getcomposer.org/",
+            hex:"885630",title:"Composer",source:"https://getcomposer.org",
+        }
+        ,[SimpleIcons.CompTIA]: {
+            hex:"C8202F",title:"CompTIA",source:"https://www.comptia.org",
+        }
+        ,[SimpleIcons.Comsol]: {
+            hex:"368CCB",title:"Comsol",source:"https://cdn.comsol.com/company/comsol-brand-guide-November2019.pdf",
+        }
+        ,[SimpleIcons.Conan]: {
+            hex:"6699CB",title:"Conan",source:"https://conan.io",
         }
         ,[SimpleIcons.Concourse]: {
-            hex:"3398DC",title:"Concourse",source:"https://concourse-ci.org/",
+            hex:"3398DC",title:"Concourse",source:"https://concourse-ci.org",
         }
         ,[SimpleIcons.CondaForge]: {
-            hex:"000000",title:"Conda-Forge",source:"https://github.com/conda-forge/conda-forge.github.io/",
+            hex:"000000",title:"Conda-Forge",source:"https://github.com/conda-forge/conda-forge.github.io/blob/34adb68298ca266af13c3d615f7af8b6c232f6fb/img/anvil.svg",
         }
         ,[SimpleIcons.Conekta]: {
             hex:"0A1837",title:"Conekta",source:"https://www.conekta.com",
@@ -10756,7 +17619,7 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"172B4D",title:"Confluence",source:"https://www.atlassian.com/company/news/press-kit",
         }
         ,[SimpleIcons.Construct3]: {
-            hex:"00FFDA",title:"Construct 3",source:"https://www.construct.net/",
+            hex:"00FFDA",title:"Construct 3",source:"https://www.construct.net",
         }
         ,[SimpleIcons.Consul]: {
             hex:"F24C53",title:"Consul",source:"https://www.hashicorp.com/brand",
@@ -10764,17 +17627,47 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.ContactlessPayment]: {
             hex:"000000",title:"Contactless Payment",source:"https://en.wikipedia.org/wiki/Contactless_payment",
         }
+        ,[SimpleIcons.Containerd]: {
+            hex:"575757",title:"containerd",source:"https://cncf-branding.netlify.app/projects/containerd/",
+        }
+        ,[SimpleIcons.Contao]: {
+            hex:"F47C00",title:"Contao",source:"https://contao.org",
+        }
         ,[SimpleIcons.Contentful]: {
             hex:"2478CC",title:"Contentful",source:"https://press.contentful.com/media_kits",
         }
+        ,[SimpleIcons.Contentstack]: {
+            hex:"E74C3D",title:"Contentstack",source:"https://www.contentstack.com",
+        }
+        ,[SimpleIcons.ContributorCovenant]: {
+            hex:"5E0D73",title:"Contributor Covenant",source:"https://www.contributor-covenant.org",
+        }
+        ,[SimpleIcons.ConventionalCommits]: {
+            hex:"FE5196",title:"Conventional Commits",source:"https://www.conventionalcommits.org",
+        }
         ,[SimpleIcons.Convertio]: {
-            hex:"FF3333",title:"Convertio",source:"https://convertio.co/",
+            hex:"FF3333",title:"Convertio",source:"https://convertio.co",
         }
         ,[SimpleIcons.Cookiecutter]: {
             hex:"D4AA00",title:"Cookiecutter",source:"https://github.com/cookiecutter/cookiecutter/blob/52dd18513bbab7f0fbfcb2938c9644d9092247cf/logo/cookiecutter-logo.svg",
         }
+        ,[SimpleIcons.CoolerMaster]: {
+            hex:"1E1E28",title:"Cooler Master",source:"https://www.coolermaster.com/branding",
+        }
+        ,[SimpleIcons.CopaAirlines]: {
+            hex:"0032A0",title:"Copa Airlines",source:"https://www.copaair.com",
+        }
+        ,[SimpleIcons.Coppel]: {
+            hex:"0266AE",title:"Coppel",source:"https://www.coppel.com",
+        }
+        ,[SimpleIcons.Cora]: {
+            hex:"E61845",title:"Cora",source:"https://www.cora.fr",
+        }
+        ,[SimpleIcons.CorelDRAW]: {
+            hex:"000000",title:"CorelDRAW",source:"https://www.coreldraw.com/en/learn/webinars/ebook-embroidery",
+        }
         ,[SimpleIcons.CoronaEngine]: {
-            hex:"F96F29",title:"Corona Engine",source:"https://coronalabs.com/",
+            hex:"F96F29",title:"Corona Engine",source:"https://coronalabs.com",
         }
         ,[SimpleIcons.CoronaRenderer]: {
             hex:"E6502A",title:"Corona Renderer",source:"https://corona-renderer.com/about",
@@ -10783,10 +17676,10 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"000000",title:"Corsair",source:"https://www.corsair.com",
         }
         ,[SimpleIcons.Couchbase]: {
-            hex:"EA2328",title:"Couchbase",source:"https://www.couchbase.com/",
+            hex:"EA2328",title:"Couchbase",source:"https://www.couchbase.com",
         }
         ,[SimpleIcons.CounterStrike]: {
-            hex:"000000",title:"Counter-Strike",source:"https://en.wikipedia.org/wiki/File:CS-GO_Logo.svg",
+            hex:"000000",title:"Counter-Strike",source:"https://www.counter-strike.net",
         }
         ,[SimpleIcons.CountingWorksPRO]: {
             hex:"2E3084",title:"CountingWorks PRO",source:"https://www.countingworks.com/blog",
@@ -10795,7 +17688,7 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"0056D2",title:"Coursera",source:"https://about.coursera.org/press",
         }
         ,[SimpleIcons.Coveralls]: {
-            hex:"3F5767",title:"Coveralls",source:"https://coveralls.io/",
+            hex:"3F5767",title:"Coveralls",source:"https://coveralls.io",
         }
         ,[SimpleIcons.CPanel]: {
             hex:"FF6C2C",title:"cPanel",source:"https://cpanel.net/company/cpanel-brand-guide/",
@@ -10803,11 +17696,38 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.CraftCMS]: {
             hex:"E5422B",title:"Craft CMS",source:"https://craftcms.com/brand-resources",
         }
+        ,[SimpleIcons.Craftsman]: {
+            hex:"D6001C",title:"Craftsman",source:"https://www.craftsman.com",
+        }
+        ,[SimpleIcons.CrateDB]: {
+            hex:"009DC7",title:"CrateDB",source:"https://github.com/crate/crate-docs-theme/blob/cbd734b3617489ca937f35e30f37f3f6c1870e1f/src/crate/theme/rtd/crate/static/images/crate-logo.svg",
+        }
+        ,[SimpleIcons.Crayon]: {
+            hex:"FF6A4C",title:"Crayon",source:"https://www.crayon.com",
+        }
+        ,[SimpleIcons.Creality]: {
+            hex:"000000",title:"Creality",source:"https://www.creality.com",
+        }
+        ,[SimpleIcons.CreateReactApp]: {
+            hex:"09D3AC",title:"Create React App",source:"https://github.com/facebook/create-react-app/blob/9d0369b1fe3260e620b08effcf85f1edefc5d1ea/docusaurus/website/static/img/logo.svg",
+        }
         ,[SimpleIcons.CreativeCommons]: {
-            hex:"EF9421",title:"Creative Commons",source:"https://creativecommons.org/",
+            hex:"EF9421",title:"Creative Commons",source:"https://creativecommons.org",
+        }
+        ,[SimpleIcons.CreativeTechnology]: {
+            hex:"000000",title:"Creative Technology",source:"https://creative.com",
+        }
+        ,[SimpleIcons.Credly]: {
+            hex:"FF6B00",title:"Credly",source:"https://cdn.credly.com/assets/structure/logo-78b59f8114817c758ca965ed8f1a58a76a39b6fd70d031f771a9bbc581fcde65.svg",
         }
         ,[SimpleIcons.Crehana]: {
-            hex:"4B22F4",title:"Crehana",source:"https://www.crehana.com/",
+            hex:"4B22F4",title:"Crehana",source:"https://www.crehana.com",
+        }
+        ,[SimpleIcons.CrewUnited]: {
+            hex:"000000",title:"Crew United",source:"https://www.crew-united.com",
+        }
+        ,[SimpleIcons.CriticalRole]: {
+            hex:"000000",title:"Critical Role",source:"https://critrole.com",
         }
         ,[SimpleIcons.Crowdin]: {
             hex:"2E3340",title:"Crowdin",source:"https://support.crowdin.com/using-logo/",
@@ -10824,56 +17744,95 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.CRYENGINE]: {
             hex:"000000",title:"CRYENGINE",source:"https://www.cryengine.com/brand",
         }
+        ,[SimpleIcons.CryptPad]: {
+            hex:"0087FF",title:"CryptPad",source:"https://cryptpad.org",
+        }
         ,[SimpleIcons.Crystal]: {
             hex:"000000",title:"Crystal",source:"https://crystal-lang.org/media/",
         }
+        ,[SimpleIcons.CSSDesignAwards]: {
+            hex:"280FEE",title:"CSS Design Awards",source:"https://www.cssdesignawards.com",
+        }
+        ,[SimpleIcons.CSSModules]: {
+            hex:"000000",title:"CSS Modules",source:"https://github.com/css-modules/logos/blob/32e4717062e4328ed861fa92d5d9cfd47859362f/css-modules-logo.svg",
+        }
         ,[SimpleIcons.CSSWizardry]: {
-            hex:"F43059",title:"CSS Wizardry",source:"http://csswizardry.com",
+            hex:"F43059",title:"CSS Wizardry",source:"https://csswizardry.com",
         }
         ,[SimpleIcons.CSS3]: {
-            hex:"1572B6",title:"CSS3",source:"http://www.w3.org/html/logo/",
+            hex:"1572B6",title:"CSS3",source:"https://www.w3.org/html/logo/",
+        }
+        ,[SimpleIcons.CTS]: {
+            hex:"E53236",title:"CTS",source:"https://commons.wikimedia.org/wiki/File:Logo_Compagnie_des_transports_strasbourgeois.svg",
         }
         ,[SimpleIcons.Cucumber]: {
             hex:"23D96C",title:"Cucumber",source:"https://cucumber.io",
+        }
+        ,[SimpleIcons.Cultura]: {
+            hex:"1D2C54",title:"Cultura",source:"https://www.cultura.com",
         }
         ,[SimpleIcons.Curl]: {
             hex:"073551",title:"curl",source:"https://curl.haxx.se/logo/",
         }
         ,[SimpleIcons.CurseForge]: {
-            hex:"6441A4",title:"CurseForge",source:"https://www.curseforge.com/",
+            hex:"F16436",title:"CurseForge",source:"https://www.curseforge.com",
+        }
+        ,[SimpleIcons.CustomInk]: {
+            hex:"4051B5",title:"Custom Ink",source:"https://www.customink.com",
+        }
+        ,[SimpleIcons.CyberDefenders]: {
+            hex:"335EEA",title:"CyberDefenders",source:"https://cyberdefenders.org",
         }
         ,[SimpleIcons.Cycling__74]: {
-            hex:"111111",title:"Cycling '74",source:"https://cycling74.com/",
+            hex:"111111",title:"Cycling '74",source:"https://cycling74.com",
         }
         ,[SimpleIcons.Cypress]: {
-            hex:"17202C",title:"Cypress",source:"https://cypress.io",
+            hex:"69D3A7",title:"Cypress",source:"https://www.cypress.io/press-kit",
+        }
+        ,[SimpleIcons.CytoscapeJs]: {
+            hex:"F7DF1E",title:"Cytoscape.js",source:"https://github.com/cytoscape/cytoscape.js/blob/97c27700feefe2f7b79fca248763049e9a0b38c6/documentation/img/cytoscape-logo.svg",
+        }
+        ,[SimpleIcons.D]: {
+            hex:"B03931",title:"D",source:"https://github.com/dlang/dlang.org/blob/6d0e2e5f6a8249031cfd010e389b99ff014cd320/images/dlogo.svg",
+        }
+        ,[SimpleIcons.DEDGE]: {
+            hex:"432975",title:"D-EDGE",source:"https://github.com/d-edge/JoinUs/blob/4d8b5cf7145db26649fe9f1587194e44dbbe3565/d-edge.svg",
         }
         ,[SimpleIcons.DWaveSystems]: {
-            hex:"008CD7",title:"D-Wave Systems",source:"https://www.dwavesys.com/",
+            hex:"008CD7",title:"D-Wave Systems",source:"https://www.dwavesys.com",
         }
         ,[SimpleIcons.D3Js]: {
-            hex:"F9A03C",title:"D3.js",source:"https://github.com/d3/d3-logo",
+            hex:"F9A03C",title:"D3.js",source:"https://github.com/d3/d3-logo/tree/6d9c471aa852033501d00ca63fe73d9f8be82d1d",
         }
         ,[SimpleIcons.Dacia]: {
-            hex:"122AFF",title:"Dacia",source:"https://www.dacia.ro/",
+            hex:"646B52",title:"Dacia",source:"https://commons.wikimedia.org/wiki/File:Dacia-Logo-2021.svg",
         }
         ,[SimpleIcons.DAF]: {
             hex:"00529B",title:"DAF",source:"https://www.daf.com/en",
         }
-        ,[SimpleIcons.Dailymotion]: {
-            hex:"0D0D0D",title:"Dailymotion",source:"https://about.dailymotion.com/en/press/",
+        ,[SimpleIcons.DailyDev]: {
+            hex:"CE3DF3",title:"daily.dev",source:"https://brand.daily.dev/d/4gCtbahXkzKk/guidelines",
         }
-        ,[SimpleIcons.Daimler]: {
-            hex:"E6E6E6",title:"Daimler",source:"https://designnavigator.daimler.com/Daimler_Corporate_Logotype_Black_DTP",
+        ,[SimpleIcons.Dailymotion]: {
+            hex:"0A0A0A",title:"Dailymotion",source:"https://careers.dailymotion.com",
+        }
+        ,[SimpleIcons.DaisyUI]: {
+            hex:"5A0EF8",title:"DaisyUI",source:"https://raw.githubusercontent.com/saadeghi/files/main/daisyui/logo-4.svg",
+        }
+        ,[SimpleIcons.Dapr]: {
+            hex:"0D2192",title:"Dapr",source:"https://raw.githubusercontent.com/dapr/dapr/18575823c74318c811d6cd6f57ffac76d5debe93/img/dapr_logo.svg",
         }
         ,[SimpleIcons.DarkReader]: {
             hex:"141E24",title:"Dark Reader",source:"https://github.com/simple-icons/simple-icons/pull/3348#issuecomment-667090608",
         }
         ,[SimpleIcons.Dart]: {
-            hex:"0175C2",title:"Dart",source:"https://github.com/dart-lang/site-shared/tree/master/src/_assets/image/dart/logo",
+            hex:"0175C2",title:"Dart",source:"https://github.com/dart-lang/site-shared/tree/18458ff440afd3d06f04e5cb871c4c5eda29c9d5/src/_assets/image/dart/logo",
+        }
+        ,[SimpleIcons.Darty]: {
+            hex:"EB1B23",title:"Darty",source:"https://www.darty.com",
         }
         ,[SimpleIcons.DasErste]: {
-            hex:"001A4B",title:"Das Erste",source:"https://en.wikipedia.org/wiki/Das_Erste",
+            hex:"001A4B",title:"Das Erste",source:"https://commons.wikimedia.org/wiki/File:Das_Erste_2014.svg",
         }
         ,[SimpleIcons.Dash]: {
             hex:"008DE4",title:"Dash",source:"https://www.dash.org/brand-assets/",
@@ -10881,23 +17840,38 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Dashlane]: {
             hex:"0E353D",title:"Dashlane",source:"https://brandfolder.com/dashlane/brandkitpartners",
         }
-        ,[SimpleIcons.DassaultSyst_mes]: {
-            hex:"005386",title:"Dassault Systèmes",source:"https://www.3ds.com/",
+        ,[SimpleIcons.Dask]: {
+            hex:"FC6E6B",title:"Dask",source:"https://github.com/dask/dask/blob/67e648922512615f94f8a90726423e721d0e3eb2/docs/source/images/dask_icon_black.svg",
         }
-        ,[SimpleIcons.DataVersionControl]: {
-            hex:"945DD6",title:"Data Version Control",source:"https://static.iterative.ai/logo/dvc.svg",
+        ,[SimpleIcons.DassaultSyst_mes]: {
+            hex:"005386",title:"Dassault Systèmes",source:"https://www.3ds.com",
+        }
+        ,[SimpleIcons.DataAi]: {
+            hex:"000000",title:"data.ai",source:"https://www.data.ai/en/about/press/",
         }
         ,[SimpleIcons.Databricks]: {
-            hex:"FF3621",title:"Databricks",source:"https://www.databricks.com/",
+            hex:"FF3621",title:"Databricks",source:"https://www.databricks.com",
         }
         ,[SimpleIcons.DataCamp]: {
-            hex:"03EF62",title:"DataCamp",source:"https://www.datacamp.com/",
+            hex:"03EF62",title:"DataCamp",source:"https://www.datacamp.com",
         }
         ,[SimpleIcons.Datadog]: {
             hex:"632CA6",title:"Datadog",source:"https://www.datadoghq.com/about/resources",
         }
+        ,[SimpleIcons.DataGrip]: {
+            hex:"000000",title:"DataGrip",source:"https://www.jetbrains.com/company/brand/logos/",
+        }
+        ,[SimpleIcons.Dataiku]: {
+            hex:"2AB1AC",title:"Dataiku",source:"https://www.dataiku.com/company/media-kit/",
+        }
         ,[SimpleIcons.DataStax]: {
-            hex:"3A3A42",title:"DataStax",source:"https://www.datastax.com/brand-resources",
+            hex:"000000",title:"DataStax",source:"https://docs.datastax.com/en/astra/astra-db-vector",
+        }
+        ,[SimpleIcons.DateFns]: {
+            hex:"770C56",title:"date-fns",source:"https://date-fns.org",
+        }
+        ,[SimpleIcons.DATEV]: {
+            hex:"9BD547",title:"DATEV",source:"https://commons.wikimedia.org/wiki/File:Datev.svg",
         }
         ,[SimpleIcons.DatoCMS]: {
             hex:"FF7751",title:"DatoCMS",source:"https://www.datocms.com/company/brand-assets",
@@ -10905,68 +17879,104 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Datto]: {
             hex:"199ED9",title:"Datto",source:"https://www.datto.com/brand/logos",
         }
+        ,[SimpleIcons.DaVinciResolve]: {
+            hex:"233A51",title:"DaVinci Resolve",source:"https://www.blackmagicdesign.com/media/images/davinci-resolve-logo-square",
+        }
+        ,[SimpleIcons.DazhongDianping]: {
+            hex:"FF6633",title:"Dazhong Dianping",source:"https://www.meituan.com/media",
+        }
         ,[SimpleIcons.DAZN]: {
             hex:"F8F8F5",title:"DAZN",source:"https://media.dazn.com/en/assets/",
         }
+        ,[SimpleIcons.DBeaver]: {
+            hex:"382923",title:"DBeaver",source:"https://dbeaver.com",
+        }
         ,[SimpleIcons.Dblp]: {
-            hex:"004F9F",title:"dblp",source:"https://dblp.org/",
+            hex:"004F9F",title:"dblp",source:"https://dblp.org",
+        }
+        ,[SimpleIcons.Dbt]: {
+            hex:"FF694B",title:"dbt",source:"https://github.com/fishtown-analytics/dbt-styleguide/blob/a2895e005457eda531880dfde62f31959d42f18b/_includes/icons/logo.svg",
         }
         ,[SimpleIcons.DCEntertainment]: {
-            hex:"0078F0",title:"DC Entertainment",source:"https://www.readdc.com/",
+            hex:"0078F0",title:"DC Entertainment",source:"https://www.readdc.com",
         }
         ,[SimpleIcons.De_Longhi]: {
-            hex:"072240",title:"De'Longhi",source:"https://www.delonghi.com/",
+            hex:"072240",title:"De'Longhi",source:"https://www.delonghi.com",
         }
         ,[SimpleIcons.Debian]: {
             hex:"A81D33",title:"Debian",source:"https://www.debian.org/logos",
         }
+        ,[SimpleIcons.DecapCMS]: {
+            hex:"FF0082",title:"Decap CMS",source:"https://github.com/decaporg/decap-cms/blob/ba158f4a56d6d79869811971bc1bb0ef15197d30/website/static/img/decap-logo.svg",
+        }
+        ,[SimpleIcons.Decentraland]: {
+            hex:"FF2D55",title:"Decentraland",source:"https://github.com/decentraland/catalyst/issues/1726#issuecomment-2078585173",
+        }
+        ,[SimpleIcons.DeepCool]: {
+            hex:"068584",title:"DeepCool",source:"https://www.deepcool.com",
+        }
+        ,[SimpleIcons.Deepgram]: {
+            hex:"13EF93",title:"Deepgram",source:"https://deepgram.com/company/newsroom",
+        }
         ,[SimpleIcons.Deepin]: {
             hex:"007CFF",title:"deepin",source:"https://commons.wikimedia.org/wiki/File:Deepin_logo.svg",
         }
-        ,[SimpleIcons.Deepnote]: {
-            hex:"3793EF",title:"Deepnote",source:"https://deepnote.com/",
+        ,[SimpleIcons.DeepL]: {
+            hex:"0F2B46",title:"DeepL",source:"https://www.deepl.com/press.html",
         }
-        ,[SimpleIcons.Deezer]: {
-            hex:"FEAA2D",title:"Deezer",source:"https://deezerbrand.com/",
+        ,[SimpleIcons.Deepnote]: {
+            hex:"3793EF",title:"Deepnote",source:"https://deepnote.com",
         }
         ,[SimpleIcons.Delicious]: {
-            hex:"0000FF",title:"del.icio.us",source:"http://del.icio.us/",slug:"delicious"
+            hex:"0000FF",title:"del.icio.us",source:"https://del.icio.us",slug:"delicious"
         }
         ,[SimpleIcons.Deliveroo]: {
-            hex:"00CCBC",title:"Deliveroo",source:"https://deliveroo.com/",
+            hex:"00CCBC",title:"Deliveroo",source:"https://deliveroo.com",
         }
         ,[SimpleIcons.Dell]: {
-            hex:"007DB8",title:"Dell",source:"https://www.dell.com/",
+            hex:"007DB8",title:"Dell",source:"https://www.dell.com",
         }
         ,[SimpleIcons.Delphi]: {
-            hex:"EE1F35",title:"Delphi",source:"https://www.embarcadero.com/news/logo",
+            hex:"E62431",title:"Delphi",source:"https://www.embarcadero.com/news/logo",
         }
         ,[SimpleIcons.Delta]: {
             hex:"003366",title:"Delta",source:"https://news.delta.com/delta-air-lines-logos-brand-guidelines",
         }
+        ,[SimpleIcons.Deluge]: {
+            hex:"094491",title:"Deluge",source:"https://github.com/deluge-torrent/deluge/blob/0b5f45b486e8e974ba8a0b1d6e8edcd124fca62a/deluge/ui/data/pixmaps/deluge.svg",
+        }
         ,[SimpleIcons.Deno]: {
-            hex:"000000",title:"Deno",source:"https://github.com/denoland/deno_website2/blob/892750b99cc260f8b1b2a4bcea59eab9101dd67c/public/logo.svg",
+            hex:"000000",title:"Deno",source:"https://github.com/denoland/dotland/blob/f1ba74327b401b47de678f30d768ff9bf54494b6/public/logo.svg",
+        }
+        ,[SimpleIcons.Denon]: {
+            hex:"0B131A",title:"Denon",source:"https://www.denon.com",
         }
         ,[SimpleIcons.Dependabot]: {
-            hex:"025E8C",title:"Dependabot",source:"https://dependabot.com/",
+            hex:"025E8C",title:"Dependabot",source:"https://dependabot.com",
+        }
+        ,[SimpleIcons.Depositphotos]: {
+            hex:"000000",title:"Depositphotos",source:"https://blog.depositphotos.com",
         }
         ,[SimpleIcons.DerSpiegel]: {
-            hex:"E64415",title:"Der Spiegel",source:"https://www.spiegel.de/",
-        }
-        ,[SimpleIcons.DesignerNews]: {
-            hex:"2D72D9",title:"Designer News",source:"https://www.designernews.co",
+            hex:"E64415",title:"Der Spiegel",source:"https://www.spiegel.de",
         }
         ,[SimpleIcons.DeutscheBahn]: {
-            hex:"F01414",title:"Deutsche Bahn",source:"https://www.bahn.de/",
+            hex:"F01414",title:"Deutsche Bahn",source:"https://www.bahn.de",
         }
         ,[SimpleIcons.DeutscheBank]: {
-            hex:"0018A8",title:"Deutsche Bank",source:"https://www.db.com/",
+            hex:"0018A8",title:"Deutsche Bank",source:"https://www.db.com",
+        }
+        ,[SimpleIcons.DeutschePost]: {
+            hex:"FFCC00",title:"Deutsche Post",source:"https://www.deutschepost.de",
         }
         ,[SimpleIcons.DevTo]: {
-            hex:"0A0A0A",title:"dev.to",source:"https://dev.to/",
+            hex:"0A0A0A",title:"dev.to",source:"https://dev.to",
+        }
+        ,[SimpleIcons.DevExpress]: {
+            hex:"FF7200",title:"DevExpress",source:"https://www.devexpress.com/aboutus/",
         }
         ,[SimpleIcons.DeviantArt]: {
-            hex:"05CC47",title:"DeviantArt",source:"http://help.deviantart.com/21",
+            hex:"05CC47",title:"DeviantArt",source:"https://help.deviantart.com/21",
         }
         ,[SimpleIcons.Devpost]: {
             hex:"003E54",title:"Devpost",source:"https://github.com/challengepost/supportcenter/blob/e40066cde2ed25dc14c0541edb746ff8c6933114/images/devpost-icon-rgb.svg",
@@ -10975,7 +17985,7 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"F99A66",title:"devRant",source:"https://devrant.com",
         }
         ,[SimpleIcons.Dgraph]: {
-            hex:"E50695",title:"Dgraph",source:"https://dgraph.io/",
+            hex:"E50695",title:"Dgraph",source:"https://dgraph.io",
         }
         ,[SimpleIcons.DHL]: {
             hex:"FFCC00",title:"DHL",source:"https://www.dpdhl-brands.com/dhl/en/guides/design-basics/logo-and-claim.html",
@@ -10984,34 +17994,40 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"F08705",title:"diagrams.net",source:"https://github.com/jgraph/drawio/blob/4743eba8d5eaa497dc003df7bf7295b695c59bea/src/main/webapp/images/drawlogo.svg",
         }
         ,[SimpleIcons.Dialogflow]: {
-            hex:"FF9800",title:"Dialogflow",source:"https://dialogflow.cloud.google.com/",
+            hex:"FF9800",title:"Dialogflow",source:"https://dialogflow.cloud.google.com",
         }
         ,[SimpleIcons.Diaspora]: {
             hex:"000000",title:"Diaspora",source:"https://wiki.diasporafoundation.org/Branding",
         }
+        ,[SimpleIcons.DictionaryCom]: {
+            hex:"0049D7",title:"Dictionary.com",source:"https://www.dictionary.com",
+        }
         ,[SimpleIcons.Digg]: {
-            hex:"000000",title:"Digg",source:"https://digg.com/",
+            hex:"000000",title:"Digg",source:"https://digg.com",
         }
         ,[SimpleIcons.DigiKeyElectronics]: {
-            hex:"CC0000",title:"Digi-Key Electronics",source:"https://www.digikey.com/",
+            hex:"CC0000",title:"Digi-Key Electronics",source:"https://www.digikey.com",
         }
         ,[SimpleIcons.DigitalOcean]: {
             hex:"0080FF",title:"DigitalOcean",source:"https://www.digitalocean.com/press/",
         }
+        ,[SimpleIcons.DinersClub]: {
+            hex:"004C97",title:"Diners Club",source:"https://www.dinersclub.com/about-us/press",
+        }
         ,[SimpleIcons.Dior]: {
-            hex:"000000",title:"Dior",source:"https://www.dior.com/",
+            hex:"000000",title:"Dior",source:"https://www.dior.com",
         }
         ,[SimpleIcons.Directus]: {
-            hex:"263238",title:"Directus",source:"https://directus.io/",
+            hex:"263238",title:"Directus",source:"https://directus.io",
         }
         ,[SimpleIcons.Discogs]: {
             hex:"333333",title:"Discogs",source:"https://www.discogs.com/brand",
         }
         ,[SimpleIcons.Discord]: {
-            hex:"5865F2",title:"Discord",source:"https://discord.com/brand-new/branding",
+            hex:"5865F2",title:"Discord",source:"https://discord.com/branding",
         }
         ,[SimpleIcons.Discourse]: {
-            hex:"000000",title:"Discourse",source:"https://www.discourse.org/",
+            hex:"000000",title:"Discourse",source:"https://www.discourse.org",
         }
         ,[SimpleIcons.Discover]: {
             hex:"FF6000",title:"Discover",source:"https://www.discovernetwork.com/en-us/business-resources/free-signage-logos",
@@ -11020,40 +18036,91 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"2E9FFF",title:"Disqus",source:"https://disqus.com/brand",
         }
         ,[SimpleIcons.Disroot]: {
-            hex:"50162D",title:"Disroot",source:"https://git.fosscommunity.in/disroot/assests/blob/master/d.svg",
+            hex:"50162D",title:"Disroot",source:"https://disroot.org/en",
+        }
+        ,[SimpleIcons.Distrokid]: {
+            hex:"231F20",title:"Distrokid",source:"https://distrokid.com/logo",
         }
         ,[SimpleIcons.Django]: {
             hex:"092E20",title:"Django",source:"https://www.djangoproject.com/community/logos/",
         }
+        ,[SimpleIcons.DJI]: {
+            hex:"000000",title:"DJI",source:"https://www.dji.com",
+        }
+        ,[SimpleIcons.Dlib]: {
+            hex:"008000",title:"Dlib",source:"https://github.com/davisking/dlib/blob/8a2c7442074339ac9ffceff6ef5a49e0114222b9/docs/docs/dlib-logo-and-icons.svg",
+        }
         ,[SimpleIcons.DLNA]: {
-            hex:"48A842",title:"DLNA",source:"https://upload.wikimedia.org/wikipedia/de/e/eb/Digital_Living_Network_Alliance_logo.svg",
+            hex:"48A842",title:"DLNA",source:"https://commons.wikimedia.org/wiki/File:DLNA_logo.svg",
+        }
+        ,[SimpleIcons.Dm]: {
+            hex:"002878",title:"dm",source:"https://www.dm.de",
         }
         ,[SimpleIcons.Docker]: {
             hex:"2496ED",title:"Docker",source:"https://www.docker.com/company/newsroom/media-resources",
         }
-        ,[SimpleIcons.DocuSign]: {
-            hex:"FFCC22",title:"DocuSign",source:"https://github.com/simple-icons/simple-icons/issues/1098",
+        ,[SimpleIcons.DocsRs]: {
+            hex:"000000",title:"Docs.rs",source:"https://docs.rs",
+        }
+        ,[SimpleIcons.Docsify]: {
+            hex:"2ECE53",title:"Docsify",source:"https://github.com/docsifyjs/docsify/blob/d01841fd9d829adeeae6cde1d5818ce8798c7e58/docs/_media/icon.svg",
+        }
+        ,[SimpleIcons.Doctrine]: {
+            hex:"FC6A31",title:"Doctrine",source:"https://www.doctrine-project.org",
+        }
+        ,[SimpleIcons.Docusaurus]: {
+            hex:"3ECC5F",title:"Docusaurus",source:"https://github.com/facebook/docusaurus/blob/67c40069d1062b5aae530b696e6f66bf9618a696/website/static/img/docusaurus.svg",
         }
         ,[SimpleIcons.Dogecoin]: {
             hex:"C2A633",title:"Dogecoin",source:"https://cryptologos.cc/dogecoin",
         }
+        ,[SimpleIcons.DOI]: {
+            hex:"FAB70C",title:"DOI",source:"https://www.doi.org/images/logos/header_logo_cropped.svg",
+        }
         ,[SimpleIcons.Dolby]: {
-            hex:"000000",title:"Dolby",source:"https://www.dolby.com/us/en/about/brand-identity.html",
+            hex:"000000",title:"Dolby",source:"https://www.dolby.com",
         }
         ,[SimpleIcons.DoorDash]: {
             hex:"FF3008",title:"DoorDash",source:"https://www.doordash.com/about/",
         }
+        ,[SimpleIcons.Dota2]: {
+            hex:"BF2E1A",title:"Dota 2",source:"https://commons.wikimedia.org/wiki/File:Dota_logo.svg",
+        }
         ,[SimpleIcons.Douban]: {
-            hex:"007722",title:"Douban",source:"https://zh.wikipedia.org/wiki/Douban",
+            hex:"2D963D",title:"Douban",source:"https://www.douban.com/about",
+        }
+        ,[SimpleIcons.DoubanRead]: {
+            hex:"389EAC",title:"Douban Read",source:"https://read.douban.com",
+        }
+        ,[SimpleIcons.Dovecot]: {
+            hex:"54BCAB",title:"Dovecot",source:"https://commons.wikimedia.org/wiki/File:Dovecot_logo.svg",
+        }
+        ,[SimpleIcons.Dovetail]: {
+            hex:"190041",title:"Dovetail",source:"https://dovetail.com/help/press-kit",
+        }
+        ,[SimpleIcons.Doxygen]: {
+            hex:"2C4AA8",title:"Doxygen",source:"https://github.com/doxygen/doxygen/blob/2e73e6a53abe00a57b7eb0ea5ed6474baf4ebab7/templates/html/doxygen.svg",
+        }
+        ,[SimpleIcons.DPD]: {
+            hex:"DC0032",title:"DPD",source:"https://www.dpd.com",
+        }
+        ,[SimpleIcons.Dragonframe]: {
+            hex:"D4911E",title:"Dragonframe",source:"https://dragonframe.com",
         }
         ,[SimpleIcons.DraugiemLv]: {
             hex:"FF6600",title:"Draugiem.lv",source:"https://www.frype.com/applications/dev/docs/logos/",
         }
+        ,[SimpleIcons.Dreamstime]: {
+            hex:"50A901",title:"Dreamstime",source:"https://www.dreamstime.com",
+        }
         ,[SimpleIcons.Dribbble]: {
             hex:"EA4C89",title:"Dribbble",source:"https://dribbble.com/branding",
         }
+        ,[SimpleIcons.Drizzle]: {
+            hex:"C5F74F",title:"Drizzle",source:"https://orm.drizzle.team",
+        }
         ,[SimpleIcons.Drone]: {
-            hex:"212121",title:"Drone",source:"https://github.com/drone/brand",
+            hex:"212121",title:"Drone",source:"https://github.com/drone/brand/tree/f3ba7a1ad3c35abfe9571ea9c3ea93dff9912955",
         }
         ,[SimpleIcons.Drooble]: {
             hex:"19C4BE",title:"Drooble",source:"https://blog.drooble.com/press/",
@@ -11067,38 +18134,71 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.DSAutomobiles]: {
             hex:"1D1717",title:"DS Automobiles",source:"https://www.stellantis.com/en/brands/ds",
         }
+        ,[SimpleIcons.DTS]: {
+            hex:"F98B2B",title:"DTS",source:"https://xperi.com/brands/dts/",
+        }
         ,[SimpleIcons.DTube]: {
             hex:"F01A30",title:"DTube",source:"https://about.d.tube/mediakit.html",
         }
+        ,[SimpleIcons.Ducati]: {
+            hex:"CC0000",title:"Ducati",source:"https://brandlogos.net/ducati-logo-vector-svg-92931.html",
+        }
+        ,[SimpleIcons.DuckDB]: {
+            hex:"FFF000",title:"DuckDB",source:"https://duckdb.org",
+        }
         ,[SimpleIcons.DuckDuckGo]: {
-            hex:"DE5833",title:"DuckDuckGo",source:"https://duckduckgo.com/",
+            hex:"DE5833",title:"DuckDuckGo",source:"https://duckduckgo.com",
+        }
+        ,[SimpleIcons.Dungeons__Dragons]: {
+            hex:"ED1C24",title:"Dungeons & Dragons",source:"https://dnd.wizards.com/articles/features/basicrules",
         }
         ,[SimpleIcons.Dunked]: {
-            hex:"2DA9D7",title:"Dunked",source:"https://dunked.com/",
+            hex:"2DA9D7",title:"Dunked",source:"https://dunked.com",
+        }
+        ,[SimpleIcons.Dunzo]: {
+            hex:"00D290",title:"Dunzo",source:"https://www.dunzo.com",
         }
         ,[SimpleIcons.Duolingo]: {
-            hex:"58CC02",title:"Duolingo",source:"https://www.duolingo.com/",
+            hex:"58CC02",title:"Duolingo",source:"https://design.duolingo.com",
+        }
+        ,[SimpleIcons.Duplicati]: {
+            hex:"1E3A8A",title:"Duplicati",source:"https://duplicati.com",
+        }
+        ,[SimpleIcons.DVC]: {
+            hex:"13ADC7",title:"DVC",source:"https://iterative.ai/brand/",
         }
         ,[SimpleIcons.Dwm]: {
             hex:"1177AA",title:"dwm",source:"https://dwm.suckless.org",
         }
-        ,[SimpleIcons.Dynamics365]: {
-            hex:"002050",title:"Dynamics 365",source:"http://thepartnerchannel.com/wp-content/uploads/Dynamics365_styleguide_092816.pdf",
-        }
         ,[SimpleIcons.Dynatrace]: {
             hex:"1496FF",title:"Dynatrace",source:"https://www.dynatrace.com/company/press-kit/",
+        }
+        ,[SimpleIcons.ELeclerc]: {
+            hex:"0066CC",title:"E.Leclerc",source:"https://www.e.leclerc/assets/images/sue-logo.svg",
+        }
+        ,[SimpleIcons.E3]: {
+            hex:"E73D2F",title:"E3",source:"https://commons.wikimedia.org/wiki/File:E3_Logo.svg",
         }
         ,[SimpleIcons.EA]: {
             hex:"000000",title:"EA",source:"https://www.ea.com",
         }
         ,[SimpleIcons.Eagle]: {
-            hex:"0072EF",title:"Eagle",source:"https://en.eagle.cool/",
+            hex:"0072EF",title:"Eagle",source:"https://en.eagle.cool",
+        }
+        ,[SimpleIcons.EasyEDA]: {
+            hex:"1765F6",title:"EasyEDA",source:"https://easyeda.com",
         }
         ,[SimpleIcons.EasyJet]: {
             hex:"FF6600",title:"easyJet",source:"https://www.easyjet.com",
         }
         ,[SimpleIcons.EBay]: {
             hex:"E53238",title:"eBay",source:"https://go.developer.ebay.com/logos",
+        }
+        ,[SimpleIcons.EBOX]: {
+            hex:"BE2323",title:"EBOX",source:"https://www.ebox.ca",
+        }
+        ,[SimpleIcons.EclipseAdoptium]: {
+            hex:"FF1464",title:"Eclipse Adoptium",source:"https://www.eclipse.org/org/artwork/",
         }
         ,[SimpleIcons.EclipseChe]: {
             hex:"525C86",title:"Eclipse Che",source:"https://www.eclipse.org/che/",
@@ -11115,20 +18215,38 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.EclipseVertX]: {
             hex:"782A90",title:"Eclipse Vert.x",source:"https://github.com/vert-x3/.github/blob/1ad6612d87f35665e50a00fc32eb9c542556385d/workflow-templates/vertx-favicon.svg",
         }
+        ,[SimpleIcons.Ecovacs]: {
+            hex:"1E384B",title:"Ecovacs",source:"https://www.ecovacs.com",
+        }
+        ,[SimpleIcons.EDEKA]: {
+            hex:"1B66B3",title:"EDEKA",source:"https://www.edeka.de",
+        }
+        ,[SimpleIcons.EdgeImpulse]: {
+            hex:"3B47C2",title:"Edge Impulse",source:"https://edgeimpulse.com/branding",
+        }
         ,[SimpleIcons.EditorConfig]: {
             hex:"FEFEFE",title:"EditorConfig",source:"https://editorconfig.org",
         }
+        ,[SimpleIcons.Educative]: {
+            hex:"4951F5",title:"Educative",source:"https://www.educative.io",
+        }
         ,[SimpleIcons.EdX]: {
-            hex:"02262B",title:"edX",source:"https://www.edx.org/",
+            hex:"02262B",title:"edX",source:"https://www.edx.org",
         }
         ,[SimpleIcons.Egghead]: {
-            hex:"FCFBFA",title:"egghead",source:"https://egghead.io/",
+            hex:"FCFBFA",title:"egghead",source:"https://egghead.io",
         }
         ,[SimpleIcons.Egnyte]: {
             hex:"00968F",title:"Egnyte",source:"https://www.egnyte.com/presskit.html",
         }
+        ,[SimpleIcons.Eight]: {
+            hex:"0054FF",title:"Eight",source:"https://8card.net/en",
+        }
         ,[SimpleIcons.EightSleep]: {
             hex:"262729",title:"Eight Sleep",source:"https://www.eightsleep.com/press/",
+        }
+        ,[SimpleIcons.EJS]: {
+            hex:"B4CA65",title:"EJS",source:"https://github.com/mde/ejs-site/blob/dd845093a46b373df42108b888a0ad80085a5c94/ejs.svg",
         }
         ,[SimpleIcons.ElJueves]: {
             hex:"BE312E",title:"El Jueves",source:"https://www.eljueves.es",
@@ -11145,20 +18263,38 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Elasticsearch]: {
             hex:"005571",title:"Elasticsearch",source:"https://www.elastic.co/brand",
         }
+        ,[SimpleIcons.Elavon]: {
+            hex:"0C2074",title:"Elavon",source:"https://www.elavon.com",
+        }
         ,[SimpleIcons.Electron]: {
-            hex:"47848F",title:"Electron",source:"https://www.electronjs.org/",
+            hex:"47848F",title:"Electron",source:"https://www.electronjs.org",
+        }
+        ,[SimpleIcons.ElectronFiddle]: {
+            hex:"E79537",title:"Electron Fiddle",source:"https://github.com/electron/fiddle/blob/19360ade76354240630e5660469b082128e1e57e/assets/icons/fiddle.svg",
+        }
+        ,[SimpleIcons.ElectronBuilder]: {
+            hex:"000000",title:"electron-builder",source:"https://www.electron.build",
+        }
+        ,[SimpleIcons.Elegoo]: {
+            hex:"2C3A83",title:"Elegoo",source:"https://www.elegoo.com/pages/download",
         }
         ,[SimpleIcons.Element]: {
-            hex:"0DBD8B",title:"Element",source:"https://element.io/",
+            hex:"0DBD8B",title:"Element",source:"https://element.io",
         }
         ,[SimpleIcons.Elementary]: {
             hex:"64BAFF",title:"elementary",source:"https://elementary.io/brand",
         }
+        ,[SimpleIcons.Elementor]: {
+            hex:"92003B",title:"Elementor",source:"https://elementor.com/logos/",
+        }
         ,[SimpleIcons.Eleventy]: {
-            hex:"000000",title:"Eleventy",source:"https://www.11ty.io",
+            hex:"222222",title:"Eleventy",source:"https://www.11ty.dev",
+        }
+        ,[SimpleIcons.Elgato]: {
+            hex:"101010",title:"Elgato",source:"https://www.elgato.com/en/media-room",
         }
         ,[SimpleIcons.Elixir]: {
-            hex:"4B275F",title:"Elixir",source:"https://github.com/elixir-lang/elixir-lang.github.com/tree/master/images/logo",
+            hex:"4B275F",title:"Elixir",source:"https://github.com/elixir-lang/elixir-lang.github.com/tree/031746384ee23b9be19298c92a9699c56cc05845/images/logo",
         }
         ,[SimpleIcons.Ello]: {
             hex:"000000",title:"Ello",source:"https://ello.co",
@@ -11172,11 +18308,14 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Embarcadero]: {
             hex:"ED1F35",title:"Embarcadero",source:"https://www.embarcadero.com/news/logo",
         }
+        ,[SimpleIcons.Embark]: {
+            hex:"000000",title:"Embark",source:"https://www.embark-studios.com/press",
+        }
         ,[SimpleIcons.EmberJs]: {
             hex:"E04E39",title:"Ember.js",source:"https://emberjs.com/logos/",
         }
         ,[SimpleIcons.Emby]: {
-            hex:"52B54B",title:"Emby",source:"https://emby.media/",
+            hex:"52B54B",title:"Emby",source:"https://emby.media",
         }
         ,[SimpleIcons.Emirates]: {
             hex:"D71921",title:"Emirates",source:"https://www.emirates.com/ie/english/",
@@ -11185,13 +18324,25 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"0AE524",title:"Emlakjet",source:"https://www.emlakjet.com/kurumsal-materyaller/",
         }
         ,[SimpleIcons.EmpireKred]: {
-            hex:"72BE50",title:"Empire Kred",source:"http://www.empire.kred",
+            hex:"72BE50",title:"Empire Kred",source:"https://www.empire.kred",
+        }
+        ,[SimpleIcons.EndeavourOS]: {
+            hex:"7F7FFF",title:"EndeavourOS",source:"https://github.com/endeavouros-team/endeavouros-theming/blob/135f642c980ed8d8fc212783eb478f96226f6c72/endeavouros-logo-text.svg",
+        }
+        ,[SimpleIcons.Engadget]: {
+            hex:"000000",title:"Engadget",source:"https://www.engadget.com",
         }
         ,[SimpleIcons.Enpass]: {
             hex:"0D47A1",title:"Enpass",source:"https://www.enpass.io/press/",
         }
+        ,[SimpleIcons.EnterpriseDB]: {
+            hex:"FF3E00",title:"EnterpriseDB",source:"https://www.enterprisedb.com",
+        }
         ,[SimpleIcons.Envato]: {
-            hex:"81B441",title:"Envato",source:"https://envato.com/",
+            hex:"81B441",title:"Envato",source:"https://envato.com",
+        }
+        ,[SimpleIcons.EnvoyProxy]: {
+            hex:"AC6199",title:"Envoy Proxy",source:"https://d33wubrfki0l68.cloudfront.net/6f16455dae972425b77c7e31642269b375ec250e/3bd11/img/envoy-logo.svg",
         }
         ,[SimpleIcons.EPEL]: {
             hex:"FC0000",title:"EPEL",source:"https://fedoraproject.org/wiki/EPEL",
@@ -11202,26 +18353,53 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Epson]: {
             hex:"003399",title:"Epson",source:"https://global.epson.com/IR/library/",
         }
+        ,[SimpleIcons.EquinixMetal]: {
+            hex:"ED2224",title:"Equinix Metal",source:"https://metal.equinix.com",
+        }
+        ,[SimpleIcons.Eraser]: {
+            hex:"EC2C40",title:"Eraser",source:"https://www.eraser.io",
+        }
+        ,[SimpleIcons.Ericsson]: {
+            hex:"0082F0",title:"Ericsson",source:"https://www.ericsson.com/en/newsroom/media-kits/logo",
+        }
         ,[SimpleIcons.Erlang]: {
             hex:"A90533",title:"Erlang",source:"https://github.com/erlang/erlide_eclipse/blob/99d1d61fde8e32ef1630ca0e1b05a6822b3d6489/meta/media/erlang-logo.svg",
         }
+        ,[SimpleIcons.ERPNext]: {
+            hex:"0089FF",title:"ERPNext",source:"https://github.com/frappe/erpnext/blob/924911e74317f95a59f29e9410d4f141020a0411/erpnext/public/images/erpnext-logo.svg",
+        }
+        ,[SimpleIcons.Esbuild]: {
+            hex:"FFCF00",title:"esbuild",source:"https://github.com/evanw/esbuild/blob/ac542f913908d7326b65eb2e01f0559ed135a40e/images/logo.svg",
+        }
         ,[SimpleIcons.ESEA]: {
-            hex:"0E9648",title:"ESEA",source:"https://play.esea.net/",
+            hex:"0E9648",title:"ESEA",source:"https://play.esea.net",
         }
         ,[SimpleIcons.ESLGaming]: {
-            hex:"FFFF09",title:"ESLGaming",source:"https://brand.eslgaming.com/",
+            hex:"FFFF09",title:"ESLGaming",source:"https://brand.eslgaming.com",
         }
         ,[SimpleIcons.ESLint]: {
-            hex:"4B32C3",title:"ESLint",source:"https://eslint.org/",
+            hex:"4B32C3",title:"ESLint",source:"https://eslint.org",
+        }
+        ,[SimpleIcons.EsotericSoftware]: {
+            hex:"3FA9F5",title:"Esoteric Software",source:"https://esotericsoftware.com/forum/d/25405-sheildsio-branding",
         }
         ,[SimpleIcons.ESPHome]: {
             hex:"000000",title:"ESPHome",source:"https://esphome.io",
         }
         ,[SimpleIcons.Espressif]: {
-            hex:"E7352C",title:"Espressif",source:"https://www.espressif.com/",
+            hex:"E7352C",title:"Espressif",source:"https://www.espressif.com",
+        }
+        ,[SimpleIcons.ESRI]: {
+            hex:"000000",title:"ESRI",source:"https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview",
+        }
+        ,[SimpleIcons.Etcd]: {
+            hex:"419EDA",title:"etcd",source:"https://cncf-branding.netlify.app/projects/etcd/",
         }
         ,[SimpleIcons.Ethereum]: {
             hex:"3C3C3D",title:"Ethereum",source:"https://ethereum.org/en/assets/",
+        }
+        ,[SimpleIcons.Ethers]: {
+            hex:"2535A0",title:"Ethers",source:"https://docs.ethers.org/v6",
         }
         ,[SimpleIcons.EthiopianAirlines]: {
             hex:"648B1A",title:"Ethiopian Airlines",source:"https://corporate.ethiopianairlines.com/media/Ethiopian-Factsheet",
@@ -11233,7 +18411,7 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"F16521",title:"Etsy",source:"https://www.etsy.com/uk/press",
         }
         ,[SimpleIcons.EventStore]: {
-            hex:"5AB552",title:"Event Store",source:"https://github.com/eventstore/brand",
+            hex:"5AB552",title:"Event Store",source:"https://github.com/EventStore/Brand/tree/319d6f8dadc2881062917ea5a6dafa675775ea85",
         }
         ,[SimpleIcons.Eventbrite]: {
             hex:"F05537",title:"Eventbrite",source:"https://www.eventbrite.com/signin/",
@@ -11241,47 +18419,77 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Evernote]: {
             hex:"00A82D",title:"Evernote",source:"https://evernote.com/about-us",
         }
+        ,[SimpleIcons.Excalidraw]: {
+            hex:"6965DB",title:"Excalidraw",source:"https://excalidraw.com",
+        }
         ,[SimpleIcons.Exercism]: {
             hex:"009CAB",title:"Exercism",source:"https://github.com/exercism/website-icons/blob/2ad12baa465acfaa74efc5da27a6a12f8b05e3d0/exercism/logo-icon.svg",
+        }
+        ,[SimpleIcons.Exordo]: {
+            hex:"DAA449",title:"Exordo",source:"https://www.exordo.com",
+        }
+        ,[SimpleIcons.Exoscale]: {
+            hex:"DA291C",title:"Exoscale",source:"https://www.exoscale.com/press/",
+        }
+        ,[SimpleIcons.Expedia]: {
+            hex:"191E3B",title:"Expedia",source:"https://brandfolder.com/portals/brand-expedia",
         }
         ,[SimpleIcons.Expensify]: {
             hex:"0185FF",title:"Expensify",source:"https://use.expensify.com/press-kit",
         }
         ,[SimpleIcons.ExpertsExchange]: {
-            hex:"00AAE7",title:"Experts Exchange",source:"https://www.experts-exchange.com/",
+            hex:"00AAE7",title:"Experts Exchange",source:"https://www.experts-exchange.com",
         }
         ,[SimpleIcons.Expo]: {
-            hex:"000020",title:"Expo",source:"http://expo.io/brand/",
+            hex:"000020",title:"Expo",source:"https://expo.io/brand/",
         }
         ,[SimpleIcons.Express]: {
             hex:"000000",title:"Express",source:"https://github.com/openjs-foundation/artwork/blob/ac43961d1157f973c54f210cf5e0c9c45e3d3f10/projects/express/express-icon-black.svg",
         }
+        ,[SimpleIcons.ExpressVPN]: {
+            hex:"DA3940",title:"ExpressVPN",source:"https://www.expressvpn.com/press",
+        }
         ,[SimpleIcons.EyeEm]: {
-            hex:"000000",title:"EyeEm",source:"https://www.eyeem.com/",
+            hex:"000000",title:"EyeEm",source:"https://www.eyeem.com",
         }
         ,[SimpleIcons.FDroid]: {
-            hex:"1976D2",title:"F-Droid",source:"https://f-droid.org/",
+            hex:"1976D2",title:"F-Droid",source:"https://f-droid.org",
         }
         ,[SimpleIcons.FSecure]: {
             hex:"00BAFF",title:"F-Secure",source:"https://vip.f-secure.com/en/marketing/logos",
         }
+        ,[SimpleIcons.Fsharp]: {
+            hex:"378BBA",title:"F#",source:"https://foundation.fsharp.org/logo",slug:"fsharp"
+        }
+        ,[SimpleIcons.F1]: {
+            hex:"E10600",title:"F1",source:"https://www.formula1.com",
+        }
+        ,[SimpleIcons.F5]: {
+            hex:"E4002B",title:"F5",source:"https://www.f5.com/company/news/press-kit",
+        }
         ,[SimpleIcons.Facebook]: {
-            hex:"1877F2",title:"Facebook",source:"https://en.facebookbrand.com/",
+            hex:"0866FF",title:"Facebook",source:"https://about.meta.com/brand/resources/facebook/logo",
         }
         ,[SimpleIcons.FacebookGaming]: {
             hex:"005FED",title:"Facebook Gaming",source:"https://www.facebook.com/fbgaminghome/",
         }
         ,[SimpleIcons.FacebookLive]: {
-            hex:"ED4242",title:"Facebook Live",source:"https://en.facebookbrand.com/",
+            hex:"ED4242",title:"Facebook Live",source:"https://en.facebookbrand.com",
         }
         ,[SimpleIcons.FACEIT]: {
             hex:"FF5500",title:"FACEIT",source:"https://corporate.faceit.com/branding/",
         }
         ,[SimpleIcons.Facepunch]: {
-            hex:"EC1C24",title:"Facepunch",source:"https://facepunch.com/img/brand/default-light.svg",
+            hex:"EC1C24",title:"Facepunch",source:"https://sbox.facepunch.com/news",
+        }
+        ,[SimpleIcons.Fairphone]: {
+            hex:"4495D1",title:"Fairphone",source:"https://www.fairphone.com",
+        }
+        ,[SimpleIcons.Falco]: {
+            hex:"00AEC7",title:"Falco",source:"https://falco.org/community/falco-brand",
         }
         ,[SimpleIcons.Falcon]: {
-            hex:"F0AD4E",title:"Falcon",source:"https://falconframework.org/",
+            hex:"F0AD4E",title:"Falcon",source:"https://falconframework.org",
         }
         ,[SimpleIcons.FamPay]: {
             hex:"FFAD00",title:"FamPay",source:"https://fampay.in",
@@ -11290,13 +18498,25 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"FF7300",title:"Fandango",source:"https://www.fandango.com",
         }
         ,[SimpleIcons.Fandom]: {
-            hex:"00D6D6",title:"Fandom",source:"https://fandomdesignsystem.com/identity/assets",
+            hex:"FA005A",title:"Fandom",source:"https://fandomdesignsystem.com",
+        }
+        ,[SimpleIcons.Fanfou]: {
+            hex:"00CCFF",title:"Fanfou",source:"https://fanfou.com",
+        }
+        ,[SimpleIcons.Fantom]: {
+            hex:"0928FF",title:"Fantom",source:"https://fantom.foundation",
+        }
+        ,[SimpleIcons.Farcaster]: {
+            hex:"855DCD",title:"Farcaster",source:"https://www.farcaster.xyz",
+        }
+        ,[SimpleIcons.FareHarbor]: {
+            hex:"0A6ECE",title:"FareHarbor",source:"https://help.fareharbor.com/about/logo",
         }
         ,[SimpleIcons.FARFETCH]: {
-            hex:"000000",title:"FARFETCH",source:"https://www.farfetch.com/",
+            hex:"000000",title:"FARFETCH",source:"https://www.farfetch.com",
         }
         ,[SimpleIcons.FastAPI]: {
-            hex:"009688",title:"FastAPI",source:"https://github.com/tiangolo/fastapi/blob/6205935323ded4767438ee81623892621b353415/docs/en/docs/img/icon-white.svg",
+            hex:"009688",title:"FastAPI",source:"https://github.com/tiangolo/fastapi/blob/ffb4f77a11f83132b521ba0aac6c95792c19e797/docs/en/docs/img/icon-white.svg",
         }
         ,[SimpleIcons.Fastify]: {
             hex:"000000",title:"Fastify",source:"https://github.com/fastify/graphics/blob/91e8a3d4754807de3b69440f66c72a737a5fde94/fastify-1000px-square-02.svg",
@@ -11310,32 +18530,41 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Fathom]: {
             hex:"9187FF",title:"Fathom",source:"https://usefathom.com/brand",
         }
+        ,[SimpleIcons.Fauna]: {
+            hex:"3A1AB6",title:"Fauna",source:"https://fauna.com",
+        }
         ,[SimpleIcons.Favro]: {
             hex:"512DA8",title:"Favro",source:"https://favro.com/login",
         }
         ,[SimpleIcons.FeatHub]: {
-            hex:"9B9B9B",title:"FeatHub",source:"http://feathub.com/",
+            hex:"9B9B9B",title:"FeatHub",source:"https://feathub.com",
         }
         ,[SimpleIcons.FedEx]: {
-            hex:"4D148C",title:"FedEx",source:"https://newsroom.fedex.com/",
+            hex:"4D148C",title:"FedEx",source:"https://newsroom.fedex.com",
         }
         ,[SimpleIcons.Fedora]: {
-            hex:"294172",title:"Fedora",source:"https://fedoraproject.org/wiki/Logo/UsageGuidelines",
+            hex:"51A2DA",title:"Fedora",source:"https://docs.fedoraproject.org/en-US/project/brand/",
         }
         ,[SimpleIcons.Feedly]: {
-            hex:"2BB24C",title:"Feedly",source:"https://blog.feedly.com/",
+            hex:"2BB24C",title:"Feedly",source:"https://blog.feedly.com",
         }
         ,[SimpleIcons.Ferrari]: {
-            hex:"D40000",title:"Ferrari",source:"https://www.ferrari.com/",
+            hex:"D40000",title:"Ferrari",source:"https://www.ferrari.com",
         }
         ,[SimpleIcons.Ferrarinv]: {
-            hex:"EB2E2C",title:"Ferrari N.V.",source:"https://corporate.ferrari.com/",slug:"ferrarinv"
+            hex:"EB2E2C",title:"Ferrari N.V.",source:"https://corporate.ferrari.com",slug:"ferrarinv"
+        }
+        ,[SimpleIcons.FerretDB]: {
+            hex:"042133",title:"FerretDB",source:"https://github.com/FerretDB/FerretDB/blob/1176606075dfe52225ce0cd1bbd0cd06128f8599/website/static/img/logo.svg",
         }
         ,[SimpleIcons.FFmpeg]: {
             hex:"007808",title:"FFmpeg",source:"https://commons.wikimedia.org/wiki/File:FFmpeg_Logo_new.svg",
         }
+        ,[SimpleIcons.Fi]: {
+            hex:"00B899",title:"Fi",source:"https://fi.money",
+        }
         ,[SimpleIcons.Fiat]: {
-            hex:"941711",title:"Fiat",source:"http://www.fcaci.com/x/FIATv15",
+            hex:"941711",title:"Fiat",source:"https://www.fcaci.com/x/FIATv15",
         }
         ,[SimpleIcons.FidoAlliance]: {
             hex:"FFBF3B",title:"Fido Alliance",source:"https://fidoalliance.org/overview/legal/logo-usage/",
@@ -11343,26 +18572,41 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.FIFA]: {
             hex:"326295",title:"FIFA",source:"https://en.wikipedia.org/wiki/FIFA",
         }
+        ,[SimpleIcons.Fig]: {
+            hex:"000000",title:"Fig",source:"https://fig.io/icons/fig.svg",
+        }
         ,[SimpleIcons.Figma]: {
-            hex:"F24E1E",title:"Figma",source:"https://brand.figma.com/icon.html",
+            hex:"F24E1E",title:"Figma",source:"https://www.figma.com/using-the-figma-brand/",
         }
         ,[SimpleIcons.Figshare]: {
             hex:"556472",title:"figshare",source:"https://en.wikipedia.org/wiki/Figshare",
         }
         ,[SimpleIcons.Fila]: {
-            hex:"03234C",title:"Fila",source:"https://en.wikipedia.org/wiki/Fila_(company)",
+            hex:"002D62",title:"Fila",source:"https://www.fila.com",
+        }
+        ,[SimpleIcons.FileIo]: {
+            hex:"3D3C9D",title:"File.io",source:"https://www.file.io",
         }
         ,[SimpleIcons.Files]: {
-            hex:"4285F4",title:"Files",source:"https://files.google.com/",
+            hex:"4285F4",title:"Files",source:"https://files.google.com",
         }
         ,[SimpleIcons.FileZilla]: {
             hex:"BF0000",title:"FileZilla",source:"https://commons.wikimedia.org/wiki/File:FileZilla_logo.svg",
         }
+        ,[SimpleIcons.Fineco]: {
+            hex:"00549F",title:"Fineco",source:"https://finecobank.com",
+        }
         ,[SimpleIcons.Fing]: {
-            hex:"009AEE",title:"Fing",source:"https://www.fing.com/",
+            hex:"009AEE",title:"Fing",source:"https://www.fing.com",
         }
         ,[SimpleIcons.Firebase]: {
-            hex:"FFCA28",title:"Firebase",source:"https://firebase.google.com/brand-guidelines/",
+            hex:"DD2C00",title:"Firebase",source:"https://firebase.google.com/brand-guidelines",
+        }
+        ,[SimpleIcons.Firefish]: {
+            hex:"F07A5B",title:"Firefish",source:"https://joinfirefish.org/about/#brand",
+        }
+        ,[SimpleIcons.FireflyIII]: {
+            hex:"CD5029",title:"Firefly III",source:"https://docs.firefly-iii.org/firefly-iii/more-information/logo",
         }
         ,[SimpleIcons.Firefox]: {
             hex:"FF7139",title:"Firefox",source:"https://mozilla.design/firefox/logos-usage/",
@@ -11370,62 +18614,107 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.FirefoxBrowser]: {
             hex:"FF7139",title:"Firefox Browser",source:"https://mozilla.design/firefox/logos-usage/",
         }
+        ,[SimpleIcons.Fireship]: {
+            hex:"EB844E",title:"Fireship",source:"https://github.com/fireship-io/fireship.io/blob/987da97305a5968b99347aa748f928a4667336f8/hugo/layouts/partials/svg/logo.svg",
+        }
+        ,[SimpleIcons.Firewalla]: {
+            hex:"C8332D",title:"Firewalla",source:"https://github.com/firewalla/firewalla/blob/97f7463fe07b85b979a8f0738fdf14c1af0249a8/extension/diag/static/firewalla.svg",
+        }
         ,[SimpleIcons.FIRST]: {
             hex:"0066B3",title:"FIRST",source:"https://www.firstinspires.org/brand",
         }
-        ,[SimpleIcons.Fitbit]: {
-            hex:"00B0B9",title:"Fitbit",source:"http://www.fitbit.com/uk/home",
+        ,[SimpleIcons.FishShell]: {
+            hex:"34C534",title:"fish shell",source:"https://github.com/fish-shell/fish-site/blob/1364b2e794c9aba7492c8962bae0f7fbe4886317/artwork/ascii%20fish.eps",
         }
-        ,[SimpleIcons.FITE]: {
-            hex:"CA0404",title:"FITE",source:"https://www.fite.tv/",
+        ,[SimpleIcons.Fitbit]: {
+            hex:"00B0B9",title:"Fitbit",source:"https://www.fitbit.com/uk/home",
+        }
+        ,[SimpleIcons.FiveM]: {
+            hex:"F40552",title:"FiveM",source:"https://fivem.net",
         }
         ,[SimpleIcons.Fiverr]: {
             hex:"1DBF73",title:"Fiverr",source:"https://www.fiverr.com/press-kit",
         }
+        ,[SimpleIcons.Fizz]: {
+            hex:"00D672",title:"Fizz",source:"https://fizz.ca",
+        }
+        ,[SimpleIcons.Flashforge]: {
+            hex:"000000",title:"Flashforge",source:"https://www.flashforge.com",
+        }
         ,[SimpleIcons.Flask]: {
             hex:"000000",title:"Flask",source:"https://github.com/pallets/flask/blob/e6e75e55470a0682ee8370e6d68062e515a248b9/artwork/logo-full.svg",
         }
-        ,[SimpleIcons.Flathub]: {
-            hex:"4A86CF",title:"Flathub",source:"https://flathub.org/",
+        ,[SimpleIcons.Flat]: {
+            hex:"3481FE",title:"Flat",source:"https://github.com/netless-io/flat/blob/525b2247f36e96ae2f9e6a39b4fe0967152305f2/desktop/renderer-app/src/assets/image/logo.svg",
         }
-        ,[SimpleIcons.Flattr]: {
-            hex:"000000",title:"Flattr",source:"https://flattr.com/",
+        ,[SimpleIcons.Flathub]: {
+            hex:"000000",title:"Flathub",source:"https://flathub.org",
+        }
+        ,[SimpleIcons.Flatpak]: {
+            hex:"4A90D9",title:"Flatpak",source:"https://flatpak.org/press",
         }
         ,[SimpleIcons.Flickr]: {
-            hex:"0063DC",title:"Flickr",source:"https://www.flickr.com/",
+            hex:"0063DC",title:"Flickr",source:"https://www.flickr.com",
+        }
+        ,[SimpleIcons.Flightaware]: {
+            hex:"19315B",title:"Flightaware",source:"https://flightaware.com/about/logo",
         }
         ,[SimpleIcons.Flipboard]: {
             hex:"E12828",title:"Flipboard",source:"https://about.flipboard.com/brand-guidelines",
         }
         ,[SimpleIcons.Flipkart]: {
-            hex:"2874F0",title:"Flipkart",source:"https://www.flipkart.com/",
+            hex:"2874F0",title:"Flipkart",source:"https://www.flipkart.com",
         }
         ,[SimpleIcons.Floatplane]: {
-            hex:"00AEEF",title:"Floatplane",source:"https://www.floatplane.com/",
+            hex:"00AEEF",title:"Floatplane",source:"https://www.floatplane.com",
         }
         ,[SimpleIcons.Flood]: {
-            hex:"4285F4",title:"Flood",source:"https://flood.io/",
+            hex:"4285F4",title:"Flood",source:"https://flood.io",
+        }
+        ,[SimpleIcons.FluentBit]: {
+            hex:"49BDA5",title:"Fluent Bit",source:"https://github.com/fluent/fluent-bit/blob/cdb35721d06242d66a729656282831ccd1589ca2/snap/fluent-bit.svg",
         }
         ,[SimpleIcons.Fluentd]: {
             hex:"0E83C8",title:"Fluentd",source:"https://docs.fluentd.org/quickstart/logo",
         }
+        ,[SimpleIcons.Fluke]: {
+            hex:"FFC20E",title:"Fluke",source:"https://www.fluke.com",
+        }
         ,[SimpleIcons.Flutter]: {
             hex:"02569B",title:"Flutter",source:"https://flutter.dev/brand",
+        }
+        ,[SimpleIcons.Flux]: {
+            hex:"5468FF",title:"Flux",source:"https://github.com/cncf/artwork/blob/c2e619cdf85e8bac090ceca7c0834c5cfedf9426/projects/flux/icon/black/flux-icon-black.svg",
+        }
+        ,[SimpleIcons.Fluxus]: {
+            hex:"FFFFFF",title:"Fluxus",source:"https://github.com/YieldingFluxus/fluxuswebsite/blob/651d798b8753786dcc51644c3b048a4f399db166/public/icon-svg.svg",
+        }
+        ,[SimpleIcons.Flyway]: {
+            hex:"CC0200",title:"Flyway",source:"https://github.com/flyway/flywaydb.org/blob/8a7923cb9ead016442d4c5caf2e8ba5a9bfad5cf/assets/logo/flyway-logo.png",
         }
         ,[SimpleIcons.FMOD]: {
             hex:"000000",title:"FMOD",source:"https://www.fmod.com/attribution",
         }
         ,[SimpleIcons.Fnac]: {
-            hex:"E1A925",title:"Fnac",source:"http://www.fnac.com/",
+            hex:"E1A925",title:"Fnac",source:"https://www.fnac.com",
         }
         ,[SimpleIcons.Folium]: {
             hex:"77B829",title:"Folium",source:"https://python-visualization.github.io/folium/",
         }
+        ,[SimpleIcons.Fonoma]: {
+            hex:"02B78F",title:"Fonoma",source:"https://en.fonoma.com",
+        }
         ,[SimpleIcons.FontAwesome]: {
-            hex:"339AF0",title:"Font Awesome",source:"https://fontawesome.com/icons/font-awesome",
+            hex:"538DD7",title:"Font Awesome",source:"https://fontawesome.com",
         }
         ,[SimpleIcons.FontBase]: {
-            hex:"3D03A7",title:"FontBase",source:"https://fontba.se/",
+            hex:"3D03A7",title:"FontBase",source:"https://fontba.se",
+        }
+        ,[SimpleIcons.FontForge]: {
+            hex:"F2712B",title:"FontForge",source:"https://fontforge.org",
+        }
+        ,[SimpleIcons.Foobar2000]: {
+            hex:"000000",title:"foobar2000",source:"https://hydrogenaud.io/index.php?topic=55604.0",
         }
         ,[SimpleIcons.Foodpanda]: {
             hex:"D70F64",title:"foodpanda",source:"https://www.foodpanda.com",
@@ -11433,14 +18722,20 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Ford]: {
             hex:"00274E",title:"Ford",source:"https://secure.ford.com/brochures/",
         }
-        ,[SimpleIcons.Forestry]: {
-            hex:"343A40",title:"Forestry",source:"https://forestry.io/",
+        ,[SimpleIcons.Forgejo]: {
+            hex:"FB923C",title:"Forgejo",source:"https://codeberg.org/forgejo/meta/raw/branch/readme/branding/logo/forgejo-monochrome.svg",
+        }
+        ,[SimpleIcons.Formik]: {
+            hex:"2563EB",title:"Formik",source:"https://formik.org",
+        }
+        ,[SimpleIcons.Formspree]: {
+            hex:"E5122E",title:"Formspree",source:"https://formspree.io",
         }
         ,[SimpleIcons.Formstack]: {
             hex:"21B573",title:"Formstack",source:"https://www.formstack.com/brand/guidelines",
         }
         ,[SimpleIcons.Fortinet]: {
-            hex:"EE3124",title:"Fortinet",source:"http://www.fortinet.com/",
+            hex:"EE3124",title:"Fortinet",source:"https://www.fortinet.com",
         }
         ,[SimpleIcons.Fortran]: {
             hex:"734F96",title:"Fortran",source:"https://github.com/fortran-lang/fortran-lang.org/blob/5469465d08d3fcbf16d048e651ca5c9ba050839c/assets/img/fortran-logo.svg",
@@ -11449,13 +18744,22 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"289E6D",title:"Fossa",source:"https://fossa.com/press/",
         }
         ,[SimpleIcons.FossilSCM]: {
-            hex:"548294",title:"Fossil SCM",source:"https://fossil-scm.org/",
+            hex:"548294",title:"Fossil SCM",source:"https://fossil-scm.org",
+        }
+        ,[SimpleIcons.FoundryVirtualTabletop]: {
+            hex:"FE6A1F",title:"Foundry Virtual Tabletop",source:"https://github.com/simple-icons/simple-icons/issues/5828#issuecomment-1977557112",
         }
         ,[SimpleIcons.Foursquare]: {
-            hex:"F94877",title:"Foursquare",source:"https://foursquare.com/about/logos",
+            hex:"3333FF",title:"Foursquare",source:"https://foursquare.com/brand/",
+        }
+        ,[SimpleIcons.FoursquareCityGuide]: {
+            hex:"F94877",title:"Foursquare City Guide",source:"https://foursquare.com/about/logos",
+        }
+        ,[SimpleIcons.FOX]: {
+            hex:"000000",title:"FOX",source:"https://www.fox.com",
         }
         ,[SimpleIcons.Foxtel]: {
-            hex:"EB5205",title:"Foxtel",source:"https://www.foxtel.com.au/",
+            hex:"EB5205",title:"Foxtel",source:"https://www.foxtel.com.au",
         }
         ,[SimpleIcons.Fozzy]: {
             hex:"F15B29",title:"Fozzy",source:"https://fozzy.com/partners.shtml?tab=materials",
@@ -11463,56 +18767,131 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Framer]: {
             hex:"0055FF",title:"Framer",source:"https://framer.com",
         }
+        ,[SimpleIcons.Framework]: {
+            hex:"000000",title:"Framework",source:"https://frame.work",
+        }
+        ,[SimpleIcons.Framework7]: {
+            hex:"EE350F",title:"Framework7",source:"https://github.com/framework7io/framework7-website/blob/2a1e32290c795c2070ffc7019ba7276614e00de0/public/i/logo.svg",
+        }
+        ,[SimpleIcons.Franprix]: {
+            hex:"EC6237",title:"Franprix",source:"https://www.franprix.fr",
+        }
+        ,[SimpleIcons.Frappe]: {
+            hex:"0089FF",title:"Frappe",source:"https://github.com/frappe/frappe/blob/1331fa6f721122805d15894fa3bd9eb90dccdca2/frappe/public/images/frappe-framework-logo.svg",
+        }
         ,[SimpleIcons.FraunhoferGesellschaft]: {
-            hex:"179C7D",title:"Fraunhofer-Gesellschaft",source:"https://www.fraunhofer.de/",
+            hex:"179C7D",title:"Fraunhofer-Gesellschaft",source:"https://www.fraunhofer.de",
         }
         ,[SimpleIcons.FreeBSD]: {
             hex:"AB2B28",title:"FreeBSD",source:"https://www.freebsdfoundation.org/about/project/",
         }
+        ,[SimpleIcons.FreeCAD]: {
+            hex:"729FCF",title:"FreeCAD",source:"https://www.freecad.org",
+        }
         ,[SimpleIcons.FreeCodeCamp]: {
-            hex:"0A0A23",title:"freeCodeCamp",source:"https://design-style-guide.freecodecamp.org/",
+            hex:"0A0A23",title:"freeCodeCamp",source:"https://design-style-guide.freecodecamp.org",
         }
         ,[SimpleIcons.FreedesktopOrg]: {
             hex:"3B80AE",title:"freedesktop.org",source:"https://commons.wikimedia.org/wiki/File:Freedesktop-logo.svg",
         }
         ,[SimpleIcons.Freelancer]: {
-            hex:"29B2FE",title:"Freelancer",source:"https://www.freelancer.com/",
+            hex:"29B2FE",title:"Freelancer",source:"https://www.freelancer.com",
+        }
+        ,[SimpleIcons.Freelancermap]: {
+            hex:"00CFD6",title:"freelancermap",source:"https://freelancermap.de",
         }
         ,[SimpleIcons.FreeNAS]: {
             hex:"343434",title:"FreeNAS",source:"https://github.com/freenas/webui/blob/fd668f4c5920fe864fd98fa98e20fd333336c609/src/assets/images/logo.svg",
         }
+        ,[SimpleIcons.Freepik]: {
+            hex:"1273EB",title:"Freepik",source:"https://commons.wikimedia.org/wiki/File:Freepik.svg",
+        }
+        ,[SimpleIcons.FrontendMentor]: {
+            hex:"3F54A3",title:"Frontend Mentor",source:"https://www.frontendmentor.io",
+        }
+        ,[SimpleIcons.Frontify]: {
+            hex:"2D3232",title:"Frontify",source:"https://brand.frontify.com/d/7WQZazaZFkMz/brand-guidelines-1#/visual/logo",
+        }
+        ,[SimpleIcons.Fubo]: {
+            hex:"C83D1E",title:"Fubo",source:"https://www.fubo.tv",
+        }
+        ,[SimpleIcons.Fueler]: {
+            hex:"09C9E3",title:"Fueler",source:"https://fueler.io",
+        }
+        ,[SimpleIcons.FugaCloud]: {
+            hex:"242F4B",title:"Fuga Cloud",source:"https://fuga.cloud",
+        }
         ,[SimpleIcons.Fujifilm]: {
-            hex:"ED1A3A",title:"Fujifilm",source:"https://upload.wikimedia.org/wikipedia/commons/a/a1/Fujifilm_logo.svg",
+            hex:"FB0020",title:"Fujifilm",source:"https://www.fujifilm.com",
         }
         ,[SimpleIcons.Fujitsu]: {
             hex:"FF0000",title:"Fujitsu",source:"https://www.fujitsu.com/global/about/brandmanagement/logo/",
         }
+        ,[SimpleIcons.Funimation]: {
+            hex:"5B0BB5",title:"Funimation",source:"https://www.funimation.com",
+        }
         ,[SimpleIcons.FurAffinity]: {
-            hex:"36566F",title:"Fur Affinity",source:"https://www.furaffinity.net/",
+            hex:"36566F",title:"Fur Affinity",source:"https://www.furaffinity.net",
         }
         ,[SimpleIcons.FurryNetwork]: {
             hex:"2E75B4",title:"Furry Network",source:"https://furrynetwork.com",
         }
+        ,[SimpleIcons.FusionAuth]: {
+            hex:"F58320",title:"FusionAuth",source:"https://fusionauth.io/brand-logo-guidelines",
+        }
         ,[SimpleIcons.FutureLearn]: {
-            hex:"DE00A5",title:"FutureLearn",source:"https://www.futurelearn.com/",
+            hex:"DE00A5",title:"FutureLearn",source:"https://www.futurelearn.com",
+        }
+        ,[SimpleIcons.G2]: {
+            hex:"FF492C",title:"G2",source:"https://www.g2.com",
         }
         ,[SimpleIcons.G2A]: {
             hex:"F05F00",title:"G2A",source:"https://www.g2a.co/documents/",
         }
+        ,[SimpleIcons.G2G]: {
+            hex:"ED1C24",title:"G2G",source:"https://hydron.holdings/media/media_kit",
+        }
+        ,[SimpleIcons.Galaxus]: {
+            hex:"000000",title:"Galaxus",source:"https://www.galaxus.de",
+        }
+        ,[SimpleIcons.Game__Watch]: {
+            hex:"000000",title:"Game & Watch",source:"https://upload.wikimedia.org/wikipedia/commons/4/41/Game_and_watch_logo.svg",
+        }
+        ,[SimpleIcons.GameDeveloper]: {
+            hex:"E60012",title:"Game Developer",source:"https://www.gamedeveloper.com",
+        }
         ,[SimpleIcons.GameJolt]: {
             hex:"CCFF00",title:"Game Jolt",source:"https://gamejolt.com/about",
+        }
+        ,[SimpleIcons.GameBanana]: {
+            hex:"FCEF40",title:"GameBanana",source:"https://gamebanana.com/tools/3474",
+        }
+        ,[SimpleIcons.Gameloft]: {
+            hex:"000000",title:"Gameloft",source:"https://www.gameloft.com",
+        }
+        ,[SimpleIcons.Gamemaker]: {
+            hex:"000000",title:"Gamemaker",source:"https://gamemaker.io/en/legal/brand",
         }
         ,[SimpleIcons.Garmin]: {
             hex:"000000",title:"Garmin",source:"https://creative.garmin.com/styleguide/logo/",
         }
         ,[SimpleIcons.Gatling]: {
-            hex:"FF9E2A",title:"Gatling",source:"https://gatling.io/",
+            hex:"FF9E2A",title:"Gatling",source:"https://gatling.io",
         }
         ,[SimpleIcons.Gatsby]: {
             hex:"663399",title:"Gatsby",source:"https://www.gatsbyjs.com/guidelines/logo",
         }
+        ,[SimpleIcons.Gcore]: {
+            hex:"FF4C00",title:"Gcore",source:"https://gcore.com",
+        }
+        ,[SimpleIcons.GDAL]: {
+            hex:"5CAE58",title:"GDAL",source:"https://www.osgeo.org/projects/gdal/",
+        }
+        ,[SimpleIcons.G_ant]: {
+            hex:"DD1F26",title:"Géant",source:"https://www.geantcasino.fr",
+        }
         ,[SimpleIcons.GeeksforGeeks]: {
-            hex:"2F8D46",title:"GeeksforGeeks",source:"https://www.geeksforgeeks.org/",
+            hex:"2F8D46",title:"GeeksforGeeks",source:"https://www.geeksforgeeks.org",
         }
         ,[SimpleIcons.GeneralElectric]: {
             hex:"0870D8",title:"General Electric",source:"https://www.ge.com/brand/",
@@ -11529,32 +18908,50 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Geocaching]: {
             hex:"00874D",title:"Geocaching",source:"https://www.geocaching.com/about/logousage.aspx",
         }
+        ,[SimpleIcons.Geode]: {
+            hex:"8D7ACF",title:"Geode",source:"https://github.com/geode-sdk/website/blob/a6a6aa7eaad8ce699d0e050b2b0c1c0119f3624a/media/geode_logos.zip",
+        }
+        ,[SimpleIcons.GeoPandas]: {
+            hex:"139C5A",title:"GeoPandas",source:"https://geopandas.org",
+        }
         ,[SimpleIcons.Gerrit]: {
             hex:"EEEEEE",title:"Gerrit",source:"https://gerrit-review.googlesource.com/c/75842/",
+        }
+        ,[SimpleIcons.GetX]: {
+            hex:"8A2BE2",title:"GetX",source:"https://github.com/simple-icons/simple-icons/issues/5940#issuecomment-1821561714",
         }
         ,[SimpleIcons.Ghost]: {
             hex:"15171A",title:"Ghost",source:"https://github.com/TryGhost/Admin/blob/e3e1fa3353767c3729b1658ad42cc35f883470c5/public/assets/icons/icon.svg",
         }
         ,[SimpleIcons.Ghostery]: {
-            hex:"00AEF0",title:"Ghostery",source:"https://www.ghostery.com/",
+            hex:"00AEF0",title:"Ghostery",source:"https://www.ghostery.com",
         }
         ,[SimpleIcons.GIMP]: {
             hex:"5C5543",title:"GIMP",source:"https://www.gimp.org/about/linking.html#wilber-the-gimp-mascot",
+        }
+        ,[SimpleIcons.Gin]: {
+            hex:"008ECF",title:"Gin",source:"https://github.com/gin-gonic/logo/blob/eecb3150aa7ce5a77b97fd834276b2b6958eaa9d/wb.svg",
         }
         ,[SimpleIcons.GIPHY]: {
             hex:"FF6666",title:"GIPHY",source:"https://support.giphy.com/hc/en-us/articles/360022283772-GIPHY-Brand-Guidelines",
         }
         ,[SimpleIcons.Git]: {
-            hex:"F05032",title:"Git",source:"http://git-scm.com/downloads/logos",
+            hex:"F05032",title:"Git",source:"https://git-scm.com/downloads/logos",
         }
         ,[SimpleIcons.GitExtensions]: {
             hex:"212121",title:"Git Extensions",source:"https://github.com/gitextensions/gitextensions/blob/273a0f6fd3e07858f837cdc19d50827871e32319/Logo/Artwork/git-extensions-logo.svg",
         }
+        ,[SimpleIcons.GitForWindows]: {
+            hex:"80B3FF",title:"Git for Windows",source:"https://github.com/git-for-windows/git-for-windows.github.io/blob/db9a134ed0fd484568124c1f79cb011eddb9a21d/img/gwindows_logo.svg",
+        }
         ,[SimpleIcons.GitLFS]: {
-            hex:"F64935",title:"Git LFS",source:"https://git-lfs.github.com/",
+            hex:"F64935",title:"Git LFS",source:"https://git-lfs.github.com",
         }
         ,[SimpleIcons.GitBook]: {
-            hex:"3884FF",title:"GitBook",source:"https://github.com/GitbookIO/styleguide/blob/c958388dab901defa3e22978ca01272295627e05/icons/Logo.svg",
+            hex:"BBDDE5",title:"GitBook",source:"https://www.gitbook.com",
+        }
+        ,[SimpleIcons.Gitconnected]: {
+            hex:"2E69AE",title:"Gitconnected",source:"https://gitconnected.com/richard-hendricks-demo/resume",
         }
         ,[SimpleIcons.Gitea]: {
             hex:"609926",title:"Gitea",source:"https://github.com/go-gitea/gitea/blob/e0c753e770a64cda5e3900aa1da3d7e1f3263c9a/assets/logo.svg",
@@ -11568,26 +18965,44 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.GitHubActions]: {
             hex:"2088FF",title:"GitHub Actions",source:"https://github.com/features/actions",
         }
+        ,[SimpleIcons.GitHubCopilot]: {
+            hex:"000000",title:"GitHub Copilot",source:"https://primer.style/foundations/icons/copilot-24",
+        }
+        ,[SimpleIcons.GitHubPages]: {
+            hex:"222222",title:"GitHub Pages",source:"https://pages.github.com",
+        }
         ,[SimpleIcons.GitHubSponsors]: {
             hex:"EA4AAA",title:"GitHub Sponsors",source:"https://github.com/sponsors",
         }
+        ,[SimpleIcons.GitignoreIo]: {
+            hex:"204ECF",title:"gitignore.io",source:"https://docs.gitignore.io/design/logo",
+        }
         ,[SimpleIcons.GitKraken]: {
-            hex:"179287",title:"GitKraken",source:"https://www.gitkraken.com/",
+            hex:"179287",title:"GitKraken",source:"https://www.gitkraken.com",
         }
         ,[SimpleIcons.GitLab]: {
-            hex:"FCA121",title:"GitLab",source:"https://about.gitlab.com/press/press-kit/",
+            hex:"FC6D26",title:"GitLab",source:"https://about.gitlab.com/press/press-kit/",
         }
         ,[SimpleIcons.Gitpod]: {
-            hex:"FFAE33",title:"Gitpod",source:"https://www.gitpod.io/",
+            hex:"FFAE33",title:"Gitpod",source:"https://www.gitpod.io",
         }
         ,[SimpleIcons.Gitter]: {
-            hex:"ED1965",title:"Gitter",source:"https://gitter.im/",
+            hex:"ED1965",title:"Gitter",source:"https://gitter.im",
         }
         ,[SimpleIcons.Glassdoor]: {
-            hex:"0CAA41",title:"Glassdoor",source:"https://www.glassdoor.com/about-us/press/media-assets/",
+            hex:"00A162",title:"Glassdoor",source:"https://www.glassdoor.com/about/newsroom",
+        }
+        ,[SimpleIcons.Glide]: {
+            hex:"18BED4",title:"Glide",source:"https://brand.glide.page/dl/brand-assets",
         }
         ,[SimpleIcons.Glitch]: {
             hex:"3333FF",title:"Glitch",source:"https://glitch.com/about/press/",
+        }
+        ,[SimpleIcons.Globus]: {
+            hex:"CA6201",title:"Globus",source:"https://www.globus.de",
+        }
+        ,[SimpleIcons.Glovo]: {
+            hex:"F2CC38",title:"Glovo",source:"https://about.glovoapp.com/press",
         }
         ,[SimpleIcons.Gmail]: {
             hex:"EA4335",title:"Gmail",source:"https://fonts.gstatic.com/s/i/productlogos/gmail_2020q4/v8/192px.svg",
@@ -11595,11 +19010,14 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.GNOME]: {
             hex:"4A86CF",title:"GNOME",source:"https://wiki.gnome.org/Engagement/BrandGuidelines",
         }
+        ,[SimpleIcons.GNOMETerminal]: {
+            hex:"241F31",title:"GNOME Terminal",source:"https://gitlab.gnome.org/GNOME/gnome-terminal/-/blob/9c32e039bfb7902c136dc7aed3308e027325776c/data/icons/hicolor_apps_scalable_org.gnome.Terminal.svg",
+        }
         ,[SimpleIcons.GNU]: {
             hex:"A42E2B",title:"GNU",source:"https://gnu.org",
         }
         ,[SimpleIcons.GNUBash]: {
-            hex:"4EAA25",title:"GNU Bash",source:"https://github.com/odb/official-bash-logo",
+            hex:"4EAA25",title:"GNU Bash",source:"https://github.com/odb/official-bash-logo/tree/61eff022f2dad3c7468f5deb4f06652d15f2c143",
         }
         ,[SimpleIcons.GNUEmacs]: {
             hex:"7F5AB6",title:"GNU Emacs",source:"https://git.savannah.gnu.org/cgit/emacs.git/tree/etc/images/icons/hicolor/scalable/apps/emacs.svg",
@@ -11616,6 +19034,9 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Go]: {
             hex:"00ADD8",title:"Go",source:"https://blog.golang.org/go-brand",
         }
+        ,[SimpleIcons.GoCD]: {
+            hex:"94399E",title:"GoCD",source:"https://www.gocd.org",
+        }
         ,[SimpleIcons.GoDaddy]: {
             hex:"1BDBDB",title:"GoDaddy",source:"https://godaddy.design/the-go/",
         }
@@ -11623,19 +19044,31 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"478CBF",title:"Godot Engine",source:"https://godotengine.org/press",
         }
         ,[SimpleIcons.GoFundMe]: {
-            hex:"00B964",title:"GoFundMe",source:"https://www.gofundme.com/",
+            hex:"00B964",title:"GoFundMe",source:"https://www.gofundme.com",
         }
         ,[SimpleIcons.GOGCom]: {
             hex:"86328A",title:"GOG.com",source:"https://www.cdprojekt.com/en/media/logotypes/",
         }
+        ,[SimpleIcons.Gojek]: {
+            hex:"00AA13",title:"Gojek",source:"https://gojek.com",
+        }
+        ,[SimpleIcons.GoLand]: {
+            hex:"000000",title:"GoLand",source:"https://www.jetbrains.com/company/brand/#logos-and-icons-jetbrains-logos",
+        }
         ,[SimpleIcons.GoldenLine]: {
-            hex:"FFE005",title:"GoldenLine",source:"http://www.goldenline.pl",
+            hex:"FFE005",title:"GoldenLine",source:"https://www.goldenline.pl",
+        }
+        ,[SimpleIcons.GoldmanSachs]: {
+            hex:"7399C6",title:"Goldman Sachs",source:"https://design.gs.com/brand/goldman-sachs-logo",
         }
         ,[SimpleIcons.Goodreads]: {
             hex:"372213",title:"Goodreads",source:"https://www.goodreads.com/about/press",
         }
         ,[SimpleIcons.Google]: {
-            hex:"4285F4",title:"Google",source:"https://partnermarketinghub.withgoogle.com/",
+            hex:"4285F4",title:"Google",source:"https://partnermarketinghub.withgoogle.com",
+        }
+        ,[SimpleIcons.GoogleAdMob]: {
+            hex:"EA4335",title:"Google AdMob",source:"https://commons.wikimedia.org/wiki/File:Google_AdMob_logo.svg",
         }
         ,[SimpleIcons.GoogleAds]: {
             hex:"4285F4",title:"Google Ads",source:"https://ads.google.com/home/",
@@ -11646,35 +19079,74 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.GoogleAnalytics]: {
             hex:"E37400",title:"Google Analytics",source:"https://marketingplatform.google.com/intl/en_uk/about/analytics/",
         }
+        ,[SimpleIcons.GoogleAppsScript]: {
+            hex:"4285F4",title:"Google Apps Script",source:"https://github.com/simple-icons/simple-icons/issues/3556#issuecomment-800482267",
+        }
         ,[SimpleIcons.GoogleAssistant]: {
-            hex:"4285F4",title:"Google Assistant",source:"https://assistant.google.com/",
+            hex:"4285F4",title:"Google Assistant",source:"https://assistant.google.com",
+        }
+        ,[SimpleIcons.GoogleAuthenticator]: {
+            hex:"4285F4",title:"Google Authenticator",source:"https://commons.wikimedia.org/wiki/File:Google_Authenticator_(April_2023).svg",
+        }
+        ,[SimpleIcons.GoogleBigQuery]: {
+            hex:"669DF6",title:"Google BigQuery",source:"https://cloud.google.com/icons",
+        }
+        ,[SimpleIcons.GoogleBigtable]: {
+            hex:"669DF6",title:"Google Bigtable",source:"https://cloud.google.com/icons",
         }
         ,[SimpleIcons.GoogleCalendar]: {
             hex:"4285F4",title:"Google Calendar",source:"https://fonts.gstatic.com/s/i/productlogos/calendar_2020q4/v8/192px.svg",
         }
+        ,[SimpleIcons.GoogleCampaignManager360]: {
+            hex:"1E8E3E",title:"Google Campaign Manager 360",source:"https://developers.google.com/doubleclick-advertisers",
+        }
         ,[SimpleIcons.GoogleCardboard]: {
             hex:"FF7143",title:"Google Cardboard",source:"https://arvr.google.com/cardboard/images/header/vr-home.svg",
         }
-        ,[SimpleIcons.GoogleCast]: {
-            hex:"1BB6F6",title:"Google Cast",source:"https://www.google.com/intl/en_us/chromecast/built-in/",
-        }
         ,[SimpleIcons.GoogleChat]: {
-            hex:"00AC47",title:"Google Chat",source:"https://chat.google.com/",
+            hex:"34A853",title:"Google Chat",source:"https://support.google.com/chat/answer/9455386",
         }
         ,[SimpleIcons.GoogleChrome]: {
-            hex:"4285F4",title:"Google Chrome",source:"https://www.google.com/chrome/",
+            hex:"4285F4",title:"Google Chrome",source:"https://www.google.com/chrome",
+        }
+        ,[SimpleIcons.GoogleChronicle]: {
+            hex:"4285F4",title:"Google Chronicle",source:"https://chronicle.security",
         }
         ,[SimpleIcons.GoogleClassroom]: {
-            hex:"4285F4",title:"Google Classroom",source:"https://classroom.google.com/",
+            hex:"0F9D58",title:"Google Classroom",source:"https://classroom.google.com",
         }
         ,[SimpleIcons.GoogleCloud]: {
-            hex:"4285F4",title:"Google Cloud",source:"https://cloud.google.com/",
+            hex:"4285F4",title:"Google Cloud",source:"https://cloud.google.com",
+        }
+        ,[SimpleIcons.GoogleCloudComposer]: {
+            hex:"4285F4",title:"Google Cloud Composer",source:"https://cloud.google.com/icons",
+        }
+        ,[SimpleIcons.GoogleCloudSpanner]: {
+            hex:"4285F4",title:"Google Cloud Spanner",source:"https://cloud.google.com/icons",
+        }
+        ,[SimpleIcons.GoogleCloudStorage]: {
+            hex:"AECBFA",title:"Google Cloud Storage",source:"https://cloud.google.com/icons",
         }
         ,[SimpleIcons.GoogleColab]: {
             hex:"F9AB00",title:"Google Colab",source:"https://colab.research.google.com",
         }
-        ,[SimpleIcons.GoogleDomains]: {
-            hex:"4285F4",title:"Google Domains",source:"https://domains.google/",
+        ,[SimpleIcons.GoogleContainerOptimizedOS]: {
+            hex:"4285F4",title:"Google Container Optimized OS",source:"https://cloud.google.com/icons",
+        }
+        ,[SimpleIcons.GoogleDataStudio]: {
+            hex:"669DF6",title:"Google Data Studio",source:"https://cloud.google.com/icons",
+        }
+        ,[SimpleIcons.GoogleDataflow]: {
+            hex:"AECBFA",title:"Google Dataflow",source:"https://cloud.google.com/icons",
+        }
+        ,[SimpleIcons.GoogleDataproc]: {
+            hex:"AECBFA",title:"Google Dataproc",source:"https://cloud.google.com/icons",
+        }
+        ,[SimpleIcons.GoogleDisplay__Video360]: {
+            hex:"34A853",title:"Google Display & Video 360",source:"https://marketingplatform.google.com/about",
+        }
+        ,[SimpleIcons.GoogleDocs]: {
+            hex:"4285F4",title:"Google Docs",source:"https://www.google.com/docs/about",
         }
         ,[SimpleIcons.GoogleDrive]: {
             hex:"4285F4",title:"Google Drive",source:"https://developers.google.com/drive/web/branding",
@@ -11682,41 +19154,47 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.GoogleEarth]: {
             hex:"4285F4",title:"Google Earth",source:"https://earth.google.com/web/",
         }
+        ,[SimpleIcons.GoogleEarthEngine]: {
+            hex:"4285F4",title:"Google Earth Engine",source:"https://github.com/simple-icons/simple-icons/issues/8912#issuecomment-1638850020",
+        }
         ,[SimpleIcons.GoogleFit]: {
             hex:"4285F4",title:"Google Fit",source:"https://partnermarketinghub.withgoogle.com/brands/google-fit/",
         }
         ,[SimpleIcons.GoogleFonts]: {
-            hex:"4285F4",title:"Google Fonts",source:"https://fonts.google.com/",
+            hex:"4285F4",title:"Google Fonts",source:"https://fonts.google.com",
         }
-        ,[SimpleIcons.GoogleHangouts]: {
-            hex:"0C9D58",title:"Google Hangouts",source:"https://upload.wikimedia.org/wikipedia/commons/e/ee/Hangouts_icon.svg",
+        ,[SimpleIcons.GoogleForms]: {
+            hex:"7248B9",title:"Google Forms",source:"https://about.google/products/#all-products",
+        }
+        ,[SimpleIcons.GoogleGemini]: {
+            hex:"8E75B2",title:"Google Gemini",source:"https://gemini.google.com",
+        }
+        ,[SimpleIcons.GoogleHome]: {
+            hex:"4285F4",title:"Google Home",source:"https://home.google.com/welcome/",
         }
         ,[SimpleIcons.GoogleKeep]: {
-            hex:"FFBB00",title:"Google Keep",source:"https://play.google.com/store/apps/details?id=com.google.android.keep",
+            hex:"FFBB00",title:"Google Keep",source:"https://about.google/brand-resource-center/logos-list/",
         }
         ,[SimpleIcons.GoogleLens]: {
-            hex:"4285F4",title:"Google Lens",source:"https://lens.google.com/",
+            hex:"4285F4",title:"Google Lens",source:"https://lens.google.com",
         }
         ,[SimpleIcons.GoogleMaps]: {
             hex:"4285F4",title:"Google Maps",source:"https://upload.wikimedia.org/wikipedia/commons/a/a9/Google_Maps_icon.svg",
         }
+        ,[SimpleIcons.GoogleMarketingPlatform]: {
+            hex:"4285F4",title:"Google Marketing Platform",source:"https://about.google/brand-resource-center/logos-list/",
+        }
         ,[SimpleIcons.GoogleMeet]: {
-            hex:"00897B",title:"Google Meet",source:"https://meet.google.com/",
+            hex:"00897B",title:"Google Meet",source:"https://about.google/brand-resource-center/logos-list/",
         }
         ,[SimpleIcons.GoogleMessages]: {
-            hex:"1A73E8",title:"Google Messages",source:"https://messages.google.com/",
-        }
-        ,[SimpleIcons.GoogleMyBusiness]: {
-            hex:"4285F4",title:"Google My Business",source:"https://business.google.com/",
+            hex:"1A73E8",title:"Google Messages",source:"https://messages.google.com",
         }
         ,[SimpleIcons.GoogleNearby]: {
             hex:"4285F4",title:"Google Nearby",source:"https://developers.google.com/nearby/developer-guidelines",
         }
         ,[SimpleIcons.GoogleNews]: {
             hex:"174EA6",title:"Google News",source:"https://partnermarketinghub.withgoogle.com/brands/google-news/",
-        }
-        ,[SimpleIcons.GoogleOptimize]: {
-            hex:"B366F6",title:"Google Optimize",source:"https://marketingplatform.google.com/about/optimize/",
         }
         ,[SimpleIcons.GooglePay]: {
             hex:"4285F4",title:"Google Pay",source:"https://pay.google.com/intl/en_us/about/",
@@ -11727,8 +19205,8 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.GooglePlay]: {
             hex:"414141",title:"Google Play",source:"https://partnermarketinghub.withgoogle.com/brands/google-play/visual-identity/primary-logos/",
         }
-        ,[SimpleIcons.GooglePodcasts]: {
-            hex:"4285F4",title:"Google Podcasts",source:"https://developers.google.com/search/docs/data-types/podcast",
+        ,[SimpleIcons.GooglePub_Sub]: {
+            hex:"AECBFA",title:"Google Pub/Sub",source:"https://cloud.google.com/icons",
         }
         ,[SimpleIcons.GoogleScholar]: {
             hex:"4285F4",title:"Google Scholar",source:"https://commons.wikimedia.org/wiki/File:Google_Scholar_logo.svg",
@@ -11737,7 +19215,10 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"458CF5",title:"Google Search Console",source:"https://search.google.com/search-console",
         }
         ,[SimpleIcons.GoogleSheets]: {
-            hex:"34A853",title:"Google Sheets",source:"http://sheets.google.com/",
+            hex:"34A853",title:"Google Sheets",source:"https://sheets.google.com",
+        }
+        ,[SimpleIcons.GoogleSlides]: {
+            hex:"FBBC04",title:"Google Slides",source:"https://slides.google.com",
         }
         ,[SimpleIcons.GoogleStreetView]: {
             hex:"FEC111",title:"Google Street View",source:"https://developers.google.com/streetview/ready/branding",
@@ -11745,26 +19226,44 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.GoogleTagManager]: {
             hex:"246FDB",title:"Google Tag Manager",source:"https://tagmanager.google.com/#/home",
         }
+        ,[SimpleIcons.GoogleTasks]: {
+            hex:"2684FC",title:"Google Tasks",source:"https://assistant.google.com/tasks",
+        }
         ,[SimpleIcons.GoogleTranslate]: {
             hex:"4285F4",title:"Google Translate",source:"https://commons.wikimedia.org/wiki/File:Google_Translate_logo.svg",
         }
         ,[SimpleIcons.GoToMeeting]: {
-            hex:"F68D2E",title:"GoToMeeting",source:"https://www.gotomeeting.com/",
+            hex:"F68D2E",title:"GoToMeeting",source:"https://www.gotomeeting.com",
+        }
+        ,[SimpleIcons.Grab]: {
+            hex:"00B14F",title:"Grab",source:"https://en.wikipedia.org/wiki/File:Grab_(application)_logo.svg",
         }
         ,[SimpleIcons.Gradle]: {
             hex:"02303A",title:"Gradle",source:"https://gradle.com/brand",
         }
+        ,[SimpleIcons.GradlePlayPublisher]: {
+            hex:"82B816",title:"Gradle Play Publisher",source:"https://github.com/Triple-T/gradle-play-publisher/blob/df4eadf1ca6b5bad50e21be0b21816722ed50342/assets/logo.svg",
+        }
         ,[SimpleIcons.Grafana]: {
-            hex:"F46800",title:"Grafana",source:"https://grafana.com/",
+            hex:"F46800",title:"Grafana",source:"https://grafana.com",
         }
         ,[SimpleIcons.Grammarly]: {
-            hex:"15C39A",title:"Grammarly",source:"https://www.grammarly.com/media-assets",
+            hex:"027E6F",title:"Grammarly",source:"https://www.grammarly.com/media-assets",
+        }
+        ,[SimpleIcons.GrandFrais]: {
+            hex:"ED2D2F",title:"Grand Frais",source:"https://www.grandfrais.com",
+        }
+        ,[SimpleIcons.GrapheneOS]: {
+            hex:"0053A3",title:"GrapheneOS",source:"https://github.com/GrapheneOS/branding-extra/blob/5cc2e4b781345b89457d8ef814bd1aae56af289f/simple.svg",
+        }
+        ,[SimpleIcons.Graphite]: {
+            hex:"000000",title:"Graphite",source:"https://graphite.dev",
         }
         ,[SimpleIcons.GraphQL]: {
-            hex:"E434AA",title:"GraphQL",source:"https://github.com/graphql/artwork/blob/ac6ee2ac1cf31ba1be1b8fbc40910f0c70c98a1e/GraphQL/icon/GraphQL-mark-black.svg",
+            hex:"E10098",title:"GraphQL",source:"https://graphql.org/brand",
         }
         ,[SimpleIcons.Grav]: {
-            hex:"221E1F",title:"Grav",source:"http://getgrav.org/media",
+            hex:"221E1F",title:"Grav",source:"https://getgrav.org/media",
         }
         ,[SimpleIcons.Gravatar]: {
             hex:"1E8CBE",title:"Gravatar",source:"https://automattic.com/press/brand-materials/",
@@ -11772,8 +19271,17 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Graylog]: {
             hex:"FF3633",title:"Graylog",source:"https://www.graylog.org",
         }
+        ,[SimpleIcons.GreasyFork]: {
+            hex:"670000",title:"Greasy Fork",source:"https://github.com/JasonBarnabe/greasyfork/blob/bfeb5f405e03fb32ebc86df7e11c83ca1cb79ddb/misc/logos/logo512.xcf",
+        }
+        ,[SimpleIcons.GreatLearning]: {
+            hex:"0E39A9",title:"Great Learning",source:"https://www.mygreatlearning.com",
+        }
+        ,[SimpleIcons.Greenhouse]: {
+            hex:"24A47F",title:"Greenhouse",source:"https://brand.greenhouse.io/brand-portal/p/6",
+        }
         ,[SimpleIcons.GreenSock]: {
-            hex:"88CE02",title:"GreenSock",source:"https://greensock.com/",
+            hex:"88CE02",title:"GreenSock",source:"https://greensock.com",
         }
         ,[SimpleIcons.GridAi]: {
             hex:"78FF96",title:"Grid.ai",source:"https://github.com/gridai/logos/blob/1e12c83b77abdc22a41566cab232f4db40223895/GridAI-icons/icon-white-48.svg",
@@ -11781,41 +19289,77 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Gridsome]: {
             hex:"00A672",title:"Gridsome",source:"https://gridsome.org/logo/",
         }
+        ,[SimpleIcons.GroupMe]: {
+            hex:"00AFF0",title:"GroupMe",source:"https://groupme.com",
+        }
         ,[SimpleIcons.Groupon]: {
             hex:"53A318",title:"Groupon",source:"https://about.groupon.com/press/",
         }
         ,[SimpleIcons.Grubhub]: {
-            hex:"F63440",title:"Grubhub",source:"https://www.grubhub.com/",
+            hex:"F63440",title:"Grubhub",source:"https://www.grubhub.com",
         }
         ,[SimpleIcons.Grunt]: {
             hex:"FAA918",title:"Grunt",source:"https://github.com/gruntjs/gruntjs.com/blob/70f43898d9ce8e6cc862ad72bf8a7aee5ca199a9/src/media/grunt-logo-no-wordmark.svg",
         }
+        ,[SimpleIcons.GSK]: {
+            hex:"F36633",title:"GSK",source:"https://www.gskbrandhub.com",
+        }
+        ,[SimpleIcons.GSMArenaCom]: {
+            hex:"D50000",title:"GSMArena.com",source:"https://www.gsmarena.com",
+        }
+        ,[SimpleIcons.GStreamer]: {
+            hex:"FF3131",title:"GStreamer",source:"https://gstreamer.freedesktop.org/artwork",
+        }
+        ,[SimpleIcons.GTK]: {
+            hex:"7FE719",title:"GTK",source:"https://commons.wikimedia.org/wiki/File:GTK_logo.svg",
+        }
         ,[SimpleIcons.GuangzhouMetro]: {
             hex:"C51935",title:"Guangzhou Metro",source:"https://commons.wikimedia.org/wiki/File:Guangzhou_Metro_logo.svg",
+        }
+        ,[SimpleIcons.Guilded]: {
+            hex:"F5C400",title:"Guilded",source:"https://www.guilded.gg/brand",
         }
         ,[SimpleIcons.Gulp]: {
             hex:"CF4647",title:"gulp",source:"https://github.com/gulpjs/artwork/blob/4e14158817ac88e9a5c02b3b307e6f630fe222fb/gulp-white-text.svg",
         }
         ,[SimpleIcons.Gumroad]: {
-            hex:"36A9AE",title:"Gumroad",source:"https://gumroad.com/press",
+            hex:"FF90E8",title:"Gumroad",source:"https://gumroad.com",
         }
         ,[SimpleIcons.Gumtree]: {
             hex:"72EF36",title:"Gumtree",source:"https://www.gumtree.com",
         }
+        ,[SimpleIcons.Gunicorn]: {
+            hex:"499848",title:"Gunicorn",source:"https://github.com/benoitc/gunicorn/blob/ff58e0c6da83d5520916bc4cc109a529258d76e1/docs/logo/gunicorn.svg",
+        }
+        ,[SimpleIcons.Gurobi]: {
+            hex:"EE3524",title:"Gurobi",source:"https://cdn.gurobi.com/wp-content/uploads/2021/02/Gurobi-Optimization_Corporate-Brochure.pdf",
+        }
+        ,[SimpleIcons.Gusto]: {
+            hex:"F45D48",title:"Gusto",source:"https://gusto.com",
+        }
         ,[SimpleIcons.Gutenberg]: {
-            hex:"000000",title:"Gutenberg",source:"https://github.com/WordPress/gutenberg/blob/master/docs/final-g-wapuu-black.svg",
+            hex:"000000",title:"Gutenberg",source:"https://github.com/WordPress/gutenberg/blob/7829913ae117dfb561d14c600eea7b281afd6556/docs/final-g-wapuu-black.svg",
+        }
+        ,[SimpleIcons.H_M]: {
+            hex:"E50010",title:"H&M",source:"https://www2.hm.com/en_gb/index.html",
+        }
+        ,[SimpleIcons.H3]: {
+            hex:"1E54B7",title:"H3",source:"https://github.com/uber/h3/blob/71e09dc002b211887c6db525609a449058233a71/website/static/images/h3Logo-color.svg",
         }
         ,[SimpleIcons.Habr]: {
-            hex:"65A3BE",title:"Habr",source:"https://kiosk.habr.com/",
+            hex:"65A3BE",title:"Habr",source:"https://kiosk.habr.com",
         }
         ,[SimpleIcons.HackClub]: {
             hex:"EC3750",title:"Hack Club",source:"https://hackclub.com/brand",
         }
         ,[SimpleIcons.HackTheBox]: {
-            hex:"9FEF00",title:"Hack The Box",source:"https://www.hackthebox.eu/docs/Hack_The_Box_Brand_Assets_Guide.pdf",
+            hex:"9FEF00",title:"Hack The Box",source:"https://www.hackthebox.com/contact-us",
         }
         ,[SimpleIcons.Hackaday]: {
-            hex:"1A1A1A",title:"Hackaday",source:"https://hackaday.com/",
+            hex:"1A1A1A",title:"Hackaday",source:"https://hackaday.com",
+        }
+        ,[SimpleIcons.HackerNoon]: {
+            hex:"00FE00",title:"Hacker Noon",source:"https://sponsor.hackernoon.com/#brandasauthor",
         }
         ,[SimpleIcons.HackerEarth]: {
             hex:"2C3454",title:"HackerEarth",source:"https://www.hackerearth.com/logo/",
@@ -11829,17 +19373,29 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Hackster]: {
             hex:"2E9FE6",title:"Hackster",source:"https://www.hackster.io/branding#logos",
         }
+        ,[SimpleIcons.HAL]: {
+            hex:"B03532",title:"HAL",source:"https://www.ccsd.cnrs.fr/en/brand-guidelines",
+        }
+        ,[SimpleIcons.HandlebarsJs]: {
+            hex:"000000",title:"Handlebars.js",source:"https://github.com/handlebars-lang/docs/blob/13a2e2d9e31ebff4295924ea366abf3062e47ede/src/.vuepress/public/icons/handlebarsjs-icon.svg",
+        }
         ,[SimpleIcons.Handshake]: {
-            hex:"FF2F1C",title:"Handshake",source:"https://joinhandshake.com/career-centers/marketing-toolkit/",
+            hex:"D3FB52",title:"Handshake",source:"https://joinhandshake.com/career-centers/marketing-toolkit",
         }
         ,[SimpleIcons.HandshakeProtocol]: {
-            hex:"000000",title:"Handshake",source:"https://handshake.org/",slug:"handshake_protocol"
+            hex:"000000",title:"Handshake",source:"https://handshake.org",slug:"handshake_protocol"
         }
         ,[SimpleIcons.HappyCow]: {
             hex:"7C4EC4",title:"HappyCow",source:"https://www.happycow.net/press-kits",
         }
         ,[SimpleIcons.Harbor]: {
-            hex:"60B932",title:"Harbor",source:"https://branding.cncf.io/projects/harbor/",
+            hex:"60B932",title:"Harbor",source:"https://github.com/cncf/artwork/blob/ff2b2b5216e22f001ddd444ca580c484dd10302e/projects/harbor/icon/black/harbor-icon-black.svg",
+        }
+        ,[SimpleIcons.HarmonyOS]: {
+            hex:"000000",title:"HarmonyOS",source:"https://www.harmonyos.com",
+        }
+        ,[SimpleIcons.HashiCorp]: {
+            hex:"000000",title:"HashiCorp",source:"https://www.hashicorp.com",
         }
         ,[SimpleIcons.Hashnode]: {
             hex:"2962FF",title:"Hashnode",source:"https://hashnode.com/media",
@@ -11848,73 +19404,121 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"5D4F85",title:"Haskell",source:"https://wiki.haskell.org/Thompson-Wheeler_logo",
         }
         ,[SimpleIcons.Hasura]: {
-            hex:"1EB4D4",title:"Hasura",source:"https://github.com/hasura/graphql-engine/blob/5850423aa60594c06320c3ef600117c31963e910/assets/brand/hasura_icon_blue.svg",
+            hex:"1EB4D4",title:"Hasura",source:"https://github.com/hasura/graphql-engine/blob/5e2f5d470cdc2a7e59db7a3d5e94475a00bb2ac6/docs/static/img/logo.svg",
         }
         ,[SimpleIcons.HatenaBookmark]: {
-            hex:"00A4DE",title:"Hatena Bookmark",source:"http://hatenacorp.jp/press/resource",
+            hex:"00A4DE",title:"Hatena Bookmark",source:"https://hatenacorp.jp/press/resource",
         }
         ,[SimpleIcons.Haveibeenpwned]: {
-            hex:"2A6379",title:"haveibeenpwned",source:"https://haveibeenpwned.com/",
+            hex:"2A6379",title:"haveibeenpwned",source:"https://haveibeenpwned.com",
         }
         ,[SimpleIcons.Haxe]: {
             hex:"EA8220",title:"Haxe",source:"https://haxe.org/foundation/branding.html",
         }
         ,[SimpleIcons.HBO]: {
-            hex:"000000",title:"HBO",source:"https://www.hbo.com/",
+            hex:"000000",title:"HBO",source:"https://www.hbo.com",
         }
         ,[SimpleIcons.HCL]: {
             hex:"006BB6",title:"HCL",source:"https://www.hcl.com/brand-guidelines",
         }
+        ,[SimpleIcons.HDFCBank]: {
+            hex:"004B8D",title:"HDFC Bank",source:"https://www.hdfcsales.com",
+        }
+        ,[SimpleIcons.HeadlessUI]: {
+            hex:"66E3FF",title:"Headless UI",source:"https://headlessui.dev",
+        }
+        ,[SimpleIcons.HeadphoneZone]: {
+            hex:"3C07FF",title:"Headphone Zone",source:"https://www.headphonezone.in",
+        }
         ,[SimpleIcons.Headspace]: {
             hex:"F47D31",title:"Headspace",source:"https://www.headspace.com/press-and-media",
         }
+        ,[SimpleIcons.Hearth]: {
+            hex:"A33035",title:"Hearth",source:"https://www.gethearth.com",
+        }
+        ,[SimpleIcons.HearthisAt]: {
+            hex:"000000",title:"hearthis.at",source:"https://hearthis.at",
+        }
+        ,[SimpleIcons.Hedera]: {
+            hex:"222222",title:"Hedera",source:"https://hederabrandcentral.frontify.com/d/Tmocz52AXpLj/brand-assets#/brand-assets/brand-identity/our-hbar-logomark",
+        }
+        ,[SimpleIcons.Helium]: {
+            hex:"0ACF83",title:"Helium",source:"https://www.helium.com",
+        }
         ,[SimpleIcons.HelloFresh]: {
-            hex:"99CC33",title:"HelloFresh",source:"https://www.hellofresh.com/landing/student",
+            hex:"99CC33",title:"HelloFresh",source:"https://www.hellofreshgroup.com/en/newsroom/press-material/brand",
         }
         ,[SimpleIcons.HellyHansen]: {
-            hex:"DA2128",title:"Helly Hansen",source:"https://www.hellyhansen.com/",
+            hex:"DA2128",title:"Helly Hansen",source:"https://www.hellyhansen.com",
         }
         ,[SimpleIcons.Helm]: {
             hex:"0F1689",title:"Helm",source:"https://helm.sh",
         }
+        ,[SimpleIcons.HelpScout]: {
+            hex:"1292EE",title:"Help Scout",source:"https://www.helpscout.com",
+        }
         ,[SimpleIcons.HelpDesk]: {
-            hex:"FFD000",title:"HelpDesk",source:"https://helpdesk.design/",
+            hex:"2FC774",title:"HelpDesk",source:"https://helpdesk.design",
+        }
+        ,[SimpleIcons.Hepsiemlak]: {
+            hex:"E1251B",title:"Hepsiemlak",source:"https://www.hepsiemlak.com",
         }
         ,[SimpleIcons.HERE]: {
             hex:"00AFAA",title:"HERE",source:"https://www.here.com/company/media-assets",
         }
         ,[SimpleIcons.Heroku]: {
-            hex:"430098",title:"Heroku",source:"https://brand.heroku.com/",
+            hex:"430098",title:"Heroku",source:"https://devcenter.heroku.com/articles/heroku-brand-guidelines#logos",
+        }
+        ,[SimpleIcons.Hetzner]: {
+            hex:"D50C2D",title:"Hetzner",source:"https://www.hetzner.com",
+        }
+        ,[SimpleIcons.Hevy]: {
+            hex:"000000",title:"Hevy",source:"https://www.hevyapp.com",
+        }
+        ,[SimpleIcons.Hexlet]: {
+            hex:"116EF5",title:"Hexlet",source:"https://hexlet.io",
         }
         ,[SimpleIcons.Hexo]: {
-            hex:"0E83CD",title:"Hexo",source:"https://hexo.io/",
+            hex:"0E83CD",title:"Hexo",source:"https://hexo.io",
         }
         ,[SimpleIcons.HEY]: {
-            hex:"5522FA",title:"HEY",source:"https://hey.com/",
+            hex:"5522FA",title:"HEY",source:"https://hey.com",
+        }
+        ,[SimpleIcons.HiBob]: {
+            hex:"E42C51",title:"Hi Bob",source:"https://www.hibob.com",
         }
         ,[SimpleIcons.Hibernate]: {
-            hex:"59666C",title:"Hibernate",source:"https://hibernate.org/",
+            hex:"59666C",title:"Hibernate",source:"https://hibernate.org",
         }
         ,[SimpleIcons.Hilton]: {
-            hex:"124D97",title:"Hilton",source:"https://newsroom.hilton.com/hhr/page/logos",
+            hex:"231F20",title:"Hilton",source:"https://www.hilton.com",
+        }
+        ,[SimpleIcons.HiltonHotels__Resorts]: {
+            hex:"1E4380",title:"Hilton Hotels & Resorts",source:"https://www.hilton.com/en/brands/hilton-hotels",
         }
         ,[SimpleIcons.Hitachi]: {
             hex:"E60027",title:"Hitachi",source:"https://commons.wikimedia.org/wiki/File:Hitachi_inspire_the_next-Logo.svg",
         }
         ,[SimpleIcons.Hive]: {
-            hex:"FF7A00",title:"Hive",source:"https://www.hivehome.com/",
+            hex:"FF7A00",title:"Hive",source:"https://www.hivehome.com",
         }
         ,[SimpleIcons.HiveBlockchain]: {
-            hex:"E31337",title:"Hive",source:"https://hive.io/brand/",slug:"hive_blockchain"
+            hex:"E31337",title:"Hive",source:"https://hive.io/brand",slug:"hive_blockchain"
+        }
+        ,[SimpleIcons.HiveMQ]: {
+            hex:"FFC000",title:"HiveMQ",source:"https://www.hivemq.com",
+        }
+        ,[SimpleIcons.Homarr]: {
+            hex:"FA5252",title:"Homarr",source:"https://github.com/ajnart/homarr/blob/2bf423132d9077d371d254e577fc57037a31ac4b/public/imgs/favicon/favicon.svg",
         }
         ,[SimpleIcons.HomeAssistant]: {
-            hex:"41BDF5",title:"Home Assistant",source:"https://github.com/home-assistant/assets/blob/1e19f0dca208f0876b274c68345fcf989de7377a/logo/logo-small.png",
+            hex:"18BCF2",title:"Home Assistant",source:"https://github.com/home-assistant/assets/blob/0f69676da79c3881e7dfca6d6c0a5739f88273d8/logo/home-assistant-logo.zip",
         }
         ,[SimpleIcons.HomeAssistantCommunityStore]: {
-            hex:"41BDF5",title:"Home Assistant Community Store",source:"https://hacs.xyz/",
+            hex:"41BDF5",title:"Home Assistant Community Store",source:"https://hacs.xyz",
         }
         ,[SimpleIcons.HomeAdvisor]: {
-            hex:"F68315",title:"HomeAdvisor",source:"https://www.homeadvisor.com/",
+            hex:"F68315",title:"HomeAdvisor",source:"https://www.homeadvisor.com",
         }
         ,[SimpleIcons.Homebrew]: {
             hex:"FBB040",title:"Homebrew",source:"https://github.com/Homebrew/brew.sh/blob/2e576aaca83e62dda41a188597bb4bd20e75e385/assets/img/homebrew.svg",
@@ -11922,23 +19526,41 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Homebridge]: {
             hex:"491F59",title:"Homebridge",source:"https://github.com/homebridge/branding/blob/6ef3a1685e79f79a2ecdcc83824e53775ec0475d/logos/homebridge-silhouette-round-black.svg",
         }
+        ,[SimpleIcons.Homepage]: {
+            hex:"009BD5",title:"Homepage",source:"https://github.com/gethomepage/homepage/blob/e56dccc7f17144a53b97a315c2e4f622fa07e58d/public/safari-pinned-tab.svg",
+        }
         ,[SimpleIcons.Homify]: {
             hex:"7DCDA3",title:"homify",source:"https://www.homify.com",
         }
         ,[SimpleIcons.Honda]: {
-            hex:"E40521",title:"Honda",source:"https://www.honda.ie/",
+            hex:"E40521",title:"Honda",source:"https://www.honda.ie",
+        }
+        ,[SimpleIcons.Honey]: {
+            hex:"FF6801",title:"Honey",source:"https://www.joinhoney.com",
+        }
+        ,[SimpleIcons.Hono]: {
+            hex:"E36002",title:"Hono",source:"https://github.com/honojs/hono/blob/76dbc74407329c46870af6aa4fab0c04036d8ae2/docs/images/hono-logo.svg",
+        }
+        ,[SimpleIcons.Honor]: {
+            hex:"000000",title:"Honor",source:"https://www.hihonor.com",
         }
         ,[SimpleIcons.Hootsuite]: {
-            hex:"143059",title:"Hootsuite",source:"https://hootsuite.widencollective.com/portals/bafpk5oo/MediaKitAssets/c/b9e3a7bb-aca7-48d7-90ed-cff5898aafd0",
+            hex:"FF4C46",title:"Hootsuite",source:"https://hootsuite.widencollective.com/portals/bafpk5oo/bafpk5oo/MediaKitAssets/c/b9e3a7bb-aca7-48d7-90ed-cff5898aafd0",
         }
         ,[SimpleIcons.Hoppscotch]: {
-            hex:"31C48D",title:"Hoppscotch",source:"https://github.com/hoppscotch/hoppscotch/blob/77862cdf9bd902a4ea64bd8b2301ed2206820649/static/images/ufo_logo.svg",
+            hex:"09090B",title:"Hoppscotch",source:"https://hoppscotch.com",
+        }
+        ,[SimpleIcons.Hostinger]: {
+            hex:"673DE6",title:"Hostinger",source:"https://www.hostinger.com/newsroom",
         }
         ,[SimpleIcons.HotelsCom]: {
-            hex:"D32F2F",title:"Hotels.com",source:"https://en.wikipedia.org/wiki/File:Hotels.com_logo.svg",
+            hex:"EF3346",title:"Hotels.com",source:"https://www.hotels.com",
         }
         ,[SimpleIcons.Hotjar]: {
-            hex:"FD3A5C",title:"Hotjar",source:"https://www.hotjar.com/",
+            hex:"FF3C00",title:"Hotjar",source:"https://www.hotjar.com",
+        }
+        ,[SimpleIcons.Hotwire]: {
+            hex:"FFE801",title:"Hotwire",source:"https://hotwired.dev",
         }
         ,[SimpleIcons.Houdini]: {
             hex:"FF4713",title:"Houdini",source:"https://www.sidefx.com/products/houdini/",
@@ -11947,13 +19569,25 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"4DBC15",title:"Houzz",source:"https://www.houzz.com/logoGuidelines",
         }
         ,[SimpleIcons.HP]: {
-            hex:"0096D6",title:"HP",source:"https://brandcentral.ext.hp.com/login",
+            hex:"0096D6",title:"HP",source:"https://brandcentral.hp.com/us/en/elements/hp-logo.html",
+        }
+        ,[SimpleIcons.HSBC]: {
+            hex:"DB0011",title:"HSBC",source:"https://www.hsbc.com",
         }
         ,[SimpleIcons.HTMLAcademy]: {
-            hex:"302683",title:"HTML Academy",source:"https://htmlacademy.ru/",
+            hex:"302683",title:"HTML Academy",source:"https://htmlacademy.ru",
         }
         ,[SimpleIcons.HTML5]: {
-            hex:"E34F26",title:"HTML5",source:"http://www.w3.org/html/logo/",
+            hex:"E34F26",title:"HTML5",source:"https://www.w3.org/html/logo/",
+        }
+        ,[SimpleIcons.Htmx]: {
+            hex:"3366CC",title:"htmx",source:"https://github.com/bigskysoftware/htmx/blob/f690d928342b6334fa539cfbd4be515748d2ba0f/www/static/img/htmx_logo.2.png",
+        }
+        ,[SimpleIcons.Htop]: {
+            hex:"009020",title:"htop",source:"https://github.com/htop-dev/htop/blob/03d5e4746f53bd07daf68638d714a7fec336297b/htop.svg",
+        }
+        ,[SimpleIcons.HTTPie]: {
+            hex:"73DC8C",title:"HTTPie",source:"https://github.com/httpie/httpie/blob/d262181bede5241a6b692c3245a77e2eb02bc262/docs/httpie-logo.svg",
         }
         ,[SimpleIcons.Huawei]: {
             hex:"FF0000",title:"Huawei",source:"https://e.huawei.com/ph/material/partner/0a72728b864949c48b22106454352483",
@@ -11961,47 +19595,59 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.HubSpot]: {
             hex:"FF7A59",title:"HubSpot",source:"https://www.hubspot.com/style-guide",
         }
-        ,[SimpleIcons.Hugo]: {
-            hex:"FF4088",title:"Hugo",source:"https://gohugo.io/",
+        ,[SimpleIcons.HuggingFace]: {
+            hex:"FFD21E",title:"Hugging Face",source:"https://huggingface.co/brand",
         }
-        ,[SimpleIcons.Hulu]: {
-            hex:"1CE783",title:"Hulu",source:"https://thisis.hulu.com/",
+        ,[SimpleIcons.Hugo]: {
+            hex:"FF4088",title:"Hugo",source:"https://gohugo.io",
         }
         ,[SimpleIcons.HumbleBundle]: {
             hex:"CC2929",title:"Humble Bundle",source:"https://support.humblebundle.com/hc/en-us/articles/202742060-Bundle-Logos",
         }
         ,[SimpleIcons.HungryJack_s]: {
-            hex:"D0021B",title:"Hungry Jack's",source:"https://www.hungryjacks.com.au/",
-        }
-        ,[SimpleIcons.Hurriyetemlak]: {
-            hex:"E02826",title:"Hurriyetemlak",source:"https://ilan.hurriyetemlak.com/emlak-ilani-yayinlama-kurallari",
+            hex:"D0021B",title:"Hungry Jack's",source:"https://www.hungryjacks.com.au",
         }
         ,[SimpleIcons.Husqvarna]: {
-            hex:"273A60",title:"Husqvarna",source:"https://www.husqvarna.com/uk/catalogues/",
+            hex:"273A60",title:"Husqvarna",source:"https://www.husqvarna.com",
         }
         ,[SimpleIcons.Hyper]: {
-            hex:"000000",title:"Hyper",source:"https://hyper.is/",
+            hex:"000000",title:"Hyper",source:"https://hyper.is",
         }
-        ,[SimpleIcons.Hyperledger]: {
-            hex:"2F3134",title:"Hyperledger",source:"https://www.hyperledger.org/",
+        ,[SimpleIcons.Hyperskill]: {
+            hex:"8C5AFF",title:"Hyperskill",source:"https://hyperskill.org",
         }
         ,[SimpleIcons.Hypothesis]: {
             hex:"BD1C2B",title:"Hypothesis",source:"https://web.hypothes.is/brand/",
         }
+        ,[SimpleIcons.Hyprland]: {
+            hex:"58E1FF",title:"Hyprland",source:"https://hyprland.org",
+        }
         ,[SimpleIcons.Hyundai]: {
-            hex:"002C5F",title:"Hyundai",source:"https://en.wikipedia.org/wiki/File:Hyundai_Motor_Company_logo.svg",
+            hex:"002C5E",title:"Hyundai",source:"https://www.hyundai.com",
+        }
+        ,[SimpleIcons.I18next]: {
+            hex:"26A69A",title:"i18next",source:"https://github.com/i18next/i18next-gitbook/blob/32efcfd9c59ae55cc63a60e633dbc1651c7950ad/assets/img/logo.svg",
+        }
+        ,[SimpleIcons.I3]: {
+            hex:"52C0FF",title:"i3",source:"https://github.com/i3/i3/blob/d6e2a38b5cdf200c0fb82fc4cf7fff7dbcdeb605/logo.svg",
         }
         ,[SimpleIcons.Iata]: {
-            hex:"004E81",title:"Iata",source:"https://upload.wikimedia.org/wikipedia/commons/f/f7/IATAlogo.svg",
+            hex:"004E81",title:"Iata",source:"https://commons.wikimedia.org/wiki/File:IATAlogo.svg",
         }
         ,[SimpleIcons.IBeacon]: {
             hex:"3D7EBB",title:"iBeacon",source:"https://developer.apple.com/ibeacon/",
         }
-        ,[SimpleIcons.IBM]: {
-            hex:"052FAD",title:"IBM",source:"https://www.ibm.com/design/language/ibm-logos/8-bar/",
+        ,[SimpleIcons.Iberia]: {
+            hex:"D7192D",title:"Iberia",source:"https://iberia.com",
         }
-        ,[SimpleIcons.IBMWatson]: {
-            hex:"BE95FF",title:"IBM Watson",source:"https://www.ibm.com/brand/systems/watson/brand/",
+        ,[SimpleIcons.Iced]: {
+            hex:"3645FF",title:"Iced",source:"https://iced.rs",
+        }
+        ,[SimpleIcons.Iceland]: {
+            hex:"CC092F",title:"Iceland",source:"https://www.iceland.co.uk",
+        }
+        ,[SimpleIcons.ICICIBank]: {
+            hex:"AE282E",title:"ICICI Bank",source:"https://www.icicibank.com/ms/aboutus/annual-reports/2022-23/icici/assets/images/home-page/logo.svg",
         }
         ,[SimpleIcons.Icinga]: {
             hex:"06062C",title:"Icinga",source:"https://github.com/Icinga/icingaweb2/blob/293021b2000e9d459387153ca5690f97e0184aaa/public/img/icinga-logo-compact.svg",
@@ -12010,7 +19656,7 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"3693F3",title:"iCloud",source:"https://commons.wikimedia.org/wiki/File:ICloud_logo.svg",
         }
         ,[SimpleIcons.IcoMoon]: {
-            hex:"825794",title:"IcoMoon",source:"https://icomoon.io/",
+            hex:"825794",title:"IcoMoon",source:"https://icomoon.io",
         }
         ,[SimpleIcons.ICON]: {
             hex:"31B8BB",title:"ICON",source:"https://icon.foundation/contents/resrce/media",
@@ -12019,10 +19665,13 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"1A1B1F",title:"Iconfinder",source:"https://www.iconfinder.com/p/about",
         }
         ,[SimpleIcons.Iconify]: {
-            hex:"1769AA",title:"Iconify",source:"https://iconify.design/",
+            hex:"1769AA",title:"Iconify",source:"https://iconify.design",
         }
         ,[SimpleIcons.IconJar]: {
-            hex:"16A5F3",title:"IconJar",source:"https://geticonjar.com/",
+            hex:"16A5F3",title:"IconJar",source:"https://geticonjar.com",
+        }
+        ,[SimpleIcons.Icons8]: {
+            hex:"1FB141",title:"Icons8",source:"https://icons8.com",
         }
         ,[SimpleIcons.ICQ]: {
             hex:"24FF00",title:"ICQ",source:"https://commons.wikimedia.org/wiki/File:ICQNewlogo.svg",
@@ -12031,19 +19680,31 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"00629B",title:"IEEE",source:"https://brand-experience.ieee.org/templates-tools-resources/resources/master-brand-and-logos/",
         }
         ,[SimpleIcons.IFixit]: {
-            hex:"0071CE",title:"iFixit",source:"https://www.ifixit.com/",
+            hex:"0071CE",title:"iFixit",source:"https://www.ifixit.com",
         }
         ,[SimpleIcons.IFood]: {
-            hex:"EA1D2C",title:"iFood",source:"https://ifood.com.br/",
+            hex:"EA1D2C",title:"iFood",source:"https://ifood.com.br",
         }
         ,[SimpleIcons.IFTTT]: {
             hex:"000000",title:"IFTTT",source:"https://ifttt.com/discover/brand-guidelines",
+        }
+        ,[SimpleIcons.IGDB]: {
+            hex:"9147FF",title:"IGDB",source:"https://commons.wikimedia.org/wiki/File:IGDB_logo.svg",
+        }
+        ,[SimpleIcons.IGN]: {
+            hex:"BF1313",title:"IGN",source:"https://www.ign.com",
         }
         ,[SimpleIcons.IHeartRadio]: {
             hex:"C6002B",title:"iHeartRadio",source:"https://brand.iheart.com/logo",
         }
         ,[SimpleIcons.IKEA]: {
-            hex:"0058A3",title:"IKEA",source:"https://www.ikea.com/",
+            hex:"0058A3",title:"IKEA",source:"https://www.ikea.com",
+        }
+        ,[SimpleIcons._leDeFranceMobilit_s]: {
+            hex:"67B4E7",title:"Île-de-France Mobilités",source:"https://www.iledefrance-mobilites.fr",
+        }
+        ,[SimpleIcons.ImageSc]: {
+            hex:"039CB2",title:"Image.sc",source:"https://forum.image.sc",
         }
         ,[SimpleIcons.ImageJ]: {
             hex:"00D8E0",title:"ImageJ",source:"https://github.com/imagej/imagej/blob/0667395bcac20e5d7a371ac9f468522c74367d59/logo/inkscape_image_logo_src.svg",
@@ -12051,53 +19712,98 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.IMDb]: {
             hex:"F5C518",title:"IMDb",source:"https://brand.imdb.com/imdb",
         }
+        ,[SimpleIcons.IMessage]: {
+            hex:"34DA50",title:"iMessage",source:"https://commons.wikimedia.org/wiki/File:IMessage_logo.svg",
+        }
         ,[SimpleIcons.Imgur]: {
             hex:"1BB76E",title:"Imgur",source:"https://imgurinc.com/press",
         }
         ,[SimpleIcons.Immer]: {
             hex:"00E7C3",title:"Immer",source:"https://github.com/immerjs/immer/blob/7a5382899bc8b0bf5e21972a1c7db63f53e1d697/website/static/img/immer-logo.svg",
         }
+        ,[SimpleIcons.Immich]: {
+            hex:"4250AF",title:"Immich",source:"https://github.com/immich-app/immich/blob/25c9b779e4d19bc34551f8b137266a459e0d70e1/design/immich-logo.svg",
+        }
         ,[SimpleIcons.Imou]: {
             hex:"E89313",title:"Imou",source:"https://www.imoulife.com/support/download/userManual",
+        }
+        ,[SimpleIcons.ImprovMX]: {
+            hex:"2FBEFF",title:"ImprovMX",source:"https://improvmx.com",
         }
         ,[SimpleIcons.Indeed]: {
             hex:"003A9B",title:"Indeed",source:"https://indeed.design/resources",
         }
-        ,[SimpleIcons.Infiniti]: {
-            hex:"000000",title:"Infiniti",source:"https://www.infinitiusa.com",
+        ,[SimpleIcons.IndianSuperLeague]: {
+            hex:"ED2F21",title:"Indian Super League",source:"https://indiansuperleague.com",
+        }
+        ,[SimpleIcons.IndieHackers]: {
+            hex:"0E2439",title:"Indie Hackers",source:"https://www.indiehackers.com",
+        }
+        ,[SimpleIcons.IndiGo]: {
+            hex:"09009B",title:"IndiGo",source:"https://www.goindigo.in",
+        }
+        ,[SimpleIcons.Inertia]: {
+            hex:"9553E9",title:"Inertia",source:"https://inertiajs.com",
+        }
+        ,[SimpleIcons.INFINITI]: {
+            hex:"020B24",title:"INFINITI",source:"https://www.infiniti.com",
         }
         ,[SimpleIcons.InfluxDB]: {
             hex:"22ADF6",title:"InfluxDB",source:"https://influxdata.github.io/branding/logo/downloads/",
         }
+        ,[SimpleIcons.Infomaniak]: {
+            hex:"0098FF",title:"Infomaniak",source:"https://www.infomaniak.com/en/about/press",
+        }
+        ,[SimpleIcons.InfoQ]: {
+            hex:"2C6CAF",title:"InfoQ",source:"https://www.infoq.com",
+        }
         ,[SimpleIcons.Informatica]: {
-            hex:"FF4D00",title:"Informatica",source:"https://www.informatica.com/",
+            hex:"FF4D00",title:"Informatica",source:"https://www.informatica.com",
         }
         ,[SimpleIcons.Infosys]: {
             hex:"007CC3",title:"Infosys",source:"https://www.infosys.com/newsroom/journalist-resources/infosyslogo.html",
         }
+        ,[SimpleIcons.Infracost]: {
+            hex:"DB44B8",title:"Infracost",source:"https://www.infracost.io/img/logo.svg",
+        }
         ,[SimpleIcons.Ingress]: {
-            hex:"783CBD",title:"Ingress",source:"https://ingress.com/assets/fonts/ingress_icons.woff",
+            hex:"783CBD",title:"Ingress",source:"https://ingress.com",
+        }
+        ,[SimpleIcons.Inkdrop]: {
+            hex:"7A78D7",title:"Inkdrop",source:"https://site-cdn.inkdrop.app/site/icons/inkdrop-icon.svg",
         }
         ,[SimpleIcons.Inkscape]: {
             hex:"000000",title:"Inkscape",source:"https://inkscape.org/gallery/=inkscape-branding/inkscape-brand-assets/",
         }
+        ,[SimpleIcons.Inoreader]: {
+            hex:"1875F3",title:"Inoreader",source:"https://www.inoreader.com/brand-portal",
+        }
         ,[SimpleIcons.Insomnia]: {
-            hex:"5849BE",title:"Insomnia",source:"https://insomnia.rest/",
+            hex:"4000BF",title:"Insomnia",source:"https://insomnia.rest",
+        }
+        ,[SimpleIcons.INSPIRE]: {
+            hex:"00E5FF",title:"INSPIRE",source:"https://inspirehep.net",
+        }
+        ,[SimpleIcons.Insta360]: {
+            hex:"FFEE00",title:"Insta360",source:"https://www.insta360.com/press/logo",
         }
         ,[SimpleIcons.Instacart]: {
             hex:"43B02A",title:"Instacart",source:"https://www.instacart.com/press",
         }
         ,[SimpleIcons.Instagram]: {
-            hex:"E4405F",title:"Instagram",source:"https://en.facebookbrand.com/instagram/",
+            hex:"E4405F",title:"Instagram",source:"https://about.meta.com/brand/resources/instagram",
         }
         ,[SimpleIcons.Instapaper]: {
-            hex:"1F1F1F",title:"Instapaper",source:"https://www.instapaper.com/",
+            hex:"1F1F1F",title:"Instapaper",source:"https://www.instapaper.com",
+        }
+        ,[SimpleIcons.Instatus]: {
+            hex:"4EE3C2",title:"Instatus",source:"https://www.instatus.com",
         }
         ,[SimpleIcons.Instructables]: {
             hex:"FABF15",title:"Instructables",source:"https://www.instructables.com/community/Official-Instructables-Logos-1/",
         }
-        ,[SimpleIcons.Integromat]: {
-            hex:"2F8CBB",title:"Integromat",source:"https://www.integromat.com",
+        ,[SimpleIcons.Instructure]: {
+            hex:"2A7BA0",title:"Instructure",source:"https://www.instructure.com/about/brand-guide/download-logos",
         }
         ,[SimpleIcons.Intel]: {
             hex:"0071C5",title:"Intel",source:"https://www.intel.com/content/www/us/en/newsroom/resources/press-kits-intel-overview.html",
@@ -12105,20 +19811,35 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.IntelliJIDEA]: {
             hex:"000000",title:"IntelliJ IDEA",source:"https://www.jetbrains.com/idea/",
         }
+        ,[SimpleIcons.InteractionDesignFoundation]: {
+            hex:"2B2B2B",title:"Interaction Design Foundation",source:"https://www.interaction-design.org",
+        }
+        ,[SimpleIcons.InteractJS]: {
+            hex:"2599ED",title:"InteractJS",source:"https://github.com/taye/interact.js/blob/603c34d4b34dece8a260381e2e5991b810d6d739/img/ijs-icon.svg",
+        }
+        ,[SimpleIcons.Interbase]: {
+            hex:"E62431",title:"Interbase",source:"https://www.embarcadero.com/news/logo",
+        }
         ,[SimpleIcons.Intercom]: {
             hex:"6AFDEF",title:"Intercom",source:"https://www.intercom.com/press",
         }
-        ,[SimpleIcons.InternetArchive]: {
-            hex:"666666",title:"Internet Archive",source:"https://archive.org/",
+        ,[SimpleIcons.Intermarche]: {
+            hex:"E2001A",title:"Intermarche",source:"https://www.intermarche.com",
         }
-        ,[SimpleIcons.InternetExplorer]: {
-            hex:"0076D6",title:"Internet Explorer",source:"https://compass-ssl.microsoft.com/assets/c8/67/c867db4c-f328-45b8-817c-33834c70aae6.svg?n=IE.svg",
+        ,[SimpleIcons.InternetArchive]: {
+            hex:"666666",title:"Internet Archive",source:"https://archive.org",
+        }
+        ,[SimpleIcons.InternetComputer]: {
+            hex:"3B00B9",title:"Internet Computer",source:"https://dfinity.frontify.com/d/pD7yZhsmpqos/internet-computer#/internet-computer/logo",
         }
         ,[SimpleIcons.Intigriti]: {
-            hex:"161A36",title:"Intigriti",source:"https://www.intigriti.com/",
+            hex:"161A36",title:"Intigriti",source:"https://www.intigriti.com",
+        }
+        ,[SimpleIcons.Intuit]: {
+            hex:"236CFF",title:"Intuit",source:"https://www.intuit.com",
         }
         ,[SimpleIcons.InVision]: {
-            hex:"FF3366",title:"InVision",source:"https://www.invisionapp.com/news",
+            hex:"FF3366",title:"InVision",source:"https://www.invisionapp.com/resources/brand",
         }
         ,[SimpleIcons.InvoiceNinja]: {
             hex:"000000",title:"Invoice Ninja",source:"https://github.com/invoiceninja/invoiceninja/blob/2bdb26dd06123a0426cc7a8da77fc8fce7e5a222/public/images/round_logo.png",
@@ -12129,6 +19850,9 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Ionic]: {
             hex:"3880FF",title:"Ionic",source:"https://ionicframework.com/press",
         }
+        ,[SimpleIcons.Ionos]: {
+            hex:"003D8F",title:"Ionos",source:"https://www.ionos.de",
+        }
         ,[SimpleIcons.IOS]: {
             hex:"000000",title:"iOS",source:"https://en.wikipedia.org/wiki/IOS",
         }
@@ -12136,22 +19860,43 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"131F37",title:"IOTA",source:"https://www.iota.org/connect/brand",
         }
         ,[SimpleIcons.IPFS]: {
-            hex:"65C2CB",title:"IPFS",source:"https://github.com/ipfs/logo",
+            hex:"65C2CB",title:"IPFS",source:"https://github.com/ipfs-inactive/logo/tree/73169b495332415b174ac2f37ec27c4b2ee8da83",
+        }
+        ,[SimpleIcons.IRIS]: {
+            hex:"25313C",title:"IRIS",source:"https://www.iris.co.uk",
+        }
+        ,[SimpleIcons.IRobot]: {
+            hex:"6CB86A",title:"iRobot",source:"https://www.irobot.com",
+        }
+        ,[SimpleIcons.ISC2]: {
+            hex:"468145",title:"ISC2",source:"https://www.isc2.org",
         }
         ,[SimpleIcons.Issuu]: {
             hex:"F36D5D",title:"Issuu",source:"https://issuu.com/press",
         }
+        ,[SimpleIcons.Istio]: {
+            hex:"466BB0",title:"Istio",source:"https://github.com/istio/istio/blob/5a047251817eb2523af297607b7614120812e47a/logo/istio-bluelogo-whitebackground-unframed.svg",
+        }
         ,[SimpleIcons.ItchIo]: {
             hex:"FA5C5C",title:"Itch.io",source:"https://itch.io/press-kit",
         }
+        ,[SimpleIcons.ITerm2]: {
+            hex:"000000",title:"iTerm2",source:"https://github.com/gnachman/iTerm2/blob/6a857f3f5872eb1465ddc0dd83412015991e79ae/images/AppIcon/iTermIcon.sketch",
+        }
         ,[SimpleIcons.ITunes]: {
-            hex:"FB5BC5",title:"iTunes",source:"https://upload.wikimedia.org/wikipedia/commons/d/df/ITunes_logo.svg",
+            hex:"FB5BC5",title:"iTunes",source:"https://commons.wikimedia.org/wiki/File:ITunes_logo.svg",
+        }
+        ,[SimpleIcons.ITVx]: {
+            hex:"DEEB52",title:"ITVx",source:"https://www.itvmedia.co.uk",
         }
         ,[SimpleIcons.IVECO]: {
-            hex:"004994",title:"IVECO",source:"https://www.iveco.com/germany/Pages/Home-page.aspx",
+            hex:"1554FF",title:"IVECO",source:"https://www.iveco.com/global/welcome",
         }
         ,[SimpleIcons.Jabber]: {
             hex:"CC0000",title:"Jabber",source:"https://commons.wikimedia.org/wiki/File:Jabber-bulb.svg",
+        }
+        ,[SimpleIcons.Jaeger]: {
+            hex:"66CFE3",title:"Jaeger",source:"https://github.com/cncf/artwork/blob/e7e09686c20db6ddac06e482cf3338b0c8b2e22d/projects/jaeger/icon/black/jaeger-icon-black.svg",
         }
         ,[SimpleIcons.Jaguar]: {
             hex:"FFFFFF",title:"Jaguar",source:"https://media.jaguar.com/en/press-kit",
@@ -12160,28 +19905,25 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"F37C20",title:"Jamboard",source:"https://cdn2.hubspot.net/hubfs/159104/ECS/Jamboard/Approved%20Jamboard%20Brand%20Book.pdf",
         }
         ,[SimpleIcons.Jameson]: {
-            hex:"004027",title:"Jameson",source:"https://www.jamesonwhiskey.com/",
+            hex:"004027",title:"Jameson",source:"https://www.jamesonwhiskey.com",
         }
         ,[SimpleIcons.Jamstack]: {
-            hex:"F0047F",title:"Jamstack",source:"https://github.com/jamstack/jamstack.org/tree/main/src/site/img/logo",
+            hex:"F0047F",title:"Jamstack",source:"https://github.com/jamstack/jamstack.org/blob/a7de230798f98bdde78f0a0eeb5ebfc488c563aa/src/site/img/logo/svg/Jamstack_Icon_Original.svg",
         }
         ,[SimpleIcons.Jasmine]: {
             hex:"8A4182",title:"Jasmine",source:"https://github.com/jasmine/jasmine/blob/8991b1bba39b5b7e89fc5eeb07ae271a684cb1a4/images/jasmine-horizontal.svg",
         }
-        ,[SimpleIcons.Java]: {
-            hex:"007396",title:"Java",source:"https://www.oracle.com/legal/logos.html",
-        }
         ,[SimpleIcons.JavaScript]: {
-            hex:"F7DF1E",title:"JavaScript",source:"https://github.com/voodootikigod/logo.js",
+            hex:"F7DF1E",title:"JavaScript",source:"https://github.com/voodootikigod/logo.js/blob/1544bdeed6d618a6cfe4f0650d04ab8d9cfa76d9/js.svg",
         }
         ,[SimpleIcons.JBL]: {
-            hex:"FF3300",title:"JBL",source:"https://www.jbl.com/",
+            hex:"FF3300",title:"JBL",source:"https://www.jbl.com",
         }
         ,[SimpleIcons.JCB]: {
             hex:"0B4EA2",title:"JCB",source:"https://www.global.jcb/en/about-us/brand-concept/",
         }
         ,[SimpleIcons.Jeep]: {
-            hex:"000000",title:"Jeep",source:"http://www.fcaci.com/x/JEEPv15",
+            hex:"000000",title:"Jeep",source:"https://commons.wikimedia.org/wiki/File:Jeep_logo.svg",
         }
         ,[SimpleIcons.Jekyll]: {
             hex:"CC0000",title:"Jekyll",source:"https://github.com/jekyll/brand/blob/8302ad3ecf045054a095020729a8d2cc7005faf8/jekyll-logo-black.svg",
@@ -12192,23 +19934,29 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Jenkins]: {
             hex:"D24939",title:"Jenkins",source:"https://get.jenkins.io/art/",
         }
-        ,[SimpleIcons.JenkinsX]: {
-            hex:"73C3D5",title:"Jenkins X",source:"https://github.com/cdfoundation/artwork",
-        }
         ,[SimpleIcons.Jest]: {
-            hex:"C21325",title:"Jest",source:"https://jestjs.io/",
+            hex:"C21325",title:"Jest",source:"https://jestjs.io",
         }
         ,[SimpleIcons.JET]: {
             hex:"FBBA00",title:"JET",source:"https://de.wikipedia.org/wiki/Datei:JET.svg",
         }
+        ,[SimpleIcons.JetBlue]: {
+            hex:"001E59",title:"JetBlue",source:"https://www.jetblue.com",
+        }
         ,[SimpleIcons.JetBrains]: {
             hex:"000000",title:"JetBrains",source:"https://www.jetbrains.com/company/brand/logos/",
         }
-        ,[SimpleIcons.JFrog]: {
-            hex:"41BF47",title:"JFrog",source:"https://jfrog.com/brand-guidelines/",
+        ,[SimpleIcons.JetpackCompose]: {
+            hex:"4285F4",title:"Jetpack Compose",source:"https://developer.android.com/jetpack/compose/",
         }
-        ,[SimpleIcons.JFrogBintray]: {
-            hex:"43A047",title:"JFrog Bintray",source:"https://bintray.com/",
+        ,[SimpleIcons.JFrog]: {
+            hex:"40BE46",title:"JFrog",source:"https://jfrog.com/brand-guidelines",
+        }
+        ,[SimpleIcons.JFrogPipelines]: {
+            hex:"40BE46",title:"JFrog Pipelines",source:"https://jfrog.com/pipelines/",
+        }
+        ,[SimpleIcons.JHipster]: {
+            hex:"3E8ACC",title:"JHipster",source:"https://github.com/jhipster/jhipster-artwork/blob/1085d85ab6d819b9ef7f6cc710ec8a4977b95e90/logos/JHipster%20bowtie.svg",
         }
         ,[SimpleIcons.Jinja]: {
             hex:"B41717",title:"Jinja",source:"https://github.com/pallets/jinja/blob/1c240154865a7b6034033027e3c2ca8a2fa53fc2/artwork/jinjalogo.svg",
@@ -12219,6 +19967,9 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.JiraSoftware]: {
             hex:"0052CC",title:"Jira Software",source:"https://www.atlassian.com/company/news/press-kit",
         }
+        ,[SimpleIcons.JitPack]: {
+            hex:"000000",title:"JitPack",source:"https://docs.jitpack.io",
+        }
         ,[SimpleIcons.Jitsi]: {
             hex:"97979A",title:"Jitsi",source:"https://github.com/jitsi/jitsi-meet/blob/f8a41aea9c32796646c0fea11064775a4e5c3523/images/watermark.svg",
         }
@@ -12228,6 +19979,18 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Joomla]: {
             hex:"5091CD",title:"Joomla",source:"https://docs.joomla.org/Joomla:Brand_Identity_Elements/Official_Logo",
         }
+        ,[SimpleIcons.Joplin]: {
+            hex:"1071D3",title:"Joplin",source:"https://github.com/laurent22/joplin/blob/45e35576bd8b1bb0ffe958309cc1ab3736cc266b/Assets/JoplinLetter.svg",
+        }
+        ,[SimpleIcons.Jordan]: {
+            hex:"000000",title:"Jordan",source:"https://www.nike.com/jordan",
+        }
+        ,[SimpleIcons.JOUAV]: {
+            hex:"E1B133",title:"JOUAV",source:"https://www.jouav.com",
+        }
+        ,[SimpleIcons.Jovian]: {
+            hex:"0D61FF",title:"Jovian",source:"https://jovian.com",
+        }
         ,[SimpleIcons.JPEG]: {
             hex:"8A8A8A",title:"JPEG",source:"https://jpeg.org/contact.html",
         }
@@ -12235,22 +19998,34 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"0769AD",title:"jQuery",source:"https://brand.jquery.org/logos/",
         }
         ,[SimpleIcons.JRGroup]: {
-            hex:"000000",title:"JR Group",source:"https://www.jrhokkaido.co.jp/",
+            hex:"44AF35",title:"JR Group",source:"https://www.jrhokkaido.co.jp",
         }
         ,[SimpleIcons.JsDelivr]: {
             hex:"E84D3D",title:"jsDelivr",source:"https://github.com/jsdelivr/www.jsdelivr.com/blob/eff02f3a8879cf7c7296840584e1293fe04e3a76/src/public/img/logo_horizontal.svg",
         }
         ,[SimpleIcons.JSFiddle]: {
-            hex:"0084FF",title:"JSFiddle",source:"https://jsfiddle.net/",
+            hex:"0084FF",title:"JSFiddle",source:"https://jsfiddle.net",
         }
         ,[SimpleIcons.JSON]: {
             hex:"000000",title:"JSON",source:"https://commons.wikimedia.org/wiki/File:JSON_vector_logo.svg",
         }
         ,[SimpleIcons.JSONWebTokens]: {
-            hex:"000000",title:"JSON Web Tokens",source:"https://jwt.io/",
+            hex:"000000",title:"JSON Web Tokens",source:"https://jwt.io",
+        }
+        ,[SimpleIcons.JSR]: {
+            hex:"F7DF1E",title:"JSR",source:"https://github.com/jsr-io/jsr/blob/98c4448c64b1dddd1fc7cc54af961284f4262e82/frontend/static/logo.svg",
         }
         ,[SimpleIcons.JSS]: {
-            hex:"F7DF1E",title:"JSS",source:"https://cssinjs.org/",
+            hex:"F7DF1E",title:"JSS",source:"https://cssinjs.org",
+        }
+        ,[SimpleIcons.JUCE]: {
+            hex:"8DC63F",title:"JUCE",source:"https://juce.com",
+        }
+        ,[SimpleIcons.Juejin]: {
+            hex:"007FFF",title:"Juejin",source:"https://juejin.cn",
+        }
+        ,[SimpleIcons.JUKE]: {
+            hex:"6CD74A",title:"JUKE",source:"https://juke.nl",
         }
         ,[SimpleIcons.Julia]: {
             hex:"9558B2",title:"Julia",source:"https://github.com/JuliaLang/julia-logo-graphics/blob/b5551ca7946b4a25746c045c15fbb8806610f8d0/images/julia-dots.svg",
@@ -12259,7 +20034,7 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"84B135",title:"Juniper Networks",source:"https://www.juniper.net/us/en/company/press-center/images/image-library/logos/",
         }
         ,[SimpleIcons.JUnit5]: {
-            hex:"25A162",title:"JUnit5",source:"https://raw.githubusercontent.com/junit-team/junit5/86465f4f491219ad0c0cf9c64eddca7b0edeb86f/assets/img/junit5-logo.svg",
+            hex:"25A162",title:"JUnit5",source:"https://github.com/junit-team/junit5/blob/86465f4f491219ad0c0cf9c64eddca7b0edeb86f/assets/img/junit5-logo.svg",
         }
         ,[SimpleIcons.Jupyter]: {
             hex:"F37626",title:"Jupyter",source:"https://github.com/jupyter/design/blob/80716ee75dd7b2a6ec6abcd89922d020483589b1/logos/Logo%20Mark/logomark-whitebody-whitemoons/logomark-whitebody-whitemoons.svg",
@@ -12270,8 +20045,17 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.JustGiving]: {
             hex:"AD29B6",title:"JustGiving",source:"https://justgiving.com",
         }
+        ,[SimpleIcons.K3s]: {
+            hex:"FFC61C",title:"K3s",source:"https://k3s.io",
+        }
+        ,[SimpleIcons.K6]: {
+            hex:"7D64FF",title:"k6",source:"https://commons.wikimedia.org/wiki/File:K6-logo.svg",
+        }
         ,[SimpleIcons.Kaggle]: {
-            hex:"20BEFF",title:"Kaggle",source:"https://www.kaggle.com",
+            hex:"20BEFF",title:"Kaggle",source:"https://www.kaggle.com/brand-guidelines",
+        }
+        ,[SimpleIcons.Kagi]: {
+            hex:"FFB319",title:"Kagi",source:"https://kagi.com",
         }
         ,[SimpleIcons.Kahoot_]: {
             hex:"46178F",title:"Kahoot!",source:"https://kahoot.com/library/kahoot-logo/",
@@ -12288,6 +20072,12 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.KaliLinux]: {
             hex:"557C94",title:"Kali Linux",source:"https://www.kali.org/docs/policy/trademark/",
         }
+        ,[SimpleIcons.Kamailio]: {
+            hex:"506365",title:"Kamailio",source:"https://www.kamailio.org/pub/kamailio-logos/current",
+        }
+        ,[SimpleIcons.Kaniko]: {
+            hex:"FFA600",title:"Kaniko",source:"https://github.com/GoogleContainerTools/kaniko/blob/cf5ca26aa4e2f7bf0de56efdf3b4e86b0ff74ed0/logo/Kaniko-Logo-Monochrome.svg",
+        }
         ,[SimpleIcons.KarlsruherVerkehrsverbund]: {
             hex:"9B2321",title:"Karlsruher Verkehrsverbund",source:"https://commons.wikimedia.org/wiki/File:KVV_2010.svg",
         }
@@ -12295,7 +20085,7 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"4ACBD6",title:"Kasa Smart",source:"https://www.tp-link.com/us/support/download/hs200/",
         }
         ,[SimpleIcons.KashFlow]: {
-            hex:"E5426E",title:"KashFlow",source:"https://www.kashflow.com/",
+            hex:"E5426E",title:"KashFlow",source:"https://www.kashflow.com",
         }
         ,[SimpleIcons.Kaspersky]: {
             hex:"006D5C",title:"Kaspersky",source:"https://www.kaspersky.com",
@@ -12306,26 +20096,47 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Katana]: {
             hex:"000000",title:"Katana",source:"https://www.foundry.com/products/katana",
         }
+        ,[SimpleIcons.Kaufland]: {
+            hex:"E10915",title:"Kaufland",source:"https://www.kaufland.com",
+        }
         ,[SimpleIcons.KDE]: {
             hex:"1D99F3",title:"KDE",source:"https://kde.org/stuff/clipart/",
         }
         ,[SimpleIcons.Kdenlive]: {
-            hex:"527EB2",title:"Kdenlive",source:"https://kdenlive.org/en/logo/",
+            hex:"527EB2",title:"Kdenlive",source:"https://kdenlive.org/en/trademark-logo/",
+        }
+        ,[SimpleIcons.Kedro]: {
+            hex:"FFC900",title:"Kedro",source:"https://github.com/kedro-org/kedro-brand-identity/blob/7f7b380cb1a2951c06ca292f0d2b442db895f804/icon/black/kedro-icon-svgo-black.svg",
+        }
+        ,[SimpleIcons.Keenetic]: {
+            hex:"009EE2",title:"Keenetic",source:"https://keenetic.com",
+        }
+        ,[SimpleIcons.KeepAChangelog]: {
+            hex:"E05735",title:"Keep a Changelog",source:"https://keepachangelog.com",
         }
         ,[SimpleIcons.KeePassXC]: {
-            hex:"6CAC4D",title:"KeePassXC",source:"https://github.com/keepassxreboot/keepassxc/",
+            hex:"6CAC4D",title:"KeePassXC",source:"https://github.com/keepassxreboot/keepassxc/tree/3fdafc6d25e85050976e0cc645db579086db3f45",
         }
         ,[SimpleIcons.Kentico]: {
             hex:"F05A22",title:"Kentico",source:"https://www.kentico.com",
         }
         ,[SimpleIcons.Keras]: {
-            hex:"D00000",title:"Keras",source:"https://keras.io/",
+            hex:"D00000",title:"Keras",source:"https://keras.io",
         }
         ,[SimpleIcons.Keybase]: {
             hex:"33A0FF",title:"Keybase",source:"https://github.com/keybase/client/tree/a144e0ce38ee9e495cc5acbcd4ef859f5534d820/media/logos",
         }
         ,[SimpleIcons.KeyCDN]: {
             hex:"047AED",title:"KeyCDN",source:"https://www.keycdn.com/logos",
+        }
+        ,[SimpleIcons.Keycloak]: {
+            hex:"4D4D4D",title:"Keycloak",source:"https://github.com/keycloak/keycloak-misc/blob/dee033f2d6d6b5c3a6ce8eb84e285f7e5626dbf6/logo/icon-black.svg",
+        }
+        ,[SimpleIcons.Keystone]: {
+            hex:"166BFF",title:"Keystone",source:"https://keystonejs.com",
+        }
+        ,[SimpleIcons.KFC]: {
+            hex:"F40027",title:"KFC",source:"https://global.kfc.com/asset-library/",
         }
         ,[SimpleIcons.KhanAcademy]: {
             hex:"14BF96",title:"Khan Academy",source:"https://khanacademy.zendesk.com/hc/en-us/articles/202483630-Press-room",
@@ -12339,20 +20150,38 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Kibana]: {
             hex:"005571",title:"Kibana",source:"https://www.elastic.co/brand",
         }
+        ,[SimpleIcons.KiCad]: {
+            hex:"314CB0",title:"KiCad",source:"https://www.kicad.org/about/kicad/",
+        }
+        ,[SimpleIcons.Kick]: {
+            hex:"53FC19",title:"Kick",source:"https://kick.com",
+        }
         ,[SimpleIcons.Kickstarter]: {
             hex:"05CE78",title:"Kickstarter",source:"https://www.kickstarter.com/help/brand_assets",
         }
         ,[SimpleIcons.Kik]: {
             hex:"82BC23",title:"Kik",source:"https://www.kik.com/news/",
         }
+        ,[SimpleIcons.KingstonTechnology]: {
+            hex:"000000",title:"Kingston Technology",source:"https://www.kingston.com",
+        }
+        ,[SimpleIcons.Kinopoisk]: {
+            hex:"FF5500",title:"Kinopoisk",source:"https://www.kinopoisk.ru/special/branding",
+        }
+        ,[SimpleIcons.Kinsta]: {
+            hex:"5333ED",title:"Kinsta",source:"https://kinsta.com/press",
+        }
         ,[SimpleIcons.Kirby]: {
             hex:"000000",title:"Kirby",source:"https://getkirby.com/press",
         }
+        ,[SimpleIcons.Kit]: {
+            hex:"000000",title:"Kit",source:"https://kit.co",
+        }
         ,[SimpleIcons.Kitsu]: {
-            hex:"FD755C",title:"Kitsu",source:"https://kitsu.io/",
+            hex:"FD755C",title:"Kitsu",source:"https://kitsu.io",
         }
         ,[SimpleIcons.Klarna]: {
-            hex:"FFB3C7",title:"Klarna",source:"https://klarna.design/",
+            hex:"FFB3C7",title:"Klarna",source:"https://klarna.design",
         }
         ,[SimpleIcons.KLM]: {
             hex:"00A1DE",title:"KLM",source:"https://www.klm.com",
@@ -12360,8 +20189,20 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Klook]: {
             hex:"FF5722",title:"Klook",source:"https://www.klook.com/en-GB/newsroom/",
         }
+        ,[SimpleIcons.Knative]: {
+            hex:"0865AD",title:"Knative",source:"https://github.com/knative/community/blob/fb49068c9b7619685248247d29e48eb3d96f3ac2/icons/logo.svg",
+        }
+        ,[SimpleIcons.KnexJs]: {
+            hex:"D26B38",title:"Knex.js",source:"https://github.com/knex/documentation/blob/a9c4ce47dbc6001bb1c6aa0649bb668edc78fea7/src/public/knex-logo.png",
+        }
+        ,[SimpleIcons.KNIME]: {
+            hex:"FDD800",title:"KNIME",source:"https://www.knime.com",
+        }
+        ,[SimpleIcons.Knip]: {
+            hex:"F56E0F",title:"Knip",source:"https://knip.dev",
+        }
         ,[SimpleIcons.KnowledgeBase]: {
-            hex:"FFD000",title:"KnowledgeBase",source:"https://www.knowledgebase.ai/design",
+            hex:"9146FF",title:"KnowledgeBase",source:"https://www.knowledgebase.com/design",
         }
         ,[SimpleIcons.Known]: {
             hex:"333333",title:"Known",source:"https://github.com/idno/known/tree/22c4935b57a61d94d2508651128b4f828f864989/gfx/logos",
@@ -12369,23 +20210,44 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.KoFi]: {
             hex:"FF5E5B",title:"Ko-fi",source:"https://more.ko-fi.com/brand-assets",
         }
-        ,[SimpleIcons.Kodi]: {
-            hex:"17B2E7",title:"Kodi",source:"https://kodi.tv/",
+        ,[SimpleIcons.Koa]: {
+            hex:"33333D",title:"Koa",source:"https://koajs.com",
         }
-        ,[SimpleIcons.Koding]: {
-            hex:"00B057",title:"Koding",source:"https://koding.com/About",
+        ,[SimpleIcons.Koc]: {
+            hex:"F9423A",title:"Koc",source:"https://www.koc.com.tr/en",
+        }
+        ,[SimpleIcons.Kodak]: {
+            hex:"ED0000",title:"Kodak",source:"https://www.kodak.com",
+        }
+        ,[SimpleIcons.Kodi]: {
+            hex:"17B2E7",title:"Kodi",source:"https://kodi.tv",
+        }
+        ,[SimpleIcons.Koenigsegg]: {
+            hex:"000000",title:"Koenigsegg",source:"https://www.koenigsegg.com",
         }
         ,[SimpleIcons.Kofax]: {
-            hex:"00558C",title:"Kofax",source:"https://www.kofax.com/",
+            hex:"00558C",title:"Kofax",source:"https://www.kofax.com",
         }
         ,[SimpleIcons.Komoot]: {
-            hex:"6AA127",title:"Komoot",source:"http://newsroom.komoot.com/media_kits/219423/",
+            hex:"6AA127",title:"Komoot",source:"https://newsroom.komoot.com/media_kits/219423/",
+        }
+        ,[SimpleIcons.Konami]: {
+            hex:"B60014",title:"Konami",source:"https://commons.wikimedia.org/wiki/File:Konami_4th_logo_2.svg",
+        }
+        ,[SimpleIcons.Kong]: {
+            hex:"003459",title:"Kong",source:"https://konghq.com/brand-assets/",
         }
         ,[SimpleIcons.Kongregate]: {
-            hex:"990000",title:"Kongregate",source:"https://www.kongregate.com/pages/logos-and-branding",
+            hex:"F04438",title:"Kongregate",source:"https://www.kongregate.com",
+        }
+        ,[SimpleIcons.Konva]: {
+            hex:"0D83CD",title:"Konva",source:"https://github.com/konvajs/konvajs.github.io/blob/2cfe67461dfe32076ba56c88a75fe8e99d068130/icon.png",
         }
         ,[SimpleIcons.Kotlin]: {
-            hex:"0095D5",title:"Kotlin",source:"https://resources.jetbrains.com/storage/products/kotlin/docs/kotlin_logos.zip",
+            hex:"7F52FF",title:"Kotlin",source:"https://www.jetbrains.com/company/brand/logos/",
+        }
+        ,[SimpleIcons.Koyeb]: {
+            hex:"121212",title:"Koyeb",source:"https://www.koyeb.com",
         }
         ,[SimpleIcons.Krita]: {
             hex:"3BABFF",title:"Krita",source:"https://krita.org/en/about/press/",
@@ -12393,38 +20255,68 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.KTM]: {
             hex:"FF6600",title:"KTM",source:"https://ktm.com",
         }
+        ,[SimpleIcons.Ktor]: {
+            hex:"087CFA",title:"Ktor",source:"https://www.jetbrains.com/company/brand/#logos-and-icons-product-icons",
+        }
+        ,[SimpleIcons.Kuaishou]: {
+            hex:"FF4906",title:"Kuaishou",source:"https://www.kuaishou.com/official/material-lib",
+        }
         ,[SimpleIcons.Kubernetes]: {
-            hex:"326CE5",title:"Kubernetes",source:"https://github.com/kubernetes/kubernetes/tree/master/logo",
+            hex:"326CE5",title:"Kubernetes",source:"https://github.com/kubernetes/kubernetes/tree/cac53883f4714452f3084a22e4be20d042a9df33/logo",
         }
         ,[SimpleIcons.Kubuntu]: {
             hex:"0079C1",title:"Kubuntu",source:"https://kubuntu.org",
         }
+        ,[SimpleIcons.KuCoin]: {
+            hex:"01BC8D",title:"KuCoin",source:"https://www.kucoin.com/news/en-kucoin-media-kit",
+        }
+        ,[SimpleIcons.Kuma]: {
+            hex:"290B53",title:"Kuma",source:"https://cncf-branding.netlify.app/projects/kuma/",
+        }
+        ,[SimpleIcons.Kununu]: {
+            hex:"FFC62E",title:"Kununu",source:"https://www.kununu.com",
+        }
+        ,[SimpleIcons.Kuula]: {
+            hex:"4092B4",title:"Kuula",source:"https://kuula.co",
+        }
+        ,[SimpleIcons.KX]: {
+            hex:"101820",title:"KX",source:"https://kx.com/news-room",
+        }
         ,[SimpleIcons.Kyocera]: {
-            hex:"DF0522",title:"Kyocera",source:"https://uk.kyocera.com/",
+            hex:"DF0522",title:"Kyocera",source:"https://uk.kyocera.com",
+        }
+        ,[SimpleIcons.L__quipe]: {
+            hex:"E42829",title:"L'Équipe",source:"https://commons.wikimedia.org/wiki/File:L_Equipe_Logo.svg",
         }
         ,[SimpleIcons.LabVIEW]: {
             hex:"FFDB00",title:"LabVIEW",source:"https://forums.ni.com/t5/NI-Partner-Network/New-Partner-Co-Marketing-Style-Guide/ba-p/3786987",
         }
-        ,[SimpleIcons.Lada]: {
-            hex:"ED6B21",title:"Lada",source:"https://www.lada.ru/priora/sedan/accessories.html",
+        ,[SimpleIcons.LADA]: {
+            hex:"ED6B21",title:"LADA",source:"https://www.lada.ru",
         }
         ,[SimpleIcons.Lamborghini]: {
-            hex:"DDB320",title:"Lamborghini",source:"https://en.wikipedia.org/wiki/File:Lamborghini_Logo.svg",
+            hex:"B6A272",title:"Lamborghini",source:"https://www.lamborghini.com",
         }
         ,[SimpleIcons.LandRover]: {
             hex:"005A2B",title:"Land Rover",source:"https://media.landrover.com/en/press-kit",
         }
+        ,[SimpleIcons.LangChain]: {
+            hex:"1C3C3C",title:"LangChain",source:"https://www.langchain.com",
+        }
+        ,[SimpleIcons.Lapce]: {
+            hex:"3B82F6",title:"Lapce",source:"https://github.com/lapce/lapce/blob/95c4cf2d87083e348c0b621d0be0ea17f79ed703/extra/images/logo.svg",
+        }
         ,[SimpleIcons.Laragon]: {
-            hex:"0E83CD",title:"Laragon",source:"https://laragon.org/",
+            hex:"0E83CD",title:"Laragon",source:"https://laragon.org",
         }
         ,[SimpleIcons.Laravel]: {
-            hex:"FF2D20",title:"Laravel",source:"https://github.com/laravel/art",
+            hex:"FF2D20",title:"Laravel",source:"https://github.com/laravel/art/tree/5a8325b064634b900f25dbb6f1cafd888b2d2211",
         }
         ,[SimpleIcons.LaravelHorizon]: {
             hex:"405263",title:"Laravel Horizon",source:"https://github.com/laravel/horizon/blob/79ed572422d0ff789e9673a6dd9579026f14233a/public/img/horizon.svg",
         }
         ,[SimpleIcons.LaravelNova]: {
-            hex:"252D37",title:"Laravel Nova",source:"https://nova.laravel.com/",
+            hex:"252D37",title:"Laravel Nova",source:"https://nova.laravel.com",
         }
         ,[SimpleIcons.LastFm]: {
             hex:"D51007",title:"Last.fm",source:"https://commons.wikimedia.org/wiki/File:Lastfm_logo.svg",
@@ -12433,40 +20325,85 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"D32D27",title:"LastPass",source:"https://lastpass.com/press-room/",
         }
         ,[SimpleIcons.LaTeX]: {
-            hex:"008080",title:"LaTeX",source:"https://github.com/latex3/branding",
+            hex:"008080",title:"LaTeX",source:"https://github.com/latex3/branding/tree/9def6b5f6075567d62b67424e11dbe6d4d5245b4",
         }
         ,[SimpleIcons.Launchpad]: {
             hex:"F8C300",title:"Launchpad",source:"https://help.launchpad.net/logo/submissions",
         }
+        ,[SimpleIcons.Lazarus]: {
+            hex:"000000",title:"Lazarus",source:"https://sourceforge.net/projects/lazarus/",
+        }
+        ,[SimpleIcons.LazyVim]: {
+            hex:"2E7DE9",title:"LazyVim",source:"https://github.com/LazyVim/lazyvim.github.io/blob/db7f1bd035de3f41a75a29f65f36819f6ac152af/static/img/icon.svg",
+        }
         ,[SimpleIcons.LBRY]: {
             hex:"2F9176",title:"LBRY",source:"https://lbry.com/press-kit",
+        }
+        ,[SimpleIcons.LeaderPrice]: {
+            hex:"E50005",title:"Leader Price",source:"https://www.leaderprice.fr",
         }
         ,[SimpleIcons.Leaflet]: {
             hex:"199900",title:"Leaflet",source:"https://github.com/Leaflet/Leaflet/blob/d843c3b88486713827d7e860b58bdba75bfbd5a2/src/images/logo.svg",
         }
+        ,[SimpleIcons.LeagueOfLegends]: {
+            hex:"C28F2C",title:"League of Legends",source:"https://www.leagueoflegends.com",
+        }
         ,[SimpleIcons.Leanpub]: {
-            hex:"FFFFFF",title:"Leanpub",source:"https://leanpub.com/press",
+            hex:"262425",title:"Leanpub",source:"https://leanpub.com/press",
         }
         ,[SimpleIcons.LeetCode]: {
             hex:"FFA116",title:"LeetCode",source:"https://leetcode.com/store",
         }
+        ,[SimpleIcons.LegacyGames]: {
+            hex:"144B9E",title:"Legacy Games",source:"https://legacygames.com",
+        }
+        ,[SimpleIcons.Leica]: {
+            hex:"E20612",title:"Leica",source:"https://leica-camera.com",
+        }
+        ,[SimpleIcons.Lemmy]: {
+            hex:"000000",title:"Lemmy",source:"https://join-lemmy.org",
+        }
+        ,[SimpleIcons.LemonSqueezy]: {
+            hex:"FFC233",title:"Lemon Squeezy",source:"https://www.lemonsqueezy.com",
+        }
         ,[SimpleIcons.Lenovo]: {
             hex:"E2231A",title:"Lenovo",source:"https://news.lenovo.com/press-kits/",
+        }
+        ,[SimpleIcons.Lens]: {
+            hex:"3D90CE",title:"Lens",source:"https://github.com/lensapp/lens/blob/3cc12d9599b655a366e7a34c356d2a84654b2466/docs/img/lens-logo-icon.svg",
+        }
+        ,[SimpleIcons.Leptos]: {
+            hex:"EF3939",title:"Leptos",source:"https://github.com/leptos-rs/leptos/blob/6fac92cb6298f1bfa72464de47e33e47b5e5857d/logos/Simple_Icon.svg",
+        }
+        ,[SimpleIcons.Lerna]: {
+            hex:"9333EA",title:"Lerna",source:"https://github.com/lerna/logo/blob/fb18db535d71aacc6ffb0f6b75a0c3bd9e353543/lerna.svg",
+        }
+        ,[SimpleIcons.LeroyMerlin]: {
+            hex:"78BE20",title:"Leroy Merlin",source:"https://www.leroymerlin.fr",
+        }
+        ,[SimpleIcons.LesLibraires]: {
+            hex:"CF4A0C",title:"Les libraires",source:"https://www.leslibraires.ca",
         }
         ,[SimpleIcons.Less]: {
             hex:"1D365D",title:"Less",source:"https://github.com/less/logo/blob/c9c10c328cfc00071e92443934b35e389310abf8/less_logo.ai",
         }
         ,[SimpleIcons.Let_sEncrypt]: {
-            hex:"003A70",title:"Let’s Encrypt",source:"https://letsencrypt.org/trademarks/",
+            hex:"003A70",title:"Let's Encrypt",source:"https://letsencrypt.org/trademarks/",
         }
         ,[SimpleIcons.Letterboxd]: {
-            hex:"00D735",title:"Letterboxd",source:"https://letterboxd.com/about/logos/",
+            hex:"202830",title:"Letterboxd",source:"https://letterboxd.com/about/brand/",
+        }
+        ,[SimpleIcons.LevelsFyi]: {
+            hex:"788B95",title:"levels.fyi",source:"https://www.levels.fyi/press/",
         }
         ,[SimpleIcons.LG]: {
-            hex:"A50034",title:"LG",source:"https://en.wikipedia.org/wiki/LG_Corporation",
+            hex:"A50034",title:"LG",source:"https://www.lg.com/global/our-brand/brand-expression/elements/logo/index.jsp",
         }
-        ,[SimpleIcons.LGTM]: {
-            hex:"FFFFFF",title:"LGTM",source:"https://lgtm.com/",
+        ,[SimpleIcons.LiNing]: {
+            hex:"C5242C",title:"Li-Ning",source:"https://www.lining.com",
+        }
+        ,[SimpleIcons.LiberaChat]: {
+            hex:"FF55DD",title:"Libera.Chat",source:"https://libera.chat",
         }
         ,[SimpleIcons.Liberapay]: {
             hex:"F6C915",title:"Liberapay",source:"https://en.liberapay.com/about/logos",
@@ -12480,32 +20417,77 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.LibreOffice]: {
             hex:"18A303",title:"LibreOffice",source:"https://wiki.documentfoundation.org/Marketing/Branding",
         }
+        ,[SimpleIcons.LibreOfficeBase]: {
+            hex:"7324A9",title:"LibreOffice Base",source:"https://github.com/LibreOffice/help/blob/e3b1cce7dde7e964c7670dd24a167e750654685a/source/media/navigation/libo-base.svg",
+        }
+        ,[SimpleIcons.LibreOfficeCalc]: {
+            hex:"007C3C",title:"LibreOffice Calc",source:"https://github.com/LibreOffice/help/blob/02faeab6e7b014ca97a8c452e829af4522dadfc8/source/media/navigation/libo-calc.svg",
+        }
+        ,[SimpleIcons.LibreOfficeDraw]: {
+            hex:"CB6D30",title:"LibreOffice Draw",source:"https://github.com/LibreOffice/help/blob/02faeab6e7b014ca97a8c452e829af4522dadfc8/source/media/navigation/libo-draw.svg",
+        }
+        ,[SimpleIcons.LibreOfficeImpress]: {
+            hex:"D0120D",title:"LibreOffice Impress",source:"https://github.com/LibreOffice/help/blob/02faeab6e7b014ca97a8c452e829af4522dadfc8/source/media/navigation/libo-impress.svg",
+        }
+        ,[SimpleIcons.LibreOfficeMath]: {
+            hex:"C10018",title:"LibreOffice Math",source:"https://github.com/LibreOffice/help/blob/02faeab6e7b014ca97a8c452e829af4522dadfc8/source/media/navigation/libo-math.svg",
+        }
+        ,[SimpleIcons.LibreOfficeWriter]: {
+            hex:"083FA6",title:"LibreOffice Writer",source:"https://github.com/LibreOffice/help/blob/02faeab6e7b014ca97a8c452e829af4522dadfc8/source/media/navigation/libo-writer.svg",
+        }
+        ,[SimpleIcons.LibreWolf]: {
+            hex:"00ACFF",title:"LibreWolf",source:"https://librewolf.net",
+        }
         ,[SimpleIcons.Libuv]: {
             hex:"403C3D",title:"libuv",source:"https://github.com/libuv/libuv/blob/e4087dedf837f415056a45a838f639a3d9dc3ced/img/logos.svg",
         }
         ,[SimpleIcons.Lichess]: {
             hex:"000000",title:"Lichess",source:"https://lichess.org/about",
         }
+        ,[SimpleIcons.Lidl]: {
+            hex:"0050AA",title:"Lidl",source:"https://www.lidl.de",
+        }
         ,[SimpleIcons.LIFX]: {
             hex:"000000",title:"LIFX",source:"https://www.lifx.com/pages/press-enquiries",
+        }
+        ,[SimpleIcons.LightBurn]: {
+            hex:"57182D",title:"LightBurn",source:"https://lightburnsoftware.com",
         }
         ,[SimpleIcons.Lighthouse]: {
             hex:"F44B21",title:"Lighthouse",source:"https://github.com/GoogleChrome/lighthouse/blob/80d2e6c1948f232ec4f1bdeabc8bc632fc5d0bfd/assets/lh_favicon.svg",
         }
+        ,[SimpleIcons.Lightning]: {
+            hex:"792EE5",title:"Lightning",source:"https://github.com/Lightning-AI/lightning/blob/a584196abf820179adb0758ef67ddae91c44e7bc/docs/source/_static/images/icon.svg",
+        }
+        ,[SimpleIcons.LimeSurvey]: {
+            hex:"14AE5C",title:"LimeSurvey",source:"https://www.limesurvey.org",
+        }
         ,[SimpleIcons.LINE]: {
-            hex:"00C300",title:"LINE",source:"http://line.me/en/logo",
+            hex:"00C300",title:"LINE",source:"https://line.me/en/logo",
         }
         ,[SimpleIcons.LineageOS]: {
-            hex:"167C80",title:"LineageOS",source:"https://www.lineageos.org/",
+            hex:"167C80",title:"LineageOS",source:"https://www.lineageos.org",
+        }
+        ,[SimpleIcons.Linear]: {
+            hex:"5E6AD2",title:"Linear",source:"https://linear.app",
         }
         ,[SimpleIcons.LinkedIn]: {
             hex:"0A66C2",title:"LinkedIn",source:"https://brand.linkedin.com",
         }
-        ,[SimpleIcons.Linktree]: {
-            hex:"39E09B",title:"Linktree",source:"https://linktr.ee/",
+        ,[SimpleIcons.Linkerd]: {
+            hex:"2BEDA7",title:"Linkerd",source:"https://cncf-branding.netlify.app/projects/linkerd/",
         }
-        ,[SimpleIcons.Linode]: {
-            hex:"00A95C",title:"Linode",source:"https://www.linode.com/company/press/",
+        ,[SimpleIcons.Linkfire]: {
+            hex:"FF3850",title:"Linkfire",source:"https://www.linkfire.com",
+        }
+        ,[SimpleIcons.Linksys]: {
+            hex:"000000",title:"Linksys",source:"https://www.linksys.com",
+        }
+        ,[SimpleIcons.Linktree]: {
+            hex:"43E55E",title:"Linktree",source:"https://linktr.ee",
+        }
+        ,[SimpleIcons.LintCode]: {
+            hex:"13B4FF",title:"LintCode",source:"https://www.lintcode.com",
         }
         ,[SimpleIcons.Linux]: {
             hex:"FCC624",title:"Linux",source:"https://www.linuxfoundation.org/the-linux-mark/",
@@ -12514,13 +20496,25 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"333333",title:"Linux Containers",source:"https://github.com/lxc/linuxcontainers.org/blob/29d3299ddf8718099b6de1464570fbbadbaabecb/static/img/containers.svg",
         }
         ,[SimpleIcons.LinuxFoundation]: {
-            hex:"003366",title:"Linux Foundation",source:"https://www.linuxfoundation.org/en/about/brand/",
+            hex:"003778",title:"Linux Foundation",source:"https://www.linuxfoundation.org/brand-guidelines",
         }
         ,[SimpleIcons.LinuxMint]: {
             hex:"87CF3E",title:"Linux Mint",source:"https://commons.wikimedia.org/wiki/File:Linux_Mint_logo_without_wordmark.svg",
         }
+        ,[SimpleIcons.LinuxProfessionalInstitute]: {
+            hex:"FDC300",title:"Linux Professional Institute",source:"https://lpi.org/logos",
+        }
+        ,[SimpleIcons.LinuxServer]: {
+            hex:"DA3B8A",title:"LinuxServer",source:"https://github.com/linuxserver/docker-documentation/blob/be0a78849bc87dec372721ffd6f267527d07815d/docs/assets/icon.svg",
+        }
         ,[SimpleIcons.LionAir]: {
             hex:"ED3237",title:"Lion Air",source:"https://lionairthai.com/en/",
+        }
+        ,[SimpleIcons.Liquibase]: {
+            hex:"2962FF",title:"Liquibase",source:"https://www.liquibase.com/brand",
+        }
+        ,[SimpleIcons.Listmonk]: {
+            hex:"0055D4",title:"listmonk",source:"https://listmonk.app",
         }
         ,[SimpleIcons.Lit]: {
             hex:"324FFF",title:"Lit",source:"https://github.com/lit/lit.dev/blob/5e59bdb00b7a261d6fdcd6a4ae529e17f6146ed3/packages/lit-dev-content/site/images/flame-favicon.svg",
@@ -12528,11 +20522,17 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Litecoin]: {
             hex:"A6A9AA",title:"Litecoin",source:"https://litecoin-foundation.org/litecoin-branding-guidelines/",
         }
+        ,[SimpleIcons.LITIENGINE]: {
+            hex:"00A5BC",title:"LITIENGINE",source:"https://litiengine.com",
+        }
         ,[SimpleIcons.LiveChat]: {
-            hex:"FFD000",title:"LiveChat",source:"https://livechat.design/",
+            hex:"FF5100",title:"LiveChat",source:"https://livechat.design",
         }
         ,[SimpleIcons.LiveJournal]: {
-            hex:"00B0EA",title:"LiveJournal",source:"http://www.livejournal.com",
+            hex:"00B0EA",title:"LiveJournal",source:"https://www.livejournal.com",
+        }
+        ,[SimpleIcons.Livewire]: {
+            hex:"4E56A6",title:"Livewire",source:"https://laravel-livewire.com",
         }
         ,[SimpleIcons.LLVM]: {
             hex:"262D3A",title:"LLVM",source:"https://llvm.org/Logo.html",
@@ -12540,23 +20540,41 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.LMMS]: {
             hex:"10B146",title:"LMMS",source:"https://lmms.io/branding",
         }
+        ,[SimpleIcons.Local]: {
+            hex:"51BB7B",title:"Local",source:"https://localwp.com",
+        }
+        ,[SimpleIcons.Lodash]: {
+            hex:"3492FF",title:"Lodash",source:"https://github.com/lodash/lodash.com/blob/c8d41c62b446f08905fd94802db4da8da05d3e92/assets/img/lodash.svg",
+        }
         ,[SimpleIcons.Logitech]: {
             hex:"00B8FC",title:"Logitech",source:"https://www.logitech.com/en-us/pr/library",
         }
+        ,[SimpleIcons.LogitechG]: {
+            hex:"00B8FC",title:"Logitech G",source:"https://www.logitechg.com",
+        }
         ,[SimpleIcons.LogMeIn]: {
             hex:"45B6F2",title:"LogMeIn",source:"https://www.logmein.com/legal/trademark",
+        }
+        ,[SimpleIcons.Logseq]: {
+            hex:"85C8C8",title:"Logseq",source:"https://github.com/logseq/logseq/blob/c4d15ec8487c9fb6b6f41780fc1abddab89491e4/resources/icon.png",
         }
         ,[SimpleIcons.Logstash]: {
             hex:"005571",title:"Logstash",source:"https://www.elastic.co/brand",
         }
         ,[SimpleIcons.Looker]: {
-            hex:"4285F4",title:"Looker",source:"https://looker.com/",
+            hex:"4285F4",title:"Looker",source:"https://looker.com",
         }
         ,[SimpleIcons.Loom]: {
             hex:"625DF5",title:"Loom",source:"https://www.loom.com/press",
         }
         ,[SimpleIcons.Loop]: {
-            hex:"F29400",title:"Loop",source:"https://loop.frontiersin.org/",
+            hex:"F29400",title:"Loop",source:"https://loop.frontiersin.org",
+        }
+        ,[SimpleIcons.LoopBack]: {
+            hex:"3F5DFF",title:"LoopBack",source:"https://loopback.io/resources",
+        }
+        ,[SimpleIcons.LootCrate]: {
+            hex:"1E1E1E",title:"Loot Crate",source:"https://lootcrate.com",
         }
         ,[SimpleIcons.Lospec]: {
             hex:"EAEAEA",title:"Lospec",source:"https://lospec.com/brand",
@@ -12564,17 +20582,35 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.LOTPolishAirlines]: {
             hex:"11397E",title:"LOT Polish Airlines",source:"https://www.lot.com/us/en/kaleidoscope-inflight-magazine",
         }
+        ,[SimpleIcons.LTspice]: {
+            hex:"900028",title:"LTspice",source:"https://www.analog.com/media/en/news-marketing-collateral/solutions-bulletins-brochures/ltspice-keyboard-shortcuts.pdf",
+        }
         ,[SimpleIcons.Lua]: {
             hex:"2C2D72",title:"Lua",source:"https://www.lua.org/images/",
         }
         ,[SimpleIcons.Lubuntu]: {
-            hex:"0068C8",title:"Lubuntu",source:"https://lubuntu.net/",
+            hex:"0068C8",title:"Lubuntu",source:"https://lubuntu.net",
+        }
+        ,[SimpleIcons.Lucia]: {
+            hex:"5F57FF",title:"Lucia",source:"https://v2.lucia-auth.com",
+        }
+        ,[SimpleIcons.Lucid]: {
+            hex:"282C33",title:"Lucid",source:"https://lucid.co/brand",
+        }
+        ,[SimpleIcons.Ludwig]: {
+            hex:"FFFFFF",title:"Ludwig",source:"https://github.com/ludwig-ai/ludwig-docs/blob/8d8abb2117a93af2622a6545943c773b27153e1b/docs/images/ludwig_icon.svg",
         }
         ,[SimpleIcons.Lufthansa]: {
-            hex:"05164D",title:"Lufthansa",source:"https://www.lufthansa.com/",
+            hex:"05164D",title:"Lufthansa",source:"https://www.lufthansa.com",
         }
         ,[SimpleIcons.Lumen]: {
-            hex:"E74430",title:"Lumen",source:"https://lumen.laravel.com/",
+            hex:"E74430",title:"Lumen",source:"https://lumen.laravel.com",
+        }
+        ,[SimpleIcons.Lunacy]: {
+            hex:"179DE3",title:"Lunacy",source:"https://icons8.com/lunacy",
+        }
+        ,[SimpleIcons.Lutris]: {
+            hex:"FF9900",title:"Lutris",source:"https://github.com/lutris/lutris/blob/f62feaef063868cb39afddefbb9ba7a5928bd978/share/icons/hicolor/scalable/apps/lutris.svg",
         }
         ,[SimpleIcons.Lydia]: {
             hex:"0180FF",title:"Lydia",source:"https://lydia-app.com/en/info/press.html",
@@ -12588,53 +20624,104 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.MacOS]: {
             hex:"000000",title:"macOS",source:"https://commons.wikimedia.org/wiki/File:MacOS_wordmark_(2017).svg",
         }
+        ,[SimpleIcons.MacPaw]: {
+            hex:"000000",title:"MacPaw",source:"https://macpaw.com",
+        }
         ,[SimpleIcons.Macy_s]: {
-            hex:"E21A2C",title:"Macy’s",source:"https://www.macysinc.com/news-media/media-assets",
+            hex:"E21A2C",title:"Macy's",source:"https://www.macysinc.com/news-media/media-assets",
+        }
+        ,[SimpleIcons.MagasinsU]: {
+            hex:"E71B34",title:"Magasins U",source:"https://www.magasins-u.com",
         }
         ,[SimpleIcons.Magento]: {
-            hex:"EE672F",title:"Magento",source:"http://magento.com",
+            hex:"EE672F",title:"Magento",source:"https://magento.com",
+        }
+        ,[SimpleIcons.Magic]: {
+            hex:"6851FF",title:"Magic",source:"https://magic.link/brand-assets",
         }
         ,[SimpleIcons.Magisk]: {
-            hex:"00AF9C",title:"Magisk",source:"https://github.com/topjohnwu/Magisk/blob/master/app/src/main/res/drawable/ic_magisk.xml",
+            hex:"00AF9C",title:"Magisk",source:"https://github.com/topjohnwu/Magisk/blob/23ad611566b557f26d268920692b25aa89fc0070/app/src/main/res/drawable/ic_magisk.xml",
+        }
+        ,[SimpleIcons.Mahindra]: {
+            hex:"DD052B",title:"Mahindra",source:"https://www.mahindra.com",
+        }
+        ,[SimpleIcons.MailCom]: {
+            hex:"004788",title:"mail.com",source:"https://www.mail.com",
         }
         ,[SimpleIcons.MailRu]: {
             hex:"005FF9",title:"Mail.Ru",source:"https://my.mail.ru",
         }
         ,[SimpleIcons.MailChimp]: {
-            hex:"FFE01B",title:"MailChimp",source:"http://mailchimp.com/about/brand-assets",
+            hex:"FFE01B",title:"MailChimp",source:"https://mailchimp.com/about/brand-assets",
+        }
+        ,[SimpleIcons.Mailgun]: {
+            hex:"F06B66",title:"Mailgun",source:"https://mailgun.com",
+        }
+        ,[SimpleIcons.Mailtrap]: {
+            hex:"22D172",title:"Mailtrap",source:"https://mailtrap.io",
+        }
+        ,[SimpleIcons.MainWP]: {
+            hex:"7FB100",title:"MainWP",source:"https://mainwp.com",
         }
         ,[SimpleIcons.MajorLeagueHacking]: {
             hex:"265A8F",title:"Major League Hacking",source:"https://mlh.io/brand-guidelines",
         }
+        ,[SimpleIcons.Make]: {
+            hex:"6D00CC",title:"Make",source:"https://www.make.com/en/press",
+        }
         ,[SimpleIcons.MakerBot]: {
-            hex:"FF1E0D",title:"MakerBot",source:"http://www.makerbot.com/makerbot-press-assets",
+            hex:"FF1E0D",title:"MakerBot",source:"https://www.makerbot.com/makerbot-press-assets",
+        }
+        ,[SimpleIcons.Malt]: {
+            hex:"FC5757",title:"Malt",source:"https://newsroom.malt.com/media-kit-uk",
+        }
+        ,[SimpleIcons.Malwarebytes]: {
+            hex:"0D3ECC",title:"Malwarebytes",source:"https://www.malwarebytes.com",
+        }
+        ,[SimpleIcons.MambaUI]: {
+            hex:"6D28D9",title:"Mamba UI",source:"https://github.com/Microwawe/mamba-ui/blob/b4ca2eba570c451886e5822d7ba12a8d78015bba/src/assets/svg/logo.svg",
+        }
+        ,[SimpleIcons.MAMP]: {
+            hex:"02749C",title:"MAMP",source:"https://www.mamp.info/en/mamp/mac/",
         }
         ,[SimpleIcons.MAN]: {
-            hex:"E40045",title:"MAN",source:"https://www.corporate.man.eu/",
+            hex:"E40045",title:"MAN",source:"https://www.corporate.man.eu",
         }
         ,[SimpleIcons.ManageIQ]: {
             hex:"EF2929",title:"ManageIQ",source:"https://www.manageiq.org/logo/",
         }
         ,[SimpleIcons.Manjaro]: {
-            hex:"35BF5C",title:"Manjaro",source:"https://manjaro.org/",
+            hex:"35BF5C",title:"Manjaro",source:"https://manjaro.org",
+        }
+        ,[SimpleIcons.Mantine]: {
+            hex:"339AF0",title:"Mantine",source:"https://github.com/mantinedev/mantine/blob/f2da0287bfcda19dcf7866f4d03a05d1ee7b49f7/docs/src/images/logo.svg",
         }
         ,[SimpleIcons.Mapbox]: {
             hex:"000000",title:"Mapbox",source:"https://www.mapbox.com/about/press/brand-guidelines",
+        }
+        ,[SimpleIcons.MapLibre]: {
+            hex:"396CB2",title:"MapLibre",source:"https://github.com/maplibre/maplibre-gl-js-docs/blob/e916a4cdd671890126f88b26b2b16c04220dc4b0/docs/pages/assets/favicon/maplibregl-favicon.svg",
         }
         ,[SimpleIcons.MariaDB]: {
             hex:"003545",title:"MariaDB",source:"https://mariadb.com/about-us/logos/",
         }
         ,[SimpleIcons.MariaDBFoundation]: {
-            hex:"1F305F",title:"MariaDB Foundation",source:"https://mariadb.org/",
+            hex:"1F305F",title:"MariaDB Foundation",source:"https://mariadb.org",
         }
         ,[SimpleIcons.Markdown]: {
-            hex:"000000",title:"Markdown",source:"https://github.com/dcurtis/markdown-mark",
+            hex:"000000",title:"Markdown",source:"https://github.com/dcurtis/markdown-mark/tree/360a3657fef7f6ad0b303296a95ad52985caa0d3",
         }
         ,[SimpleIcons.Marketo]: {
-            hex:"5C4C9F",title:"Marketo",source:"https://www.marketo.com/",
+            hex:"5C4C9F",title:"Marketo",source:"https://www.marketo.com",
+        }
+        ,[SimpleIcons.Marko]: {
+            hex:"2596BE",title:"Marko",source:"https://github.com/marko-js/website/blob/c03b8229e8fe8e01fde6c0772bc1cb0ceae9be05/src/logos/marko.svg",
         }
         ,[SimpleIcons.Marriott]: {
-            hex:"A70023",title:"Marriott",source:"https://marriott-hotels.marriott.com/",
+            hex:"A70023",title:"Marriott",source:"https://marriott-hotels.marriott.com",
+        }
+        ,[SimpleIcons.MarvelApp]: {
+            hex:"1FB6FF",title:"MarvelApp",source:"https://marvelapp.com",
         }
         ,[SimpleIcons.Maserati]: {
             hex:"0C2340",title:"Maserati",source:"https://www.stellantis.com/en/brands/maserati",
@@ -12646,7 +20733,7 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"009688",title:"mastercomfig",source:"https://github.com/mastercomfig/mastercomfig.github.io/blob/d910ce7e868a6ef32106e36996c3473d78da2ce3/img/mastercomfig_logo.svg",
         }
         ,[SimpleIcons.Mastodon]: {
-            hex:"3088D4",title:"Mastodon",source:"https://joinmastodon.org/",
+            hex:"6364FF",title:"Mastodon",source:"https://github.com/mastodon/mastodon/blob/7ccf7a73f1c47a8c03712c39f7c591e837cf6d08/app/javascript/images/logo-symbol-icon.svg",
         }
         ,[SimpleIcons.MaterialDesign]: {
             hex:"757575",title:"Material Design",source:"https://material.io/design/",
@@ -12654,8 +20741,11 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.MaterialDesignIcons]: {
             hex:"2196F3",title:"Material Design Icons",source:"https://materialdesignicons.com/icon/vector-square",
         }
-        ,[SimpleIcons.MaterialUI]: {
-            hex:"0081CB",title:"Material-UI",source:"https://material-ui.com/",
+        ,[SimpleIcons.MaterialForMkDocs]: {
+            hex:"526CFE",title:"Material for MkDocs",source:"https://github.com/squidfunk/mkdocs-material/blob/9ff75d11838cc01615697884c0eb9eb55f4652ad/src/templates/.icons/logo-monochrome.svg",
+        }
+        ,[SimpleIcons.Matillion]: {
+            hex:"19E57F",title:"Matillion",source:"https://www.matillion.com",
         }
         ,[SimpleIcons.Matomo]: {
             hex:"3152A0",title:"Matomo",source:"https://matomo.org/media/",
@@ -12663,14 +20753,20 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Matrix]: {
             hex:"000000",title:"Matrix",source:"https://matrix.org",
         }
+        ,[SimpleIcons.MatterJs]: {
+            hex:"4B5562",title:"Matter.js",source:"https://brm.io/matter-js",
+        }
         ,[SimpleIcons.Mattermost]: {
             hex:"0058CC",title:"Mattermost",source:"https://www.mattermost.org/brand-guidelines/",
         }
         ,[SimpleIcons.Matternet]: {
-            hex:"261C29",title:"Matternet",source:"http://mttr.net",
+            hex:"261C29",title:"Matternet",source:"https://mttr.net",
+        }
+        ,[SimpleIcons.Mautic]: {
+            hex:"4E5E9E",title:"Mautic",source:"https://www.mautic.org/about/logos-and-graphics",
         }
         ,[SimpleIcons.Max]: {
-            hex:"525252",title:"Max",source:"https://cycling74.com/",
+            hex:"525252",title:"Max",source:"https://cycling74.com",
         }
         ,[SimpleIcons.MaxPlanckGesellschaft]: {
             hex:"006C66",title:"Max-Planck-Gesellschaft",source:"https://www.mpg.de",
@@ -12688,22 +20784,34 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"FBC817",title:"McDonald's",source:"https://www.mcdonalds.com/gb/en-gb/newsroom.html",
         }
         ,[SimpleIcons.McLaren]: {
-            hex:"FF0000",title:"McLaren",source:"https://cars.mclaren.com/",
+            hex:"FF0000",title:"McLaren",source:"https://cars.mclaren.com",
+        }
+        ,[SimpleIcons.MdBook]: {
+            hex:"000000",title:"mdBook",source:"https://github.com/rust-lang/mdBook/blob/cdfa5ad9909e2cba8390688f3f0686fb70cb4bef/src/theme/favicon.svg",
         }
         ,[SimpleIcons.MDNWebDocs]: {
-            hex:"000000",title:"MDN Web Docs",source:"https://developer.mozilla.org/",
+            hex:"000000",title:"MDN Web Docs",source:"https://github.com/mdn/yari/blob/77e6cda02f7013219e9da27a00b9424085e60fdb/client/src/assets/mdn-logo.svg",
+        }
+        ,[SimpleIcons.MDX]: {
+            hex:"1B1F24",title:"MDX",source:"https://github.com/mdx-js/mdx/blob/b8a76c95deb14f7297bafdac1aa3eddd2b0fbb8f/docs/_static/icon.svg",
         }
         ,[SimpleIcons.MediaFire]: {
             hex:"1299F3",title:"MediaFire",source:"https://www.mediafire.com/developers/brand_assets/mediafire_brand_assets/",
         }
+        ,[SimpleIcons.MediaMarkt]: {
+            hex:"DF0000",title:"MediaMarkt",source:"https://www.mediamarkt.de",
+        }
         ,[SimpleIcons.MediaTek]: {
             hex:"EC9430",title:"MediaTek",source:"https://corp.mediatek.com/news-events/press-library",
         }
-        ,[SimpleIcons.MediaTemple]: {
-            hex:"000000",title:"MediaTemple",source:"https://mediatemple.net/",
+        ,[SimpleIcons.MediBangPaint]: {
+            hex:"00DBDE",title:"MediBang Paint",source:"https://medibangpaint.com",
         }
         ,[SimpleIcons.Medium]: {
             hex:"000000",title:"Medium",source:"https://medium.design/logos-and-brand-guidelines-f1a01a733592",
+        }
+        ,[SimpleIcons.Medusa]: {
+            hex:"000000",title:"Medusa",source:"https://github.com/medusajs/medusa/blob/5b91a3503af41b94697a5c27c35268c29e9bd135/www/docs/static/img/logo.svg",
         }
         ,[SimpleIcons.Meetup]: {
             hex:"ED1C40",title:"Meetup",source:"https://www.meetup.com/media/",
@@ -12711,26 +20819,56 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.MEGA]: {
             hex:"D9272E",title:"MEGA",source:"https://mega.io/corporate",
         }
+        ,[SimpleIcons.Meilisearch]: {
+            hex:"FF5CAA",title:"Meilisearch",source:"https://www.meilisearch.com",
+        }
+        ,[SimpleIcons.Meituan]: {
+            hex:"FFD100",title:"Meituan",source:"https://www.meituan.com/media",
+        }
+        ,[SimpleIcons.Meizu]: {
+            hex:"FF4132",title:"Meizu",source:"https://commons.wikimedia.org/wiki/File:Meizu.svg",
+        }
         ,[SimpleIcons.Mendeley]: {
-            hex:"9D1620",title:"Mendeley",source:"https://www.mendeley.com/",
+            hex:"9D1620",title:"Mendeley",source:"https://www.mendeley.com",
+        }
+        ,[SimpleIcons.MentorCruise]: {
+            hex:"172E59",title:"MentorCruise",source:"https://mentorcruise.com",
+        }
+        ,[SimpleIcons.MercadoPago]: {
+            hex:"00B1EA",title:"Mercado Pago",source:"https://www.mercadopago.com",
         }
         ,[SimpleIcons.Mercedes]: {
-            hex:"242424",title:"Mercedes",source:"https://www.mercedes-benz.com/",
+            hex:"242424",title:"Mercedes",source:"https://www.mercedes-benz.com",
+        }
+        ,[SimpleIcons.Merck]: {
+            hex:"007A73",title:"Merck",source:"https://www.merck.com",
         }
         ,[SimpleIcons.Mercurial]: {
             hex:"999999",title:"Mercurial",source:"https://www.mercurial-scm.org/hg-logo/",
         }
+        ,[SimpleIcons.Mermaid]: {
+            hex:"FF3670",title:"Mermaid",source:"https://github.com/mermaid-js/mermaid/blob/f5bd1e08098fa688ef889e73c8b06696e75e62d8/docs/public/mermaid-logo.svg",
+        }
         ,[SimpleIcons.Messenger]: {
             hex:"00B2FF",title:"Messenger",source:"https://en.facebookbrand.com/facebookapp/assets/messenger/",
         }
+        ,[SimpleIcons.Meta]: {
+            hex:"0467DF",title:"Meta",source:"https://www.meta.com",
+        }
         ,[SimpleIcons.Metabase]: {
-            hex:"509EE3",title:"Metabase",source:"https://www.metabase.com/",
+            hex:"509EE3",title:"Metabase",source:"https://www.metabase.com",
+        }
+        ,[SimpleIcons.Metacritic]: {
+            hex:"000000",title:"Metacritic",source:"https://www.metacritic.com",
         }
         ,[SimpleIcons.MetaFilter]: {
-            hex:"065A8F",title:"MetaFilter",source:"https://www.metafilter.com/apple-touch-icon.png",
+            hex:"065A8F",title:"MetaFilter",source:"https://www.metafilter.com",
+        }
+        ,[SimpleIcons.Metasploit]: {
+            hex:"2596CD",title:"Metasploit",source:"https://github.com/rapid7/metasploit-framework/blob/f8bd7dfd834354c9a2e2c03e1d9f5d53f8881954/docs/assets/images/favicon.png",
         }
         ,[SimpleIcons.Meteor]: {
-            hex:"DE4F4F",title:"Meteor",source:"http://logo.meteorapp.com/",
+            hex:"DE4F4F",title:"Meteor",source:"https://logo.meteorapp.com",
         }
         ,[SimpleIcons.Metro]: {
             hex:"EF4242",title:"Metro",source:"https://facebook.github.io/metro/",
@@ -12742,76 +20880,31 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"255E9C",title:"Metro de Madrid",source:"https://commons.wikimedia.org/wiki/File:MetroMadridLogo.svg",
         }
         ,[SimpleIcons.M_troDeParis]: {
-            hex:"003E95",title:"Métro de Paris",source:"https://www.ratp.fr/",
+            hex:"003E95",title:"Métro de Paris",source:"https://www.ratp.fr",
         }
         ,[SimpleIcons.MeWe]: {
             hex:"17377F",title:"MeWe",source:"https://mewe.com",
         }
+        ,[SimpleIcons.MG]: {
+            hex:"FF0000",title:"MG",source:"https://www.mg.co.uk/themes/custom/mg/assets/images/svg/mg-logo-desktop.svg",
+        }
+        ,[SimpleIcons.MicroEditor]: {
+            hex:"2E3192",title:"Micro Editor",source:"https://github.com/zyedidia/micro/blob/48645907ec55798b75723019dad75dba51bd97d7/assets/micro-logo-mark.svg",
+        }
         ,[SimpleIcons.Micro_bit]: {
-            hex:"00ED00",title:"micro:bit",source:"https://microbit.org/",
+            hex:"00ED00",title:"micro:bit",source:"https://microbit.org",
         }
         ,[SimpleIcons.MicroBlog]: {
-            hex:"FF8800",title:"Micro.blog",source:"https://help.micro.blog/",
+            hex:"FF8800",title:"Micro.blog",source:"https://help.micro.blog",
         }
         ,[SimpleIcons.Microgenetics]: {
-            hex:"FF0000",title:"Microgenetics",source:"http://microgenetics.co.uk/",
+            hex:"FF0000",title:"Microgenetics",source:"https://microgenetics.co.uk",
         }
         ,[SimpleIcons.MicroPython]: {
             hex:"2B2728",title:"MicroPython",source:"https://commons.wikimedia.org/wiki/File:MicroPython_new_logo.svg",
         }
-        ,[SimpleIcons.Microsoft]: {
-            hex:"5E5E5E",title:"Microsoft",source:"https://developer.microsoft.com",
-        }
-        ,[SimpleIcons.MicrosoftAcademic]: {
-            hex:"2D9FD9",title:"Microsoft Academic",source:"https://academic.microsoft.com/",
-        }
-        ,[SimpleIcons.MicrosoftAccess]: {
-            hex:"A4373A",title:"Microsoft Access",source:"https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products",
-        }
-        ,[SimpleIcons.MicrosoftAzure]: {
-            hex:"0078D4",title:"Microsoft Azure",source:"https://github.com/microsoft/vscode-azureresourcegroups/blob/0a06362e82170fd7f8dc2496286825b1a69cc42b/resources/azure.svg",
-        }
-        ,[SimpleIcons.MicrosoftBing]: {
-            hex:"258FFA",title:"Microsoft Bing",source:"https://www.bing.com/covid/",
-        }
-        ,[SimpleIcons.MicrosoftEdge]: {
-            hex:"0078D7",title:"Microsoft Edge",source:"https://support.microsoft.com/en-us/help/17171/microsoft-edge-get-to-know",
-        }
-        ,[SimpleIcons.MicrosoftExcel]: {
-            hex:"217346",title:"Microsoft Excel",source:"https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products",
-        }
-        ,[SimpleIcons.MicrosoftExchange]: {
-            hex:"0078D4",title:"Microsoft Exchange",source:"https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products",
-        }
-        ,[SimpleIcons.MicrosoftOffice]: {
-            hex:"D83B01",title:"Microsoft Office",source:"https://developer.microsoft.com/en-us/microsoft-365",
-        }
-        ,[SimpleIcons.MicrosoftOneDrive]: {
-            hex:"0078D4",title:"Microsoft OneDrive",source:"https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products",
-        }
-        ,[SimpleIcons.MicrosoftOneNote]: {
-            hex:"7719AA",title:"Microsoft OneNote",source:"https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products",
-        }
-        ,[SimpleIcons.MicrosoftOutlook]: {
-            hex:"0078D4",title:"Microsoft Outlook",source:"https://developer.microsoft.com/en-us/outlook/docs",
-        }
-        ,[SimpleIcons.MicrosoftPowerPoint]: {
-            hex:"B7472A",title:"Microsoft PowerPoint",source:"https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products",
-        }
-        ,[SimpleIcons.MicrosoftSharePoint]: {
-            hex:"0078D4",title:"Microsoft SharePoint",source:"https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products",
-        }
-        ,[SimpleIcons.MicrosoftSQLServer]: {
-            hex:"CC2927",title:"Microsoft SQL Server",source:"https://de.wikipedia.org/wiki/Datei:Microsoft_SQL_Server_Logo.svg",
-        }
-        ,[SimpleIcons.MicrosoftTeams]: {
-            hex:"6264A7",title:"Microsoft Teams",source:"https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products",
-        }
-        ,[SimpleIcons.MicrosoftVisio]: {
-            hex:"3955A3",title:"Microsoft Visio",source:"https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products",
-        }
-        ,[SimpleIcons.MicrosoftWord]: {
-            hex:"2B579A",title:"Microsoft Word",source:"https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products",
+        ,[SimpleIcons.Microstation]: {
+            hex:"62BB47",title:"Microstation",source:"https://www.bentley.com/software/microstation",
         }
         ,[SimpleIcons.MicroStrategy]: {
             hex:"D9232E",title:"MicroStrategy",source:"https://www.microstrategy.com/en/company/press-kit",
@@ -12819,32 +20912,62 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.MIDI]: {
             hex:"000000",title:"MIDI",source:"https://en.wikipedia.org/wiki/MIDI",
         }
+        ,[SimpleIcons.Migadu]: {
+            hex:"0043CE",title:"Migadu",source:"https://migadu.com",
+        }
+        ,[SimpleIcons.Mikrotik]: {
+            hex:"293239",title:"Mikrotik",source:"https://mikrotik.com/aboutus",
+        }
+        ,[SimpleIcons.Milanote]: {
+            hex:"31303A",title:"Milanote",source:"https://milanote.com",
+        }
+        ,[SimpleIcons.Milvus]: {
+            hex:"00A1EA",title:"Milvus",source:"https://github.com/milvus-io/artwork/blob/e30bffa2b0632b0d4cefcdd4e1a2c09fee5b0d28/icon/black/milvus-icon-black.svg",
+        }
         ,[SimpleIcons.Minds]: {
             hex:"FED12F",title:"Minds",source:"https://www.minds.com/branding",
         }
-        ,[SimpleIcons.Minecraft]: {
-            hex:"62B47A",title:"Minecraft",source:"https://education.minecraft.net/press/",
-        }
         ,[SimpleIcons.Minetest]: {
-            hex:"53AC56",title:"Minetest",source:"https://www.minetest.net/",
+            hex:"53AC56",title:"Minetest",source:"https://www.minetest.net",
         }
         ,[SimpleIcons.Mini]: {
             hex:"000000",title:"Mini",source:"https://mini.co.uk",
         }
+        ,[SimpleIcons.MinIO]: {
+            hex:"C72E49",title:"MinIO",source:"https://min.io",
+        }
+        ,[SimpleIcons.Mintlify]: {
+            hex:"18E299",title:"Mintlify",source:"https://mintlify.com",
+        }
         ,[SimpleIcons.Minutemailer]: {
             hex:"30B980",title:"Minutemailer",source:"https://minutemailer.com",
         }
+        ,[SimpleIcons.Miraheze]: {
+            hex:"FFFC00",title:"Miraheze",source:"https://miraheze.org",
+        }
         ,[SimpleIcons.Miro]: {
-            hex:"050038",title:"Miro",source:"https://miro.com/",
+            hex:"050038",title:"Miro",source:"https://miro.com",
+        }
+        ,[SimpleIcons.Misskey]: {
+            hex:"A1CA03",title:"Misskey",source:"https://misskey-hub.net/appendix/assets.html",
         }
         ,[SimpleIcons.Mitsubishi]: {
-            hex:"E60012",title:"Mitsubishi",source:"https://www.mitsubishi.com/",
+            hex:"E60012",title:"Mitsubishi",source:"https://www.mitsubishi.com",
         }
         ,[SimpleIcons.Mix]: {
             hex:"FF8126",title:"Mix",source:"https://mix.com",
         }
         ,[SimpleIcons.Mixcloud]: {
             hex:"5000FF",title:"Mixcloud",source:"https://www.mixcloud.com/about",
+        }
+        ,[SimpleIcons.Mixpanel]: {
+            hex:"7856FF",title:"Mixpanel",source:"https://mixpanel.com",
+        }
+        ,[SimpleIcons.MLB]: {
+            hex:"041E42",title:"MLB",source:"https://www.mlb.com",
+        }
+        ,[SimpleIcons.MLflow]: {
+            hex:"0194E2",title:"MLflow",source:"https://github.com/mlflow/mlflow/blob/855881f93703b15ffe643003fb4d7c84f0ec2502/assets/icon.svg",
         }
         ,[SimpleIcons.MobX]: {
             hex:"FF9955",title:"MobX",source:"https://github.com/mobxjs/mobx/blob/248e25e37af31c2e71ff452bc662a85816fa40d8/docs/assets/mobservable.svg",
@@ -12853,28 +20976,58 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"FF7102",title:"MobX-State-Tree",source:"https://github.com/mobxjs/mobx-state-tree/blob/666dabd60a7fb87faf83d177c14f516481b5f141/website/static/img/mobx-state-tree-logo.svg",
         }
         ,[SimpleIcons.Mocha]: {
-            hex:"8D6748",title:"Mocha",source:"https://mochajs.org/",
+            hex:"8D6748",title:"Mocha",source:"https://mochajs.org",
+        }
+        ,[SimpleIcons.MockServiceWorker]: {
+            hex:"FF6A33",title:"Mock Service Worker",source:"https://github.com/mswjs/msw/blob/9c53bd23040307d41b5b0b7cec1bf3a05950dbc8/media/msw-logo-black.svg",
+        }
+        ,[SimpleIcons.Modal]: {
+            hex:"7FEE64",title:"Modal",source:"https://modal.com",
+        }
+        ,[SimpleIcons.Modin]: {
+            hex:"001729",title:"Modin",source:"https://modin.org",
+        }
+        ,[SimpleIcons.Modrinth]: {
+            hex:"00AF5C",title:"Modrinth",source:"https://github.com/modrinth/art/blob/d5ab4f965b0b4cea7201967483885ecd8d04a562/Branding/Favicon/favicon.svg",
         }
         ,[SimpleIcons.MODX]: {
-            hex:"102C53",title:"MODX",source:"https://docs.modx.com/",
-        }
-        ,[SimpleIcons.MojangStudios]: {
-            hex:"EF323D",title:"Mojang Studios",source:"https://www.minecraft.net",
+            hex:"102C53",title:"MODX",source:"https://docs.modx.com",
         }
         ,[SimpleIcons.Moleculer]: {
-            hex:"3CAFCE",title:"Moleculer",source:"https://moleculer.services/",
+            hex:"3CAFCE",title:"Moleculer",source:"https://moleculer.services",
         }
         ,[SimpleIcons.Momenteo]: {
             hex:"5A6AB1",title:"Momenteo",source:"https://www.momenteo.com/media",
         }
         ,[SimpleIcons.Monero]: {
-            hex:"FF6600",title:"Monero",source:"https://www.getmonero.org/press-kit/",
+            hex:"FF6600",title:"Monero",source:"https://www.getmonero.org/press-kit",
+        }
+        ,[SimpleIcons.MoneyGram]: {
+            hex:"FF6600",title:"MoneyGram",source:"https://moneygram.com",
         }
         ,[SimpleIcons.MongoDB]: {
             hex:"47A248",title:"MongoDB",source:"https://www.mongodb.com/pressroom",
         }
+        ,[SimpleIcons.Mongoose]: {
+            hex:"880000",title:"Mongoose",source:"https://github.com/Automattic/mongoose/blob/7971a4dbd55888f0b005e65b06024109af8352f7/docs/images/mongoose.svg",
+        }
+        ,[SimpleIcons.Mongoosedotws]: {
+            hex:"F04D35",title:"Mongoose",source:"https://mongoose.ws",slug:"mongoosedotws"
+        }
+        ,[SimpleIcons.Monica]: {
+            hex:"2C2B29",title:"Monica",source:"https://github.com/monicahq/monica/blob/d7886cc6fd11388a95b7504e1a5363ecc7ad9a59/public/img/monica.svg",
+        }
         ,[SimpleIcons.MonkeyTie]: {
             hex:"1A52C2",title:"monkey tie",source:"https://www.monkey-tie.com",
+        }
+        ,[SimpleIcons.Monkeytype]: {
+            hex:"E2B714",title:"Monkeytype",source:"https://github.com/monkeytypegame/monkeytype/blob/20a08d27ead851bbfd5ac557b4ea444ea8bddd79/frontend/static/html/top.html",
+        }
+        ,[SimpleIcons.MonoGame]: {
+            hex:"E73C00",title:"MonoGame",source:"https://www.monogame.net",
+        }
+        ,[SimpleIcons.Monoprix]: {
+            hex:"FB1911",title:"Monoprix",source:"https://www.monoprix.fr",
         }
         ,[SimpleIcons.Monster]: {
             hex:"6D4C9F",title:"Monster",source:"https://www.monster.com/press/",
@@ -12885,23 +21038,71 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Moo]: {
             hex:"00945E",title:"Moo",source:"https://www.moo.com/uk/about/press",
         }
+        ,[SimpleIcons.Moodle]: {
+            hex:"F98012",title:"Moodle",source:"https://moodle.com/trademarks",
+        }
+        ,[SimpleIcons.Moonrepo]: {
+            hex:"6F53F3",title:"Moonrepo",source:"https://moonrepo.dev",
+        }
+        ,[SimpleIcons.Moq]: {
+            hex:"F4BE00",title:"Moq",source:"https://github.com/devlooped/moq/blob/1f31df466bf5513b32ef0a0338e242bc51180c7f/assets/img/moq-icon.png",
+        }
+        ,[SimpleIcons.Moqups]: {
+            hex:"006BE5",title:"Moqups",source:"https://app.moqups.com",
+        }
+        ,[SimpleIcons.Morrisons]: {
+            hex:"007531",title:"Morrisons",source:"https://groceries.morrisons.com",
+        }
         ,[SimpleIcons.MoscowMetro]: {
-            hex:"D9232E",title:"Moscow Metro",source:"https://mosmetro.ru/",
+            hex:"D9232E",title:"Moscow Metro",source:"https://mosmetro.ru",
         }
         ,[SimpleIcons.Motorola]: {
-            hex:"E1140A",title:"Motorola",source:"https://motorola-global-portal-de.custhelp.com/",
+            hex:"E1140A",title:"Motorola",source:"https://motorola-global-portal-de.custhelp.com",
         }
         ,[SimpleIcons.Mozilla]: {
             hex:"000000",title:"Mozilla",source:"https://mozilla.design/mozilla/",
         }
+        ,[SimpleIcons.Mpv]: {
+            hex:"691F69",title:"mpv",source:"https://github.com/mpv-player/mpv/blob/da400ed3a9b54408d1b5112855a7281380a1ef52/etc/mpv.svg",
+        }
+        ,[SimpleIcons.MQTT]: {
+            hex:"660066",title:"MQTT",source:"https://mqtt.org",
+        }
+        ,[SimpleIcons.MSI]: {
+            hex:"FF0000",title:"MSI",source:"https://www.msi.com/page/brochure",
+        }
+        ,[SimpleIcons.MSIBusiness]: {
+            hex:"9A8555",title:"MSI Business",source:"https://www.msi.com/Business-Productivity",
+        }
         ,[SimpleIcons.MTA]: {
-            hex:"0039A6",title:"MTA",source:"https://mta.info/",
+            hex:"0039A6",title:"MTA",source:"https://mta.info",
         }
         ,[SimpleIcons.MTR]: {
             hex:"AC2E45",title:"MTR",source:"https://commons.wikimedia.org/wiki/File:MTR_(logo_with_text).svg",
         }
+        ,[SimpleIcons.MUBI]: {
+            hex:"000000",title:"MUBI",source:"https://mubi.com",
+        }
+        ,[SimpleIcons.MUI]: {
+            hex:"007FFF",title:"MUI",source:"https://github.com/mui-org/material-ui/blob/353cecb5391571163eb6bd8cbf36d2dd299aaf56/docs/src/icons/SvgMuiLogo.tsx",
+        }
+        ,[SimpleIcons.Mulesoft]: {
+            hex:"00A0DF",title:"Mulesoft",source:"https://www.mulesoft.com/brand",
+        }
+        ,[SimpleIcons.M_ller]: {
+            hex:"F46519",title:"Müller",source:"https://www.mueller.de",
+        }
+        ,[SimpleIcons.Multisim]: {
+            hex:"57B685",title:"Multisim",source:"https://www.multisim.com",
+        }
         ,[SimpleIcons.Mumble]: {
-            hex:"FFFFFF",title:"Mumble",source:"https://github.com/mumble-voip/mumble/blob/d40a19eb88cda61084da245a1b6cb8f32ef1b6e4/icons/mumble_small.svg",
+            hex:"000000",title:"Mumble",source:"https://github.com/mumble-voip/mumble/blob/d40a19eb88cda61084da245a1b6cb8f32ef1b6e4/icons/mumble_small.svg",
+        }
+        ,[SimpleIcons.MUO]: {
+            hex:"C60D0D",title:"MUO",source:"https://www.makeuseof.com",
+        }
+        ,[SimpleIcons.Mural]: {
+            hex:"FF4B4B",title:"Mural",source:"https://www.mural.co/brand-assets",
         }
         ,[SimpleIcons.MuseScore]: {
             hex:"1A70B8",title:"MuseScore",source:"https://musescore.org/en/about/logos-and-graphics",
@@ -12915,23 +21116,38 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.MyAnimeList]: {
             hex:"2E51A2",title:"MyAnimeList",source:"https://myanimelist.net/forum/?topicid=1575618",
         }
+        ,[SimpleIcons.MyGet]: {
+            hex:"0C79CE",title:"MyGet",source:"https://docs.myget.org",
+        }
         ,[SimpleIcons.MYOB]: {
             hex:"6100A5",title:"MYOB",source:"https://myob-identikit.frontify.com/d/JK2D4WFOdAwV/for-developers",
         }
         ,[SimpleIcons.Myspace]: {
-            hex:"030303",title:"Myspace",source:"https://myspace.com/",
+            hex:"030303",title:"Myspace",source:"https://myspace.com",
         }
         ,[SimpleIcons.MySQL]: {
             hex:"4479A1",title:"MySQL",source:"https://www.mysql.com/about/legal/logos.html",
         }
         ,[SimpleIcons.N26]: {
-            hex:"48AC98",title:"N26",source:"https://n26.com/",
+            hex:"48AC98",title:"N26",source:"https://n26.com",
+        }
+        ,[SimpleIcons.N8n]: {
+            hex:"EA4B71",title:"n8n",source:"https://n8n.io/press",
         }
         ,[SimpleIcons.Namebase]: {
-            hex:"0068FF",title:"Namebase",source:"https://www.namebase.io/",
+            hex:"0068FF",title:"Namebase",source:"https://www.namebase.io",
         }
         ,[SimpleIcons.Namecheap]: {
-            hex:"DE3723",title:"Namecheap",source:"https://www.namecheap.com/",
+            hex:"DE3723",title:"Namecheap",source:"https://www.namecheap.com",
+        }
+        ,[SimpleIcons.NameMC]: {
+            hex:"12161A",title:"NameMC",source:"https://namemc.com",
+        }
+        ,[SimpleIcons.NameSilo]: {
+            hex:"031B4E",title:"NameSilo",source:"https://www.namesilo.com/support/v2",
+        }
+        ,[SimpleIcons.NamuWiki]: {
+            hex:"008275",title:"Namu Wiki",source:"https://namu.wiki/w/%ED%8C%8C%EC%9D%BC:%EB%82%98%EB%AC%B4%EC%9C%84%ED%82%A4%20%EC%95%84%EC%9D%B4%EC%BD%98.svg",
         }
         ,[SimpleIcons.Nano]: {
             hex:"4A90E2",title:"Nano",source:"https://nano.org/resources",
@@ -12940,61 +21156,121 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"E03C31",title:"NASA",source:"https://commons.wikimedia.org/wiki/File:NASA_Worm_logo.svg",
         }
         ,[SimpleIcons.NationalGrid]: {
-            hex:"00148C",title:"National Grid",source:"https://www.nationalgrid.com/",
+            hex:"00148C",title:"National Grid",source:"https://www.nationalgrid.com",
+        }
+        ,[SimpleIcons.NationalRail]: {
+            hex:"003366",title:"National Rail",source:"https://www.nationalrailguidelines.co.uk",
         }
         ,[SimpleIcons.NativeScript]: {
-            hex:"3655FF",title:"NativeScript",source:"https://docs.nativescript.org/",
+            hex:"65ADF1",title:"NativeScript",source:"https://docs.nativescript.org",
+        }
+        ,[SimpleIcons.NATSIo]: {
+            hex:"27AAE1",title:"NATS.io",source:"https://github.com/cncf/artwork/blob/88bc5e7a0cc7f3770ba6edddc92e1ab8a6006171/projects/nats/icon/black/nats-icon-black.svg",
         }
         ,[SimpleIcons.Naver]: {
-            hex:"03C75A",title:"Naver",source:"https://www.navercorp.com/investment/annualReport",
+            hex:"03C75A",title:"Naver",source:"https://developers.naver.com/docs/login/bi/bi.md",
         }
         ,[SimpleIcons.NBA]: {
-            hex:"253B73",title:"NBA",source:"https://nba.com/",
+            hex:"253B73",title:"NBA",source:"https://nba.com",
         }
         ,[SimpleIcons.NBB]: {
             hex:"FF7100",title:"NBB",source:"https://presse.notebooksbilliger.de/presskits/style-guide",
         }
+        ,[SimpleIcons.NBC]: {
+            hex:"222222",title:"NBC",source:"https://www.nbcnews.com",
+        }
         ,[SimpleIcons.NDR]: {
-            hex:"0C1754",title:"NDR",source:"https://www.ndr.de/",
+            hex:"0C1754",title:"NDR",source:"https://www.ndr.de",
+        }
+        ,[SimpleIcons.NEAR]: {
+            hex:"000000",title:"NEAR",source:"https://near.org/brand",
         }
         ,[SimpleIcons.NEC]: {
             hex:"1414A0",title:"NEC",source:"https://commons.wikimedia.org/wiki/File:NEC_logo.svg",
         }
         ,[SimpleIcons.Neo4j]: {
-            hex:"008CC1",title:"Neo4j",source:"https://neo4j.com/style-guide/",
+            hex:"4581C3",title:"Neo4j",source:"https://neo4j.com/brand/#logo",
         }
         ,[SimpleIcons.Neovim]: {
-            hex:"57A143",title:"Neovim",source:"https://neovim.io/",
+            hex:"57A143",title:"Neovim",source:"https://neovim.io",
+        }
+        ,[SimpleIcons.Neptune]: {
+            hex:"5B69C2",title:"Neptune",source:"https://neptune.ai",
         }
         ,[SimpleIcons.NestJS]: {
-            hex:"E0234E",title:"NestJS",source:"https://nestjs.com/",
+            hex:"E0234E",title:"NestJS",source:"https://nestjs.com",
         }
         ,[SimpleIcons.NetApp]: {
-            hex:"0067C5",title:"NetApp",source:"http://www.netapp.com/",
+            hex:"0067C5",title:"NetApp",source:"https://www.netapp.com",
+        }
+        ,[SimpleIcons.NetBSD]: {
+            hex:"FF6600",title:"NetBSD",source:"https://www.netbsd.org",
+        }
+        ,[SimpleIcons.Netcup]: {
+            hex:"056473",title:"netcup",source:"https://www.netcup.de/static/assets/images/favicons/favicon.svg",
+        }
+        ,[SimpleIcons.Netdata]: {
+            hex:"00AB44",title:"Netdata",source:"https://www.netdata.cloud",
+        }
+        ,[SimpleIcons.NetEaseCloudMusic]: {
+            hex:"D43C33",title:"NetEase Cloud Music",source:"https://y.music.163.com/m",
         }
         ,[SimpleIcons.Netflix]: {
             hex:"E50914",title:"Netflix",source:"https://brand.netflix.com/en/assets/brand-symbol",
         }
+        ,[SimpleIcons.NETGEAR]: {
+            hex:"2C262D",title:"NETGEAR",source:"https://www.powershift.netgear.de/images/powershift/collateral/logos-visio-icons/brandguideline_partner_2018.pdf",
+        }
         ,[SimpleIcons.Netlify]: {
             hex:"00C7B7",title:"Netlify",source:"https://www.netlify.com/press/",
+        }
+        ,[SimpleIcons.Nette]: {
+            hex:"3484D2",title:"Nette",source:"https://nette.org/en/logo",
+        }
+        ,[SimpleIcons.Netto]: {
+            hex:"FFE500",title:"Netto",source:"https://www.netto-online.de/INTERSHOP/static/WFS/Plus-NettoDE-Site/-/-/de_DE/css/images/netto-logo.svg",
+        }
+        ,[SimpleIcons.Neutralinojs]: {
+            hex:"F89901",title:"Neutralinojs",source:"https://github.com/neutralinojs/design-guide/blob/52a7232598ff22cddd810a3079e09a2cc2892609/logo/neutralinojs_logo_vector.svg",
+        }
+        ,[SimpleIcons.NewBalance]: {
+            hex:"CF0A2C",title:"New Balance",source:"https://www.newbalance.com",
         }
         ,[SimpleIcons.NewJapanProWrestling]: {
             hex:"FF160B",title:"New Japan Pro-Wrestling",source:"https://en.wikipedia.org/wiki/File:NJPW_World_Logo.svg",
         }
         ,[SimpleIcons.NewRelic]: {
-            hex:"008C99",title:"New Relic",source:"https://newrelic.com/about/media-assets",
+            hex:"1CE783",title:"New Relic",source:"https://newrelic.com/about/media-assets",
         }
         ,[SimpleIcons.NewYorkTimes]: {
-            hex:"000000",title:"New York Times",source:"https://www.nytimes.com/",
+            hex:"000000",title:"New York Times",source:"https://www.nytimes.com",
+        }
+        ,[SimpleIcons.Newegg]: {
+            hex:"E05E00",title:"Newegg",source:"https://www.newegg.com",
         }
         ,[SimpleIcons.NextJs]: {
-            hex:"000000",title:"Next.js",source:"https://nextjs.org/",
+            hex:"000000",title:"Next.js",source:"https://vercel.com/design/brands#next-js",
+        }
+        ,[SimpleIcons.NextBillionAi]: {
+            hex:"8D5A9E",title:"NextBillion.ai",source:"https://nextbillion.ai",
         }
         ,[SimpleIcons.Nextcloud]: {
             hex:"0082C9",title:"Nextcloud",source:"https://nextcloud.com/press/",
         }
+        ,[SimpleIcons.NextDNS]: {
+            hex:"007BFF",title:"NextDNS",source:"https://github.com/simple-icons/simple-icons/pull/9150#issuecomment-1856317201",
+        }
         ,[SimpleIcons.Nextdoor]: {
             hex:"8ED500",title:"Nextdoor",source:"https://about.nextdoor.com/us-media/",
+        }
+        ,[SimpleIcons.Nextra]: {
+            hex:"000000",title:"Nextra",source:"https://nextra.site",
+        }
+        ,[SimpleIcons.NextUI]: {
+            hex:"000000",title:"NextUI",source:"https://nextui.org/figma",
+        }
+        ,[SimpleIcons.NexusMods]: {
+            hex:"E6832B",title:"Nexus Mods",source:"https://wiki.nexusmods.com/skins/Metrolook/images/nexuslogo.svg",
         }
         ,[SimpleIcons.NFC]: {
             hex:"002E5F",title:"NFC",source:"https://nfc-forum.org/our-work/nfc-branding/n-mark/guidelines-and-brand-assets/",
@@ -13002,47 +21278,80 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.NGINX]: {
             hex:"009639",title:"NGINX",source:"https://www.nginx.com/press/",
         }
+        ,[SimpleIcons.NginxProxyManager]: {
+            hex:"F15833",title:"Nginx Proxy Manager",source:"https://github.com/NginxProxyManager/nginx-proxy-manager/blob/2a06384a4aa597777931d38cef49cf89540392e6/docs/.vuepress/public/logo.svg",
+        }
         ,[SimpleIcons.Ngrok]: {
-            hex:"1F1E37",title:"ngrok",source:"https://ngrok.com/",
+            hex:"1F1E37",title:"ngrok",source:"https://ngrok.com",
+        }
+        ,[SimpleIcons.NgRx]: {
+            hex:"BA2BD2",title:"NgRx",source:"https://ngrx.io",
+        }
+        ,[SimpleIcons.NHL]: {
+            hex:"000000",title:"NHL",source:"https://www.nhl.com",
+        }
+        ,[SimpleIcons.NiceHash]: {
+            hex:"FBC342",title:"NiceHash",source:"https://www.nicehash.com/nicehash-media",
         }
         ,[SimpleIcons.Niconico]: {
-            hex:"231815",title:"niconico",source:"https://www.nicovideo.jp/",
+            hex:"231815",title:"niconico",source:"https://www.nicovideo.jp",
+        }
+        ,[SimpleIcons.Nike]: {
+            hex:"111111",title:"Nike",source:"https://www.nike.com",
+        }
+        ,[SimpleIcons.Nikon]: {
+            hex:"FFE100",title:"Nikon",source:"https://www.nikon.com",
         }
         ,[SimpleIcons.Nim]: {
             hex:"FFE953",title:"Nim",source:"https://nim-lang.org",
         }
         ,[SimpleIcons.Nintendo]: {
-            hex:"8F8F8F",title:"Nintendo",source:"https://en.wikipedia.org/wiki/Nintendo#/media/File:Nintendo.svg",
+            hex:"E60012",title:"Nintendo",source:"https://www.nintendo.com",
         }
         ,[SimpleIcons.Nintendo3DS]: {
-            hex:"D12228",title:"Nintendo 3DS",source:"https://www.nintendo.de/",
+            hex:"D12228",title:"Nintendo 3DS",source:"https://www.nintendo.de",
         }
         ,[SimpleIcons.NintendoGameCube]: {
             hex:"6A5FBB",title:"Nintendo GameCube",source:"https://www.nintendo.com/consumer/systems/nintendogamecube/index.jsp",
-        }
-        ,[SimpleIcons.NintendoNetwork]: {
-            hex:"FF7D00",title:"Nintendo Network",source:"https://id.nintendo.net/login",
         }
         ,[SimpleIcons.NintendoSwitch]: {
             hex:"E60012",title:"Nintendo Switch",source:"https://www.nintendo.com/switch/",
         }
         ,[SimpleIcons.Nissan]: {
-            hex:"C3002F",title:"Nissan",source:"https://www.nissan.ie/",
+            hex:"C3002F",title:"Nissan",source:"https://www.nissan.ie",
         }
         ,[SimpleIcons.NixOS]: {
-            hex:"5277C3",title:"NixOS",source:"https://github.com/NixOS/nixos-homepage/tree/master/logo",
+            hex:"5277C3",title:"NixOS",source:"https://github.com/NixOS/nixos-homepage/tree/58cfdb770aba28b73446a1b3ee65a5cec4f0d44f/logo",
         }
         ,[SimpleIcons.NodeRED]: {
             hex:"8F0000",title:"Node-RED",source:"https://nodered.org/about/resources/",
         }
         ,[SimpleIcons.NodeJs]: {
-            hex:"339933",title:"Node.js",source:"https://nodejs.org/en/about/resources/",
+            hex:"5FA04E",title:"Node.js",source:"https://nodejs.org/en/about/branding",
         }
         ,[SimpleIcons.Nodemon]: {
-            hex:"76D04B",title:"Nodemon",source:"https://nodemon.io/",
+            hex:"76D04B",title:"Nodemon",source:"https://nodemon.io",
         }
         ,[SimpleIcons.Nokia]: {
-            hex:"124191",title:"Nokia",source:"https://www.nokia.com/",
+            hex:"005AFF",title:"Nokia",source:"https://www.nokia.com",
+        }
+        ,[SimpleIcons.Nomad]: {
+            hex:"00CA8E",title:"Nomad",source:"https://www.hashicorp.com/brand",
+        }
+        ,[SimpleIcons.Norco]: {
+            hex:"00FF00",title:"Norco",source:"https://www.norco.com",
+        }
+        ,[SimpleIcons.NordicSemiconductor]: {
+            hex:"00A9CE",title:"Nordic Semiconductor",source:"https://www.nordicsemi.com",
+        }
+        ,[SimpleIcons.NordVPN]: {
+            hex:"4687FF",title:"NordVPN",source:"https://nordvpn.com/press-area/",
+        }
+        ,[SimpleIcons.NormalizeCss]: {
+            hex:"E3695F",title:"Normalize.css",source:"https://github.com/necolas/normalize.css/blob/3a60304f90870c6087d226f53e02a7523c907a35/logo.svg",
+        }
+        ,[SimpleIcons.Norton]: {
+            hex:"FFE01A",title:"Norton",source:"https://us.norton.com",
         }
         ,[SimpleIcons.Norwegian]: {
             hex:"D81939",title:"Norwegian",source:"https://www.norwegian.com/ie/travel-info/on-board/in-flight-entertainment/magazine/",
@@ -13051,25 +21360,37 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"90E59A",title:"Notepad++",source:"https://github.com/notepad-plus-plus/notepad-plus-plus/blob/1f2c63cce173e3e1dc5922637c81a851693e2856/PowerEditor/misc/chameleon/chameleon-pencil.eps",
         }
         ,[SimpleIcons.Notion]: {
-            hex:"000000",title:"Notion",source:"https://www.notion.so/",
+            hex:"000000",title:"Notion",source:"https://www.notion.so",
         }
         ,[SimpleIcons.Notist]: {
-            hex:"333333",title:"Notist",source:"https://noti.st/",
+            hex:"333333",title:"Notist",source:"https://noti.st",
         }
         ,[SimpleIcons.NounProject]: {
-            hex:"000000",title:"Noun Project",source:"https://www.lingoapp.com/6/s/oJkq3W/?v=3",
+            hex:"000000",title:"Noun Project",source:"https://thenounproject.com",
+        }
+        ,[SimpleIcons.Novu]: {
+            hex:"000000",title:"Novu",source:"https://handbook.novu.co/logos-assets",
+        }
+        ,[SimpleIcons.NOW]: {
+            hex:"001211",title:"NOW",source:"https://www.nowtv.com",
         }
         ,[SimpleIcons.Npm]: {
-            hex:"CB3837",title:"npm",source:"https://www.npmjs.com/",
+            hex:"CB3837",title:"npm",source:"https://www.npmjs.com",
         }
         ,[SimpleIcons.Nrwl]: {
-            hex:"96D7E8",title:"Nrwl",source:"https://nrwl.io/assets/nrwl-logo-white.svg",
+            hex:"96D7E8",title:"Nrwl",source:"https://nrwl.io",
+        }
+        ,[SimpleIcons.NSIS]: {
+            hex:"01B0F0",title:"NSIS",source:"https://github.com/idleberg/nsis-logo/blob/885ba2fd08a6ff450c6f7cbd675563b5df728d38/src/Logo/below%2024x24/mono-flat.svg",
+        }
+        ,[SimpleIcons.Ntfy]: {
+            hex:"317F6F",title:"ntfy",source:"https://ntfy.sh",
         }
         ,[SimpleIcons.Nubank]: {
             hex:"820AD1",title:"Nubank",source:"https://nubank.com.br/en/press/",
         }
         ,[SimpleIcons.Nucleo]: {
-            hex:"252B2D",title:"Nucleo",source:"https://nucleoapp.com/",
+            hex:"252B2D",title:"Nucleo",source:"https://nucleoapp.com",
         }
         ,[SimpleIcons.NuGet]: {
             hex:"004880",title:"NuGet",source:"https://github.com/NuGet/Media/blob/89f7c87245e52e8ce91d94c0a47f44c6576e3a0d/Images/MainLogo/Vector/nuget.svg",
@@ -13083,29 +21404,62 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.NumPy]: {
             hex:"013243",title:"NumPy",source:"https://numpy.org/press-kit/",
         }
+        ,[SimpleIcons.Nunjucks]: {
+            hex:"1C4913",title:"Nunjucks",source:"https://github.com/mozilla/nunjucks/blob/fd500902d7c88672470c87170796de52fc0f791a/docs/img/favicon.png",
+        }
+        ,[SimpleIcons.Nushell]: {
+            hex:"4E9A06",title:"Nushell",source:"https://github.com/nushell/nushell/blob/3016d7a64ccb2c2eac9f735f6144fc896ea724a5/assets/icons/nushell-original.png",
+        }
         ,[SimpleIcons.Nutanix]: {
             hex:"024DA1",title:"Nutanix",source:"https://www.nutanix.com/content/dam/nutanix/en/cmn/documents/nutanix-brandbook.pdf",
         }
         ,[SimpleIcons.NuxtJs]: {
-            hex:"00C58E",title:"Nuxt.js",source:"https://nuxtjs.org/design",
+            hex:"00DC82",title:"Nuxt.js",source:"https://nuxt.com/design-kit",
         }
         ,[SimpleIcons.NVIDIA]: {
-            hex:"76B900",title:"NVIDIA",source:"https://www.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/images/NVIDIA-Logo.svg",
+            hex:"76B900",title:"NVIDIA",source:"https://www.nvidia.com/en-us",
+        }
+        ,[SimpleIcons.Nvm]: {
+            hex:"F4DD4B",title:"nvm",source:"https://github.com/nvm-sh/logos/blob/bf1f9618e83e5098024b18c73ada1b0f542db5f8/nvm-logo-black.svg",
         }
         ,[SimpleIcons.Nx]: {
-            hex:"143055",title:"Nx",source:"https://nx.dev/",
+            hex:"143055",title:"Nx",source:"https://nx.dev",
+        }
+        ,[SimpleIcons.NXP]: {
+            hex:"000000",title:"NXP",source:"https://www.nxp.com/company/about-nxp/newsroom:NEWSROOM",
+        }
+        ,[SimpleIcons.NZXT]: {
+            hex:"000000",title:"NZXT",source:"https://nzxt.com",
+        }
+        ,[SimpleIcons.O_Reilly]: {
+            hex:"D3002D",title:"O'Reilly",source:"https://www.oreilly.com/about/logos/",
         }
         ,[SimpleIcons.OBSStudio]: {
-            hex:"302E31",title:"OBS Studio",source:"https://upload.wikimedia.org/wikipedia/commons/7/78/OBS.svg",
+            hex:"302E31",title:"OBS Studio",source:"https://commons.wikimedia.org/wiki/File:OBS.svg",
         }
         ,[SimpleIcons.Observable]: {
-            hex:"353E58",title:"Observable",source:"https://observablehq.com/",
+            hex:"353E58",title:"Observable",source:"https://observablehq.com",
+        }
+        ,[SimpleIcons.Obsidian]: {
+            hex:"7C3AED",title:"Obsidian",source:"https://obsidian.md",
         }
         ,[SimpleIcons.OCaml]: {
-            hex:"EC6813",title:"OCaml",source:"http://ocaml.org/img/OCaml_Sticker.svg",
+            hex:"EC6813",title:"OCaml",source:"https://ocaml.org/logo",
+        }
+        ,[SimpleIcons.Oclif]: {
+            hex:"000000",title:"oclif",source:"https://github.com/oclif/oclif.github.io/blob/2356a96dbaf0d3791ec2ddce3b08ccd78408e0a0/website/static/img/oclif.svg",
+        }
+        ,[SimpleIcons.OctaneRender]: {
+            hex:"000000",title:"Octane Render",source:"https://render.otoy.com/forum/viewtopic.php?f=9&t=359",
         }
         ,[SimpleIcons.Octave]: {
             hex:"0790C0",title:"Octave",source:"https://www.gnu.org/software/octave/",
+        }
+        ,[SimpleIcons.OctoberCMS]: {
+            hex:"DB6A26",title:"October CMS",source:"https://octobercms.com",
+        }
+        ,[SimpleIcons.OctoPrint]: {
+            hex:"13C100",title:"OctoPrint",source:"https://github.com/OctoPrint/OctoPrint/blob/53b9b6185781c07e8c4744a6e28462e96448f249/src/octoprint/static/img/mask.svg",
         }
         ,[SimpleIcons.OctopusDeploy]: {
             hex:"2F93E0",title:"Octopus Deploy",source:"https://octopus.com/company/brand",
@@ -13116,8 +21470,14 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Odnoklassniki]: {
             hex:"EE8208",title:"Odnoklassniki",source:"https://insideok.ru/brandbook",
         }
+        ,[SimpleIcons.Odoo]: {
+            hex:"714B67",title:"Odoo",source:"https://www.odoo.com/page/brand-assets",
+        }
         ,[SimpleIcons.Odysee]: {
             hex:"EF1970",title:"Odysee",source:"https://odysee.com/@OdyseeHelp:b/odyseepresskit:b",
+        }
+        ,[SimpleIcons.OhDear]: {
+            hex:"FF3900",title:"Oh Dear",source:"https://ohdear.app/logos",
         }
         ,[SimpleIcons.Okcupid]: {
             hex:"0500BE",title:"okcupid",source:"https://okcupid.com/press",
@@ -13131,11 +21491,14 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.OnlyFans]: {
             hex:"00AFF0",title:"OnlyFans",source:"https://onlyfans.com/brand",
         }
+        ,[SimpleIcons.ONLYOFFICE]: {
+            hex:"444444",title:"ONLYOFFICE",source:"https://www.onlyoffice.com/en/press-downloads.aspx",
+        }
         ,[SimpleIcons.ONNX]: {
             hex:"005CED",title:"ONNX",source:"https://github.com/onnx/onnx.github.io/blob/382e7036b616ce1555499ac41730245a2478513c/images/ONNX-ICON.svg",
         }
         ,[SimpleIcons.OnStar]: {
-            hex:"003D7D",title:"OnStar",source:"https://www.onstar.com/",
+            hex:"003D7D",title:"OnStar",source:"https://www.onstar.com",
         }
         ,[SimpleIcons.Opel]: {
             hex:"F7FF14",title:"Opel",source:"https://www.stellantis.com/en/brands/opel",
@@ -13144,25 +21507,28 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"F68212",title:"Open Access",source:"https://commons.wikimedia.org/wiki/File:Open_Access_logo_PLoS_white.svg",
         }
         ,[SimpleIcons.OpenBadges]: {
-            hex:"073B5A",title:"Open Badges",source:"https://backpack.openbadges.org/",
+            hex:"073B5A",title:"Open Badges",source:"https://backpack.openbadges.org",
         }
         ,[SimpleIcons.OpenBugBounty]: {
-            hex:"F67909",title:"Open Bug Bounty",source:"https://www.openbugbounty.org/",
+            hex:"F67909",title:"Open Bug Bounty",source:"https://www.openbugbounty.org",
         }
         ,[SimpleIcons.OpenCollective]: {
             hex:"7FADF2",title:"Open Collective",source:"https://docs.opencollective.com/help/about#media-logo",
         }
         ,[SimpleIcons.OpenContainersInitiative]: {
-            hex:"262261",title:"Open Containers Initiative",source:"https://github.com/opencontainers/artwork/tree/master/oci/icon",
+            hex:"262261",title:"Open Containers Initiative",source:"https://github.com/opencontainers/artwork/blob/d8ccfe94471a0236b1d4a3f0f90862c4fe5486ce/oci/icon/black/oci-icon-black.svg",
+        }
+        ,[SimpleIcons.OpenSourceHardware]: {
+            hex:"0099B0",title:"Open Source Hardware",source:"https://www.oshwa.org/open-source-hardware-logo",
         }
         ,[SimpleIcons.OpenSourceInitiative]: {
             hex:"3DA639",title:"Open Source Initiative",source:"https://opensource.org/logo-usage-guidelines",
         }
         ,[SimpleIcons.OpenAI]: {
-            hex:"412991",title:"OpenAI",source:"https://openai.com/",
+            hex:"412991",title:"OpenAI",source:"https://openai.com",
         }
         ,[SimpleIcons.OpenAIGym]: {
-            hex:"0081A5",title:"OpenAI Gym",source:"https://gym.openai.com/",
+            hex:"0081A5",title:"OpenAI Gym",source:"https://gym.openai.com",
         }
         ,[SimpleIcons.OpenAPIInitiative]: {
             hex:"6BA539",title:"OpenAPI Initiative",source:"https://www.openapis.org/faq/style-guide",
@@ -13174,22 +21540,49 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"5C3EE8",title:"OpenCV",source:"https://opencv.org/resources/media-kit/",
         }
         ,[SimpleIcons.OpenFaaS]: {
-            hex:"3B5EE9",title:"OpenFaaS",source:"https://docs.openfaas.com/",
+            hex:"3B5EE9",title:"OpenFaaS",source:"https://docs.openfaas.com",
         }
         ,[SimpleIcons.OpenGL]: {
             hex:"5586A4",title:"OpenGL",source:"https://www.khronos.org/legal/trademarks/",
         }
+        ,[SimpleIcons.OpenHAB]: {
+            hex:"E64A19",title:"openHAB",source:"https://www.openhab.org/artwork.html",
+        }
         ,[SimpleIcons.OpenID]: {
             hex:"F78C40",title:"OpenID",source:"https://openid.net/add-openid/logos/",
+        }
+        ,[SimpleIcons.OpenJDK]: {
+            hex:"000000",title:"OpenJDK",source:"https://hg.openjdk.java.net/duke/duke/file/ca00f100dafc/vector/Agent.svg#l1",
+        }
+        ,[SimpleIcons.OpenJSFoundation]: {
+            hex:"0075C9",title:"OpenJS Foundation",source:"https://github.com/openjs-foundation/artwork/blob/270575392800eb17a02612203f6f0d5868c634a7/openjs_foundation/openjs_foundation-icon-black.svg",
         }
         ,[SimpleIcons.Openlayers]: {
             hex:"1F6B75",title:"Openlayers",source:"https://github.com/openlayers/openlayers.github.io/blob/5b93e18b8d302eb49a812fb96abb529895ceb7a2/assets/logo.svg",
         }
+        ,[SimpleIcons.Openmediavault]: {
+            hex:"5DACDF",title:"openmediavault",source:"https://github.com/openmediavault/openmediavault/blob/12f8ef70f19f967733b744d6fb6156a4181f1ddc/deb/openmediavault/workbench/src/favicon.svg",
+        }
+        ,[SimpleIcons.OpenMined]: {
+            hex:"ED986C",title:"OpenMined",source:"https://www.openmined.org",
+        }
         ,[SimpleIcons.OpenNebula]: {
             hex:"0097C2",title:"OpenNebula",source:"https://opennebula.io/docs/",
         }
+        ,[SimpleIcons.OpenProject]: {
+            hex:"0770B8",title:"OpenProject",source:"https://www.openproject.org/press/",
+        }
+        ,[SimpleIcons.OpenSCAD]: {
+            hex:"F9D72C",title:"OpenSCAD",source:"https://commons.wikimedia.org/wiki/File:Openscad.svg",
+        }
+        ,[SimpleIcons.OpenSea]: {
+            hex:"2081E2",title:"OpenSea",source:"https://docs.opensea.io",
+        }
+        ,[SimpleIcons.OpenSearch]: {
+            hex:"005EB8",title:"OpenSearch",source:"https://opensearch.org/trademark-brand-policy.html",
+        }
         ,[SimpleIcons.OpenSSL]: {
-            hex:"721412",title:"OpenSSL",source:"https://www.openssl.org/",
+            hex:"721412",title:"OpenSSL",source:"https://www.openssl.org",
         }
         ,[SimpleIcons.OpenStack]: {
             hex:"ED1944",title:"OpenStack",source:"https://www.openstack.org/brand/openstack-logo/",
@@ -13200,26 +21593,56 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.OpenSUSE]: {
             hex:"73BA25",title:"openSUSE",source:"https://github.com/openSUSE/artwork/blob/33e94aa76837c09f03d1712705949b71a246a53b/logos/buttons/button-colour.svg",
         }
+        ,[SimpleIcons.OpenTelemetry]: {
+            hex:"000000",title:"OpenTelemetry",source:"https://cncf-branding.netlify.app/projects/opentelemetry/",
+        }
+        ,[SimpleIcons.OpenText]: {
+            hex:"000000",title:"OpenText",source:"https://www.opentext.com",
+        }
+        ,[SimpleIcons.OpenTofu]: {
+            hex:"FFDA18",title:"OpenTofu",source:"https://github.com/opentofu/brand-artifacts/blob/0d4d0d6050ca0ff06471400bc3249a64c145f659/symbol-only/transparent/SVG/on-light-mono.svg",
+        }
+        ,[SimpleIcons.Openverse]: {
+            hex:"FFE033",title:"Openverse",source:"https://github.com/WordPress/openverse/blob/5db2545d6b73ec4aa5e908822683ee9d18af301d/brand/icon.svg",
+        }
         ,[SimpleIcons.OpenVPN]: {
-            hex:"EA7E20",title:"OpenVPN",source:"https://openvpn.net/wp-content/themes/openvpn/assets/images/logo.svg",
+            hex:"EA7E20",title:"OpenVPN",source:"https://openvpn.net",
         }
         ,[SimpleIcons.OpenWrt]: {
             hex:"00B5E2",title:"OpenWrt",source:"https://openwrt.org/docs/guide-graphic-designer/openwrt-logo",
         }
+        ,[SimpleIcons.OpenZeppelin]: {
+            hex:"4E5EE4",title:"OpenZeppelin",source:"https://openzeppelin.com",
+        }
+        ,[SimpleIcons.OpenZFS]: {
+            hex:"2A667F",title:"OpenZFS",source:"https://commons.wikimedia.org/wiki/File:OpenZFS_logo.svg",
+        }
         ,[SimpleIcons.Opera]: {
             hex:"FF1B2D",title:"Opera",source:"https://brand.opera.com/1472-2/opera-logos/",
         }
+        ,[SimpleIcons.OperaGX]: {
+            hex:"EE2950",title:"Opera GX",source:"https://brand.opera.com/1472-2/opera-logos/",
+        }
         ,[SimpleIcons.OPNSense]: {
             hex:"D94F00",title:"OPNSense",source:"https://opnsense.org/about/legal-notices/",
+        }
+        ,[SimpleIcons.OPPO]: {
+            hex:"2D683D",title:"OPPO",source:"https://www.figma.com/community/file/832815970641696814/OPPO-Media-Kit",
         }
         ,[SimpleIcons.Opsgenie]: {
             hex:"172B4D",title:"Opsgenie",source:"https://www.atlassian.com/company/news/press-kit",
         }
         ,[SimpleIcons.OpsLevel]: {
-            hex:"1890FF",title:"OpsLevel",source:"https://www.opslevel.com/",
+            hex:"0A53E0",title:"OpsLevel",source:"https://www.opslevel.com",
+        }
+        ,[SimpleIcons.Optimism]: {
+            hex:"FF0420",title:"Optimism",source:"https://github.com/ethereum-optimism/brand-kit/blob/71ea3bb1ea24e87968804b388e99bed0b52e2a4b/assets/svg/Profile-Logo.svg",
         }
         ,[SimpleIcons.Oracle]: {
             hex:"F80000",title:"Oracle",source:"https://www.oracle.com/opn/index.html",
+        }
+        ,[SimpleIcons.Orange]: {
+            hex:"FF7900",title:"Orange",source:"https://brand.orange.com",
         }
         ,[SimpleIcons.ORCID]: {
             hex:"A6CE39",title:"ORCID",source:"https://orcid.figshare.com/articles/figure/ORCID_iD_icon_graphics/5008697",
@@ -13227,20 +21650,32 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Org]: {
             hex:"77AA99",title:"Org",source:"https://orgmode.org",
         }
+        ,[SimpleIcons.OrganicMaps]: {
+            hex:"006C35",title:"Organic Maps",source:"https://organicmaps.app",
+        }
         ,[SimpleIcons.Origin]: {
             hex:"F56C2D",title:"Origin",source:"https://www.origin.com/gbr/en-us/store",
         }
         ,[SimpleIcons.Osano]: {
             hex:"7764FA",title:"Osano",source:"https://www.osano.com/company/assets",
         }
+        ,[SimpleIcons.OSF]: {
+            hex:"2CB9F1",title:"OSF",source:"https://github.com/CenterForOpenScience/osf.io/blob/de170682924278eba1db9d6e1c50166bf43700e0/website/static/img/circle_logo.png",
+        }
+        ,[SimpleIcons.OSGeo]: {
+            hex:"4CB05B",title:"OSGeo",source:"https://www.osgeo.org",
+        }
         ,[SimpleIcons.Oshkosh]: {
             hex:"E6830F",title:"Oshkosh",source:"https://oshkoshdefense.com/media/photos/",
         }
         ,[SimpleIcons.OSMC]: {
-            hex:"17394A",title:"OSMC",source:"https://github.com/osmc/osmc/tree/master/assets",
+            hex:"17394A",title:"OSMC",source:"https://github.com/osmc/website/tree/e7d0d8002660c979ae5119e28d1c69c893ac9f76/content/themes/osmc/assets/img/logo",
         }
         ,[SimpleIcons.Osu_]: {
-            hex:"FF66AA",title:"osu!",source:"https://osu.ppy.sh/wiki/vi/Brand_identity_guidelines",
+            hex:"FF66AA",title:"osu!",source:"https://osu.ppy.sh/wiki/Brand_identity_guidelines",
+        }
+        ,[SimpleIcons.Otto]: {
+            hex:"D4021D",title:"Otto",source:"https://www.ottogroup.com/en/presse/material.php",
         }
         ,[SimpleIcons.Overcast]: {
             hex:"FC7E0F",title:"Overcast",source:"https://overcast.fm",
@@ -13254,20 +21689,38 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.OWASP]: {
             hex:"000000",title:"OWASP",source:"https://github.com/OWASP/www-event-2020-07-virtual/blob/eefbef6c1afdd1dee2af11e7f44ad005b25ad48c/assets/images/logo.svg",
         }
+        ,[SimpleIcons.Dependencycheck]: {
+            hex:"F78D0A",title:"OWASP Dependency-Check",source:"https://github.com/jeremylong/DependencyCheck/blob/8ee82149179c6faeca78727e57039e987c387e26/src/site/resources/images/logo.svg",slug:"dependencycheck"
+        }
+        ,[SimpleIcons.OwnCloud]: {
+            hex:"041E42",title:"ownCloud",source:"https://owncloud.com",
+        }
         ,[SimpleIcons.Oxygen]: {
-            hex:"3A209E",title:"Oxygen",source:"https://oxygenbuilder.com/",
+            hex:"3A209E",title:"Oxygen",source:"https://oxygenbuilder.com",
         }
         ,[SimpleIcons.OYO]: {
-            hex:"EE2E24",title:"OYO",source:"https://www.oyorooms.com/",
+            hex:"EE2E24",title:"OYO",source:"https://www.oyorooms.com",
         }
         ,[SimpleIcons.P5Js]: {
             hex:"ED225D",title:"p5.js",source:"https://p5js.org",
         }
         ,[SimpleIcons.Packagist]: {
-            hex:"F28D1A",title:"Packagist",source:"https://github.com/composer/packagist/issues/1147",
+            hex:"F28D1A",title:"Packagist",source:"https://github.com/composer/packagist/issues/1147#issuecomment-747951608",
+        }
+        ,[SimpleIcons.Packer]: {
+            hex:"02A8EF",title:"Packer",source:"https://www.hashicorp.com/brand",
+        }
+        ,[SimpleIcons.Packt]: {
+            hex:"F37143",title:"Packt",source:"https://www.packtpub.com",
+        }
+        ,[SimpleIcons.Paddle]: {
+            hex:"FDDD35",title:"Paddle",source:"https://www.paddle.com",
+        }
+        ,[SimpleIcons.PaddlePaddle]: {
+            hex:"0062B0",title:"PaddlePaddle",source:"https://www.paddlepaddle.org.cn/en",
         }
         ,[SimpleIcons.PaddyPower]: {
-            hex:"004833",title:"Paddy Power",source:"https://www.paddypower.com/",
+            hex:"004833",title:"Paddy Power",source:"https://www.paddypower.com",
         }
         ,[SimpleIcons.Pagekit]: {
             hex:"212121",title:"Pagekit",source:"https://pagekit.com/logo-guide",
@@ -13279,52 +21732,97 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"4285F4",title:"PageSpeed Insights",source:"https://developers.google.com/web/fundamentals/performance/speed-tools/",
         }
         ,[SimpleIcons.PagSeguro]: {
-            hex:"FFC801",title:"PagSeguro",source:"https://pagseguro.uol.com.br/",
+            hex:"FFC801",title:"PagSeguro",source:"https://pagseguro.uol.com.br",
         }
         ,[SimpleIcons.Palantir]: {
-            hex:"101113",title:"Palantir",source:"https://github.com/palantir/conjure/blob/master/docs/media/palantir-logo.svg",
+            hex:"101113",title:"Palantir",source:"https://github.com/palantir/conjure/blob/1b0d450dc52c4822b4c9d1da8c61ad7f78855fe5/docs/media/palantir-logo.svg",
+        }
+        ,[SimpleIcons.PaloAltoNetworks]: {
+            hex:"F04E23",title:"Palo Alto Networks",source:"https://www.paloaltonetworks.com",
         }
         ,[SimpleIcons.PaloAltoSoftware]: {
             hex:"83DA77",title:"Palo Alto Software",source:"https://www.paloalto.com",
+        }
+        ,[SimpleIcons.Panasonic]: {
+            hex:"0049AB",title:"Panasonic",source:"https://www.panasonic.com",
         }
         ,[SimpleIcons.Pandas]: {
             hex:"150458",title:"pandas",source:"https://pandas.pydata.org/about/citing.html",
         }
         ,[SimpleIcons.Pandora]: {
-            hex:"224099",title:"Pandora",source:"https://www.pandoraforbrands.com/",
+            hex:"224099",title:"Pandora",source:"https://www.pandoraforbrands.com",
         }
         ,[SimpleIcons.Pantheon]: {
             hex:"FFDC28",title:"Pantheon",source:"https://projects.invisionapp.com/boards/8UOJQWW2J3G5#/1145336",
         }
+        ,[SimpleIcons.PaperlessNgx]: {
+            hex:"17541F",title:"Paperless-ngx",source:"https://github.com/paperless-ngx/paperless-ngx/blob/e16645b146da24f07004eb772a455450354a37a7/resources/logo/web/svg/square.svg",
+        }
+        ,[SimpleIcons.PapersWithCode]: {
+            hex:"21CBCE",title:"Papers With Code",source:"https://paperswithcode.com",
+        }
+        ,[SimpleIcons.Paperspace]: {
+            hex:"000000",title:"Paperspace",source:"https://docs.paperspace.com/img/ps-logo-light.svg",
+        }
+        ,[SimpleIcons.Paramount_]: {
+            hex:"0064FF",title:"Paramount+",source:"https://www.paramount.com/brand/paramount-plus",
+        }
         ,[SimpleIcons.ParitySubstrate]: {
-            hex:"282828",title:"Parity Substrate",source:"http://substrate.dev/",
+            hex:"282828",title:"Parity Substrate",source:"https://substrate.dev",
+        }
+        ,[SimpleIcons.ParrotSecurity]: {
+            hex:"15E0ED",title:"Parrot Security",source:"https://gitlab.com/parrotsec/project/documentation/-/blob/d1d426b9cb3ea0efd16a2b34056c1ebb21bb9af9/static/img/parrot-logo.svg",
         }
         ,[SimpleIcons.ParseLy]: {
             hex:"5BA745",title:"Parse.ly",source:"https://www.parse.ly/press-kit",
         }
         ,[SimpleIcons.Passport]: {
-            hex:"34E27A",title:"Passport",source:"http://www.passportjs.org/",
+            hex:"34E27A",title:"Passport",source:"https://www.passportjs.org",
         }
         ,[SimpleIcons.Pastebin]: {
-            hex:"02456C",title:"Pastebin",source:"https://pastebin.com/",
+            hex:"02456C",title:"Pastebin",source:"https://pastebin.com",
         }
         ,[SimpleIcons.Patreon]: {
-            hex:"FF424D",title:"Patreon",source:"https://www.patreon.com/brand/downloads",
+            hex:"000000",title:"Patreon",source:"https://www.patreon.com/brand",
+        }
+        ,[SimpleIcons.Paychex]: {
+            hex:"004B8D",title:"Paychex",source:"https://www.paychex.com",
+        }
+        ,[SimpleIcons.Payhip]: {
+            hex:"5C6AC4",title:"Payhip",source:"https://payhip.com",
+        }
+        ,[SimpleIcons.PayloadCMS]: {
+            hex:"000000",title:"Payload CMS",source:"https://payloadcms.com",
         }
         ,[SimpleIcons.Payoneer]: {
-            hex:"FF4800",title:"Payoneer",source:"https://www.payoneer.com/",
+            hex:"FF4800",title:"Payoneer",source:"https://www.payoneer.com",
         }
         ,[SimpleIcons.PayPal]: {
-            hex:"00457C",title:"PayPal",source:"https://www.paypal.com/",
+            hex:"003087",title:"PayPal",source:"https://www.paypal.com",
         }
         ,[SimpleIcons.Paytm]: {
-            hex:"20336B",title:"Paytm",source:"https://paytm.com/",
+            hex:"20336B",title:"Paytm",source:"https://paytm.com",
         }
         ,[SimpleIcons.PCGamingWiki]: {
             hex:"556DB3",title:"PCGamingWiki",source:"https://www.pcgamingwiki.com/wiki/Home",
         }
+        ,[SimpleIcons.PDM]: {
+            hex:"AC75D7",title:"PDM",source:"https://github.com/pdm-project/pdm/blob/68abaae63e8d8fc8eb0c101285fd7dcb5cd9798a/docs/docs/assets/logo.svg",
+        }
+        ,[SimpleIcons.PDQ]: {
+            hex:"231F20",title:"PDQ",source:"https://pdq.com",
+        }
+        ,[SimpleIcons.PeakDesign]: {
+            hex:"1C1B1C",title:"Peak Design",source:"https://www.peakdesign.com",
+        }
+        ,[SimpleIcons.Pearson]: {
+            hex:"000000",title:"Pearson",source:"https://www.pearson.com",
+        }
+        ,[SimpleIcons.Peerlist]: {
+            hex:"00AA45",title:"Peerlist",source:"https://peerlist.io",
+        }
         ,[SimpleIcons.PeerTube]: {
-            hex:"F1680D",title:"PeerTube",source:"https://joinpeertube.org/",
+            hex:"F1680D",title:"PeerTube",source:"https://joinpeertube.org",
         }
         ,[SimpleIcons.PegasusAirlines]: {
             hex:"FDC43E",title:"Pegasus Airlines",source:"https://www.flypgs.com/en/about-pegasus/flypgscom-magazine",
@@ -13335,8 +21833,14 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Peloton]: {
             hex:"181A1D",title:"Peloton",source:"https://press.onepeloton.com/#logos",
         }
-        ,[SimpleIcons.Pepsi]: {
-            hex:"2151A1",title:"Pepsi",source:"http://gillettepepsicola.com/promotions-media/media-kit/",
+        ,[SimpleIcons.Penny]: {
+            hex:"CD1414",title:"Penny",source:"https://www.penny.de",
+        }
+        ,[SimpleIcons.Penpot]: {
+            hex:"000000",title:"Penpot",source:"https://penpot.app",
+        }
+        ,[SimpleIcons.Percy]: {
+            hex:"9E66BF",title:"Percy",source:"https://percy.io",
         }
         ,[SimpleIcons.Perforce]: {
             hex:"404040",title:"Perforce",source:"https://www.perforce.com",
@@ -13344,14 +21848,26 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Perl]: {
             hex:"39457E",title:"Perl",source:"https://github.com/tpf/marketing-materials/blob/6765c6fd71bc5b123d6c1a77b86e08cdd6376078/images/onion-logo/tpf-logo-onion.svg",
         }
+        ,[SimpleIcons.Perplexity]: {
+            hex:"1FB8CD",title:"Perplexity",source:"https://www.perplexity.ai",
+        }
+        ,[SimpleIcons.Persistent]: {
+            hex:"FD5F07",title:"Persistent",source:"https://www.persistent.com/company-overview/branding-guidelines/#nav-persistent-logo",
+        }
+        ,[SimpleIcons.Personio]: {
+            hex:"000000",title:"Personio",source:"https://www.personio.com",
+        }
+        ,[SimpleIcons.PetsAtHome]: {
+            hex:"00AA28",title:"Pets at Home",source:"https://petsathome.com",
+        }
         ,[SimpleIcons.Peugeot]: {
-            hex:"000000",title:"Peugeot",source:"https://www.peugeot.co.uk/",
+            hex:"000000",title:"Peugeot",source:"https://www.peugeot.co.uk",
         }
         ,[SimpleIcons.Pexels]: {
-            hex:"05A081",title:"Pexels",source:"https://www.pexels.com/",
+            hex:"05A081",title:"Pexels",source:"https://www.pexels.com",
         }
         ,[SimpleIcons.PfSense]: {
-            hex:"212121",title:"pfSense",source:"https://www.pfsense.org/",
+            hex:"212121",title:"pfSense",source:"https://www.pfsense.org",
         }
         ,[SimpleIcons.Phabricator]: {
             hex:"4A5F88",title:"Phabricator",source:"https://github.com/phacility/phabricator/blob/0a3093ef9c1898913196564435346e4daa9d2538/webroot/rsrc/image/logo/light-eye.png",
@@ -13359,26 +21875,50 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.PhilipsHue]: {
             hex:"0065D3",title:"Philips Hue",source:"https://www.philips-hue.com/en-us/support/faq",
         }
+        ,[SimpleIcons.PhoenixFramework]: {
+            hex:"FD4F00",title:"Phoenix Framework",source:"https://github.com/phoenixframework/phoenix/blob/e9f1975d5aa15bee22bab6a4acae8f543886b17a/installer/templates/phx_assets/logo.svg",
+        }
         ,[SimpleIcons.PhonePe]: {
             hex:"5F259F",title:"PhonePe",source:"https://www.phonepe.com/press/",
         }
+        ,[SimpleIcons.PhosphorIcons]: {
+            hex:"3C402B",title:"Phosphor Icons",source:"https://phosphoricons.com",
+        }
         ,[SimpleIcons.Photobucket]: {
-            hex:"0672CB",title:"Photobucket",source:"https://photobucket.com/",
+            hex:"1C47CB",title:"Photobucket",source:"https://photobucket.com",
         }
         ,[SimpleIcons.Photocrowd]: {
-            hex:"3DAD4B",title:"Photocrowd",source:"https://www.photocrowd.com/",
+            hex:"3DAD4B",title:"Photocrowd",source:"https://www.photocrowd.com",
+        }
+        ,[SimpleIcons.Photon]: {
+            hex:"004480",title:"Photon",source:"https://www.photonengine.com",
         }
         ,[SimpleIcons.Photopea]: {
             hex:"18A497",title:"Photopea",source:"https://github.com/photopea/photopea/blob/d5c532e8ad8ece246e2ea8646aac7df768407c64/logo.svg",
         }
         ,[SimpleIcons.PHP]: {
-            hex:"777BB4",title:"PHP",source:"http://php.net/download-logos.php",
+            hex:"777BB4",title:"PHP",source:"https://php.net/download-logos.php",
+        }
+        ,[SimpleIcons.PhpMyAdmin]: {
+            hex:"6C78AF",title:"phpMyAdmin",source:"https://github.com/phpmyadmin/data/blob/b7d3bdb9bb973beff4726541b87d3a4c8a950b4b/brand/phpMyAdmin-Logo-Symbol.svg",
         }
         ,[SimpleIcons.PhpStorm]: {
             hex:"000000",title:"PhpStorm",source:"https://www.jetbrains.com/company/brand/logos/",
         }
+        ,[SimpleIcons.PiNetwork]: {
+            hex:"F4AF47",title:"Pi Network",source:"https://blockexplorer.minepi.com",
+        }
         ,[SimpleIcons.PiHole]: {
             hex:"96060C",title:"Pi-hole",source:"https://docs.pi-hole.net",
+        }
+        ,[SimpleIcons.PiaggioGroup]: {
+            hex:"000000",title:"Piaggio Group",source:"https://www.piaggiogroup.com",
+        }
+        ,[SimpleIcons.Piapro]: {
+            hex:"E4007B",title:"Piapro",source:"https://magicalmirai.com",
+        }
+        ,[SimpleIcons.PicardSurgel_s]: {
+            hex:"2D4999",title:"Picard Surgelés",source:"https://www.picard.fr",
         }
         ,[SimpleIcons.PicartoTV]: {
             hex:"1DA456",title:"Picarto.TV",source:"https://picarto.tv/site/press",
@@ -13389,20 +21929,38 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.PicPay]: {
             hex:"21C25E",title:"PicPay",source:"https://www.picpay.com/site/sobre-nos",
         }
+        ,[SimpleIcons.Picrew]: {
+            hex:"FFBD16",title:"Picrew",source:"https://picrew.me",
+        }
+        ,[SimpleIcons.Picxy]: {
+            hex:"2E3192",title:"Picxy",source:"https://www.picxy.com",
+        }
         ,[SimpleIcons.Pimcore]: {
             hex:"6428B4",title:"Pimcore",source:"https://pimcore.com/en/media-kit",
         }
         ,[SimpleIcons.Pinboard]: {
             hex:"0000FF",title:"Pinboard",source:"https://commons.wikimedia.org/wiki/File:Feedbin-Icon-share-pinboard.svg",
         }
+        ,[SimpleIcons.PineScript]: {
+            hex:"00B453",title:"Pine Script",source:"https://github.com/tradingview/documentation-guidelines/blob/0d7a2d014818ebdd03540c5fd7b97fe493cd056c/images/pine/PineScript_logo.svg",
+        }
         ,[SimpleIcons.Pingdom]: {
             hex:"FFF000",title:"Pingdom",source:"https://www.pingdom.com/resources/brand-assets/",
+        }
+        ,[SimpleIcons.Pino]: {
+            hex:"687634",title:"pino",source:"https://github.com/pinojs/pino/blob/bb31ed77568959670cce62ca2847234b3f2cb87f/pino-tree.png",
         }
         ,[SimpleIcons.Pinterest]: {
             hex:"BD081C",title:"Pinterest",source:"https://business.pinterest.com/en/brand-guidelines",
         }
         ,[SimpleIcons.PioneerDJ]: {
-            hex:"1A1928",title:"Pioneer DJ",source:"https://www.pioneerdj.com/",
+            hex:"1A1928",title:"Pioneer DJ",source:"https://www.pioneerdj.com",
+        }
+        ,[SimpleIcons.Piped]: {
+            hex:"F84330",title:"Piped",source:"https://github.com/TeamPiped/Piped/blob/71a3742f18893b87cad15e832855bd2bd7c2b557/public/img/icons/logo.svg",
+        }
+        ,[SimpleIcons.Pipx]: {
+            hex:"2CFFAA",title:"pipx",source:"https://github.com/pypa/pipx/blob/fc9c95349cfcec1d886c26b70329257de53e10cb/logo.svg",
         }
         ,[SimpleIcons.PivotalTracker]: {
             hex:"517A9E",title:"Pivotal Tracker",source:"https://www.pivotaltracker.com/branding-guidelines",
@@ -13410,29 +21968,50 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Piwigo]: {
             hex:"FF7700",title:"Piwigo",source:"https://github.com/Piwigo/piwigodotorg/blob/6edb840c16257314caec770a9a51f67ef81836e4/images/piwigo.org.svg",
         }
+        ,[SimpleIcons.Pix]: {
+            hex:"77B6A8",title:"Pix",source:"https://www.bcb.gov.br/estabilidadefinanceira/pix",
+        }
         ,[SimpleIcons.Pixabay]: {
             hex:"2EC66D",title:"Pixabay",source:"https://pixabay.com/service/about/",
+        }
+        ,[SimpleIcons.Pixelfed]: {
+            hex:"6366F1",title:"Pixelfed",source:"https://pixelfed.org",
         }
         ,[SimpleIcons.Pixiv]: {
             hex:"0096FA",title:"pixiv",source:"https://policies.pixiv.net/en.html#brand",
         }
-        ,[SimpleIcons.PJSIP]: {
-            hex:"F86001",title:"PJSIP",source:"https://www.pjsip.org/",
+        ,[SimpleIcons.Pixlr]: {
+            hex:"3EBBDF",title:"Pixlr",source:"https://pixlr.com",
+        }
+        ,[SimpleIcons.Pkgsrc]: {
+            hex:"FF6600",title:"pkgsrc",source:"https://pkgsrc.org",
         }
         ,[SimpleIcons.Planet]: {
             hex:"009DB1",title:"Planet",source:"https://www.planet.com/explorer/",
         }
+        ,[SimpleIcons.PlanetScale]: {
+            hex:"000000",title:"PlanetScale",source:"https://planetscale.com",
+        }
         ,[SimpleIcons.PlanGrid]: {
-            hex:"0085DE",title:"PlanGrid",source:"https://app.plangrid.com/",
+            hex:"0085DE",title:"PlanGrid",source:"https://app.plangrid.com",
+        }
+        ,[SimpleIcons.PlatformSh]: {
+            hex:"1A182A",title:"Platform.sh",source:"https://platform.sh/logos/",
+        }
+        ,[SimpleIcons.PlatformIO]: {
+            hex:"F5822A",title:"PlatformIO",source:"https://piolabs.com",
         }
         ,[SimpleIcons.Platzi]: {
             hex:"98CA3F",title:"Platzi",source:"https://github.com/PlatziDev/oss/blob/932bd83d43e061e1c38fbc116db31aa6d0145be6/static/logo.svg",
         }
+        ,[SimpleIcons.PlausibleAnalytics]: {
+            hex:"5850EC",title:"Plausible Analytics",source:"https://github.com/plausible/docs/blob/be5c935484e075f1e0caf3c9b3351ddd62348139/static/img/logo.svg",
+        }
         ,[SimpleIcons.PlayCanvas]: {
-            hex:"E05F2C",title:"PlayCanvas",source:"https://playcanvas.com/",
+            hex:"E05F2C",title:"PlayCanvas",source:"https://playcanvas.com",
         }
         ,[SimpleIcons.PlayerFM]: {
-            hex:"C8122A",title:"Player FM",source:"https://player.fm/",
+            hex:"C8122A",title:"Player FM",source:"https://player.fm",
         }
         ,[SimpleIcons.PlayerMe]: {
             hex:"C0379A",title:"Player.me",source:"https://player.me/p/about-us",
@@ -13452,20 +22031,26 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.PlayStation5]: {
             hex:"003791",title:"PlayStation 5",source:"https://www.playstation.com/en-us/ps5/",
         }
+        ,[SimpleIcons.PlayStationPortable]: {
+            hex:"003791",title:"PlayStation Portable",source:"https://commons.wikimedia.org/wiki/File:PSP_Logo.svg",
+        }
         ,[SimpleIcons.PlayStationVita]: {
             hex:"003791",title:"PlayStation Vita",source:"https://commons.wikimedia.org/wiki/File:PlayStation_Vita_logo.svg",
         }
         ,[SimpleIcons.Pleroma]: {
-            hex:"FBA457",title:"Pleroma",source:"https://pleroma.social/",
+            hex:"FBA457",title:"Pleroma",source:"https://pleroma.social",
         }
         ,[SimpleIcons.Plesk]: {
             hex:"52BBE6",title:"Plesk",source:"https://www.plesk.com/brand/",
         }
         ,[SimpleIcons.Plex]: {
-            hex:"E5A00D",title:"Plex",source:"https://brand.plex.tv/",
+            hex:"EBAF00",title:"Plex",source:"https://brand.plex.tv",
         }
         ,[SimpleIcons.Plotly]: {
-            hex:"3F4F75",title:"Plotly",source:"https://plotly.com/",
+            hex:"3F4F75",title:"Plotly",source:"https://plotly.com",
+        }
+        ,[SimpleIcons.Plume]: {
+            hex:"7C5CDF",title:"Plume",source:"https://www.plume.com",
         }
         ,[SimpleIcons.Pluralsight]: {
             hex:"F15B2A",title:"Pluralsight",source:"https://www.pluralsight.com/newsroom/brand-assets",
@@ -13477,7 +22062,7 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"4285F4",title:"Plus Codes",source:"https://maps.google.com/pluscodes/",
         }
         ,[SimpleIcons.PM2]: {
-            hex:"2B037A",title:"PM2",source:"https://pm2.keymetrics.io/",
+            hex:"2B037A",title:"PM2",source:"https://pm2.keymetrics.io",
         }
         ,[SimpleIcons.Pnpm]: {
             hex:"F69220",title:"pnpm",source:"https://pnpm.io/logos",
@@ -13488,11 +22073,23 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.PocketCasts]: {
             hex:"F43E37",title:"Pocket Casts",source:"https://blog.pocketcasts.com/press/",
         }
+        ,[SimpleIcons.PocketBase]: {
+            hex:"B8DBE4",title:"PocketBase",source:"https://github.com/pocketbase/pocketbase/blob/4b64e0910b7dc527ff3de8cdacec074e40449e2e/ui/dist/images/logo.svg",
+        }
         ,[SimpleIcons.PodcastAddict]: {
             hex:"F4842D",title:"Podcast Addict",source:"https://podcastaddict.com",
         }
+        ,[SimpleIcons.PodcastIndex]: {
+            hex:"F90000",title:"Podcast Index",source:"https://podcastindex.org",
+        }
         ,[SimpleIcons.Podman]: {
-            hex:"892CA0",title:"Podman",source:"https://podman.io/",
+            hex:"892CA0",title:"Podman",source:"https://podman.io",
+        }
+        ,[SimpleIcons.Poe]: {
+            hex:"5D5CDE",title:"Poe",source:"https://poe.com",
+        }
+        ,[SimpleIcons.Poetry]: {
+            hex:"60A5FA",title:"Poetry",source:"https://python-poetry.org",
         }
         ,[SimpleIcons.Pointy]: {
             hex:"009DE0",title:"Pointy",source:"https://www.pointy.com/ie/vend",
@@ -13500,23 +22097,56 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Pok_mon]: {
             hex:"FFCB05",title:"Pokémon",source:"https://commons.wikimedia.org/wiki/File:International_Pok%C3%A9mon_logo.svg",
         }
+        ,[SimpleIcons.Polars]: {
+            hex:"CD792C",title:"Polars",source:"https://pola.rs",
+        }
+        ,[SimpleIcons.Polestar]: {
+            hex:"000000",title:"Polestar",source:"https://commons.wikimedia.org/wiki/File:Polestar_logo_2020.svg",
+        }
+        ,[SimpleIcons.Polkadot]: {
+            hex:"E6007A",title:"Polkadot",source:"https://polkadot.network/brand-assets/",
+        }
         ,[SimpleIcons.Poly]: {
-            hex:"EB3C00",title:"Poly",source:"https://www.poly.com/",
+            hex:"EB3C00",title:"Poly",source:"https://www.poly.com",
+        }
+        ,[SimpleIcons.Polygon]: {
+            hex:"7B3FE4",title:"Polygon",source:"https://www.polygon.technology",
         }
         ,[SimpleIcons.PolymerProject]: {
             hex:"FF4470",title:"Polymer Project",source:"https://github.com/Polymer/polymer-project.org/blob/3d3e967446858b49a7796676714865ac9b2a5275/app/images/logos/p-logo.svg",
         }
+        ,[SimpleIcons.Polywork]: {
+            hex:"543DE0",title:"Polywork",source:"https://www.polywork.com",
+        }
+        ,[SimpleIcons.Pond5]: {
+            hex:"000000",title:"Pond5",source:"https://pond5.com",
+        }
         ,[SimpleIcons.Pop_OS]: {
-            hex:"48B9C7",title:"Pop!_OS",source:"https://pop.system76.com/",
+            hex:"48B9C7",title:"Pop!_OS",source:"https://github.com/system76/brand/blob/7a31740b54f929b62a165baa61dfb0b5164261e8/Pop_OS%20branding/Pop_icon.svg",
+        }
+        ,[SimpleIcons.Porkbun]: {
+            hex:"EF7878",title:"Porkbun",source:"https://porkbun.design",
         }
         ,[SimpleIcons.Porsche]: {
-            hex:"B12B28",title:"Porsche",source:"https://www.porsche.com/",
+            hex:"B12B28",title:"Porsche",source:"https://www.porsche.com",
+        }
+        ,[SimpleIcons.Portainer]: {
+            hex:"13BEF9",title:"Portainer",source:"https://www.portainer.io",
+        }
+        ,[SimpleIcons.PortSwigger]: {
+            hex:"FF6633",title:"PortSwigger",source:"https://portswigger.net",
+        }
+        ,[SimpleIcons.Posit]: {
+            hex:"447099",title:"Posit",source:"https://docs.posit.co",
         }
         ,[SimpleIcons.PostCSS]: {
-            hex:"DD3A0A",title:"PostCSS",source:"https://postcss.org/",
+            hex:"DD3A0A",title:"PostCSS",source:"https://postcss.org",
         }
         ,[SimpleIcons.PostgreSQL]: {
             hex:"4169E1",title:"PostgreSQL",source:"https://wiki.postgresql.org/wiki/Logo",
+        }
+        ,[SimpleIcons.PostHog]: {
+            hex:"000000",title:"PostHog",source:"https://posthog.com/handbook/company/brand-assets",
         }
         ,[SimpleIcons.Postman]: {
             hex:"FF6C37",title:"Postman",source:"https://www.getpostman.com/resources/media-assets/",
@@ -13524,14 +22154,8 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Postmates]: {
             hex:"FFDF18",title:"Postmates",source:"https://postmates.com/press-and-media",
         }
-        ,[SimpleIcons.PowerBI]: {
-            hex:"F2C811",title:"Power BI",source:"https://powerbi.microsoft.com/en-us/",
-        }
         ,[SimpleIcons.POWERS]: {
-            hex:"E74536",title:"POWERS",source:"https://www.powerswhiskey.com/",
-        }
-        ,[SimpleIcons.PowerShell]: {
-            hex:"5391FE",title:"PowerShell",source:"https://github.com/PowerShell/PowerShell",
+            hex:"E74536",title:"POWERS",source:"https://www.powerswhiskey.com",
         }
         ,[SimpleIcons.PrCo]: {
             hex:"0080FF",title:"pr.co",source:"https://news.pr.co/media_kits",
@@ -13539,8 +22163,17 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.PreCommit]: {
             hex:"FAB040",title:"pre-commit",source:"https://github.com/pre-commit/pre-commit.com/blob/f263cdbcf46f97e1bd6229f2ab6d27bf8290ca88/logo.svg",
         }
+        ,[SimpleIcons.Preact]: {
+            hex:"673AB8",title:"Preact",source:"https://preactjs.com",
+        }
+        ,[SimpleIcons.Prefect]: {
+            hex:"070E10",title:"Prefect",source:"https://www.prefect.io",
+        }
         ,[SimpleIcons.PremierLeague]: {
             hex:"360D3A",title:"Premier League",source:"https://www.premierleague.com",
+        }
+        ,[SimpleIcons.PrepBytes]: {
+            hex:"5A87C6",title:"PrepBytes",source:"https://www.prepbytes.com",
         }
         ,[SimpleIcons.PrestaShop]: {
             hex:"DF0067",title:"PrestaShop",source:"https://www.prestashop.com/en/media-kit",
@@ -13551,6 +22184,12 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Prettier]: {
             hex:"F7B93E",title:"Prettier",source:"https://github.com/prettier/prettier-logo/blob/06997b307e0608ebee2044dafa0b9429d6b5a103/images/prettier-icon-clean-centred.svg",
         }
+        ,[SimpleIcons.Pretzel]: {
+            hex:"1BB3A4",title:"Pretzel",source:"https://www.pretzel.rocks",
+        }
+        ,[SimpleIcons.Prevention]: {
+            hex:"44C1C5",title:"Prevention",source:"https://prevention.com",
+        }
         ,[SimpleIcons.Prezi]: {
             hex:"3181FF",title:"Prezi",source:"https://prezi.com/press/kit/",
         }
@@ -13560,14 +22199,26 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.PrimeVideo]: {
             hex:"1F2E3E",title:"Prime Video",source:"https://videodirect.amazon.com/home/help?topicId=GT7W7GJBTDJW6Z8W#G8T2JFQZXPMHJLRZ",
         }
+        ,[SimpleIcons.PrimeNG]: {
+            hex:"DD0031",title:"PrimeNG",source:"https://www.primefaces.org/press-kit",
+        }
+        ,[SimpleIcons.PrimeReact]: {
+            hex:"03C4E8",title:"PrimeReact",source:"https://www.primefaces.org/press-kit",
+        }
+        ,[SimpleIcons.Printables]: {
+            hex:"FA6831",title:"Printables",source:"https://printables.com",
+        }
         ,[SimpleIcons.Prisma]: {
-            hex:"2D3748",title:"Prisma",source:"https://github.com/prisma/presskit",
+            hex:"2D3748",title:"Prisma",source:"https://github.com/prisma/presskit/tree/4bcb64181f266723439d955d60afa1c55fefa715",
         }
         ,[SimpleIcons.Prismic]: {
-            hex:"5163BA",title:"Prismic",source:"https://prismic.io/",
+            hex:"5163BA",title:"Prismic",source:"https://prismic.io",
+        }
+        ,[SimpleIcons.PrivateDivision]: {
+            hex:"000000",title:"Private Division",source:"https://account.privatedivision.com",
         }
         ,[SimpleIcons.PrivateInternetAccess]: {
-            hex:"4BB749",title:"Private Internet Access",source:"https://www.privateinternetaccess.com/pages/press",
+            hex:"1E811F",title:"Private Internet Access",source:"https://www.privateinternetaccess.com",
         }
         ,[SimpleIcons.ProTools]: {
             hex:"7ACB10",title:"Pro Tools",source:"https://cdn-www.avid.com/Content/fonts/avidmoon.ttf",
@@ -13576,10 +22227,10 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"00B0D8",title:"Probot",source:"https://github.com/probot/probot/blob/5d29945dd2116618d63aba9d7a4460b940a85f5d/static/robot.svg",
         }
         ,[SimpleIcons.ProcessingFoundation]: {
-            hex:"006699",title:"Processing Foundation",source:"https://processingfoundation.org/",
+            hex:"006699",title:"Processing Foundation",source:"https://processingfoundation.org",
         }
         ,[SimpleIcons.ProcessWire]: {
-            hex:"2480E6",title:"ProcessWire",source:"https://processwire.com/",
+            hex:"2480E6",title:"ProcessWire",source:"https://processwire.com",
         }
         ,[SimpleIcons.ProductHunt]: {
             hex:"DA552F",title:"Product Hunt",source:"https://www.producthunt.com/branding",
@@ -13588,13 +22239,19 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"380953",title:"Progate",source:"https://progate.com",
         }
         ,[SimpleIcons.Progress]: {
-            hex:"5CE500",title:"Progress",source:"https://www.progress.com/",
+            hex:"5CE500",title:"Progress",source:"https://www.progress.com",
         }
         ,[SimpleIcons.Prometheus]: {
-            hex:"E6522C",title:"Prometheus",source:"https://prometheus.io/",
+            hex:"E6522C",title:"Prometheus",source:"https://prometheus.io",
+        }
+        ,[SimpleIcons.PronounsPage]: {
+            hex:"C71585",title:"Pronouns.page",source:"https://pronouns.page/design",
         }
         ,[SimpleIcons.ProSieben]: {
-            hex:"E6000F",title:"ProSieben",source:"https://www.prosieben.de/",
+            hex:"E6000F",title:"ProSieben",source:"https://www.prosieben.de",
+        }
+        ,[SimpleIcons.Proteus]: {
+            hex:"1C79B3",title:"Proteus",source:"https://www.labcenter.com",
         }
         ,[SimpleIcons.ProtoIo]: {
             hex:"34A7C1",title:"Proto.io",source:"https://proto.io/en/presskit",
@@ -13602,35 +22259,59 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.ProtocolsIo]: {
             hex:"4D9FE7",title:"protocols.io",source:"https://www.protocols.io/brand",
         }
-        ,[SimpleIcons.ProtonDB]: {
-            hex:"F50057",title:"ProtonDB",source:"https://www.protondb.com/",
+        ,[SimpleIcons.Proton]: {
+            hex:"6D4AFF",title:"Proton",source:"https://proton.me/media/kit",
+        }
+        ,[SimpleIcons.ProtonCalendar]: {
+            hex:"50B0E9",title:"Proton Calendar",source:"https://proton.me/media/kit",
+        }
+        ,[SimpleIcons.ProtonDrive]: {
+            hex:"EB508D",title:"Proton Drive",source:"https://proton.me/media/kit",
         }
         ,[SimpleIcons.ProtonMail]: {
-            hex:"8B89CC",title:"ProtonMail",source:"https://protonmail.com/media-kit",
+            hex:"6D4AFF",title:"Proton Mail",source:"https://proton.me/media/kit",
         }
         ,[SimpleIcons.ProtonVPN]: {
-            hex:"56B366",title:"ProtonVPN",source:"https://protonvpn.com/press",
+            hex:"66DEB1",title:"Proton VPN",source:"https://proton.me/media/kit",
+        }
+        ,[SimpleIcons.ProtonDB]: {
+            hex:"F50057",title:"ProtonDB",source:"https://www.protondb.com",
+        }
+        ,[SimpleIcons.Protractor]: {
+            hex:"ED163A",title:"Protractor",source:"https://github.com/angular/protractor/blob/4bc80d1a459542d883ea9200e4e1f48d265d0fda/logo.svg",
         }
         ,[SimpleIcons.Proxmox]: {
             hex:"E57000",title:"Proxmox",source:"https://www.proxmox.com/en/news/media-kit",
+        }
+        ,[SimpleIcons.Pterodactyl]: {
+            hex:"10539F",title:"Pterodactyl",source:"https://github.com/pterodactyl/panel/blob/eaf46429f2a001469fb5f18f7891ce8e5be7f049/public/favicons/favicon-96x96.png",
+        }
+        ,[SimpleIcons.PUBG]: {
+            hex:"FEAB02",title:"PUBG",source:"https://www.pubgmobile.com/en/event/brandassets/",
         }
         ,[SimpleIcons.Publons]: {
             hex:"336699",title:"Publons",source:"https://publons.com/about/the-publons-logo",
         }
         ,[SimpleIcons.PubMed]: {
-            hex:"326599",title:"PubMed",source:"https://pubmed.ncbi.nlm.nih.gov/",
+            hex:"326599",title:"PubMed",source:"https://pubmed.ncbi.nlm.nih.gov",
         }
         ,[SimpleIcons.Pug]: {
             hex:"A86454",title:"Pug",source:"https://github.com/pugjs/pug-logo/blob/61429fc45b5a411b83bdb5c99a61084d3054d1e6/SVG/pug-final-logo_-mono-64.svg",
+        }
+        ,[SimpleIcons.Pulumi]: {
+            hex:"8A3391",title:"Pulumi",source:"https://www.pulumi.com",
+        }
+        ,[SimpleIcons.Puma]: {
+            hex:"242B2F",title:"Puma",source:"https://us.puma.com",
         }
         ,[SimpleIcons.Puppet]: {
             hex:"FFAE1A",title:"Puppet",source:"https://puppet.com/company/press-room/",
         }
         ,[SimpleIcons.Puppeteer]: {
-            hex:"40B5A4",title:"Puppeteer",source:"https://pptr.dev/",
+            hex:"40B5A4",title:"Puppeteer",source:"https://pptr.dev",
         }
         ,[SimpleIcons.PureScript]: {
-            hex:"14161A",title:"PureScript",source:"https://github.com/purescript/logo",
+            hex:"14161A",title:"PureScript",source:"https://github.com/purescript/logo/tree/1e7a57affdaeaf88ff594c08bd2b5a78fe2ed13c",
         }
         ,[SimpleIcons.PurgeCSS]: {
             hex:"14161A",title:"PurgeCSS",source:"https://github.com/FullHuman/purgecss/blob/4e2bf58e218119cc9faf9faa615d62a059bf9d9a/docs/.vuepress/public/safari-pinned-tab.svg",
@@ -13638,35 +22319,65 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Purism]: {
             hex:"2D2D2D",title:"Purism",source:"https://puri.sm/pr/images/",
         }
+        ,[SimpleIcons.Pushbullet]: {
+            hex:"4AB367",title:"Pushbullet",source:"https://www.pushbullet.com/press",
+        }
         ,[SimpleIcons.Pusher]: {
-            hex:"300D4F",title:"Pusher",source:"https://pusher.com/",
+            hex:"300D4F",title:"Pusher",source:"https://pusher.com",
+        }
+        ,[SimpleIcons.PWA]: {
+            hex:"5A0FC8",title:"PWA",source:"https://github.com/webmaxru/progressive-web-apps-logo/blob/77744cd5c0a4d484bb3d082c6ac458c44202da03/pwalogo-white.svg",
         }
         ,[SimpleIcons.PyCharm]: {
             hex:"000000",title:"PyCharm",source:"https://www.jetbrains.com/company/brand/logos/",
         }
+        ,[SimpleIcons.PyCQA]: {
+            hex:"201B44",title:"PyCQA",source:"https://github.com/PyCQA/meta/blob/ac828d8d7eb55501addefb0ceb6496ab15e85ca5/logo/pycqa1-02.svg",
+        }
+        ,[SimpleIcons.Pydantic]: {
+            hex:"E92063",title:"Pydantic",source:"https://github.com/pydantic/pydantic/blob/94c748001a32992a587694b999fb1f3d2f1fc1fe/docs/logo-white.svg",
+        }
+        ,[SimpleIcons.PyG]: {
+            hex:"3C2179",title:"PyG",source:"https://github.com/pyg-team/pyg_sphinx_theme/blob/4f696513b4b4adf2ba3874574a10a8e8718672fe/pyg_sphinx_theme/static/img/pyg_logo.svg",
+        }
         ,[SimpleIcons.PyPI]: {
-            hex:"3775A9",title:"PyPI",source:"https://pypi.org/",
+            hex:"3775A9",title:"PyPI",source:"https://pypi.org",
         }
         ,[SimpleIcons.PyPy]: {
-            hex:"193440",title:"PyPy",source:"https://www.pypy.org/images/pypy-logo.svg",
+            hex:"193440",title:"PyPy",source:"https://www.pypy.org",
+        }
+        ,[SimpleIcons.PyScaffold]: {
+            hex:"005CA0",title:"PyScaffold",source:"https://github.com/pyscaffold/pyscaffold/blob/3f72bf7894fc73b34af06a90bb5d43aae410ce5d/docs/gfx/logo.svg",
+        }
+        ,[SimpleIcons.PySyft]: {
+            hex:"F1BF7A",title:"PySyft",source:"https://github.com/OpenMined/openmined-website/blob/db5c223657c8c49ab1ee8db2841fe802f73af31c/src/containers/app/components/repo-icon/assets/syft.svg",
+        }
+        ,[SimpleIcons.Pytest]: {
+            hex:"0A9EDC",title:"Pytest",source:"https://github.com/pytest-dev/design/blob/081f06cd2d6cd742e68f593560a2e8c1802feb7c/pytest_logo/pytest_logo.svg",
         }
         ,[SimpleIcons.Python]: {
             hex:"3776AB",title:"Python",source:"https://www.python.org/community/logos/",
         }
+        ,[SimpleIcons.PythonAnywhere]: {
+            hex:"1D9FD7",title:"PythonAnywhere",source:"https://www.pythonanywhere.com",
+        }
         ,[SimpleIcons.PyTorch]: {
             hex:"EE4C2C",title:"PyTorch",source:"https://github.com/pytorch/pytorch.github.io/blob/8f083bd12192ca12d5e1c1f3d236f4831d823d8f/assets/images/logo.svg",
         }
-        ,[SimpleIcons.PyTorchLightning]: {
-            hex:"792EE5",title:"PyTorch Lightning",source:"https://github.com/PyTorchLightning/pytorch-lightning/blob/a584196abf820179adb0758ef67ddae91c44e7bc/docs/source/_static/images/icon.svg",
-        }
         ,[SimpleIcons.PyUp]: {
-            hex:"9F55FF",title:"PyUp",source:"https://pyup.io/",
+            hex:"9F55FF",title:"PyUp",source:"https://pyup.io",
         }
         ,[SimpleIcons.Qantas]: {
-            hex:"E40000",title:"Qantas",source:"https://freight.qantas.com/",
+            hex:"E40000",title:"Qantas",source:"https://www.qantas.com",
+        }
+        ,[SimpleIcons.Qase]: {
+            hex:"4F46DC",title:"Qase",source:"https://qase.io",
         }
         ,[SimpleIcons.QatarAirways]: {
-            hex:"5C0D34",title:"Qatar Airways",source:"https://www.qatarairways.com/en/press-kit.html",
+            hex:"5C0D34",title:"Qatar Airways",source:"https://www.qatarairways.com/press-releases/en-WW/media_kits",
+        }
+        ,[SimpleIcons.Qbittorrent]: {
+            hex:"2F67BA",title:"qbittorrent",source:"https://github.com/qbittorrent/qBittorrent/blob/73028f9930d9ab9d89edb60ed4aedb66d75669d9/src/icons/qbittorrent-tray-light.svg",
         }
         ,[SimpleIcons.QEMU]: {
             hex:"FF6600",title:"QEMU",source:"https://wiki.qemu.org/Logo",
@@ -13684,130 +22395,241 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"6929C4",title:"Qiskit",source:"https://qiskit.org",
         }
         ,[SimpleIcons.QIWI]: {
-            hex:"FF8C00",title:"QIWI",source:"https://qiwi.com/",
+            hex:"FF8C00",title:"QIWI",source:"https://qiwi.com",
+        }
+        ,[SimpleIcons.Qlik]: {
+            hex:"009848",title:"Qlik",source:"https://www.qlik.com",
+        }
+        ,[SimpleIcons.QMK]: {
+            hex:"333333",title:"QMK",source:"https://github.com/qmk/qmk.fm/blob/d6f7b646aa03f2941bb3977ba13a07ca351f20ae/assets/images/badge-dark.svg",
+        }
+        ,[SimpleIcons.QNAP]: {
+            hex:"0C2E82",title:"QNAP",source:"https://marketing.qnap.com/resource/qnap-logo-k100",
         }
         ,[SimpleIcons.Qt]: {
-            hex:"41CD52",title:"Qt",source:"https://qt-brandbook.webflow.io/design",
+            hex:"41CD52",title:"Qt",source:"https://www.qt.io",
         }
         ,[SimpleIcons.Qualcomm]: {
             hex:"3253DC",title:"Qualcomm",source:"https://www.qualcomm.com",
         }
         ,[SimpleIcons.Qualtrics]: {
-            hex:"00B4EF",title:"Qualtrics",source:"https://www.qualtrics.com/brand-book/",
+            hex:"00B4EF",title:"Qualtrics",source:"https://www.qualtrics.com/brand-book",
+        }
+        ,[SimpleIcons.Qualys]: {
+            hex:"ED2E26",title:"Qualys",source:"https://www.qualys.com",
         }
         ,[SimpleIcons.Quantcast]: {
-            hex:"000000",title:"Quantcast",source:"https://www.quantcast.com/",
+            hex:"000000",title:"Quantcast",source:"https://www.quantcast.com",
         }
         ,[SimpleIcons.QuantConnect]: {
-            hex:"F5AE29",title:"QuantConnect",source:"https://www.quantconnect.com/docs/home/home",
+            hex:"F98309",title:"QuantConnect",source:"https://www.quantconnect.com",
         }
         ,[SimpleIcons.Quarkus]: {
-            hex:"4695EB",title:"Quarkus",source:"https://design.jboss.org/quarkus/",
+            hex:"4695EB",title:"Quarkus",source:"https://design.jboss.org/quarkus",
+        }
+        ,[SimpleIcons.Quarto]: {
+            hex:"39729E",title:"Quarto",source:"https://github.com/quarto-dev/quarto-web/blob/fd2a993e3274b3433a0088d5daf85080bdf68d71/quarto-icon.svg",
         }
         ,[SimpleIcons.Quasar]: {
-            hex:"1976D2",title:"Quasar",source:"https://github.com/quasarframework/quasar-art/blob/cbbbb4b0b7ec7181dfc2d1b29a1ce025e71575bc/src/quasar-logo.svg",
+            hex:"050A14",title:"Quasar",source:"https://github.com/quasarframework/quasar-art/blob/6300e95687a923cd027dc4b8c356dd4e0cea618f/Brand/Logo/RGB/Icon/Monochrome/Cold%20Black/QUASAR_icon_mono_cold_black_RGB.svg",
         }
         ,[SimpleIcons.QubesOS]: {
             hex:"3874D8",title:"Qubes OS",source:"https://github.com/QubesOS/qubes-attachment/blob/ed7e552eb8a5fca4e099361d137793d3551b3968/icons/qubes-logo-home.svg",
         }
         ,[SimpleIcons.Quest]: {
-            hex:"FB4F14",title:"Quest",source:"https://brand.quest.com/",
+            hex:"FB4F14",title:"Quest",source:"https://brand.quest.com/quest/questlogos",
         }
         ,[SimpleIcons.QuickBooks]: {
-            hex:"2CA01C",title:"QuickBooks",source:"https://designsystem.quickbooks.com/visual-assets/logos/",
+            hex:"2CA01C",title:"QuickBooks",source:"https://design.intuit.com/quickbooks/brand",
+        }
+        ,[SimpleIcons.QuickLook]: {
+            hex:"0078D3",title:"QuickLook",source:"https://github.com/QL-Win/QuickLook/blob/f726841d99bbceafd5399e5777b4dba302bf1e51/QuickLook/Resources/app.svg",
         }
         ,[SimpleIcons.QuickTime]: {
             hex:"1C69F0",title:"QuickTime",source:"https://support.apple.com/quicktime",
         }
+        ,[SimpleIcons.Quicktype]: {
+            hex:"159588",title:"quicktype",source:"https://github.com/glideapps/quicktype-xcode/blob/2f9a8d2ef2466358341142c3881d54e065b30a8c/media/logo.svg",
+        }
         ,[SimpleIcons.Quip]: {
-            hex:"F27557",title:"Quip",source:"https://quip.com/",
+            hex:"F27557",title:"Quip",source:"https://quip.com",
+        }
+        ,[SimpleIcons.Quizlet]: {
+            hex:"4255FF",title:"Quizlet",source:"https://quizlet.com",
         }
         ,[SimpleIcons.Quora]: {
             hex:"B92B27",title:"Quora",source:"https://www.quora.com",
         }
+        ,[SimpleIcons.Qwant]: {
+            hex:"5C97FF",title:"Qwant",source:"https://about.qwant.com",
+        }
+        ,[SimpleIcons.Qwik]: {
+            hex:"AC7EF4",title:"Qwik",source:"https://github.com/BuilderIO/qwik/blob/c88e53d49dc65020899d770338f4e51f3134611e/packages/docs/public/logos/qwik-logo.svg",
+        }
         ,[SimpleIcons.Qwiklabs]: {
-            hex:"F5CD0E",title:"Qwiklabs",source:"https://www.qwiklabs.com",
+            hex:"F5CD0E",title:"Qwiklabs",source:"https://www.cloudskillsboost.google",
         }
         ,[SimpleIcons.Qzone]: {
-            hex:"FECE00",title:"Qzone",source:"https://qzone.qq.com/",
+            hex:"FECE00",title:"Qzone",source:"https://qzone.qq.com",
         }
         ,[SimpleIcons.R]: {
             hex:"276DC3",title:"R",source:"https://www.r-project.org/logo/",
         }
         ,[SimpleIcons.R3]: {
-            hex:"EC1D24",title:"R3",source:"https://www.r3.com/",
+            hex:"EC1D24",title:"R3",source:"https://www.r3.com",
         }
         ,[SimpleIcons.RabbitMQ]: {
-            hex:"FF6600",title:"RabbitMQ",source:"https://www.rabbitmq.com/",
+            hex:"FF6600",title:"RabbitMQ",source:"https://www.rabbitmq.com",
         }
         ,[SimpleIcons.Racket]: {
-            hex:"9F1D20",title:"Racket",source:"https://racket-lang.org/",
+            hex:"9F1D20",title:"Racket",source:"https://racket-lang.org",
+        }
+        ,[SimpleIcons.RADStudio]: {
+            hex:"E62431",title:"RAD Studio",source:"https://www.embarcadero.com/news/logo",
         }
         ,[SimpleIcons.Radar]: {
-            hex:"007AFF",title:"Radar",source:"https://radar.io/",
+            hex:"007AFF",title:"Radar",source:"https://radar.io",
+        }
+        ,[SimpleIcons.Radarr]: {
+            hex:"FFCB3D",title:"radarr",source:"https://github.com/Radarr/Radarr/blob/5f624a147bb62d37b731d9a0ae02bfd338793962/Logo/Radarr.svg",
         }
         ,[SimpleIcons.RadioPublic]: {
             hex:"CE262F",title:"RadioPublic",source:"https://help.radiopublic.com/hc/en-us/articles/360002546754-RadioPublic-logos",
+        }
+        ,[SimpleIcons.RadixUI]: {
+            hex:"161618",title:"Radix UI",source:"https://www.radix-ui.com",
+        }
+        ,[SimpleIcons.Railway]: {
+            hex:"0B0D0E",title:"Railway",source:"https://railway.app",
         }
         ,[SimpleIcons.Rainmeter]: {
             hex:"19519B",title:"Rainmeter",source:"https://github.com/rainmeter/rainmeter-www/blob/867fd905fda8d1b1083730adcb7f49f1775cb5b0/source/img/logo_blue.ai",
         }
         ,[SimpleIcons.Rakuten]: {
-            hex:"BF0000",title:"Rakuten",source:"https://global.rakuten.com/corp/assets/img/site-icons/rakuten-black.svg",
+            hex:"BF0000",title:"Rakuten",source:"https://global.rakuten.com/corp/news/media",
         }
         ,[SimpleIcons.Ram]: {
-            hex:"000000",title:"Ram",source:"http://www.fcaci.com/x/RAMv15",
+            hex:"000000",title:"Ram",source:"https://www.fcaci.com/x/RAMv15",
         }
         ,[SimpleIcons.Rancher]: {
             hex:"0075A8",title:"Rancher",source:"https://rancher.com/brand-guidelines/",
         }
+        ,[SimpleIcons.Rapid]: {
+            hex:"0055DA",title:"Rapid",source:"https://rapidapi.com",
+        }
+        ,[SimpleIcons.Rarible]: {
+            hex:"FEDA03",title:"Rarible",source:"https://rarible.com",
+        }
+        ,[SimpleIcons.Rasa]: {
+            hex:"5A17EE",title:"Rasa",source:"https://rasa.com",
+        }
         ,[SimpleIcons.RaspberryPi]: {
             hex:"A22846",title:"Raspberry Pi",source:"https://www.raspberrypi.org/trademark-rules",
         }
+        ,[SimpleIcons.Ravelry]: {
+            hex:"EE6E62",title:"Ravelry",source:"https://www.ravelry.com/help/logos",
+        }
+        ,[SimpleIcons.Ray]: {
+            hex:"028CF0",title:"Ray",source:"https://github.com/ray-project/ray/blob/6522935291caa120e83697c6c9b3a450617c9283/dashboard/client/src/logo.svg",
+        }
+        ,[SimpleIcons.Raycast]: {
+            hex:"FF6363",title:"Raycast",source:"https://www.raycast.com/press",
+        }
+        ,[SimpleIcons.Raylib]: {
+            hex:"000000",title:"Raylib",source:"https://github.com/raysan5/raylib/blob/e7a486fa81adac1833253c849ca73c5b3f7ef361/logo/raylib_512x512.png",
+        }
         ,[SimpleIcons.Razer]: {
-            hex:"00FF00",title:"Razer",source:"https://press.razer.com/",
+            hex:"00FF00",title:"Razer",source:"https://press.razer.com",
+        }
+        ,[SimpleIcons.Razorpay]: {
+            hex:"0C2451",title:"Razorpay",source:"https://razorpay.com/newsroom/brand-assets/",
+        }
+        ,[SimpleIcons.Rclone]: {
+            hex:"3F79AD",title:"Rclone",source:"https://github.com/rclone/rclone/blob/8f1c309c8149a734ccc3a0d2ce185b936dbe783a/graphics/logo/svg/logo_symbol_color.svg",
         }
         ,[SimpleIcons.React]: {
             hex:"61DAFB",title:"React",source:"https://github.com/facebook/create-react-app/blob/282c03f9525fdf8061ffa1ec50dce89296d916bd/test/fixtures/relative-paths/src/logo.svg",
         }
+        ,[SimpleIcons.ReactBootstrap]: {
+            hex:"41E0FD",title:"React Bootstrap",source:"https://github.com/react-bootstrap/react-bootstrap/blob/be23c304fa40ddb209919b0faac1e5dd8cef53ad/www/static/img/logo.svg",
+        }
+        ,[SimpleIcons.ReactHookForm]: {
+            hex:"EC5990",title:"React Hook Form",source:"https://github.com/react-hook-form/documentation/blob/d049ffe923336ce7a5bf58990c54c07f39ab2429/src/images/Logo.svg",
+        }
+        ,[SimpleIcons.ReactQuery]: {
+            hex:"FF4154",title:"React Query",source:"https://github.com/tannerlinsley/react-query/blob/9b5d18cd47a4c1454d6c8dd0f38280641c1dd5dd/docs/src/images/emblem-light.svg",
+        }
         ,[SimpleIcons.ReactRouter]: {
             hex:"CA4245",title:"React Router",source:"https://github.com/ReactTraining/react-router/blob/c94bcd8cef0c811f80b02777ec26fee3618f8e86/website/static/safari-pinned-tab.svg",
         }
+        ,[SimpleIcons.ReactTable]: {
+            hex:"FF4154",title:"React Table",source:"https://github.com/tannerlinsley/react-table/blob/8c77b4ad97353a0b1f0746be5b919868862a9dcc/docs/src/images/emblem-light.svg",
+        }
+        ,[SimpleIcons.ReactiveResume]: {
+            hex:"000000",title:"Reactive Resume",source:"https://github.com/AmruthPillai/Reactive-Resume/blob/0f765af4687acd05d63cccf3676583735c86a8c2/apps/artboard/public/icon/dark.svg",
+        }
         ,[SimpleIcons.ReactiveX]: {
-            hex:"B7178C",title:"ReactiveX",source:"https://github.com/ReactiveX/rxjs/blob/master/resources/CI-CD/logo/svg/RxJs_Logo_Black.svg",
+            hex:"B7178C",title:"ReactiveX",source:"https://github.com/ReactiveX/rxjs/blob/ee6ababb9fa75f068ac2122e956ff4e449604c59/resources/CI-CD/logo/svg/RxJs_Logo_Black.svg",
         }
         ,[SimpleIcons.ReactOS]: {
-            hex:"0088CC",title:"ReactOS",source:"https://github.com/reactos/press-media",
+            hex:"0088CC",title:"ReactOS",source:"https://github.com/reactos/press-media/tree/48089e09e0c7e828f1eb81e5ea0d8da85ec41dc3",
         }
         ,[SimpleIcons.ReadTheDocs]: {
             hex:"8CA1AF",title:"Read the Docs",source:"https://github.com/readthedocs/readthedocs.org/blob/2dc9706c4fe7fa6d4410ed0e5aedca8d4796fe0f/media/readthedocsbranding.ai",
         }
+        ,[SimpleIcons.ReadCv]: {
+            hex:"111111",title:"Read.cv",source:"https://read.cv/support/faq",
+        }
+        ,[SimpleIcons.ReadMe]: {
+            hex:"018EF5",title:"ReadMe",source:"https://readme.com",
+        }
         ,[SimpleIcons.Realm]: {
-            hex:"39477F",title:"Realm",source:"https://realm.io/",
+            hex:"39477F",title:"Realm",source:"https://realm.io",
         }
         ,[SimpleIcons.Reason]: {
-            hex:"DD4B39",title:"Reason",source:"https://reasonml.github.io/img/reason.svg",
+            hex:"DD4B39",title:"Reason",source:"https://github.com/reasonml/reasonml.github.io/blob/18dc62ad841f0def6551a65e41083c9d5784da93/website/static/img/reason.svg",
         }
         ,[SimpleIcons.ReasonStudios]: {
             hex:"FFFFFF",title:"Reason Studios",source:"https://www.reasonstudios.com/press",
+        }
+        ,[SimpleIcons.Recoil]: {
+            hex:"3578E5",title:"Recoil",source:"https://recoiljs.org",
+        }
+        ,[SimpleIcons.Red]: {
+            hex:"B32629",title:"Red",source:"https://www.red-lang.org",
+        }
+        ,[SimpleIcons.RedBull]: {
+            hex:"DB0A40",title:"Red Bull",source:"https://www.redbull.com",
         }
         ,[SimpleIcons.RedHat]: {
             hex:"EE0000",title:"Red Hat",source:"https://www.redhat.com/en/about/brand/new-brand/details",
         }
         ,[SimpleIcons.RedHatOpenShift]: {
-            hex:"EE0000",title:"Red Hat Open Shift",source:"https://www.openshift.com/",
+            hex:"EE0000",title:"Red Hat Open Shift",source:"https://www.openshift.com",
+        }
+        ,[SimpleIcons.Redash]: {
+            hex:"FF7964",title:"Redash",source:"https://github.com/getredash/website/blob/c454b523fdaa60218845313904c5498cda7e7b7a/static/assets/images/elements/redash-logo.svg",
         }
         ,[SimpleIcons.Redbubble]: {
-            hex:"E41321",title:"Redbubble",source:"https://www.redbubble.com/explore/client/4196122a442ab3f429ec802f71717465.svg",
+            hex:"E41321",title:"Redbubble",source:"https://www.redbubble.com",
         }
         ,[SimpleIcons.Reddit]: {
             hex:"FF4500",title:"Reddit",source:"https://www.redditinc.com/brand",
         }
         ,[SimpleIcons.Redis]: {
-            hex:"DC382D",title:"Redis",source:"https://www.redislabs.com/brand-guidelines/",
+            hex:"FF4438",title:"Redis",source:"https://redis.io/brand-guidelines",
+        }
+        ,[SimpleIcons.Redmine]: {
+            hex:"B32024",title:"Redmine",source:"https://www.redmine.org/projects/redmine/wiki/logo",
+        }
+        ,[SimpleIcons.Redox]: {
+            hex:"000000",title:"Redox",source:"https://github.com/redox-os/assets/blob/4935a777cd7aa44323d3c263b1e0bb4ae864a027/logos/redox/vectorized_logo.svg",
+        }
+        ,[SimpleIcons.Redsys]: {
+            hex:"DC7C26",title:"Redsys",source:"https://redsys.es",
         }
         ,[SimpleIcons.Redux]: {
-            hex:"764ABC",title:"Redux",source:"https://github.com/reactjs/redux/tree/master/logo",
+            hex:"764ABC",title:"Redux",source:"https://github.com/reduxjs/redux/blob/abb5f892f7e46849e5ca9bc13e75cfbc944a71b6/logo/logo.svg",
         }
         ,[SimpleIcons.ReduxSaga]: {
             hex:"999999",title:"Redux-Saga",source:"https://github.com/redux-saga/redux-saga/blob/9d2164946f402e594a0dfe453c6d20fb6f14858f/logo/3840/Redux-Saga-Logo.png",
@@ -13815,8 +22637,29 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.RedwoodJS]: {
             hex:"BF4722",title:"RedwoodJS",source:"https://redwoodjs.com/logos/",
         }
+        ,[SimpleIcons.Reebok]: {
+            hex:"E41D1B",title:"Reebok",source:"https://www.reebok.com/us",
+        }
+        ,[SimpleIcons.Refine]: {
+            hex:"14141F",title:"Refine",source:"https://s.refine.dev/refine-brand-assets",
+        }
+        ,[SimpleIcons.Relay]: {
+            hex:"F26B00",title:"Relay",source:"https://relay.dev",
+        }
         ,[SimpleIcons.RelianceIndustriesLimited]: {
-            hex:"D1AB66",title:"Reliance Industries Limited",source:"https://www.ril.com/getattachment/7c210e67-5b0e-4965-b1a2-2ee83e19cee9/Morgan-Stanley-Eighteenth-Annual-India-Summit,-31.aspx",
+            hex:"D1AB66",title:"Reliance Industries Limited",source:"https://www.ril.com/news-media/resource-center/media-kit/reliance-industries-limited",
+        }
+        ,[SimpleIcons.Remark]: {
+            hex:"000000",title:"remark",source:"https://github.com/remarkjs/remark/blob/26dc58a675ac7267c105f0fdb76a82db77f8402a/logo.svg",
+        }
+        ,[SimpleIcons.RemedyEntertainment]: {
+            hex:"D6001C",title:"Remedy Entertainment",source:"https://www.remedygames.com",
+        }
+        ,[SimpleIcons.Remix]: {
+            hex:"000000",title:"Remix",source:"https://drive.google.com/drive/u/0/folders/1pbHnJqg8Y1ATs0Oi8gARH7wccJGv4I2c",
+        }
+        ,[SimpleIcons.RemoveBg]: {
+            hex:"54616C",title:"remove.bg",source:"https://www.remove.bg",
         }
         ,[SimpleIcons.Ren_Py]: {
             hex:"FF7F7F",title:"Ren'Py",source:"https://renpy.org",
@@ -13824,20 +22667,41 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Renault]: {
             hex:"FFCC33",title:"Renault",source:"https://en.media.groupe.renault.com/news/renault-news-march-2021-5f28-989c5.html",
         }
-        ,[SimpleIcons.RenovateBot]: {
-            hex:"1A1F6C",title:"RenovateBot",source:"https://avatars1.githubusercontent.com/u/38656520",
+        ,[SimpleIcons.Render]: {
+            hex:"000000",title:"Render",source:"https://render.com",
+        }
+        ,[SimpleIcons.Renovate]: {
+            hex:"1A1F6C",title:"Renovate",source:"https://avatars1.githubusercontent.com/u/38656520",
         }
         ,[SimpleIcons.Renren]: {
             hex:"217DC6",title:"Renren",source:"https://seeklogo.com/vector-logo/184137/renren-inc",
         }
         ,[SimpleIcons.Replit]: {
-            hex:"667881",title:"Replit",source:"https://repl.it/",
+            hex:"F26207",title:"Replit",source:"https://repl.it",
+        }
+        ,[SimpleIcons.RepublicOfGamers]: {
+            hex:"FF0029",title:"Republic of Gamers",source:"https://rog.asus.com",
+        }
+        ,[SimpleIcons.ReScript]: {
+            hex:"E6484F",title:"ReScript",source:"https://rescript-lang.org/brand",
+        }
+        ,[SimpleIcons.RescueTime]: {
+            hex:"161A3B",title:"RescueTime",source:"https://www.rescuetime.com/press",
         }
         ,[SimpleIcons.ResearchGate]: {
-            hex:"00CCBB",title:"ResearchGate",source:"https://c5.rgstatic.net/m/428059296771819/images/favicon/favicon.svg",
+            hex:"00CCBB",title:"ResearchGate",source:"https://www.researchgate.net",
+        }
+        ,[SimpleIcons.Resend]: {
+            hex:"000000",title:"Resend",source:"https://resend.com/brand",
+        }
+        ,[SimpleIcons.ReSharper]: {
+            hex:"000000",title:"ReSharper",source:"https://www.jetbrains.com/company/brand/logos/",
         }
         ,[SimpleIcons.ResurrectionRemixOS]: {
-            hex:"000000",title:"Resurrection Remix OS",source:"https://github.com/ResurrectionRemix",
+            hex:"000000",title:"Resurrection Remix OS",source:"https://avatars.githubusercontent.com/u/4931972",
+        }
+        ,[SimpleIcons.Retool]: {
+            hex:"3D3D3D",title:"Retool",source:"https://retool.com",
         }
         ,[SimpleIcons.RetroArch]: {
             hex:"000000",title:"RetroArch",source:"https://github.com/libretro/RetroArch/blob/b01aabf7d1f025999ad0f7812e6e6816d011e631/media/retroarch.svg",
@@ -13845,62 +22709,119 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.RetroPie]: {
             hex:"CC0000",title:"RetroPie",source:"https://github.com/RetroPie/RetroPie-Docs/blob/c4e882bd2c9d740c591ff346e07a4a4cb536ca93/images/logo.svg",
         }
+        ,[SimpleIcons.ReVanced]: {
+            hex:"9ED5FF",title:"ReVanced",source:"https://revanced.app",
+        }
         ,[SimpleIcons.RevealJs]: {
-            hex:"F2E142",title:"reveal.js",source:"https://revealjs.com/",
+            hex:"F2E142",title:"reveal.js",source:"https://revealjs.com",
         }
         ,[SimpleIcons.ReverbNation]: {
             hex:"E43526",title:"ReverbNation",source:"https://www.reverbnation.com",
         }
+        ,[SimpleIcons.RevoltChat]: {
+            hex:"FF4655",title:"Revolt.chat",source:"https://app.revolt.chat/assets/badges/revolt_r.svg",
+        }
         ,[SimpleIcons.Revolut]: {
-            hex:"0075EB",title:"Revolut",source:"https://www.revolut.com/",
+            hex:"191C1F",title:"Revolut",source:"https://developer.revolut.com/docs/resources/marketing-assets-guidelines/marketing-guidelines",
         }
         ,[SimpleIcons.Revue]: {
-            hex:"E15718",title:"Revue",source:"https://www.getrevue.co/",
+            hex:"E15718",title:"Revue",source:"https://www.getrevue.co",
         }
         ,[SimpleIcons.REWE]: {
-            hex:"CC071E",title:"REWE",source:"https://www.rewe.de/",
+            hex:"CC071E",title:"REWE",source:"https://www.rewe.de",
         }
         ,[SimpleIcons.Rezgo]: {
-            hex:"F76C00",title:"Rezgo",source:"https://www.rezgo.com/",
+            hex:"F76C00",title:"Rezgo",source:"https://www.rezgo.com",
         }
         ,[SimpleIcons.Rhinoceros]: {
             hex:"801010",title:"Rhinoceros",source:"https://github.com/mcneel/compute.rhino3d/blob/2204d998ff0397a1c6a18dd2312a96508ad48bdb/README.md",
         }
+        ,[SimpleIcons.Rich]: {
+            hex:"FAE742",title:"Rich",source:"https://github.com/Textualize/rich/blob/fd981823644ccf50d685ac9c0cfe8e1e56c9dd35/imgs/logo.svg",
+        }
         ,[SimpleIcons.Rider]: {
             hex:"000000",title:"Rider",source:"https://www.jetbrains.com/company/brand/logos/",
+        }
+        ,[SimpleIcons.RimacAutomobili]: {
+            hex:"0A222E",title:"Rimac Automobili",source:"https://www.rimac-automobili.com/media/",
+        }
+        ,[SimpleIcons.Rime]: {
+            hex:"000000",title:"Rime",source:"https://github.com/rime/home/blob/65738f446c7e6c56a560fdaa0c0f02937b8e51d0/blog/source/images/logo.svg",
         }
         ,[SimpleIcons.Ring]: {
             hex:"1C9AD6",title:"Ring",source:"https://store.ring.com/press",
         }
         ,[SimpleIcons.RiotGames]: {
-            hex:"D32936",title:"Riot Games",source:"https://www.riotgames.com/en/press",
+            hex:"EB0029",title:"Riot Games",source:"https://www.riotgames.com/en/press",
         }
         ,[SimpleIcons.Ripple]: {
             hex:"0085C0",title:"Ripple",source:"https://www.ripple.com/media-kit/",
         }
+        ,[SimpleIcons.RISCV]: {
+            hex:"283272",title:"RISC-V",source:"https://riscv.org/risc-v-logo/",
+        }
         ,[SimpleIcons.Riseup]: {
             hex:"FF0000",title:"Riseup",source:"https://riseup.net/en/about-us/images",
+        }
+        ,[SimpleIcons.RitzCarlton]: {
+            hex:"000000",title:"Ritz Carlton",source:"https://www.ritzcarlton.com/en/about-the-ritz-carlton",
+        }
+        ,[SimpleIcons.Rive]: {
+            hex:"1D1D1D",title:"Rive",source:"https://rive.app",
+        }
+        ,[SimpleIcons.RoadmapSh]: {
+            hex:"000000",title:"roadmap.sh",source:"https://roadmap.sh",
         }
         ,[SimpleIcons.RoamResearch]: {
             hex:"343A40",title:"Roam Research",source:"https://roamresearch.com/#/app/help/page/Vu1MmjinS",
         }
+        ,[SimpleIcons.Robinhood]: {
+            hex:"00C805",title:"Robinhood",source:"https://robinhood.com",
+        }
         ,[SimpleIcons.Roblox]: {
-            hex:"000000",title:"Roblox",source:"https://corp.roblox.com/press-kit/",
+            hex:"000000",title:"Roblox",source:"https://www.roblox.com",
+        }
+        ,[SimpleIcons.RobloxStudio]: {
+            hex:"00A2FF",title:"Roblox Studio",source:"https://create.roblox.com",
         }
         ,[SimpleIcons.RobotFramework]: {
-            hex:"000000",title:"Robot Framework",source:"https://github.com/robotframework/visual-identity",
+            hex:"000000",title:"Robot Framework",source:"https://github.com/robotframework/visual-identity/blob/fadf8cda9f79ea31987a214f0047cca9626327b7/logo/robot-framework.svg",
+        }
+        ,[SimpleIcons.Rocket]: {
+            hex:"D33847",title:"Rocket",source:"https://rocket.rs",
         }
         ,[SimpleIcons.RocketChat]: {
             hex:"F5455C",title:"Rocket.Chat",source:"https://rocket.chat/press",
         }
+        ,[SimpleIcons.RocksDB]: {
+            hex:"2A2A2A",title:"RocksDB",source:"https://github.com/facebook/rocksdb/blob/9ed96703d11a1cf4af0e1c1db0e4a6057a8e5d42/docs/static/logo.svg",
+        }
+        ,[SimpleIcons.RockstarGames]: {
+            hex:"FCAF17",title:"Rockstar Games",source:"https://www.rockstargames.com",
+        }
+        ,[SimpleIcons.RockwellAutomation]: {
+            hex:"CD163F",title:"Rockwell Automation",source:"https://www.rockwellautomation.com/en-ie/company/news.html",
+        }
+        ,[SimpleIcons.RockyLinux]: {
+            hex:"10B981",title:"Rocky Linux",source:"https://github.com/rocky-linux/branding/blob/94e97dd30b87d909cc4f6a6838a2926f77f9ac47/logo/src/icon-black.svg",
+        }
         ,[SimpleIcons.Roku]: {
-            hex:"662D91",title:"Roku",source:"https://www.roku.com/",
+            hex:"662D91",title:"Roku",source:"https://www.roku.com",
+        }
+        ,[SimpleIcons.Roll20]: {
+            hex:"E10085",title:"Roll20",source:"https://roll20.net",
         }
         ,[SimpleIcons.RollsRoyce]: {
-            hex:"281432",title:"Rolls-Royce",source:"https://www.rolls-roycemotorcars.com/",
+            hex:"281432",title:"Rolls-Royce",source:"https://www.rolls-roycemotorcars.com",
         }
         ,[SimpleIcons.RollupJs]: {
-            hex:"EC4A3F",title:"rollup.js",source:"https://rollupjs.org/",
+            hex:"EC4A3F",title:"rollup.js",source:"https://rollupjs.org",
+        }
+        ,[SimpleIcons.Roon]: {
+            hex:"2039F3",title:"Roon",source:"https://help.roonlabs.com/portal/en/home",
+        }
+        ,[SimpleIcons.RootMe]: {
+            hex:"000000",title:"Root Me",source:"https://www.root-me.org",
         }
         ,[SimpleIcons.Roots]: {
             hex:"525DDC",title:"Roots",source:"https://roots.io/about/brand/",
@@ -13914,35 +22835,68 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.ROS]: {
             hex:"22314E",title:"ROS",source:"https://www.ros.org/press-kit/",
         }
+        ,[SimpleIcons.Rossmann]: {
+            hex:"C3002D",title:"Rossmann",source:"https://www.rossmann.de",
+        }
+        ,[SimpleIcons.RotaryInternational]: {
+            hex:"F7A81B",title:"Rotary International",source:"https://www.rotary.org/en",
+        }
         ,[SimpleIcons.RottenTomatoes]: {
             hex:"FA320A",title:"Rotten Tomatoes",source:"https://commons.wikimedia.org/wiki/File:Rottentomatoesalternativelogo.svg",
         }
         ,[SimpleIcons.Roundcube]: {
-            hex:"37BEFF",title:"Roundcube",source:"https://roundcube.net/",
+            hex:"37BEFF",title:"Roundcube",source:"https://roundcube.net",
+        }
+        ,[SimpleIcons.RSocket]: {
+            hex:"EF0092",title:"RSocket",source:"https://rsocket.io/img/r-socket-pink.svg",
         }
         ,[SimpleIcons.RSS]: {
             hex:"FFA500",title:"RSS",source:"https://en.wikipedia.org/wiki/Feed_icon",
         }
-        ,[SimpleIcons.RStudio]: {
-            hex:"75AADB",title:"RStudio",source:"https://www.rstudio.com/about/logos/",
+        ,[SimpleIcons.RStudioIDE]: {
+            hex:"75AADB",title:"RStudio IDE",source:"https://www.rstudio.com/about/logos",
         }
         ,[SimpleIcons.RT_]: {
             hex:"00A7B3",title:"RTÉ",source:"https://www.rte.ie/archives/",
         }
         ,[SimpleIcons.RTL]: {
-            hex:"E9113B",title:"RTL",source:"https://commons.wikimedia.org/wiki/File:RTL_Cornerlogo.svg",
+            hex:"FA002E",title:"RTL",source:"https://www.rtl.de",
         }
         ,[SimpleIcons.RTLZWEI]: {
-            hex:"00BCF6",title:"RTLZWEI",source:"https://www.rtl2.de/",
+            hex:"00BCF6",title:"RTLZWEI",source:"https://www.rtl2.de",
+        }
+        ,[SimpleIcons.RTM]: {
+            hex:"36474F",title:"RTM",source:"https://www.rtm.fr",
+        }
+        ,[SimpleIcons.RuboCop]: {
+            hex:"000000",title:"RuboCop",source:"https://github.com/rubocop-semver/rubocop-ruby2_0/blob/5302f93058f7b739a73a7a6c11c566a2b196b96e/docs/images/logo/rubocop-light.svg",
         }
         ,[SimpleIcons.Ruby]: {
             hex:"CC342D",title:"Ruby",source:"https://www.ruby-lang.org/en/about/logo/",
         }
         ,[SimpleIcons.RubyOnRails]: {
-            hex:"CC0000",title:"Ruby on Rails",source:"http://rubyonrails.org/",
+            hex:"D30001",title:"Ruby on Rails",source:"https://github.com/simple-icons/simple-icons/issues/9619#issuecomment-1735150580",
+        }
+        ,[SimpleIcons.RubySinatra]: {
+            hex:"000000",title:"Ruby Sinatra",source:"https://github.com/sinatra/resources/tree/64c22f9b4bf2e52b5c0c875ba16671f295689efb/logo",
         }
         ,[SimpleIcons.RubyGems]: {
             hex:"E9573F",title:"RubyGems",source:"https://rubygems.org/pages/about",
+        }
+        ,[SimpleIcons.RubyMine]: {
+            hex:"000000",title:"RubyMine",source:"https://www.jetbrains.com/company/brand/logos",
+        }
+        ,[SimpleIcons.Ruff]: {
+            hex:"D7FF64",title:"Ruff",source:"https://astral.sh/ruff",
+        }
+        ,[SimpleIcons.Rumahweb]: {
+            hex:"2EB4E3",title:"Rumahweb",source:"https://www.rumahweb.com",
+        }
+        ,[SimpleIcons.Rumble]: {
+            hex:"85C742",title:"Rumble",source:"https://rumble.com",
+        }
+        ,[SimpleIcons.Rundeck]: {
+            hex:"F73F39",title:"Rundeck",source:"https://github.com/rundeck/docs/blob/a1c98b682eb6e82b60de0daa876133f390630821/docs/.vuepress/public/images/rundeck-logo.svg",
         }
         ,[SimpleIcons.Runkeeper]: {
             hex:"001E62",title:"Runkeeper",source:"https://runkeeper.com/cms/press-kit",
@@ -13950,8 +22904,14 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.RunKit]: {
             hex:"491757",title:"RunKit",source:"https://www.npmjs.com/package/@runkit/brand",
         }
+        ,[SimpleIcons.RunrunIt]: {
+            hex:"DB3729",title:"Runrun.it",source:"https://runrun.it/en-US/project-management-logos-icons",
+        }
         ,[SimpleIcons.Rust]: {
-            hex:"000000",title:"Rust",source:"https://www.rust-lang.org/",
+            hex:"000000",title:"Rust",source:"https://www.rust-lang.org",
+        }
+        ,[SimpleIcons.RustDesk]: {
+            hex:"024EFF",title:"RustDesk",source:"https://github.com/rustdesk/rustdesk/blob/80857c22c9ee1578b4329aec3250c3e6f285a7d2/res/logo.svg",
         }
         ,[SimpleIcons.RxDB]: {
             hex:"8D1F89",title:"RxDB",source:"https://github.com/pubkey/rxdb/blob/0c554dbcf7a4e6c48cd581ec1e3b130a4b5ab7d6/docs/files/logo/logo.svg",
@@ -13959,77 +22919,134 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Ryanair]: {
             hex:"073590",title:"Ryanair",source:"https://corporate.ryanair.com/media-centre/stock-images-gallery/#album-container-3",
         }
+        ,[SimpleIcons.Rye]: {
+            hex:"000000",title:"Rye",source:"https://github.com/mitsuhiko/rye/blob/8b76d2a1a9d44c97ccbbcedceb72bc7437142caf/docs/static/favicon.svg",
+        }
         ,[SimpleIcons.S7Airlines]: {
-            hex:"BED600",title:"S7 Airlines",source:"https://www.s7.ru/",
+            hex:"C4D600",title:"S7 Airlines",source:"https://www.s7.ru/en/info/s7-airlines/brand/",
+        }
+        ,[SimpleIcons.Sabanci]: {
+            hex:"004B93",title:"Sabanci",source:"https://www.sabanci.com/en",
         }
         ,[SimpleIcons.Safari]: {
-            hex:"000000",title:"Safari",source:"https://images.techhive.com/images/article/2014/11/safari-favorites-100530680-large.jpg",
+            hex:"006CFF",title:"Safari",source:"https://apps.apple.com/us/app/safari/id1146562112",
+        }
+        ,[SimpleIcons.Sage]: {
+            hex:"00D639",title:"Sage",source:"https://www.sage.com",
         }
         ,[SimpleIcons.Sahibinden]: {
             hex:"FFE800",title:"Sahibinden",source:"https://www.sahibinden.com/favicon.ico",
         }
-        ,[SimpleIcons.Salesforce]: {
-            hex:"00A1E0",title:"Salesforce",source:"https://www.salesforce.com/styleguide/elements/logos",
+        ,[SimpleIcons.SailfishOS]: {
+            hex:"053766",title:"Sailfish OS",source:"https://sailfishos.org",
         }
-        ,[SimpleIcons.SaltStack]: {
-            hex:"00EACE",title:"SaltStack",source:"https://www.saltstack.com/resources/brand/",
+        ,[SimpleIcons.SailsJs]: {
+            hex:"14ACC2",title:"Sails.js",source:"https://sailsjs.com/logos",
+        }
+        ,[SimpleIcons.Salesforce]: {
+            hex:"00A1E0",title:"Salesforce",source:"https://brand.salesforce.com/content/logo-guidelines",
+        }
+        ,[SimpleIcons.Salla]: {
+            hex:"BAF3E6",title:"Salla",source:"https://brand.salla.com",
+        }
+        ,[SimpleIcons.SaltProject]: {
+            hex:"57BCAD",title:"Salt Project",source:"https://saltproject.io",
+        }
+        ,[SimpleIcons.Sam_sClub]: {
+            hex:"0067A0",title:"Sam's Club",source:"https://www.samsclub.com",
         }
         ,[SimpleIcons.Samsung]: {
-            hex:"1428A0",title:"Samsung",source:"https://www.samsung.com/us",
+            hex:"1428A0",title:"Samsung",source:"https://www.samsung.com/us/about-us/brand-identity/logo/",
         }
         ,[SimpleIcons.SamsungPay]: {
             hex:"1428A0",title:"Samsung Pay",source:"https://pay.samsung.com/developers/resource/brand",
         }
         ,[SimpleIcons.SanFranciscoMunicipalRailway]: {
-            hex:"BA0C2F",title:"San Francisco Municipal Railway",source:"http://www.actransit.org/wp-content/uploads/HSP_CC-sched.pdf",
+            hex:"BA0C2F",title:"San Francisco Municipal Railway",source:"https://www.actransit.org/wp-content/uploads/HSP_CC-sched.pdf",
+        }
+        ,[SimpleIcons.SanDisk]: {
+            hex:"ED1C24",title:"SanDisk",source:"https://kb.sandisk.com",
+        }
+        ,[SimpleIcons.Sanic]: {
+            hex:"FF0D68",title:"Sanic",source:"https://github.com/sanic-org/sanic-assets/blob/79af646b7948fdfdc3b2f98d8aeedf58eba34b5b/svg/sanic-framework-logo-mono-black.svg",
+        }
+        ,[SimpleIcons.Sanity]: {
+            hex:"F03E2F",title:"Sanity",source:"https://github.com/sanity-io/logos/blob/6934d28ae0b5f63b0386810997b8be61ec7009b5/src/sanityMonogram.tsx",
         }
         ,[SimpleIcons.S_oPauloMetro]: {
-            hex:"004382",title:"São Paulo Metro",source:"https://upload.wikimedia.org/wikipedia/commons/d/da/Sao_Paulo_Metro_Logo.svg",
+            hex:"004382",title:"São Paulo Metro",source:"https://commons.wikimedia.org/wiki/File:Sao_Paulo_Metro_Logo.svg",
         }
         ,[SimpleIcons.SAP]: {
-            hex:"0FAAFF",title:"SAP",source:"https://www.sap.com/",
+            hex:"0FAAFF",title:"SAP",source:"https://www.sap.com",
+        }
+        ,[SimpleIcons.Sartorius]: {
+            hex:"FFED00",title:"Sartorius",source:"https://www.sartorius.com",
         }
         ,[SimpleIcons.Sass]: {
-            hex:"CC6699",title:"Sass",source:"http://sass-lang.com/styleguide/brand",
+            hex:"CC6699",title:"Sass",source:"https://sass-lang.com/styleguide/brand",
         }
         ,[SimpleIcons.Sat1]: {
             hex:"047DA3",title:"Sat.1",source:"https://www.prosiebensat1.com/presse/downloads/logos",slug:"sat1"
         }
+        ,[SimpleIcons.Satellite]: {
+            hex:"000000",title:"Satellite",source:"https://www.satellite.me",
+        }
+        ,[SimpleIcons.Saturn]: {
+            hex:"EB680B",title:"Saturn",source:"https://www.saturn.de",
+        }
         ,[SimpleIcons.SauceLabs]: {
-            hex:"E2231A",title:"Sauce Labs",source:"https://saucelabs.com/",
+            hex:"3DDC91",title:"Sauce Labs",source:"https://saucelabs.com",
+        }
+        ,[SimpleIcons.Saudia]: {
+            hex:"026938",title:"Saudia",source:"https://www.saudiatechnic.com/media-center/press-kit",
         }
         ,[SimpleIcons.Scala]: {
-            hex:"DC322F",title:"Scala",source:"https://www.scala-lang.org/",
+            hex:"DC322F",title:"Scala",source:"https://www.scala-lang.org",
         }
         ,[SimpleIcons.Scaleway]: {
-            hex:"4F0599",title:"Scaleway",source:"https://www.scaleway.com",
+            hex:"4F0599",title:"Scaleway",source:"https://www.scaleway.com/en/design-resources/",
         }
         ,[SimpleIcons.Scania]: {
-            hex:"041E42",title:"Scania",source:"https://www.scania.com/",
+            hex:"041E42",title:"Scania",source:"https://digitaldesign.scania.com/resources/brand/logotype",
+        }
+        ,[SimpleIcons.SchneiderElectric]: {
+            hex:"3DCD58",title:"Schneider Electric",source:"https://www.se.com/us/en/assets/739/media/202250/SE_logo-LIO-white_header.svg",
         }
         ,[SimpleIcons.ScikitLearn]: {
             hex:"F7931E",title:"scikit-learn",source:"https://github.com/scikit-learn/scikit-learn/blob/c5ef2e985c13119001aa697e446ebb3dbcb326e5/doc/logos/scikit-learn-logo.svg",
+        }
+        ,[SimpleIcons.Scilab]: {
+            hex:"CD1925",title:"Scilab",source:"https://gitlab.com/scilab/scilab/-/blob/599df2b32347029f4806a7c5fa2fe9d5f1293f0d/scilab/modules/gui/images/icons/scilabicon.svg",
         }
         ,[SimpleIcons.SciPy]: {
             hex:"8CAAE6",title:"SciPy",source:"https://github.com/scikit-image/skimage-branding/blob/eafb65cbc3a700e3d9c8ba2ba15788fcc8703984/logo/scipy.svg",
         }
         ,[SimpleIcons.Scopus]: {
-            hex:"E9711C",title:"Scopus",source:"https://www.scopus.com/",
+            hex:"E9711C",title:"Scopus",source:"https://www.scopus.com",
+        }
+        ,[SimpleIcons.SCPFoundation]: {
+            hex:"FFFFFF",title:"SCP Foundation",source:"https://scp-wiki.wikidot.com",
+        }
+        ,[SimpleIcons.Scrapbox]: {
+            hex:"06B632",title:"Scrapbox",source:"https://scrapbox.io/nota-press",
+        }
+        ,[SimpleIcons.Scrapy]: {
+            hex:"60A839",title:"Scrapy",source:"https://github.com/scrapy/scrapy.org/blob/d8e296f68c30664ffee3d142dd5d4c288d1e77c6/_brand/Scrapy%20Logo.eps",
         }
         ,[SimpleIcons.Scratch]: {
             hex:"4D97FF",title:"Scratch",source:"https://github.com/LLK/scratch-link/blob/027e3754ba6db976495e905023d5ac5e730dccfc/Assets/Windows/SVG/Windows%20Tray%20400x400.svg",
         }
         ,[SimpleIcons.Screencastify]: {
-            hex:"FF8282",title:"Screencastify",source:"https://www.screencastify.com/",
+            hex:"FF8282",title:"Screencastify",source:"https://www.screencastify.com",
         }
         ,[SimpleIcons.Scribd]: {
-            hex:"1A7BBA",title:"Scribd",source:"https://www.scribd.com",
+            hex:"1E7B85",title:"Scribd",source:"https://brand.scribd.com/d/oFZcsq7FVpSh/about-scribd#/media-press-kit/downloads",
         }
         ,[SimpleIcons.Scrimba]: {
-            hex:"2B283A",title:"Scrimba",source:"https://scrimba.com/",
+            hex:"2B283A",title:"Scrimba",source:"https://scrimba.com",
         }
         ,[SimpleIcons.ScrollReveal]: {
-            hex:"FFCB36",title:"ScrollReveal",source:"https://scrollrevealjs.org/",
+            hex:"FFCB36",title:"ScrollReveal",source:"https://scrollrevealjs.org",
         }
         ,[SimpleIcons.ScrumAlliance]: {
             hex:"009FDA",title:"Scrum Alliance",source:"https://www.scrumalliance.org/ScrumRedesignDEVSite/media/ScrumAllianceMedia/Files%20and%20PDFs/Infographics/S_BrandGuidelines_2018_rev.pdf",
@@ -14037,23 +23054,41 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.ScrutinizerCI]: {
             hex:"8A9296",title:"Scrutinizer CI",source:"https://scrutinizer-ci.com",
         }
+        ,[SimpleIcons.ScyllaDB]: {
+            hex:"6CD5E7",title:"ScyllaDB",source:"https://www.scylladb.com/media-kit",
+        }
         ,[SimpleIcons.Seagate]: {
             hex:"6EBE49",title:"Seagate",source:"https://branding.seagate.com/productpage/3fc51aba-c35a-4eff-a833-a258b0440bd2",
         }
+        ,[SimpleIcons.SearXNG]: {
+            hex:"3050FF",title:"SearXNG",source:"https://docs.searxng.org",
+        }
         ,[SimpleIcons.SEAT]: {
-            hex:"33302E",title:"SEAT",source:"https://www.seat.es/",
+            hex:"33302E",title:"SEAT",source:"https://www.seat.es",
+        }
+        ,[SimpleIcons.SeatGeek]: {
+            hex:"FF5B49",title:"SeatGeek",source:"https://seatgeek.com/press",
+        }
+        ,[SimpleIcons.SecurityScorecard]: {
+            hex:"7033FD",title:"SecurityScorecard",source:"https://securityscorecard.com",
         }
         ,[SimpleIcons.Sefaria]: {
             hex:"212E50",title:"Sefaria",source:"https://github.com/Sefaria/Sefaria-Project/blob/c141b2b3491660ed563df9f4b1a2e4c071e88688/static/img/logo/samekh.svg",
         }
         ,[SimpleIcons.Sega]: {
-            hex:"0089CF",title:"Sega",source:"https://en.wikipedia.org/wiki/Sega#/media/File:Sega_logo.svg",
+            hex:"0089CF",title:"Sega",source:"https://commons.wikimedia.org/wiki/File:SEGA_logo.svg",
         }
         ,[SimpleIcons.Selenium]: {
             hex:"43B02A",title:"Selenium",source:"https://github.com/SeleniumHQ/heroku-selenium/blob/2f66891ba030d3aa1f36ab1748c52ba4fb4e057d/selenium-green.svg",
         }
         ,[SimpleIcons.Sellfy]: {
             hex:"21B352",title:"Sellfy",source:"https://sellfy.com/about/",
+        }
+        ,[SimpleIcons.SemanticScholar]: {
+            hex:"1857B6",title:"Semantic Scholar",source:"https://www.semanticscholar.org/about",
+        }
+        ,[SimpleIcons.SemanticUI]: {
+            hex:"00B5AD",title:"Semantic UI",source:"https://semantic-ui.com",
         }
         ,[SimpleIcons.SemanticUIReact]: {
             hex:"35BDB2",title:"Semantic UI React",source:"https://react.semantic-ui.com",
@@ -14065,19 +23100,22 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"494949",title:"semantic-release",source:"https://github.com/semantic-release/semantic-release/blob/85bc213f04445a9bb8f19e5d45d6ecd7acccf841/media/semantic-release-logo.svg",
         }
         ,[SimpleIcons.SemaphoreCI]: {
-            hex:"19A974",title:"Semaphore CI",source:"https://semaphoreci.com/",
+            hex:"19A974",title:"Semaphore CI",source:"https://semaphoreci.com",
+        }
+        ,[SimpleIcons.Semrush]: {
+            hex:"FF642D",title:"Semrush",source:"https://www.semrush.com",
         }
         ,[SimpleIcons.SemVer]: {
             hex:"3F4551",title:"SemVer",source:"https://github.com/semver/semver.org/blob/b6983849e38911195a24357809187c2f50af0d40/assets/500x500(light).jpg",
         }
         ,[SimpleIcons.Sencha]: {
-            hex:"86BC40",title:"Sencha",source:"http://design.sencha.com/",
+            hex:"86BC40",title:"Sencha",source:"https://design.sencha.com",
         }
         ,[SimpleIcons.Sennheiser]: {
             hex:"000000",title:"Sennheiser",source:"https://sennheiser.com",
         }
         ,[SimpleIcons.Sensu]: {
-            hex:"89C967",title:"Sensu",source:"https://github.com/sensu/sensu-go/blob/master/dashboard/src/assets/logo/graphic/green.svg",
+            hex:"89C967",title:"Sensu",source:"https://github.com/sensu/web/blob/c823738c11e576d6b2e5d4ca2d216dbd472c0b11/src/assets/logo/graphic/green.svg",
         }
         ,[SimpleIcons.Sentry]: {
             hex:"362D59",title:"Sentry",source:"https://sentry.io/branding/",
@@ -14085,29 +23123,50 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.SEPA]: {
             hex:"2350A9",title:"SEPA",source:"https://www.europeanpaymentscouncil.eu/document-library/other/sepa-logo-vector-format",
         }
+        ,[SimpleIcons.Sequelize]: {
+            hex:"52B0E7",title:"Sequelize",source:"https://github.com/sequelize/website/blob/e6a482fa58a839b15ace80e3c8901ed2887be45e/static/img/logo-simple.svg",
+        }
         ,[SimpleIcons.ServerFault]: {
-            hex:"E7282D",title:"Server Fault",source:"http://stackoverflow.com/company/logos",
+            hex:"E7282D",title:"Server Fault",source:"https://stackoverflow.com/company/logos",
         }
         ,[SimpleIcons.Serverless]: {
-            hex:"FD5750",title:"Serverless",source:"https://serverless.com/",
+            hex:"FD5750",title:"Serverless",source:"https://serverless.com",
+        }
+        ,[SimpleIcons.Session]: {
+            hex:"000000",title:"Session",source:"https://getsession.org",
+        }
+        ,[SimpleIcons.Sessionize]: {
+            hex:"1AB394",title:"Sessionize",source:"https://sessionize.com/brand",
+        }
+        ,[SimpleIcons.Setapp]: {
+            hex:"E6C3A5",title:"Setapp",source:"https://setapp.com",
         }
         ,[SimpleIcons.SFML]: {
             hex:"8CC445",title:"SFML",source:"https://www.sfml-dev.org/download/goodies/",
         }
+        ,[SimpleIcons.Shadcn_ui]: {
+            hex:"000000",title:"shadcn/ui",source:"https://ui.shadcn.com",
+        }
+        ,[SimpleIcons.Shadow]: {
+            hex:"0A0C0D",title:"Shadow",source:"https://shadow.tech",
+        }
         ,[SimpleIcons.ShanghaiMetro]: {
             hex:"EC1C24",title:"Shanghai Metro",source:"https://en.wikipedia.org/wiki/File:Shanghai_Metro_Full_Logo.svg",
+        }
+        ,[SimpleIcons.ShareX]: {
+            hex:"2885F1",title:"ShareX",source:"https://getsharex.com/brand-assets",
         }
         ,[SimpleIcons.Sharp]: {
             hex:"99CC00",title:"sharp",source:"https://github.com/lovell/sharp/blob/315f519e1dd9adca0678e94a5ed0492cb5e0aae4/docs/image/sharp-logo-mono.svg",
         }
         ,[SimpleIcons.Shazam]: {
-            hex:"0088FF",title:"Shazam",source:"https://brandfolder.com/shazam",
+            hex:"0088FF",title:"Shazam",source:"https://www.shazam.com",
         }
         ,[SimpleIcons.Shell]: {
             hex:"FFD500",title:"Shell",source:"https://en.wikipedia.org/wiki/File:Shell_logo.svg",
         }
         ,[SimpleIcons.Shelly]: {
-            hex:"4495D1",title:"Shelly",source:"https://shelly.cloud/",
+            hex:"4495D1",title:"Shelly",source:"https://shelly.cloud",
         }
         ,[SimpleIcons.ShenzhenMetro]: {
             hex:"009943",title:"Shenzhen Metro",source:"https://en.wikipedia.org/wiki/File:Shenzhen_Metro_Corporation_logo_full.svg",
@@ -14118,74 +23177,107 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Shikimori]: {
             hex:"343434",title:"Shikimori",source:"https://shikimori.one",
         }
+        ,[SimpleIcons.Shopee]: {
+            hex:"EE4D2D",title:"Shopee",source:"https://shopee.com",
+        }
         ,[SimpleIcons.Shopify]: {
-            hex:"7AB55C",title:"Shopify",source:"https://press.shopify.com/brand",
+            hex:"7AB55C",title:"Shopify",source:"https://www.shopify.com/brand-assets",
         }
         ,[SimpleIcons.Shopware]: {
             hex:"189EFF",title:"Shopware",source:"https://www.shopware.com/en/press/press-material/",
         }
-        ,[SimpleIcons.Shotcut]: {
-            hex:"115C77",title:"Shotcut",source:"https://shotcut.com/media/",
+        ,[SimpleIcons.Shortcut]: {
+            hex:"58B1E4",title:"Shortcut",source:"https://www.shortcut.com/branding",
         }
         ,[SimpleIcons.Showpad]: {
-            hex:"2D2E83",title:"Showpad",source:"https://www.showpad.com/",
+            hex:"2D2E83",title:"Showpad",source:"https://www.showpad.com",
         }
         ,[SimpleIcons.Showtime]: {
             hex:"B10000",title:"Showtime",source:"https://commons.wikimedia.org/wiki/File:Showtime.svg",
         }
+        ,[SimpleIcons.Showwcase]: {
+            hex:"0A0D14",title:"Showwcase",source:"https://www.showwcase.com",
+        }
         ,[SimpleIcons.Shutterstock]: {
             hex:"EE2B24",title:"Shutterstock",source:"https://www.shutterstock.com/press/media",
         }
+        ,[SimpleIcons.Sidekiq]: {
+            hex:"B1003E",title:"Sidekiq",source:"https://sidekiq.org/about.html",
+        }
+        ,[SimpleIcons.SideQuest]: {
+            hex:"101227",title:"SideQuest",source:"https://sidequestvr.com/branding",
+        }
         ,[SimpleIcons.Siemens]: {
-            hex:"009999",title:"Siemens",source:"https://siemens.com/",
+            hex:"009999",title:"Siemens",source:"https://siemens.com",
+        }
+        ,[SimpleIcons.SiFive]: {
+            hex:"252323",title:"SiFive",source:"https://www.sifive.com",
         }
         ,[SimpleIcons.Signal]: {
-            hex:"2592E9",title:"Signal",source:"https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms",
+            hex:"3A76F0",title:"Signal",source:"https://github.com/signalapp/Signal-Desktop/blob/9db8765b6cf270195e45a7f251374d4e53d54c95/images/signal-logo.svg",
+        }
+        ,[SimpleIcons.Similarweb]: {
+            hex:"092540",title:"Similarweb",source:"https://www.similarweb.com",
         }
         ,[SimpleIcons.Simkl]: {
             hex:"000000",title:"Simkl",source:"https://simkl.com",
         }
         ,[SimpleIcons.SimpleAnalytics]: {
-            hex:"FF4F64",title:"Simple Analytics",source:"https://simpleanalytics.com/",
+            hex:"FF4F64",title:"Simple Analytics",source:"https://simpleanalytics.com",
         }
         ,[SimpleIcons.SimpleIcons]: {
-            hex:"111111",title:"Simple Icons",source:"https://simpleicons.org/",
+            hex:"111111",title:"Simple Icons",source:"https://simpleicons.org",
+        }
+        ,[SimpleIcons.SimpleLogin]: {
+            hex:"EA319F",title:"SimpleLogin",source:"https://simplelogin.io/press",
+        }
+        ,[SimpleIcons.Simplenote]: {
+            hex:"3361CC",title:"Simplenote",source:"https://en.wikipedia.org/wiki/File:Simplenote_logo.svg",
         }
         ,[SimpleIcons.SinaWeibo]: {
             hex:"E6162D",title:"Sina Weibo",source:"https://en.wikipedia.org/wiki/Sina_Weibo",
         }
+        ,[SimpleIcons.SingaporeAirlines]: {
+            hex:"F99F1C",title:"Singapore Airlines",source:"https://www.singaporeair.com",
+        }
         ,[SimpleIcons.SingleStore]: {
             hex:"AA00FF",title:"SingleStore",source:"https://www.singlestore.com/brand/",
         }
+        ,[SimpleIcons.Sitecore]: {
+            hex:"EB1F1F",title:"Sitecore",source:"https://www.sitecore.com",
+        }
         ,[SimpleIcons.SitePoint]: {
-            hex:"258AAF",title:"SitePoint",source:"http://www.sitepoint.com",
+            hex:"258AAF",title:"SitePoint",source:"https://www.sitepoint.com",
+        }
+        ,[SimpleIcons.SiYuan]: {
+            hex:"D23F31",title:"SiYuan",source:"https://b3log.org/brand-marking.html",
+        }
+        ,[SimpleIcons.Skaffold]: {
+            hex:"2AA2D6",title:"Skaffold",source:"https://github.com/GoogleContainerTools/skaffold/blob/9376dc047aded2adb188f599267fbb829a327dfd/logo/skaffold.eps",
         }
         ,[SimpleIcons.Sketch]: {
-            hex:"F7B500",title:"Sketch",source:"https://www.sketch.com/press/",
+            hex:"F7B500",title:"Sketch",source:"https://www.sketch.com/about-us/#press",
         }
         ,[SimpleIcons.Sketchfab]: {
             hex:"1CAAD9",title:"Sketchfab",source:"https://sketchfab.com/press",
         }
         ,[SimpleIcons.SketchUp]: {
-            hex:"005F9E",title:"SketchUp",source:"https://www.sketchup.com/themes/sketchup_www_terra/images/SketchUp-Horizontal-RGB.svg",
+            hex:"005F9E",title:"SketchUp",source:"https://www.sketchup.com",
         }
         ,[SimpleIcons.Skillshare]: {
             hex:"00FF84",title:"Skillshare",source:"https://www.skillshare.com",
         }
         ,[SimpleIcons._KODA]: {
-            hex:"4BA82E",title:"ŠKODA",source:"https://en.wikipedia.org/wiki/File:Skoda_Auto_logo_(2011).svg",
+            hex:"0E3A2F",title:"ŠKODA",source:"https://www.skoda-connect.com",
         }
         ,[SimpleIcons.Sky]: {
-            hex:"0072C9",title:"Sky",source:"https://www.skysports.com/",
+            hex:"0072C9",title:"Sky",source:"https://www.skysports.com",
         }
-        ,[SimpleIcons.Skyliner]: {
-            hex:"2FCEA0",title:"Skyliner",source:"https://www.skyliner.io/help",
+        ,[SimpleIcons.Skypack]: {
+            hex:"3167FF",title:"Skypack",source:"https://skypack.dev",
         }
-        ,[SimpleIcons.Skype]: {
-            hex:"00AFF0",title:"Skype",source:"http://blogs.skype.com/?attachment_id=56273",
-        }
-        ,[SimpleIcons.SkypeForBusiness]: {
-            hex:"00AFF0",title:"Skype for Business",source:"https://en.wikipedia.org/wiki/Skype_for_Business_Server",
+        ,[SimpleIcons.Skyrock]: {
+            hex:"009AFF",title:"Skyrock",source:"https://www.svgrepo.com/svg/54507/skyrock-logo",
         }
         ,[SimpleIcons.Slack]: {
             hex:"4A154B",title:"Slack",source:"https://slack.com/brand-guidelines",
@@ -14197,7 +23289,7 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"026664",title:"Slashdot",source:"https://commons.wikimedia.org/wiki/File:Slashdot_wordmark_and_logo.svg",
         }
         ,[SimpleIcons.SlickPic]: {
-            hex:"FF880F",title:"SlickPic",source:"https://www.slickpic.com/",
+            hex:"FF880F",title:"SlickPic",source:"https://www.slickpic.com",
         }
         ,[SimpleIcons.Slides]: {
             hex:"E4637C",title:"Slides",source:"https://slides.com/about",
@@ -14205,8 +23297,11 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.SlideShare]: {
             hex:"008ED2",title:"SlideShare",source:"https://www.slideshare.net/ss/creators/",
         }
+        ,[SimpleIcons.Slint]: {
+            hex:"2379F4",title:"Slint",source:"https://github.com/slint-ui/slint/blob/10ae5cd60ab3fcd01ef89a300c97e2e0952bc750/logo/slint-logo-full-dark.png",
+        }
         ,[SimpleIcons.Smart]: {
-            hex:"FABC0C",title:"smart",source:"https://www.smart.com/gb/en/models/eq-fortwo-coupe",
+            hex:"D7E600",title:"smart",source:"https://global.smart.com",
         }
         ,[SimpleIcons.SmartThings]: {
             hex:"15BFFF",title:"SmartThings",source:"https://www.smartthings.com/press-kit",
@@ -14215,58 +23310,85 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"CB333B",title:"smash.gg",source:"https://help.smash.gg/en/articles/1716774-smash-gg-brand-guidelines",
         }
         ,[SimpleIcons.SmashingMagazine]: {
-            hex:"E85C33",title:"Smashing Magazine",source:"https://www.smashingmagazine.com/",
+            hex:"E85C33",title:"Smashing Magazine",source:"https://www.smashingmagazine.com",
         }
         ,[SimpleIcons.SMRT]: {
             hex:"EE2E24",title:"SMRT",source:"https://commons.wikimedia.org/wiki/File:SMRT_Corporation.svg",
         }
         ,[SimpleIcons.SmugMug]: {
-            hex:"6DB944",title:"SmugMug",source:"https://help.smugmug.com/using-smugmug's-logo-HJulJePkEBf",
+            hex:"6DB944",title:"SmugMug",source:"https://www.smugmughelp.com/articles/409-smugmug-s-logo-and-usage",
         }
         ,[SimpleIcons.Snapchat]: {
             hex:"FFFC00",title:"Snapchat",source:"https://www.snapchat.com/brand-guidelines",
         }
         ,[SimpleIcons.Snapcraft]: {
-            hex:"82BEA0",title:"Snapcraft",source:"https://github.com/snapcore/snap-store-badges",
+            hex:"82BEA0",title:"Snapcraft",source:"https://github.com/snapcore/snap-store-badges/tree/eda2cb0495ef7f4d479e231079967c9d27f2bc70",
+        }
+        ,[SimpleIcons.SNCF]: {
+            hex:"CA0939",title:"SNCF",source:"https://www.sncf.com",
+        }
+        ,[SimpleIcons.Snort]: {
+            hex:"F6A7AA",title:"Snort",source:"https://snort.org",
         }
         ,[SimpleIcons.Snowflake]: {
-            hex:"56B9EB",title:"Snowflake",source:"https://www.snowflake.com/about/press-and-news/",
+            hex:"29B5E8",title:"Snowflake",source:"https://www.snowflake.com/brand-guidelines/",
+        }
+        ,[SimpleIcons.Snowpack]: {
+            hex:"2E5E82",title:"Snowpack",source:"https://www.snowpack.dev",
         }
         ,[SimpleIcons.Snyk]: {
             hex:"4C4A73",title:"Snyk",source:"https://snyk.io/press-kit",
         }
+        ,[SimpleIcons.SocialBlade]: {
+            hex:"B3382C",title:"Social Blade",source:"https://socialblade.com/info/media",
+        }
         ,[SimpleIcons.Society6]: {
-            hex:"000000",title:"Society6",source:"https://blog.society6.com/app/themes/society6/dist/images/mark.svg",
+            hex:"000000",title:"Society6",source:"https://society6.com",
         }
         ,[SimpleIcons.SocketIo]: {
             hex:"010101",title:"Socket.io",source:"https://socket.io",
         }
+        ,[SimpleIcons.Softpedia]: {
+            hex:"002873",title:"Softpedia",source:"https://commons.wikimedia.org/wiki/File:Softpedia_logo.svg",
+        }
         ,[SimpleIcons.Sogou]: {
-            hex:"FB6022",title:"Sogou",source:"https://www.sogou.com/",
+            hex:"FB6022",title:"Sogou",source:"https://www.sogou.com",
+        }
+        ,[SimpleIcons.Solana]: {
+            hex:"9945FF",title:"Solana",source:"https://solana.com/branding",
+        }
+        ,[SimpleIcons.Solid]: {
+            hex:"2C4F7C",title:"Solid",source:"https://www.solidjs.com/media",
         }
         ,[SimpleIcons.Solidity]: {
-            hex:"363636",title:"Solidity",source:"https://docs.soliditylang.org/en/v0.7.4/brand-guide.html",
+            hex:"363636",title:"Solidity",source:"https://docs.soliditylang.org/en/v0.8.6/brand-guide.html",
         }
-        ,[SimpleIcons.SoloLearn]: {
-            hex:"1ABC9C",title:"SoloLearn",source:"https://www.sololearn.com/",
+        ,[SimpleIcons.Sololearn]: {
+            hex:"149EF2",title:"Sololearn",source:"https://www.sololearn.com",
         }
         ,[SimpleIcons.Solus]: {
             hex:"5294E2",title:"Solus",source:"https://getsol.us/branding/",
+        }
+        ,[SimpleIcons.Sonar]: {
+            hex:"FD3456",title:"Sonar",source:"https://www.sonarsource.com",
         }
         ,[SimpleIcons.SonarCloud]: {
             hex:"F3702A",title:"SonarCloud",source:"https://sonarcloud.io/about",
         }
         ,[SimpleIcons.SonarLint]: {
-            hex:"CB2029",title:"SonarLint",source:"https://www.sonarsource.com",
+            hex:"CB2029",title:"SonarLint",source:"https://www.sonarlint.org/logos/",
         }
         ,[SimpleIcons.SonarQube]: {
             hex:"4E9BCD",title:"SonarQube",source:"https://www.sonarqube.org/logos/",
         }
-        ,[SimpleIcons.SonarSource]: {
-            hex:"CB3032",title:"SonarSource",source:"https://www.sonarsource.com/",
+        ,[SimpleIcons.Sonarr]: {
+            hex:"2596BE",title:"sonarr",source:"https://github.com/Sonarr/Sonarr/blob/913b845faadc3c9fc005abfba815426743d01bdf/Logo/Sonarr.svg",
+        }
+        ,[SimpleIcons.Sonatype]: {
+            hex:"1B1C30",title:"Sonatype",source:"https://www.sonatype.com/company/press-kit",
         }
         ,[SimpleIcons.Songkick]: {
-            hex:"F80046",title:"Songkick",source:"http://blog.songkick.com/media-assets",
+            hex:"F80046",title:"Songkick",source:"https://www.songkick.com/style-guide/design",
         }
         ,[SimpleIcons.Songoda]: {
             hex:"FC494A",title:"Songoda",source:"https://songoda.com/branding",
@@ -14277,101 +23399,164 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Sonos]: {
             hex:"000000",title:"Sonos",source:"https://www.sonos.com/en-gb/home",
         }
+        ,[SimpleIcons.Sony]: {
+            hex:"FFFFFF",title:"Sony",source:"https://www.sony.com",
+        }
+        ,[SimpleIcons.Soriana]: {
+            hex:"D52B1E",title:"Soriana",source:"https://www.soriana.com",
+        }
+        ,[SimpleIcons.Soundcharts]: {
+            hex:"0C1528",title:"Soundcharts",source:"https://soundcharts.com/img/soundcharts-logo.svg",
+        }
         ,[SimpleIcons.SoundCloud]: {
-            hex:"FF3300",title:"SoundCloud",source:"https://soundcloud.com/press",
+            hex:"FF5500",title:"SoundCloud",source:"https://press.soundcloud.com",
         }
         ,[SimpleIcons.SourceEngine]: {
             hex:"F79A10",title:"Source Engine",source:"https://developer.valvesoftware.com/favicon.ico",
         }
         ,[SimpleIcons.SourceForge]: {
-            hex:"FF6600",title:"SourceForge",source:"https://sourceforge.net/",
+            hex:"FF6600",title:"SourceForge",source:"https://sourceforge.net",
         }
-        ,[SimpleIcons.Sourcegraph]: {
-            hex:"00B4F2",title:"Sourcegraph",source:"https://sourcegraph.com/.assets/img",
+        ,[SimpleIcons.SourceHut]: {
+            hex:"000000",title:"SourceHut",source:"https://sourcehut.org/logo/",
+        }
+        ,[SimpleIcons.Sourcetree]: {
+            hex:"0052CC",title:"Sourcetree",source:"https://atlassian.design/resources/logo-library",
         }
         ,[SimpleIcons.SouthwestAirlines]: {
-            hex:"304CB2",title:"Southwest Airlines",source:"https://www.southwest.com/",
+            hex:"304CB2",title:"Southwest Airlines",source:"https://www.southwest.com",
         }
         ,[SimpleIcons.Spacemacs]: {
-            hex:"9266CC",title:"Spacemacs",source:"http://spacemacs.org/",
+            hex:"9266CC",title:"Spacemacs",source:"https://spacemacs.org",
+        }
+        ,[SimpleIcons.Spaceship]: {
+            hex:"394EFF",title:"Spaceship",source:"https://www.spaceship.com",
         }
         ,[SimpleIcons.SpaceX]: {
-            hex:"000000",title:"SpaceX",source:"https://www.spacex.com/",
+            hex:"000000",title:"SpaceX",source:"https://www.spacex.com",
+        }
+        ,[SimpleIcons.SpaCy]: {
+            hex:"09A3D5",title:"spaCy",source:"https://github.com/explosion/spaCy/blob/c17980e535a8009b14ee4d1f818db207d9c07e55/website/src/images/logo.svg",
         }
         ,[SimpleIcons.SparkAR]: {
-            hex:"FF5C83",title:"Spark AR",source:"https://sparkar.facebook.com/",
+            hex:"FF5C83",title:"Spark AR",source:"https://sparkar.facebook.com",
         }
         ,[SimpleIcons.Sparkasse]: {
-            hex:"FF0000",title:"Sparkasse",source:"https://www.sparkasse.de/",
+            hex:"FF0000",title:"Sparkasse",source:"https://www.sparkasse.de",
         }
         ,[SimpleIcons.SparkFun]: {
             hex:"E53525",title:"SparkFun",source:"https://www.sparkfun.com/brand_assets",
         }
         ,[SimpleIcons.SparkPost]: {
-            hex:"FA6423",title:"SparkPost",source:"https://www.sparkpost.com/",
+            hex:"FA6423",title:"SparkPost",source:"https://www.sparkpost.com/press-kit/",
         }
         ,[SimpleIcons.SPDX]: {
             hex:"4398CC",title:"SPDX",source:"https://spdx.org/Resources",
         }
         ,[SimpleIcons.SpeakerDeck]: {
-            hex:"009287",title:"Speaker Deck",source:"https://speakerdeck.com/",
+            hex:"009287",title:"Speaker Deck",source:"https://speakerdeck.com",
         }
         ,[SimpleIcons.Spectrum]: {
             hex:"7B16FF",title:"Spectrum",source:"https://spectrum.chat",
         }
         ,[SimpleIcons.Speedtest]: {
-            hex:"141526",title:"Speedtest",source:"https://www.speedtest.net/",
+            hex:"141526",title:"Speedtest",source:"https://www.speedtest.net",
+        }
+        ,[SimpleIcons.SpeedyPage]: {
+            hex:"1C71F9",title:"SpeedyPage",source:"https://speedypage.com",
+        }
+        ,[SimpleIcons.Spoj]: {
+            hex:"337AB7",title:"Sphere Online Judge",source:"https://www.spoj.com",slug:"spoj"
+        }
+        ,[SimpleIcons.Sphinx]: {
+            hex:"000000",title:"Sphinx",source:"https://github.com/sphinx-doc/sphinx/blob/ed84d63e6f2c4fd43b97fc43ee8be4156a13af9e/doc/_static/favicon.svg",
+        }
+        ,[SimpleIcons.SpigotMC]: {
+            hex:"ED8106",title:"SpigotMC",source:"https://www.spigotmc.org",
+        }
+        ,[SimpleIcons.Spine]: {
+            hex:"FF4000",title:"Spine",source:"https://esotericsoftware.com/branding",
         }
         ,[SimpleIcons.Spinnaker]: {
-            hex:"139BB4",title:"Spinnaker",source:"https://github.com/spinnaker/spinnaker.github.io/tree/master/assets/images",
+            hex:"139BB4",title:"Spinnaker",source:"https://github.com/spinnaker/spinnaker.github.io/tree/0cdd37af7541293a810494a1bb4d7df9ef553d60/assets/images",
         }
         ,[SimpleIcons.Spinrilla]: {
             hex:"460856",title:"Spinrilla",source:"https://spinrilla.com",
         }
         ,[SimpleIcons.Splunk]: {
-            hex:"000000",title:"Splunk",source:"https://www.splunk.com/",
+            hex:"000000",title:"Splunk",source:"https://www.splunk.com",
+        }
+        ,[SimpleIcons.Spond]: {
+            hex:"EE4353",title:"Spond",source:"https://spond.com",
         }
         ,[SimpleIcons.Spotify]: {
-            hex:"1ED760",title:"Spotify",source:"https://developer.spotify.com/design",
+            hex:"1DB954",title:"Spotify",source:"https://developer.spotify.com/documentation/general/design-and-branding/#using-our-logo",
         }
         ,[SimpleIcons.Spotlight]: {
-            hex:"352A71",title:"Spotlight",source:"https://www.spotlight.com/",
+            hex:"352A71",title:"Spotlight",source:"https://www.spotlight.com",
+        }
+        ,[SimpleIcons.Spreadshirt]: {
+            hex:"00B2A5",title:"Spreadshirt",source:"https://www.spreadshirt.ie",
         }
         ,[SimpleIcons.Spreaker]: {
-            hex:"F5C300",title:"Spreaker",source:"http://www.spreaker.com/press",
+            hex:"F5C300",title:"Spreaker",source:"https://www.spreaker.com",
         }
         ,[SimpleIcons.Spring]: {
             hex:"6DB33F",title:"Spring",source:"https://spring.io/trademarks",
         }
+        ,[SimpleIcons.SpringCreators]: {
+            hex:"000000",title:"Spring",source:"https://www.spri.ng",slug:"spring_creators"
+        }
         ,[SimpleIcons.SpringBoot]: {
             hex:"6DB33F",title:"Spring Boot",source:"https://spring.io/projects",
         }
+        ,[SimpleIcons.SpringSecurity]: {
+            hex:"6DB33F",title:"Spring Security",source:"https://spring.io/projects",
+        }
         ,[SimpleIcons.SpyderIDE]: {
-            hex:"FF0000",title:"Spyder IDE",source:"https://www.spyder-ide.org/",
+            hex:"FF0000",title:"Spyder IDE",source:"https://www.spyder-ide.org",
+        }
+        ,[SimpleIcons.SQLAlchemy]: {
+            hex:"D71F00",title:"SQLAlchemy",source:"https://commons.wikimedia.org/wiki/File:SQLAlchemy.svg",
         }
         ,[SimpleIcons.SQLite]: {
             hex:"003B57",title:"SQLite",source:"https://github.com/sqlite/sqlite/blob/43e862723ec680542ca6f608f9963c0993dd7324/art/sqlite370.eps",
         }
         ,[SimpleIcons.Square]: {
-            hex:"3E4348",title:"Square",source:"https://squareup.com/",
+            hex:"3E4348",title:"Square",source:"https://squareup.com",
         }
         ,[SimpleIcons.SquareEnix]: {
-            hex:"ED1C24",title:"Square Enix",source:"https://www.square-enix.com/",
+            hex:"ED1C24",title:"Square Enix",source:"https://www.square-enix.com",
         }
         ,[SimpleIcons.Squarespace]: {
-            hex:"000000",title:"Squarespace",source:"http://squarespace.com/brand-guidelines",
+            hex:"000000",title:"Squarespace",source:"https://www.squarespace.com/logo-guidelines",
+        }
+        ,[SimpleIcons.SRGSSR]: {
+            hex:"AF001E",title:"SRG SSR",source:"https://www.srgssr.ch/en/news-media/downloads/logos",
         }
         ,[SimpleIcons.SSRN]: {
             hex:"154881",title:"SSRN",source:"https://www.ssrn.com",
         }
+        ,[SimpleIcons.SST]: {
+            hex:"E27152",title:"SST",source:"https://sst.dev",
+        }
         ,[SimpleIcons.StackExchange]: {
-            hex:"1E5397",title:"Stack Exchange",source:"http://stackoverflow.com/company/logos",
+            hex:"1E5397",title:"Stack Exchange",source:"https://stackoverflow.com/company/logos",
         }
         ,[SimpleIcons.StackOverflow]: {
             hex:"F58025",title:"Stack Overflow",source:"https://stackoverflow.design/brand/logo/",
         }
         ,[SimpleIcons.Stackbit]: {
             hex:"207BEA",title:"Stackbit",source:"https://www.stackbit.com/branding-guidelines/",
+        }
+        ,[SimpleIcons.StackBlitz]: {
+            hex:"1269D3",title:"StackBlitz",source:"https://stackblitz.com",
+        }
+        ,[SimpleIcons.StackEdit]: {
+            hex:"606060",title:"StackEdit",source:"https://github.com/benweet/stackedit/blob/46383b5b6a54b65b8720d786ed0a0518b9ad652d/src/assets/iconStackedit.svg",
+        }
+        ,[SimpleIcons.StackHawk]: {
+            hex:"00CBC6",title:"StackHawk",source:"https://www.stackhawk.com/press/",
         }
         ,[SimpleIcons.StackPath]: {
             hex:"000000",title:"StackPath",source:"https://www.stackpath.com/company/logo-and-branding/",
@@ -14385,74 +23570,113 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Staffbase]: {
             hex:"00A4FD",title:"Staffbase",source:"https://staffbase.com/en/about/press-assets/",
         }
+        ,[SimpleIcons.Stagetimer]: {
+            hex:"00A66C",title:"Stagetimer",source:"https://stagetimer.io",
+        }
+        ,[SimpleIcons.StandardResume]: {
+            hex:"2A3FFB",title:"Standard Resume",source:"https://standardresume.co/press",
+        }
+        ,[SimpleIcons.StandardJS]: {
+            hex:"F3DF49",title:"StandardJS",source:"https://github.com/standard/standard/blob/6516bf87f127b7968c34cac0100d48d6c455a891/sticker.svg",
+        }
         ,[SimpleIcons.StarTrek]: {
-            hex:"FFE200",title:"Star Trek",source:"https://intl.startrek.com/",
+            hex:"FFE200",title:"Star Trek",source:"https://intl.startrek.com",
+        }
+        ,[SimpleIcons.Starbucks]: {
+            hex:"006241",title:"Starbucks",source:"https://starbucks.com",
+        }
+        ,[SimpleIcons.Stardock]: {
+            hex:"004B8D",title:"Stardock",source:"https://www.stardock.com/press/stardock%20branding/",
         }
         ,[SimpleIcons.StarlingBank]: {
-            hex:"7433FF",title:"Starling Bank",source:"https://www.starlingbank.com/media/",
+            hex:"6935D3",title:"Starling Bank",source:"https://www.starlingbank.com/media/",
         }
         ,[SimpleIcons.Starship]: {
-            hex:"DD0B78",title:"Starship",source:"https://starship.rs/",
+            hex:"DD0B78",title:"Starship",source:"https://starship.rs",
         }
         ,[SimpleIcons.STARZ]: {
-            hex:"000000",title:"STARZ",source:"https://www.starz.com/StaticContent/Prod/guides/starzlibrary/",
+            hex:"082125",title:"STARZ",source:"https://www.starz.com/takethelead",
         }
         ,[SimpleIcons.Statamic]: {
             hex:"FF269E",title:"Statamic",source:"https://statamic.com/branding",
+        }
+        ,[SimpleIcons.Statista]: {
+            hex:"001327",title:"Statista",source:"https://www.statista.com",
         }
         ,[SimpleIcons.Statuspage]: {
             hex:"172B4D",title:"Statuspage",source:"https://www.atlassian.com/company/news/press-kit",
         }
         ,[SimpleIcons.Statuspal]: {
-            hex:"4934BF",title:"Statuspal",source:"https://statuspal.io/",
+            hex:"4934BF",title:"Statuspal",source:"https://statuspal.io",
         }
         ,[SimpleIcons.Steam]: {
-            hex:"000000",title:"Steam",source:"https://partner.steamgames.com/public/marketing/Steam_Guidelines_02102016.pdf",
+            hex:"000000",title:"Steam",source:"https://partner.steamgames.com/doc/marketing/branding",
+        }
+        ,[SimpleIcons.SteamDeck]: {
+            hex:"1A9FFF",title:"Steam Deck",source:"https://partner.steamgames.com/doc/marketing/branding",
         }
         ,[SimpleIcons.SteamDB]: {
-            hex:"000000",title:"SteamDB",source:"https://steamdb.info/",
+            hex:"000000",title:"SteamDB",source:"https://steamdb.info",
         }
         ,[SimpleIcons.Steamworks]: {
-            hex:"1E1E1E",title:"Steamworks",source:"https://partner.steamgames.com/",
+            hex:"1E1E1E",title:"Steamworks",source:"https://partner.steamgames.com",
+        }
+        ,[SimpleIcons.Steelseries]: {
+            hex:"FF5200",title:"Steelseries",source:"https://techblog.steelseries.com/ux-guide/index.html",
         }
         ,[SimpleIcons.Steem]: {
             hex:"171FC9",title:"Steem",source:"https://steem.com/brand/",
         }
         ,[SimpleIcons.Steemit]: {
-            hex:"06D6A9",title:"Steemit",source:"https://steemit.com/",
+            hex:"06D6A9",title:"Steemit",source:"https://steemit.com",
         }
         ,[SimpleIcons.Steinberg]: {
-            hex:"C90827",title:"Steinberg",source:"https://www.steinberg.net/en/company/press.html",
+            hex:"C90827",title:"Steinberg",source:"https://new.steinberg.net/press/",
         }
         ,[SimpleIcons.Stellar]: {
-            hex:"7D00FF",title:"Stellar",source:"https://www.stellar.org/blog/announcing-the-new-stellar-logo",
+            hex:"7D00FF",title:"Stellar",source:"https://www.stellar.org/press",
+        }
+        ,[SimpleIcons.Stencil]: {
+            hex:"5530FF",title:"Stencil",source:"https://ionic.io/ionicons",
         }
         ,[SimpleIcons.Stencyl]: {
-            hex:"8E1C04",title:"Stencyl",source:"http://www.stencyl.com/about/press/",
+            hex:"8E1C04",title:"Stencyl",source:"https://www.stencyl.com/about/press/",
         }
         ,[SimpleIcons.Stimulus]: {
-            hex:"77E8B9",title:"Stimulus",source:"https://stimulus.hotwire.dev/",
+            hex:"77E8B9",title:"Stimulus",source:"https://stimulus.hotwire.dev",
         }
         ,[SimpleIcons.Stitcher]: {
-            hex:"000000",title:"Stitcher",source:"https://partners.stitcher.com/",
+            hex:"000000",title:"Stitcher",source:"https://partners.stitcher.com",
         }
         ,[SimpleIcons.STMicroelectronics]: {
-            hex:"03234B",title:"STMicroelectronics",source:"https://www.st.com/",
+            hex:"03234B",title:"STMicroelectronics",source:"https://www.st.com",
+        }
+        ,[SimpleIcons.StockX]: {
+            hex:"006340",title:"StockX",source:"https://stockx.com/about/brand-assets",
+        }
+        ,[SimpleIcons.StopStalk]: {
+            hex:"536DFE",title:"StopStalk",source:"https://github.com/stopstalk/media-resources/blob/265b728c26ba597b957e72134a3b49a10dc0c91d/stopstalk-small-black.svg",
         }
         ,[SimpleIcons.Storyblok]: {
             hex:"09B3AF",title:"Storyblok",source:"https://www.storyblok.com/press",
         }
         ,[SimpleIcons.Storybook]: {
-            hex:"FF4785",title:"Storybook",source:"https://github.com/storybookjs/brand",
+            hex:"FF4785",title:"Storybook",source:"https://github.com/storybookjs/brand/tree/6f4d67f65f8275c53c310a73a8da6c6e96c8488c",
         }
         ,[SimpleIcons.Strapi]: {
-            hex:"2F2E8B",title:"Strapi",source:"https://strapi.io/newsroom",
+            hex:"4945FF",title:"Strapi",source:"https://handbook.strapi.io/strapi-brand-book-2022/strapi-logo",
         }
         ,[SimpleIcons.Strava]: {
             hex:"FC4C02",title:"Strava",source:"https://itunes.apple.com/us/app/strava-running-and-cycling-gps/id426826309",
         }
+        ,[SimpleIcons.Streamlabs]: {
+            hex:"80F5D2",title:"Streamlabs",source:"https://streamlabs.com/about",
+        }
         ,[SimpleIcons.Streamlit]: {
             hex:"FF4B4B",title:"Streamlit",source:"https://www.streamlit.io/brand",
+        }
+        ,[SimpleIcons.StreamRunners]: {
+            hex:"6644F8",title:"StreamRunners",source:"https://streamrunners.fr",
         }
         ,[SimpleIcons.Stripe]: {
             hex:"008CDD",title:"Stripe",source:"https://stripe.com/about/resources",
@@ -14460,32 +23684,44 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.StrongSwan]: {
             hex:"E00033",title:"strongSwan",source:"https://www.strongswan.org/images/",
         }
+        ,[SimpleIcons.Stryker]: {
+            hex:"E74C3C",title:"Stryker",source:"https://stryker-mutator.io",
+        }
         ,[SimpleIcons.StubHub]: {
-            hex:"003168",title:"StubHub",source:"http://www.stubhub.com",
+            hex:"003168",title:"StubHub",source:"https://www.stubhub.com",
+        }
+        ,[SimpleIcons.Studio3T]: {
+            hex:"17AF66",title:"Studio 3T",source:"https://studio3t.com",
+        }
+        ,[SimpleIcons.Studyverse]: {
+            hex:"1D29E4",title:"Studyverse",source:"https://studyverse.live",
         }
         ,[SimpleIcons.StyledComponents]: {
-            hex:"DB7093",title:"styled-components",source:"https://www.styled-components.com/",
+            hex:"DB7093",title:"styled-components",source:"https://www.styled-components.com",
         }
         ,[SimpleIcons.Stylelint]: {
             hex:"263238",title:"stylelint",source:"https://github.com/stylelint/stylelint/blob/1f7bbb2d189b3e27b42de25f2948e3e5eec1b759/identity/stylelint-icon-black.svg",
         }
         ,[SimpleIcons.StyleShare]: {
-            hex:"212121",title:"StyleShare",source:"https://www.stylesha.re/",
+            hex:"212121",title:"StyleShare",source:"https://www.stylesha.re",
         }
         ,[SimpleIcons.Stylus]: {
-            hex:"333333",title:"Stylus",source:"http://stylus-lang.com/img/stylus-logo.svg",
+            hex:"333333",title:"Stylus",source:"https://github.com/stylus/stylus-lang.com/blob/c833bf697e39e1174c7c6e679e0e5a23d0baeb90/img/stylus-logo.svg",
         }
         ,[SimpleIcons.Subaru]: {
             hex:"013C74",title:"Subaru",source:"https://commons.wikimedia.org/wiki/File:Subaru_logo.svg",
         }
         ,[SimpleIcons.SublimeText]: {
-            hex:"FF9800",title:"Sublime Text",source:"https://www.sublimetext.com/images/logo.svg",
+            hex:"FF9800",title:"Sublime Text",source:"https://www.sublimetext.com",
         }
         ,[SimpleIcons.Substack]: {
-            hex:"FF6719",title:"Substack",source:"https://on.substack.com/",
+            hex:"FF6719",title:"Substack",source:"https://on.substack.com",
+        }
+        ,[SimpleIcons.SubtitleEdit]: {
+            hex:"CC2424",title:"Subtitle Edit",source:"https://github.com/SubtitleEdit/subtitleedit/issues/61#issuecomment-1442100888",
         }
         ,[SimpleIcons.Subversion]: {
-            hex:"809CC9",title:"Subversion",source:"http://subversion.apache.org/logo",
+            hex:"809CC9",title:"Subversion",source:"https://subversion.apache.org/logo",
         }
         ,[SimpleIcons.Suckless]: {
             hex:"1177AA",title:"suckless",source:"https://suckless.org",
@@ -14493,20 +23729,35 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.SumoLogic]: {
             hex:"000099",title:"Sumo Logic",source:"https://sites.google.com/sumologic.com/sumo-logic-brand/home",
         }
+        ,[SimpleIcons.Suno]: {
+            hex:"000000",title:"Suno",source:"https://suno.com",
+        }
+        ,[SimpleIcons.Sunrise]: {
+            hex:"DA291C",title:"Sunrise",source:"https://www.sunrise.ch",
+        }
         ,[SimpleIcons.Supabase]: {
-            hex:"3ECF8E",title:"Supabase",source:"https://github.com/supabase/supabase/blob/2a983c3290148d17cfce9e34c0a39102b22fdf78/web/static/img/showcase-logo/supabase-logo.svg",
+            hex:"3FCF8E",title:"Supabase",source:"https://github.com/supabase/supabase/blob/4031a7549f5d46da7bc79c01d56be4177dc7c114/packages/common/assets/images/supabase-logo-wordmark--light.svg",
         }
         ,[SimpleIcons.SuperUser]: {
             hex:"38A1CE",title:"Super User",source:"https://stackoverflow.design/brand/logo/",
+        }
+        ,[SimpleIcons.Supercrease]: {
+            hex:"000000",title:"Supercrease",source:"https://supercrease.com/wp-content/themes/super-crease/assets/svgs/super-crease.svg",
+        }
+        ,[SimpleIcons.Supermicro]: {
+            hex:"151F6D",title:"Supermicro",source:"https://www.supermicro.com/manuals/supermicro_logo_guidelines.pdf",
+        }
+        ,[SimpleIcons.SurrealDB]: {
+            hex:"FF00A0",title:"SurrealDB",source:"https://surrealdb.com/media",
         }
         ,[SimpleIcons.SurveyMonkey]: {
             hex:"00BF6F",title:"SurveyMonkey",source:"https://www.surveymonkey.com/mp/brandassets/",
         }
         ,[SimpleIcons.SUSE]: {
-            hex:"0C322C",title:"SUSE",source:"https://brand.suse.com/",
+            hex:"0C322C",title:"SUSE",source:"https://brand.suse.com",
         }
         ,[SimpleIcons.Suzuki]: {
-            hex:"E30613",title:"Suzuki",source:"https://www.suzuki.ie/",
+            hex:"E30613",title:"Suzuki",source:"https://www.suzuki.ie",
         }
         ,[SimpleIcons.Svelte]: {
             hex:"FF3E00",title:"Svelte",source:"https://github.com/sveltejs/branding/blob/c4dfca6743572087a6aef0e109ffe3d95596e86a/svelte-logo.svg",
@@ -14514,56 +23765,107 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.SVG]: {
             hex:"FFB13B",title:"SVG",source:"https://www.w3.org/2009/08/svg-logos.html",
         }
+        ,[SimpleIcons.SVGJs]: {
+            hex:"FF0066",title:"SVG.js",source:"https://github.com/svgdotjs/svg.logo/blob/0de9ff2cca6c058968f838baaaf507e475ee4583/logo.svg",
+        }
         ,[SimpleIcons.SVGO]: {
             hex:"3E7FC1",title:"SVGO",source:"https://github.com/svg/svgo/blob/93a5db197ca32990131bf41becf2e002bb0841bf/logo/isotype.svg",
         }
         ,[SimpleIcons.Swagger]: {
-            hex:"85EA2D",title:"Swagger",source:"https://swagger.io/swagger/media/assets/images/swagger_logo.svg",
+            hex:"85EA2D",title:"Swagger",source:"https://swagger.io",
         }
         ,[SimpleIcons.Swarm]: {
             hex:"FFA633",title:"Swarm",source:"https://foursquare.com/about/logos",
         }
+        ,[SimpleIcons.SWC]: {
+            hex:"F8C457",title:"SWC",source:"https://github.com/swc-project/logo/blob/f26cac1b4a490e3bdf128d3b084bb57f4fab1aac/svg/swc_black.svg",
+        }
         ,[SimpleIcons.Swift]: {
-            hex:"FA7343",title:"Swift",source:"https://developer.apple.com/develop/",
+            hex:"F05138",title:"Swift",source:"https://developer.apple.com/swift/resources/",
         }
         ,[SimpleIcons.Swiggy]: {
-            hex:"FC8019",title:"Swiggy",source:"https://www.swiggy.com/",
+            hex:"FC8019",title:"Swiggy",source:"https://www.swiggy.com",
         }
         ,[SimpleIcons.Swiper]: {
-            hex:"6332F6",title:"Swiper",source:"https://swiperjs.com/",
+            hex:"6332F6",title:"Swiper",source:"https://swiperjs.com",
+        }
+        ,[SimpleIcons.SWR]: {
+            hex:"000000",title:"SWR",source:"https://swr.vercel.app",
         }
         ,[SimpleIcons.Symantec]: {
             hex:"FDB511",title:"Symantec",source:"https://commons.wikimedia.org/wiki/File:Symantec_logo10.svg",
+        }
+        ,[SimpleIcons.Symbolab]: {
+            hex:"DB3F59",title:"Symbolab",source:"https://www.symbolab.com",
         }
         ,[SimpleIcons.Symfony]: {
             hex:"000000",title:"Symfony",source:"https://symfony.com/logo",
         }
         ,[SimpleIcons.Symphony]: {
-            hex:"0098FF",title:"Symphony",source:"https://symphony.com/",
+            hex:"0098FF",title:"Symphony",source:"https://symphony.com",
         }
         ,[SimpleIcons.SymPy]: {
             hex:"3B5526",title:"SymPy",source:"https://github.com/sympy/sympy.github.com/blob/e606a6dc2ee90b1ddaa9c36be6c92392ab300f72/media/sympy-notailtext.svg",
         }
+        ,[SimpleIcons.Syncthing]: {
+            hex:"0891D1",title:"Syncthing",source:"https://github.com/syncthing/syncthing/blob/bdfd0f0548d2f6fc4b5500690dbd383baa3b0561/assets/logo-only.svg",
+        }
         ,[SimpleIcons.Synology]: {
             hex:"B5B5B6",title:"Synology",source:"https://www.synology.com/en-global/company/branding",
         }
+        ,[SimpleIcons.System76]: {
+            hex:"585048",title:"System76",source:"https://github.com/system76/brand/blob/7a31740b54f929b62a165baa61dfb0b5164261e8/System76%20branding/system76-logo_secondary.svg",
+        }
         ,[SimpleIcons.TMobile]: {
-            hex:"E20074",title:"T-Mobile",source:"https://www.t-mobile.com/",
+            hex:"E20074",title:"T-Mobile",source:"https://tmap.t-mobile.com/portals/pro74u7a/EXTBrandPortal",
+        }
+        ,[SimpleIcons.Tabelog]: {
+            hex:"F2CC38",title:"Tabelog",source:"https://tabelog.com",
         }
         ,[SimpleIcons.Tableau]: {
-            hex:"E97627",title:"Tableau",source:"https://www.tableau.com/about/media-download-center",
+            hex:"E97627",title:"Tableau",source:"https://www.tableau.com/about/media-kit/brand-assets",
+        }
+        ,[SimpleIcons.TableCheck]: {
+            hex:"7935D2",title:"TableCheck",source:"https://www.tablecheck.com/join",
+        }
+        ,[SimpleIcons.TacoBell]: {
+            hex:"38096C",title:"Taco Bell",source:"https://www.tacobell.com",
         }
         ,[SimpleIcons.Tado_]: {
             hex:"FFA900",title:"tado°",source:"https://www.tado.com/gb-en/press-assets",
         }
+        ,[SimpleIcons.TaichiGraphics]: {
+            hex:"000000",title:"Taichi Graphics",source:"https://taichi.graphics",
+        }
+        ,[SimpleIcons.TaichiLang]: {
+            hex:"000000",title:"Taichi Lang",source:"https://docs.taichi-lang.org/blog",
+        }
         ,[SimpleIcons.Tails]: {
             hex:"56347C",title:"Tails",source:"https://tails.boum.org/contribute/how/promote/material/logo/",
         }
+        ,[SimpleIcons.Tailscale]: {
+            hex:"242424",title:"Tailscale",source:"https://tailscale.com/press",
+        }
         ,[SimpleIcons.TailwindCSS]: {
-            hex:"38B2AC",title:"Tailwind CSS",source:"https://tailwindcss.com/",
+            hex:"06B6D4",title:"Tailwind CSS",source:"https://tailwindcss.com/brand",
+        }
+        ,[SimpleIcons.Taipy]: {
+            hex:"FF371A",title:"Taipy",source:"https://taipy.io",
+        }
+        ,[SimpleIcons.TakeTwoInteractiveSoftware]: {
+            hex:"000000",title:"Take-Two Interactive Software",source:"https://www.take2games.com/ir",
         }
         ,[SimpleIcons.Talend]: {
-            hex:"1675BC",title:"Talend",source:"https://www.talend.com/",
+            hex:"FF6D70",title:"Talend",source:"https://www.talend.com/blog",
+        }
+        ,[SimpleIcons.Talenthouse]: {
+            hex:"000000",title:"Talenthouse",source:"https://www.talenthouse.com",
+        }
+        ,[SimpleIcons.Talos]: {
+            hex:"FF7300",title:"Talos",source:"https://github.com/siderolabs/talos/blob/e3fda049fee62f3c5cef4ae08eaf848826a6dbed/website/assets/icons/logo.svg",
+        }
+        ,[SimpleIcons.Tamiya]: {
+            hex:"000000",title:"Tamiya",source:"https://commons.wikimedia.org/wiki/File:TAMIYA_Logo.svg",
         }
         ,[SimpleIcons.Tampermonkey]: {
             hex:"00485B",title:"Tampermonkey",source:"https://commons.wikimedia.org/wiki/File:Tampermonkey_logo.svg",
@@ -14574,101 +23876,173 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Tapas]: {
             hex:"FFCE00",title:"Tapas",source:"https://tapas.io/site/about#media",
         }
+        ,[SimpleIcons.Target]: {
+            hex:"CC0000",title:"Target",source:"https://www.target.com",
+        }
+        ,[SimpleIcons.Task]: {
+            hex:"29BEB0",title:"Task",source:"https://github.com/go-task/task/blob/84ad0056e49e2206bf5903863cdf972a7305072c/docs/static/img/logo_mono.svg",
+        }
         ,[SimpleIcons.Tasmota]: {
-            hex:"1FA3EC",title:"Tasmota",source:"https://tasmota.github.io/docs/",
+            hex:"1FA3EC",title:"Tasmota",source:"https://github.com/tasmota/docs/blob/f9ad71612681d85f3b21406c7defa86b3eaa6bb9/docs/images/symbol.svg",
         }
         ,[SimpleIcons.Tata]: {
-            hex:"486AAE",title:"Tata",source:"https://www.tata.com/",
+            hex:"486AAE",title:"Tata",source:"https://www.tatasteel.com/media/media-kit/logos-usage-guidelines",
+        }
+        ,[SimpleIcons.Tcs]: {
+            hex:"EE3984",title:"Tata Consultancy Services",source:"https://www.tcs.com",slug:"tcs"
+        }
+        ,[SimpleIcons.Tauri]: {
+            hex:"24C8D8",title:"Tauri",source:"https://github.com/tauri-apps/tauri-docs/blob/b1cdfa9d7c6d0b17dae60a90266ddced40a7b384/static/img/tauri.svg",
         }
         ,[SimpleIcons.TaxBuzz]: {
-            hex:"ED8B0B",title:"TaxBuzz",source:"https://www.taxbuzz.com/",
+            hex:"ED8B0B",title:"TaxBuzz",source:"https://www.taxbuzz.com",
+        }
+        ,[SimpleIcons.Teal]: {
+            hex:"005149",title:"Teal",source:"https://www.tealhq.com",
         }
         ,[SimpleIcons.TeamCity]: {
-            hex:"000000",title:"TeamCity",source:"https://www.jetbrains.com/company/brand/logos/",
+            hex:"000000",title:"TeamCity",source:"https://www.jetbrains.com/company/brand/logos",
         }
         ,[SimpleIcons.TeamSpeak]: {
-            hex:"2580C3",title:"TeamSpeak",source:"https://www.teamspeak.com/en/more/media-pack/",
+            hex:"4B69B6",title:"TeamSpeak",source:"https://teamspeak.com",
         }
         ,[SimpleIcons.TeamViewer]: {
-            hex:"0E8EE9",title:"TeamViewer",source:"https://www.teamviewer.com/resources/images/logos/teamviewer-logo-big.svg",
+            hex:"004680",title:"TeamViewer",source:"https://www.teamviewer.com/en-us",
+        }
+        ,[SimpleIcons.TechCrunch]: {
+            hex:"029F00",title:"TechCrunch",source:"https://commons.wikimedia.org/wiki/File:TechCrunch_logo.svg",
         }
         ,[SimpleIcons.TED]: {
             hex:"E62B1E",title:"TED",source:"https://www.ted.com/participate/organize-a-local-tedx-event/tedx-organizer-guide/branding-promotions/logo-and-design/your-tedx-logo",
         }
+        ,[SimpleIcons.TeePublic]: {
+            hex:"4E64DF",title:"TeePublic",source:"https://teepublic.design/brand-kit",
+        }
         ,[SimpleIcons.Teespring]: {
-            hex:"39ACE6",title:"Teespring",source:"https://teespring.com",
+            hex:"ED2761",title:"Teespring",source:"https://teespring.com",
         }
         ,[SimpleIcons.Tekton]: {
             hex:"FD495C",title:"Tekton",source:"https://github.com/cdfoundation/artwork/blob/3e748ca9cf9c3136a4a571f7655271b568c16a64/tekton/icon/black/tekton-icon-black.svg",
         }
         ,[SimpleIcons.TELE5]: {
-            hex:"C2AD6F",title:"TELE5",source:"https://www.tele5.de",
+            hex:"FF00FF",title:"TELE 5",source:"https://commons.wikimedia.org/wiki/File:Tele_5_Logo_2021.svg",
+        }
+        ,[SimpleIcons.T_l_Qu_bec]: {
+            hex:"1343FB",title:"Télé-Québec",source:"https://www.telequebec.tv/societe/logo-et-normes-techniques",
         }
         ,[SimpleIcons.Telegram]: {
-            hex:"26A5E4",title:"Telegram",source:"https://telegram.org",
+            hex:"26A5E4",title:"Telegram",source:"https://telegram.org/tour/screenshots",
         }
         ,[SimpleIcons.Telegraph]: {
-            hex:"FAFAFA",title:"Telegraph",source:"https://telegra.ph/",
+            hex:"FAFAFA",title:"Telegraph",source:"https://telegra.ph",
+        }
+        ,[SimpleIcons.Temporal]: {
+            hex:"000000",title:"Temporal",source:"https://github.com/temporalio/temporaldotio/blob/b6b5f3ed1fda818d5d6c07e27ec15d51a61f2267/public/images/icons/temporal-no-text.svg",
         }
         ,[SimpleIcons.TencentQQ]: {
-            hex:"EB1923",title:"Tencent QQ",source:"https://en.wikipedia.org/wiki/File:Tencent_QQ.svg#/media/File:Tencent_QQ.svg",
+            hex:"1EBAFC",title:"Tencent QQ",source:"https://en.wikipedia.org/wiki/File:Tencent_QQ.svg",
         }
         ,[SimpleIcons.TensorFlow]: {
-            hex:"FF6F00",title:"TensorFlow",source:"https://www.tensorflow.org/extras/tensorflow_brand_guidelines.pdf",
+            hex:"FF6F00",title:"TensorFlow",source:"https://www.tensorflow.org",
         }
         ,[SimpleIcons.Teradata]: {
-            hex:"F37440",title:"Teradata",source:"https://github.com/Teradata/teradata.github.io/",
+            hex:"F37440",title:"Teradata",source:"https://github.com/Teradata/teradata.github.io/blob/0fb3886aaeefea7bea4951c300f49ac8f9c2476f/src/assets/icons/teradata-icon.svg",
         }
         ,[SimpleIcons.Teratail]: {
-            hex:"F4C51C",title:"teratail",source:"https://teratail.com/",
+            hex:"F4C51C",title:"teratail",source:"https://teratail.com",
+        }
+        ,[SimpleIcons.Termius]: {
+            hex:"000000",title:"Termius",source:"https://termius.com/brand-resources",
         }
         ,[SimpleIcons.Terraform]: {
-            hex:"7B42BC",title:"Terraform",source:"https://www.hashicorp.com/brand",
+            hex:"844FBA",title:"Terraform",source:"https://www.hashicorp.com/brand",
+        }
+        ,[SimpleIcons.Tesco]: {
+            hex:"00539F",title:"Tesco",source:"https://www.tesco.com",
         }
         ,[SimpleIcons.Tesla]: {
-            hex:"CC0000",title:"Tesla",source:"http://www.teslamotors.com/en_GB/about",
+            hex:"CC0000",title:"Tesla",source:"https://www.tesla.com/tesla-gallery",
+        }
+        ,[SimpleIcons.TestCafe]: {
+            hex:"36B6E5",title:"TestCafe",source:"https://github.com/DevExpress/testcafe/blob/dd174b6682b5f2675ac90e305d3d893c36a1d814/media/logos/svg/TestCafe-logo-600.svg",
         }
         ,[SimpleIcons.Testin]: {
-            hex:"007DD7",title:"Testin",source:"https://www.testin.cn/",
+            hex:"007DD7",title:"Testin",source:"https://www.testin.cn",
         }
         ,[SimpleIcons.TestingLibrary]: {
-            hex:"E33332",title:"Testing Library",source:"https://testing-library.com/",
+            hex:"E33332",title:"Testing Library",source:"https://testing-library.com",
+        }
+        ,[SimpleIcons.TestRail]: {
+            hex:"65C179",title:"TestRail",source:"https://www.testrail.com",
+        }
+        ,[SimpleIcons.Tether]: {
+            hex:"50AF95",title:"Tether",source:"https://tether.to/branding/",
         }
         ,[SimpleIcons.Textpattern]: {
-            hex:"FFDA44",title:"Textpattern",source:"https://textpattern.com/",
+            hex:"FFDA44",title:"Textpattern",source:"https://textpattern.com",
+        }
+        ,[SimpleIcons.TGA]: {
+            hex:"0014FF",title:"TGA",source:"https://thegameawards.com/about",
+        }
+        ,[SimpleIcons.Thangs]: {
+            hex:"FFBC00",title:"Thangs",source:"https://thangs.com",
+        }
+        ,[SimpleIcons.TheAlgorithms]: {
+            hex:"00BCB4",title:"The Algorithms",source:"https://github.com/TheAlgorithms/website/blob/f4e439578c88fed3b21c70898605238602975d2d/public/logo_t.svg",
+        }
+        ,[SimpleIcons.TheBoringCompany]: {
+            hex:"000000",title:"The Boring Company",source:"https://commons.wikimedia.org/wiki/File:The_Boring_Company_Logo.svg",
         }
         ,[SimpleIcons.TheConversation]: {
             hex:"D8352A",title:"The Conversation",source:"https://theconversation.com/republishing-guidelines",
         }
+        ,[SimpleIcons.THEFINALS]: {
+            hex:"D31F3C",title:"THE FINALS",source:"https://www.embark-studios.com/press",
+        }
         ,[SimpleIcons.TheIrishTimes]: {
-            hex:"000000",title:"The Irish Times",source:"https://www.irishtimes.com/",
+            hex:"000000",title:"The Irish Times",source:"https://www.irishtimes.com",
         }
         ,[SimpleIcons.TheMighty]: {
-            hex:"D0072A",title:"The Mighty",source:"https://themighty.com/",
+            hex:"D0072A",title:"The Mighty",source:"https://themighty.com",
         }
         ,[SimpleIcons.TheModelsResource]: {
-            hex:"3A75BD",title:"The Models Resource",source:"https://www.models-resource.com/",
+            hex:"3A75BD",title:"The Models Resource",source:"https://www.models-resource.com",
         }
         ,[SimpleIcons.TheMovieDatabase]: {
-            hex:"01D277",title:"The Movie Database",source:"https://www.themoviedb.org/about/logos-attribution",
+            hex:"01B4E4",title:"The Movie Database",source:"https://www.themoviedb.org/about/logos-attribution",
+        }
+        ,[SimpleIcons.TheNorthFace]: {
+            hex:"000000",title:"The North Face",source:"https://www.thenorthface.com",
+        }
+        ,[SimpleIcons.TheOdinProject]: {
+            hex:"A9792B",title:"The Odin Project",source:"https://www.theodinproject.com",
         }
         ,[SimpleIcons.TheRegister]: {
-            hex:"FF0000",title:"The Register",source:"https://www.theregister.co.uk/",
+            hex:"FF0000",title:"The Register",source:"https://www.theregister.co.uk",
         }
         ,[SimpleIcons.TheSoundsResource]: {
-            hex:"39BE6B",title:"The Sounds Resource",source:"https://www.sounds-resource.com/",
+            hex:"39BE6B",title:"The Sounds Resource",source:"https://www.sounds-resource.com",
         }
         ,[SimpleIcons.TheSpritersResource]: {
-            hex:"BE3939",title:"The Spriters Resource",source:"https://www.spriters-resource.com/",
+            hex:"BE3939",title:"The Spriters Resource",source:"https://www.spriters-resource.com",
         }
         ,[SimpleIcons.TheWashingtonPost]: {
             hex:"231F20",title:"The Washington Post",source:"https://www.washingtonpost.com/brand-studio/archive/",
         }
         ,[SimpleIcons.Thingiverse]: {
-            hex:"248BFB",title:"Thingiverse",source:"https://www.thingiverse.com/",
+            hex:"248BFB",title:"Thingiverse",source:"https://www.thingiverse.com",
         }
         ,[SimpleIcons.ThinkPad]: {
             hex:"EE2624",title:"ThinkPad",source:"https://www.lenovo.com/us/en/thinkpad",
+        }
+        ,[SimpleIcons.Thirdweb]: {
+            hex:"F213A4",title:"thirdweb",source:"https://thirdweb.com",
+        }
+        ,[SimpleIcons.Threadless]: {
+            hex:"0099FF",title:"Threadless",source:"https://www.threadless.com/about-us",
+        }
+        ,[SimpleIcons.Threads]: {
+            hex:"000000",title:"Threads",source:"https://about.meta.com/brand/resources/instagram/threads",
         }
         ,[SimpleIcons.ThreeJs]: {
             hex:"000000",title:"Three.js",source:"https://github.com/mrdoob/three.js/blob/a567b810cfcb7f6a03e4faea99f03c53081da477/files/icon.svg",
@@ -14680,19 +24054,34 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"009FD9",title:"Thumbtack",source:"https://www.thumbtack.com/press/media-resources/",
         }
         ,[SimpleIcons.Thunderbird]: {
-            hex:"0A84FF",title:"Thunderbird",source:"https://demo.identihub.co/thunderbird",
+            hex:"0A84FF",title:"Thunderbird",source:"https://design.thunderbird.net/resources/logo",
+        }
+        ,[SimpleIcons.Thunderstore]: {
+            hex:"23FFB0",title:"Thunderstore",source:"https://github.com/thunderstore-io/brand-guidelines/blob/7b5d4b62ca192a61b8ce5842cd8f5ad1f24ffcfd/assets/logo/thunderstore-logomark-black.svg",
+        }
+        ,[SimpleIcons.ThurgauerKantonalbank]: {
+            hex:"006D41",title:"Thurgauer Kantonalbank",source:"https://www.tkb.ch",
         }
         ,[SimpleIcons.Thymeleaf]: {
-            hex:"005F0F",title:"Thymeleaf",source:"https://github.com/thymeleaf/thymeleaf-dist/tree/master/src/artwork/thymeleaf%202016",
+            hex:"005F0F",title:"Thymeleaf",source:"https://github.com/thymeleaf/thymeleaf-org/blob/0427d4d4c6f08d3a1fbed3bc90ceeebcf094b532/artwork/thymeleaf%202016/thymeleaf.svg",
         }
         ,[SimpleIcons.Ticketmaster]: {
             hex:"026CDF",title:"Ticketmaster",source:"https://design.ticketmaster.com/brand/overview/",
         }
+        ,[SimpleIcons.TickTick]: {
+            hex:"4772FA",title:"TickTick",source:"https://ticktick.com",
+        }
         ,[SimpleIcons.Tidal]: {
-            hex:"000000",title:"Tidal",source:"https://tidal.com",
+            hex:"000000",title:"Tidal",source:"https://tidal.com/press",
+        }
+        ,[SimpleIcons.TiddlyWiki]: {
+            hex:"111111",title:"TiddlyWiki",source:"https://tiddlywiki.com",
         }
         ,[SimpleIcons.Tide]: {
-            hex:"4050FB",title:"Tide",source:"https://www.tide.co/newsroom/",
+            hex:"4050FB",title:"Tide",source:"https://www.tide.co/newsroom",
+        }
+        ,[SimpleIcons.Tidyverse]: {
+            hex:"1A162D",title:"Tidyverse",source:"https://github.com/rstudio/hex-stickers/blob/69528093ef59f541e5a4798dbcb00e60267e8870/SVG/tidyverse.svg",
         }
         ,[SimpleIcons.TietoEVRY]: {
             hex:"063752",title:"TietoEVRY",source:"https://www.tietoevry.com/en/about-us/our-company/",
@@ -14700,107 +24089,191 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.TikTok]: {
             hex:"000000",title:"TikTok",source:"https://tiktok.com",
         }
+        ,[SimpleIcons.TildaPublishing]: {
+            hex:"FFA282",title:"Tilda Publishing",source:"https://tilda.cc/mediakit",
+        }
         ,[SimpleIcons.Tile]: {
-            hex:"000000",title:"Tile",source:"https://www.thetileapp.com/",
+            hex:"000000",title:"Tile",source:"https://www.thetileapp.com",
         }
         ,[SimpleIcons.Timescale]: {
-            hex:"FDB515",title:"Timescale",source:"https://www.timescale.com/",
+            hex:"FDB515",title:"Timescale",source:"https://www.timescale.com",
+        }
+        ,[SimpleIcons.Tina]: {
+            hex:"EC4815",title:"Tina",source:"https://github.com/tinacms/tinacms/blob/965edfb7d2a318ab6b86a4772e4daebf53f34f2e/examples/tina-self-hosted-demo/public/tina.svg",
         }
         ,[SimpleIcons.Tinder]: {
-            hex:"FF6B6B",title:"Tinder",source:"http://www.gotinder.com/press",
+            hex:"FF6B6B",title:"Tinder",source:"https://www.gotinder.com/press",
+        }
+        ,[SimpleIcons.Tindie]: {
+            hex:"17AEB9",title:"Tindie",source:"https://www.tindie.com/tindieu",
+        }
+        ,[SimpleIcons.Tinkercad]: {
+            hex:"1477D1",title:"Tinkercad",source:"https://www.tinkercad.com",
+        }
+        ,[SimpleIcons.Tinygrad]: {
+            hex:"FFFFFF",title:"tinygrad",source:"https://github.com/tinygrad/tinygrad/blob/1025dfb94def0bf3afe7c9ef6af9581727263ab4/docs/logo_tiny_light.svg",
         }
         ,[SimpleIcons.TinyLetter]: {
-            hex:"ED1C24",title:"TinyLetter",source:"https://tinyletter.com/site/press",
+            hex:"ED1C24",title:"TinyLetter",source:"https://tinyletter.com/site/press/",
+        }
+        ,[SimpleIcons.Tistory]: {
+            hex:"000000",title:"Tistory",source:"https://tistory.com",
+        }
+        ,[SimpleIcons.Tldraw]: {
+            hex:"FAFAFA",title:"tldraw",source:"https://tldraw.dev",
         }
         ,[SimpleIcons.Tmux]: {
-            hex:"1BB91F",title:"tmux",source:"https://github.com/tmux/tmux/tree/f04cc3997629823f0e304d4e4184e2ec93c703f0/logo",
+            hex:"1BB91F",title:"tmux",source:"https://github.com/tmux/tmux/blob/e26356607e38cbb4676a7c91815ae2d5734443c3/logo/tmux-logo-1-color.svg",
         }
         ,[SimpleIcons.Todoist]: {
-            hex:"E44332",title:"Todoist",source:"https://doist.com/press/",
+            hex:"E44332",title:"Todoist",source:"https://doist.com/press",
         }
         ,[SimpleIcons.Toggl]: {
-            hex:"E01B22",title:"Toggl",source:"https://toggl.com/media-toolkit",
+            hex:"FFDE91",title:"Toggl",source:"https://toggl.com/track/media-toolkit",
+        }
+        ,[SimpleIcons.TogglTrack]: {
+            hex:"E57CD8",title:"Toggl Track",source:"https://toggl.com/track/media-toolkit",
         }
         ,[SimpleIcons.TokyoMetro]: {
-            hex:"149DD3",title:"Tokyo Metro",source:"https://en.wikipedia.org/wiki/File:TokyoMetro.svg",
+            hex:"149DD3",title:"Tokyo Metro",source:"https://commons.wikimedia.org/wiki/File:Tokyo_Metro_combined_logo.svg",
+        }
+        ,[SimpleIcons.Toll]: {
+            hex:"007A68",title:"Toll",source:"https://www.tollgroup.com",
+        }
+        ,[SimpleIcons.TOML]: {
+            hex:"9C4121",title:"TOML",source:"https://github.com/toml-lang/toml/blob/625f62b55c5acdfb9924c78e1d0bf4cf0be23d91/logos/toml.svg",
         }
         ,[SimpleIcons.Tomorrowland]: {
-            hex:"000000",title:"Tomorrowland",source:"https://global.tomorrowland.com/",
+            hex:"000000",title:"Tomorrowland",source:"https://global.tomorrowland.com",
+        }
+        ,[SimpleIcons.TON]: {
+            hex:"0098EA",title:"TON",source:"https://ton.org/en/brand-assets",
+        }
+        ,[SimpleIcons.TopGg]: {
+            hex:"FF3366",title:"Top.gg",source:"https://top.gg",
         }
         ,[SimpleIcons.Topcoder]: {
-            hex:"29A7DF",title:"Topcoder",source:"http://topcoder.com/",
+            hex:"29A7DF",title:"Topcoder",source:"https://www.topcoder.com/thrive/articles/How%20to%20use%20the%20Topcoder%20GUI%20KIT",
         }
         ,[SimpleIcons.Toptal]: {
             hex:"3863A0",title:"Toptal",source:"https://www.toptal.com/branding",
         }
         ,[SimpleIcons.TorBrowser]: {
-            hex:"7D4698",title:"Tor Browser",source:"https://styleguide.torproject.org/brand-assets/",
+            hex:"7D4698",title:"Tor Browser",source:"https://styleguide.torproject.org/brand-assets",
         }
         ,[SimpleIcons.TorProject]: {
-            hex:"7E4798",title:"Tor Project",source:"https://styleguide.torproject.org/brand-assets/",
+            hex:"7D4698",title:"Tor Project",source:"https://styleguide.torproject.org/brand-assets",
         }
         ,[SimpleIcons.Toshiba]: {
             hex:"FF0000",title:"Toshiba",source:"https://commons.wikimedia.org/wiki/File:Toshiba_logo.svg",
+        }
+        ,[SimpleIcons.TOTVS]: {
+            hex:"363636",title:"TOTVS",source:"https://marca.totvs.com/downloads",
+        }
+        ,[SimpleIcons.TourBox]: {
+            hex:"231F20",title:"TourBox",source:"https://www.tourboxtech.com",
+        }
+        ,[SimpleIcons.Tower]: {
+            hex:"00CAF4",title:"Tower",source:"https://www.git-tower.com/company/press",
         }
         ,[SimpleIcons.Toyota]: {
             hex:"EB0A1E",title:"Toyota",source:"https://www.toyota.com/brandguidelines/logo/",
         }
         ,[SimpleIcons.TPLink]: {
-            hex:"4ACBD6",title:"TP-Link",source:"https://www.tp-link.com/",
+            hex:"4ACBD6",title:"TP-Link",source:"https://www.tp-link.com",
         }
         ,[SimpleIcons.Tqdm]: {
             hex:"FFC107",title:"tqdm",source:"https://github.com/tqdm/img/blob/0dd23d9336af67976f88f9988ea660cde78c54d4/logo.svg",
         }
+        ,[SimpleIcons.Traccar]: {
+            hex:"000000",title:"Traccar",source:"https://www.traccar.org",
+        }
+        ,[SimpleIcons.TradingView]: {
+            hex:"131622",title:"TradingView",source:"https://www.tradingview.com/media-kit",
+        }
+        ,[SimpleIcons.TraefikMesh]: {
+            hex:"9D0FB0",title:"Traefik Mesh",source:"https://github.com/traefik/mesh/blob/ef03c40b78c08931d47fdad0be10d1986f4e21bc/docs/content/assets/img/traefik-mesh-logo.svg",
+        }
+        ,[SimpleIcons.TraefikProxy]: {
+            hex:"24A1C1",title:"Traefik Proxy",source:"https://traefik.io/traefik",
+        }
+        ,[SimpleIcons.Trailforks]: {
+            hex:"FFCD00",title:"Trailforks",source:"https://www.trailforks.com/about/graphics",
+        }
         ,[SimpleIcons.TrainerRoad]: {
-            hex:"E12726",title:"TrainerRoad",source:"https://www.trainerroad.com/",
+            hex:"DA291C",title:"TrainerRoad",source:"https://www.trainerroad.com/press",
         }
         ,[SimpleIcons.Trakt]: {
-            hex:"ED1C24",title:"Trakt",source:"https://trakt.tv",
+            hex:"ED1C24",title:"Trakt",source:"https://trakt.tv/branding",
         }
-        ,[SimpleIcons.TransferWise]: {
-            hex:"00B9FF",title:"TransferWise",source:"https://brand.transferwise.com/logo",
+        ,[SimpleIcons.Transifex]: {
+            hex:"0064AB",title:"Transifex",source:"https://app.transifex.com/contact/",
+        }
+        ,[SimpleIcons.Transmission]: {
+            hex:"D70008",title:"Transmission",source:"https://github.com/transmission/transmission/blob/7c9e04d035f3f75a8124e83d612701824487eb4e/gtk/icons/hicolor_apps_symbolic_transmission-symbolic.svg",
         }
         ,[SimpleIcons.TransportForIreland]: {
-            hex:"00B274",title:"Transport for Ireland",source:"https://www.transportforireland.ie/",
+            hex:"00B274",title:"Transport for Ireland",source:"https://www.transportforireland.ie",
         }
         ,[SimpleIcons.TransportForLondon]: {
-            hex:"113B92",title:"Transport for London",source:"https://tfl.gov.uk/",
+            hex:"113B92",title:"Transport for London",source:"https://tfl.gov.uk",
         }
         ,[SimpleIcons.TravisCI]: {
             hex:"3EAAAF",title:"Travis CI",source:"https://travis-ci.com/logo",
         }
         ,[SimpleIcons.Treehouse]: {
-            hex:"5FCF80",title:"Treehouse",source:"https://teamtreehouse.com/about",
+            hex:"5FCF80",title:"Treehouse",source:"https://teamtreehouse.com",
         }
         ,[SimpleIcons.Trello]: {
             hex:"0052CC",title:"Trello",source:"https://atlassian.design/resources/logo-library",
         }
         ,[SimpleIcons.TrendMicro]: {
-            hex:"D71921",title:"Trend Micro",source:"https://www.trendmicro.com/",
+            hex:"D71921",title:"Trend Micro",source:"https://www.trendmicro.com",
         }
         ,[SimpleIcons.Treyarch]: {
-            hex:"000000",title:"Treyarch",source:"https://upload.wikimedia.org/wikipedia/en/7/7a/Treyarch_logo.svg",
+            hex:"000000",title:"Treyarch",source:"https://en.wikipedia.org/wiki/File:Treyarch_logo.svg",
+        }
+        ,[SimpleIcons.Tricentis]: {
+            hex:"12438C",title:"Tricentis",source:"https://www.tricentis.com",
+        }
+        ,[SimpleIcons.Trilium]: {
+            hex:"000000",title:"Trilium",source:"https://github.com/zadam/trilium/blob/05d2f4fe96f49c5bc7f3a02a9e47fc352ce5971d/images/icon.svg",
         }
         ,[SimpleIcons.Triller]: {
-            hex:"FF0089",title:"Triller",source:"https://triller.co/static/media/illustrations/logo-full-white.svg",
+            hex:"FF0089",title:"Triller",source:"https://triller.co",
+        }
+        ,[SimpleIcons.TrillerTV]: {
+            hex:"E61414",title:"TrillerTV",source:"https://fite.tv",
         }
         ,[SimpleIcons.Trino]: {
             hex:"DD00A1",title:"Trino",source:"https://github.com/trinodb/docs.trino.io/blob/653a46f6bdc64b5f67302dc9ab8a0c432ca25e70/352/_static/trino.svg",
         }
         ,[SimpleIcons.TripCom]: {
-            hex:"287DFA",title:"Trip.com",source:"https://careers.trip.com/",
+            hex:"287DFA",title:"Trip.com",source:"https://careers.trip.com",
         }
         ,[SimpleIcons.Tripadvisor]: {
             hex:"34E0A1",title:"Tripadvisor",source:"https://tripadvisor.mediaroom.com/logo-guidelines",
         }
+        ,[SimpleIcons.Trivago]: {
+            hex:"E32851",title:"trivago",source:"https://company.trivago.com/press-media",
+        }
+        ,[SimpleIcons.Trivy]: {
+            hex:"1904DA",title:"Trivy",source:"https://www.aquasec.com/brand",
+        }
         ,[SimpleIcons.Trove]: {
-            hex:"609540",title:"Trove",source:"https://trove.nla.gov.au/",
+            hex:"2D004B",title:"Trove",source:"https://trove.nla.gov.au/about/who-we-are/our-logo",
+        }
+        ,[SimpleIcons.TRPC]: {
+            hex:"2596BE",title:"tRPC",source:"https://github.com/trpc/trpc/blob/e0df4a2d5b498dd953a65901e04915c6e3f7ecc5/www/static/img/logo-no-text.svg",
         }
         ,[SimpleIcons.TrueNAS]: {
-            hex:"0095D5",title:"TrueNAS",source:"https://www.truenas.com/",
+            hex:"0095D5",title:"TrueNAS",source:"https://www.truenas.com",
+        }
+        ,[SimpleIcons.TrueUp]: {
+            hex:"4E71DA",title:"TrueUp",source:"https://www.trueup.io",
         }
         ,[SimpleIcons.Trulia]: {
-            hex:"53B50A",title:"Trulia",source:"http://www.trulia.com",
+            hex:"0A0B09",title:"trulia",source:"https://www.trulia.com/newsroom/media/brand-logos",
         }
         ,[SimpleIcons.TrustedShops]: {
             hex:"FFDC0F",title:"Trusted Shops",source:"https://brand.trustedshops.com/d/dorIFVeUmcN9/corporate-design",
@@ -14809,16 +24282,19 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"00B67A",title:"Trustpilot",source:"https://support.trustpilot.com/hc/en-us/articles/206289947-Trustpilot-Brand-Assets-Style-Guide",
         }
         ,[SimpleIcons.TryItOnline]: {
-            hex:"303030",title:"Try It Online",source:"https://tio.run/",
+            hex:"303030",title:"Try It Online",source:"https://tio.run",
         }
         ,[SimpleIcons.TryHackMe]: {
-            hex:"212C42",title:"TryHackMe",source:"https://tryhackme.com/about",
+            hex:"212C42",title:"TryHackMe",source:"https://tryhackme.com",
         }
         ,[SimpleIcons.TsNode]: {
-            hex:"3178C6",title:"ts-node",source:"https://typestrong.org/ts-node/",
+            hex:"3178C6",title:"ts-node",source:"https://typestrong.org/ts-node",
+        }
+        ,[SimpleIcons.Tubi]: {
+            hex:"7408FF",title:"Tubi",source:"https://gdpr.tubi.tv",
         }
         ,[SimpleIcons.TUI]: {
-            hex:"70CBF4",title:"TUI",source:"https://www.tuiholidays.ie/",
+            hex:"D40E14",title:"TUI",source:"https://www.design.tui/brand/logos",
         }
         ,[SimpleIcons.Tumblr]: {
             hex:"36465D",title:"Tumblr",source:"https://www.tumblr.com/logo",
@@ -14826,59 +24302,86 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.TuneIn]: {
             hex:"14D8CC",title:"TuneIn",source:"https://cms.tunein.com/press/",
         }
+        ,[SimpleIcons.Turbo]: {
+            hex:"5CD8E5",title:"Turbo",source:"https://turbo.hotwired.dev",
+        }
+        ,[SimpleIcons.Turborepo]: {
+            hex:"EF4444",title:"Turborepo",source:"https://github.com/vercel/turborepo/blob/7312e316629a2138f895a90c9704045891be817b/docs/public/logo-light.svg",
+        }
         ,[SimpleIcons.TurboSquid]: {
-            hex:"FF8135",title:"TurboSquid",source:"https://www.brand.turbosquid.com/",
+            hex:"FF8135",title:"TurboSquid",source:"https://www.brand.turbosquid.com/turbosquidicons",
         }
         ,[SimpleIcons.TurkishAirlines]: {
-            hex:"C70A0C",title:"Turkish Airlines",source:"https://www.turkishairlines.com/tr-int/basin-odasi/logo-arsivi/index.html",
+            hex:"C70A0C",title:"Turkish Airlines",source:"https://www.turkishairlines.com/en-int/press-room/logo-archive/index.html",
+        }
+        ,[SimpleIcons.Turso]: {
+            hex:"4FF8D2",title:"Turso",source:"https://turso.tech",
         }
         ,[SimpleIcons.Tutanota]: {
             hex:"840010",title:"Tutanota",source:"https://github.com/tutao/tutanota/blob/8ff5f0e7d78834ac8fcb0f2357c394b757ea4793/resources/images/logo-solo-red.svg",
         }
         ,[SimpleIcons.TVTime]: {
-            hex:"FFD400",title:"TV Time",source:"https://www.tvtime.com/",
+            hex:"FFD400",title:"TV Time",source:"https://www.tvtime.com",
+        }
+        ,[SimpleIcons.TV4Play]: {
+            hex:"E0001C",title:"TV4 Play",source:"https://tv4play.se",
         }
         ,[SimpleIcons.Twilio]: {
             hex:"F22F46",title:"Twilio",source:"https://www.twilio.com/company/brand",
         }
+        ,[SimpleIcons.Twinkly]: {
+            hex:"FCC15E",title:"Twinkly",source:"https://help.twinkly.com/en/help/quick-guides",
+        }
+        ,[SimpleIcons.Twinmotion]: {
+            hex:"000000",title:"Twinmotion",source:"https://www.twinmotion.com",
+        }
         ,[SimpleIcons.Twitch]: {
             hex:"9146FF",title:"Twitch",source:"https://brand.twitch.tv",
         }
-        ,[SimpleIcons.Twitter]: {
-            hex:"1DA1F2",title:"Twitter",source:"https://brand.twitter.com",
+        ,[SimpleIcons.Typeform]: {
+            hex:"262627",title:"Typeform",source:"https://www.typeform.com",
         }
-        ,[SimpleIcons.Twoo]: {
-            hex:"FF7102",title:"Twoo",source:"http://www.twoo.com/about/press",
+        ,[SimpleIcons.TypeORM]: {
+            hex:"FE0803",title:"TypeORM",source:"https://github.com/typeorm/typeorm/blob/e7649d2746f907ff36b1efb600402dedd5f5a499/resources/logo_big.png",
+        }
+        ,[SimpleIcons.Typer]: {
+            hex:"000000",title:"Typer",source:"https://typer.tiangolo.com",
         }
         ,[SimpleIcons.TypeScript]: {
-            hex:"3178C6",title:"TypeScript",source:"https://www.staging-typescript.org/branding",
+            hex:"3178C6",title:"TypeScript",source:"https://www.typescriptlang.org/branding",
         }
         ,[SimpleIcons.TYPO3]: {
-            hex:"FF8700",title:"TYPO3",source:"https://typo3.com/fileadmin/assets/typo3logos/typo3_bullet_01.svg",
+            hex:"FF8700",title:"TYPO3",source:"https://styleguide.typo3.com/styleguide/logo",
+        }
+        ,[SimpleIcons.Typst]: {
+            hex:"239DAD",title:"Typst",source:"https://typst.app",
         }
         ,[SimpleIcons.Uber]: {
-            hex:"000000",title:"Uber",source:"https://www.uber.com/media/",
+            hex:"000000",title:"Uber",source:"https://assets.uber.com/d/k4nuxdZ8MC7E/logos/collection/151",
         }
         ,[SimpleIcons.UberEats]: {
-            hex:"06C167",title:"Uber Eats",source:"https://www.ubereats.com",
+            hex:"06C167",title:"Uber Eats",source:"https://assets.uber.com/d/k4nuxdZ8MC7E/logos/collection/150",
         }
         ,[SimpleIcons.Ubiquiti]: {
-            hex:"0559C9",title:"Ubiquiti",source:"https://www.ui.com/marketing/#logos",
+            hex:"0559C9",title:"Ubiquiti",source:"https://www.ui.com",
         }
         ,[SimpleIcons.Ubisoft]: {
             hex:"000000",title:"Ubisoft",source:"https://www.ubisoft.com/en-US/company/overview.aspx",
         }
         ,[SimpleIcons.UBlockOrigin]: {
-            hex:"800000",title:"uBlock Origin",source:"https://github.com/gorhill/uBlock/blob/master/src/img/ublock.svg",
+            hex:"800000",title:"uBlock Origin",source:"https://github.com/gorhill/uBlock/blob/59aa235952a9289cfe72e4fb9f8a7d8f4c80be9a/src/img/ublock.svg",
         }
         ,[SimpleIcons.Ubuntu]: {
-            hex:"E95420",title:"Ubuntu",source:"https://design.ubuntu.com/brand/ubuntu-logo/",
+            hex:"E95420",title:"Ubuntu",source:"https://design.ubuntu.com/resources",
+        }
+        ,[SimpleIcons.UbuntuMATE]: {
+            hex:"84A454",title:"Ubuntu MATE",source:"https://ubuntu-mate.org",
         }
         ,[SimpleIcons.Udacity]: {
             hex:"02B3E4",title:"Udacity",source:"https://www.udacity.com",
         }
         ,[SimpleIcons.Udemy]: {
-            hex:"EC5252",title:"Udemy",source:"https://about.udemy.com/newbrand/",
+            hex:"A435F0",title:"Udemy",source:"https://www.udemy.com/ourbrand/",
         }
         ,[SimpleIcons.UFC]: {
             hex:"D20A0A",title:"UFC",source:"https://www.ufc.com",
@@ -14886,65 +24389,116 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.UIkit]: {
             hex:"2396F3",title:"UIkit",source:"https://getuikit.com",
         }
+        ,[SimpleIcons.UiPath]: {
+            hex:"FA4616",title:"UiPath",source:"https://www.uipath.com/newsroom",
+        }
         ,[SimpleIcons.Ulule]: {
             hex:"18A5D6",title:"Ulule",source:"https://ulule.frontify.com/d/EX3dK8qsXgqh/branding-guidelines",
         }
+        ,[SimpleIcons.Umami]: {
+            hex:"000000",title:"Umami",source:"https://github.com/umami-software/umami/blob/3572df0a09503f357a06fe7f816295ba2c878325/assets/logo.svg",
+        }
         ,[SimpleIcons.Umbraco]: {
-            hex:"3544B1",title:"Umbraco",source:"https://umbraco.com/",
+            hex:"3544B1",title:"Umbraco",source:"https://umbraco.com",
+        }
+        ,[SimpleIcons.UML]: {
+            hex:"FABD14",title:"UML",source:"https://www.uml.org",
         }
         ,[SimpleIcons.Unacademy]: {
-            hex:"08BD80",title:"Unacademy",source:"https://unacademy.com/",
+            hex:"08BD80",title:"Unacademy",source:"https://unacademy.com",
+        }
+        ,[SimpleIcons.UnderArmour]: {
+            hex:"1D1D1D",title:"Under Armour",source:"https://www.underarmour.com/en-us",
+        }
+        ,[SimpleIcons.UnderscoreJs]: {
+            hex:"0371B5",title:"Underscore.js",source:"https://github.com/jashkenas/underscore/blob/f098f61ff84931dea69c276b3674a62b6ae4def7/docs/images/underscore.png",
         }
         ,[SimpleIcons.Undertale]: {
-            hex:"E71D29",title:"Undertale",source:"https://undertale.com/",
+            hex:"E71D29",title:"Undertale",source:"https://undertale.com",
         }
         ,[SimpleIcons.Unicode]: {
-            hex:"5455FE",title:"Unicode",source:"https://en.wikipedia.org/wiki/Unicode",
+            hex:"5455FE",title:"Unicode",source:"https://commons.wikimedia.org/wiki/File:New_Unicode_logo.svg",
         }
         ,[SimpleIcons.Unilever]: {
-            hex:"1F36C7",title:"Unilever",source:"https://www.unilever.co.uk/about/who-we-are/our-logo/",
+            hex:"1F36C7",title:"Unilever",source:"https://www.unilever.com/our-company/the-logo",
+        }
+        ,[SimpleIcons.Uniqlo]: {
+            hex:"FF0000",title:"Uniqlo",source:"https://www.uniqlo.com",
+        }
+        ,[SimpleIcons.UniqloJa]: {
+            hex:"FF0000",title:"Uniqlo",source:"https://www.uniqlo.com",slug:"uniqlo_ja"
         }
         ,[SimpleIcons.UnitedAirlines]: {
-            hex:"002244",title:"United Airlines",source:"https://en.wikipedia.org/wiki/File:United_Airlines_Logo.svg",
+            hex:"002244",title:"United Airlines",source:"https://www.united.com",
+        }
+        ,[SimpleIcons.UnitedNations]: {
+            hex:"009EDB",title:"United Nations",source:"https://www.un.org/en",
         }
         ,[SimpleIcons.Unity]: {
-            hex:"000000",title:"Unity",source:"https://unity.com/",
+            hex:"FFFFFF",title:"Unity",source:"https://brand.unity.com",
+        }
+        ,[SimpleIcons.UnJS]: {
+            hex:"ECDC5A",title:"UnJS",source:"https://unjs.io",
+        }
+        ,[SimpleIcons.Unlicense]: {
+            hex:"808080",title:"Unlicense",source:"https://commons.wikimedia.org/wiki/File:PD-icon.svg",
+        }
+        ,[SimpleIcons.UnoCSS]: {
+            hex:"333333",title:"UnoCSS",source:"https://github.com/unocss/unocss/blob/fc2ed5bb6019b45565ff5293d4b650522f1b79b4/playground/public/icon.svg",
+        }
+        ,[SimpleIcons.Unpkg]: {
+            hex:"000000",title:"unpkg",source:"https://github.com/mjackson/unpkg/blob/af8c8db00fdacd77961ab2a8c3edb45a27d3a6a3/public/favicon.ico",
         }
         ,[SimpleIcons.Unraid]: {
-            hex:"F15A2C",title:"Unraid",source:"https://unraid.net/",
+            hex:"F15A2C",title:"Unraid",source:"https://unraid.net",
         }
         ,[SimpleIcons.UnrealEngine]: {
-            hex:"313131",title:"Unreal Engine",source:"https://www.unrealengine.com/en-US/branding",
+            hex:"0E1128",title:"Unreal Engine",source:"https://www.unrealengine.com/en-US/branding",
         }
         ,[SimpleIcons.Unsplash]: {
-            hex:"000000",title:"Unsplash",source:"https://unsplash.com/",
-        }
-        ,[SimpleIcons.Untangle]: {
-            hex:"68BD49",title:"Untangle",source:"https://www.untangle.com/company-overview/",
+            hex:"000000",title:"Unsplash",source:"https://unsplash.com",
         }
         ,[SimpleIcons.Untappd]: {
-            hex:"FFC000",title:"Untappd",source:"https://untappd.com/",
+            hex:"FFC000",title:"Untappd",source:"https://untappd.com",
         }
         ,[SimpleIcons.UpCloud]: {
             hex:"7B00FF",title:"UpCloud",source:"https://upcloud.com/brand-assets/",
         }
-        ,[SimpleIcons.UpLabs]: {
-            hex:"3930D8",title:"UpLabs",source:"https://www.uplabs.com/",
+        ,[SimpleIcons.Uphold]: {
+            hex:"49CC68",title:"Uphold",source:"https://uphold.com/en-us/brand-assets",
         }
-        ,[SimpleIcons.Uploaded]: {
-            hex:"0E70CB",title:"Uploaded",source:"https://www.uploaded.net",
+        ,[SimpleIcons.UpLabs]: {
+            hex:"3930D8",title:"UpLabs",source:"https://www.uplabs.com",
+        }
+        ,[SimpleIcons.Upptime]: {
+            hex:"1ABC9C",title:"Upptime",source:"https://upptime.js.org",
         }
         ,[SimpleIcons.UPS]: {
-            hex:"150400",title:"UPS",source:"https://www.ups.com/",
+            hex:"150400",title:"UPS",source:"https://www.ups.com",
+        }
+        ,[SimpleIcons.Upstash]: {
+            hex:"00E9A3",title:"Upstash",source:"https://upstash.com",
+        }
+        ,[SimpleIcons.UptimeKuma]: {
+            hex:"5CDD8B",title:"Uptime Kuma",source:"https://uptime.kuma.pet",
+        }
+        ,[SimpleIcons.Uptobox]: {
+            hex:"5CE1E6",title:"Uptobox",source:"https://uptobox.fr",
         }
         ,[SimpleIcons.Upwork]: {
             hex:"6FDA44",title:"Upwork",source:"https://www.upwork.com/press/",
         }
         ,[SimpleIcons.USPS]: {
-            hex:"333366",title:"USPS",source:"https://www.usps.com/",
+            hex:"333366",title:"USPS",source:"https://www.usps.com",
+        }
+        ,[SimpleIcons.UTorrent]: {
+            hex:"76B83F",title:"uTorrent",source:"https://www.utorrent.com",
         }
         ,[SimpleIcons.V]: {
-            hex:"5D87BF",title:"V",source:"https://github.com/vlang/v-logo",
+            hex:"5D87BF",title:"V",source:"https://github.com/vlang/v-logo/blob/eec050c901ed3afefce8cbe56092d55ed6770706/dist/v-logo.svg",
+        }
+        ,[SimpleIcons.V2EX]: {
+            hex:"1F1F1F",title:"V2EX",source:"https://www.v2ex.com",
         }
         ,[SimpleIcons.V8]: {
             hex:"4B8BF5",title:"V8",source:"https://v8.dev/logo",
@@ -14955,14 +24509,23 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Vagrant]: {
             hex:"1868F2",title:"Vagrant",source:"https://www.hashicorp.com/brand",
         }
+        ,[SimpleIcons.Vala]: {
+            hex:"7239B3",title:"Vala",source:"https://commons.wikimedia.org/wiki/File:Vala_Logo.svg",
+        }
+        ,[SimpleIcons.Valorant]: {
+            hex:"FA4454",title:"Valorant",source:"https://commons.wikimedia.org/wiki/File:Valorant_logo_-_black_color_version.svg",
+        }
         ,[SimpleIcons.Valve]: {
-            hex:"F74843",title:"Valve",source:"https://www.valvesoftware.com/",
+            hex:"F74843",title:"Valve",source:"https://www.valvesoftware.com",
         }
         ,[SimpleIcons.Vapor]: {
-            hex:"0D0D0D",title:"Vapor",source:"https://vapor.codes/",
+            hex:"0D0D0D",title:"Vapor",source:"https://vapor.codes",
         }
         ,[SimpleIcons.Vault]: {
-            hex:"000000",title:"Vault",source:"https://www.hashicorp.com/brand",
+            hex:"FFEC6E",title:"Vault",source:"https://www.hashicorp.com/brand",
+        }
+        ,[SimpleIcons.Vaultwarden]: {
+            hex:"000000",title:"Vaultwarden",source:"https://github.com/dani-garcia/vaultwarden/blob/44e9e1a58ed37bf4b352bb499fd3e97adcd3b26b/resources/vaultwarden-icon.svg",
         }
         ,[SimpleIcons.Vauxhall]: {
             hex:"EB001E",title:"Vauxhall",source:"https://www.stellantis.com/en/brands/vauxhall",
@@ -14970,8 +24533,11 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.VBulletin]: {
             hex:"184D66",title:"vBulletin",source:"https://commons.wikimedia.org/wiki/File:VBulletin.svg",
         }
+        ,[SimpleIcons.Vectary]: {
+            hex:"6100FF",title:"Vectary",source:"https://www.vectary.com",
+        }
         ,[SimpleIcons.VectorLogoZone]: {
-            hex:"184D66",title:"Vector Logo Zone",source:"https://www.vectorlogo.zone/",
+            hex:"184D66",title:"Vector Logo Zone",source:"https://www.vectorlogo.zone",
         }
         ,[SimpleIcons.Vectorworks]: {
             hex:"000000",title:"Vectorworks",source:"https://www.vectorworks.net/en-US",
@@ -14979,17 +24545,29 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Veeam]: {
             hex:"00B336",title:"Veeam",source:"https://www.veeam.com/newsroom/veeam-graphics.html",
         }
+        ,[SimpleIcons.VEED]: {
+            hex:"B6FF60",title:"VEED",source:"https://www.veed.io",
+        }
         ,[SimpleIcons.Veepee]: {
-            hex:"EC008C",title:"Veepee",source:"https://www.veepee.fr/",
+            hex:"EC008C",title:"Veepee",source:"https://www.veepee.fr",
+        }
+        ,[SimpleIcons.Vega]: {
+            hex:"2450B2",title:"Vega",source:"https://github.com/vega/logos/blob/af32bc29f0c09c8de826aaafb037935fb69e960a/assets/VG_Black.svg",
+        }
+        ,[SimpleIcons.VEGAS]: {
+            hex:"1A1A1A",title:"VEGAS",source:"https://www.vegascreativesoftware.com",
+        }
+        ,[SimpleIcons.Velog]: {
+            hex:"20C997",title:"Velog",source:"https://github.com/velopert/velog-client/blob/8fbbb371f4b4525b6747e54d0c608900ea8bf03e/src/static/svg/velog-icon.svg",
         }
         ,[SimpleIcons.Venmo]: {
-            hex:"3D95CE",title:"Venmo",source:"https://venmo.com/about/brand/",
+            hex:"008CFF",title:"Venmo",source:"https://venmo.com/about/brand",
         }
         ,[SimpleIcons.Vercel]: {
-            hex:"000000",title:"Vercel",source:"https://vercel.com/design",
+            hex:"000000",title:"Vercel",source:"https://vercel.com/design/brands",
         }
         ,[SimpleIcons.Verdaccio]: {
-            hex:"4B5E40",title:"Verdaccio",source:"https://verdaccio.org/docs/en/logo",
+            hex:"4B5E40",title:"Verdaccio",source:"https://verdaccio.org/docs/logo",
         }
         ,[SimpleIcons.Veritas]: {
             hex:"B1181E",title:"Veritas",source:"https://my.veritas.com/cs/groups/partner/documents/styleguide/mdaw/mdq5/~edisp/tus3cpeapp3855186572.pdf",
@@ -14997,68 +24575,122 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Verizon]: {
             hex:"CD040B",title:"Verizon",source:"https://www.verizondigitalmedia.com/about/logo-usage/",
         }
+        ,[SimpleIcons.Vespa]: {
+            hex:"85B09A",title:"Vespa",source:"https://www.piaggiogroup.com/en/archive/document/logo-guide",
+        }
+        ,[SimpleIcons.VEXXHOST]: {
+            hex:"2A1659",title:"VEXXHOST",source:"https://vexxhost.com",
+        }
         ,[SimpleIcons.VFairs]: {
-            hex:"EF4678",title:"vFairs",source:"https://www.vfairs.com/",
+            hex:"EF4678",title:"vFairs",source:"https://www.vfairs.com",
         }
         ,[SimpleIcons.Viadeo]: {
-            hex:"F07355",title:"Viadeo",source:"https://viadeo.journaldunet.com/",
+            hex:"F07355",title:"Viadeo",source:"https://viadeo.journaldunet.com",
+        }
+        ,[SimpleIcons.Viaplay]: {
+            hex:"FE365F",title:"Viaplay",source:"https://commons.wikimedia.org/wiki/File:Viaplay_Group.svg",
         }
         ,[SimpleIcons.Viber]: {
-            hex:"7360F2",title:"Viber",source:"https://www.viber.com/brand-center/",
+            hex:"7360F2",title:"Viber",source:"https://www.viber.com/brand-center",
+        }
+        ,[SimpleIcons.Viblo]: {
+            hex:"5387C6",title:"Viblo",source:"https://viblo.asia",
+        }
+        ,[SimpleIcons.VictoriaMetrics]: {
+            hex:"621773",title:"VictoriaMetrics",source:"https://github.com/VictoriaMetrics/VictoriaMetrics/blob/24d61bf19374b42ef9839c13c7d35ce8888170e0/docs/assets/images/vm_logo.svg",
+        }
+        ,[SimpleIcons.VictronEnergy]: {
+            hex:"0066B2",title:"Victron Energy",source:"https://www.victronenergy.com/information/press",
         }
         ,[SimpleIcons.Vim]: {
             hex:"019733",title:"Vim",source:"https://commons.wikimedia.org/wiki/File:Vimlogo.svg",
         }
         ,[SimpleIcons.Vimeo]: {
-            hex:"1AB7EA",title:"Vimeo",source:"https://vimeo.com/about/brand_guidelines",
+            hex:"1AB7EA",title:"Vimeo",source:"https://press.vimeo.com/brand-guidelines",
         }
         ,[SimpleIcons.VimeoLivestream]: {
             hex:"0A0A20",title:"Vimeo Livestream",source:"https://livestream.com",
+        }
+        ,[SimpleIcons.Virgin]: {
+            hex:"E10A0A",title:"Virgin",source:"https://www.virgin.com/img/virgin-logo-square.svg",
+        }
+        ,[SimpleIcons.VirginAtlantic]: {
+            hex:"DA0530",title:"Virgin Atlantic",source:"https://www.virginatlantic.com",
+        }
+        ,[SimpleIcons.VirginMedia]: {
+            hex:"ED1A37",title:"Virgin Media",source:"https://commons.wikimedia.org/wiki/File:Virgin_Media.svg",
         }
         ,[SimpleIcons.VirtualBox]: {
             hex:"183A61",title:"VirtualBox",source:"https://commons.wikimedia.org/wiki/File:Virtualbox_logo.png",
         }
         ,[SimpleIcons.VirusTotal]: {
-            hex:"394EFF",title:"VirusTotal",source:"https://www.virustotal.com/",
+            hex:"394EFF",title:"VirusTotal",source:"https://www.virustotal.com",
         }
         ,[SimpleIcons.Visa]: {
             hex:"1A1F71",title:"Visa",source:"https://merchantsignageeu.visa.com/product.asp?dptID=696",
         }
-        ,[SimpleIcons.VisualStudio]: {
-            hex:"5C2D91",title:"Visual Studio",source:"https://visualstudio.microsoft.com/",
-        }
-        ,[SimpleIcons.VisualStudioCode]: {
-            hex:"007ACC",title:"Visual Studio Code",source:"https://commons.wikimedia.org/wiki/File:Visual_Studio_Code_1.35_icon.svg",
+        ,[SimpleIcons.Visx]: {
+            hex:"FF1231",title:"visx",source:"https://airbnb.io/visx",
         }
         ,[SimpleIcons.Vite]: {
-            hex:"646CFF",title:"Vite",source:"https://vitejs.dev/",
+            hex:"646CFF",title:"Vite",source:"https://vitejs.dev",
+        }
+        ,[SimpleIcons.VitePress]: {
+            hex:"5C73E7",title:"VitePress",source:"https://github.com/vuejs/vitepress/blob/f7aef3ca23dae39e226c85d7bb2579dbf7c758f3/art/vitepress-logo-mini.svg",
+        }
+        ,[SimpleIcons.Vitess]: {
+            hex:"F16728",title:"Vitess",source:"https://cncf-branding.netlify.app/projects/vitess/",
+        }
+        ,[SimpleIcons.Vitest]: {
+            hex:"6E9F18",title:"Vitest",source:"https://vitest.dev",
+        }
+        ,[SimpleIcons.VivaWallet]: {
+            hex:"1F263A",title:"Viva Wallet",source:"https://www.vivawallet.com/gb_en/press-center-gb",
         }
         ,[SimpleIcons.Vivaldi]: {
-            hex:"EF3939",title:"Vivaldi",source:"https://vivaldi.com/press/",
+            hex:"EF3939",title:"Vivaldi",source:"https://vivaldi.com/press",
         }
         ,[SimpleIcons.Vivino]: {
-            hex:"AA1329",title:"Vivino",source:"https://www.vivino.com/press",
+            hex:"A61A30",title:"Vivino",source:"https://www.vivino.com/press",
+        }
+        ,[SimpleIcons.Vivint]: {
+            hex:"212721",title:"Vivint",source:"https://brandfolder.com/portals/vivint",
+        }
+        ,[SimpleIcons.Vivo]: {
+            hex:"415FFF",title:"vivo",source:"https://www.vivo.com",
         }
         ,[SimpleIcons.VK]: {
-            hex:"4680C2",title:"VK",source:"https://vk.com/brand",
+            hex:"0077FF",title:"VK",source:"https://vk.com/brand",
         }
         ,[SimpleIcons.VLCMediaPlayer]: {
-            hex:"FF8800",title:"VLC media player",source:"http://git.videolan.org/?p=vlc.git;a=tree;f=extras/package/macosx/asset_sources",
+            hex:"FF8800",title:"VLC media player",source:"https://code.videolan.org/videolan/vlc/-/blob/1ce7f686ee17a028d2d79627ae69f22d905f2e23/extras/package/macosx/asset_sources/vlc_app_icon.svg",
         }
         ,[SimpleIcons.VMware]: {
-            hex:"607078",title:"VMware",source:"https://myvmware.workspaceair.com/",
+            hex:"607078",title:"VMware",source:"https://myvmware.workspaceair.com",
         }
         ,[SimpleIcons.Vodafone]: {
-            hex:"E60000",title:"Vodafone",source:"https://web.vodafone.com.eg/",
+            hex:"E60000",title:"Vodafone",source:"https://web.vodafone.com.eg",
+        }
+        ,[SimpleIcons.VoidLinux]: {
+            hex:"478061",title:"Void Linux",source:"https://alpha.de.repo.voidlinux.org/logos/void-dark2.svg",
+        }
+        ,[SimpleIcons.VoIPMs]: {
+            hex:"E1382D",title:"VoIP.ms",source:"https://voip.ms",
         }
         ,[SimpleIcons.Volkswagen]: {
-            hex:"151F5D",title:"Volkswagen",source:"https://www.volkswagen.ie/",
+            hex:"151F5D",title:"Volkswagen",source:"https://www.vw.com",
         }
         ,[SimpleIcons.Volvo]: {
             hex:"003057",title:"Volvo",source:"https://www.media.volvocars.com/global/en-gb/logos",
         }
         ,[SimpleIcons.Vonage]: {
-            hex:"FFFFFF",title:"Vonage",source:"https://www.vonage.com",
+            hex:"000000",title:"Vonage",source:"https://www.vonage.com",
+        }
+        ,[SimpleIcons.VoronDesign]: {
+            hex:"ED3023",title:"Voron Design",source:"https://github.com/VoronDesign/Voron-Extras/blob/d8591f964b408b3da21b6f9b4ab0437e229065de/Images/Logo/SVG/Voron_Design_Hex.svg",
+        }
+        ,[SimpleIcons.VowpalWabbit]: {
+            hex:"FF81F9",title:"Vowpal Wabbit",source:"https://github.com/VowpalWabbit/vowpal_wabbit/blob/1da1aa4bb4f2dfb5e1a6083c14b429b30eba372d/logo_assets/vowpal-wabbits-icon.svg",
         }
         ,[SimpleIcons.VOX]: {
             hex:"DA074A",title:"VOX",source:"https://commons.wikimedia.org/wiki/File:VOX_Logo_2013.svg",
@@ -15066,71 +24698,125 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.VSCO]: {
             hex:"000000",title:"VSCO",source:"https://vscopress.co/media-kit",
         }
+        ,[SimpleIcons.VSCodium]: {
+            hex:"2F80ED",title:"VSCodium",source:"https://github.com/VSCodium/vscodium.github.io/blob/ed028c57f10e6432ec55dfc34d4db1a83fba941d/img/codium_cnl.svg",
+        }
+        ,[SimpleIcons.VTEX]: {
+            hex:"ED125F",title:"VTEX",source:"https://vtex.com",
+        }
         ,[SimpleIcons.VueJs]: {
-            hex:"4FC08D",title:"Vue.js",source:"https://github.com/vuejs/art",
+            hex:"4FC08D",title:"Vue.js",source:"https://github.com/vuejs/art/blob/a1c78b74569b70a25300925b4eacfefcc143b8f6/logo.svg",
         }
         ,[SimpleIcons.Vuetify]: {
-            hex:"1867C0",title:"Vuetify",source:"https://vuetifyjs.com/",
+            hex:"1867C0",title:"Vuetify",source:"https://vuetifyjs.com/resources/brand-kit",
         }
         ,[SimpleIcons.Vulkan]: {
-            hex:"AC162C",title:"Vulkan",source:"https://www.khronos.org/legal/trademarks/",
+            hex:"A41E22",title:"Vulkan",source:"https://www.khronos.org/legal/trademarks",
         }
         ,[SimpleIcons.Vultr]: {
-            hex:"007BFC",title:"Vultr",source:"https://www.vultr.com/company/brand-assets/",
+            hex:"007BFC",title:"Vultr",source:"https://www.vultr.com/company/brand-assets",
         }
-        ,[SimpleIcons.W3C]: {
-            hex:"005A9C",title:"W3C",source:"https://www.w3.org/Consortium/Legal/logo-usage-20000308",
+        ,[SimpleIcons.Vyond]: {
+            hex:"D95E26",title:"Vyond",source:"https://www.vyond.com",
+        }
+        ,[SimpleIcons.W3Schools]: {
+            hex:"04AA6D",title:"W3Schools",source:"https://profile.w3schools.com",
+        }
+        ,[SimpleIcons.Wacom]: {
+            hex:"000000",title:"Wacom",source:"https://support.wacom.com/hc/en-us",
+        }
+        ,[SimpleIcons.Wagmi]: {
+            hex:"000000",title:"Wagmi",source:"https://wagmi.sh",
         }
         ,[SimpleIcons.Wagtail]: {
             hex:"43B1B0",title:"Wagtail",source:"https://github.com/wagtail/wagtail/blob/e3e46e23b780aa2b1b521de081cb81872f77466d/wagtail/admin/static_src/wagtailadmin/images/wagtail-logo.svg",
+        }
+        ,[SimpleIcons.Wails]: {
+            hex:"DF0000",title:"Wails",source:"https://wails.io",
         }
         ,[SimpleIcons.WakaTime]: {
             hex:"000000",title:"WakaTime",source:"https://wakatime.com/legal/logos-and-trademark-usage",
         }
         ,[SimpleIcons.WALKMAN]: {
-            hex:"000000",title:"WALKMAN",source:"https://en.wikipedia.org/wiki/File:Walkman_logo.svg",
+            hex:"000000",title:"WALKMAN",source:"https://commons.wikimedia.org/wiki/File:Walkman_logo_(2000).svg",
+        }
+        ,[SimpleIcons.Wallabag]: {
+            hex:"3F6184",title:"Wallabag",source:"https://github.com/wallabag/logo/blob/f670395da2d85c3bbcb8dcfa8d2a339d8af5abb0/_default/icon/svg/logo-icon-black-no-bg.svg",
+        }
+        ,[SimpleIcons.WalletConnect]: {
+            hex:"3B99FC",title:"WalletConnect",source:"https://walletconnect.com/brand",
+        }
+        ,[SimpleIcons.Walmart]: {
+            hex:"0071CE",title:"Walmart",source:"https://corporate.walmart.com",
+        }
+        ,[SimpleIcons.Wantedly]: {
+            hex:"21BDDB",title:"Wantedly",source:"https://wantedlyinc.com/ja/brand_assets",
         }
         ,[SimpleIcons.Wappalyzer]: {
-            hex:"32067C",title:"Wappalyzer",source:"https://www.wappalyzer.com/",
+            hex:"4608AD",title:"Wappalyzer",source:"https://www.wappalyzer.com/logos",
         }
         ,[SimpleIcons.Warnerbros]: {
-            hex:"004DB4",title:"Warner Bros.",source:"https://www.warnerbros.com/",slug:"warnerbros"
+            hex:"004DB4",title:"Warner Bros.",source:"https://www.warnerbros.com",slug:"warnerbros"
+        }
+        ,[SimpleIcons.Warp]: {
+            hex:"01A4FF",title:"Warp",source:"https://warp.dev",
+        }
+        ,[SimpleIcons.Wasabi]: {
+            hex:"01CD3E",title:"Wasabi",source:"https://wasabi.com",
+        }
+        ,[SimpleIcons.WasmCloud]: {
+            hex:"00BC8E",title:"wasmCloud",source:"https://github.com/wasmCloud/branding/blob/0827503c63f55471a0c709e97d609f56d716be40/03.Icon/Vector/SVG/Wasmcloud.Icon_Black.svg",
+        }
+        ,[SimpleIcons.Wasmer]: {
+            hex:"4946DD",title:"Wasmer",source:"https://github.com/wasmerio/wasmer.io/blob/0d425f5b4ace56496e75278e304f54492c46adde/public/images/icon.svg",
+        }
+        ,[SimpleIcons.Watchtower]: {
+            hex:"416271",title:"Watchtower",source:"https://containrrr.dev/watchtower",
         }
         ,[SimpleIcons.Wattpad]: {
             hex:"FF500A",title:"Wattpad",source:"https://company.wattpad.com/brandguideline",
         }
+        ,[SimpleIcons.Wayland]: {
+            hex:"FFBC00",title:"Wayland",source:"https://gitlab.freedesktop.org/wayland/weston/-/blob/77ede00a938b8137bd638ce67b6f58cb52b1d1b0/data/wayland.svg",
+        }
         ,[SimpleIcons.Waze]: {
-            hex:"33CCFF",title:"Waze",source:"https://www.waze.com/",
+            hex:"33CCFF",title:"Waze",source:"https://www.waze.com",
+        }
+        ,[SimpleIcons.WazirX]: {
+            hex:"3067F0",title:"WazirX",source:"https://wazirx.com",
         }
         ,[SimpleIcons.WearOS]: {
             hex:"4285F4",title:"Wear OS",source:"https://partnermarketinghub.withgoogle.com/#/brands/",
         }
         ,[SimpleIcons.Weasyl]: {
-            hex:"990000",title:"Weasyl",source:"https://www.weasyl.com/",
+            hex:"990000",title:"Weasyl",source:"https://www.weasyl.com",
         }
         ,[SimpleIcons.Web3Js]: {
             hex:"F16822",title:"Web3.js",source:"https://github.com/ChainSafe/web3.js/blob/fdbda4958cbdbaebe8ed5ea59183582b07fac254/assets/logo/web3js.svg",
         }
         ,[SimpleIcons.WebAssembly]: {
-            hex:"654FF0",title:"WebAssembly",source:"https://webassembly.org/",
+            hex:"654FF0",title:"WebAssembly",source:"https://webassembly.org",
         }
         ,[SimpleIcons.WebAuthn]: {
-            hex:"3423A6",title:"WebAuthn",source:"https://github.com/webauthn-open-source/webauthn-logos",
+            hex:"3423A6",title:"WebAuthn",source:"https://github.com/webauthn-open-source/webauthn-logos/blob/b21be672811eb4a5caadaba41044970cae299a55/final-webauthn-logo-logo-black.svg",
         }
         ,[SimpleIcons.WebcomponentsOrg]: {
-            hex:"29ABE2",title:"webcomponents.org",source:"https://www.webcomponents.org/",
+            hex:"29ABE2",title:"webcomponents.org",source:"https://www.webcomponents.org",
         }
         ,[SimpleIcons.WebdriverIO]: {
-            hex:"EA5906",title:"WebdriverIO",source:"https://webdriver.io/docs/api/",
+            hex:"EA5906",title:"WebdriverIO",source:"https://webdriver.io/docs/api",
+        }
+        ,[SimpleIcons.Webex]: {
+            hex:"000000",title:"Webex",source:"https://github.com/momentum-design/momentum-ui/blob/970c5bec962a3f72e17e0b7ed69f2c38d298c405/icons-rebrand/svg/webex-helix-filled.svg",
         }
         ,[SimpleIcons.Webflow]: {
-            hex:"4353FF",title:"Webflow",source:"https://webflow.com/",
+            hex:"146EF5",title:"Webflow",source:"https://brand-at.webflow.io/resources#logos",
         }
         ,[SimpleIcons.WebGL]: {
-            hex:"990000",title:"WebGL",source:"https://www.khronos.org/legal/trademarks/",
+            hex:"990000",title:"WebGL",source:"https://www.khronos.org/legal/trademarks",
         }
-        ,[SimpleIcons.Webhint]: {
-            hex:"4700A3",title:"webhint",source:"https://github.com/webhintio/webhint.io/blob/5c9f10a33a6d68e1f0d2b1eff0829685b9123433/src/webhint-theme/source/images/webhint-logo.svg",
+        ,[SimpleIcons.WebGPU]: {
+            hex:"005A9C",title:"WebGPU",source:"https://www.w3.org/2023/02/webgpu-logos.html",
         }
         ,[SimpleIcons.Weblate]: {
             hex:"2ECCAA",title:"Weblate",source:"https://github.com/WeblateOrg/graphics/blob/669e4f910abd9ec36fda172d2ea6f2f424a32ace/logo/weblate-black.svg",
@@ -15142,37 +24828,61 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"036CB5",title:"WebMoney",source:"https://www.webmoney.ru/rus/developers/logos.shtml",
         }
         ,[SimpleIcons.Webpack]: {
-            hex:"8DD6F9",title:"Webpack",source:"https://webpack.js.org/branding/",
+            hex:"8DD6F9",title:"Webpack",source:"https://webpack.js.org/branding",
         }
         ,[SimpleIcons.WebRTC]: {
-            hex:"333333",title:"WebRTC",source:"https://webrtc.org/",
+            hex:"333333",title:"WebRTC",source:"https://webrtc.org",
         }
         ,[SimpleIcons.WebStorm]: {
-            hex:"000000",title:"WebStorm",source:"https://www.jetbrains.com/company/brand/logos/",
+            hex:"000000",title:"WebStorm",source:"https://www.jetbrains.com/company/brand/logos",
         }
         ,[SimpleIcons.WEBTOON]: {
-            hex:"00D564",title:"WEBTOON",source:"http://webtoons.com/",
+            hex:"00D564",title:"WEBTOON",source:"https://webtoons.com",
+        }
+        ,[SimpleIcons.Webtrees]: {
+            hex:"2694E8",title:"webtrees",source:"https://webtrees.net",
         }
         ,[SimpleIcons.WeChat]: {
-            hex:"07C160",title:"WeChat",source:"https://wechat.design/standard/download/brand",
+            hex:"07C160",title:"WeChat",source:"https://wechat.design/tool/brand",
+        }
+        ,[SimpleIcons.WeGame]: {
+            hex:"FAAB00",title:"WeGame",source:"https://www.wegame.com.cn",
         }
         ,[SimpleIcons.Weights__Biases]: {
-            hex:"FFBE00",title:"Weights & Biases",source:"https://wandb.ai/",
+            hex:"FFBE00",title:"Weights & Biases",source:"https://wandb.ai",
+        }
+        ,[SimpleIcons.WelcomeToTheJungle]: {
+            hex:"FFCD00",title:"Welcome to the Jungle",source:"https://www.welcometothejungle.com",
+        }
+        ,[SimpleIcons.Wellfound]: {
+            hex:"000000",title:"Wellfound",source:"https://wellfound.com/logo",
+        }
+        ,[SimpleIcons.WellsFargo]: {
+            hex:"D71E28",title:"Wells Fargo",source:"https://www.wellsfargo.com/about",
         }
         ,[SimpleIcons.WEMO]: {
             hex:"72D44C",title:"WEMO",source:"https://commons.wikimedia.org/wiki/File:WeMoApp.svg",
         }
+        ,[SimpleIcons.WesternDigital]: {
+            hex:"995DFF",title:"Western Digital",source:"https://www.westerndigital.com",
+        }
+        ,[SimpleIcons.WesternUnion]: {
+            hex:"FFDD00",title:"Western Union",source:"https://www.westernunion.com",
+        }
         ,[SimpleIcons.WeTransfer]: {
-            hex:"409FFF",title:"WeTransfer",source:"https://wetransfer.com/",
+            hex:"409FFF",title:"WeTransfer",source:"https://wetransfer.com",
+        }
+        ,[SimpleIcons.WezTerm]: {
+            hex:"4E49EE",title:"WezTerm",source:"https://github.com/wez/wezterm/blob/fe78b5821fc106c1061f4c1cc454ff01e74bf97d/assets/icon/wezterm-icon.svg",
+        }
+        ,[SimpleIcons.Wgpu]: {
+            hex:"40E0D0",title:"wgpu",source:"https://wgpu.rs",
         }
         ,[SimpleIcons.WhatsApp]: {
-            hex:"25D366",title:"WhatsApp",source:"https://www.whatsappbrand.com",
+            hex:"25D366",title:"WhatsApp",source:"https://about.meta.com/brand/resources/whatsapp/whatsapp-brand",
         }
         ,[SimpleIcons.WhenIWork]: {
-            hex:"51A33D",title:"When I Work",source:"https://wheniwork.com/",
-        }
-        ,[SimpleIcons.WhiteSource]: {
-            hex:"161D4E",title:"WhiteSource",source:"https://www.whitesourcesoftware.com/whitesource-media-kit/",
+            hex:"51A33D",title:"When I Work",source:"https://wheniwork.com",
         }
         ,[SimpleIcons.Wii]: {
             hex:"8B8B8B",title:"Wii",source:"https://commons.wikimedia.org/wiki/File:Wii.svg",
@@ -15180,11 +24890,20 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.WiiU]: {
             hex:"8B8B8B",title:"Wii U",source:"https://commons.wikipedia.org/wiki/File:WiiU.svg",
         }
+        ,[SimpleIcons.WikiGg]: {
+            hex:"FF1985",title:"wiki.gg",source:"https://commons.wiki.gg/wiki/Category:Wiki.gg_logos",
+        }
+        ,[SimpleIcons.WikiJs]: {
+            hex:"1976D2",title:"Wiki.js",source:"https://cdn.js.wiki/images/wikijs-butterfly-mono.svg",
+        }
         ,[SimpleIcons.Wikidata]: {
             hex:"006699",title:"Wikidata",source:"https://commons.wikimedia.org/wiki/File:Wikidata-logo-en.svg",
         }
         ,[SimpleIcons.WikimediaCommons]: {
             hex:"006699",title:"Wikimedia Commons",source:"https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+        }
+        ,[SimpleIcons.WikimediaFoundation]: {
+            hex:"000000",title:"Wikimedia Foundation",source:"https://foundation.wikimedia.org/wiki/File:Wikimedia-logo_black.svg",
         }
         ,[SimpleIcons.Wikipedia]: {
             hex:"000000",title:"Wikipedia",source:"https://commons.wikimedia.org/wiki/File:Wikipedia-logo-v2.svg",
@@ -15195,77 +24914,77 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Wikivoyage]: {
             hex:"006699",title:"Wikivoyage",source:"https://commons.wikimedia.org/wiki/File:Wikivoyage-Logo-v3-en.svg",
         }
-        ,[SimpleIcons.Windows]: {
-            hex:"0078D6",title:"Windows",source:"https://commons.wikimedia.org/wiki/File:Windows_10_Logo.svg",
-        }
-        ,[SimpleIcons.Windows95]: {
-            hex:"008080",title:"Windows 95",source:"https://en.wikipedia.org/wiki/Windows_95",
-        }
-        ,[SimpleIcons.WindowsTerminal]: {
-            hex:"4D4D4D",title:"Windows Terminal",source:"https://github.com/microsoft/terminal/blob/a90289548f8548bf5c370a4b141b4b815c22616b/res/terminal/Terminal_HC.svg",
-        }
-        ,[SimpleIcons.WindowsXP]: {
-            hex:"003399",title:"Windows XP",source:"https://commons.wikimedia.org/wiki/File:Windows_logo_-_2002%E2%80%932012_(Multicolored).svg",
-        }
-        ,[SimpleIcons.Winmate]: {
-            hex:"C11920",title:"Winmate",source:"https://www.winmate.com/NewsAndEvents/Publications",
+        ,[SimpleIcons.Winamp]: {
+            hex:"F93821",title:"Winamp",source:"https://www.winamp.com",
         }
         ,[SimpleIcons.Wipro]: {
             hex:"341C53",title:"Wipro",source:"https://www.wipro.com/content/dam/nexus/en/service-lines/applications/latest-thinking/state-of-cybersecurity-report-2019.pdf",
         }
         ,[SimpleIcons.Wire]: {
-            hex:"000000",title:"Wire",source:"http://brand.wire.com",
+            hex:"000000",title:"Wire",source:"https://brand.wire.com",
         }
         ,[SimpleIcons.WireGuard]: {
-            hex:"88171A",title:"WireGuard",source:"https://www.wireguard.com/",
+            hex:"88171A",title:"WireGuard",source:"https://www.wireguard.com",
         }
         ,[SimpleIcons.Wireshark]: {
             hex:"1679A7",title:"Wireshark",source:"https://gitlab.com/wanduow/wireshark/-/blob/cd5539b0f76975474869984a9d2f0fce29d5c21e/image/wsicon.svg",
         }
+        ,[SimpleIcons.Wise]: {
+            hex:"9FE870",title:"Wise",source:"https://wise.design/foundations/logo",
+        }
         ,[SimpleIcons.Wish]: {
-            hex:"2FB7EC",title:"Wish",source:"https://wish.com/",
+            hex:"32E476",title:"Wish",source:"https://wish.com",
         }
         ,[SimpleIcons.Wistia]: {
-            hex:"54BBFF",title:"Wistia",source:"https://wistia.com/about/assets",
+            hex:"58B7FE",title:"Wistia",source:"https://wistia.com/about/assets",
         }
         ,[SimpleIcons.Wix]: {
-            hex:"0C6EFC",title:"Wix",source:"http://www.wix.com/about/design-assets",
+            hex:"0C6EFC",title:"Wix",source:"https://www.wix.com/about/design-assets",
         }
         ,[SimpleIcons.WizzAir]: {
             hex:"C6007E",title:"Wizz Air",source:"https://wizzair.com/en-gb/information-and-services/about-us/press-office/logos",
         }
         ,[SimpleIcons.Wolfram]: {
-            hex:"DD1100",title:"Wolfram",source:"http://company.wolfram.com/press-center/wolfram-corporate/",
+            hex:"DD1100",title:"Wolfram",source:"https://company.wolfram.com/press-center/wolfram-corporate",
         }
         ,[SimpleIcons.WolframLanguage]: {
-            hex:"DD1100",title:"Wolfram Language",source:"http://company.wolfram.com/press-center/language/",
+            hex:"DD1100",title:"Wolfram Language",source:"https://company.wolfram.com/press-center/language",
         }
         ,[SimpleIcons.WolframMathematica]: {
-            hex:"DD1100",title:"Wolfram Mathematica",source:"http://company.wolfram.com/press-center/mathematica/",
+            hex:"DD1100",title:"Wolfram Mathematica",source:"https://company.wolfram.com/press-center/mathematica",
+        }
+        ,[SimpleIcons.Wondershare]: {
+            hex:"000000",title:"Wondershare",source:"https://www.wondershare.com/news/media-assets.html",
+        }
+        ,[SimpleIcons.WondershareFilmora]: {
+            hex:"07273D",title:"Wondershare Filmora",source:"https://filmora.wondershare.com",
         }
         ,[SimpleIcons.Woo]: {
-            hex:"96588A",title:"Woo",source:"https://woocommerce.com/style-guide/",
+            hex:"96588A",title:"Woo",source:"https://woocommerce.com/style-guide",
         }
         ,[SimpleIcons.WooCommerce]: {
-            hex:"96588A",title:"WooCommerce",source:"https://woocommerce.com/style-guide/",
+            hex:"96588A",title:"WooCommerce",source:"https://woocommerce.com/style-guide",
         }
         ,[SimpleIcons.WordPress]: {
             hex:"21759B",title:"WordPress",source:"https://wordpress.org/about/logos",
         }
         ,[SimpleIcons.Workplace]: {
-            hex:"20252D",title:"Workplace",source:"https://en.facebookbrand.com/",
+            hex:"4526CE",title:"Workplace",source:"https://about.meta.com/brand/resources/workplace/workplace-brand",
         }
         ,[SimpleIcons.WorldHealthOrganization]: {
-            hex:"0093D5",title:"World Health Organization",source:"https://www.who.int/",
+            hex:"0093D5",title:"World Health Organization",source:"https://www.who.int",
         }
         ,[SimpleIcons.WPEngine]: {
-            hex:"0ECAD4",title:"WP Engine",source:"https://wpengine.com/brand-assets/",
+            hex:"0ECAD4",title:"WP Engine",source:"https://wpengine.com/brand-assets",
         }
         ,[SimpleIcons.WPRocket]: {
-            hex:"F56640",title:"WP Rocket",source:"https://wp-rocket.me/",
+            hex:"F56640",title:"WP Rocket",source:"https://wp-rocket.me",
+        }
+        ,[SimpleIcons.WPExplorer]: {
+            hex:"2563EB",title:"WPExplorer",source:"https://wpexplorer.com",
         }
         ,[SimpleIcons.WriteAs]: {
-            hex:"5BC4EE",title:"write.as",source:"https://write.as/brand",
+            hex:"5AC4EE",title:"Write.as",source:"https://write.as/brand",
         }
         ,[SimpleIcons.WWE]: {
             hex:"000000",title:"WWE",source:"https://commons.wikimedia.org/wiki/File:WWE_Network_logo.svg",
@@ -15273,26 +24992,29 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.Wwise]: {
             hex:"00549F",title:"Wwise",source:"https://www.audiokinetic.com/resources/credits/",
         }
+        ,[SimpleIcons.Wykop]: {
+            hex:"367DA9",title:"Wykop",source:"https://wykop.pl",
+        }
+        ,[SimpleIcons.Wyze]: {
+            hex:"1DF0BB",title:"Wyze",source:"https://www.wyze.com",
+        }
+        ,[SimpleIcons.X]: {
+            hex:"000000",title:"X",source:"https://x.com",
+        }
         ,[SimpleIcons.XOrg]: {
-            hex:"F28834",title:"X.Org",source:"https://upload.wikimedia.org/wikipedia/commons/9/90/X.Org_Logo.svg",
-        }
-        ,[SimpleIcons.Xamarin]: {
-            hex:"3498DB",title:"Xamarin",source:"https://github.com/dotnet/swag/tree/master/xamarin",
-        }
-        ,[SimpleIcons.XAML]: {
-            hex:"0C54C2",title:"XAML",source:"https://github.com/microsoft/microsoft-ui-xaml/issues/1185#issuecomment-529731046",
+            hex:"F28834",title:"X.Org",source:"https://commons.wikimedia.org/wiki/File:X.Org_Logo.svg",
         }
         ,[SimpleIcons.XAMPP]: {
             hex:"FB7A24",title:"XAMPP",source:"https://www.apachefriends.org/en/",
         }
-        ,[SimpleIcons.Xbox]: {
-            hex:"107C10",title:"Xbox",source:"https://www.xbox.com/en-US/consoles",
-        }
         ,[SimpleIcons.Xcode]: {
-            hex:"147EFB",title:"Xcode",source:"https://developer.apple.com/develop/",
+            hex:"147EFB",title:"Xcode",source:"https://developer.apple.com/develop",
         }
         ,[SimpleIcons.XDADevelopers]: {
-            hex:"EA7100",title:"XDA Developers",source:"https://www.xda-developers.com/",
+            hex:"EA7100",title:"XDA Developers",source:"https://www.xda-developers.com",
+        }
+        ,[SimpleIcons.Xendit]: {
+            hex:"4573FF",title:"Xendit",source:"https://www.xendit.co/en/company/asset-and-branding",
         }
         ,[SimpleIcons.Xero]: {
             hex:"13B5EA",title:"Xero",source:"https://www.xero.com/uk/about/media/downloads",
@@ -15300,20 +25022,23 @@ export const icons: {[k: string]:SimpleIcon} = {
         ,[SimpleIcons.XFCE]: {
             hex:"2284F2",title:"XFCE",source:"https://www.xfce.org/download#artwork",
         }
+        ,[SimpleIcons.Xiaohongshu]: {
+            hex:"FF2442",title:"Xiaohongshu",source:"https://pro.xiaohongshu.com",
+        }
         ,[SimpleIcons.Xiaomi]: {
             hex:"FF6900",title:"Xiaomi",source:"https://www.mi.com/global",
-        }
-        ,[SimpleIcons.Xilinx]: {
-            hex:"E01F27",title:"Xilinx",source:"https://www.xilinx.com",
         }
         ,[SimpleIcons.Xing]: {
             hex:"006567",title:"Xing",source:"https://dev.xing.com/logo_rules",
         }
         ,[SimpleIcons.XMPP]: {
-            hex:"002B5C",title:"XMPP",source:"https://github.com/xsf/xmpp.org/tree/00c49187e353c1a156c95562dafaf129e688fbad/content/icons",
+            hex:"002B5C",title:"XMPP",source:"https://github.com/xsf/xmpp.org/blob/82856a2cec0a99b197c6985191635544e6b3ed69/static/images/logos/xmpp-logo.svg",
+        }
+        ,[SimpleIcons.XO]: {
+            hex:"5ED9C7",title:"XO",source:"https://github.com/xojs/xo/tree/f9c7db99255d009b3c81535ced021c3f6ade57b4",
         }
         ,[SimpleIcons.XRP]: {
-            hex:"25A768",title:"XRP",source:"https://xrpl.org/",
+            hex:"25A768",title:"XRP",source:"https://xrpl.org",
         }
         ,[SimpleIcons.XSplit]: {
             hex:"0095DE",title:"XSplit",source:"https://www.xsplit.com/presskit",
@@ -15322,10 +25047,10 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"2C3E50",title:"XState",source:"https://github.com/davidkpiano/xstate/blob/544df7f00e2ef49603b5e5ff2f0d183ff6bd5e7c/docs/.vuepress/public/logo.svg",
         }
         ,[SimpleIcons.YCombinator]: {
-            hex:"F0652F",title:"Y Combinator",source:"https://www.ycombinator.com/press/",
+            hex:"F0652F",title:"Y Combinator",source:"https://www.ycombinator.com/press",
         }
-        ,[SimpleIcons.Yahoo_]: {
-            hex:"6001D2",title:"Yahoo!",source:"https://yahoo.com/",
+        ,[SimpleIcons.Yabai]: {
+            hex:"00364B",title:"yabai",source:"https://github.com/koekeishiya/yabai/blob/86c759186d7c588dfd8c6a84aac1ebc4730e988e/assets/icon/icon.svg",
         }
         ,[SimpleIcons.Yale]: {
             hex:"FFD900",title:"Yale",source:"https://yalehome.com",
@@ -15334,88 +25059,157 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"4B1E78",title:"Yamaha Corporation",source:"https://www.yamaha.com/en/",
         }
         ,[SimpleIcons.YamahaMotorCorporation]: {
-            hex:"E60012",title:"Yamaha Motor Corporation",source:"https://en.wikipedia.org/wiki/Yamaha_Motor_Company",
+            hex:"E60012",title:"Yamaha Motor Corporation",source:"https://commons.wikimedia.org/wiki/File:Yamaha_Motor_Logo_(full).svg",
         }
-        ,[SimpleIcons.Yammer]: {
-            hex:"106EBE",title:"Yammer",source:"https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products",
+        ,[SimpleIcons.YAML]: {
+            hex:"CB171E",title:"YAML",source:"https://commons.wikimedia.org/wiki/File:Official_YAML_Logo.svg",
+        }
+        ,[SimpleIcons.YandexCloud]: {
+            hex:"5282FF",title:"Yandex Cloud",source:"https://cloud.yandex.com/en/brandbook",
         }
         ,[SimpleIcons.Yarn]: {
-            hex:"2C8EBB",title:"Yarn",source:"https://github.com/yarnpkg/assets",
+            hex:"2C8EBB",title:"Yarn",source:"https://github.com/yarnpkg/assets/blob/76d30ca2aebed5b73ea8131d972218fb860bd32d/yarn-kitten-circle.svg",
         }
         ,[SimpleIcons.Yelp]: {
-            hex:"D32323",title:"Yelp",source:"https://www.yelp.com/styleguide/icons",
+            hex:"FF1A1A",title:"Yelp",source:"https://www.yelp.com/brand",
+        }
+        ,[SimpleIcons.Yeti]: {
+            hex:"00263C",title:"Yeti",source:"https://www.yeti.com",
         }
         ,[SimpleIcons.Yoast]: {
-            hex:"A4286A",title:"Yoast",source:"https://yoast.com/media/logo/",
-        }
-        ,[SimpleIcons.YourTravelTV]: {
-            hex:"F79025",title:"YourTravel.TV",source:"https://yourtravel.tv",
+            hex:"A61E69",title:"Yoast",source:"https://yoast.com/brand",
         }
         ,[SimpleIcons.YouTube]: {
-            hex:"FF0000",title:"YouTube",source:"https://www.youtube.com/yt/about/brand-resources/#logos-icons-colors",
+            hex:"FF0000",title:"YouTube",source:"https://www.youtube.com/howyoutubeworks/resources/brand-resources/#logos-icons-and-colors",
         }
         ,[SimpleIcons.YouTubeGaming]: {
-            hex:"FF0000",title:"YouTube Gaming",source:"https://gaming.youtube.com/",
+            hex:"FF0000",title:"YouTube Gaming",source:"https://gaming.youtube.com",
+        }
+        ,[SimpleIcons.YouTubeKids]: {
+            hex:"FF0000",title:"YouTube Kids",source:"https://www.youtube.com/intl/ALL_us/kids",
         }
         ,[SimpleIcons.YouTubeMusic]: {
-            hex:"FF0000",title:"YouTube Music",source:"https://partnermarketinghub.withgoogle.com/#/brands/",
+            hex:"FF0000",title:"YouTube Music",source:"https://partnermarketinghub.withgoogle.com/#/brands",
+        }
+        ,[SimpleIcons.YouTubeShorts]: {
+            hex:"FF0000",title:"YouTube Shorts",source:"https://www.youtube.com/shorts",
         }
         ,[SimpleIcons.YouTubeStudio]: {
-            hex:"FF0000",title:"YouTube Studio",source:"https://www.youtube.com/",
+            hex:"FF0000",title:"YouTube Studio",source:"https://www.youtube.com",
         }
         ,[SimpleIcons.YouTubeTV]: {
-            hex:"FF0000",title:"YouTube TV",source:"https://partnermarketinghub.withgoogle.com/#/brands/",
+            hex:"FF0000",title:"YouTube TV",source:"https://partnermarketinghub.withgoogle.com/#/brands",
         }
-        ,[SimpleIcons.ZWave]: {
-            hex:"1B365D",title:"Z-Wave",source:"https://www.z-wave.com/",
+        ,[SimpleIcons.Yr]: {
+            hex:"00B9F1",title:"Yr",source:"https://www.yr.no",
+        }
+        ,[SimpleIcons.Yubico]: {
+            hex:"84BD00",title:"Yubico",source:"https://www.yubico.com/wp-content/themes/coronado/img/icon.svg",
+        }
+        ,[SimpleIcons.YunoHost]: {
+            hex:"000000",title:"YunoHost",source:"https://github.com/YunoHost/doc/blob/0157b052481407b3c06cc2892de225f14c42520b/images/ynh_logo_black.svg",
+        }
+        ,[SimpleIcons._abka]: {
+            hex:"006420",title:"Żabka",source:"https://www.zabka.pl",
+        }
+        ,[SimpleIcons.Zaim]: {
+            hex:"50A135",title:"Zaim",source:"https://zaim.net",
         }
         ,[SimpleIcons.Zalando]: {
-            hex:"FF6900",title:"Zalando",source:"https://www.zalando.co.uk/",
+            hex:"FF6900",title:"Zalando",source:"https://www.zalando.co.uk",
+        }
+        ,[SimpleIcons.Zalo]: {
+            hex:"0068FF",title:"Zalo",source:"https://zalo.me",
+        }
+        ,[SimpleIcons.ZAP]: {
+            hex:"00549E",title:"ZAP",source:"https://www.zaproxy.org",
         }
         ,[SimpleIcons.Zapier]: {
-            hex:"FF4A00",title:"Zapier",source:"https://zapier.com/about/brand",
+            hex:"FF4F00",title:"Zapier",source:"https://www.figma.com/file/NQFxTCE5pGR3dHZt0DkOyy/Zapier-Brand-Guidelines-%5BExternal%5D?type=design&node-id=101-9701&mode=design",
+        }
+        ,[SimpleIcons.Zara]: {
+            hex:"000000",title:"Zara",source:"https://www.zara.com",
+        }
+        ,[SimpleIcons.Zazzle]: {
+            hex:"212121",title:"Zazzle",source:"https://www.zazzle.com/logo",
+        }
+        ,[SimpleIcons.Zcash]: {
+            hex:"F3B724",title:"Zcash",source:"https://z.cash",
+        }
+        ,[SimpleIcons.ZCOOL]: {
+            hex:"FFF200",title:"ZCOOL",source:"https://www.zcool.com.cn/appdown",
         }
         ,[SimpleIcons.ZDF]: {
-            hex:"FA7D19",title:"ZDF",source:"https://www.zdf.de/",
+            hex:"FA7D19",title:"ZDF",source:"https://www.zdf.de",
+        }
+        ,[SimpleIcons.ZebPay]: {
+            hex:"2072EF",title:"ZebPay",source:"https://www.zebpay.com",
+        }
+        ,[SimpleIcons.ZebraTechnologies]: {
+            hex:"000000",title:"Zebra Technologies",source:"https://www.zebra.com",
+        }
+        ,[SimpleIcons.ZedIndustries]: {
+            hex:"084CCF",title:"Zed Industries",source:"https://github.com/zed-industries/zed/blob/ccc939124fa2f366b3029926447fd0a0c46a85c7/assets/icons/logo_96.svg",
         }
         ,[SimpleIcons.Zelle]: {
-            hex:"6D1ED4",title:"Zelle",source:"https://www.zellepay.com/",
+            hex:"6D1ED4",title:"Zelle",source:"https://www.zellepay.com",
         }
         ,[SimpleIcons.Zend]: {
-            hex:"0679EA",title:"Zend",source:"https://www.zend.com/",
-        }
-        ,[SimpleIcons.ZendFramework]: {
-            hex:"68B604",title:"Zend Framework",source:"https://framework.zend.com/",
+            hex:"0679EA",title:"Zend",source:"https://www.zend.com",
         }
         ,[SimpleIcons.Zendesk]: {
-            hex:"03363D",title:"Zendesk",source:"https://brandland.zendesk.com/",
+            hex:"03363D",title:"Zendesk",source:"https://brandland.zendesk.com",
         }
         ,[SimpleIcons.Zenn]: {
             hex:"3EA8FF",title:"Zenn",source:"https://zenn.dev/mediakit",
         }
+        ,[SimpleIcons.Zenodo]: {
+            hex:"1682D4",title:"Zenodo",source:"https://about.zenodo.org",
+        }
+        ,[SimpleIcons.Zensar]: {
+            hex:"000000",title:"Zensar",source:"https://www.zensar.com/about/our-story/our-brand/#logo",
+        }
         ,[SimpleIcons.Zerodha]: {
             hex:"387ED1",title:"Zerodha",source:"https://zerodha.com",
-        }
-        ,[SimpleIcons.ZeroMQ]: {
-            hex:"DF0000",title:"ZeroMQ",source:"https://github.com/zeromq/zeromq.org/blob/master/static/safari-pinned-tab.svg",
         }
         ,[SimpleIcons.Zerply]: {
             hex:"7BBB6E",title:"Zerply",source:"https://zerply.com/about/resources",
         }
+        ,[SimpleIcons.Zettlr]: {
+            hex:"1CB27E",title:"Zettlr",source:"https://www.zettlr.com",
+        }
         ,[SimpleIcons.Zhihu]: {
-            hex:"0084FF",title:"Zhihu",source:"https://www.zhihu.com/",
+            hex:"0084FF",title:"Zhihu",source:"https://www.zhihu.com",
+        }
+        ,[SimpleIcons.Zig]: {
+            hex:"F7A41D",title:"Zig",source:"https://github.com/ziglang/logo/blob/6446ba8e37a0651da720d8869e1ce9264fa0c0b9/zig-mark.svg",
         }
         ,[SimpleIcons.Zigbee]: {
-            hex:"EB0443",title:"Zigbee",source:"https://zigbeealliance.org/solution/zigbee/",
+            hex:"EB0443",title:"Zigbee",source:"https://csa-iot.org/all-solutions/zigbee",
+        }
+        ,[SimpleIcons.Zigbee2MQTT]: {
+            hex:"FFC135",title:"Zigbee2MQTT",source:"https://github.com/Koenkk/zigbee2mqtt/blob/434981b567122c745c6a5228cd89b74694b15e4c/images/logo_vector.svg",
+        }
+        ,[SimpleIcons.Ziggo]: {
+            hex:"F48C00",title:"Ziggo",source:"https://www.ziggosport.nl",
+        }
+        ,[SimpleIcons.Zilch]: {
+            hex:"00D287",title:"Zilch",source:"https://www.zilch.com",
         }
         ,[SimpleIcons.Zillow]: {
-            hex:"006AFF",title:"Zillow",source:"https://www.zillow.com/",
+            hex:"006AFF",title:"Zillow",source:"https://www.zillow.com",
+        }
+        ,[SimpleIcons.ZincSearch]: {
+            hex:"5BA37F",title:"ZincSearch",source:"https://github.com/zincsearch/zincsearch-docs/blob/f5b8bec0c05c10968f54aca3eabde9d4d77a1712/docs/images/logo.svg",
         }
         ,[SimpleIcons.Zingat]: {
-            hex:"009CFB",title:"Zingat",source:"https://www.zingat.com/kurumsal-logolar",
+            hex:"009CFB",title:"Zingat",source:"https://www.zingat.com",
+        }
+        ,[SimpleIcons.Zod]: {
+            hex:"3E67B1",title:"Zod",source:"https://zod.dev",
         }
         ,[SimpleIcons.Zoho]: {
-            hex:"C8202B",title:"Zoho",source:"https://www.zoho.com/branding/",
+            hex:"E42527",title:"Zoho",source:"https://www.zoho.com/branding",
         }
         ,[SimpleIcons.Zoiper]: {
             hex:"F47920",title:"Zoiper",source:"https://www.zoiper.com/en/products",
@@ -15424,16 +25218,22 @@ export const icons: {[k: string]:SimpleIcon} = {
             hex:"E23744",title:"Zomato",source:"https://www.zomato.com/business/apps",
         }
         ,[SimpleIcons.Zoom]: {
-            hex:"2D8CFF",title:"Zoom",source:"https://zoom.us/brandguidelines",
+            hex:"0B5CFF",title:"Zoom",source:"https://brand.zoom.us/media-library.html",
         }
         ,[SimpleIcons.Zorin]: {
-            hex:"0CC1F3",title:"Zorin",source:"https://zorinos.com/press/",
+            hex:"15A6F0",title:"Zorin",source:"https://zorin.com/press",
         }
         ,[SimpleIcons.Zotero]: {
             hex:"CC2936",title:"Zotero",source:"https://www.zotero.org/support/brand",
         }
+        ,[SimpleIcons.Zsh]: {
+            hex:"F15A24",title:"Zsh",source:"https://github.com/Zsh-art/logo/blob/253927e62bd2a640d29915ad7a794880b787eda8/svg/black_vertical_icon.svg",
+        }
         ,[SimpleIcons.Zulip]: {
-            hex:"FFFFFF",title:"Zulip",source:"https://github.com/zulip/zulip/blob/df9e40491dc77b658d943cff36a816d46e32ce1b/static/images/logo/zulip-org-logo.svg",
+            hex:"6492FE",title:"Zulip",source:"https://github.com/zulip/zulip/blob/df9e40491dc77b658d943cff36a816d46e32ce1b/static/images/logo/zulip-org-logo.svg",
+        }
+        ,[SimpleIcons.Zyte]: {
+            hex:"B02CCE",title:"Zyte",source:"https://www.zyte.com",
         }
         ,
     };

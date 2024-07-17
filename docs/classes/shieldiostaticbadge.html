@@ -1,839 +1,422 @@
-<!doctype html>
-<html class="default no-js">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>ShieldIOStaticBadge | shieldsio-elements</title>
-	<meta name="description" content="Documentation for shieldsio-elements">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="../assets/css/main.css">
-	<script async src="../assets/js/search.js" id="search-script"></script>
-</head>
-<body>
-<header>
-	<div class="tsd-page-toolbar">
-		<div class="container">
-			<div class="table-wrap">
-				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.json" data-base="..">
-					<div class="field">
-						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
-						<input id="tsd-search-field" type="text" />
-					</div>
-					<ul class="results">
-						<li class="state loading">Preparing search index...</li>
-						<li class="state failure">The search index is not available</li>
-					</ul>
-					<a href="../index.html" class="title">shieldsio-elements</a>
-				</div>
-				<div class="table-cell" id="tsd-widgets">
-					<div id="tsd-filter">
-						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
-						<div class="tsd-filter-group">
-							<div class="tsd-select" id="tsd-filter-visibility">
-								<span class="tsd-select-label">All</span>
-								<ul class="tsd-select-list">
-									<li data-value="public">Public</li>
-									<li data-value="protected">Public/Protected</li>
-									<li data-value="private" class="selected">All</li>
-								</ul>
-							</div>
-							<input type="checkbox" id="tsd-filter-inherited" checked />
-							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
-						</div>
-					</div>
-					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="tsd-page-title">
-		<div class="container">
-			<ul class="tsd-breadcrumb">
-				<li>
-					<a href="../modules.html">shieldsio-elements</a>
-				</li>
-				<li>
-					<a href="shieldiostaticbadge.html">ShieldIOStaticBadge</a>
-				</li>
-			</ul>
-			<h1>Class ShieldIOStaticBadge</h1>
-		</div>
-	</div>
-</header>
+<!DOCTYPE html><html class="default" lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>ShieldIOStaticBadge | shieldsio-elements</title><meta name="description" content="Documentation for shieldsio-elements"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="../assets/style.css"/><link rel="stylesheet" href="../assets/highlight.css"/><script async src="../assets/search.js" id="search-script"></script></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os"</script><header class="tsd-page-toolbar">
+<div class="tsd-toolbar-contents container">
+<div class="table-cell" id="tsd-search" data-base="..">
+<div class="field"><label for="tsd-search-field" class="tsd-widget tsd-toolbar-icon search no-caption"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M15.7824 13.833L12.6666 10.7177C12.5259 10.5771 12.3353 10.499 12.1353 10.499H11.6259C12.4884 9.39596 13.001 8.00859 13.001 6.49937C13.001 2.90909 10.0914 0 6.50048 0C2.90959 0 0 2.90909 0 6.49937C0 10.0896 2.90959 12.9987 6.50048 12.9987C8.00996 12.9987 9.39756 12.4863 10.5008 11.6239V12.1332C10.5008 12.3332 10.5789 12.5238 10.7195 12.6644L13.8354 15.7797C14.1292 16.0734 14.6042 16.0734 14.8948 15.7797L15.7793 14.8954C16.0731 14.6017 16.0731 14.1267 15.7824 13.833ZM6.50048 10.499C4.29094 10.499 2.50018 8.71165 2.50018 6.49937C2.50018 4.29021 4.28781 2.49976 6.50048 2.49976C8.71001 2.49976 10.5008 4.28708 10.5008 6.49937C10.5008 8.70852 8.71314 10.499 6.50048 10.499Z" fill="var(--color-text)"></path></svg></label><input type="text" id="tsd-search-field" aria-label="Search"/></div>
+<div class="field">
+<div id="tsd-toolbar-links"></div></div>
+<ul class="results">
+<li class="state loading">Preparing search index...</li>
+<li class="state failure">The search index is not available</li></ul><a href="../index.html" class="title">shieldsio-elements</a></div>
+<div class="table-cell" id="tsd-widgets"><a href="#" class="tsd-widget tsd-toolbar-icon menu no-caption" data-toggle="menu" aria-label="Menu"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="1" y="3" width="14" height="2" fill="var(--color-text)"></rect><rect x="1" y="7" width="14" height="2" fill="var(--color-text)"></rect><rect x="1" y="11" width="14" height="2" fill="var(--color-text)"></rect></svg></a></div></div></header>
 <div class="container container-main">
-	<div class="row">
-		<div class="col-8 col-content">
-			<section class="tsd-panel tsd-comment">
-				<div class="tsd-comment tsd-typography">
-					<div class="lead">
-						<p>Shield IO Static Badge</p>
-					</div>
-					<dl class="tsd-comment-tags">
-						<dt>example</dt>
-						<dd><pre><code class="language-html"><span style="color: #800000">&lt;shieldio-badge</span><span style="color: #000000"> </span><span style="color: #FF0000">label</span><span style="color: #000000">=</span><span style="color: #0000FF">&quot;Label&quot;</span><span style="color: #000000"> </span><span style="color: #FF0000">message</span><span style="color: #000000">=</span><span style="color: #0000FF">&quot;message&quot;</span><span style="color: #000000"> </span><span style="color: #FF0000">color</span><span style="color: #000000">=</span><span style="color: #0000FF">&quot;green&quot;</span><span style="color: #800000">&gt;&lt;/shieldio-badge&gt;</span>
+<div class="col-8 col-content">
+<div class="tsd-page-title">
+<ul class="tsd-breadcrumb">
+<li><a href="../modules.html">shieldsio-elements</a></li>
+<li><a href="ShieldIOStaticBadge.html">ShieldIOStaticBadge</a></li></ul>
+<h1>Class ShieldIOStaticBadge</h1></div>
+<section class="tsd-panel tsd-comment">
+<div class="tsd-comment tsd-typography"><p>Shield IO Static Badge</p>
+
+<h3>Example</h3><pre><code class="language-html"><span class="hl-0">&lt;</span><span class="hl-1">shieldio-badge</span><span class="hl-2"> </span><span class="hl-3">label</span><span class="hl-2">=</span><span class="hl-4">&quot;Label&quot;</span><span class="hl-2"> </span><span class="hl-3">message</span><span class="hl-2">=</span><span class="hl-4">&quot;message&quot;</span><span class="hl-2"> </span><span class="hl-3">color</span><span class="hl-2">=</span><span class="hl-4">&quot;green&quot;</span><span class="hl-0">&gt;&lt;/</span><span class="hl-1">shieldio-badge</span><span class="hl-0">&gt;</span>
 </code></pre>
-						</dd>
-						<dt>see</dt>
-						<dd><p><a href="https://shields.io/" class="external">https://shields.io/</a></p>
-						</dd>
-					</dl>
-				</div>
-			</section>
-			<section class="tsd-panel tsd-hierarchy">
-				<h3>Hierarchy</h3>
-				<ul class="tsd-hierarchy">
-					<li>
-						<span class="tsd-signature-type">ShieldIOBadge</span>
-						<ul class="tsd-hierarchy">
-							<li>
-								<span class="target">ShieldIOStaticBadge</span>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</section>
-			<section class="tsd-panel-group tsd-index-group">
-				<h2>Index</h2>
-				<section class="tsd-panel tsd-index-panel">
-					<div class="tsd-index-content">
-						<section class="tsd-index-section ">
-							<h3>Constructors</h3>
-							<ul class="tsd-index-list">
-								<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite"><a href="shieldiostaticbadge.html#constructor" class="tsd-kind-icon">constructor</a></li>
-							</ul>
-						</section>
-						<section class="tsd-index-section ">
-							<h3>Accessors</h3>
-							<ul class="tsd-index-list">
-								<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="shieldiostaticbadge.html#badgestyle" class="tsd-kind-icon">badge<wbr>Style</a></li>
-								<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="shieldiostaticbadge.html#color" class="tsd-kind-icon">color</a></li>
-								<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><a href="shieldiostaticbadge.html#imgsrc" class="tsd-kind-icon">img<wbr>Src</a></li>
-								<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="shieldiostaticbadge.html#label" class="tsd-kind-icon">label</a></li>
-								<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="shieldiostaticbadge.html#labelcolor" class="tsd-kind-icon">label<wbr>Color</a></li>
-								<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="shieldiostaticbadge.html#logo" class="tsd-kind-icon">logo</a></li>
-								<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="shieldiostaticbadge.html#logocolor" class="tsd-kind-icon">logo<wbr>Color</a></li>
-								<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="shieldiostaticbadge.html#logowidth" class="tsd-kind-icon">logo<wbr>Width</a></li>
-								<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="shieldiostaticbadge.html#message" class="tsd-kind-icon">message</a></li>
-								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-protected"><a href="shieldiostaticbadge.html#srcparameters" class="tsd-kind-icon">src<wbr>Parameters</a></li>
-								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="shieldiostaticbadge.html#tagname" class="tsd-kind-icon">tag<wbr>Name</a></li>
-								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-static"><a href="shieldiostaticbadge.html#baseobservedattributes" class="tsd-kind-icon">base<wbr>Observed<wbr>Attributes</a></li>
-								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-static"><a href="shieldiostaticbadge.html#observedattributes" class="tsd-kind-icon">observed<wbr>Attributes</a></li>
-								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-static"><a href="shieldiostaticbadge.html#tagname-1" class="tsd-kind-icon">tag<wbr>Name</a></li>
-							</ul>
-						</section>
-						<section class="tsd-index-section ">
-							<h3>Methods</h3>
-							<ul class="tsd-index-list">
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="shieldiostaticbadge.html#attributechangedcallback" class="tsd-kind-icon">attribute<wbr>Changed<wbr>Callback</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-protected"><a href="shieldiostaticbadge.html#setsrc" class="tsd-kind-icon">set<wbr>Src</a></li>
-							</ul>
-						</section>
-					</div>
-				</section>
-			</section>
-			<section class="tsd-panel-group tsd-member-group ">
-				<h2>Constructors</h2>
-				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
-					<a name="constructor" class="tsd-anchor"></a>
-					<h3>constructor</h3>
-					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
-						<li class="tsd-signature tsd-kind-icon">new <wbr>ShieldIOStatic<wbr>Badge<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="shieldiostaticbadge.html" class="tsd-signature-type" data-tsd-kind="Class">ShieldIOStaticBadge</a></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<p>Overrides ShieldIOBadge.constructor</p>
-								<ul>
-									<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/05afdd7/src/ShieldIOStaticBadge.ts#L14">ShieldIOStaticBadge.ts:14</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Create a new instance of the <a href="shieldiostaticbadge.html"><code>ShieldIOStaticBadge</code></a> class.</p>
-								</div>
-							</div>
-							<h4 class="tsd-returns-title">Returns <a href="shieldiostaticbadge.html" class="tsd-signature-type" data-tsd-kind="Class">ShieldIOStaticBadge</a></h4>
-						</li>
-					</ul>
-				</section>
-			</section>
-			<section class="tsd-panel-group tsd-member-group ">
-				<h2>Accessors</h2>
-				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
-					<a name="badgestyle" class="tsd-anchor"></a>
-					<h3>badge<wbr>Style</h3>
-					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> badgeStyle<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../enums/badgestyle.html" class="tsd-signature-type" data-tsd-kind="Enumeration">BadgeStyle</a></li>
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> badgeStyle<span class="tsd-signature-symbol">(</span>v<span class="tsd-signature-symbol">: </span><a href="../enums/badgestyle.html" class="tsd-signature-type" data-tsd-kind="Enumeration">BadgeStyle</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/05afdd7/src/ShieldIOBadge.ts#L201">ShieldIOBadge.ts:201</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Gets the style of the badge.</p>
-								</div>
-								<dl class="tsd-comment-tags">
-									<dt>default</dt>
-									<dd><p><a href="../enums/badgestyle.html#flat"><code>BadgeStyle.Flat</code></a></p>
-									</dd>
-								</dl>
-							</div>
-							<h4 class="tsd-returns-title">Returns <a href="../enums/badgestyle.html" class="tsd-signature-type" data-tsd-kind="Enumeration">BadgeStyle</a></h4>
-						</li>
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/05afdd7/src/ShieldIOBadge.ts#L209">ShieldIOBadge.ts:209</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Sets the style of the badge.</p>
-								</div>
-								<dl class="tsd-comment-tags">
-									<dt>default</dt>
-									<dd><p><a href="../enums/badgestyle.html#flat"><code>BadgeStyle.Flat</code></a></p>
-									</dd>
-								</dl>
-							</div>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>v: <a href="../enums/badgestyle.html" class="tsd-signature-type" data-tsd-kind="Enumeration">BadgeStyle</a></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
-					<a name="color" class="tsd-anchor"></a>
-					<h3>color</h3>
-					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> color<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></li>
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> color<span class="tsd-signature-symbol">(</span>v<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/05afdd7/src/ShieldIOBadge.ts#L127">ShieldIOBadge.ts:127</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Gets the color of the right-hand-side background.</p>
-								</div>
-							</div>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h4>
-						</li>
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/05afdd7/src/ShieldIOBadge.ts#L133">ShieldIOBadge.ts:133</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Sets the color of the right-hand-side background.</p>
-								</div>
-							</div>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>v: <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class tsd-is-protected">
-					<a name="imgsrc" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagProtected">Protected</span> img<wbr>Src</h3>
-					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class tsd-is-protected">
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> imgSrc<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> imgSrc<span class="tsd-signature-symbol">(</span>v<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/05afdd7/src/ShieldIOBadge.ts#L77">ShieldIOBadge.ts:77</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Gets the source of the inner {@link HTMLImageElement}.</p>
-								</div>
-							</div>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
-						</li>
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/05afdd7/src/ShieldIOBadge.ts#L83">ShieldIOBadge.ts:83</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Sets the source of the inner {@link HTMLImageElement}.</p>
-								</div>
-							</div>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>v: <span class="tsd-signature-type">string</span></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
-					<a name="label" class="tsd-anchor"></a>
-					<h3>label</h3>
-					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> label<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></li>
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> label<span class="tsd-signature-symbol">(</span>v<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/05afdd7/src/ShieldIOBadge.ts#L90">ShieldIOBadge.ts:90</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Gets the left-hand-side text if overwritten; otherwise null.</p>
-								</div>
-							</div>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h4>
-						</li>
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/05afdd7/src/ShieldIOBadge.ts#L96">ShieldIOBadge.ts:96</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Sets the left-hand-side text. To use default set to null.</p>
-								</div>
-							</div>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>v: <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
-					<a name="labelcolor" class="tsd-anchor"></a>
-					<h3>label<wbr>Color</h3>
-					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> labelColor<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></li>
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> labelColor<span class="tsd-signature-symbol">(</span>v<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/05afdd7/src/ShieldIOBadge.ts#L161">ShieldIOBadge.ts:161</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Gets the color of the left-hand-side background.</p>
-								</div>
-							</div>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h4>
-						</li>
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/05afdd7/src/ShieldIOBadge.ts#L167">ShieldIOBadge.ts:167</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Sets the color of the left-hand-side background.</p>
-								</div>
-							</div>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>v: <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
-					<a name="logo" class="tsd-anchor"></a>
-					<h3>logo</h3>
-					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> logo<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../enums/simpleicons.html" class="tsd-signature-type" data-tsd-kind="Enumeration">SimpleIcons</a></li>
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> logo<span class="tsd-signature-symbol">(</span>v<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../enums/simpleicons.html" class="tsd-signature-type" data-tsd-kind="Enumeration">SimpleIcons</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/05afdd7/src/ShieldIOBadge.ts#L109">ShieldIOBadge.ts:109</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Gets the logo to use.</p>
-								</div>
-							</div>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../enums/simpleicons.html" class="tsd-signature-type" data-tsd-kind="Enumeration">SimpleIcons</a></h4>
-						</li>
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/05afdd7/src/ShieldIOBadge.ts#L116">ShieldIOBadge.ts:116</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Sets the logo to use.</p>
-								</div>
-							</div>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>v: <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../enums/simpleicons.html" class="tsd-signature-type" data-tsd-kind="Enumeration">SimpleIcons</a></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
-					<a name="logocolor" class="tsd-anchor"></a>
-					<h3>logo<wbr>Color</h3>
-					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> logoColor<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></li>
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> logoColor<span class="tsd-signature-symbol">(</span>v<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/05afdd7/src/ShieldIOBadge.ts#L144">ShieldIOBadge.ts:144</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Gets the color of the logo.</p>
-								</div>
-							</div>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h4>
-						</li>
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/05afdd7/src/ShieldIOBadge.ts#L150">ShieldIOBadge.ts:150</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Sets the color of the logo.</p>
-								</div>
-							</div>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>v: <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
-					<a name="logowidth" class="tsd-anchor"></a>
-					<h3>logo<wbr>Width</h3>
-					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> logoWidth<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></li>
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> logoWidth<span class="tsd-signature-symbol">(</span>v<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/05afdd7/src/ShieldIOBadge.ts#L178">ShieldIOBadge.ts:178</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Gets the horizontal space for the logo.</p>
-								</div>
-							</div>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></h4>
-						</li>
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/05afdd7/src/ShieldIOBadge.ts#L188">ShieldIOBadge.ts:188</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Sets the horizontal space for the logo.</p>
-								</div>
-							</div>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>v: <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
-					<a name="message" class="tsd-anchor"></a>
-					<h3>message</h3>
-					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> message<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></li>
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> message<span class="tsd-signature-symbol">(</span>v<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/05afdd7/src/ShieldIOStaticBadge.ts#L41">ShieldIOStaticBadge.ts:41</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Gets the right-hand-side text.</p>
-								</div>
-							</div>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h4>
-						</li>
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/05afdd7/src/ShieldIOStaticBadge.ts#L47">ShieldIOStaticBadge.ts:47</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Sets the right-hand-side text.</p>
-								</div>
-							</div>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>v: <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-protected">
-					<a name="srcparameters" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagProtected">Protected</span> src<wbr>Parameters</h3>
-					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-protected">
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> srcParameters<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/05afdd7/src/ShieldIOBadge.ts#L46">ShieldIOBadge.ts:46</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Gets the parameters common to all Shield IO badge URLs.</p>
-								</div>
-							</div>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
-					<a name="tagname" class="tsd-anchor"></a>
-					<h3>tag<wbr>Name</h3>
-					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> tagName<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/05afdd7/src/ShieldIOStaticBadge.ts#L55">ShieldIOStaticBadge.ts:55</a></li>
-								</ul>
-							</aside>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-static">
-					<a name="baseobservedattributes" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagStatic">Static</span> base<wbr>Observed<wbr>Attributes</h3>
-					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-static">
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> baseObservedAttributes<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/05afdd7/src/ShieldIOBadge.ts#L39">ShieldIOBadge.ts:39</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Gets the observable attributes common to all Shield IO badges.</p>
-								</div>
-							</div>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-static">
-					<a name="observedattributes" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagStatic">Static</span> observed<wbr>Attributes</h3>
-					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-static">
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> observedAttributes<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/05afdd7/src/ShieldIOStaticBadge.ts#L34">ShieldIOStaticBadge.ts:34</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Gets the attributes that should trigger a call to <a href="shieldiostaticbadge.html#attributechangedcallback"><code>attributeChangedCallback</code></a></p>
-								</div>
-							</div>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-static">
-					<a name="tagname-1" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagStatic">Static</span> tag<wbr>Name</h3>
-					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-static">
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> tagName<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/05afdd7/src/ShieldIOStaticBadge.ts#L59">ShieldIOStaticBadge.ts:59</a></li>
-								</ul>
-							</aside>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
-						</li>
-					</ul>
-				</section>
-			</section>
-			<section class="tsd-panel-group tsd-member-group ">
-				<h2>Methods</h2>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-					<a name="attributechangedcallback" class="tsd-anchor"></a>
-					<h3>attribute<wbr>Changed<wbr>Callback</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-						<li class="tsd-signature tsd-kind-icon">attribute<wbr>Changed<wbr>Callback<span class="tsd-signature-symbol">(</span>_<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, __<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, ___<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<p>Inherited from ShieldIOBadge.attributeChangedCallback</p>
-								<ul>
-									<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/05afdd7/src/ShieldIOBadge.ts#L32">ShieldIOBadge.ts:32</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<dl class="tsd-comment-tags">
-									<dt>inheritdoc</dt>
-									<dd></dd>
-								</dl>
-							</div>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>_: <span class="tsd-signature-type">string</span></h5>
-								</li>
-								<li>
-									<h5>__: <span class="tsd-signature-type">string</span></h5>
-								</li>
-								<li>
-									<h5>___: <span class="tsd-signature-type">string</span></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-protected">
-					<a name="setsrc" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagProtected">Protected</span> set<wbr>Src</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-protected">
-						<li class="tsd-signature tsd-kind-icon">set<wbr>Src<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<p>Overrides ShieldIOBadge.setSrc</p>
-								<ul>
-									<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/05afdd7/src/ShieldIOStaticBadge.ts#L23">ShieldIOStaticBadge.ts:23</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<dl class="tsd-comment-tags">
-									<dt>inheritdoc</dt>
-									<dd></dd>
-								</dl>
-							</div>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-						</li>
-					</ul>
-				</section>
-			</section>
-		</div>
-		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
-			<nav class="tsd-navigation primary">
-				<ul>
-					<li class=" ">
-						<a href="../modules.html">Exports</a>
-					</li>
-				</ul>
-			</nav>
-			<nav class="tsd-navigation secondary menu-sticky">
-				<ul class="before-current">
-					<li class=" tsd-kind-enum">
-						<a href="../enums/badgestyle.html" class="tsd-kind-icon">Badge<wbr>Style</a>
-					</li>
-					<li class=" tsd-kind-enum">
-						<a href="../enums/dynamicdatatype.html" class="tsd-kind-icon">Dynamic<wbr>Data<wbr>Type</a>
-					</li>
-					<li class=" tsd-kind-enum">
-						<a href="../enums/simpleicons.html" class="tsd-kind-icon">Simple<wbr>Icons</a>
-					</li>
-					<li class=" tsd-kind-class">
-						<a href="shieldiodynamicbadge.html" class="tsd-kind-icon">ShieldIODynamic<wbr>Badge</a>
-					</li>
-				</ul>
-				<ul class="current">
-					<li class="current tsd-kind-class">
-						<a href="shieldiostaticbadge.html" class="tsd-kind-icon">ShieldIOStatic<wbr>Badge</a>
-						<ul>
-							<li class=" tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
-								<a href="shieldiostaticbadge.html#constructor" class="tsd-kind-icon">constructor</a>
-							</li>
-							<li class=" tsd-kind-accessor tsd-parent-kind-class">
-								<a href="shieldiostaticbadge.html#badgestyle" class="tsd-kind-icon">badge<wbr>Style</a>
-							</li>
-							<li class=" tsd-kind-accessor tsd-parent-kind-class">
-								<a href="shieldiostaticbadge.html#color" class="tsd-kind-icon">color</a>
-							</li>
-							<li class=" tsd-kind-accessor tsd-parent-kind-class tsd-is-protected">
-								<a href="shieldiostaticbadge.html#imgsrc" class="tsd-kind-icon">img<wbr>Src</a>
-							</li>
-							<li class=" tsd-kind-accessor tsd-parent-kind-class">
-								<a href="shieldiostaticbadge.html#label" class="tsd-kind-icon">label</a>
-							</li>
-							<li class=" tsd-kind-accessor tsd-parent-kind-class">
-								<a href="shieldiostaticbadge.html#labelcolor" class="tsd-kind-icon">label<wbr>Color</a>
-							</li>
-							<li class=" tsd-kind-accessor tsd-parent-kind-class">
-								<a href="shieldiostaticbadge.html#logo" class="tsd-kind-icon">logo</a>
-							</li>
-							<li class=" tsd-kind-accessor tsd-parent-kind-class">
-								<a href="shieldiostaticbadge.html#logocolor" class="tsd-kind-icon">logo<wbr>Color</a>
-							</li>
-							<li class=" tsd-kind-accessor tsd-parent-kind-class">
-								<a href="shieldiostaticbadge.html#logowidth" class="tsd-kind-icon">logo<wbr>Width</a>
-							</li>
-							<li class=" tsd-kind-accessor tsd-parent-kind-class">
-								<a href="shieldiostaticbadge.html#message" class="tsd-kind-icon">message</a>
-							</li>
-							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-protected">
-								<a href="shieldiostaticbadge.html#srcparameters" class="tsd-kind-icon">src<wbr>Parameters</a>
-							</li>
-							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
-								<a href="shieldiostaticbadge.html#tagname" class="tsd-kind-icon">tag<wbr>Name</a>
-							</li>
-							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-static">
-								<a href="shieldiostaticbadge.html#baseobservedattributes" class="tsd-kind-icon">base<wbr>Observed<wbr>Attributes</a>
-							</li>
-							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-static">
-								<a href="shieldiostaticbadge.html#observedattributes" class="tsd-kind-icon">observed<wbr>Attributes</a>
-							</li>
-							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-static">
-								<a href="shieldiostaticbadge.html#tagname-1" class="tsd-kind-icon">tag<wbr>Name</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="shieldiostaticbadge.html#attributechangedcallback" class="tsd-kind-icon">attribute<wbr>Changed<wbr>Callback</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-protected">
-								<a href="shieldiostaticbadge.html#setsrc" class="tsd-kind-icon">set<wbr>Src</a>
-							</li>
-						</ul>
-					</li>
-				</ul>
-				<ul class="after-current">
-					<li class=" tsd-kind-class">
-						<a href="simpleiconbadge.html" class="tsd-kind-icon">Simple<wbr>Icon<wbr>Badge</a>
-					</li>
-					<li class=" tsd-kind-interface">
-						<a href="../interfaces/simpleicon.html" class="tsd-kind-icon">Simple<wbr>Icon</a>
-					</li>
-					<li class=" tsd-kind-variable">
-						<a href="../modules.html#icons" class="tsd-kind-icon">icons</a>
-					</li>
-				</ul>
-			</nav>
-		</div>
-	</div>
+
+<h3>See</h3><p><a href="https://shields.io/">https://shields.io/</a></p>
+</div></section>
+<section class="tsd-panel tsd-hierarchy">
+<h4>Hierarchy</h4>
+<ul class="tsd-hierarchy">
+<li><span class="tsd-signature-type">ShieldIOBadge</span>
+<ul class="tsd-hierarchy">
+<li><span class="target">ShieldIOStaticBadge</span></li></ul></li></ul></section><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/01a6393/src/ShieldIOStaticBadge.ts#L14">ShieldIOStaticBadge.ts:14</a></li></ul></aside>
+<section class="tsd-panel-group tsd-index-group">
+<section class="tsd-panel tsd-index-panel">
+<details class="tsd-index-content tsd-index-accordion" open><summary class="tsd-accordion-summary tsd-index-summary">
+<h5 class="tsd-index-heading uppercase" role="button" aria-expanded="false" tabIndex=0><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M1.5 5.50969L8 11.6609L14.5 5.50969L12.5466 3.66086L8 7.96494L3.45341 3.66086L1.5 5.50969Z" fill="var(--color-text)"></path></svg> Index</h5></summary>
+<div class="tsd-accordion-details">
+<section class="tsd-index-section">
+<h3 class="tsd-index-heading">Constructors</h3>
+<div class="tsd-index-list"><a href="ShieldIOStaticBadge.html#constructor" class="tsd-index-link tsd-kind-constructor tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><rect fill="var(--color-icon-background)" stroke="#4D7FFF" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="12" id="icon-512-path"></rect><path d="M11.898 16.1201C11.098 16.1201 10.466 15.8961 10.002 15.4481C9.53803 15.0001 9.30603 14.3841 9.30603 13.6001V9.64012C9.30603 8.85612 9.53803 8.24012 10.002 7.79212C10.466 7.34412 11.098 7.12012 11.898 7.12012C12.682 7.12012 13.306 7.34812 13.77 7.80412C14.234 8.25212 14.466 8.86412 14.466 9.64012H13.386C13.386 9.14412 13.254 8.76412 12.99 8.50012C12.734 8.22812 12.37 8.09212 11.898 8.09212C11.426 8.09212 11.054 8.22412 10.782 8.48812C10.518 8.75212 10.386 9.13212 10.386 9.62812V13.6001C10.386 14.0961 10.518 14.4801 10.782 14.7521C11.054 15.0161 11.426 15.1481 11.898 15.1481C12.37 15.1481 12.734 15.0161 12.99 14.7521C13.254 14.4801 13.386 14.0961 13.386 13.6001H14.466C14.466 14.3761 14.234 14.9921 13.77 15.4481C13.306 15.8961 12.682 16.1201 11.898 16.1201Z" fill="var(--color-text)" id="icon-512-text"></path></svg><span>constructor</span></a>
+</div></section>
+<section class="tsd-index-section">
+<h3 class="tsd-index-heading">Accessors</h3>
+<div class="tsd-index-list"><a href="ShieldIOStaticBadge.html#badgeStyle" class="tsd-index-link tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><rect fill="var(--color-icon-background)" stroke="#FF4D4D" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="12" id="icon-262144-path"></rect><path d="M8.85 16L11.13 7.24H12.582L14.85 16H13.758L13.182 13.672H10.53L9.954 16H8.85ZM10.746 12.76H12.954L12.282 10.06C12.154 9.548 12.054 9.12 11.982 8.776C11.91 8.432 11.866 8.208 11.85 8.104C11.834 8.208 11.79 8.432 11.718 8.776C11.646 9.12 11.546 9.544 11.418 10.048L10.746 12.76Z" fill="var(--color-text)" id="icon-262144-text"></path></svg><span>badge<wbr/>Style</span></a>
+<a href="ShieldIOStaticBadge.html#color" class="tsd-index-link tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg><span>color</span></a>
+<a href="ShieldIOStaticBadge.html#imgSrc" class="tsd-index-link tsd-kind-accessor tsd-parent-kind-class tsd-is-protected tsd-is-inherited"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg><span>img<wbr/>Src</span></a>
+<a href="ShieldIOStaticBadge.html#label" class="tsd-index-link tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg><span>label</span></a>
+<a href="ShieldIOStaticBadge.html#labelColor" class="tsd-index-link tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg><span>label<wbr/>Color</span></a>
+<a href="ShieldIOStaticBadge.html#logo" class="tsd-index-link tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg><span>logo</span></a>
+<a href="ShieldIOStaticBadge.html#logoColor" class="tsd-index-link tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg><span>logo<wbr/>Color</span></a>
+<a href="ShieldIOStaticBadge.html#logoWidth" class="tsd-index-link tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg><span>logo<wbr/>Width</span></a>
+<a href="ShieldIOStaticBadge.html#message" class="tsd-index-link tsd-kind-accessor tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg><span>message</span></a>
+<a href="ShieldIOStaticBadge.html#srcParameters" class="tsd-index-link tsd-kind-accessor tsd-parent-kind-class tsd-is-protected tsd-is-inherited"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg><span>src<wbr/>Parameters</span></a>
+<a href="ShieldIOStaticBadge.html#tagName" class="tsd-index-link tsd-kind-accessor tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg><span>tag<wbr/>Name</span></a>
+<a href="ShieldIOStaticBadge.html#baseObservedAttributes" class="tsd-index-link tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg><span>base<wbr/>Observed<wbr/>Attributes</span></a>
+<a href="ShieldIOStaticBadge.html#observedAttributes" class="tsd-index-link tsd-kind-accessor tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg><span>observed<wbr/>Attributes</span></a>
+<a href="ShieldIOStaticBadge.html#tagName-2" class="tsd-index-link tsd-kind-accessor tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg><span>tag<wbr/>Name</span></a>
+</div></section>
+<section class="tsd-index-section">
+<h3 class="tsd-index-heading">Methods</h3>
+<div class="tsd-index-list"><a href="ShieldIOStaticBadge.html#attributeChangedCallback" class="tsd-index-link tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><rect fill="var(--color-icon-background)" stroke="#FF4DB8" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="12" id="icon-2048-path"></rect><path d="M9.162 16V7.24H10.578L11.514 10.072C11.602 10.328 11.674 10.584 11.73 10.84C11.794 11.088 11.842 11.28 11.874 11.416C11.906 11.28 11.954 11.088 12.018 10.84C12.082 10.584 12.154 10.324 12.234 10.06L13.122 7.24H14.538V16H13.482V12.82C13.482 12.468 13.49 12.068 13.506 11.62C13.53 11.172 13.558 10.716 13.59 10.252C13.622 9.78 13.654 9.332 13.686 8.908C13.726 8.476 13.762 8.1 13.794 7.78L12.366 12.16H11.334L9.894 7.78C9.934 8.092 9.97 8.456 10.002 8.872C10.042 9.28 10.078 9.716 10.11 10.18C10.142 10.636 10.166 11.092 10.182 11.548C10.206 12.004 10.218 12.428 10.218 12.82V16H9.162Z" fill="var(--color-text)" id="icon-2048-text"></path></svg><span>attribute<wbr/>Changed<wbr/>Callback</span></a>
+<a href="ShieldIOStaticBadge.html#setSrc" class="tsd-index-link tsd-kind-method tsd-parent-kind-class tsd-is-protected"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>set<wbr/>Src</span></a>
+</div></section></div></details></section></section>
+<section class="tsd-panel-group tsd-member-group">
+<h2>Constructors</h2>
+<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class"><a id="constructor" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>constructor</span><a href="#constructor" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" id="icon-anchor-a"></path><path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" id="icon-anchor-b"></path><path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" id="icon-anchor-c"></path></svg></a></h3>
+<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
+<li class="tsd-signature tsd-anchor-link" id="constructor.new_ShieldIOStaticBadge">new <wbr/>ShieldIOStatic<wbr/>Badge<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="ShieldIOStaticBadge.html" class="tsd-signature-type" data-tsd-kind="Class">ShieldIOStaticBadge</a><a href="#constructor.new_ShieldIOStaticBadge" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Create a new instance of the <a href="ShieldIOStaticBadge.html"><code>ShieldIOStaticBadge</code></a> class.</p>
 </div>
-<footer class="with-border-bottom">
-	<div class="container">
-		<h2>Legend</h2>
-		<div class="tsd-legend-group">
-			<ul class="tsd-legend">
-				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
-				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
-				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
-			</ul>
-			<ul class="tsd-legend">
-				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
-				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
-			</ul>
-			<ul class="tsd-legend">
-				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
-			</ul>
-			<ul class="tsd-legend">
-				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
-			</ul>
-		</div>
-	</div>
-</footer>
+<h4 class="tsd-returns-title">Returns <a href="ShieldIOStaticBadge.html" class="tsd-signature-type" data-tsd-kind="Class">ShieldIOStaticBadge</a></h4><aside class="tsd-sources">
+<p>Overrides ShieldIOBadge.constructor</p>
+<ul>
+<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/01a6393/src/ShieldIOStaticBadge.ts#L18">ShieldIOStaticBadge.ts:18</a></li></ul></aside></li></ul></section></section>
+<section class="tsd-panel-group tsd-member-group">
+<h2>Accessors</h2>
+<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a id="badgeStyle" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>badge<wbr/>Style</span><a href="#badgeStyle" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited">
+<li class="tsd-signature" id="badgeStyle.badgeStyle-1"><span class="tsd-signature-symbol">get</span> badgeStyle<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../enums/BadgeStyle.html" class="tsd-signature-type" data-tsd-kind="Enumeration">BadgeStyle</a></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Gets the style of the badge.</p>
+
+<h3>Default</h3><p><a href="../enums/BadgeStyle.html#Flat"><code>Flat</code></a></p>
+</div>
+<h4 class="tsd-returns-title">Returns <a href="../enums/BadgeStyle.html" class="tsd-signature-type" data-tsd-kind="Enumeration">BadgeStyle</a></h4><aside class="tsd-sources">
+<p>Inherited from ShieldIOBadge.badgeStyle</p>
+<ul>
+<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/01a6393/src/ShieldIOBadge.ts#L201">ShieldIOBadge.ts:201</a></li></ul></aside></li>
+<li class="tsd-signature" id="badgeStyle.badgeStyle-2"><span class="tsd-signature-symbol">set</span> badgeStyle<span class="tsd-signature-symbol">(</span>v<span class="tsd-signature-symbol">: </span><a href="../enums/BadgeStyle.html" class="tsd-signature-type" data-tsd-kind="Enumeration">BadgeStyle</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Sets the style of the badge.</p>
+
+<h3>Default</h3><p><a href="../enums/BadgeStyle.html#Flat"><code>Flat</code></a></p>
+</div>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5>v: <a href="../enums/BadgeStyle.html" class="tsd-signature-type" data-tsd-kind="Enumeration">BadgeStyle</a></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
+<p>Inherited from ShieldIOBadge.badgeStyle</p>
+<ul>
+<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/01a6393/src/ShieldIOBadge.ts#L209">ShieldIOBadge.ts:209</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a id="color" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>color</span><a href="#color" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited">
+<li class="tsd-signature" id="color.color-1"><span class="tsd-signature-symbol">get</span> color<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Gets the color of the right-hand-side background.</p>
+</div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h4><aside class="tsd-sources">
+<p>Inherited from ShieldIOBadge.color</p>
+<ul>
+<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/01a6393/src/ShieldIOBadge.ts#L127">ShieldIOBadge.ts:127</a></li></ul></aside></li>
+<li class="tsd-signature" id="color.color-2"><span class="tsd-signature-symbol">set</span> color<span class="tsd-signature-symbol">(</span>v<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Sets the color of the right-hand-side background.</p>
+</div>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5>v: <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
+<p>Inherited from ShieldIOBadge.color</p>
+<ul>
+<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/01a6393/src/ShieldIOBadge.ts#L133">ShieldIOBadge.ts:133</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class tsd-is-protected tsd-is-inherited"><a id="imgSrc" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagProtected">Protected</code> <span>img<wbr/>Src</span><a href="#imgSrc" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class tsd-is-protected tsd-is-inherited">
+<li class="tsd-signature" id="imgSrc.imgSrc-1"><span class="tsd-signature-symbol">get</span> imgSrc<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Gets the source of the inner HTMLImageElement.</p>
+</div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4><aside class="tsd-sources">
+<p>Inherited from ShieldIOBadge.imgSrc</p>
+<ul>
+<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/01a6393/src/ShieldIOBadge.ts#L77">ShieldIOBadge.ts:77</a></li></ul></aside></li>
+<li class="tsd-signature" id="imgSrc.imgSrc-2"><span class="tsd-signature-symbol">set</span> imgSrc<span class="tsd-signature-symbol">(</span>v<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Sets the source of the inner HTMLImageElement.</p>
+</div>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5>v: <span class="tsd-signature-type">string</span></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
+<p>Inherited from ShieldIOBadge.imgSrc</p>
+<ul>
+<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/01a6393/src/ShieldIOBadge.ts#L83">ShieldIOBadge.ts:83</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a id="label" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>label</span><a href="#label" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited">
+<li class="tsd-signature" id="label.label-1"><span class="tsd-signature-symbol">get</span> label<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Gets the left-hand-side text if overwritten; otherwise null.</p>
+</div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h4><aside class="tsd-sources">
+<p>Inherited from ShieldIOBadge.label</p>
+<ul>
+<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/01a6393/src/ShieldIOBadge.ts#L90">ShieldIOBadge.ts:90</a></li></ul></aside></li>
+<li class="tsd-signature" id="label.label-2"><span class="tsd-signature-symbol">set</span> label<span class="tsd-signature-symbol">(</span>v<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Sets the left-hand-side text. To use default set to null.</p>
+</div>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5>v: <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
+<p>Inherited from ShieldIOBadge.label</p>
+<ul>
+<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/01a6393/src/ShieldIOBadge.ts#L96">ShieldIOBadge.ts:96</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a id="labelColor" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>label<wbr/>Color</span><a href="#labelColor" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited">
+<li class="tsd-signature" id="labelColor.labelColor-1"><span class="tsd-signature-symbol">get</span> labelColor<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Gets the color of the left-hand-side background.</p>
+</div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h4><aside class="tsd-sources">
+<p>Inherited from ShieldIOBadge.labelColor</p>
+<ul>
+<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/01a6393/src/ShieldIOBadge.ts#L161">ShieldIOBadge.ts:161</a></li></ul></aside></li>
+<li class="tsd-signature" id="labelColor.labelColor-2"><span class="tsd-signature-symbol">set</span> labelColor<span class="tsd-signature-symbol">(</span>v<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Sets the color of the left-hand-side background.</p>
+</div>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5>v: <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
+<p>Inherited from ShieldIOBadge.labelColor</p>
+<ul>
+<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/01a6393/src/ShieldIOBadge.ts#L167">ShieldIOBadge.ts:167</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a id="logo" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>logo</span><a href="#logo" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited">
+<li class="tsd-signature" id="logo.logo-1"><span class="tsd-signature-symbol">get</span> logo<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../enums/SimpleIcons.html" class="tsd-signature-type" data-tsd-kind="Enumeration">SimpleIcons</a></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Gets the logo to use.</p>
+</div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../enums/SimpleIcons.html" class="tsd-signature-type" data-tsd-kind="Enumeration">SimpleIcons</a></h4><aside class="tsd-sources">
+<p>Inherited from ShieldIOBadge.logo</p>
+<ul>
+<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/01a6393/src/ShieldIOBadge.ts#L109">ShieldIOBadge.ts:109</a></li></ul></aside></li>
+<li class="tsd-signature" id="logo.logo-2"><span class="tsd-signature-symbol">set</span> logo<span class="tsd-signature-symbol">(</span>v<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../enums/SimpleIcons.html" class="tsd-signature-type" data-tsd-kind="Enumeration">SimpleIcons</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Sets the logo to use.</p>
+</div>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5>v: <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../enums/SimpleIcons.html" class="tsd-signature-type" data-tsd-kind="Enumeration">SimpleIcons</a></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
+<p>Inherited from ShieldIOBadge.logo</p>
+<ul>
+<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/01a6393/src/ShieldIOBadge.ts#L116">ShieldIOBadge.ts:116</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a id="logoColor" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>logo<wbr/>Color</span><a href="#logoColor" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited">
+<li class="tsd-signature" id="logoColor.logoColor-1"><span class="tsd-signature-symbol">get</span> logoColor<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Gets the color of the logo.</p>
+</div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h4><aside class="tsd-sources">
+<p>Inherited from ShieldIOBadge.logoColor</p>
+<ul>
+<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/01a6393/src/ShieldIOBadge.ts#L144">ShieldIOBadge.ts:144</a></li></ul></aside></li>
+<li class="tsd-signature" id="logoColor.logoColor-2"><span class="tsd-signature-symbol">set</span> logoColor<span class="tsd-signature-symbol">(</span>v<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Sets the color of the logo.</p>
+</div>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5>v: <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
+<p>Inherited from ShieldIOBadge.logoColor</p>
+<ul>
+<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/01a6393/src/ShieldIOBadge.ts#L150">ShieldIOBadge.ts:150</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a id="logoWidth" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>logo<wbr/>Width</span><a href="#logoWidth" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited">
+<li class="tsd-signature" id="logoWidth.logoWidth-1"><span class="tsd-signature-symbol">get</span> logoWidth<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Gets the horizontal space for the logo.</p>
+</div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></h4><aside class="tsd-sources">
+<p>Inherited from ShieldIOBadge.logoWidth</p>
+<ul>
+<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/01a6393/src/ShieldIOBadge.ts#L178">ShieldIOBadge.ts:178</a></li></ul></aside></li>
+<li class="tsd-signature" id="logoWidth.logoWidth-2"><span class="tsd-signature-symbol">set</span> logoWidth<span class="tsd-signature-symbol">(</span>v<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Sets the horizontal space for the logo.</p>
+</div>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5>v: <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
+<p>Inherited from ShieldIOBadge.logoWidth</p>
+<ul>
+<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/01a6393/src/ShieldIOBadge.ts#L188">ShieldIOBadge.ts:188</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class"><a id="message" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>message</span><a href="#message" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
+<li class="tsd-signature" id="message.message-1"><span class="tsd-signature-symbol">get</span> message<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Gets the right-hand-side text.</p>
+</div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h4><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/01a6393/src/ShieldIOStaticBadge.ts#L41">ShieldIOStaticBadge.ts:41</a></li></ul></aside></li>
+<li class="tsd-signature" id="message.message-2"><span class="tsd-signature-symbol">set</span> message<span class="tsd-signature-symbol">(</span>v<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Sets the right-hand-side text.</p>
+</div>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5>v: <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/01a6393/src/ShieldIOStaticBadge.ts#L47">ShieldIOStaticBadge.ts:47</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class tsd-is-protected tsd-is-inherited"><a id="srcParameters" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagProtected">Protected</code> <span>src<wbr/>Parameters</span><a href="#srcParameters" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class tsd-is-protected tsd-is-inherited">
+<li class="tsd-signature" id="srcParameters.srcParameters-1"><span class="tsd-signature-symbol">get</span> srcParameters<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Gets the parameters common to all Shield IO badge URLs.</p>
+</div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></h4><aside class="tsd-sources">
+<p>Inherited from ShieldIOBadge.srcParameters</p>
+<ul>
+<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/01a6393/src/ShieldIOBadge.ts#L46">ShieldIOBadge.ts:46</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class"><a id="tagName" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>tag<wbr/>Name</span><a href="#tagName" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
+<li class="tsd-signature" id="tagName.tagName-1"><span class="tsd-signature-symbol">get</span> tagName<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+<li class="tsd-description">
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4><aside class="tsd-sources">
+<p>Overrides ShieldIOBadge.tagName</p>
+<ul>
+<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/01a6393/src/ShieldIOStaticBadge.ts#L55">ShieldIOStaticBadge.ts:55</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a id="baseObservedAttributes" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagStatic">Static</code> <span>base<wbr/>Observed<wbr/>Attributes</span><a href="#baseObservedAttributes" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited">
+<li class="tsd-signature" id="baseObservedAttributes.baseObservedAttributes-1"><span class="tsd-signature-symbol">get</span> baseObservedAttributes<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Gets the observable attributes common to all Shield IO badges.</p>
+</div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></h4><aside class="tsd-sources">
+<p>Inherited from ShieldIOBadge.baseObservedAttributes</p>
+<ul>
+<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/01a6393/src/ShieldIOBadge.ts#L39">ShieldIOBadge.ts:39</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class"><a id="observedAttributes" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagStatic">Static</code> <span>observed<wbr/>Attributes</span><a href="#observedAttributes" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
+<li class="tsd-signature" id="observedAttributes.observedAttributes-1"><span class="tsd-signature-symbol">get</span> observedAttributes<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Gets the attributes that should trigger a call to <a href="ShieldIOStaticBadge.html#attributeChangedCallback"><code>attributeChangedCallback</code></a></p>
+</div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></h4><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/01a6393/src/ShieldIOStaticBadge.ts#L34">ShieldIOStaticBadge.ts:34</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class"><a id="tagName-2" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagStatic">Static</code> <span>tag<wbr/>Name</span><a href="#tagName-2" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
+<li class="tsd-signature" id="tagName-2.tagName-3"><span class="tsd-signature-symbol">get</span> tagName<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+<li class="tsd-description">
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/01a6393/src/ShieldIOStaticBadge.ts#L59">ShieldIOStaticBadge.ts:59</a></li></ul></aside></li></ul></section></section>
+<section class="tsd-panel-group tsd-member-group">
+<h2>Methods</h2>
+<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a id="attributeChangedCallback" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>attribute<wbr/>Changed<wbr/>Callback</span><a href="#attributeChangedCallback" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+<li class="tsd-signature tsd-anchor-link" id="attributeChangedCallback.attributeChangedCallback-1">attribute<wbr/>Changed<wbr/>Callback<span class="tsd-signature-symbol">(</span>_<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, __<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, ___<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><a href="#attributeChangedCallback.attributeChangedCallback-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography">
+<h3>Inherit Doc</h3></div>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5>_: <span class="tsd-signature-type">string</span></h5></li>
+<li>
+<h5>__: <span class="tsd-signature-type">string</span></h5></li>
+<li>
+<h5>___: <span class="tsd-signature-type">string</span></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
+<p>Inherited from ShieldIOBadge.attributeChangedCallback</p>
+<ul>
+<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/01a6393/src/ShieldIOBadge.ts#L32">ShieldIOBadge.ts:32</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a id="setSrc" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagProtected">Protected</code> <span>set<wbr/>Src</span><a href="#setSrc" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+<li class="tsd-signature tsd-anchor-link" id="setSrc.setSrc-1">set<wbr/>Src<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><a href="#setSrc.setSrc-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography">
+<h3>Inherit Doc</h3></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
+<p>Overrides ShieldIOBadge.setSrc</p>
+<ul>
+<li>Defined in <a href="https://github.com/shmuelie/shieldsio-elements/blob/01a6393/src/ShieldIOStaticBadge.ts#L23">ShieldIOStaticBadge.ts:23</a></li></ul></aside></li></ul></section></section></div>
+<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+<div class="tsd-navigation settings">
+<details class="tsd-index-accordion"><summary class="tsd-accordion-summary">
+<h3><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4.93896 8.531L12 15.591L19.061 8.531L16.939 6.409L12 11.349L7.06098 6.409L4.93896 8.531Z" fill="var(--color-text)"></path></svg> Settings</h3></summary>
+<div class="tsd-accordion-details">
+<div class="tsd-filter-visibility">
+<h4 class="uppercase">Member Visibility</h4><form>
+<ul id="tsd-filter-options">
+<li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-protected" name="protected"/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>Protected</span></label></li>
+<li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-inherited" name="inherited" checked/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>Inherited</span></label></li></ul></form></div>
+<div class="tsd-theme-toggle">
+<h4 class="uppercase">Theme</h4><select id="theme"><option value="os">OS</option><option value="light">Light</option><option value="dark">Dark</option></select></div></div></details></div>
+<nav class="tsd-navigation primary">
+<details class="tsd-index-accordion" open><summary class="tsd-accordion-summary">
+<h3><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4.93896 8.531L12 15.591L19.061 8.531L16.939 6.409L12 11.349L7.06098 6.409L4.93896 8.531Z" fill="var(--color-text)"></path></svg> Modules</h3></summary>
+<div class="tsd-accordion-details">
+<ul>
+<li><a href="../modules.html">shieldsio-<wbr/>elements</a>
+<ul></ul></li></ul></div></details></nav>
+<nav class="tsd-navigation secondary menu-sticky">
+<ul>
+<li class="current tsd-kind-class"><a href="ShieldIOStaticBadge.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><rect fill="var(--color-icon-background)" stroke="var(--color-ts-class)" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="6" id="icon-128-path"></rect><path d="M11.898 16.1201C11.098 16.1201 10.466 15.8961 10.002 15.4481C9.53803 15.0001 9.30603 14.3841 9.30603 13.6001V9.64012C9.30603 8.85612 9.53803 8.24012 10.002 7.79212C10.466 7.34412 11.098 7.12012 11.898 7.12012C12.682 7.12012 13.306 7.34812 13.77 7.80412C14.234 8.25212 14.466 8.86412 14.466 9.64012H13.386C13.386 9.14412 13.254 8.76412 12.99 8.50012C12.734 8.22812 12.37 8.09212 11.898 8.09212C11.426 8.09212 11.054 8.22412 10.782 8.48812C10.518 8.75212 10.386 9.13212 10.386 9.62812V13.6001C10.386 14.0961 10.518 14.4801 10.782 14.7521C11.054 15.0161 11.426 15.1481 11.898 15.1481C12.37 15.1481 12.734 15.0161 12.99 14.7521C13.254 14.4801 13.386 14.0961 13.386 13.6001H14.466C14.466 14.3761 14.234 14.9921 13.77 15.4481C13.306 15.8961 12.682 16.1201 11.898 16.1201Z" fill="var(--color-text)" id="icon-128-text"></path></svg><span>ShieldIOStatic<wbr/>Badge</span></a>
+<ul>
+<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="ShieldIOStaticBadge.html#constructor" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-512-path"></use><use href="#icon-512-text"></use></svg>constructor</a></li>
+<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a href="ShieldIOStaticBadge.html#badgeStyle" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg>badge<wbr/>Style</a></li>
+<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a href="ShieldIOStaticBadge.html#color" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg>color</a></li>
+<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected tsd-is-inherited"><a href="ShieldIOStaticBadge.html#imgSrc" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg>img<wbr/>Src</a></li>
+<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a href="ShieldIOStaticBadge.html#label" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg>label</a></li>
+<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a href="ShieldIOStaticBadge.html#labelColor" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg>label<wbr/>Color</a></li>
+<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a href="ShieldIOStaticBadge.html#logo" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg>logo</a></li>
+<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a href="ShieldIOStaticBadge.html#logoColor" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg>logo<wbr/>Color</a></li>
+<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a href="ShieldIOStaticBadge.html#logoWidth" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg>logo<wbr/>Width</a></li>
+<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="ShieldIOStaticBadge.html#message" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg>message</a></li>
+<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected tsd-is-inherited"><a href="ShieldIOStaticBadge.html#srcParameters" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg>src<wbr/>Parameters</a></li>
+<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="ShieldIOStaticBadge.html#tagName" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg>tag<wbr/>Name</a></li>
+<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a href="ShieldIOStaticBadge.html#baseObservedAttributes" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg>base<wbr/>Observed<wbr/>Attributes</a></li>
+<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="ShieldIOStaticBadge.html#observedAttributes" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg>observed<wbr/>Attributes</a></li>
+<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="ShieldIOStaticBadge.html#tagName-2" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-262144-path"></use><use href="#icon-262144-text"></use></svg>tag<wbr/>Name</a></li>
+<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ShieldIOStaticBadge.html#attributeChangedCallback" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>attribute<wbr/>Changed<wbr/>Callback</a></li>
+<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="ShieldIOStaticBadge.html#setSrc" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>set<wbr/>Src</a></li></ul></li></ul></nav></div></div>
 <div class="container tsd-generator">
-	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
-</div>
-<div class="overlay"></div>
-<script src="../assets/js/main.js"></script>
-</body>
-</html>
+<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p></div>
+<div class="overlay"></div><script src="../assets/main.js"></script></body></html>
